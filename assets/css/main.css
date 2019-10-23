@@ -2,9 +2,9 @@
 
 * { box-sizing: border-box; }
 html {
-    color: #222;
+    color: #444;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.5;
   font-family: 'Inter', sans-serif;
   font-family: 'Ecole', sans-serif;
 }
@@ -133,6 +133,14 @@ main h3 + p,
 main h4 + p { margin-top: 0}
 
 section ul { margin-bottom: 2em}
+
+table {
+    border: none;
+    border-collapse: collapse;
+    margin-bottom:  .5em
+}
+td, th { padding-right: .5em; text-align: left; }
+
 
 p,
 blockquote, ol, ul { max-width: 650px}

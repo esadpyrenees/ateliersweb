@@ -7,13 +7,14 @@
     $subsection="html";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-    // include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/html.php");
+    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/html.php");
   ?>
 
   <main class="pane active" id="content">
     <h1>HTML</h1>
     <p>
-        Le langage HTML sert à structurer le contenu d’un document pour le rendre accessible sur le web. Au delà du texte, il permet d’intégrer à une page web des médias : image, audio et vidéo.
+        Le langage HTML sert à structurer le contenu d’un document pour le rendre accessible sur le web.
+        Au delà du texte, il permet d’intégrer des médias à une page web : image, audio et vidéo.
     </p>
 
     <section class="section" id="introduction">
@@ -28,7 +29,7 @@
         <?= $Parsedown->text( file_get_contents('./2.browsers.md') ); ?>
     </section>
 
-    
+
 
 
 

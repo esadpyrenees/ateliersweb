@@ -28,7 +28,7 @@
         <li><button class="mixitup-control-active" href="#" data-filter="all">Tout</button></li>
         <li><button href="#" data-filter=".layout">Mise en page</button></li>
         <li><button href="#" data-filter=".random">Aléatoire</button></li>
-        <li><button href="#" data-filter=".audio,.video">Audio et vidéo</button></li>
+        <li><button href="#" data-filter=".audio,.video">Audio/vidéo</button></li>
         <li><button href="#" data-filter=".flex">Flex</button></li>
         <li><button href="#" data-filter=".grid">Grid</button></li>
         <li><button href="#" data-filter=".js">Javascript</button></li>
@@ -54,11 +54,12 @@
         <li class="<?php echo $subsection == 'editeurs' ? 'opened' : '' ?>"><a href="/web/pages/outils/#editeurs">Éditeurs</a></li>
         <li class="<?php echo $subsection == 'servers' ? 'opened' : '' ?>"><a href="/web/pages/outils/#servers">Serveurs</a></li>
         <li class="<?php echo $subsection == 'cms' ? 'opened' : '' ?>"><a href="/web/pages/outils/#cms">CMS</a></li>
-        
+
     </ul>
 </nav>
 <nav class="pane subnav <?php echo $section == 'projets' ? 'active' : '' ?>"  id="projets">
     <ul>
+        <li class="<?php echo $subsection == 'htsh' ? 'opened' : '' ?>"><a href="/web/pages/projets/htsh/">Hypertext superhero</a></li>
         <li class="<?php echo $subsection == 'htsh' ? 'opened' : '' ?>"><a href="/web/pages/projets/htsh/">Hypertext superhero</a></li>
     </ul>
 </nav>
