@@ -1,5 +1,6 @@
 <?php
     include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
+    include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php');
     $Parsedown = new Parsedown();
 
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";

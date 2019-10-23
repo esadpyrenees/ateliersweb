@@ -169,6 +169,15 @@ p code {
     100%{ color: MediumBlue; }
 }
 
+.blink{
+    animation: 1000ms linear alternate infinite blink;
+}
+@keyframes blink {
+    0%{ color: inherit; }
+    80%{ color: inherit; }
+    100%{ color: red; }
+}
+
 .clearfix:after {
   content:"";
   display:table;

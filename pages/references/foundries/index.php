@@ -1,15 +1,15 @@
-  <?php 
+  <?php
     $title = "ÉSAD·Pyrénées — Ateliers web — Références";
     $section="references";
     $subsection="foundries";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-  ?> 
+  ?>
 
   <main class="pane active" id="content">
     <h1>Fonderies numériques</h1>
     <section class="section">
-            
+
 
 
             <h2 class="section-subtitle">Libre et open-source</h2>
@@ -23,18 +23,22 @@
                 <li><a href="http://openfontlibrary.org/">Open Font Library</a></li>
                 <li><a href="http://www.theleagueofmoveabletype.com/">The League of Moveable Type</a></li>
                 <li><a href="http://www.omnibus-type.com/">Omnibus Type</a></li>
+                <li><a href="https://open-foundry.com/"> Open Foundry</a></li>
             </ul>
 
             <p>
-                Raphaël Bastide a initié et développé un outil (libre) pour lister et sélectionner des fontes numériques. 
-                Il contient une liste importante de polices libres ou open source :
+                Raphaël Bastide a initié et développé un outil (libre) pour lister et sélectionner des fontes numériques.
+                Il contient une liste importante de polices libres ou open source :
                 <a href="http://usemodify.com/">use &amp; modify</a>.
             </p>
             <p>
-                Google est également devenu un distributeur de fontes ayant à son catalogue de nombreuses polices de qualité (pas toutes…) : <a href="http://www.google.com/webfonts">Google Web Fonts</a>. On peut y trouver Work Sans, Montserrat, Karla, Chivo, Archivo Narrow, Lato, Source Sans Pro et Source Serif Pro, Playfair Display, Alegreya et Alegreya Sans, Neuton et des tas d’autres.
+                Raphaël Bastide maintient également une liste de fonderies libres : <a href="https://gitlab.com/raphaelbastide/libre-foundries">gitlab.com/raphaelbastide/libre-foundries</a>
+            </p>
+            <p>
+                Google est également devenu un distributeur de fontes ayant à son catalogue de nombreuses polices de qualité (pas toutes…) : <a href="http://www.google.com/webfonts">Google Web Fonts</a>. <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est <em>vraiment</em> gratuit. Google se sert en effet des liens d’intégration des fontes comme de <i>trackers</i> lui permettant d’accumuler des données sur les visiteurs de votre page web</span>.
             </p>
             <p><a href="http://www.fontsquirrel.com/">Font Squirrel</a> propose de nombreuses polices libres et/ou gratuites et dispose d’un excellent générateur de <a href="http://www.fontsquirrel.com/fontface/generator">«&nbsp;packs&nbsp;» @font-face</a>.</p>
-            
+
 
             <h2 class="section-subtitle">Services et fonderies commerciales</h2>
             <p>
@@ -42,15 +46,15 @@
                 La plupart des sites spécialisés offrent la mise à disposition de webfonts contre un abonnement annuel ; c’est le cas des gros diffuseurs cités ci-dessous.
                 Ils ne doivent cependant pas éclipser la multiplicité des possibilités offertes par les diffuseurs et fonderies indépendantes.
             </p>
-            <h4>Diffuseurs</h4>
+            <h4>Gros diffuseurs</h4>
             <ul>
-                <li><a href="http://fontdeck.com/">Fontdeck</a></li>
                 <li><a href="http://typekit.com/">Typekit</a></li>
                 <li><a href="http://fonts.com">Monotype</a></li>
                 <li><a href="http://myfonts.com">Myfonts</a></li>
                 <li><a href="http://fontshop.com">Fontshop</a></li>
+                <li><a href="https://www.typography.com/">Hoefler &amp; co.</a></li>
             </ul>
-            <h4>Quelques indépendants</h4>
+            <h4>Quelques indépendants à connaître</h4>
             <ul>
                 <li><a href="http://vllg.com/" title="">Village</a></li>
                 <li><a href="http://www.binnenland.ch">Binnenland</a></li>
@@ -62,27 +66,23 @@
                 <li><a href="http://lineto.com">Lineto</a></li>
                 <li><a href="http://www.optimo.ch">Optimo</a></li>
                 <li><a href="http://ourtype.be">Ourtype</a></li>
-                <li><a href="https://playtype.com/">Playtype            </a></li>
-                <li><a href="http://processtypefoundry.com">Process Type Foundry</a></li>
+                <li><a href="https://playtype.com/">Playtype</a></li>
                 <li><a href="http://smeltery.net">Smeltery</a></li>
                 <li><a href="http://suitcasetype.com">Suitcase Type</a></li>
-                <li><a href="http://www.typedifferent.com">Büro Destruct            </a></li>
-                <li><a href="http://www.typesupply.com">Typesupply          </a></li>
                 <li><a href="http://www.typotheque.com">Typotheque</a></li>
                 <li><a href="http://www.underware.nl">Underware            </a></li>
-                <li><a href="http://www.volcano-type.de">Volcano Type         </a></li>
-                <li><a href="http://www.youworkforthem.com">You Work For Them          </a></li>
+                <li><a href="https://www.grillitype.com/">Grilli         </a></li>
+                <li><a href="https://www.productiontype.com/">Production Type </a></li>
             </ul>
 
-                <h2 class="section-subtitle">Blogs et ressources</h2>
-                <ul>
-                    <li><a href="http://ilovetypography.com/" title="">I love typography</a></li>
-                    <li><a href="http://www.typewolf.com/" title="">Typewolf</a></li>
-                    <li><a href="http://ministryoftype.co.uk/">Ministry Of Type</a></li>
-                    <li><a href="http://typographica.org/">Typographica</a></li>
-                    <li><a href="http://fontfeed.com/">Fontfeed</a></li>
-                    <li><a href="http://www.typophile.com/">Typophile</a> (forum)</li>
-                </ul>
+            <h2 class="section-subtitle">Blogs et ressources</h2>
+            <ul>
+                <li><a href="http://ilovetypography.com/" title="">I love typography</a></li>
+                <li><a href="http://fontreviewjournal.com/">Font Review Journal</a> </li>
+                <li><a href="http://www.typewolf.com/" title="">Typewolf</a>, notamment <a href="https://www.typewolf.com/resources">typewolf.com/resources</a>   </li>
+                <li><a href="http://ministryoftype.co.uk/">Ministry Of Type</a> (almost dead)</li>
+                <li><a href="http://typographica.org/">Typographica</a> (almost dead)</li>
+            </ul>
 
 
 
@@ -91,8 +91,6 @@
 
     </main>
 
-  <?php 
+  <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
-
-  
+  ?>

@@ -7,4 +7,4 @@ RewriteRule ^archives/(.*)/  /web/pages/archives/index.php?params=$1 [L]
 RewriteRule ^archives/$  /web/pages/archives/index.php [L]
 
 RewriteRule ^$  /web/pages/home.php [L]
-
+RewriteRule ^pages/$  /web/pages/home.php [L]

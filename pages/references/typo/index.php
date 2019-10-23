@@ -1,10 +1,10 @@
-  <?php 
+  <?php
     $title = "ÉSAD·Pyrénées — Ateliers web — Références";
     $section="references";
     $subsection="typo";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-  ?> 
+  ?>
 
   <main class="pane active" id="content">
     <h1>Typographie</h1>
@@ -14,11 +14,12 @@
 
             <p><i>
                 A <a href="https://github.com/Jolg42/awesome-typography">Curated list about digital typography.</a></i> ; de nombreux outils, ressources et références pour tout ce qui touche à la manipulation numérique de la typographie.
+                Attention, ça pique un peu les yeux.
             </p>
 
             <h2 class="section-subtitle">Typographie à l’écran</h2>
-            
-          
+
+
             <h3>Fondamentaux</h3>
             <h4><a href="http://webtypography.net/">The Elements of Typographic Style Applied to the Web</a></h4>
             <p>Publié en 2005 par Richard Rutter, ce site offre une lecture accélérée du classique de Robert Bringhurst,<em> The Elements of Typographic Style</em> (1992, Hartley &amp; Marks), et décrit les solutions techniques envisageables en CSS – à l’époque… – pour satisfaire les principes énoncés dans le livre.</p>
@@ -43,7 +44,7 @@
             </p>
 
             <h3>Pratique</h3>
-            
+
             <p>
                 <a href="https://practicaltypography.com/">Practical Typography</a> est un livre web en anglais écrit par l’avocat Matthew Butterick, abordant l’ensemble des aspects de la typographie par la pratique.
             </p>
@@ -53,7 +54,7 @@
             <p>
                 <a href="https://betterwebtype.com/triangle">The Equilateral Triangle of a Perfect Paragraph</a> est un autre jeu typographique en ligne permettant d’expérimenter les relations entre interligne, corps de caractère et largeur du paragraphe.
             </p>
-            
+
             <h3>Réflexions et articles sur la typographie pour le web</h3>
             <h4><a href="https://prowebtype.com/ ">Professional Web Typography</a></h4>
             <p>Par Donny Truong</p>
@@ -65,7 +66,7 @@
             <p>Site francophone qui propose de bons articles, fouillés, voire très fouillés (lire le très bon <a href="http://typographisme.net/post/La-typographie-asym%C3%A9trique-de-Jan-Tschichold-%5B2%5D"><em>la typographie asymétrique de Jan Tschichold</em></a>), sur la typographie au sens large et ses applications au web.</p>
             <h4><a href="http://www.informationarchitects.jp/en/the-web-is-all-about-typography-period/">Web Design is 95% Typography</a> + <a href="http://www.informationarchitects.jp/en/100e2r/">The 100% Easy-2-Read Standard</a></h4>
             <p>Deux articles issus du blog de informationarchitects, studio helvetico-nippon (ça se dit&nbsp;?). L’un sur le caractère fondamental de la dimension typographique du webdesign, l’autre sur quelques règles simples et importantes autour de la lisibilité (questionnables du point de vue d’un designer qui ne serait pas seulement un webdesigner).</p>
-            
+
             <h3>Techniques et ressources</h3>
             <h4><a href="http://reference.sitepoint.com/css/typography">CSS&nbsp;: propriétés typographiques </a></h4>
             <p>Sur sitepoint.com, la références des propriétés typographiques CSS.</p>
@@ -78,15 +79,13 @@
             <h4>Fournisseurs de polices de caractères @font-face</h4>
             <p><a href="http://fontdeck.com/">Fontdeck</a>, <a href="http://typekit.com/">Typekit</a>, <a href="http://www.google.com/webfonts/">Google</a>, <a href="http://webfonts.fonts.com">Linotype</a>… les ditributeurs de fontes pour le web sont nombreux. Pour les comparer, faire un tour chez <a href="http://www.smashingmagazine.com/2010/10/20/review-of-popular-web-font-embedding-services/">Smashing Magazine</a>.</p>
             <p><span>Font Squirrel propose de nombreuses polices libres et/ou gratuites et dispose surtout d’un excellent générateur de <a href="http://www.fontsquirrel.com/fontface/generator">«&nbsp;packs&nbsp;» @font-face</a>.</span></p>
-                                
-                    
+
+
 
         </section>
 
     </main>
 
-  <?php 
+  <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
-
-  
+  ?>

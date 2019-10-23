@@ -33,7 +33,7 @@ Bien que tout périphérique connecté à Internet puisse être à la fois clien
 
 ## Adresse IP
 
-Comme chaque maison a une adresse postale spécifique et unique, chaque ordinateur connecté à Internet se voit attribuer une adresse IP, afin d’être identifié sur le réseau.
+Comme chaque maison a une adresse postale spécifique et unique, chaque ordinateur connecté à Internet se voit attribuer une adresse IP (Internet Protocol; inventé en 1973 par Vint Cerf), afin d’être identifié sur le réseau.
 
 Une adresse IP ressemble généralement à une combinaison de 4 chiffres: `91.198.174.192` (dans la version 4 du protocole IP, IPV4) ou de chiffres et de lettres dans la version 6 : `2001:0db8:0000:85a3:0000:0000:ac1f:8001` (notation hexadécimale rendue nécessaire par l’accroissement exponentiel des besoins en adresses IP de l’[internet des objets](https://fr.wikipedia.org/wiki/Internet_des_objets))
 
