@@ -1,0 +1,17 @@
+
+body, h1 { font-size: 16px; font-family: sans-serif; margin: 20px}
+header { margin: 20px}
+h1 { font-size: 16px; font-weight: normal;}
+h1, #filtres, #filtres ul, #filtres li { display: inline; margin: 0; padding:0 }
+
+h1:after, #filtres ul:after { content: " — "}
+a { color:black; text-decoration: none}
+a.selected { border-bottom: 2px solid black}
+
+
+#images { margin-top : 20px; padding: 0}
+#images li { width: 200px; display: block; float: left; margin: 20px}
+img { max-width: 100%}
+
+
+

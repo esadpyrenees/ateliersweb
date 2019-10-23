@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+        html,
+        body{
+            margin:0;
+            height:100%;
+        }
+        #tableau{
+            height:100%
+        }
+        #tableau img {
+          height:100%;
+          width:100%;
+          object-fit:cover;
+          position:absolute;
+        }
+
+        .question{
+            display:none
+        }
+        .question:first-child{
+            display:block
+        }
+        #questions{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+            color:white;
+            width:30%;
+            background:rgba(0,0,0,.6);
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="tableau">
+        <img src="img/base.jpg">
+    </div>
+
+    <div id="questions">
+        
+        <div class="question" id="question1">
+            <h2>Quel temps fait-il?</h2>
+            <p>
+                <button data-image="img/sun.png">il fait beau</button>
+                <button data-image="img/clouds.png">il pleut</button>
+            </p>
+        </div>
+
+        <div class="question" id="question2">
+            <h2>Combien de personnes inviter ?</h2>
+            <p>
+                <button data-image="img/trois.png">Trois</button>
+                <button data-image="img/quatre.png">Quatre </button>
+            </p>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+    var boutons = document.querySelectorAll('button');
+
+    boutons.forEach( function(element, index) {
+
+        element.addEventListener('click', function(){
+            //on crée une image
+            var image = document.createElement('img');
+            // à qui on donne comme attribut src
+            // le nom d’un fichier
+            image.src = this.getAttribute('data-image');
+            document.querySelector('#tableau').appendChild(image);
+
+            // on supprime la question
+            var question = this.closest('.question');
+            question.parentElement.removeChild(question);
+        });
+    });
+    
+
+    </script>
+</body>
+</html>

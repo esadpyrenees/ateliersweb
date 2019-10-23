@@ -1,0 +1,14 @@
+.dot   {
+  cursor:crosshair;
+  font-size:.75em;
+  width:1em;
+  height:1em;
+  overflow: hidden;
+  text-align:center;
+  float:left;
+}
+span {
+  display: block;
+  width:1em;
+  height:1em;  
+}

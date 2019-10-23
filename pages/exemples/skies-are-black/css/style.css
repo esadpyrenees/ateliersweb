@@ -1,0 +1,103 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    --bigfontsize: 7vw;
+    background: #eee;
+}
+
+#bg1 {
+    width: 0%;
+    background: #555;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    animation: openupbg1 500ms ease-out forwards;
+}
+
+#bg2{
+    width: 0%;
+    background: pink url("http://ateliers.esapyrenees.fr/_inc/img/750/1.jpg");
+    background-size: cover;
+    height: 80%;
+    position: fixed;  
+    top: 10%;
+    animation: openupbg2 500ms ease-out 300ms forwards;
+}
+
+@keyframes openupbg1 {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+@keyframes openupbg2 {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+
+#logo {
+    position: fixed;
+    top: calc(50% - var(--bigfontsize) / 2);
+    left: 35%;
+    font: bold var(--bigfontsize) sans-serif;
+
+}
+#line {
+    top: 50%;
+    border-top: 1px solid black;
+    width: 100%;
+    position: fixed;
+}
+section {
+    opacity: 0;
+    margin: 300px 20px 0 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    animation: sectionanim 0ms ease-out 800ms forwards;
+}
+@keyframes sectionanim {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.item {
+    width: calc(50% - 20px);
+    background: red;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.item:nth-child(2n){
+    margin-top: 150px;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.item div {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 1em;
+    opacity: .5;
+    transition: all 250ms;
+    
+}
+.item:hover div {
+    top: 0;
+    opacity: 1;
+}
+
+#page h2 {
+    font-size: var(--bigfontsize)
+}
+
+
+
+
+
+
+
+

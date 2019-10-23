@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Affiche</title>
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="screen">
+
+    <!-- feuilles de style : -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fonts.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+</head>
+<body>
+
+    <p class="details">
+        Affiches A3 html2print, à visualiser et exporter en pdf depuis Google Chrome
+    </p>
+
+    <div class="page">
+        <div class="poster" id="poster1">
+            <h1>
+                <span>Pre</span>
+                <span>Post</span>
+                <span>Print</span>
+            </h1>
+            <div class="infos">
+                Introduction<br>
+                <i>html2print</i><br>
+                ÉSAD·Pyrénées<br>
+                —<br>
+                08·03·2019
+            </div>
+            <div class="colophon">
+                Murmure: Jérémy Landes + Compagnon: Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page">
+        <div class="poster" id="poster2">
+             <h1>
+                <span>Play</span>
+                <span>Now </span>
+            </h1>
+            <div class="infos">
+                Introduction<br>
+                <i>html2print</i><br>
+                ÉSAD·Pyrénées<br>
+                —<br>
+                08·03·2019
+            </div>
+            <div class="colophon">
+                Murmure: Jérémy Landes + Compagnon: Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier 
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="poster" id="poster3">
+            <div class="img">
+                <img src="img/27540624_1524841610956083_4455757785655712831_n.jpg">
+            </div>
+            <h1>
+                <span>Wrek&shy;meister</span>
+                <span>Harmonies</span>
+            </h1>
+            <h2>18<br>02<br><span>19</span></h2>
+            <div class="infos">
+                Ouverture des portes > 20h30<br>
+                Start > 21h00<br>
+                PAF - 8€ + 5€ d’adhésion<br>
+                La Ferronnerie - 10 rue de l'Artisanat - 64110 Jurançon
+            </div>
+            <div class="colophon">
+                Trickster: Jean-Baptiste Morizot
+            </div>
+            <div class="logo">
+                <img src="img/logo.svg">
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="poster" id="poster4">
+            <div class="img">
+                <img src="img/dragon.png">
+            </div>
+            <h1>
+                <span>Dik</span><span>Dik</span><br>
+                <span>Dragon</span>
+            </h1>
+            <h2><span>09</span><br><span>02</span><br><span>19</span></h2>
+            <div class="infos">
+                Ouverture des portes > 20h30<br>
+                Start > 21h00<br>
+                PAF - 8€ + 5€ d’adhésion<br>
+                La Ferronnerie - 10 rue de l'Artisanat - 64110 Jurançon
+            </div>
+            <div class="colophon">
+                Cooper Hewitt, Chester Jenkins
+            </div>
+            <div class="logo">
+                <img src="img/logo.svg">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var spans = document.querySelectorAll('#poster4 span');
+    for (var i = 0; i < spans.length; i++) {
+        var span = spans[i],
+            text = span.textContent.split("");
+            console.log(text)
+        span.textContent = "";
+        for (var j = 0; j < text.length; j++) {
+            var em = document.createElement('em');
+            em.textContent = text[j];
+            var rotate = Math.round( Math.random() * 10) - 5;
+            em.style.transform = "rotate(" + rotate + "deg)";
+            span.appendChild(em);
+        }
+
+    }
+    </script>
+
+    <div class="page" id="luuse">
+        <div class="poster poster5">
+            <div class="scale">
+                <div class="conf">Conf<span>é</span>rence</div>
+                <div class="marianne">Marianne </div>
+                <div class="plano">Plano</div>
+                <div class="collectif">Collectif</div>
+                <div class="luuse">Luuse</div>
+                <div class="url">.io</div>
+                <div class="date">Mardi 12 mars 2019</div>
+                <div class="hours">18 h 00 – 19 h 30</div>
+                <div class="location"><span>É</span>SAD·Pyr<span>é</span>n<span>é</span>es</div>
+                </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+    function rand(){
+        return Math.floor( Math.random() * 255);
+    }
+
+    var luuse = document.querySelector('#luuse');
+    
+    for (var j = 0; j < 20; j++) {
+        var p = luuse.cloneNode(true);
+        document.body.appendChild(p);
+        var divs = p.querySelectorAll('div');
+        var seed = Math.random();
+        var tint = seed < .333 ? 'r' : seed < .666 ? 'g' : 'b';
+
+        for (var i = 0; i < divs.length; i++) {
+            var div = divs[i];
+            switch (tint) {
+                case 'r':
+                    div.style.color = "rgba(" + rand() + ",0,0)";
+                    break;
+                case 'g':
+                    div.style.color = "rgba(0," + rand() + ",0)";
+                    break;
+                case 'b':
+                    div.style.color = "rgba(0,0," + rand() + ")";
+                    break;
+            }
+        }        
+    }
+    luuse.parentNode.removeChild(luuse);
+    </script>
+
+</body>
+</html>

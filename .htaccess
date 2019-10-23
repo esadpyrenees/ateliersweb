@@ -1,0 +1,10 @@
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^archives/(.*)/  /web/pages/archives/index.php?params=$1 [L]
+
+RewriteRule ^archives/$  /web/pages/archives/index.php [L]
+
+RewriteRule ^$  /web/pages/home.php [L]
+

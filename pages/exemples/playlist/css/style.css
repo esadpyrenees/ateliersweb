@@ -1,0 +1,29 @@
+@import "https://fontlibrary.org/face/bagnard";
+    
+body{ 
+    font-family: 'BagnardRegular', serif;
+    margin:4vw 
+}
+a {
+    color: black;
+}
+ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom:.5em;
+}
+li a {
+    font-size:calc(3vw + 1em);
+    text-decoration: none;
+}
+.playing {
+    animation:shake 500ms infinite alternate;
+}
+
+@keyframes shake {
+    0% { color:white }
+    100% { color:black }
+}

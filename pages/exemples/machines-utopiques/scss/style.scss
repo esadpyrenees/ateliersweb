@@ -1,0 +1,56 @@
+
+body {
+	margin:0;
+}
+@keyframes rota {
+	from { transform: rotate(360deg) translate(-150px) rotate(-360deg); }
+	to { transform: rotate(0deg) translate(-150px) rotate(0deg); }
+}
+
+@keyframes rotb {
+	from { transform: rotate(360deg) translate(-80px) rotate(-360deg); }
+	to { transform: rotate(0deg) translate(-80px) rotate(0deg); }
+}
+@keyframes rotb-reversed {
+	from { transform: rotate(0deg) translate(-80px) rotate(0deg); }
+	to { transform: rotate(360deg) translate(-80px) rotate(-360deg); }
+}
+
+.rotate {
+  	position: absolute;
+  	top:calc(150px + 40px);
+  	left:calc(150px + 40px);
+  	font-size:40px;
+	span.animated {
+	 	visibility:visible;
+	 	text-transform:uppercase;
+	 	text-align:center;
+	 	line-height:1;
+	    width: 1em;
+	    height: 1em;
+	    position: absolute;
+	    top:0;
+	    font-weight:bold;
+	    left: 0;
+	    margin: -20px;
+	    animation: rota 3s infinite linear;
+	    visibility: hidden;
+	  }
+	span.visible {
+		visibility: visible;
+	}
+
+}
+
+#machines {
+	font-size: 40px;
+	top:calc(80px + 40px);
+  	left:calc(80px + 40px);
+	span {animation: rotb 3s infinite linear;}
+}
+#utopiques {
+	font-size: 40px;
+	top:calc(200px + 40px);
+  	left:calc(200px + 40px);
+	span {animation: rotb-reversed 3s infinite linear;}
+}

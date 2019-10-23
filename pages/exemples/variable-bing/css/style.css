@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'FranklinVariable';
+  src: url('LibreFranklinGX-Romans-v4015.ttf') format('truetype');
+  font-weight: 1 999;
+}
+
+body {
+    font-family: 'FranklinVariable';  
+	margin:4em
+}
+p, #t { font-size: 2em; }
+p  {font-variation-settings: "wdth" 500, "wght" 100 }
+strong {font-variation-settings: "wdth" 1000, "wght" 1000 }

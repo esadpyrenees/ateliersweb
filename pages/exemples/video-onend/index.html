@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lumière et compagnie</title>
+    <style type="text/css">
+        body, html{
+            width:100%;
+            height: 100%;
+            margin: 0;
+            background:black;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        #wrapper {
+            width:90vw;
+            height:90vh;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        #question {
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left:0;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: calc(1vw + 2em);
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    
+    http://www.ubu.com/film/lumiere_wenders.html
+
+    Lumière and Company - Wim Wenders (1995)
+
+    Lumière and Company (1995, original title "Lumière et compagnie") was a collaboration between 41 international film directors in which each made a short film using the original Cinématographe camera invented by the Lumière brothers.
+
+    Shorts were edited in-camera and abided by three rules:
+
+        • A short may be no longer than 52 seconds
+        • No synchronized sound
+        • No more than three takes 
+    -->
+
+    <div id="wrapper">
+        <video src="Lumiere_Wim-Wenders_1995_Coupe.mp4" autoplay id="videoplayer" ></video>
+    </div>
+
+    <div id="question" style="display: none">
+        <a href="http://www.ubu.com/film/lumiere_wenders.html">Oui ? </a>
+        <a href="http://www.ubu.com/film/lumiere_wenders.html">Non ! </a>
+    </div>
+
+    <script type="text/javascript">
+        var wrapper = document.getElementById('wrapper');
+        var player = document.getElementById('videoplayer');
+        var question = document.getElementById('question');
+
+        player.addEventListener("ended", function() { 
+            question.style.display = 'flex';
+            wrapper.style.display = 'none';
+        }, true);
+        
+    </script>
+
+</body>
+</html>

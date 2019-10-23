@@ -1,0 +1,13 @@
+body{
+    margin: 100px;
+    font-size: 2em;
+    color: rgba(0,0,0,.6)
+}
+#texte {
+    margin: 2em 0
+}
+em {
+    font-style: normal;
+    color: rgba(0,0,0,.8)
+}
+.underlined em { text-decoration: underline; }

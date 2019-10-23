@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="utf-8">
+        <title>Filtrage d’éléments avec Isotope</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        <header>            
+            <h1>Kim Hiorthøy</h1>
+            <nav id="filtres">
+                <ul>
+                    <li><a href="#" class="selected" data-filtre="*">All</a></li>
+                    <li><a href="#" data-filtre=".book">Books</a></li>
+                    <li><a href="#" data-filtre=".music">Music</a></li>
+                    <li><a href="#" data-filtre=".illus">Illustrations</a></li>
+                    <li><a href="#" data-filtre=".poster">Posters</a></li>
+                    <li><a href="#" data-filtre=".painting">Paintings</a></li>
+                </ul>
+            </nav>
+            <a href="iso.zip" >Télécharger le code</a>
+        </header><!-- /header -->
+     
+        <ul id="images">
+        
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-05.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Humcrush</strong>, <i>Hornswoggle</i> (Rune Grammofon, 2006)</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-02.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Susanna and the Magical Orchestra</strong>, <i>Melody Mountain</i> (Rune Grammofon, 2006)</p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-01.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-11.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-2.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-06.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Kim Hiorthøy</strong>, <i>Live shet</i> (Smalltown Supersound)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-7.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-10.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-06.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-02.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-09.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Meanderthals</strong>, <i>Desire lines</i> (Smalltown Supersound, 2009)</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-03.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-03.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="poster kimhiorthoy">
+                <img class="" src="img/affiche/poster-03.gif">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-02.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-01.jpg">
+                <p>Kim Hiorthøy &mdash;  <strong>Arve Henriksen </strong>, <i>Strjon</i> (Rune Grammofon, 2007)</p>
+            </li>
+            <li class="poster kimhiorthoy">
+                <img class="" src="img/affiche/poster-04.gif">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="poster kimhiorthoy">
+                <img class="" src="img/affiche/poster-05.gif">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-3.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-1.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-4.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="poster kimhiorthoy">
+                <img class="" src="img/affiche/poster-01.gif">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-04.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Food</strong>, <i>Last supper</i> (Rune Grammofon, 2004)</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-05.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-5.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-04.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-8.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-06.jpg">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-07.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Diskjokke</strong>, <i>Remixes</i> (Smalltown Supersound, 2009 )</p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-07.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-04.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-07.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-03.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>In the country</strong>, <i>Losing stones, collecting bones</i> (Rune Grammofon, 2006)</p>
+            </li>
+            <li class="music kimhiorthoy">
+                <img class="" src="img/disc/cd-08.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Drivan</strong>, <i>Disko</i> (Smalltown Supersound, 2010)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-9.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-6.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="book music kimhiorthoy">
+                <img class="" src="img/livre/rune-grammofon-money-will-ruin-everything-12.jpg">
+                <p>Kim Hiorthøy &mdash; <strong>Money will ruin everything</strong> (Rune Grammofon, 2003)</p>
+            </li>
+            <li class="illus kimhiorthoy">
+                <img class="" src="img/illus/illus-05.jpg">
+                <p>Kim Hiorthøy &mdash; Illustration </p>
+            </li>
+            <li class="poster kimhiorthoy">
+                <img class="" src="img/affiche/poster-02.gif">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="poster kimhiorthoy">
+                <img class="" src="img/affiche/poster-06.gif">
+                <p>Kim Hiorthøy &mdash; Poster</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-09.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-08.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+            <li class="painting kimhiorthoy">
+                <img class="" src="img/peinture/peinture-01.jpeg">
+                <p>Kim Hiorthøy &mdash; Paintings</p>
+            </li>
+        </ul>
+
+
+
+        <script src="js/jquery-1.10.1.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/imagesloaded.js"></script>
+        <!-- Les actions sont contenues dans le fichier js/main.js -->
+        <script src="js/main.js"></script>
+          
+
+
+    </body>
+</html>
+
+
+
+
+
+

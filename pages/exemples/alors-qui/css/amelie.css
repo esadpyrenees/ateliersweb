@@ -1,0 +1,134 @@
+.visage-1 .front,
+.visage-1 .nez,
+.visage-1 .bouche { background-image: url(image-1.png); background-repeat:no-repeat}
+
+.visage-2 .front,
+.visage-2 .nez,
+.visage-2 .bouche { background-image: url(image-2.png); background-repeat:no-repeat}
+
+.visage-3 .front,
+.visage-3 .nez,
+.visage-3 .bouche { background-image: url(image-3.png); background-repeat:no-repeat}
+
+.visage-4 .front,
+.visage-4 .nez,
+.visage-4 .bouche { background-image: url(image-4.png); background-repeat:no-repeat}
+
+.visage-5 .front,
+.visage-5 .nez,
+.visage-5 .bouche { background-image: url(image-5.png); background-repeat:no-repeat}
+
+.visage-6 .front,
+.visage-6 .nez,
+.visage-6 .bouche { background-image: url(image-6.png); background-repeat:no-repeat}
+
+.visage-7 .front,
+.visage-7 .nez,
+.visage-7 .bouche { background-image: url(image-7.png); background-repeat:no-repeat}
+
+.visage-8 .front,
+.visage-8 .nez,
+.visage-8 .bouche { background-image: url(image-8.png); background-repeat:no-repeat}
+
+.visage-9 .front,
+.visage-9 .nez,
+.visage-9 .bouche { background-image: url(image-9.png); background-repeat:no-repeat}
+
+.visage-10 .front,
+.visage-10 .nez,
+.visage-10 .bouche { background-image: url(image-10.png); background-repeat:no-repeat}
+
+.visage-11 .front,
+.visage-11 .nez,
+.visage-11 .bouche { background-image: url(image-11.jpg); background-repeat:no-repeat}
+
+.textified .front,
+.textified .nez,
+.textified .bouche  { position: relative;}
+
+.front { background-position: 0 0 !important; }
+    .swiper-bas .front { background-position: 0 20% !important; }
+.nez { background-position: 0 69.4% !important }
+.bouche { background-position: 0 100% !important }
+
+.textified .front,
+.textified .nez,
+.textified .bouche { background-position: -9999px !important}
+
+.haut, .milieu, .bas { clear: both; }
+
+
+body { margin:0; background: white}
+
+/* --------------------------------------------------------------- Swipers */
+
+
+.main { width: 500px; height: 710px;}
+
+.swiper-container, .swiper-slide {
+    width: 100%;
+    background-size: 100%;
+    cursor: move
+    }
+    
+
+.swiper-nested2 {
+    width:100%;
+    }
+.swiper-nested2 span{
+    display: none;
+}
+    .textified .swiper-nested2 span {
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center; 
+        }
+.textified .swiper-haut span { bottom: 50px; color:#999;}
+.textified .swiper-milieu span { top:50%; margin-top: -15px; height: 30px; line-height: 30px;}
+.textified .swiper-bas span { top: 50px;}
+
+.swiper-haut { height: 58.9%; }
+.swiper-milieu{height: 15.1%}
+.swiper-bas{height:26%;}
+
+
+.swiper-nested2, 
+.swiper-nested2 .swiper-slide {
+    height: 100%
+}
+
+/* --------------------------------------------------------------- Crédits + titre */
+h1 { 
+    padding-top: 200px;
+    font-size: 16px;
+    color:black;
+    }
+p { 
+    font-size: 14px;
+    color:#999;
+    }    
+/* --------------------------------------------------------------- Media */
+
+@media screen and (orientation:landscape) {
+    .main { 
+        margin: 50px; 
+        position: relative;
+        float: left;
+
+        }    
+    }
+@media screen and (orientation:portrait) {
+    .main {         
+        position:'absolute';
+        bottom:0;
+        }
+        .text{ display: none;}
+    }
+
+@media screen and (min-width: 1024px) and (orientation:portrait) {
+    /*.main { width: 500px; height: 710px;}*/
+    }
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>random / ramdam — 07</title>
+	    <style type="text/css">
+	    	html, body { height: 100%}
+
+			body { font-size: 50px; margin: 50px; cursor: pointer;}
+
+			* { 
+			    -webkit-touch-callout: none;
+			    -webkit-user-select: none;
+			    -khtml-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none; 
+			}
+
+	    </style>
+	</head>
+	<body>
+    
+        <p id="beckett"></p>
+        
+	    <script type="text/javascript">
+	    var p = document.querySelector('#beckett'),
+		    text = "Essayer encore, rater encore, rater mieux. ",
+		    lettres = [],
+		    index = 0;
+
+		lettres = text.split('');
+
+		document.body.addEventListener('click', function(){
+		    var span = document.createElement('span');
+		    if(index < lettres.length){
+		        span.textContent = lettres[index];
+		        index++;
+		    } else {
+		        index = 0;
+		    }
+		    p.appendChild(span);
+		})
+		</script>
+	</body>
+</html>

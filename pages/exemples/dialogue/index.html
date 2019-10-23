@@ -1,0 +1,167 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dialogue interactif</title>
+    <style type="text/css">
+       .dialogue {
+            display:none
+       }
+       .visible {
+            display:block
+       }
+       body{
+        font-family: "Times New Roman", Times, serif;
+        font-size: calc(2vw + 2em);
+        margin:1em
+       }
+       p{ margin: 0; }
+       button{
+        background: transparent;
+        border: none;
+        font-size: inherit;
+        font-style: italic;
+        font-family: inherit;
+        display: block;
+       }
+       button:hover{
+        color: red;
+       }
+    </style>
+</head>
+<body>
+
+    <div id="groupe-1">
+        
+        <div class="dialogue visible" >
+            <p>
+                — Hey !
+            </p>
+            <p>
+                — Salut ! 
+            </p>
+        </div>
+
+        <div class="dialogue " >
+            <p>
+                — Ça fait longtemps qu’on s’est pas vus…
+            </p>
+            <p>
+                — Sûr…
+            </p>
+            
+        </div>
+
+        <div class="dialogue" >
+            <p>
+                — Tu vas bien ?
+            </p>
+            <p>
+                <button data-suivant="groupe-2">Oui</button>
+                <button data-suivant="groupe-3">Non </button>
+            </p>
+        </div>
+    </div>
+
+    <!-- ça va bien -->
+    <div id="groupe-2">
+        
+        <div class="dialogue">
+            <p>
+                — J’ai gagné au loto…
+            </p>
+            <p>
+                …et je suis amoureux : )
+            </p>
+        </div>
+
+        <div class="dialogue">
+            <p>
+                <button data-suivant="groupe-4">Super !</button>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- ça va pas bien -->
+    <div id="groupe-3">
+        
+        <div class="dialogue">
+            <p>
+                — J’ai perdu ma fiancée dans un tremblement de terre
+            </p>
+        </div>
+        <div class="dialogue" >
+            <p>
+                — Oh mince…
+            </p>
+            <p>
+                <button data-suivant="groupe-4">Boh, j’l’aimais pas beaucoup</button>
+                <button data-suivant="groupe-4">Eh… c’est la vie… </button>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- C’est fini -->
+    <div id="groupe-4">
+        
+        <div class="dialogue">
+            <p>
+                — Ah…
+            </p>
+        </div>
+        <div class="dialogue" >
+            <p>
+                <i>The End</i>
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+    // quand on clique (sur la page)
+    // la suite du dialogue apparait
+
+    document.addEventListener('click', function(e){
+        e.stopPropagation();
+        var elementvisible = document.querySelector('.visible');
+        var elementsuivant = elementvisible.nextElementSibling;
+        
+        if (elementsuivant != null ) {
+            elementvisible.classList.remove('visible');
+            elementsuivant.classList.add('visible');
+            
+        }
+    });
+
+
+    // quand on clique sur un bouton
+    // un autre élément du dialogue apparait
+    var buttons = document.querySelectorAll('button');
+
+    buttons.forEach( function(element, index) {
+
+        element.addEventListener('click', function(evenement){
+            evenement.stopPropagation();
+
+            //on sélectionne l’élément actuellement visible
+            var elementvisible = document.querySelector('.visible');
+            // on le masque
+            elementvisible.classList.remove('visible');
+
+            // on sélectionne le groupe de dialogues à afficher
+            // grâce à l’attribut “data-suivant” du bouton sur lequel on a cliqué
+            var groupe = document.querySelector('#' + this.getAttribute('data-suivant') );
+            // on affiche son premier dialogue (premier “enfant”)
+            groupe.firstElementChild.classList.add('visible');
+
+
+        })
+    });
+
+    </script>
+</body>
+</html>

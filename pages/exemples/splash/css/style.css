@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+body, html {
+  height: 100%;
+  margin:0;
+  font-family: 'Rock Salt', cursive;
+
+}
+main {
+  background: darkblue;
+  height: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  color:white;
+  font-size: calc(6vw + 3em); 
+}
+button{
+  border:none;
+  background: transparent;
+  font-family: 'Rock Salt', cursive;
+  font-size: calc(6vw + 3em); 
+  cursor: s-resize;
+}
+
+#intro {
+  background: chartreuse;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  color:blue;
+  position: fixed;
+  top:0px;
+  left:0px;
+  right: 0px;
+  bottom:0px;
+  transition:all 250ms;
+}
+
+#intro.invisible{
+  transform:translateY(-100vw)
+}

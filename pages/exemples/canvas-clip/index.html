@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas clip</title>
+  
+    <style type="text/css">
+        html, body {height: 100%;}
+        body{
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+    </style>
+  
+</head>
+
+<body>
+
+  <canvas id="c" width="440" height="440" ></canvas>
+  
+  
+
+    <script type="text/javascript">
+        // Grab the Canvas and Drawing Context
+        var canvas = document.getElementById('c');
+        var ctx = canvas.getContext('2d');
+
+        // Create an image element
+        var img = document.createElement('IMG');
+
+        // When the image is loaded, draw it
+        img.onload = function () {
+
+            // Save the state, so we can undo the clipping
+            ctx.save();
+            
+            // Create a shape, of some sort
+            ctx.beginPath();
+            ctx.moveTo(50, 0);
+            ctx.lineTo(400, 0);
+            ctx.lineTo(350, 400);
+            ctx.lineTo(0, 400);
+            ctx.closePath();
+            // Clip to the current path
+            ctx.clip();
+                
+            ctx.drawImage(img, 0, 0);
+            
+            // Undo the clipping
+            ctx.restore();
+        }
+
+        // Specify the src to load the image
+        img.src = "neez.jpg";
+    </script>
+
+
+
+
+</body>
+
+</html>

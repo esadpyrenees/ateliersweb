@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html><head>
+		<meta charset="utf-8">
+		<title>Volume</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<style type="text/css">
+			
+			html {
+			    font-family: 'Mutator', sans-serif;
+			    font-variation-settings: "wght" 400;
+			}
+			html,body{height:100%}
+			body{ 
+				display:flex;
+				justify-content:center;
+				align-items:center;
+			}
+			*{margin:0}
+		  	canvas { position:absolute; top:20px; left:20px }
+		  	#yo {
+			    font-variation-settings: "wght" 100, "wdth" 100;
+			    text-transform: uppercase;
+			    font-size: 5em;
+			    text-align: center;
+			    line-height: .8;
+			    font-weight
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<canvas id="meter" width="50" height="50"></canvas>
+
+		<div id="yo">
+			VARY<br>ABLE
+		</div>
+
+		<script type="text/javascript" src="js/vendor/jquery-3.3.1.min.js"></script>
+		<!-- Include the volume meter component -->
+		<script src="js/volume-meter.js"></script>
+		<!-- Include the main app logic -->
+		<script src="js/volume-main.js"></script>
+</body></html>

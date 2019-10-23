@@ -1,0 +1,13 @@
+html,body {background:#000; height:100%}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font: bold calc(6vw + 3em) sans-serif;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0000FF), to(#00FF00));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

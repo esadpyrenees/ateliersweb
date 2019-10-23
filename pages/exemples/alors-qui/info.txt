@@ -1,0 +1,1 @@
+title=Trois sliders&tags=js,interactive,rwd

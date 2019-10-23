@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+
+body, html { height: 100% }
+body { font-family: 'Work Sans', sans-serif; font-weight: 900; margin: 0; cursor: pointer;}
+p {
+    text-align: center;
+    font-size: 8vw;
+    margin: 0;
+    padding: 0 5vw;
+    height: 100%;
+    /* alignement vertical au sein du <p> */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* opentype features */
+    -moz-font-feature-settings:"liga", "dlig", "kern";
+    -ms-font-feature-settings:"liga", "dlig", "kern";
+    -o-font-feature-settings:"liga", "dlig", "kern";
+    -webkit-font-feature-settings:"liga", "dlig", "kern";
+    font-feature-settings:"liga", "dlig", "kern";
+}
+p span span {
+    display: inline;
+    -moz-font-feature-settings:"liga", "dlig", "cswh", "kern";
+    -ms-font-feature-settings:"liga", "dlig", "cswh", "kern";
+    -o-font-feature-settings:"liga", "dlig", "cswh", "kern";
+    -webkit-font-feature-settings:"liga", "dlig", "cswh", "kern";
+    font-feature-settings:"liga", "dlig", "cswh", "kern";
+}
+p > span::first-letter {
+    font-feature-settings: "swsh";
+}
+
+@media print {
+    @page{
+        height: 29.7cm;
+        width: 21cm;
+        size:portrait;
+    }
+    body{
+        margin: 2cm;
+        font-size: 45px
+    }
+    nav {
+        display: none
+    }
+
+    p {
+        page-break-after: always;
+    }
+
+}

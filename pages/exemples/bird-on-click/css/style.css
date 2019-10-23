@@ -1,0 +1,8 @@
+html,body {height:100%; background-size:contain; background-repeat:no-repeat; background-position:center}
+button {
+    background:black;
+    color:white; 
+border:none;    height:30px;
+    border-radius:100%;
+    position: absolute;
+}

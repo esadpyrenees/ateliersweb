@@ -1,0 +1,158 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#machinessensibles span {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: .025em;
+  font-size: 2em;
+}
+
+#machines span:nth-child(1) {
+  animation: upanddown 450ms infinite alternate ease-out 50ms;
+}
+
+#machines span:nth-child(2) {
+  animation: upanddown 450ms infinite alternate ease-out 100ms;
+}
+
+#machines span:nth-child(3) {
+  animation: upanddown 450ms infinite alternate ease-out 150ms;
+}
+
+#machines span:nth-child(4) {
+  animation: upanddown 450ms infinite alternate ease-out 200ms;
+}
+
+#machines span:nth-child(5) {
+  animation: upanddown 450ms infinite alternate ease-out 250ms;
+}
+
+#machines span:nth-child(6) {
+  animation: upanddown 450ms infinite alternate ease-out 300ms;
+}
+
+#machines span:nth-child(7) {
+  animation: upanddown 450ms infinite alternate ease-out 350ms;
+}
+
+#machines span:nth-child(8) {
+  animation: upanddown 450ms infinite alternate ease-out 400ms;
+}
+
+@keyframes upanddown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+#sensibles span:nth-child(1) {
+  animation: downandup 450ms infinite alternate ease-out 650ms;
+}
+
+#sensibles span:nth-child(2) {
+  animation: downandup 450ms infinite alternate ease-out 700ms;
+}
+
+#sensibles span:nth-child(3) {
+  animation: downandup 450ms infinite alternate ease-out 750ms;
+}
+
+#sensibles span:nth-child(4) {
+  animation: downandup 450ms infinite alternate ease-out 800ms;
+}
+
+#sensibles span:nth-child(5) {
+  animation: downandup 450ms infinite alternate ease-out 850ms;
+}
+
+#sensibles span:nth-child(6) {
+  animation: downandup 450ms infinite alternate ease-out 900ms;
+}
+
+#sensibles span:nth-child(7) {
+  animation: downandup 450ms infinite alternate ease-out 950ms;
+}
+
+#sensibles span:nth-child(8) {
+  animation: downandup 450ms infinite alternate ease-out 1000ms;
+}
+
+#sensibles span:nth-child(9) {
+  animation: downandup 450ms infinite alternate ease-out 1050ms;
+}
+
+@keyframes downandup {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#machines {
+  display: block;
+}
+#machines span:nth-child(1) {
+  margin-top: 0;
+}
+#machines span:nth-child(2) {
+  margin-top: -5px;
+}
+#machines span:nth-child(3) {
+  margin-top: -8px;
+}
+#machines span:nth-child(4) {
+  margin-top: -10px;
+}
+#machines span:nth-child(5) {
+  margin-top: -10px;
+}
+#machines span:nth-child(6) {
+  margin-top: -8px;
+}
+#machines span:nth-child(7) {
+  margin-top: -5px;
+}
+#machines span:nth-child(8) {
+  margin-top: 0;
+}
+
+#sensibles {
+  clear: left;
+  margin-left: 2em;
+}
+#sensibles span:nth-child(1) {
+  margin-top: 0;
+}
+#sensibles span:nth-child(2) {
+  margin-top: 5px;
+}
+#sensibles span:nth-child(3) {
+  margin-top: 8px;
+}
+#sensibles span:nth-child(4) {
+  margin-top: 10px;
+}
+#sensibles span:nth-child(5) {
+  margin-top: 11px;
+}
+#sensibles span:nth-child(6) {
+  margin-top: 10px;
+}
+#sensibles span:nth-child(7) {
+  margin-top: 8px;
+}
+#sensibles span:nth-child(8) {
+  margin-top: 5px;
+}

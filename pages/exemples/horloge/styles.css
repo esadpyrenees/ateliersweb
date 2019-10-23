@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 12vw
+    }
+
+a { 
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+    color: rgba(0, 0, 0, .8);
+    background: rgba(255, 255, 255, .4);
+    font-size: 14px;
+    text-decoration: none;
+    padding: .25em .5em;
+}

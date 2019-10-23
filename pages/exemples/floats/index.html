@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Floats, widths, &amp clearfix</title>
+
+        <style type="text/css">
+            * { box-sizing: border-box; } 
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px
+    }
+
+
+hr {
+    background: transparent; margin: 20px 0; border: 1px solid #eee; clear: both
+    }
+.clearfix:after{content: ""; display: table; clear: both}
+
+.container {
+    
+    }
+
+
+pre { margin: 0; padding: 0}
+
+section, article {
+    border: 5px solid #000;
+    padding: 10px;
+    }
+
+
+
+        </style>
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <!-- Ceci est un commentaire en html -->
+            <h1>Floats, widths, &amp clearfix</h1>
+
+            <hr>
+            
+            <section style="max-width: 800px">
+<pre>
+max-width: 800px
+</pre>
+            </section>
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+<pre>
+max-width: 800px
+margin-left:auto; 
+margin-right:auto
+</pre>
+            </section>
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+                <article style="width: 200px">
+<pre>
+width: 200px; 
+</pre>
+                </article>
+            </section>
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+                <article style="width: 200px; float:left;">
+<pre>
+width: 200px; 
+float:left;
+</pre>
+                </article>
+            </section>
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+                <article style="width: 200px; float:right;">
+<pre>
+width: 200px; 
+float:right;
+</pre>
+                </article>
+            </section>
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+                <article style="width: 200px; float:right;">
+<pre>
+width: 200px; 
+float:right;
+</pre>
+                </article>
+                
+                <article style="width: 200px; float:left;">
+<pre>
+width: 200px; 
+float:left;
+</pre>
+                </article>
+            </section>
+            
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+                <article style="width: 200px; float:left;">
+<pre>
+width: 200px; 
+float:left;
+</pre>
+                </article>
+                
+                <article style="width: 200px; float:left;">
+<pre>
+width: 200px; 
+float:left;
+</pre>
+                </article>
+            </section>
+
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto">
+                <article style="width: 33.3333%; float:left;">
+<pre>
+width: 33.3333%
+float:right;
+</pre>
+                </article>
+                
+                <article style="width: 33.3333%; float:left;">
+<pre>
+width: 33.3333%
+float:left;
+</pre>
+                </article>
+                
+                <article style="width: 33.3333%; float:left;">
+<pre>
+width: 33.3333%
+float:left;
+</pre>
+                </article>
+            </section>
+            
+            <hr>
+            
+            <section style="max-width: 800px; margin-left:auto; margin-right:auto" class="clearfix">
+                
+                <article style="width: 33.3333%; float:left;">
+<pre>
+&lt;section class="clearfix" &gt;
+article {
+    width: 33.3333%
+    float:right;
+    }
+</pre>
+                </article>
+                
+                <article style="width: 33.3333%; float:left;">
+<pre>
+width: 33.3333%
+float:left;
+</pre>
+                </article>
+                
+                <article style="width: 33.3333%; float:left;">
+<pre>
+width: 33.3333%
+float:left;
+</pre>
+                </article>
+            </section>
+            
+            
+        </div>
+    </body>
+</html>
+            

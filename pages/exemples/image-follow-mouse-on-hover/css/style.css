@@ -1,0 +1,22 @@
+html, body{ height:100%}
+body{
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+a { display: block; margin: 2em; color: #000;}
+img {
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+  transform: translateX(-50%)  translateY(-50%); 
+  pointer-events:none
+}
+img.visible {
+  visibility: visible;
+}
+nav {
+  max-width: 18em;
+  margin: auto
+}

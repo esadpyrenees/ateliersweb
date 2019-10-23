@@ -1,0 +1,16 @@
+body{ 
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr);
+}
+div {
+    height: 5vw;
+    background: #eee;
+    font-size:1.5vw;
+    line-height: 1;  
+}
+strong {
+    display: block;
+    float: left;
+    padding-right: .1em;
+    font-size: 4vw;
+}

@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+
+body{
+    background: black;
+    color: white;
+    margin: 0;
+}
+a {
+    color: white;
+}
+
+figure {
+    background: white;
+    position: fixed;
+    height: 100vh;
+    width: 66vw;
+    right: 0;
+    margin: 0;
+    top: 0;
+    color: black;
+    border: 8px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+main {
+    width: 34vw;
+    border: 8px solid black;
+    padding: 30px;
+}
+
+
+header {
+    margin-bottom: 60px;
+}
+
+nav {
+    margin-bottom: 160px;
+    border-top: 1px solid white;
+}
+
+article {
+    border-top: 1px solid white;
+}
+
+
+h1, h2 { 
+    font-size: 20px;  
+    text-transform: uppercase;
+    margin: 0;
+}
+h2 { font-weight: normal; }
+
+
+
+
+
+
+

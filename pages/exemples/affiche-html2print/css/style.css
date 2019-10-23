@@ -1,0 +1,285 @@
+
+/* styles communs */
+.infos {
+    font-family: 'Compagnon';
+    position: absolute;
+    left: 3cm;
+    bottom: 3cm;
+    font-size: 1.5em;
+}
+.infos i {font-weight: bold; font-style: normal;}
+
+.colophon{
+    padding:.5em;
+    font-family: 'Compagnon';
+    font-style: italic;
+    position: absolute;
+    transform: translate(calc(100% - 3.5em), 0%) rotate(270deg);
+    right: 0;
+    bottom: 0;
+    transform-origin: 0 0;
+    font-size: 8pt;
+}
+
+
+/* exemple poster 1 */
+
+#poster1 {
+    background: red url("../img/linotype_15538_lg.gif") no-repeat center;
+    background-blend-mode: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#poster1 h1 {
+    font-family: 'Le Murmure_Regular';
+    font-size: 250pt;
+    margin: 0;
+    line-height: .9;
+    text-align: center;
+}
+#poster1 h1 span {
+    display: block;
+}
+#poster1 h1 span:nth-child(1){
+    transform: skewX(15deg);
+}
+#poster1 h1 span:nth-child(2){
+    transform: skewX(-15deg);
+}
+
+
+/* exemple poster 1 */
+
+#poster2 {
+    background: blue url("../img/53191_fingerprint_lg.gif") no-repeat center;
+    background-blend-mode: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#poster2 h1 {
+    font-family: 'Le Murmure_Regular';
+    font-size: 250pt;
+    margin: 0;
+    line-height: .9;
+    text-align: center;
+}
+#poster2 h1 span {
+    display: block;
+}
+#poster2 h1 span:nth-child(1){
+    transform: skewX(15deg);
+}
+#poster2 h1 span:nth-child(2){
+    transform: skewX(-15deg);
+}
+#poster2 .infos {
+    transform: rotate(-90deg);
+}
+
+#poster3 {
+    overflow: hidden;
+} 
+#poster3 h1 {
+    font-family: 'Trickster_Regular';
+    font-size: 186pt;
+    /* transform: translate(0%,100%) rotate(-90deg); */
+    transform-origin: 0 0;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    line-height: .8;
+    margin-left: 1.3em;
+    text-indent: -1.4em;
+    /* text-align: right; */
+    z-index: 2;
+}
+#poster3 h1 span {
+    display: block;
+}
+#poster3 h2{
+    font-family: 'Trickster_Regular';
+    font-size: 186pt;
+    position: absolute;    
+    margin: 0;
+    top: .5em;
+    line-height: 1.5;
+    color: DarkRed;
+}
+#poster3 h2 span{
+    display: block;
+    margin-left: 1em;
+}
+#poster3 .infos {
+    top: 21.5cm;
+    left: .5cm;
+    width: 10cm;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+#poster3 .img{
+    background: DarkRed;
+    width: 15cm;
+    position: absolute;
+    right: 2cm;
+    bottom: 13cm;
+}
+#poster3 img{
+    width: 100%;
+    mix-blend-mode: multiply;
+    display: block;
+}
+#poster3 .colophon {
+    transform: translate(calc(100% - 3.5em), -18cm) rotate(270deg);
+}
+#poster3 .logo{
+    position: absolute;
+    width: 3cm;
+    left: 2cm;
+    bottom: 2cm;   
+}
+
+#poster4 {
+    overflow: hidden;
+} 
+#poster4 h1 {
+    font-family: 'CooperHewitt';
+    font-size: 313pt;
+    letter-spacing: -.015em;
+    transform: rotate(-90deg) translate(-100%,14%);
+    transform-origin: 0 0;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    line-height: .75;
+    text-align: right;
+    text-transform: uppercase;
+    z-index: 2;
+    width: 42cm;
+}
+#poster4 h1 div {
+    clear: both;
+}
+#poster4 h1 span + span {
+    margin-left: .25em;
+}
+#poster4 h1 em,
+#poster4 h2 em {
+    font-style: normal;
+    display: inline-block;
+    margin-left: -.02em;
+}
+#poster4 h2{
+    font-family: 'CooperHewitt';
+    font-size: 313pt;
+    letter-spacing: -.015em;
+    position: absolute;
+    margin: 0;
+    top: 0.2em;
+    line-height: .75;
+    color: FireBrick;
+    right: 0;
+}
+#poster4 .infos {
+    top: 16.2cm;
+    left: .7cm;
+    width: 9cm;
+    font-weight: 400;
+    font-size: 1em;
+}
+#poster4 .img{
+    width: 19cm;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    z-index: 3;
+    mix-blend-mode: multiply;
+}
+#poster4 img{
+    width: 100%;
+    /* mix-blend-mode: screen; */
+    display: block;
+}
+#poster4 .colophon {
+    transform: translate(calc(100% - 3.5em), -18cm) rotate(270deg);
+}
+#poster4 .logo{
+    position: absolute;
+    width: 3cm;
+    left: 2cm;
+    bottom: 2cm;   
+}
+
+.poster5 {
+    overflow: hidden;
+    font-family: 'CooperHewitt';
+    font-weight: 900;
+    font-size: 100px;
+    text-transform: uppercase;
+    line-height: .8;
+    position: relative;
+
+}
+.poster5 .scale {transform: scale(1.02, 1.01); transform-origin: 50% 0;}
+.poster5 .scale * {transform-origin: 0 0; /* mix-blend-mode: multiply; */}
+.poster5 .conf{
+    transform: scaleX(1.765);
+    margin-top: .1em;
+}
+.poster5 .conf span{
+    display: inline-block;
+    transform: scaleY(.8) translateY(.15em);
+}
+
+
+.poster5 .marianne{
+    transform: scaleX(1.22);
+    font-size: 180px;
+}
+
+.poster5 .plano{
+    font-size: 360px;
+    margin-top: .04em;
+    transform:translateX(-.02em)
+}
+
+.poster5 .collectif{
+    transform: scaleX(4.4);
+    font-size: 50px;
+    margin-top: -1em;
+}
+
+.poster5 .luuse{
+    transform: scaleX(.352) translateX(-.02em);
+    font-size: 1042px;
+    margin: .12em 0 -.2em;
+}
+
+.poster5 .url{
+    position: absolute;
+    right: .05em;
+    margin-top: -2em;
+    text-transform: none;
+}
+
+.poster5 .date{
+    margin-top: .6em;
+    transform: scaleX(1.1);
+}
+
+.poster5 .hours{
+    margin-top: -.12em;
+    transform: scale(1.43, .36);
+}
+
+.poster5 .location{
+    margin-top: -.32em;
+    transform: scale(1.44, 2.1);
+}
+.poster5 .location span{
+    display: inline-block;
+    transform: scaleY(.8) translateY(.15em);
+}

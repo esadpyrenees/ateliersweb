@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction à jQuery</title>
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,700italic' rel='stylesheet' type='text/css'>
+        <style type="text/css" media="screen">                        
+            body {
+                font-family: 'Playfair Display', serif;
+                text-align: center;
+                margin: 50px
+            }
+            a { color:#000; }
+            blockquote { font-size: 20px; line-height: 1.5; letter-spacing: .02em}
+            cite { margin:2em 0; font-size: 70%}            
+            .guillemet { 
+                float: left;
+                bottom: -20px;
+                font-size: 8em;
+                line-height: 20px;
+                position: relative;
+                }
+        </style>
+              
+    </head>
+    <body>
+        
+        <blockquote cite="http://remue.net/cont/beckett.html">
+            <p>
+                <span class="guillemet">“</span>
+                <span id="texte">Tout su tout blanc corps nu blanc un mètre jambes collées comme cousues. Lumières chaleur sol blanc un mètre carré jamais vu. Murs blancs un mètre sur deux plafond blanc un mètre carré jamais vu. Corps nu blanc fixe seuls les yeux à peine. Traces fouillis gris pâle presque blanc sur blanc. Mains pendues ouvertes creux face pieds blancs talons joints angle droit. Lumière chaleur faces blanches rayonnantes. Corps nu blanc fixe hop fixe ailleurs. Traces fouillis signes sans sens gris pâle presque blanc. Corps nu blanc fixe invisible blanc sur blanc. Seuls les yeux à peine bleu pâle presque blanc. Tête boule bien haute yeux bleu pâle presque blanc fixe face silence dedans. Brefs murmures à peine presque jamais tous sus. Traces fouillis signes sans sens gris pâle presque blanc sur blanc. Jambes collées comme cousues talons joints angle droit. Traces seules inachevées données noires gris pâle presque blanc sur blanc. Lumière chaleur murs blancs rayonnants un mètre sur deux. Corps nu blanc fixe un mètre hop fixe ailleurs. Traces fouillis signes sans sens gris pâle presque blanc. Pieds blancs invisibles talons joints angle droit.</span>
+            </p>
+            <cite>Extrait de Samuel Beckett, <i>Bing</i>, Les éditions de Minuit, 1969 <br> <a href="http://remue.net/cont/beckett.html" >remue.net</a></cite>
+        </blockquote>
+          
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript">
+
+            /* 
+            
+            documentation des fonctions js & jquery utilisées :
+
+            http://api.jquery.com/text/
+            http://www.commentcamarche.net/faq/16305-javascript-split
+            http://api.jquery.com/append/
+            http://api.jquery.com/css/
+            
+            */
+
+            var bing = $("#texte").text();
+
+            var mots = bing.split(' ');
+            console.log(mots.length);
+
+            // on vide le texte
+            $('#texte').empty();
+            
+
+            // pour aller beaucoup plus loin
+            // var count = -1;
+            // var typos = ["Georgia", "Arial", "Times", "Courier", "Tahoma", "Helvetica", "Palatino, serif", "Arial Black", "Impact"];
+
+            // pour le re-remplir…
+            for (var i = 0; i < mots.length; i++) {
+
+                // on crée une balise span contenant le mot stocké en position i du tableau
+                var mot = $('<span>' + mots[i] + ' </span>');
+                // on l’ajoute à la fin du #texte
+                $('#texte').append(mot);
+                
+                // on fait varier son opacité grace à une formule magique obtenue par tâtonnements successifs
+                var opacite = mots.length / i * 8 / 100;
+                mot.css('opacity', opacite);
+
+                // en allant beaucoup plus loin
+                // mot.css('font-family', typos[++count % typos.length])
+
+                // propositions : faire varier l’interlettrage, la taille du texte, etc.
+
+        };
+
+            
+        </script>        
+    </body>
+</html>

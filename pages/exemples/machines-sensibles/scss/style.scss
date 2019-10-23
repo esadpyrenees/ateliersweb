@@ -1,0 +1,54 @@
+html, body { height:100%}
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+#machinessensibles span {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: .025em;
+  font-size: 2em;
+    }
+@for $i from 1 through 8{
+    #machines span:nth-child(#{$i}){
+        animation :upanddown 450ms infinite alternate ease-out $i*50ms;
+        }
+    }
+@keyframes upanddown{
+    0% { transform:translateY(0)}
+    100% { transform:translateY(10px)}  
+    }
+@for $i from 1 through 9{
+    #sensibles span:nth-child(#{$i}){
+        animation:downandup 450ms infinite alternate ease-out $i*50+600ms;
+    }
+    }
+@keyframes downandup{
+    0% { transform:translateY(0)}
+    100% { transform:translateY(-10px)}  
+}
+#machines{
+  display:block;
+    span:nth-child(1){ margin-top:0 }
+    span:nth-child(2){ margin-top:-5px }
+    span:nth-child(3){ margin-top:-8px }  
+    span:nth-child(4){ margin-top:-10px }  
+    span:nth-child(5){ margin-top:-10px }  
+    span:nth-child(6){ margin-top:-8px }   
+    span:nth-child(7){ margin-top:-5px } 
+    span:nth-child(8){ margin-top:0 } 
+}
+#sensibles{
+  clear:left;
+  margin-left: 2em;
+    span:nth-child(1){ margin-top:0 }
+    span:nth-child(2){ margin-top:5px }
+    span:nth-child(3){ margin-top:8px }  
+    span:nth-child(4){ margin-top:10px }  
+    span:nth-child(5){ margin-top:11px }  
+    span:nth-child(6){ margin-top:10px }   
+    span:nth-child(7){ margin-top:8px } 
+    span:nth-child(8){ margin-top:5px } 
+}

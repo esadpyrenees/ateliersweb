@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box
+}
+main { 
+  max-width:900px;
+  margin:2em auto;
+  padding:0 200px;
+}
+img { max-width:100%; display:block;}
+
+figure {
+  margin: 0;
+  position: relative;
+  background: red;
+}
+figcaption {
+  position: absolute;
+  top:0; right:0; bottom:0; left:0;
+  padding: 1em;  
+  visibility: hidden;  
+  color:white;
+}
+figure:hover figcaption{
+  visibility: visible;
+}
+figure:hover img{
+  mix-blend-mode:multiply;
+}
+
+figure.left {
+  float:left;
+  margin-left: -200px;
+  max-width: calc(200px + 33.33%);
+  margin-right: 20px;
+}
+figure.right {
+  float:right;
+  margin-right: -200px;
+  max-width: calc(200px + 33.33%);
+  margin-left: 20px;
+}
+blockquote {
+  margin-left: 0;
+}

@@ -1,0 +1,9 @@
+html{height:100%}
+body{height:100%; display:flex; justify-content:center; align-items:center}
+p, img{max-width:500px; max-height:500px}
+p {
+    font-size: 12vw;
+} 
+button{
+    font-size: 3vw;    
+}

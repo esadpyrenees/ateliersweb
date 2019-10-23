@@ -1,0 +1,6 @@
+img { width:200px; position:absolute }
+.hidden { display: none; }
+
+#image0 { left:45px;}
+#image1 { top:45px; right:200px}
+#image2 { bottom:45px; left:200px}

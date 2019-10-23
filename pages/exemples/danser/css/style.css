@@ -1,0 +1,31 @@
+* { box-sizing: border-box;}
+
+/* parent */
+body{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* enfants */
+article {
+    width: 25%;
+    padding: 1em;
+    position: relative;
+    animation: tremblote 6s infinite alternate;
+}
+
+p {
+    background: white;
+    color: green;
+    padding: 2em;  
+  border-radius:100%;
+  text-align:center; 
+}
+@keyframes tremblote {
+    0% { transform: translate(-2%, 2%); }
+    25% { transform: translate(5%, -1%); }
+    38% { transform: translate(2%, -3%); }
+    70% { transform: translate(-2%, 3%); }
+    100% { transform: translate(-1%, 2%); }
+}

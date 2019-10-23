@@ -1,0 +1,74 @@
+
+/* ========================================================================== Styles */
+
+* { box-sizing: border-box; }
+
+body { margin: 20px}
+
+#page { width: 900px; margin: 0 auto; background: #eee; overflow: auto; padding: 20px}
+
+nav { float: left; width: 110px; margin-right: 30px; text-transform: uppercase;}
+nav ul { list-style: none; margin: 0; padding: 0}
+nav li { margin-bottom: 10px; background: #000; color: #fff; padding: 2px 5px 0 }
+nav a { color:#fff; text-decoration: none; color: #fff; }
+
+article { float: left; width:220px; border: 10px solid black; margin: 0 30px 30px 0; padding: 20px; }
+/* désactive la marge pour le denrier article de la série de trois colonnes */
+article:last-child { margin: 0}
+img { max-width: 100%; display: block; margin: 0 0 1em}
+
+
+/* plus de 1280px */
+@media only screen and (min-width:1280px) {}
+
+/*entre 1280px et 768px*/
+@media only screen and (max-width:1280px) and (min-width:768px) {}
+
+/* moins de 768px (~ iPad, tablettes…)*/
+@media only screen and (max-width:768px) {}
+
+/* moins de 640px (~ grand smartphone)*/
+@media only screen and (max-width:640px) {}
+
+/*moins de 640px en mode portrait*/
+@media only screen and (max-width:640px) and (orientation:landscape) {}
+
+/* breakpoints adapté au « design » de la page */
+@media only screen and (max-width:940px) {
+	#page { width: auto;}
+	nav { float: none; width: auto; }
+	nav li { display: inline-block; }
+	article { width: 200px}
+}
+
+@media only screen and (max-width:750px) {
+	article { width: 150px}
+}
+
+@media only screen and (max-width:600px) {
+	article { width: 100%; float: none;}
+}
+
+@media only screen and (max-width:450px) {
+	nav ul {  display: none; }
+    nav:hover ul { display: block;}
+    nav { position: absolute; top: 0; left: 0; right: 0; width: 100%; background-color: #000; text-align: center;}
+    section { margin-top: 2em}
+    nav:before { 
+        font-size: 2em;
+        content: "\2630";
+        font-family: Arial;
+        color: #fff;
+        display: block;
+        
+        
+        }
+}
+
+
+/* Pour l’impression */
+@media print {
+	#page { width: auto;}
+	nav { display: none;}
+	article { width: 100%; border: none; border-bottom: .25pt solid #000 }
+}

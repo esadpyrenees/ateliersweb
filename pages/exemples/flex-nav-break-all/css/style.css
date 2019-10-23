@@ -1,0 +1,76 @@
+@import "https://fontlibrary.org/face/bagnard";
+* { box-sizing:border-box; }
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+header{
+    font-family: 'BagnardRegular', serif;
+    height:19.6vh;
+    display:flex;
+    align-items:center;
+    background: #000;
+    color:white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    justify-content:space-between;
+}
+header h1,header h2{
+    font-size: calc(3vw + 2em);
+    line-height:19.6vh;
+    position:relative;
+    top:.12em;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    transition: .3s;
+    flex-grow: 1;
+    flex-basis: 0;
+    border-right: solid 2px #000;
+    flex-basis: 100%;
+    flex: 1;
+    height: calc(100vh - 19.6vh);
+    padding: 10px;
+    position: relative;
+    min-width: 0;
+    overflow: hidden;
+    word-break:break-all
+}
+article:hover {
+    color:white;
+    background: #4522FF;
+    max-width: 60% !important;
+    flex-grow: 5;
+}
+article:last-child {
+    border-right: none;
+}
+h1{
+    margin:0;
+    font-size: 5vh;
+    line-height: 4.5vh;
+    letter-spacing: -.2vw;
+    text-transform: uppercase;
+}
+article:hover h1 {
+    font-size: 7.0vh;
+    line-height: 6.8vh;
+    word-break:normal
+}
+article h2 {
+    word-break: break-all;
+    font-size: 2.5vh;
+    line-height: 1;
+    font-family: 'BagnardRegular', serif;
+    display:none
+}
+article:hover h2{
+    font-size: 3.5vh;
+    display:block;
+}

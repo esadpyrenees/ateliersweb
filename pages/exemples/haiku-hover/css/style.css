@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300');
+body, html{
+  height:100%;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: calc(2vw + 1rem);
+  font-family: 'Times', serif;
+}
+.ligne p {
+
+}
+.jap {
+  font-family: 'Noto Serif JP', serif;
+  color:crimson;
+  line-height: 1.2;
+  text-indent:-1em;
+  margin:0
+}
+.traduction {
+  visibility: hidden;
+  display: block;
+  text-indent:3em;
+  font-style:italic;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-top: .5em;
+}
+.ligne:hover .traduction{
+  visibility:visible;
+}

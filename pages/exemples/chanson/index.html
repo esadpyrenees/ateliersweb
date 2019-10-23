@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tom Joad — Woody Guthrie</title>
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    @font-face {
+      font-family: 'Grotesk';
+      src: url('fonts/Grotesk.eot'); /* IE9 Compat Modes */
+      src: url('fonts/Grotesk.woff') format('woff'),
+           url('fonts/Grotesk.ttf')  format('truetype'),
+           url('fonts/Grotesk.svg#6fb42292e38f05b52cd70a757175a4f5') format('svg'); /* Legacy iOS */
+      font-style:   normal;
+      font-weight:  400;
+    }
+
+    html, body{ height: 100%;}
+    * { box-sizing: border-box;}
+    body{ margin: 0; font-family: 'Karla', sans-serif; font-size: 120%; overflow-x: hidden;}
+    header p, article { padding: 2em 2em 2em 20%;}
+    header {
+        min-height: 100%; background:url(images/grapes-of-wrath-4.jpg) no-repeat center; background-size: cover; color: white;
+        display: flex;
+        align-items: center;
+        background-attachment: fixed;
+        justify-content: center;
+        }
+    header > div {align-self: flex-end; width: 100%;}
+    h1 { font-size: 12vw; font-weight: 400; font-family: 'Grotesk'; text-transform: uppercase;  line-height: .8; text-indent: -.72em; margin: 0;}
+    h1 span { display: block; text-indent: -0.15em;}
+    /* alternative header */
+    .alt > div {align-self: auto; }
+    .alt h1 {
+        font-family: "Grotesk";
+        font-size: 26vw;
+        font-weight: 400;
+        letter-spacing: 0.7em;
+        line-height: 0.7;
+        margin: 0;
+        text-indent: -0.17em;
+        text-transform: uppercase;
+        color: rgba(0,0,0,0.5);
+    }
+    .alt h1 span { text-indent: -0.17em; letter-spacing: 0.3em;}
+    .alt p { display: none;}
+    p { line-height: 1.6;}
+    #playpause {
+        font-family: sans-serif;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        background:  rgba(0,0,0,0.5);;
+        color: white;
+        height: 64px;
+        width: 64px;
+        line-height: 68px;
+        border-radius: 64px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .play:before {
+        content: "\02758 \02758"
+    }
+    .pause { text-indent:0.2em;}
+    .pause:before {
+        content: "\25B7"
+    }
+    @media(max-width:800px){
+        #playpause { position: absolute;}
+    }
+    footer {
+        color: #999;
+        font-style: italic;
+        font-size: 80%;
+        margin: 3em 0 50px;
+
+    }
+    footer:before{
+        content: "";
+        display: block;
+        width: 4em;
+        border-top:1px solid;
+        padding-top: 1em;
+    }
+    footer p {
+        margin: 0;
+    }
+    a { color: inherit; text-decoration: none; border-bottom: 1px solid;}
+
+    </style>
+</head>
+<body>
+
+<header class="alt">
+    <div>
+        <h1>Tom <span>Joad</span></h1>
+        <p>Woody Guthrie</p>
+    </div>
+    <div id="player">
+        <audio src="audio/WoodyGuthrie-TomJoad.mp3" id="audioplayer" autoplay></audio>
+        <div id="playpause" class="play"></div>
+    </div>
+</header>
+
+<article>
+    <p>
+    Tom Joad got out of the old McAlester Pen;<br>
+    There he got his parole.<br>
+    After four long years on a man killing charge,<br>
+    Tom Joad come a-walkin’ down the road, poor boy,<br>
+    Tom Joad come a-walkin’ down the road.
+    </p>
+    <p>Tom Joad, he met a truck driving man;<br>
+    There he caught him a ride.<br>
+    He said, “<i>I just got loose from McAlester Pen<br>
+    On a charge called homicide,<br>
+    A charge called homicide.</i>”
+    </p>
+    <p>That truck rolled away in a cloud of dust;<br>
+    Tommy turned his face toward home.<br>
+    He met Preacher Casey, and they had a little drink,<br>
+    But they found that his family they was gone,<br>
+    He found that his family they was gone.
+    </p>
+    <p>He found his mother’s old-fashion shoe,<br>
+    Found his daddy’s hat.<br>
+    And he found little Muley and Muley said,<br>
+    “<i>They’ve been tractored out by the cats,<br>
+    They’ve been tractored out by the cats.</i>”
+    </p>
+    <p>Tom Joad walked down to the neighbor’s farm,<br>
+    Found his family.<br>
+    They took Preacher Casey and loaded in a car,<br>
+    And his mother said, “<i>We’ve got to get away.</i>”<br>
+    His mother said, “<i>We’ve got to get away.</i>”
+    </p>
+    <p>Now, the twelve of the Joads made a mighty heavy load;<br>
+    But Grandpa Joad did cry.<br>
+    He picked up a handful of land in his hand,<br>
+    Said: “<i>I’m stayin’ with the farm till I die.<br>
+    Yes, I’m stayin’ with the farm till I die.</i>”
+    </p>
+    <p>They fed him short ribs and coffee and soothing syrup;<br>
+    And Grandpa Joad did die.<br>
+    They buried Grandpa Joad by the side of the road,<br>
+    Grandma on the California side,<br>
+    They buried Grandma on the California side.
+    </p>
+    <p>They stood on a mountain and they looked to the west,<br>
+    And it looked like the promised land.<br>
+    That bright green valley with a river running through,<br>
+    There was work for every single hand, they thought,<br>
+    There was work for every single hand.
+    </p>
+    <p>The Joads rolled away to the jungle camp,<br>
+    There they cooked a stew.<br>
+    And the hungry little kids of the jungle camp<br>
+    Said: “<i>We’d like to have some, too.</i>”<br>
+    Said: “<i>We’d like to have some, too.</i>”
+    </p>
+    <p>Now a deputy sheriff fired loose at a man,<br>
+    Shot a woman in the back.<br>
+    Before he could take his aim again,<br>
+    Preacher Casey dropped him in his track, poor boy,<br>
+    Preacher Casey dropped him in his track.
+    </p>
+    <p>They handcuffed Casey and they took him in jail;<br>
+    And then he got away.<br>
+    And he met Tom Joad on the old river bridge,<br>
+    And these few words he did say, poor boy,<br>
+    These few words he did say.
+    </p>
+    <p>“<i>I preached for the Lord a mighty long time,<br>
+    Preached about the rich and the poor.<br>
+    Us workin’ folkses, all get together,<br>
+    ’Cause we ain’t got a chance anymore.<br>
+    We ain’t got a chance anymore.</i>”
+    </p>
+    <p>Now, the deputies come, and Tom and Casey run<br>
+    To the bridge where the water run down.<br>
+    But the vigilante thugs hit Casey with a club,<br>
+    They laid Preacher Casey on the ground, poor Casey,<br>
+    They laid Preacher Casey on the ground.
+    </p>
+    <p>Tom Joad, he grabbed that deputy’s club,<br>
+    Hit him over the head.<br>
+    Tom Joad took flight in the dark rainy night,<br>
+    And a deputy and a preacher lying dead, two men,<br>
+    A deputy and a preacher lying dead.
+    </p>
+    <p>Tom run back where his mother was asleep;<br>
+    He woke her up out of bed.<br>
+    An’ he kissed goodbye to the mother that he loved,<br>
+    Said what Preacher Casey said, Tom Joad,<br>
+    He said what Preacher Casey said.
+    </p>
+    <p>“<i>Ever’body might be just one big soul,<br>
+    Well it looks that a-way to me.<br>
+    Everywhere that you look, in the day or night,<br>
+    That’s where I’m a-gonna be, Ma,<br>
+    That’s where I’m a-gonna be.</i>
+    </p>
+    <p><i>Wherever little children are hungry and cry,<br>
+    Wherever people ain’t free.<br>
+    Wherever men are fightin’ for their rights,<br>
+    That’s where I’m a-gonna be, Ma.<br>
+    That’s where I’m a-gonna be.</i>”
+    </p>
+    <footer>
+        <p>Words and Music by <a href="https://fr.wikipedia.org/wiki/Woody_Guthrie">Woody Guthrie</a>.</p>
+        <p>Image: Henry Fonda, in <i>The Grapes of Wrath</i> by John Ford, after John Steinbeck’s novel.</p>
+        <p>Audio borrowed from <i><a href="http://woodyguthrie.org/mm5/merchant.mvc?Screen=PROD&amp;Store_Code=TWGS&amp;Product_Code=TLW&amp;Category_Code=REC">The Live Wire: Woody Guthrie in Performance</a></i>, 1949, via <a href="https://www.youtube.com/watch?v=uMZ04AlFMk0">YT</a>.</p>
+        <p>Typeset in <a href="https://www.google.com/fonts/specimen/Karla">Karla</a> (Jonathan Pinhorn) and <a href="http://www.velvetyne.fr/fonts/grotesk/">Grotesk</a> (Frank Adebiaye), tightly subsetted with <a href="https://github.com/briangonzalez/fontprep">Fontprep</a>.</p>
+    </footer>
+</article>
+
+<script type="text/javascript">
+    var player = document.getElementById('audioplayer');
+    var playpause = document.getElementById('playpause');
+    var playing = true;
+    playpause.addEventListener('click', function(){
+        if (playing) {
+            playpause.className='pause';
+            player.pause();
+        } else {
+            playpause.className='play';
+            player.play();
+        }
+        playing = !playing;
+    })
+</script>
+<iframe name='embed_readwrite' src='https://lite6.framapad.org/p/responsivesongs?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=600 height=400></iframe>
+</body>
+</html>

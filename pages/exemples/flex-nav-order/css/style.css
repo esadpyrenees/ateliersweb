@@ -1,0 +1,23 @@
+body { margin:0}
+a { color: #fff; text-decoration:none; }
+a:hover {text-decoration: underline;}
+ul {
+  font-size: 4vw;
+  margin: 0;
+  padding:0;
+  background: black;
+  list-style: none;
+  padding: 1em 3em;
+  display: flex; 
+  justify-content: space-between;
+}
+li a{
+  color: DeepPink;
+}
+
+li:nth-child(2){
+  order:-1;
+}
+li:nth-child(2) a{
+  color: Turquoise;
+}
