@@ -9,5 +9,6 @@
   </ul>
   <ul>
       <li><a href="/web/pages/ressources/html/start.php">Démarrer</a> </li>
+      <li><a href="/web/pages/ressources/html/bases.php">Bases</a> </li>
   </ul>
 </nav>

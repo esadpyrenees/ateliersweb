@@ -84,6 +84,11 @@ nav.pane{
     border: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #header {
     position: fixed;
     z-index: 2;
@@ -142,11 +147,18 @@ table {
     border-collapse: collapse;
     margin-bottom:  .5em
 }
-td, th { padding-right: .5em; text-align: left; }
-
+td, th { padding-right: 2em; text-align: left; }
+tr {
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
 
 p,
 blockquote, ol, ul { max-width: 650px}
+
+blockquote, q {
+    quotes: none;
+}
 
 blockquote {
     margin-left: 0;
@@ -156,6 +168,7 @@ blockquote {
 
 pre, code {
     font-family: 'Fira Code';
+    font-variant-ligatures: none;
     overflow-x: auto;
 }
 pre code { font-size: .85em; }

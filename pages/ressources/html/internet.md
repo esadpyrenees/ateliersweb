@@ -8,7 +8,7 @@ Internet et le Web sont deux choses différentes. Internet est plus ancien, plus
 
 > — [fr.wikipedia.org/wiki/Internet](https://fr.wikipedia.org/wiki/Internet)
 
-Internet a été inventé dans les années 1960 pour connecter des ordinateurs à travers les États-Unis. De nos jours, des milliards d’appareils (ordinateurs, ordinateurs portables, téléphones mobiles, téléviseurs, réfrigérateurs, etc.) sont interconnectés. [Lire en ligne: D’Arpanet à Internet : une histoire des réseaux](https://interstices.info/dossier/darpanet-a-internet-une-histoire-des-reseaux/)
+Internet a été inventé dans les années 1960 pour connecter des ordinateurs à travers les États-Unis. De nos jours, des milliards d’appareils (ordinateurs, ordinateurs portables, téléphones mobiles, téléviseurs, réfrigérateurs, etc.) sont interconnectés. Pour en savoir plus, parcourir les resources en ligne liées à [l’histoire du web et des internets](../../references/histoire/).
 
 ## Client et serveur
 
