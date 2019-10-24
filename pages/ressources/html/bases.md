@@ -99,7 +99,7 @@ Il existe également des éléments qui ne sont ni *block*, ni *inline* :
 
 ## Hiérarchie
 
-Un document HTML est comme un arbre généalogique, avec ses parents, ses frères et soeurs, ses enfants, ses ancêtres et ses descendants.
+Un document HTML est comme un arbre généalogique, on y trouve des parents, des frères et soeurs, des enfants, des ancêtres et des descendants.
 
 Cela vient de la capacité à imbriquer des éléments HTML les uns dans les autres.
 ```
@@ -121,7 +121,7 @@ Dans ce cas:
 - `<strong>` et `<q>` sont des éléments **frères**
 
 On imbrique les éléments HTML pour structurer le contenu.
-⚠️ Attention néanmoins à l’ordre des imbrications : il convient de penser les éléments comme des boîtes ou des poupées russes ; on ne peut pas refermer la plus grande avant d’avoir refermé une plus petite à l’intérieur.
+⚠️ Attention néanmoins à l’ordre des imbrications : il convient de penser les éléments comme des boîtes, ou des poupées russes ; on ne peut pas refermer la plus grande avant d’avoir refermé une plus petite à l’intérieur.
 
 ```
 <article>
@@ -134,7 +134,7 @@ On imbrique les éléments HTML pour structurer le contenu.
   </p>
 </article>
 ```
-
+Le code ci-dessus s’interprête comme suit :
 <article>
   <h1>Pangrammes célèbres</h1>
   <p>
@@ -308,7 +308,7 @@ Ce qui donne :
 
 <p>Bien fait, <br> mal fait, <br> pas fait <br>— Robert Filiou, Principe d’équivalence</p>
 
-Pour forcer une espace mot, on utilise l’espace insécable, qui peut s’encoder en HTML avec `$nbsp;` ou être saisie directement dans le texte (sur MacOS : `alt + espace`).
+Pour forcer une espace mot, on utilise l’espace insécable, qui peut s’encoder en HTML avec `&nbsp;` ou être saisie directement dans le texte (sur MacOS : `alt + espace`).
 ```
 <p>S&nbsp;p&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;e</p>
 ```
