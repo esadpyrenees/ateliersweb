@@ -88,9 +88,9 @@ HTML possède deux grands types d’éléments, les éléments *block* et *inlin
 - image : `<img>`
 - input : `<input>`
 
-Les éléments de bloc sont destinés à structurer les principales parties d’une page en divisant son contenu en blocs significatif du point de vue sémantique.
+Les **éléments bloc** sont destinés à structurer les principales parties d’une page en divisant son contenu en blocs significatif du point de vue sémantique.
 
-Les éléments en ligne sont destinés à différencier une partie d’un texte, à lui donner une fonction ou une signification particulière. Ils contiennent généralement un seul ou quelques mots.
+Les **éléments en ligne** sont destinés à différencier une partie d’un texte, à lui donner une fonction ou une signification particulière. Ils contiennent généralement un seul ou quelques mots.
 
 Il existe également des éléments qui ne sont ni *block*, ni *inline* :
 - les éléments de liste : `<li>`
@@ -239,7 +239,7 @@ En lisant ce code HTML correctement balisé, on peut facilement comprendre la si
 
 ### Éléments génériques
 
-Lorsque apparemment aucun élément sémantique ne semble convenir à votre contenu mais que l’on souhaite  insérer un élément HTML (à des fins de regroupement ou d’application de style), on peut choisir l'un des deux éléments génériques:
+Lorsque apparemment aucun élément sémantique ne semble convenir à votre contenu mais que l’on souhaite  insérer un élément HTML (à des fins de regroupement ou d’application de style), on peut choisir l’un des deux éléments génériques:
 
 - `<div>` pour les éléments de niveau bloc
 - `<span>` pour les éléments en ligne
@@ -263,7 +263,7 @@ Il y a environ 100 éléments HTML sémantiques parmi lesquels choisir. La liste
 | *div* | | |
 
 
-## Formater le code
+## Espaces et formatage du code
 
 En HTML, l’espacement n’importe (presque) pas : les espaces, les tabulations ou les sauts de ligne à l’intérieur du code source ne sont pas affichés par le navigateur.
 De multiples espaces, tabulation ou sauts de ligne ne sont rendus que par une seule espace.
@@ -300,4 +300,147 @@ Résultat interprété par le navigateur :
             jamais vu.
 </blockquote>
 
+Pour forcer un saut de ligne on utilise la balise `<br>`
+```
+<p>Bien fait, <br> mal fait, <br> pas fait <br>— Robert Filiou, Principe d’équivalence</p>
+```
+Ce qui donne :
+
+<p>Bien fait, <br> mal fait, <br> pas fait <br>— Robert Filiou, Principe d’équivalence</p>
+
+Pour forcer une espace mot, on utilise l’espace insécable, qui peut s’encoder en HTML avec `$nbsp;` ou être saisie directement dans le texte (sur MacOS : `alt + espace`).
+```
+<p>S&nbsp;p&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;e</p>
+```
+Ce qui donne :
+
+<p>S&nbsp;p&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;e</p>
+
+#### Indentation
+Plus un document HTML est complexe et contient de balises imbriquées, plus il est compliqué de se repérer à l’intérieur s’il n’est pas correctement “indenté”.
+
+Il est préférable (**indispensable**) d’écrire :
+```
+<article>
+    <p>
+        Ce code est écrit sur
+        <strong>plusieurs</strong>
+        lignes, mais sera néanmoins
+        affiché sur
+        <em>une</em>
+        seule.
+    </p>
+</article>
+```
+
+Plutôt que :
+
+```
+<article><p>Ce code est écrit sur
+    <strong>plusieurs</strong>
+        lignes, mais sera néanmoins affiché sur <em>une
+</em>
+    seule.</p></article>
+```
+
+Même si les deux codes afficheront :
+<article>
+    <p>
+        Ce code est écrit sur
+        <strong>plusieurs</strong>
+        lignes, mais sera néanmoins
+        affiché sur
+        <em>une</em>
+        seule.
+    </p>
+</article>
+
+Il n’existe pas de règles spécifiques concernant le formatage HTML, mais il existe des conventions implicites, notamment:
+
+- utiliser des **tabulations** pour aider à visualiser comment les éléments HTML sont imbriqués
+- placer les balises d’ouverture et de fermeture des éléments de niveau bloc sur leur propre ligne
+- écrire les éléments en ligne sur une ligne (y compris les balises d’ouverture et de fermeture)
+
+
 ## Un document HTML valide
+
+Jusqu’à présent n’ont été évoqués que des extraits isolés de code HTML. Mais un document HTML (= une page Web) nécessite une structure spécifique pour être valide.
+
+Pourquoi nous soucions-nous de valider un document HTML?
+
+- un document valide est correctement affiché par le navigateur
+- un code HTML invalide peut provoquer des bogues difficiles à cibler
+- un document valide est plus facile à mettre à jour ultérieurement, même par quelqu’un d’autre
+
+### Doctype
+
+La première information à fournir est le type de document HTML que nous écrivons: le `doctype`.
+
+Il faut considérer le `doctype` comme la version d’une voiture au fil des années: une Ford Fiesta achetée en 1986 était une Fiesta 2. Si l’on en achète une aujourd’hui, c’est une Fiesta 7.
+
+Auparavant, plusieurs versions de HTML coexistaient (XHTML et HTML 4.01 étaient des normes concurrentes). De nos jours, HTML 5 est la norme.
+
+Pour indiquer au navigateur que le document HTML est écrit en HTML 5, la première ligne du document doit être :
+
+```
+<!DOCTYPE html>
+```
+
+### L’élément `<html>`
+
+À part la ligne `doctype`, tout votre document HTML doit être placé dans un élément `<html>`:
+```
+<!DOCTYPE html>
+<html>
+   <!-- Le reste de votre code HTML est ici -->
+</html>
+```
+Le `<html>` est l’ancêtre de tous les éléments HTML.
+
+
+
+### `<head>`
+
+De la même manière que les attributs portent des informations supplémentaires pour un élément HTML, l’élément <head> contient des informations supplémentaires pour l’ensemble de la page Web.
+
+Par exemple, le titre de la page (affiché dans l’onglet) se trouve dans la balise `<head>`:
+```
+<head>
+   <title>Mon magnifique site</title>
+<head>
+```
+D’autres éléments HTML peuvent apparaître dans le `<head>` et uniquement dans le `<head>`:
+
+- `<link>`
+- `<meta>`
+- `<style>`
+
+### `<body>`
+
+Bien que `<head>` ne contienne que des métadonnées qui ne doivent être affichées nulle part (à l’exception du `<title>`), l’élément `<body>` est l’endroit est saisi l’ensemble du contenu. Tout ce qui se trouve à l’intérieur du `<body>` sera affiché dans la fenêtre du navigateur.
+
+# Un document HTML complet et valide
+
+En combinant toutes ces exigences, nous pouvons écrire un document HTML simple et valide:
+
+```
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon magnifique site</title>
+</head>
+<body>
+    <p>Hello World!</p>
+</body>
+</html>
+```
+
+Si vous voyez cet exemple dans votre navigateur, vous verrez ceci:
+
+- “Mon magnifique site” est écrit dans l’onglet du navigateur
+- “Hello World!” est le seul texte affiché dans la fenêtre, car c’est le seul contenu du `<body>`
+
+—
+
+<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io), sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>
