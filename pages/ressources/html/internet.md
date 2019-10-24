@@ -79,7 +79,7 @@ Par exemple, l’URL de la page en cours est https://ateliers.esad-pyrenees.fr/w
 Cette URL est unique et définit
 
 - *où* trouver quelque chose sur le web (ateliers.esad-pyrenees.fr/web/…)
-- *comment l'ordinateur est censé le lire (https://)
+- *comment* l'ordinateur est censé le lire (https://)
 
 Les URL peuvent être plus complexes. Vous pouvez lire sur l'anatomie d'une URL.
 
