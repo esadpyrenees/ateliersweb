@@ -1,12 +1,13 @@
-# Le Web
+# WWW
 
-## Le Web est une partie d’Internet: la partie HTTP(S)
+## HTTP(S)
 
-Nous avons vu comment des ordinateurs connectés à Internet communiquent dans différentes langues, appelées protocoles, pour échanger des courriels, des fichiers, des messages de discussion…
+Internet est un gigantesque réseau d’ordinateurs. Il constitue le support physique d’un autre réseau, un réseau d’informations constitué par les milliards de documents dispersés sur des millions d’ordinateurs serveurs dans le monde et reliés les uns aux autres selon le principe de l’hypertexte, le World Wide Web.
 
-L’un de ces protocoles s’appelle HTTP. C’est le protocole avec lequel les ordinateurs partagent des pages Web entre eux.
+Les ordinateurs connectés à Internet communiquent dans différentes langues, appelées protocoles, pour échanger des courriels, des fichiers, des messages de discussion…
 
-Le Web est la partie d’Internet où les pages Web sont partagées. Vous pouvez savoir que vous naviguez sur le Web si l’URL du document consulté commence par **http://** ou **https://**.
+L’un de ces protocoles s’appelle HTTP (pour Hyper Text Transfer Protocol). Le Web est la partie d’Internet où les pages Web sont partagées via ce protocole. Vous pouvez savoir que vous naviguez sur le Web si l’URL du document consulté commence par **http://** ou **https://**.
+
 
 ## Pages Web
 

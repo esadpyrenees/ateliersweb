@@ -2,8 +2,7 @@
 
 ## Un réseau géant d’ordinateurs
 
-Internet et le web sont deux choses différentes. Internet est plus ancien, plus vaste et plus varié que le web.
-Le web n’est qu’une partie d’internet, celle à laquelle on accède via le protocole http (ou https).
+Internet et le Web sont deux choses différentes. Internet est plus ancien, plus vaste et plus varié que le web. Le Web n’est qu’une partie d’Internet, celle à laquelle on accède via le protocole http (ou https).
 
 > Internet est le réseau informatique mondial accessible au public. C'est un réseau de réseaux, […] sans centre névralgique, composé de millions de réseaux aussi bien publics que privés, universitaires, commerciaux et gouvernementaux […]. L'information est transmise via Internet grâce à un ensemble standardisé de protocoles de transfert de données, qui permet des applications variées comme le courrier électronique, la messagerie instantanée, le pair-à-pair et le World Wide Web. C'est l'apparition de ce dernier qui a popularisé Internet.
 
@@ -41,7 +40,7 @@ Une adresse IP ressemble généralement à une combinaison de 4 chiffres: `91.19
 
 Bien que les adresses IP permettent aux ordinateurs de se différencier grâce à leur unicité, elles sont difficiles à lire et à mémoriser.
 
-C’est pourquoi les **domaines** ont été créés en 1985. Ils *associent* une adresse IP telle que `128.30.52.100` à une chaîne de texte telle que w3.org (le World Wide Web Consortium). En conséquence, les deux sont interchangeables: on peut accéder à https://128.30.52.100 ou https://w3.org et se retrouver sur le même site Web.
+C’est pourquoi les **domaines** ont été créés en 1985. Ils *associent* une adresse IP telle que `128.30.52.100` à une chaîne de texte telle que `w3.org` (le World Wide Web Consortium). Les deux sont théoriquement interchangeables: on peut accéder à https://128.30.52.100 ou https://w3.org et se retrouver sur le même site Web.
 
 Un domaine a trois parties qui se lisent de droite à gauche:
 

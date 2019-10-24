@@ -32,3 +32,10 @@ Codrops est un blog consacré au design et au développement web qui offre des [
 
 #### StackOverflow
 [StackOverflow](https://stackoverflow.com/) est le service de référence pour des questions/réponses autour du monde de la programmation, en [HTML](https://stackoverflow.com/questions/tagged/html), [CSS](https://stackoverflow.com/questions/tagged/css), [JS](https://stackoverflow.com/questions/tagged/javascript), mais aussi [Python](https://stackoverflow.com/questions/tagged/python) ou [Processing](https://stackoverflow.com/questions/tagged/processing).
+
+
+## Outils
+
+#### Codepen
+
+[Codepen](https://codepen.io/) est un service web permettant de tester et de présenter des extraits de code HTML, CSS et JavaScript créés par ses utilisateurs. Il fonctionne comme un éditeur de code en ligne et un environnement d’apprentissage opensource, où les développeurs peuvent créer des extraits de code, appelés "pens", les tester et les partager.

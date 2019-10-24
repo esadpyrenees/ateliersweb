@@ -1,5 +1,7 @@
 <?php
+
     include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
+
     $Parsedown = new Parsedown();
 
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
@@ -12,7 +14,7 @@
   ?>
 
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./web.md') ); ?>
+      <?= $Parsedown->text( file_get_contents('./start.md') ); ?>
   </main>
 
   <?php

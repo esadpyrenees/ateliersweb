@@ -18,6 +18,9 @@ body {
     overflow-x: hidden;
     margin: 0 0 0 2rem;
 }
+h1, h2, h3 {
+    color: black
+}
 
 nav ul { list-style: none; padding: 0; margin: 0 0 1.4em; }
 a { color: inherit; border-bottom: 1px solid #ccc; text-decoration: none; }
@@ -156,6 +159,7 @@ pre, code {
     overflow-x: auto;
 }
 pre code { font-size: .85em; }
+li code,
 p code {
     background: #eee;
     }
