@@ -265,6 +265,39 @@ Il y a environ 100 éléments HTML sémantiques parmi lesquels choisir. La liste
 
 ## Formater le code
 
-En HTML, l’espacement n’importe (presque) pas.
+En HTML, l’espacement n’importe (presque) pas : les espaces, les tabulations ou les sauts de ligne à l’intérieur du code source ne sont pas affichés par le navigateur.
+De multiples espaces, tabulation ou sauts de ligne ne sont rendus que par une seule espace.
+
+```
+<blockquote>
+    Tout su
+        tout blanc
+        corps nu
+        blanc
+
+    un mètre
+        jambes collées comme cousues.
+
+    Lumières chaleur
+        sol blanc
+        un mère carré
+            jamais vu.
+</blockquote>
+```
+Résultat interprété par le navigateur :
+<blockquote>
+    Tout su
+        tout blanc
+        corps nu
+        blanc
+
+    un mètre
+        jambes collées comme cousues.
+
+    Lumières chaleur
+        sol blanc
+        un mère carré
+            jamais vu.
+</blockquote>
 
 ## Un document HTML valide
