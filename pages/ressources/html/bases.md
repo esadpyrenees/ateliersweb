@@ -204,6 +204,32 @@ De nombreux éléments en ligne sont disponibles, mais on rencontre généraleme
 - `<small>` pour les mots moins importants
 - `<abbr>` pour les abréviations telles que W3C, PDF ou ÉSAD
 
+### Éléments génériques
+
+Lorsque apparemment aucun élément sémantique ne semble convenir à votre contenu mais que l’on souhaite  insérer un élément HTML (à des fins de regroupement ou d’application de style), on peut choisir l’un des deux éléments génériques:
+
+- `<div>` pour les éléments de niveau bloc
+- `<span>` pour les éléments en ligne
+
+Bien que ces éléments HTML ne signifient rien, ils sont particulièrement utiles pour la liaison aux feuilles de style CSS.
+
+### Ne pas aller trop loin
+
+Il y a environ 100 éléments HTML sémantiques parmi lesquels choisir. La liste suivante récapitule les principaux éléments :
+
+| Structure | Text | Inline |
+| --- | --- | --- |
+| header | p | a |
+| h1 | ul | strong |
+| h2 | ol | em |
+| h3 | li | q |
+| nav | blockquote 	 | abbr |
+| footer | | small |
+| article | | *span* |
+| section | | |
+| *div* | | |
+
+
 En lisant ce code HTML correctement balisé, on peut facilement comprendre la signification de chaque élément HTML.
 
 ```
@@ -236,32 +262,6 @@ En lisant ce code HTML correctement balisé, on peut facilement comprendre la si
     </ul>
 </aside>
 ```
-
-### Éléments génériques
-
-Lorsque apparemment aucun élément sémantique ne semble convenir à votre contenu mais que l’on souhaite  insérer un élément HTML (à des fins de regroupement ou d’application de style), on peut choisir l’un des deux éléments génériques:
-
-- `<div>` pour les éléments de niveau bloc
-- `<span>` pour les éléments en ligne
-
-Bien que ces éléments HTML ne signifient rien, ils sont particulièrement utiles pour la liaison aux feuilles de style CSS.
-
-### Ne pas aller trop loin
-
-Il y a environ 100 éléments HTML sémantiques parmi lesquels choisir. La liste suivante récapitule les principaux éléments :
-
-| Structure | Text | Inline |
-| --- | --- | --- |
-| header | p | a |
-| h1 | ul | strong |
-| h2 | ol | em |
-| h3 | li | q |
-| nav | blockquote 	 | abbr |
-| footer | | small |
-| article | | *span* |
-| section | | |
-| *div* | | |
-
 
 ## Espaces et formatage du code
 
@@ -316,17 +316,16 @@ Ce qui donne :
 
 <p>S&nbsp;p&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;e</p>
 
-#### Indentation
-Plus un document HTML est complexe et contient de balises imbriquées, plus il est compliqué de se repérer à l’intérieur s’il n’est pas correctement “indenté”.
+### Indentation
+Plus un document HTML est complexe et contient de balises imbriquées, plus il est compliqué de se repérer à l’intérieur s’il n’est pas correctement “indenté” (l’indentation est l’espace généré en début de ligne par la succession de séries d’espaces ou de tabulations).
 
-Il est préférable (**indispensable**) d’écrire :
+Même si les deux codes sont équivalents, il est largement préférable (voire tout à fait **indispensable**) d’écrire :
 ```
 <article>
     <p>
         Ce code est écrit sur
         <strong>plusieurs</strong>
-        lignes, mais sera néanmoins
-        affiché sur
+        lignes, mais sera néanmoins affiché sur
         <em>une</em>
         seule.
     </p>
@@ -343,7 +342,7 @@ Plutôt que :
     seule.</p></article>
 ```
 
-Même si les deux codes afficheront :
+Ils afficheront :
 <article>
     <p>
         Ce code est écrit sur
@@ -366,7 +365,7 @@ Il n’existe pas de règles spécifiques concernant le formatage HTML, mais il 
 
 Jusqu’à présent n’ont été évoqués que des extraits isolés de code HTML. Mais un document HTML (= une page Web) nécessite une structure spécifique pour être valide.
 
-Pourquoi nous soucions-nous de valider un document HTML?
+Pourquoi se soucier de valider un document HTML?
 
 - un document valide est correctement affiché par le navigateur
 - un code HTML invalide peut provoquer des bogues difficiles à cibler

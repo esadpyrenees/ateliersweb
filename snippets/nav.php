@@ -61,7 +61,10 @@
 <nav class="pane subnav <?php echo $section == 'projets' ? 'active' : '' ?>"  id="projets">
     <ul>
         <li class="<?php echo $subsection == 'htsh' ? 'opened' : '' ?>"><a href="/web/pages/projets/htsh/">Hypertext superhero</a></li>
-        <li class="<?php echo $subsection == 'htsh' ? 'opened' : '' ?>"><a href="/web/pages/projets/htsh/">Hypertext superhero</a></li>
+        <li class="<?php echo $subsection == 'pechakucha' ? 'opened' : '' ?>"><a href="/web/pages/projets/pechakucha/">Pecha Kucha</a></li>
+        <li class="<?php echo $subsection == 'webradiola' ? 'opened' : '' ?>"><a href="/web/pages/projets/webradiola/">Webradiola</a></li>
+        <li class="<?php echo $subsection == 'zones' ? 'opened' : '' ?>"><a href="/web/pages/projets/zones/">Zones</a></li>
+        <li class="<?php echo $subsection == 'programmation' ? 'opened' : '' ?>"><a href="/web/pages/projets/programmation/">Programmation</a></li>
     </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
