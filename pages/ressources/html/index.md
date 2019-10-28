@@ -13,6 +13,12 @@ Le web est un média dans lequel il est donc capital de séparer le contenu, sa 
 2. le [langage `CSS`](../CSS/) sert à suggérer la mise en forme de ce contenu ; il est orienté vers la **forme**,
 3. le [langage `Javascript`](../JS/) permet de manipuler HTML et CSS afin de répondre aux interactions de l’utilisateur ; il est orienté vers **l’interactivité**.
 
+
+[→ Démarrer avec HTML](start/){.bigbutton}
+
+[→ Internet *vs* le Web ](internet/){.bigbutton}
+
+
 ## Ressources en ligne
 
 Les ressources en ligne pour apprendre le design et le développement web sont *très* nombreuses.

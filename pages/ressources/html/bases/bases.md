@@ -435,7 +435,7 @@ D’autres éléments HTML peuvent apparaître dans le `<head>` et uniquement da
 
 Si `<head>` ne contient que des métadonnées qui ne sont affichées nulle part (à l’exception du `<title>`), l’élément `<body>` est l’endroit où est saisi l’ensemble du contenu. Tout ce qui se trouve à l’intérieur du `<body>` sera affiché dans la fenêtre du navigateur.
 
-# Un document HTML complet et valide
+### Un document HTML complet et valide
 
 En combinant toutes ces exigences, nous pouvons écrire un document HTML simple et valide:
 
@@ -456,6 +456,10 @@ Si vous voyez cet exemple dans votre navigateur, vous verrez ceci:
 
 - “Mon magnifique site” est écrit dans l’onglet du navigateur
 - “Hello World!” est le seul texte affiché dans la fenêtre, car c’est le seul contenu du `<body>`
+
+
+
+[→ Le contenu](../content/){.bigbutton}
 
 —
 

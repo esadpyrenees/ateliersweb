@@ -54,6 +54,9 @@ Un navigateur web ne peut afficher qu’un nombre réduit des types de fichiers 
 - Les feuilles de styles ont l’extension `css` ;
 - Les fichiers javascript ont l’extension `js`.
 
+
+[→ Les bases](../bases/){.bigbutton}
+
 —
 
 <small>Contenu librement adapté et largement emprunté à [MDN Web docs](https://developer.mozilla.org/fr/docs/Apprendre/).</small>

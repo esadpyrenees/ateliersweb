@@ -23,7 +23,7 @@
             </ul>
         </li>
         <li class="<?= $subsubsection == 'content' ? 'opened' : '' ?>">
-            <a href="/web/pages/ressources/html/content/">Content</a>
+            <a href="/web/pages/ressources/html/content/">Contenu</a>
             <ul class="contextsub">
                 <li><a href="#text">Texte</a></li>
                 <li><a href="#inline">En ligne</a></li>
