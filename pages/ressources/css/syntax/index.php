@@ -7,7 +7,7 @@
 
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
-    $subsection="CSS";
+    $subsection="css";
     $subsubsection="syntax";
 
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");

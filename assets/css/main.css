@@ -14,7 +14,7 @@ html {
 
 body {
     display: flex;
-    width: calc(100vw + 6rem);
+    /* width: calc(100vw + 6rem); */
     overflow-x: hidden;
     margin: 0 0 0 2rem;
 }
@@ -366,10 +366,85 @@ ul.list{
 
 
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 45em) {
+    body {
+        display: block;
+        margin: 0 0 0 3rem;
+    }
+    .pane {
+        background: white;
+        height: auto;
+        border-top: 2px solid #000;
+        border-left: none;
+        transition: transform 150ms ease-out;
+        padding: 2rem 1.5rem;
+        overflow: hidden;
+        display: none;
+        position: static;
+        top: 0;
+        left: 3rem;
+        width: auto;
+    }
+    #content{
+        position: static;
+        padding: 2rem 1.5rem;
+    }
+    nav.pane {
+        max-width: 100%;
+        padding: 1rem 1.5rem;
+        background: #eee;
+    }
+    nav ul {
+        margin: 0;
+    }
+    nav li, nav h3, nav ul {
+        display: inline-block;
+    }
+    .pane.active { display: block; }
+    .active ~ .active { transform:none}
+    .active ~ .active ~ .active { transform:none}
+    .active:hover ~ .active { transform:none}
+    .active:hover ~ .active ~ .active { transform:none}
+    .active ~ .active:hover ~ .active { transform:none}
+    .active ~ .active ~ .active ~ .active { transform:none}
+    .active:hover ~ .active ~ .active  ~ .active { transform:none}
+    .active ~ .active:hover ~ .active  ~ .active { transform:none}
+    .active ~ .active ~ .active:hover  ~ .active { transform:none}
+    .active ~ .active ~ .active ~ .active ~ .active { transform:none}
+
+    .active ~ #content,
+    .active ~ .active ~ #content,
+    .active ~ .active ~ .active ~ #content,
+    .active ~ .active ~ .active ~ .active ~ #content { width: 100%}
 }
 
+
+@media only screen and (max-width: 30em) {
+    body {
+        display: block;
+        margin: 0 ;
+    }
+    #header {
+        position: static;
+        width: 100%;
+        transform: none;
+        padding: .5em 2rem;
+        height: 3rem;
+        display: flex;
+        padding: 1.5rem 1.5rem 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 27em) {
+    #content,
+    nav.pane,
+    .pane,
+    #header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),

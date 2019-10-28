@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  
+
   <header id="header">
     <h1>Ateliers web</h1>
     <h2>ÉSAD·Pyrénées</h2>

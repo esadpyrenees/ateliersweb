@@ -9,13 +9,6 @@
       <li class="<?= $subsubsection == 'box' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/box/">Box model</a></li>
       <li class="<?= $subsubsection == 'positions' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/positions/">Positions</a></li>
       <li class="<?= $subsubsection == 'layout' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/layout/">Mise en page</a></li>
-
-    <!-- <li><a href="/web/pages/ressources/css/#style">Style</a></li>
-    <li><a href="/web/pages/ressources/css/#syntaxe">Syntaxe</a></li>
-    <li><a href="/web/pages/ressources/css/#display">Display</a></li>
-    <li><a href="/web/pages/ressources/css/#largeurs">Dimensions</a></li>
-    <li><a href="/web/pages/ressources/css/#positions">Positions</a></li>
-    <li><a href="/web/pages/ressources/css/#floats">Flottants</a></li> -->
   </ul>
   <h3>Avancé</h3>
   <ul>

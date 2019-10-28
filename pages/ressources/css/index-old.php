@@ -1,7 +1,7 @@
   <?php
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
-    $subsection="CSS";
+    $subsection="css";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/css.php");
