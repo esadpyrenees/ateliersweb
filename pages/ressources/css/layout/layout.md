@@ -30,6 +30,12 @@ Consulter la [**documentation sommaire**](../../grid/) et voir quelques exemples
 
 ## Ressources
 
+#### Layoutland
+Learn what's now possible in graphic design on the web — layout, CSS Grid, and more. A series for designers and web developers created by Jen Simmons, Mozilla Designer and Developer Advocate.
+
+[☞ https://www.youtube.com/layoutland](https://www.youtube.com/layoutland)
+
+
 ## Exemples
 
 Quelques exemples de mise en page sont disponibles dans [la section dédiée](../../../exemples/#layout)
