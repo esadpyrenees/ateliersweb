@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>webradiola — 01</title>
+	    <link rel="stylesheet" type="text/css" href="../assets/exemples.css">
+	    <style type="text/css">
+
+	    	#bouton { 
+		        font-family: sans-serif;
+		        background: black;
+		        color: white;
+		        height: 100px;
+		        width: 100px;
+		        line-height: 100px;
+		        text-align: center;
+		        cursor: pointer;
+		        border-radius:100px;
+		    }
+		    .playing {
+		    	animation: playing_anim 250ms infinite alternate
+		    }
+		    @keyframes playing_anim {
+		    	0% { opacity:1 }
+		    	100% { opacity:.5 }
+		    }
+		    
+	    </style>
+	</head>
+	<body>
+
+		<p>Audio controlé par javascript avec bouton personnalisé</p>
+		
+        <audio src="../assets/audio/Fluxus-Anthology_07_Robert-Filliou.mp3" id="audioplayer"></audio>
+        <div id="bouton" class="paused">Play!</div>
+
+
+	    <script type="text/javascript">
+	    var player = document.getElementById('audioplayer');
+		var bouton = document.getElementById('bouton');
+		
+		bouton.addEventListener('click', function(){
+		  if (player.paused) {
+		    bouton.className='playing';
+		    bouton.innerHTML = 'Pause!';
+		    player.play();
+		  } else {
+		    bouton.className='paused';
+		    player.pause();
+		    bouton.innerHTML = 'Play!'
+		  }
+		})
+</script>
+	</body>
+</html>

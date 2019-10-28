@@ -1,0 +1,12 @@
+/* CSS */
+html, body { height: 100%}
+
+body { 
+	transition:all 200ms ease-out; 
+	background: #000; 
+	cursor: pointer;
+	color: rgba(255,255,255,.5);
+	font:700 50px sans-serif;
+	}
+
+

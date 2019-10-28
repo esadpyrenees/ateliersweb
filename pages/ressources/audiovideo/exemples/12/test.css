@@ -1,0 +1,19 @@
+/* CSS */
+html, body { height: 100%}
+
+body { 
+	background: #000; 
+	overflow: hidden;
+	}
+
+.truc { 
+	/* 
+		la règle ci-dessous active l’accélération matérielle pour les transitions 
+		cf. http://www.alsacreations.com/astuce/lire/1565-acceleration-materielle-au-service-de-vos-animations-css.html
+	*/
+	transform: translateZ(0);
+	
+	position: absolute; 
+	transition:all 250ms ease-out; 
+	border-radius: 100%;
+	}

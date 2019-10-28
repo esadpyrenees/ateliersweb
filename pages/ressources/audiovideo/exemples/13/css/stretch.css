@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: 'reglo';
+    src: url('reglo-bold-webfont.eot');
+    src: url('reglo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('reglo-bold-webfont.woff2') format('woff2'),
+         url('reglo-bold-webfont.woff') format('woff'),
+         url('reglo-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+    }
+
+
+body { 
+    overflow-x: hidden;
+    font-family: 'reglo', sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    }
+
+a { color: inherit; text-decoration: none; border-bottom: 2px solid;}
+
+p { clear: both; margin-bottom: 1em;}
+
+.stretched {    
+    display: inline-block; 
+    font-size: 4vw;     
+    float: left; 
+    margin: 0 .5em 0 0; 
+    line-height: 1.2;
+    white-space: nowrap;
+    transform-origin:0 0;
+    }

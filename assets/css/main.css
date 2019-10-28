@@ -68,6 +68,7 @@ nav button {
 nav.pane{
     max-width: 10rem;
 }
+
 #content{
     position: absolute;
     padding: 2rem 2rem 6rem;
@@ -122,6 +123,15 @@ nav h3 {
 }
 nav .mixitup-control-active,
 nav .opened {font-weight: bold;}
+
+.contextsub {
+    display: none
+}
+.opened .contextsub {
+    display: block;
+    font-weight: normal;
+    padding-left: 1em
+}
 
 main h1 { font-size: 1.4rem; margin-top: 1em; padding-top: 2rem;}
 main > h1:first-of-type { margin-top: 0; padding-top: 0; }

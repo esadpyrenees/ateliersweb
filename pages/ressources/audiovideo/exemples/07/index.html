@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+            form { position: relative; }
+        </style>
+    </head>
+    <body>
+        
+
+        <div id='map'></div>
+
+        <form>
+            <input type = "button" onclick = "getLocationUpdate();" value = "Watch Update"/>
+        </form>
+
+        <script>
+
+            // initialiser la carte créée avec Mabox Studio
+            mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWVuYiIsImEiOiJWTzBDVFg0In0.9nmlzbnQ2mMOUX4Tu0ELzQ';
+            var map = null,
+                watchID = null,
+                geoLoc = null;
+
+            var init = true;
+            
+            function showLocation(position) {
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+                if (init) {
+                    map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/julienb/cjo7vooky0m2z2ro6v90xk8b3',
+                        center: [latitude, longitude],
+                        zoom: 2.2
+                    });
+                }
+                console.log("Latitude : " + latitude + " Longitude: " + longitude);
+            }
+            
+            function errorHandler(err) {
+                if(err.code == 1) {
+                    console.log("Error: Access is denied!");
+                } else if( err.code == 2) {
+                    console.log("Error: Position is unavailable!");
+                }
+            }
+            
+            function getLocationUpdate(){
+            
+                if(navigator.geolocation){
+                
+                    // timeout at 60000 milliseconds (60 seconds)
+                    var options = {timeout:60000};
+                    geoLoc = navigator.geolocation;
+                    watchID = geoLoc.watchPosition(showLocation, errorHandler, options);
+                } else {
+                    console.log("Sorry, browser does not support geolocation!");
+                }
+            }
+        </script>
+    </body>
+</html>

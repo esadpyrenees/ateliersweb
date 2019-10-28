@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>webradiola — 06</title>
+	    <link rel="stylesheet" type="text/css" href="../assets/exemples.css">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	    <style type="text/css">
+	    	html, body{  height:100%;}
+	    	body{ 
+	    		font-family:"Times New Roman", Times, serif;
+	    		margin:0;
+	    		align-items:center; 
+	    	}
+	    	#rate{ 
+	    		width: calc(100vh - 4em);
+				position:absolute;
+				right: 4em;
+				top: 0;
+				transform: rotate(270deg) translate(calc(-100vh + 2em), calc(100vh - 4em));
+				display: block;
+				transform-origin:0 0 
+	    	}
+	    	#duration{
+	    		position:absolute;
+	    		top:50vh;
+	    		width:calc(100vw - 4em); 
+	    	}
+	    	#timer { 
+	    		color:#eee; 
+	    	}
+	    	p { 
+	    		font-family:sans-serif;
+	    		position:absolute; 
+	    		top: 2em;
+	    		left:2em;
+	    		padding-right: 6em;
+	    		margin:0
+	    	}
+	    </style>
+	</head>
+	<body>
+
+		
+		<input type=range min=0 max=3 value=1 id="rate" step=0.1 >
+
+
+		<p>
+			
+			alpha : <span id="alpha"></span><br>
+			beta : <span id="beta"></span><br>
+			gamma : <span id="gamma"></span><br><br>
+
+			x : <span id="x"></span><br>
+			y : <span id="y"></span><br>
+			z : <span id="z"></span><br><br>
+
+			Variation de la vitesse de lecture (rate) selon l’orientation (beta) du mobile
+
+			Robert Filliou imitating the Sound of Birds 1979 – from <a href="http://www.ubu.com/sound/filliou.html">Fluxus Anthology</a>
+		</p>
+		
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="gyro.js"></script>
+		<script type="text/javascript" src="howler.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	    
+	</body>
+</html>

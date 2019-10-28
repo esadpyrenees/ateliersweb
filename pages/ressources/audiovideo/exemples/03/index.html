@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>webradiola — 03</title>
+	    <link rel="stylesheet" type="text/css" href="../assets/exemples.css">
+	    <style type="text/css">
+	    	.playerdiv {
+				background: rgb(0,0,0);
+				height: 200px;
+				width: 200px;
+				border-radius:20vw;
+				color:white;
+				position:absolute;
+				transition:all 150ms;
+				transform:scale(0.8);
+				animation:petitbrrrr 50ms infinite alternate;
+			}
+
+			.petit{
+				
+			}
+			.gros{
+				transform:scale(1.3);
+				animation:brrrr 50ms infinite alternate;
+			}
+			@keyframes petitbrrrr {
+				0% {  transform:scale(0.82); }
+				100% {  transform:scale(0.78); }
+			}
+			@keyframes brrrr {
+				0% {  transform:scale(1.35); }
+				100% {  transform:scale(1.25); }
+			}
+	    </style>
+	</head>
+	<body>
+
+		<p>
+			Multiples lecteurs audio générés et controlés par javascript, <br>
+			Positions aléatoires
+		</p>
+		<p>
+			<input id="check" type="checkbox"></input>
+			<label for="check">Poursuivre la lecture en fin de survol</label>
+		</p>
+
+		
+		<script type="text/javascript">
+		
+			// Une liste des fichiers audio
+			var audios = [
+				'../assets/audio/Artaud-Antonin_01_Opening-Text-01.mp3',
+				'../assets/audio/Artaud-Antonin_01_Opening-Text-02.mp3',
+				'../assets/audio/Artaud-Antonin_01_Opening-Text-03.mp3',
+				'../assets/audio/Artaud-Antonin_01_Opening-Text-04.mp3',
+				'../assets/audio/Artaud-Antonin_01_Opening-Text-05.mp3'
+				];
+			// une variable pour ranger les players
+			var players = [];
+
+			// Pour chaque audio…
+			for (var i = 0; i < audios.length; i++) {
+
+				// on crée les éléments HTML
+				var player = document.createElement('div'),
+					audio =  document.createElement('audio');
+				// on les enregistre dans la liste des players
+				players.push(player);
+
+				// on leur affecte les attributs :
+				// • de classe (pour le bouton) 
+				player.className = 'playerdiv';
+				// • de src (pour l’audio)
+				audio.src = audios[i];
+
+				// on ajoute l’audio au player (appendChild = “ajoute un enfant”)
+				player.appendChild(audio);
+				// on ajoute le player au body
+				document.body.appendChild(player);
+
+				// on les positionne aléatoirement
+				// pour plus d’infos sur l’aléatoire :
+				// http://ateliers.esapyrenees.fr/web/ramdam/
+				var available_width = window.innerWidth - 200, // 200px est la largeur du bouton
+					available_height = window.innerHeight - 200, // 200px est la hauteur du bouton
+					t = Math.floor( Math.random() * available_height),
+					l = Math.floor( Math.random() * available_width);
+				player.style.left = l + 'px';
+				player.style.top = t + 'px';
+				
+				// Quand la souris le survole
+				player.addEventListener('mouseenter', function(){
+					// on sélectionne le premier enfant (qui doit être un <audio>)
+					var audioplayer = this.children[0];			
+					// on lance la lecture
+					audioplayer.play();
+
+					// ajoute / enlève les classes .petit et .gros
+					for (var i = 0; i < players.length; i++) {
+						var player = players[i];
+						if(player == this) {
+							// si c’est l’élément en cours de survol (“this”)
+							player.classList.add('gros');
+							player.classList.remove('petit');
+						} else {
+							// sinon
+							player.classList.remove('gros');
+							player.classList.add('petit');
+						}
+					}
+					
+				})
+
+				// Quand la souris quitte le survol
+				player.addEventListener('mouseleave', function(){
+					if (checked = document.querySelector('#check').checked) return;
+
+					console.log (check.checked);
+
+					// on sélectionne le premier enfant (qui doit être un <audio>)
+					var audioplayer = this.children[0];
+					// on pause la lecture
+					audioplayer.pause();
+					// on remet la tête de lecture à 0
+					audioplayer.currentTime = 0;
+
+					// ajoute / enlève les classes .petit et .gros
+					for (var i = 0; i < players.length; i++) {
+						var player = players[i];
+						if(player == this) {
+							// si c’est l’élément en cours de survol (“this”)
+							player.classList.remove('petit');
+							player.classList.remove('gros');
+						} else {
+							// sinon
+							player.classList.remove('petit');
+							player.classList.remove('gros');
+						}
+					}
+				})
+			}
+		</script>
+	    
+	</body>
+</html>

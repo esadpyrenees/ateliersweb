@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>webradiola — 03</title>
+	    <link rel="stylesheet" type="text/css" href="../assets/exemples.css">
+	    <style type="text/css">
+	    	html, body{  height:100%;}
+	    	body{ 
+	    		font-family:"Times New Roman", Times, serif;
+	    		display:flex; 
+	    		align-items:center; 
+	    	}
+	    	input[type=range]{ 
+	    		width:100%; 
+	    		position:relative; 
+	    	}
+	    	#timer { 
+	    		color:#eee; 
+	    		text-align:center;
+	    		font-size:30vw; 
+	    		width:100%; 
+	    		position:absolute; 
+	    	}
+	    	p { 
+	    		font-family:sans-serif;
+	    		position:absolute; 
+	    		top: 2em;
+	    		left:2em;
+	    	}
+	    </style>
+	</head>
+	<body>
+
+		<div id="timer"></div>
+		<input type=range min=0.1 max=3 value=1 id="rate" step=0.1>
+
+		<p>
+			Variation de la vitesse de lecture (rate) <br>
+			Robert Filliou imitating the Sound of Birds 1979 – from <a href="http://www.ubu.com/sound/filliou.html">Fluxus Anthology</a>
+		</p>
+		
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="howler.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	    
+	</body>
+</html>

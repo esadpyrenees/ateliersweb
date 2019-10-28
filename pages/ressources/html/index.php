@@ -5,13 +5,15 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="html";
+    $subsubsection="html";
+
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/html.php");
   ?>
 
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./index.md') ); ?>    
+      <?= $Parsedown->text( file_get_contents('./index.md') ); ?>
   </main>
 
   <?php

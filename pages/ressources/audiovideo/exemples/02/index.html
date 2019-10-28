@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>webradiola — 02</title>
+	    <link rel="stylesheet" type="text/css" href="../assets/exemples.css">
+	    <style type="text/css">
+	    	.playerdiv {
+				background: rgb(0,0,0);
+				height: 200px;
+				width: 200px;
+				border-radius:20vw;
+				color:white;
+				position:absolute;
+				transition:all 150ms
+			}
+
+			#playerdiv3 {top:60vh; left:40vw}
+			#playerdiv2 {top:10vh; left:20vw}
+			#playerdiv1 {top:40vh; left:10vw}
+
+			#playerdiv3.on {background: red}
+			#playerdiv2.on {background: blue}
+			#playerdiv1.on {background: yellow}
+
+
+			.petit{
+				transform:scale(0.8);
+				background:pink;
+			}
+			.gros{
+				transform:scale(1.3);
+				background:red;
+			}
+	    </style>
+	</head>
+	<body>
+
+		<p>
+			Multiples lecteurs audio controlés par javascript
+		</p>
+
+		<div id="playerdiv1" class="playerdiv">
+			<audio src="../assets/audio/Artaud-Antonin_01_Opening-Text-01.mp3" class="audioplayer" ></audio>
+		</div>
+
+		<div id="playerdiv2" class="playerdiv">
+			<audio src="../assets/audio/Artaud-Antonin_01_Opening-Text-02.mp3" class="audioplayer" ></audio>
+		</div>
+
+		<div id="playerdiv3" class="playerdiv">
+		    <audio src="../assets/audio/Artaud-Antonin_01_Opening-Text-03.mp3" class="audioplayer" ></audio>
+		</div>
+
+		<script type="text/javascript">
+		
+			// On sélectionne tous les <div class="playerdiv">
+			var playerdivs = document.querySelectorAll('.playerdiv');
+			
+
+			// Pour chaque div…
+			for (var i = 0; i < playerdivs.length; i++) {
+				
+				// Quand la souris le survole
+				playerdivs[i].addEventListener('mouseenter', function(){
+					// on sélectionne le premier enfant (qui doit être un <audio>)
+					var audioplayer = this.children[0];			
+					// on lance la lecture
+					audioplayer.play();
+
+					// ajoute / enlève les classes .petit et .gros
+					for (var i = 0; i < playerdivs.length; i++) {
+						var player = playerdivs[i];
+						if(player == this) {
+							// si c’est l’élément en cours de survol (“this”)
+							player.classList.add('gros');
+							player.classList.remove('petit');
+						} else {
+							// sinon
+							player.classList.remove('gros');
+							player.classList.add('petit');
+						}
+					}
+					
+				})
+
+				// Quand la souris quitte le survol
+				playerdivs[i].addEventListener('mouseleave', function(){
+					// on sélectionne le premier enfant (qui doit être un <audio>)
+					var audioplayer = this.children[0];
+					// on pause la lecture
+					audioplayer.pause();
+					// on remet la tête de lecture à 0
+					audioplayer.currentTime = 0;
+
+					// ajoute / enlève les classes .petit et .gros
+					for (var i = 0; i < playerdivs.length; i++) {
+						var player = playerdivs[i];
+						if(player == this) {
+							// si c’est l’élément en cours de survol (“this”)
+							player.classList.remove('petit');
+							player.classList.remove('gros');
+						} else {
+							// sinon
+							player.classList.remove('petit');
+							player.classList.remove('gros');
+						}
+					}
+				})
+			}
+		</script>
+	    
+	</body>
+</html>
