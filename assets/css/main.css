@@ -348,6 +348,19 @@ ul.list{
     }
 
 
+.bigbutton {
+    background: black;
+    display: inline-block;
+    padding: .75em 1.5em .5em;
+    color: white;
+    border: none;
+    border-radius: .25em;
+    text-transform: uppercase;
+    margin-top: 2em
+}
+.bigbutton:hover{
+    background: crimson
+}
 
 
 

@@ -37,7 +37,7 @@ Ce sont les types de listes les plus couramment utilisés. Elles servent à regr
 <p>Liste de courses :</p>
 <ul>
   <li>Lait </li>
-  <li>pain </li>
+  <li>Pain </li>
   <li>Chocolat </li>
   <li>Plus de chocolat…</li>
 </ul>
@@ -48,7 +48,7 @@ Les éléments de la liste sont affichés (par défaut) avec des puces.
 <p>Liste de courses :</p>
 <ul>
   <li>Lait </li>
-  <li>pain </li>
+  <li>Pain </li>
   <li>Chocolat </li>
   <li>Plus de chocolat…</li>
 </ul>
@@ -93,7 +93,7 @@ Les titres sont destinés à être utilisés avec les paragraphes et les listes,
 <div id="inline"></div>
 ## Sémantique en ligne
 
-Si les paragraphes et les listes visent à identifier des blocs de texte, il est souvent nécessaire de pouvoir donner du sens à un mot (ou à quelques mots) au sein du texte.
+Si les paragraphes et les listes visent à identifier des blocs de texte, il est souvent nécessaire de donner du sens à un mot (ou à quelques mots) au sein du texte.
 
 ### Strong
 
@@ -107,7 +107,7 @@ Pour les mots importants, on utilise la balise `<strong>`:
 C’est **important** !
 
 
-Par défaut, les éléments `<strong>` sont affichés en gras. `<strong>` ne doit pas être utilisé uniquement pour mettre du texte en gras, mais pour donner au texte plus d’importance (avec l’aide de CSS, on pourra préférer changer sa couleur plutôt que sa graisse).
+Par défaut, les éléments `<strong>` sont affichés en gras. ⚠️ Attention, `<strong>` ne doit pas être utilisé uniquement pour mettre du texte en gras, mais pour donner au texte plus d’importance (avec l’aide de CSS, on pourra préférer changer sa couleur plutôt que sa graisse).
 
 ### Accentuation
 
@@ -119,7 +119,7 @@ Pour appuyer un mot au sein du texte,on utilise la balise `<em>`:
 ```
 Ceci est <em>parfaitement</em> clair.
 
-Par défaut, les éléments `<em>` sont affichés en italique. `<em>` ne doit pas être utilisé uniquement pour mettre du texte en italique, mais pour donner au texte plus d’importance (avec l’aide de CSS, on pourra préférer changer sa couleur plutôt que son style).
+Par défaut, les éléments `<em>` sont affichés en italique. ⚠️ Attention, `<em>` ne doit pas être utilisé uniquement pour mettre du texte en italique, mais pour donner au texte plus d’importance (avec l’aide de CSS, on pourra préférer changer sa couleur plutôt que son style).
 
 N.B. : Lorsque le **sens** l’exige, on peut utiliser la balise `<i>`, par exemple pour l’inclusion d’un terme en langue étrangère :
 ```
@@ -145,13 +145,21 @@ On ajoute généralement un attribut `title` pour spécifier la description de l
 
 ### Citations en ligne
 
-L’élément `<blockquote>` est un élément de niveau bloc. Il a une version en ligne, pour les citations intégrées à une phrase : <q>:
+L’élément `<blockquote>` est un élément de niveau bloc. Il a une version en ligne, pour les citations intégrées à une phrase :
 ```
 <p>
-  J’ai dit <q>“Hello World”</q> et je suis parti.
+  J’ai dit <q>“Bonjour monde”</q> et je suis parti.
 </p>
 ```
-J’ai dit <q>“Hello World”</q> et je suis parti.
+J’ai dit <q>“Bonjour monde”</q> et je suis parti.
+
+### Non-sémantique
+Lorsque l’on balise un élément de contenu qui n’a pas de signification particulière (par exemple, pour ajouter une couleur ou une graisse à un mot pour une raison autre que l’emphase), on peut utiliser l’élément `<span>`.
+```
+<p>
+  Ceci est un <span>élément</span> singulier.
+</p>
+```
 
 
 <div id="links"></div>
@@ -159,11 +167,11 @@ J’ai dit <q>“Hello World”</q> et je suis parti.
 
 Les liens sont des éléments essentiels du HTML ; le Web a été conçu pour être un réseau d’information constitué de documents **liés** entre eux.
 
-La partie «HyperText» de HTML définit le type de ces liens : liens hypertextes, ou hyperliens. Le mot “hypertexte” a été créé en 1965 par Ted Nelson, pour décrire la notion bien plus ancienne de liaisons entre des documents.
+La partie “HyperText” de HTML définit le type de ces liens : liens hypertextes, ou hyperliens. Le mot “hypertexte” a été créé en 1965 par Ted Nelson, pour décrire la notion (bien plus ancienne) de liaisons entre des documents.
 
 En HTML, les liens sont des éléments en ligne écrits avec la balise `<a>` (pour *anchor*, ancre).
 
-L’attribut `href` (référence hypertexte) est utilisé pour définir la cible du lien (auquel on accède lorsqu’on clique).
+L’attribut `href` (référence hypertexte) est utilisé pour définir la cible du lien (à laquelle on accède lorsqu’on clique).
 ```
 <p>
   Pour vous perdre, naviguez dans le <a href="https://desordre.net">Désordre</a>.
@@ -191,9 +199,7 @@ Par exemple, `<a href="#top">` fait défiler la page jusqu’à l’élément do
 
 ### URL relatives
 
-Si on souhaite définir un lien vers une autre page du même site Web, on utilise des URL relatives. (relatives au document courant).
-
-Mais par rapport à quoi? Eh bien, par rapport à la page en cours.
+Si on souhaite définir un lien vers une autre page du même site Web, on utilise des URL relatives (relatives au document courant, à la page en cours).
 
 Exemple : le dossier “mon-site” contient deux fichiers HTML (`home.html` et `contact.html`), mais aussi un sous-dossier “projets” qui contient d’autres pages.
 
@@ -234,16 +240,32 @@ Cette URL peut être segmentée en 3 parties:
 
 Cette URL absolue est autonome : peu importe où l’on affiche le lien, il contient toutes les informations nécessaires pour trouver le bon fichier, dans le bon domaine, avec le bon protocole.
 
-On utilise généralement des URL absolues quand on veut produire un lien vers un autre site Web. Votre page `contact.html` pourra ainsi contenir un lien vers le site de l’ÉSAD :
+On utilise généralement des URL absolues quand on veut produire un lien vers un autre site Web. La page `contact.html` pourra ainsi contenir un lien vers le site de l’ÉSAD :
 ```
 <p>
   J’étudie à l’<a href="https://esad-pyrenees.fr/">ÉSAD Pyrénées</a>.
 </p>
 ```
 <div id="images"></div>
-## Images
+## Images & médias
 
-Les images sont le premier contenu non textuel apparu sur le Web. Seuls quelques formats d’image peuvent être affichés dans un navigateur: `.jpg`, `.gif` (animé ou non), `.png` (transparent ou non) ou `.svg` (format d’images vectorielles).
+Les images sont le premier contenu non textuel apparu sur le Web. Seuls quelques formats d’image peuvent être affichés dans un navigateur : principalement  `.jpg`, `.gif` (animé ou non), `.png` (transparent ou non) ou `.svg` (format d’images vectorielles).
+
+### Formats
+
+#### jpg
+Les images JPG sont conçues pour gérer de grandes palettes de couleurs sans augmenter de façon exorbitante la taille du fichier. Cela les rend parfaits pour les photos et les images comportant de nombreux dégradés. En revanche, les fichiers JPG ne permettent pas de pixels transparents.
+
+#### gif
+Les GIF sont l’option par excellence pour les animations simples, mais ils ont en revanche une limite en termes de palette de couleurs : on ne les utilise jamais pour des photos. Les pixels transparents sont une option binaire pour les GIF, on ne peut pas avoir de pixels semi-opaques. Cela peut rendre difficile l’obtention de niveaux de détail élevés sur un arrière-plan transparent. Pour cette raison, il est généralement préférable d’utiliser des images PNG si l’on n’a pas besoin d’animation.
+
+#### png
+
+Les PNG sont parfaits pour tout ce qui n’est pas une photo ou une animation. Pour les photos, un fichier PNG de même qualité (tel que perçu par l’œil humain) serait généralement plus volumineux qu’un fichier JPG équivalent. Cependant, ils gèrent parfaitement la transparence (PNG 24) et n’ont pas de limites de palette de couleurs. Cela les rend parfaits pour les icônes, graphiques, logos, etc.
+
+#### svg
+
+Contrairement aux formats d’image bitmap (basés sur des pixels) ci-dessus, SVG est un format graphique basé sur des vecteurs. Les SVG peuvent être agrandis ou réduits à n’importe quelle dimension sans perte de qualité. Cette propriété fait des images SVG un outil formidable pour le design *responsive*.
 
 ### La syntaxe
 
@@ -262,18 +284,27 @@ L’attribut `src` définit l’emplacement de l’image. Comme pour les liens, 
 </p>
 ```
 
-
-### Dimensions
-
 Chaque image a deux dimensions: une largeur et une hauteur, exprimées en **pixels**.
 
-Lors de l’insertion d’une image en HTML, il n’est pas nécessaire de spécifier ses dimensions: le navigateur l’affichera automatiquement dans sa taille réelle. Il est important de faire attention à la taille **en pixels** des images que l’on utilise.
+Lors de l’insertion d’une image en HTML, il n’est pas nécessaire de spécifier ses dimensions: le navigateur l’affichera automatiquement dans sa taille réelle.
 
-Si l’on souhaite modifier les dimensions d’une image, même si cela est possible en HTML grâce aux attributs `width` et `height`, il est recommandé d’utiliser CSS.
+⚠️ Il est important de faire attention à la **taille en pixels** des images que l’on utilise, notamment pour éviter le chargement d’images trop lourdes.
+
+Si l’on souhaite modifier les dimensions d’affichage d’une image, même si cela est possible en HTML grâce aux attributs `width` et `height`, il est recommandé d’utiliser CSS.
 
 ### Audio & vidéo
 
 Les balises `<audio>` et `<video` qui permettent d’insérer des médias audio et vidéo dans une page web sont décrites en détail dans [la section dédiée](../../audiovideo/).
+
+### `<canvas>` et `<iframe>`
+La balise `<canvas>` ajoute la possibilité de créer des animations avec du code. Il peut s’agir de 2d (avec [p5.js](https://p5js.org/), ou [paper.js](http://paperjs.org/) par exemple) ou de 3d (avec [three.js](https://threejs.org/) ou [Zdog](https://zzz.dog/)). Elle agit comme un espace rectangulaire dont le contenu est manipulable en javascript exclusivement. Voir [la page dédiée à canvas](../../canvas/)
+
+Les `<iframe>` sont un type de média particulier : ils constituent essentiellement une fenêtre vers une autre page Web. Ils sont aussi appelés *embed*.
+On les rencontre notamment si l’on veut intégrer une vidéo provenant d’un service externe (Youtube, Vimeo) :
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yfskVxCn_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
 
 <div id="structure"></div>
 ## Structure
@@ -344,6 +375,21 @@ Les éléments `<section>` et `<article>` permettent de grouper des contenus.
 
 Leurs différences sémantiques sont minces. `<section>` est utile pour découper un document en multiples blocs. `<article>` est utile pour définir un contenu autonome. Tous deux sont sensés contenir un titre (`<h1>`, `<h2>`, etc.)
 
+### Figures
+
+L’élément `<figure>` est généralement utilisé pour englober des images, illustrations, diagrammes, ou même des *snippets* de code. Il peut être utilisé en conjonction avec l’élément `<figcaption>` pour signaler la légende.
+
+```
+<figure>
+    <img src="cat.jpg" alt="Une photo de mon chat">
+    <figcaption>Mon chat est noir.</figcaption>
+</figure>
+```
+
+### Divisions
+
+Comme pour la balise *inline* `<span>`, on a souvent besoin de grouper le contenu dans des blocs plus précis (généralement pour lui associer une mise en forme CSS). Dans ce cas, il est possible d’utiliser la balise `<div>`, qui ne porte aucun sens. Il faut veiller à l’utiliser le moins possible, pour garder le code HTML le plus *sémantique* possible.
+
 <div id="forms"></div>
 ## Formulaires
 
@@ -411,12 +457,16 @@ input[type=radio], input[type=checkbox]{ width:auto}
 | password | <input type="password"> | affiche les caratères sous forme de points |
 | number | <input type="number"> | permet d’utiliser les touches du clavier (haut / bas) |
 | tel | <input type="tel"> | peut déclencher un remplissage automatique. |
-| textarea | <textarea></textarea> | peuvent être redimensionnées |
+| search | <input type="search"> | affiche une icône spécifique |
+| range | <input type="range"> | affiche un *slider* |
+| color | <input type="color"> | affiche un sélecteur de couleur |
+| textarea | <textarea></textarea> | peut être redimensionné |
 
 Bien que ces entrées soient très similaires et permettent aux utilisateurs de saisir tout type de texte (même une entrée erronée), leur type fournit une sémantique spécifique à l’entrée, en définissant le type d’information qu’il est supposé contenir.
 
 Les navigateurs peuvent ensuite modifier légèrement l’interface d’un contrôle pour augmenter son interactivité ou indiquer le type de contenu attendu.
 
+[Voir l’exemple de plus de champs de formulaire](forms/)
 
 ### Placeholders
 

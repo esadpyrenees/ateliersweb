@@ -8,7 +8,7 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="CSS";
-    $subsubsection="start";
+    $subsubsection="units";
     
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
@@ -16,7 +16,7 @@
   ?>
 
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./css.md') ); ?>
+      <?= $Parsedown->text( file_get_contents('./units.md') ); ?>
   </main>
 
   <?php

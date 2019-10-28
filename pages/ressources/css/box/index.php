@@ -8,15 +8,15 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="CSS";
-    $subsubsection="start";
-    
+    $subsubsection="box";
+
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/css.php");
   ?>
 
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./css.md') ); ?>
+      <?= $Parsedown->text( file_get_contents('./box.md') ); ?>
   </main>
 
   <?php

@@ -20,9 +20,9 @@ Pour créer un document HTML, il suffit de créer un fichier texte (cmd/ctrl + N
 Le code HTML est purement sémantique ; il s’agit de donner du **sens** à un texte.
 Pour ce faire, HTML “balise” des éléments du contenu en les encadrant :
 ```
-(ici commence un paragraphe)
-    <Le contenu textuel du paragraphe>
-(ici finit le paragraphe)
+[ici commence un paragraphe]
+    ( Le contenu textuel du paragraphe )
+[ici finit le paragraphe]
 ```
 L’objectif du balisage HTML est de créer des limites aux éléments (ici commence / ici finit) en leur apportant du sens (ceci est un titre / une liste / une image / un paragraphe…).
 
@@ -113,8 +113,8 @@ Cela vient de la capacité à imbriquer des éléments HTML les uns dans les aut
 ```
 <p>
     Le vieux juge <strong>Alex Ferguson</strong> dit : 
-    <q>« Buvez du whisky, fumez du chanvre, goûtez l’élixir de la jeune époque »<q>
-<p>
+    <q>« Buvez du whisky, fumez du chanvre, goûtez l’élixir de la jeune époque »</q>
+</p>
 ```
 Qui se trouve interprêté par le navigateur ainsi :
 
@@ -138,7 +138,7 @@ On imbrique les éléments HTML pour structurer le contenu.
     <em>Portez ce vieux whisky au juge blond qui fume</em> est probablement le plus célèbre <strong>pangramme</strong> français, n’utilisant qu’une seule fois chaque consonne et constituant en outre un alexandrin. En anglais, il s’agit de <em>The quick brown fox jumps over the lazy dog</em>.
   </p>
   <p>
-    <em>Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera ! </em>, créé par <strong>Gilles Esposito-Farèse</strong>, contient les 42 caractères de la langue française.
+    <em>Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera !</em>, créé par <strong>Gilles Esposito-Farèse</strong>, contient les 42 caractères de la langue française.
   </p>
 </article>
 ```
@@ -149,7 +149,7 @@ Le code ci-dessus s’interprête comme suit :
     <em>Portez ce vieux whisky au juge blond qui fume</em> est probablement le plus célèbre <strong>pangramme</strong> français, n’utilisant qu’une seule fois chaque consonne et constituant en outre un alexandrin. En anglais, il s’agit de <em>The quick brown fox jumps over the lazy dog</em>.
   </p>
   <p>
-    <em>Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera ! </em>, créé par <strong>Gilles Esposito-Farèse</strong>, contient les 42 caractères de la langue française.
+    <em>Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera !</em>, créé par <strong>Gilles Esposito-Farèse</strong>, contient les 42 caractères de la langue française.
   </p>
 </article>
 
@@ -158,10 +158,10 @@ Dans cette configuration:
 - `<article>` est l’**ancêtre** de tous les autres éléments
 - `<article>` est le **parent** du `<h1>` et des trois `<p>`
 - `<h1>` et les trois `<p>` sont **frères**
-- chaque `<p>` est le **parent** du `<strong>` et des `<em>` qu’ils contiennent
+- chaque `<p>` est le **parent** du `<strong>` et des `<em>` qu’ils contient
 - chaque `<h1>`, `<p>`, `<strong>` et `<em>` sont tous des **descendants** de `<article>`
 
-L’analogie de l’arbre généalogique s’applique toujours lors de la traversée de plusieurs couches d’imbrication HTML:
+L’analogie de l’arbre généalogique s’applique toujours lors de la traversée de plusieurs niveaux d’imbrication HTML:
 
 - un **descendant** de l’élément X est un élément *contenu* dans X
 - un **enfant** est juste un descendant *direct*
@@ -215,7 +215,7 @@ De nombreux éléments en ligne sont disponibles, mais on rencontre généraleme
 
 ### Éléments génériques
 
-Lorsque apparemment aucun élément sémantique ne semble convenir à votre contenu mais que l’on souhaite  insérer un élément HTML (à des fins de regroupement ou d’application de style), on peut choisir l’un des deux éléments génériques:
+Lorsque apparemment aucun élément sémantique ne semble convenir au contenu mais que l’on souhaite  insérer un élément HTML (à des fins de regroupement ou d’application de style), on peut choisir l’un des deux éléments génériques:
 
 - `<div>` pour les éléments de niveau bloc
 - `<span>` pour les éléments en ligne
@@ -320,11 +320,11 @@ Ce qui donne :
 
 Pour forcer une espace mot, on utilise l’espace insécable, qui peut s’encoder en HTML avec `&nbsp;` ou être saisie directement dans le texte (sur MacOS : `alt + espace`).
 ```
-<p>S&nbsp;p&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;e</p>
+<p>E s &nbsp; p &nbsp;&nbsp; a &nbsp;&nbsp;&nbsp; c &nbsp;&nbsp;&nbsp;&nbsp; e</p>
 ```
 Ce qui donne :
 
-<p>S&nbsp;p&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;e</p>
+<p>E s &nbsp; p &nbsp;&nbsp; a &nbsp;&nbsp;&nbsp; c &nbsp;&nbsp;&nbsp;&nbsp; e</p>
 
 ### Indentation
 Plus un document HTML est complexe et contient de balises imbriquées, plus il est compliqué de se repérer à l’intérieur s’il n’est pas correctement “indenté” (l’indentation est l’espace généré en début de ligne par la succession de séries d’espaces ou de tabulations).
@@ -381,6 +381,12 @@ Pourquoi se soucier de valider un document HTML?
 - un document valide est correctement affiché par le navigateur
 - un code HTML invalide peut provoquer des bogues difficiles à cibler
 - un document valide est plus facile à mettre à jour ultérieurement, même par quelqu’un d’autre
+- un document valide est accessible ; il aide les technologies d’assistance à lire et à interpréter la page Web
+- il offre une mailleure possibilité de recherche et aide les ordinateurs et moteurs de recherche à comprendre le sens du contenu
+- il offre de meillures perspectives d’internationalisation
+- il est interopérable, et aide les autres programmeurs à comprendre la structure de la page Web
+
+Si la majorité des visiteurs naviguent sur le Web avec CSS, ceux qui utilisent des lecteurs d’écran et la plupart des robots peuvent simplement scanner et interpréter le code HTML. Ils ont besoin de balises adéquates pour comprendre l’architecture de l’information.
 
 ### Doctype
 
@@ -427,7 +433,7 @@ D’autres éléments HTML peuvent apparaître dans le `<head>` et uniquement da
 
 ### `<body>`
 
-Bien que `<head>` ne contienne que des métadonnées qui ne doivent être affichées nulle part (à l’exception du `<title>`), l’élément `<body>` est l’endroit est saisi l’ensemble du contenu. Tout ce qui se trouve à l’intérieur du `<body>` sera affiché dans la fenêtre du navigateur.
+Si `<head>` ne contient que des métadonnées qui ne sont affichées nulle part (à l’exception du `<title>`), l’élément `<body>` est l’endroit où est saisi l’ensemble du contenu. Tout ce qui se trouve à l’intérieur du `<body>` sera affiché dans la fenêtre du navigateur.
 
 # Un document HTML complet et valide
 
