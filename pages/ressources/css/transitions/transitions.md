@@ -1,0 +1,105 @@
+# Transitions et animations
+
+## Transitions
+
+Les transitions permettent d’animer facilement des éléments de la page sans recourir à JavaScript.
+
+#### Un exemple rapide
+```
+a {
+    color: blue;
+}
+a:hover {
+    color: green
+}
+```
+
+<style>
+.notrans a {
+    color: orange;
+}
+.notrans a:hover {
+    color: green
+}
+</style>
+
+<p class="notrans">
+    <a href="#">Survolez-moi !</a>
+</p>
+Le lien passe sans transition d’orange à vert lorsqu’il est survolé.
+
+La propriété `transition` permet une animation fluide (plutôt qu’un saut d’un état à un autre). C’est une propriété abrégée qui combine les propriétés suivantes (qui peuvent être utilisées individuellement):
+
+- `transition-property` : quelle propriété (ou quelles propriétés) sera / seront en transition?
+- `transition-duration` : combien de temps dure la transition.
+- `transition-timing-function` : si la transition a lieu à une vitesse constante, si elle accélère ou décélère.
+- `transition-delay` : combien de temps attendre jusqu’à ce que la transition ait lieu.
+
+On l’applique sur l’élément dans son état initial :
+
+```
+a {
+    transition: color 500ms linear 0ms;
+    color: blue;
+}
+a:hover {
+    color: green
+}
+```
+
+<style>
+.trans a {
+    transition: color 500ms linear 0ms;
+    color: orange;
+}
+.trans a:hover {
+    color: green
+}
+</style>
+
+<p class="trans">
+    <a href="#">Survolez-moi !</a>
+</p>
+
+La valeur de la propriété de transition indique ici que seule la couleur sera animée, en une demi-seconde, de manière linéaire et sans délai.
+
+Pour qu’une transition ait lieu, seule la durée de la transition est requise, le reste étant par défaut : `transition-property: all; transition-timing-function: ease; transition-delay: 0;`.
+
+### Easing
+
+La propriété `transition-timing-function` indique comment le navigateur doit gérer les états intermédiaires de la transition.
+
+La propriété décrit une courbe cubique de Bézier : `ease` produit une accélération progressive au début de la transition et une décélération progressive à la fin ; `linear` maintient une vitesse constante tout au long de l’animation ; `ease-in` produit une accélération progressive et `ease-out` une décélération progressive.
+
+Pour plus de finesse, il est possible de saisir une fonction plus précise :
+```
+a {
+    transition: color 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+```
+
+Voir [Ceaser – CSS Easing Animation Tool](https://matthewlein.com/tools/ceaser).
+
+
+## Animations
+
+La règle `@keyframes` permet de définir les étapes qui composent la séquence d'une animation CSS de manière plus précise qu’avec les transitions, et sans qu’un changement d’état soit nécessaire :
+
+```
+.shake {
+    animation: brbrbrbr linear .2s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    }
+
+@keyframes brbrbrbr {
+    0%    { transform:  translate(0px,0px) }
+    33%   { transform:  translate(1px,0px) }
+    66%  { transform:  translate(-1px,0px) }
+    }
+
+```
+
+<div class="shake">shake!</div>
+
+N. B. : L’animation ci-dessus utilise en outre les “transformations CSS”.

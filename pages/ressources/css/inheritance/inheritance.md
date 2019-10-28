@@ -84,3 +84,7 @@ La règle `#introduction { color: red; }` est plus spécifique que les autres ca
 
 
 [→ Styler le texte](../text/){.bigbutton}
+
+—
+
+<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io) et à [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>

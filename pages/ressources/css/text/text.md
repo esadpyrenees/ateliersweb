@@ -14,13 +14,13 @@ Les polices sont regroupées dans de grandes familles génériques:
 - scriptes, ou `cursive`, à éviter
 - on évitera aussi l’usage de `fantasy`…
 
-La propriété `font-family` est héritée par tous les éléments enfants HTML, on peut donc appliquer une police à l'ensemble du document HTML en l'appliquant sur l'ancêtre de tous les éléments HTML: l'élément `<body>`.
+La propriété `font-family` est héritée par tous les éléments enfants HTML, on peut donc appliquer une police à l’ensemble du document HTML en l’appliquant sur l’ancêtre de tous les éléments HTML: l’élément `<body>`.
 
 ```
 body {font-family: sans-serif;}
 ```
 
-Avec cette règle CSS, la page Web utilisera la police sans-serif définie par l'utilisateur dans ses préférences.
+Avec cette règle CSS, la page Web utilisera la police sans-serif définie par l’utilisateur dans ses préférences.
 
 # Polices Web
 
@@ -45,7 +45,7 @@ p { font-size: 16px; }
 blockquote { font-size: 2em; }
 .big { font-size: 8vw; }
 ```
-N'oubliez pas que définir une taille de police de 16px ne donnera pas à chaque lettre une hauteur de 16 px. La taille réelle de chaque lettre dépend de la famille de polices utilisée.
+N’oubliez pas que définir une taille de police de 16px ne donnera pas à chaque lettre une hauteur de 16 px. La taille réelle de chaque lettre dépend de la famille de polices utilisée.
 
 ### Style
 
@@ -85,10 +85,91 @@ La propriété `font-variant` transforme le texte en petites capitales:
 h2 { font-variant: small-caps; }
 ```
 
-## line-height
+### Aller plus loin
 
-## font shorthand
+De nombreuses autres propriétés permettent de gérer avec beaucoup de finesse la typographie sur le web.
+Elles sont détaillées dans [la page dédiée](../../typo/).
 
-## text properties
+## Interligne
 
-[→ les boîtes](../box/){.bigbutton}
+La propriété `line-height`, lorsqu’elle est appliquée à un élément de niveau bloc, définit, comme son nom l’indique littéralement, la hauteur de chaque ligne.
+
+La propriété `line-height` peut utiliser les unités `px`, `em`, `%` ou pas d’unité : `1.5`.
+
+Les valeurs sans unité agissent essentiellement comme des pourcentages. Donc, 150% est égal à 1,5. Ce dernier est juste plus compact et lisible.
+
+La hauteur de ligne a pour but de définir un interligne lisible pour votre texte. La lisibilité dépendant de la taille du texte, il est recommandé d’utiliser une valeur dynamique relative à la taille du texte. L’utilisation de `px` n’est donc pas recommandée car elle définit une valeur statique.
+
+Utiliser les `px` est utile lorsque l’on souhaite aligner le texte verticalement en fonction d’un autre élément et non en fonction de la taille de la police.
+
+- pour le corps du texte, une hauteur de ligne de 1.5 fois la taille du texte est un bon point de départ.
+- pour les en-têtes, une valeur de 1 à 1.2 permet d’avoir des titres plus compacts
+
+## Propriétés du texte
+
+Outre les nombreuses propriétés font-\*, CSS fournit de nombreuses propriétés text-\*.
+
+### Alignement
+
+La propriété `text-align` doit être appliquée sur un élément de niveau bloc et définit comment son texte et ses éléments intégrés sont alignés horizontalement.
+```
+body { text-align: left; }
+```
+Les valeurs les plus utilisées sont:
+
+- `left` : à gauche
+- `right` : à droite
+- `center` : centre
+- `justify` : justifier
+
+La valeur `justify` est à manier avec précaution. Les possibilités de contrôle des césures n’étant pas encore très puissantes dans les navigateurs, l’utilisation de `justify` en particulier avec des lignes courtes peut occasionner de sérieuses difficultés de lectures et de [disgracieuses lézardes](https://fr.wikipedia.org/wiki/L%C3%A9zarde_(imprimerie)).
+
+
+### “Décoration”
+
+La propriété `text-decoration` est utilisée pour ajouter une ligne au texte, dessus, dessous ou à travers. Les valeurs possibles sont `overline`, `underline` et `line-through`. Par défaut, les liens `<a>` ont un `text-decoration: underline`.  On peut le supprimer :
+```
+a { text-decoration: none; }
+```
+### Retrait
+
+La propriété `text-indent` permet d’ajouter de l’espace avant la première lettre de la première ligne d’un élément de niveau bloc.
+
+```
+blockquote { text-indent: 30px; }
+```
+<style>
+blockquote { text-indent: 30px; }
+.shadow { text-shadow: 0 2px 5px rgba(0,255,0,0.9) }
+</style>
+> Pour la plupart des gens, une typographie parfaite n’offre pas d’attraits esthétiques particuliers […]. La conscience de servir anonymement et sans attendre de reconnaissance particulière, des œuvres de valeur et un petit nombre d’hommes optiquement réceptifs, est en général la seule récompense que reçoit le typographe pour son long apprentissage jamais achevé.  
+    — Jan Tschichold
+
+Seule la première ligne est en retrait. Si l’on souhaite décaler tout le bloc de texte, il faut des marges intérieures, le [`padding`](../box/#padding).
+
+Comme pour la propriété `font-size`, vous pouvez utiliser les unités `px`, `em`, etc.
+
+### Ombre
+
+On peut ajouter une ombre à un texte pour le rendre plus ou moins lisible…
+
+On définit:
+
+1. le décalage horizontal
+2. le décalage vertical
+3. le flou
+4. la couleur
+
+```
+.shadow { text-shadow: 0 2px 5px rgba(0,255,0,0.9) }
+```
+
+# À l’ombre des jeunes filles en fleurs {.shadow}
+
+Seules les valeurs x et y sont requises. Le flou par défaut est zéro, tandis que la couleur par défaut est celle du texte.
+
+[→ les arrière-plans](../background/){.bigbutton}
+
+—
+
+<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io) et à [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>

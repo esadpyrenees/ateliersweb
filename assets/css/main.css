@@ -143,7 +143,7 @@ main h2 {
     display: block;
     margin-top: 2em;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 400;
 }
 main h2 + p { margin: 0em 0 .5em }
 main h1 + h2 { margin-top: 1em; }
@@ -333,7 +333,7 @@ ul.list{
     display: inline-block;
     opacity: 0;
 }
-
+.shake,
 #randomramdam span.brbrbr {
     opacity: 1;
     animation: brbrbrbr linear .2s;
