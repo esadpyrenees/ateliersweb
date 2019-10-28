@@ -14,7 +14,7 @@
         <li class="<?php echo $subsection == 'html' ? 'opened' : '' ?>"><a href="/web/pages/ressources/html/">HTML</a></li>
         <li class="<?php echo $subsection == 'css' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/">CSS</a></li>
         <li class="<?php echo $subsection == 'js' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/">Javascript</a></li>
-        <li class="<?php echo $subsection == 'python' ? 'opened' : '' ?>"><a href="/web/pages/ressources/Python/">Python</a></li>
+        <li class="<?php echo $subsection == 'python' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/">Python</a></li>
         <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/">Typographie</a></li>
         <li class="<?php echo $subsection == 'audiovideo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/audiovideo/">Audio &amp; vidéo</a></li>
         <li class="<?php echo $subsection == 'rwd' ? 'opened' : '' ?>"><a href="/web/pages/ressources/rwd/">Responsive</a></li>
