@@ -34,7 +34,8 @@
     </ul>
     <p>
         Le projet est de comprendre et d’appliquer les principes de mise en page du web contemporain, et d’appréhender la “fluidité” du texte dans son rapport à différents médias.
-    </p></main>
+    </p>    <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    </main>
 <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
 ?>

@@ -15,6 +15,7 @@
       En attendant, aller jouer avec <a href="https://p5js.org/">p5.js</a>, <a href="http://paperjs.org/">paper.js</a> ou encore <a href="http://pixijs.download/">pixi.js</a>.
     </p>
 
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
   <?php 

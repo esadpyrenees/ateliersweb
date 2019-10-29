@@ -49,6 +49,7 @@
             <?= $Parsedown->text( file_get_contents('./6.references.md') ); ?>
         </section>
     </div>
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
     <script type="text/javascript">

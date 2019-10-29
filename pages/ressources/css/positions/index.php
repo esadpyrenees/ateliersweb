@@ -28,7 +28,8 @@
 
   <main class="pane active" id="content">
       <?= $Parsedown->text( file_get_contents('./positions.md') ); ?>
-  </main>
+      <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    </main>
 
   <div id="fixed"></div>
   <?php

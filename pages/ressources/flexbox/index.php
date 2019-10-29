@@ -438,7 +438,8 @@
             </p>
         </section>
 
-  </main>
+      <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    </main>
 
   <script type="text/javascript">
 

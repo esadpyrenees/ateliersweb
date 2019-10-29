@@ -11,7 +11,8 @@
 
 <main class="pane active" id="content">
     <?= $Parsedown->text( file_get_contents('./webradiola.md') ); ?>
-</main>
+    <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    </main>
 <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
 ?>

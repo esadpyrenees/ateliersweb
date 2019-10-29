@@ -1,4 +1,4 @@
-<?php 
+<?php
     include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
     $Parsedown = new Parsedown();
 
@@ -8,15 +8,15 @@
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/audiovideo.php");
-  ?> 
+  ?>
 
   <main class="pane active" id="content">
     <section >
-            <div id="randomramdam" >WEBSOUNDS</div>                
+            <div id="randomramdam" >WEBSOUNDS</div>
         </section>
-        
+
     <div id="wrapper">
-    
+
         <section class="section" id="ressources-audiovideo">
             <?= $Parsedown->text( file_get_contents('./1-websounds.md') ); ?>
         </section>
@@ -44,14 +44,13 @@
         <div id="toc"></div>
 
     </div>
-        
-        
 
+
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    
     </main>
 
 
-  <?php 
+  <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
-
-  
+  ?>

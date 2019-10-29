@@ -12,7 +12,8 @@
 
         <?= $Parsedown->text( file_get_contents('./md.md') ); ?>
     
-  </main>
+      <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    </main>
 
   <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");

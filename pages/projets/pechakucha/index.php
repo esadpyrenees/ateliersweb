@@ -176,7 +176,8 @@
     </article>
 
 </div>
-</main>
+    <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    </main>
 <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
 ?>

@@ -17,6 +17,7 @@
     <?= $Parsedown->text( file_get_contents('./rwd.md') ); ?>
 
 
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
   <?php

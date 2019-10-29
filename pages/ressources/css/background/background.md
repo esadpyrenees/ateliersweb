@@ -26,17 +26,17 @@ Le comportement de l’image (comment elle se répète, où elle est placée, co
 
 L’élément HTML `<img>` concerne les images faisant partie du contenu, tandis que les images d’arrière-plan CSS sont purement décoratives.
 
-Le logo d’une entreprise, la vignette d’une galerie, l’image d’un produit… Tous ces éléments sont considérés comme du contenu et doivent utiliser l’élément HTML `<img>`. Si l’image que est essentielle à la page, utiliser l’élément `<img>`.
+Le logo d’une entreprise, la vignette d’une galerie, l’image d’un produit… Tous ces éléments sont considérés comme du contenu et doivent utiliser l’élément HTML `<img>`. Si l’image est essentielle à la page, utiliser l’élément `<img>`.
 
-Un motif, une icône représentant un panier… peuvent être considérés comme décoratifs, car ils soutiennent le contenu mais n’en font pas partie. Si elles devaient disparaître, la page Web aurait toujours du sens.
+Un motif ou une image décorative, une icône représentant un panier… peuvent être considérés comme optionels, car ils soutiennent le contenu mais n’en font pas partie. S’ils devaient disparaître, la page Web aurait toujours du sens.
 
 
 ## Dégradés
 
 CSS permet également de définir des dégradés de couleurs en tant qu’images d’arrière-plan, sous 2 formes différentes:
 
-- `linear-gradient` ; pour les gradients dans une seule direction, dans une forme rectangulaire
-- `radial-gradient` ; pour des gradients émergeant d’un point dans toutes les directions, de forme circulaire
+- `linear-gradient` ; pour les dégradés dans une seule direction, de forme rectangulaire
+- `radial-gradient` ; pour des dégradés émergeant d’un point dans toutes les directions, de forme circulaire
 
 ```
 .linear { background-image: linear-gradient(white, grey); }
@@ -60,7 +60,7 @@ CSS permet également de définir des dégradés de couleurs en tant qu’images
 
 ## Position d’arrière-plan
 
-On peut spécifier la position d’origine de l’arrière-plan en choisissant une valeur horizontale et une verticale :
+On peut spécifier la position d’origine de l’arrière-plan en choisissant une valeur horizontale et une valeur verticale :
 
 - valeurs en pixels `px`
 - en pourcentages, `%`, par rapport aux dimensions de l’élément HTML
@@ -68,11 +68,14 @@ On peut spécifier la position d’origine de l’arrière-plan en choisissant u
 
 ```
 body { background-position: bottom right; }
+/* Ci-dessous, l’image d’arrière-plan affichera son bord gauche à gauche du body, et son bord haut à -100px */
+body { background-position: 0px -100px; }
+
 ```
 
 ## Répétition de l’arrière-plan
 
-Par défaut, une image d’arrière-plan se répète indéfiniment. Vous pouvez choisir de ne le répéter que horizontalement, verticalement ou pas du tout.
+Par défaut, une image d’arrière-plan se répète indéfiniment. On peut choisir de ne la répéter qu’horizontalement, verticalement ou pas du tout.
 ```
 body { background-repeat: repeat-x; } /* uniquement horizontalement */
 body { background-repeat: repeat-y; } /* uniquement verticalement */
