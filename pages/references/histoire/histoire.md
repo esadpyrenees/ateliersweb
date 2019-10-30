@@ -21,7 +21,7 @@ Explore the timeline of milestones in the history of web design from 1990 to the
 <iframe width="650" height="365" sandbox="allow-same-origin allow-scripts" src="https://peertube.fr/videos/embed/998405f2-45b1-466a-8178-292ad74597d2" frameborder="0" allowfullscreen></iframe>
 Une contre-histoire de l’Internet est un film documentaire français réalisé par Sylvain Bergère et diffusé à la télévision française pour la première fois en mai 2013.
 
-#### Timeline des techonologies de l’édition numérique
+#### Timeline des technologies de l’édition numérique
 
 [![Timeline des techonologies de l’édition numériques](20190209-timeline-punlishing.png)](20190209-timeline-punlishing.png)
 

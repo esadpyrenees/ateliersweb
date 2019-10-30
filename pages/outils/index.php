@@ -1,9 +1,9 @@
-  <?php 
+  <?php
     $title = "ÉSAD·Pyrénées — Ateliers web — Exemples";
     $section="outils";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-  ?> 
+  ?>
 
   <main class="pane active" id="content">
     <h1 class="section-title">Outils</h1>
@@ -23,7 +23,7 @@
     </ul>
     </section>
     <section id="cms">
-      
+
         <h2 class="section-subtitle">Gestionnaires de contenus</h2>
         <p>Gestionnaires de contenus sans base de données.</p>
         <ul>
@@ -46,14 +46,12 @@
             <li><a href="http://cargocollective.com/">Cargo ($)</a></li>
             <li><a href="http://squarespace.com/">Squarespace ($)</a></li>
         </ul>
-    
+
     </section>
 
       <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
-  <?php 
+  <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
-
-  
+  ?>
