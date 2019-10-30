@@ -8,38 +8,18 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="css";
-    $subsubsection="positions";
+    $subsubsection="resources";
 
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/css.php");
+    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/grid.php");
   ?>
 
-  <style>
-  #fixed {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 20px;
-    height:20px;
-    background:black;
-  }
-  .sticky {
-    position: sticky;
-    float: right;
-    top: 0px;
-    width: 20px;
-    height:20px;
-    background:YellowGreen;
-  }
-  </style>
-
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./positions.md') ); ?>
+      <?= $Parsedown->text( file_get_contents('./resources.md') ); ?>
       <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
-  <div id="fixed"></div>
   <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
   ?>

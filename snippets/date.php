@@ -1,6 +1,9 @@
 <footer>
     <p>—</p>
     <small>
-        <?= date("d/m/Y", filemtime(__FILE__)); ?>
+        <?php
+            $file =  basename($_SERVER["SCRIPT_NAME"]);
+            echo date("d/m/Y", filemtime($file));
+        ?>
     </small>
 </footer>

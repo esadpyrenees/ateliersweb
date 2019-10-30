@@ -184,7 +184,8 @@ pre, code {
 }
 pre code { font-size: .85em; }
 li code,
-p code {
+p code,
+td code {
     background: #eee;
     }
 

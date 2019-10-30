@@ -27,6 +27,19 @@ La position `fixed` permet de définir la position d’un élément par rapprort
 
 Bien que particulièrement utile, cette propriété peut être gênante sur mobiles (si l’élément `fixed` est trop grand).
 
+
+
+### Sticky
+Avec la position `sticky` l'élément sera naturellement soumis au scroll du document, mais une fois qu'il a atteint un certain point par rapport à la fenêtre, il se met à « coller » et se comporte comme `position: fixed`. Exemple avec le carré vert à droite. 
+
+
+
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+<div class="sticky"></div>
+
 ### Relative
 
 La valeur `relative` est un outil très puissant pour la mise en page. Elle permet plusieurs comportements :  
@@ -96,7 +109,7 @@ La position `absolute` permet de positionner un élément en supprimant l’impa
 Cette position s’établit en effet _par rapport au document_ ou au premier élément parent dont la position est relative.
 
 <div class="el box" style="position:relative">
-    <div style="position:absolute; top: 20px; right: 20px; width: 20px; height:20px; background:red;"></div>
+    <div style="position:absolute; top: 20px; right: 20px; width: 20px; height:20px; background:FireBrick;"></div>
     <pre><code>
     .box {
         position:relative
@@ -107,7 +120,7 @@ Cette position s’établit en effet _par rapport au document_ ou au premier él
         right: 20px;
         width: 20px;
         height:20px;
-        background:red;
+        background:FireBrick;
     }
     </code></pre>
 </div>
