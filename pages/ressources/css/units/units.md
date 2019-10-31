@@ -169,4 +169,5 @@ h2 { font-size: 1.5rem; } /* = 27px */
 
 La différence entre rem et em est que les valeurs de rem sont fixes alors que les valeurs em peuvent se multiplier en fonction du contexte.
 
-[→ styler le texte](../text/){.bigbutton}
+
+[→ Styler le texte](../text/){.bigbutton}

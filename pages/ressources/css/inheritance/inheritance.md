@@ -83,7 +83,7 @@ La règle `#introduction { color: red; }` est plus spécifique que les autres ca
 
 
 
-[→ Styler le texte](../text/){.bigbutton}
+[→ Les unités](../units/){.bigbutton}
 
 —
 

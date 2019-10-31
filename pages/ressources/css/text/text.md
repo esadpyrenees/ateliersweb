@@ -66,15 +66,15 @@ La valeur par défaut est `font-weight: normal;`. . Les balises `<h1>` jusqu’�
 Selon la famille de polices utilisée, une gamme de graisses est disponible, allant de 100 à 900:
 
 ```
-font-size: 100; / * Fin * /
-font-size: 200; / * Extra-light * /
-font-size: 300; / * Light * /
-font-size: 400; / * Regular, équivalent de font-weight: normal; * /
-font-size: 500; / * Medium * /
-font-size: 600; / * Semi-gras * /
-font-size: 700; / * Gras, équivalent de font-weight: bold; * /
-font-size: 800; / * Extra-gras * /
-font-size: 900; / * Ultra-gras, Black * /
+font-weight: 100; / * Fin * /
+font-weight: 200; / * Extra-light * /
+font-weight: 300; / * Light * /
+font-weight: 400; / * Regular, équivalent de font-weight: normal; * /
+font-weight: 500; / * Medium * /
+font-weight: 600; / * Semi-gras * /
+font-weight: 700; / * Gras, équivalent de font-weight: bold; * /
+font-weight: 800; / * Extra-gras * /
+font-weight: 900; / * Ultra-gras, Black * /
 ```
 
 
