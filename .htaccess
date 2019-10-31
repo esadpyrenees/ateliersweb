@@ -1,10 +1,18 @@
 
 RewriteEngine On
 
+RewriteBase /web/
+
+# open graph protocol
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^archives/(.*)/  /web/pages/archives/index.php?params=$1 [L]
+RewriteCond %{REQUEST_URI} medias/(.*)/$
+RewriteRule ^medias/(.*)/$  ogimage.php?params=$1 [L]
 
-RewriteRule ^archives/$  /web/pages/archives/index.php [L]
+# archives
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^archives/(.*)/  pages/archives/index.php?params=$1 [L]
+RewriteRule ^archives/$  pages/archives/index.php [L]
 
-RewriteRule ^$  /web/pages/home.php [L]
-RewriteRule ^pages/$  /web/pages/home.php [L]
+# home
+RewriteRule ^$  pages/home.php [L]
+RewriteRule ^pages/$  pages/home.php [L]
