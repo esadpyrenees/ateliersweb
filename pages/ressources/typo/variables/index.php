@@ -8,7 +8,7 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="typo";
-    $subsubsection="opentype";
+    $subsubsection="variables";
 
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
@@ -16,7 +16,7 @@
   ?>
 
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./opentype.md') ); ?>
+      <?= $Parsedown->text( file_get_contents('./variables.md') ); ?>
       <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
