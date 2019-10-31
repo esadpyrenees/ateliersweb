@@ -53,5 +53,6 @@ Le projet est de comprendre et d’appliquer les principes de mise en page du we
 <li><a download href="texts/bartleby.txt">Bartleby</a></li>
 <li><a download href="texts/lessing_freeculture.odt">Free Culture</a></li>
 <li><a download href="texts/emigre.pdf">Emigre</a> (<a href="texts/emigre.odt">texte</a>)</li>
+<li><a download href="texts/vignelli.pdf">Vignelli Canon</a></li>
 
 </ul>
