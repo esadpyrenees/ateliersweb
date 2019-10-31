@@ -9,7 +9,7 @@
     $section="ressources";
     $subsection="css";
     $subsubsection="units";
-    
+
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/css.php");

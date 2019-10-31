@@ -171,3 +171,7 @@ La différence entre rem et em est que les valeurs de rem sont fixes alors que l
 
 
 [→ Styler le texte](../text/){.bigbutton}
+
+—
+
+<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io),  sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>
