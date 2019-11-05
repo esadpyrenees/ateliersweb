@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: 'Rumeur';
+    src: url('fonts/rumeur.woff2') format('woff2'),
+        url('fonts/rumeur.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+/* L’italique provient d’une autre fonte, mais est déclarée sous le même nom  */
+@font-face {
+    font-family: 'Rumeur';
+    src: url('fonts/Syne-Italic.woff2') format('woff2'),
+        url('fonts/Syne-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* variables CSS */
+/* on les déclare dans un élément :root, et on les applique grâce à la notation var(--text-color) */
+:root {
+    --text-color:hsl(120,0%,13%);
+}
+
+body{
+    font-size: 120%;
+    line-height: 1.4;
+    font-family: 'Rumeur';
+    display: flex;
+    justify-content: center;
+}
+
+/* soulignement avec une image */
+.underlined {
+    background: url(images/wacky-line.svg) no-repeat 0 100%;
+}
+
+/* entouré */
+.surrounded { position: relative; }
+/* ::before est utilisé pour introduire un “pseudo-élément”, qui peut avoir un contenu et des propriétés d’affichage */
+.surrounded::before {
+    content: url(images/wacky-ellipsis.svg);
+    position: absolute;
+    display: block;
+    width: 110%;
+    height: 100%;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-indent: 0;
+}
+/* contour blanc externe */
+/* utilise la règle @supports, qui permet de n’appliquer une mise en forme
+que si elle est effectivement supportées par le navigateur.
+Ici, si l’on met le texte en blanc et qu’on lui applique un contour sans
+que le navigateur le supporte, le texte sera rendu blanc sur blanc…
+*/
+@supports ( (-webkit-text-stroke-color: var(--text-color)) and (-webkit-text-fill-color: white) ) or (
+        (-moz-text-stroke-color: var(--text-color)) and (-moz-text-fill-color: white) ) {
+    .contour {
+        -moz-text-fill-color: white;
+        -webkit-text-fill-color: white;
+        -moz-text-stroke-color: var(--text-color);
+        -webkit-text-stroke-color: var(--text-color);
+        -moz-text-stroke-width: .1em;
+        -webkit-text-stroke-width: .1em;
+        paint-order: stroke fill; /* ordre des éléments (pour que le contour soit tracé avant le texte, afin que le texte se superpose au tracé) */
+    }
+}
+
+/*  conteneur général */
+blockquote{
+    max-width: 25em;
+    color: var(--text-color);
+    /* font-size “responsive”,
+    grâce à calc(), qui permet de faire des calculs (aditions, soustractions,multiplications…)
+    et à l’unité vw (pourcentage de la largeur de fenêtre du navigateur) */
+    font-size: calc(1.5vw + 1em);
+}
+
+
+/* sélectionne tous les <span> qui suivent un <span>  */
+span + span {
+    text-indent: 2em
+}
+
+.block {
+    display: block;
+    max-width: 22em;
+    line-height: 1.2;
+}
+.light{
+    line-height: 1.4;
+    max-width: 30em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+}
+
+strong {
+    /* en capitales */
+    text-transform: uppercase;
+    padding-left: 2em;
+    font-size: 1.75em;
+    max-width: 16em;
+    margin-top: 1em;
+    color: black
+}
+.signature{
+    position: relative;
+}
+/* ::after est utilisé pour introduire un “pseudo-élément”, qui peut avoir un contenu et des propriétés d’affichage */
+.signature::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(images/lazlo.jpg) no-repeat;
+    width: 500px;
+    height: 500px;
+    right: 0;
+    transform: translate(-50%,-50%);
+    z-index: -1; /* pour mettre l’image en dessous du reste du contenu */
+}
+
+@media (max-width:35rem){
+    /* diminution du corps de <stong> en mode mobile */
+    strong { font-size: 1.25em}
+}
+
+/* boutons */
+
+button{
+    background: black;
+    border: none;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: .25em .75em .3em;
+    border-radius: .25em;
+}

@@ -1,0 +1,443 @@
+
+
+/* ------------------------------------ Common pages */
+
+@page { 
+    size: 170mm 240mm; 
+    @bottom-left {
+        content: counter(page);
+        font-size: 7.5pt;
+        font-family:"HK Grotesk", sans-serif;
+        text-align: left;
+    }
+}
+@page :left {
+    margin: 2cm 2cm 2cm 5cm;
+}
+@page :right {
+    margin: 2cm 5cm 2cm 2cm;
+}
+@page :first {
+    @bottom-left {
+        content: none;
+    }
+}
+
+
+/* ------------------------------------ TOC page */
+
+@page toc { 
+    @bottom-left {
+        content: none;
+    }
+}
+nav {
+    page: toc;
+}
+
+
+/* ------------------------------------ Quote page */
+@page quote { 
+    
+}
+section.quote-section {
+    page: quote;
+}
+@page quote :left {
+    margin: 2cm 2cm 2cm 4cm;
+    @bottom-left {
+        text-align: left;
+        padding-left: 1cm;
+    }
+}
+@page quote :right {
+    margin: 2cm 4cm 2cm 2cm;
+    @bottom-left {
+        text-align: left;
+    }
+}
+
+
+/* ------------------------------------ Icono pages */
+
+
+@page icono {
+    background-color: yellow;
+    margin: 5mm 0mm 5mm 5mm ;
+    @top-right-corner {
+         content: none;
+    }
+    @bottom-right {
+        content: none;
+    }
+    @top-left-corner {
+         content: none;
+    }
+    @bottom-left {
+        content: none;
+    }
+}
+section.icono {
+    page:  icono;
+}
+
+
+/* ------------------------------------ Text pages */
+
+@page text :first {
+    margin: 20mm;
+}
+@page text :left {
+    margin: 2cm 2cm 2cm 4cm;
+}
+@page text :right {
+    margin: 2cm 4cm 2cm 2cm;
+}
+section.text-section {
+    page:  text;
+    break-before: right 
+}
+
+
+/* ------------------------------------ Last page */
+
+
+@page last :left {
+    margin: 2cm 4cm 2cm 4cm;
+    @bottom-left {
+        content: none;
+    }
+}
+section.last-section{
+    page:  last;
+    break-before: left
+}
+
+
+
+* { box-sizing: border-box; }
+
+body{
+    
+    /* 
+    background: linear-gradient(to bottom,  #89cddb 0%,#9988d8 17%,#d888d2 32%,#d8888f 50%,#d8b388 66%,#c0d888 83%,#89cddb 100%); 
+    */
+
+    font-family: "Freight", "TimesNewRoman", serif;
+    font-size: 10pt;
+    /* color: rgba(0,0,0,.85); */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "lnum" 1, "pnum" 1, "kern" 1, "liga" 1;
+    }
+
+a {
+    color: #000; 
+    text-decoration: underline;
+    position: relative;
+}
+
+p, ul, ol, blockquote {
+    margin-top: 0;
+}
+
+h1 {
+    font-family:"HK Grotesk", sans-serif;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: normal;
+    letter-spacing: 12mm;
+    line-height: 32mm;
+    margin: 5mm 5mm 0 5mm;
+    }
+h2 {
+    font-family:"HK Grotesk", monospace;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: normal;
+    letter-spacing: 12mm;
+    line-height: 32mm;
+    margin: 0em 0 0 0;
+    }
+
+.nospacing {
+    letter-spacing:  0.05em;
+}
+
+
+
+#nav {
+    font-family:"HK Grotesk", monospace;
+    z-index: 5;
+    break-before: page;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 10pt;
+    width: 50%;
+}
+nav a{
+    color: #000; 
+    text-decoration: none;
+    position: relative;
+}
+
+nav .current a:before, 
+nav a:hover:before { 
+    content:'•';
+    position: absolute;
+    left:-1em;
+    
+}
+nav a::after{
+    content: target-counter(attr(href), page);
+    padding-left: 1ch;
+    float: right;
+    background: white;
+    width: 1em;
+    text-align: right;
+}
+nav li:not(.sep) {
+  background: linear-gradient(to right, transparent 0, transparent 50%, white 50%, white 100%), linear-gradient(transparent 0, transparent 90%, currentcolor 100%);
+  background-size:  .5ch 100%, 100% 0.9em;
+}
+
+
+nav ul a {
+ background: white;
+  padding-right: 0.5em
+}
+
+
+#menulink {
+    display: none;
+    margin-left: -15px;
+    width:40px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+#nav span { display:inline; transition:padding 200ms}
+.spaced {padding-left:1em}
+
+
+
+
+/*----------------------------------------------------------- HEADER 
+------------------------------------------------------------- */
+header p {
+    line-height: 1.58;    
+}
+
+
+/*----------------------------------------------------------- ARTICLE 
+------------------------------------------------------------- */
+
+article {
+    position: relative;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    /* hyphens: auto;
+    hyphenate-limit-lines: 2; */
+
+    }
+article a { color: inherit;}
+
+.text-section {margin-bottom: 10em;}
+
+
+blockquote {
+    font-family:"HK Grotesk", monospace;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 24pt;
+    line-height: 29pt;
+    /* hyphens: manual; */
+    margin-bottom: 1em;
+    }
+    blockquote.deindent p:first-of-type{
+        text-indent: -1.35ch;
+    }
+    blockquote > :first-child {
+        margin: 0;
+    }
+
+
+cite{
+    font-size: 10pt;
+    line-height: 15pt;
+    display: block;
+    margin-top: 1em;
+    }
+
+
+
+/*----------------------------------------------------------- ICONO 
+------------------------------------------------------------- */
+
+.fn-ref {
+    color: inherit;
+    font-size: 5pt;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    position: relative;
+    text-decoration: none;
+    top: -0.75em;
+    }
+/* .fn-ref:before{ content: "\202F‹"; }
+.fn-ref:after{ content: "›"; } */
+.fn-ref:before{ content: "\202F"; }
+
+.fn-content {
+    color: rgba(0,0,0,.45);
+    padding-top: 0.25em;
+    float: right;
+    width: 8rem;
+    font-size: 7.5pt;
+    margin: 0 -8rem 0 0;
+    padding-left: 1rem;
+    line-height: 1.26;
+    position: relative;
+    /* hyphens: auto; */
+    }
+    .fn-content a[href^="#"]{ display: none}
+    .fn-content a { color: inherit;}
+
+@page :left .fn-content {
+    float: left;
+    margin: 0 0 0 -9rem ;
+}
+
+/* inline notes */
+.fn {
+    font-family:"HK Grotesk", sans-serif;
+    color: #666;
+    line-height: 1.25;
+    font-size: 7.5pt;
+    display: block;
+    margin-bottom: .5em;
+    -webkit-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+    column-break-inside:avoid;
+    display: table;
+}
+/* 
+.fn:before {
+    content: " [ ";
+}
+.fn:after {
+    content: " ] ";
+} */
+
+.notes_container {
+    column-count: 3;
+    column-gap: 5mm;
+}
+/*----------------------------------------------------------- ICONO 
+------------------------------------------------------------- */
+
+.icono {
+    --gutterwidth: 5mm;
+    --colwidth: 50mm;
+    --twocolwidth: 105mm;
+}
+.icono a {
+    color: black
+    }
+
+.item img + img { margin-top: 5mm; }
+
+figure { 
+    padding: 0; margin:0 var(--gutterwidth) var(--gutterwidth) 0; float: left;
+    break-inside: avoid;
+}
+.item { font-size: 7.5pt; }
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(1); 
+    mix-blend-mode: multiply; 
+    margin-bottom: 2.5mm; 
+    }
+
+.item {  width: var(--colwidth) ; }
+.item-w2 { width:  var(--twocolwidth); }
+
+
+.icono cite {
+    font-size: 7.5pt;
+    font-family: "Freight","TimesNewRoman",serif;
+    font-weight: normal;
+}
+/*----------------------------------------------------------- FOOTER 
+------------------------------------------------------------- */
+#bibliographie ul,
+#thx p{
+    list-style-type: none;
+    font-size: 7.5pt;
+    margin-left: 0;
+    padding-left: 0;
+    hyphens: manual;
+}
+#bibliographie ul {
+    column-count: 3;
+    column-gap: 4.3mm;
+    }
+
+#bibliographie li {
+    margin: 0 0 .5em 0;
+    }
+#bibliographie li {
+    -webkit-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+    column-break-inside:avoid;
+    display: table;
+    }
+#bibliographie li:before {
+    
+} 
+
+
+
+.booklet {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: stretch;
+    align-content: start;
+    /* width: calc(100vh / 1.4142 * 2 + 40); */
+    margin: 0 auto;
+    overflow: auto;
+    }    
+
+.booklet .imposed_page {
+    box-sizing: border-box;
+    height: 100px;
+    width:41px;
+    padding: 40px;
+    border:1px solid #ececec;
+    margin: 40px 0 40px 40px;
+    }
+.booklet .imposed_page:nth-child(2n+1){ margin-left: 0; }
+
+.booklet .imposed_page .pagedjs_page {
+    transform-origin: 0 0;
+}
+.booklet.ordered { display: block; }
+.booklet.ordered .page { float:left; }
+.booklet.ordered .page:nth-child(2n+1){ margin-left: 40px; }    
+.booklet.ordered .page:nth-child(2n){ margin-left: 0px; }

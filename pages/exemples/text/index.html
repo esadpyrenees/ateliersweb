@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Le design : une attitude, pas une profession</title>
+        <meta name="description" content="Extrait du texte de László Moholy-Nagy, qui invite à envisager le design comme une attitude attachée à un contexte.">
+        <link id="stylesheet" rel="stylesheet" href="css/simple.css">
+    </head>
+    <body>
+        <blockquote>
+            <p>
+                <span class="block light">Le design a de nombreuses connotations.</span>
+                <span class="block light">Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</span>
+                <span class="block">Le design n’est donc pas une simple question <span class="underlined">d’apparence</span>.</span>
+                <span class="block">Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante.</span>
+                <span class="block light">Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets
+                    psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</span>
+                <strong class="block">Faire du design, c’est penser en termes de <span class="contour">relations</span>.</strong>
+                <span class="block">C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas.</span>
+                <strong class="block">C’est ancrer la spécificité d’une tâche dans une globalité complexe. </strong>
+                <span class="block">Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques.</span>
+                <span class="block light">Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes.</span>
+                <span class="block">Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation</span> avec les besoins de l’individu et de la communauté.</span>
+                <span class="block light">Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</span>
+            </p>
+            <p>
+                <span class="block">Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés.</span>
+                <span class="block light">Finalement le grand problème qui se pose au design est qu’il doit servir la vie.</span>
+                <span class="block">Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</span>
+                <span class="block light">Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste.</span>
+                <span class="block light">Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture).</span>
+                <span class="block light">Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre.</span>
+                <strong class="block">Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</strong>
+            </p>
+            <p class="signature">
+                <span class="block light">— László Moholy-Nagy <i>in</i> “Peinture Photographie Film”, Éditions Jacqueline Chambon.</span>
+            </p>
+
+
+            <footer>
+                <form class="" action="#">
+                    <button value="simple.css">Simple</button>
+                    <button value="rumeur.css">Post</button>
+                    <button value="classic.css">Classic</button>
+                </form>
+                <p class="light">
+                    Simple : Montserrat, Julieta Ulanovsky<br>
+                    Post : Rumeur, Groupe CCC<br>
+                    Classic : Cormorant, Catharsis Fonts
+                </p>
+            </footer>
+        </blockquote>
+        <script type="text/javascript">
+            const buttons = document.querySelectorAll('button');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function(e){
+                    e.preventDefault();
+                    document.querySelector('#stylesheet').setAttribute("href", "css/" + this.value)
+                })
+            }
+        </script>
+    </body>
+</html>

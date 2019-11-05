@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/Cormorant-Italic.woff2') format('woff2'),
+        url('fonts/Cormorant-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/Cormorant-Bold.woff2') format('woff2'),
+        url('fonts/Cormorant-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/Cormorant-Regular.woff2') format('woff2'),
+        url('fonts/Cormorant-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CormorantSC';
+    src: url('fonts/CormorantSC-Regular.woff2') format('woff2'),
+        url('fonts/CormorantSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cormorant';
+    margin: 4em;
+    font-size: 1.5em;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    max-width: 28em;
+    line-height: 1.5;
+    color: #444;
+    margin: 0 auto;
+    text-align: justify;
+
+    /* césures */
+    /* Voir http://clagnut.com/blog/2395/ */
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+}
+p {
+    margin: 1em 0 0;
+}
+/* on peut sélectionner le premier enfant */
+/* on peut sélectionner la première lettre du premier enfant */
+/* ici pour créer une lettrine */
+blockquote p:first-child::first-letter {
+    color: black;
+    float: left;
+    font-size: 5.5em;
+    line-height: .65;
+    display: block;
+    font-weight: bold;
+    position: relative;
+    padding-top: .075em;
+    padding-right: .1em;
+    margin-left: -.08em;
+    font-family: "Cormorant";
+}
+/* on peut sélectionner la première ligne */
+blockquote p:first-child::first-line{
+    /* font-variant-caps: small-caps; */
+    font-family: "CormorantSC"
+}
+/* on peut sélectionner en excluant des éléments */
+blockquote p + p:not(:last-of-type){
+    margin-top: 0;
+    text-indent: 1.5em
+}
+
+.signature,
+footer p {
+    font-size: 80%;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+/* ::before est utilisé pour introduire un “pseudo-élément”, qui peut avoir un contenu et des propriétés d’affichage */
+.signature::before{
+    content:"⁂";
+    display: block;
+    margin: 2em auto;
+    text-align: center;
+}
+strong{
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* boutons */
+footer,
+form {
+    text-align: center;
+    margin: 1em 0
+}
+button{
+    background: black;
+    border: none;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: .25em .75em .3em;
+    border-radius: .25em;
+}

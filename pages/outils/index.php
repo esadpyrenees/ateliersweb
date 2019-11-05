@@ -10,8 +10,9 @@
     <section id="editeurs">
     <h2 class="section-subtitle">Éditeurs</h2>
     <ul>
-        <li><a href="http://atom.io">Atom (open source by Github)</a></li>
-        <li><a href="http://brackets.io">Brackets (open source by Adobe)</a></li>
+        <li><a href="http://atom.io">Atom (open source, Github)</a></li>
+        <li><a href="http://brackets.io">Brackets (open source, Adobe)</a></li>
+        <li><a href="https://code.visualstudio.com/">Visual studio Code (open source, Microsoft)</a>   </li>
         <li><a href="http://www.sublimetext.com">Sublime Text ($)</a></li>
     </ul>
     </section>

@@ -3,29 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>splash</title>
-        
-        
-        
+
+
+
         <link rel="stylesheet" href="css/style.css">
-        
+
     </head>
     <body>
-        
+
         <main>
-            <p>Ho! </p>
+            <button>Ho! </button>
         </main>
-        
+
         <section id="intro">
             <p>
                 <button id="btn-intro">Hey?</button>
             </p>
         </section>
-        
-        
+
+
         <script type="text/javascript">
-        document.querySelector('#btn-intro').addEventListener('click', function(){
-            document.querySelector('#intro').classList.toggle('invisible')
-        })
+        var buttons = document.querySelectorAll('button');
+        var intro = document.querySelector('#intro');
+        
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function(){
+                intro.classList.toggle('invisible')
+            })
+        }
         </script>
     </body>
 </html>

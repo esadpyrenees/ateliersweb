@@ -13,16 +13,17 @@ main {
   align-items:center;
   justify-content: center;
   color:white;
-  font-size: calc(6vw + 3em); 
 }
 button{
   border:none;
   background: transparent;
   font-family: 'Rock Salt', cursive;
-  font-size: calc(6vw + 3em); 
+  font-size: calc(6vw + 3em);
   cursor: s-resize;
 }
-
+main button{
+    cursor: n-resize;
+}
 #intro {
   background: chartreuse;
   display: flex;
@@ -35,8 +36,10 @@ button{
   right: 0px;
   bottom:0px;
   transition:all 250ms;
+  cursor: s-resize;
 }
 
 #intro.invisible{
-  transform:translateY(-100vw)
+  transform:translateY(-100vw);
+
 }

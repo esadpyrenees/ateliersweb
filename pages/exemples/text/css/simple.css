@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('fonts/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Montserrat';
+    margin: 4em;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    max-width: 30em;
+    line-height: 1.5;
+    color: #444
+}
+
+/* boutons */
+
+button{
+    background: black;
+    border: none;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: .25em .75em .3em;
+    border-radius: .25em;
+}
