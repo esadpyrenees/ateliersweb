@@ -50,6 +50,14 @@
 
     </section>
 
+    <section>
+        <h2>Kirby</h2>
+        <ul>
+            <li><a href="https://gekirby.com">Kirby</a></li>
+            <li><a href="https://getkirby.com/docs/cookbook/setup/kirby-in-a-nutshell">Kirby in a nutshell</a></li>
+        </ul>
+    </section>
+
       <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
