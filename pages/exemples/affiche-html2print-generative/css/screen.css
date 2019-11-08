@@ -1,0 +1,19 @@
+/* Feuille de style dédiée à l’affichage écran */
+
+* { box-sizing: border-box; }
+body {
+    background: #eee;
+}
+.poster{
+    background: white;
+    border: 1px solid #ccc;
+    height: 42cm;
+    width: 29.7cm; /* Maintient le ratio de l’affiche au format A3 */
+    margin: 5vh auto;
+    position: relative;
+}
+p.details{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Compagnon', monospace;
+}

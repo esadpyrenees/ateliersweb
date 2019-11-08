@@ -31,7 +31,7 @@
                 08·03·2019
             </div>
             <div class="colophon">
-                Murmure: Jérémy Landes + Compagnon: Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier 
+                Murmure: Jérémy Landes + Compagnon: Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
                 08·03·2019
             </div>
             <div class="colophon">
-                Murmure: Jérémy Landes + Compagnon: Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier 
+                Murmure: Jérémy Landes + Compagnon: Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier
             </div>
         </div>
     </div>
@@ -123,53 +123,7 @@
     }
     </script>
 
-    <div class="page" id="luuse">
-        <div class="poster poster5">
-            <div class="scale">
-                <div class="conf">Conf<span>é</span>rence</div>
-                <div class="marianne">Marianne </div>
-                <div class="plano">Plano</div>
-                <div class="collectif">Collectif</div>
-                <div class="luuse">Luuse</div>
-                <div class="url">.io</div>
-                <div class="date">Mardi 12 mars 2019</div>
-                <div class="hours">18 h 00 – 19 h 30</div>
-                <div class="location"><span>É</span>SAD·Pyr<span>é</span>n<span>é</span>es</div>
-                </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-
-    function rand(){
-        return Math.floor( Math.random() * 255);
-    }
-
-    var luuse = document.querySelector('#luuse');
     
-    for (var j = 0; j < 20; j++) {
-        var p = luuse.cloneNode(true);
-        document.body.appendChild(p);
-        var divs = p.querySelectorAll('div');
-        var seed = Math.random();
-        var tint = seed < .333 ? 'r' : seed < .666 ? 'g' : 'b';
-
-        for (var i = 0; i < divs.length; i++) {
-            var div = divs[i];
-            switch (tint) {
-                case 'r':
-                    div.style.color = "rgba(" + rand() + ",0,0)";
-                    break;
-                case 'g':
-                    div.style.color = "rgba(0," + rand() + ",0)";
-                    break;
-                case 'b':
-                    div.style.color = "rgba(0,0," + rand() + ")";
-                    break;
-            }
-        }        
-    }
-    luuse.parentNode.removeChild(luuse);
-    </script>
 
 </body>
 </html>

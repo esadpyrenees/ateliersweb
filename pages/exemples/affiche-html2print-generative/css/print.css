@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+@page {
+    size: A3;
+    margin: 0;
+    margin: 1em;
+}
+body{
+    margin: 0;
+}
+.page {
+    page-break-before: always;
+    margin: 0;
+    background: none;
+    width: 100%;
+    height: 41.9cm;
+}
+.poster {     
+    position: relative;
+    page-break-inside: avoid;
+    width: 100%;
+    height: 41.9cm;
+}
+p.details{
+    display: none;
+}
