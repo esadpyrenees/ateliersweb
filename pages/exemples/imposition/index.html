@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booklet</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        #booklet {
+            display: flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            align-items: stretch;
+            align-content: start;
+            width: calc(100vh / 1.4142 * 2 + 40);
+            margin: 0 auto;
+            overflow: auto;
+            }    
+        .page {
+            box-sizing: border-box;
+            height: 100px;
+            width:41px;
+            padding: 40px;
+            border:1px solid #ececec;
+            margin: 40px 0 40px 40px;
+            }
+        .page:nth-child(2n+1){ margin: 40px -40px 40px 40px; }
+        
+        #booklet.ordered { display: block; }
+        #booklet.ordered .page { float:left; }
+        #booklet.ordered .page:nth-child(2n+1){ margin: 40px 0 40px 40px; }    
+        #booklet.ordered .page:nth-child(2n){ margin-left: 0px; }
+
+    </style>
+</head>
+<body>
+    <!-- 
+    # Booklet imposition in javascript
+
+    Forked and adapted from ruby project by [@kiere](https://github.com/kiere):   
+    https://github.com/kiere/imposition_booklet_page_reorder
+
+    An HTML demo is provided, that uses flexbox order to re-order booklet pages.
+    -->
+
+    <div id="booklet"></div>
+
+    <button>order!</button>
+
+    <script type="text/javascript" src="imposition.js"></script>
+    <script type="text/javascript">
+        // demo mode
+        document.querySelector('button').addEventListener('click', function(){
+            document.querySelector('#booklet').classList.toggle('ordered');
+        })
+    </script>
+
+</body>
+</html>
