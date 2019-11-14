@@ -1,0 +1,15 @@
+* { box-sizing:border-box }
+html,
+body{
+    margin: 0;
+    height: 100%;
+    font-family: "San Francisco", Helvetica, sans-serif;
+}
+
+header {
+    min-height: 100vh;
+    background: #eee url(../img/linotype_15538_lg.gif) no-repeat center;
+    background-blend-mode: multiply;
+    background-size: contain;
+    padding: 2em;
+}

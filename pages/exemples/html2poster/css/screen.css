@@ -1,0 +1,99 @@
+/* Feuille de style dédiée à l’affichage écran */
+
+
+body {
+    background: #eee;
+}
+header:after{
+    content: "↓";
+    font-size: 3em;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 4em 2em;
+}
+
+figure {
+    display: none;
+}
+
+h1 {
+   font-size: 3em;
+   margin: 0;
+   line-height: .9;
+   text-align: left;
+}
+h2 {
+   font-size: 5em;
+   margin: 0;
+   line-height: .9;
+   text-align: left;
+   display: inline-block;
+   border-bottom: .08em solid
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    padding: 4em 2em;
+}
+p.intro {
+    display: flex;
+    align-items: baseline;
+}
+.intro span{
+    padding-right: 3em;
+    font-weight: bold;
+}
+.texte {
+    max-width: 32em;
+    margin: 3em 0;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.76);
+}
+.texte p:last-child {
+    margin-top: 3em
+}
+.texte p:last-child a{
+    border: 3px solid;
+    padding: 1em 2em 1em 1.6em
+}
+
+.texte p:last-child a:hover {
+    background: black;
+    color: white;
+}
+.texte p:last-child a:before {
+    content: "→";
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 1em;
+}
+.texte p:last-child span{
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: .05em
+}
+
+
+
+button{
+    border: 3px solid white;
+    padding: 1em 2em 1em 1.6em;
+    background: white;
+    font-size: inherit
+}
+
+button:hover {
+    background: black;
+    color: white;
+}

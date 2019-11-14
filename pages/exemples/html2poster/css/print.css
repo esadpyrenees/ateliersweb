@@ -1,0 +1,79 @@
+* { box-sizing: border-box; margin: 0}
+@page {
+    size: 29.7cm 42cm;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+/*  on cache les éléments qu’on ne veut pas imprimer */
+
+footer,
+.intro span,
+.texte {
+    display: none;
+}
+header {
+    position: fixed;
+    width: 2.5cm;
+    height: 3cm;
+    left: 12rem;
+    top:calc(29.7cm - 2.5cm);
+    min-height: 0;
+    padding: 0;
+    background-color: #fff;
+    background-position: center;
+}
+header h1 {
+    padding-top: 2.3cm;
+    font-size: .7rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .2em
+}
+header {
+
+}
+section {
+    margin: 0;
+    position: relative;
+    page-break-inside: avoid;
+    width: 100%;
+    height: 41.9cm;
+}
+h2 {
+    position: absolute;
+    bottom: 5rem;
+    font-size: 12em;
+    line-height: .85;
+    border: none;
+    z-index: 2;
+    width: 0;
+    padding-left: 8rem;
+    left: 4rem;
+    text-indent: -8rem;
+}
+
+figure{
+    position: absolute;
+    right: 0;
+    top:4rem;
+    padding: 0;
+    width: 70%;
+    height: 70%;
+}
+
+figure img {
+    object-fit: cover;
+    width: 100%;
+    height: calc(29.7cm - 4rem);
+    filter: grayscale(1);
+}
+
+.intro {
+    position: absolute;
+    /* rotation */
+    transform-origin: 0 0;
+    transform:rotate(-90deg) translateX(calc(-100% - 4em)) translateY(3em);
+}

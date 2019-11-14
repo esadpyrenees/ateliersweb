@@ -122,6 +122,12 @@ strong{
     font-style: italic;
 }
 
+
+
+.encouleur {
+    color: lime
+}
+
 /* boutons */
 footer,
 form {
