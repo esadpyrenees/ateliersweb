@@ -4,7 +4,7 @@
 
 Le projet permettra d’aborder et de mettre en pratique les notions de design d’interface, d’expérience utilisateur, d’accessibilité, d’approfondir les questions liées au responsive webdesign et au design mobile first tout en travaillant en profondeur les relations entre design graphique et musique/son.
 
-Les questions du contenu, du contexte et des usages seront au centre de notre démarche de design. La conception de l’interface obéira au paradigme “_mobile first_”. Lire [Luke Wroblewski, Mobile First, A Book Apart, Eyrolles, 2012](http://static.lukew.com/MobileFirst_LukeW.pdf), à [télécharger ici](https://www.dropbox.com/s/33pxd2oicncwlox/Mobile_first_ed1_v1.pdf?dl=0).
+Les questions du contenu, du contexte et des usages seront au centre de notre démarche de design. La conception de l’interface obéira au paradigme “_mobile first_”. Lire [Luke Wroblewski, Mobile First, A Book Apart, Eyrolles, 2012](http://static.lukew.com/MobileFirst_LukeW.pdf), à [télécharger ici](https://www.dropbox.com/s/u07bwpgbkjkdoem/Mobile_first_ed1_v1.pdf?dl=0).
 
 Nous évoquerons des exemples d’applications, de sites ou de plateformes musicales mais également des espaces sonores ou visuels produits par des artistes ou des designers.
 
