@@ -146,23 +146,26 @@
     </section>
     <section>
         <h2 style="transform: scaleX(2.59983); margin-left: -6.75913px;">22/11</h2>
-        <p>Sarah C. + Célia T.</p>
-        <p>Dongni J. + Wenpeng S.</p>
+
+
     </section>
     <section>
         <h2 style="transform: scaleX(2.52893); margin-left: -6.39546px;">28/11</h2>
-        <p>Rafael F. + Blandine C. + Margot Laforge</p>
+        <p>Sarah C. + Célia T.</p>
         <p>Thomas F. + Eamon G.</p>
+        <p>Paul L.</p>
     </section>
     <section>
         <h2 style="transform: scaleX(2.16258); margin-left: -4.67676px;">6/12</h2>
-        <p>Alexia S. + Paul L.</p>
+        <p>Alexia S.</p>
+        <p>Rafael F. + Blandine C. + Margot Laforge</p>
         <p>Ana C. + Emmanuelle G.</p>
     </section>
     <section>
         <h2 style="transform: scaleX(0.921694); margin-left: -0.84952px;">12/12</h2>
         <p>Lisa F. + Justine R.</p>
         <p>Julian N. + Florent T.</p>
+        <p>Dongni J. + Wenpeng S.</p>
     </section>
     <section>
         <h2 style="transform: scaleX(1.80011); margin-left: -3.24041px;">20/12</h2>
