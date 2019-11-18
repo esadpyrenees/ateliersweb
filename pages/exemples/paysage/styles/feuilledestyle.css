@@ -107,6 +107,43 @@ main * {
     left: auto; /* en cas de conflit (si on spécifie à la fois left, width, et right), on peut “réinitialiser” une des valeurs)*/
 }
 
+/* Arbres */
+.tree{
+    width: 150px;
+    height: 200px;
+}
+.trunk {
+    bottom: 0;
+    /* les deux lignes suivantes permettent de placer le tronc au milieu, quelle que soit sa taille */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #7D4E24;
+    width: 20%;
+    height: 50%;
+}
+
+.leaves {
+    background: green;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top:20%;
+}
+.leaves-1 {
+    top:20%; left:40%;
+}
+
+.leaves-2 {
+    top:0; left:20%;
+}
+.leaves-4 {
+    top:30%; left: 25%
+}
+
+.tree-1 {
+    bottom: 10%;
+    right: 8%
+}
 
 /* Soleil */
 .sun div {
