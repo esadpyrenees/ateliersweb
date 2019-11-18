@@ -1,0 +1,168 @@
+/* Voir la section “Box model” sur http://ateliers.esad-pyrenees.fr/web/pages/ressources/css/box/ */
+* { box-sizing: border-box; }
+
+body {
+    background: #ddd;
+}
+
+/* “variables” CSS : on donne un nom à une valeur, qu’on peut réutiliser plus tard */
+/* on peut ainsi modifier ces valeurs en un seul endroit du code */
+/* Voir https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties */
+:root{
+    --lightblue: #0E9BE2;
+    --darkblue: #0C87C4;
+}
+
+/* Détermine un “cadre” pour le dessin */
+main {
+    background: white;
+    /*  positionné par rapport au <body>, à 40 pixels de chaque bord */
+    position: absolute;
+    top: 40px;
+    right:40px;
+    bottom: 40px;
+    left: 40px;
+    overflow: hidden; /* enpêche qu’on voit ce qui dépasse du rectangle déterminé par <main> */
+}
+
+/* raccourci qui permet de mettre tous (*) les éléments descendants de main en position:absolute  */
+main * {
+    position: absolute;
+}
+.sky {
+    top:0;
+    width: 100%;
+    left:0;
+    height: 70%;
+    background: linear-gradient( var(--lightblue), var(--darkblue) ); /* dégradé linéaire vertical */
+    /* pour les dégradés, voir ici : https://developer.mozilla.org/fr/docs/Web/CSS/gradient */
+}
+
+.cloud {
+    background: white;
+    border-radius: 50%;
+    height:100px;
+    width:200px;
+    opacity: 0.8; /* de 0 (transparent) à 1 (opaque) */
+}
+
+/* chaque nuage peut avoir plusieurs classes : “cloud” et “cloud-1/2/3” etc. */
+/* cela permet de donner des attributs communs aux éléments ET de les singulariser */
+.cloud-1 {
+    left: 30%;
+    top:14%;
+}
+.cloud-2 {
+    left: 60%;
+    top:19%;
+}
+.cloud-3 {
+    left: 70%;
+    top:16%;
+}
+
+/* positionnement de la chaîne montagneuse */
+.mountains {
+    width: 100%;
+    height: 100%;
+    bottom: 20%;
+}
+/* attributs communs à toutes les montagnes */
+.mountains div {
+    height: 15vh;
+    width: 15vh;
+    transform: rotate(45deg);
+    background: white;
+    bottom:0;
+}
+/* on peut accéder à chaque enfant selon son ordre dans le code source */
+.mountains div:nth-child(1) { left:10%; }
+.mountains div:nth-child(2) { left:20%; }
+.mountains div:nth-child(3) { left:40%;  height: 20vh; width: 20vh;}
+.mountains div:nth-child(4) { left:43%; bottom: -2%; height: 20vh; width: 20vh;}
+
+
+.ground {
+    bottom:0;
+    width: 100%;
+    left:0;
+    height: 30%;
+    background: darkgreen
+}
+.hill {
+    background: darkgreen;
+    /* les positions et les dimensions sont relatives à l’élément parent : <div class="ground"></div> */
+    width: 40%;
+    height: 50%;
+    top:-15%; /* une position peut être négative */
+    left: 10%;
+    border-radius: 50%;
+}
+
+.hill-2 {
+    width: 90%;
+    height: 90%;
+    top:-25%; /* une position peut être négative */
+    right: -30%;
+    left: auto; /* en cas de conflit (si on spécifie à la fois left, width, et right), on peut “réinitialiser” une des valeurs)*/
+}
+
+
+/* Soleil */
+.sun div {
+    height: 100px;
+    width: 100px;
+    background:yellow;
+    border-radius: 50px;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+.sun {
+  position: absolute;
+  width: 140vw;
+  height: 140vw;
+  top: -50vw;
+  left: -50%;
+  /*  mode de fusion */
+
+  /* l’animation est décrite ci-dessous */
+  animation: sunsun 8s linear infinite;
+}
+@keyframes sunsun {
+    0% { transform: rotate(0);}
+    100% { transform: rotate(180deg);}
+}
+
+/* Ici, deux “pseudo-éléments” sont créés pour générer les rayons du soleil */
+/* Attention : c’est très gourmand en ressources pour la carte graphique et le processeur */
+.sun:after, .sun:before {
+  content: '';
+  position: absolute;
+  background:
+      linear-gradient(90deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(82deg, transparent 50%, var(--darkblue) 50%, var(--darkblue)),
+      linear-gradient(67deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(52deg, transparent 50%, var(--darkblue) 50%, var(--darkblue)),
+      linear-gradient(37deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(22deg, transparent 50%, var(--darkblue) 50%, var(--darkblue)),
+      linear-gradient(7deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(-8deg, transparent 50%, var(--darkblue) 50%, var(--darkblue)),
+      linear-gradient(-23deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(-38deg, transparent 50%, var(--darkblue) 50%, var(--darkblue)),
+      linear-gradient(-53deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(-68deg, transparent 50%, var(--darkblue) 50%, var(--darkblue)),
+      linear-gradient(-83deg, transparent 50%, var(--lightblue) 50%, var(--lightblue)),
+      linear-gradient(-90deg, transparent 50%, var(--darkblue) 50%, var(--darkblue));
+  background-position: 0% 0%;
+  background-size: 200% 100%;
+  height: 100%;
+  width: 50%;
+}
+.sun:before {
+  left: 50%;
+  transform: rotate(180deg);
+}
