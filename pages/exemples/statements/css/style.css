@@ -1,0 +1,64 @@
+/* source */
+/* https://codepen.io/Kseso/pen/OjprYz */
+
+/* dirty reset */
+* {margin:0;padding:0;border:0 none; position: relative;}
+*,*:before,*:after {box-sizing:border-box;;}
+
+/* 1 vmin = 1/100e du côté le plus petit du viewport. */
+/* 1 vmax = 1/100e du côté le plus grand du viewport. */
+/* Ces unités permettent de s’adapter au ratio de l’écran */
+
+@media only screen and (min-width: 800px) {
+    section {
+    	display: grid;
+    	grid-template-columns: repeat(auto-fill, minmax(calc(8rem + 5vw + 5vh), 1fr));
+    	grid-gap: calc(1rem + 2.5vmin);
+     	grid-auto-flow: dense; /* fill in the blanks */
+    	padding: calc(1rem + 2.5vmin); /* équivalent au grip-gap  */
+    }
+
+	p {
+		font-size: calc(1rem + .5vmax + 1vmin);
+		color:white;
+		background:black
+	}
+
+    p:first-child {
+        grid-row-start: span 3;
+        grid-column-start: span 3;
+    		font-size: calc(1rem + 4vmax + 2vmin);
+    }
+    p:nth-child(2n+3) { /* tous les 2 <p> à partir du 3e */
+        grid-row-start: span 3;
+    		font-size: calc(.9rem + 2vmin);
+    }
+    p:nth-child(4n+5) { /* tous les 4 <p> à partir du 5e */
+        grid-column-start: span 2;
+    		grid-row-start: span 2;
+    		font-size: calc(1rem + 1vmax + 2vmin);
+    }
+    p:nth-child(6n+7) { /* tous les 6 <p> à partir du 7e */
+        grid-row-start: span 2;
+    		font-size: calc(.6rem + 1.5vmax + 1vmin);
+    }
+    p:nth-child(8n+9) { /* tous les 8 <p> à partir du 9e */
+        grid-column-start: span 2;
+        grid-row-start: span 3;
+    		font-size: calc(1.2rem + 1.5vmax + 1vmin);
+    }
+
+	span {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		justify-content:center;
+		align-items:center;
+		font-family: "Helvetica Neue";
+		font-weight: 500;
+		text-transform:uppercase;
+		padding: 1rem;
+		text-align: center;
+		line-height: 1.2;
+	}
+}

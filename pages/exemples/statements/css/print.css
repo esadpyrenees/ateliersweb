@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+html,body {
+    font-size: 6pt
+}
+@page {
+    size: A3;
+    margin: 0;
+    margin: 1em;
+}
+body{
+    margin: 0;
+}
+
+p {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+section {
+    grid-template-columns: repeat(auto-fill, minmax(4cm, 1fr));
+}
+
+p { font-size: calc(1rem  + 1vmin); }
+p:first-child { font-size: calc(1rem + 4vmax + 2vmin); }
+p:nth-child(2n+3) {  font-size: calc(.9rem + 1vmin); }
+p:nth-child(4n+5) { font-size: calc(1rem 1vmin); }
+p:nth-child(6n+7) {  font-size: calc(.6rem + 1vmin); }
+p:nth-child(8n+9) {  font-size: calc(1.2rem + 1vmin); }

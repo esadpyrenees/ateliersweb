@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Medium.woff2') format('woff2'),
+        url('Jost-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Bold.woff2') format('woff2'),
+        url('Jost-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Light.woff2') format('woff2'),
+        url('Jost-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Semi.woff2') format('woff2'),
+        url('Jost-Semi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-ThinItalic.woff2') format('woff2'),
+        url('Jost-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Thin.woff2') format('woff2'),
+        url('Jost-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Black.woff2') format('woff2'),
+        url('Jost-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-LightItalic.woff2') format('woff2'),
+        url('Jost-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Book.woff2') format('woff2'),
+        url('Jost-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-MediumItalic.woff2') format('woff2'),
+        url('Jost-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Hairline.woff2') format('woff2'),
+        url('Jost-Hairline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-Heavy.woff2') format('woff2'),
+        url('Jost-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-HairlineItalic.woff2') format('woff2'),
+        url('Jost-HairlineItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-BookItalic.woff2') format('woff2'),
+        url('Jost-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-SemiItalic.woff2') format('woff2'),
+        url('Jost-SemiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-BoldItalic.woff2') format('woff2'),
+        url('Jost-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-HeavyItalic.woff2') format('woff2'),
+        url('Jost-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('Jost-BlackItalic.woff2') format('woff2'),
+        url('Jost-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+body {
+    font-family: 'Jost';
+    margin: 0;
+    font-size: 1.5em;
+}
+body::before{
+    content: "";
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    border: 20px solid;
+    z-index: 9
+}
+
+blockquote {
+    margin: 16rem 4rem 0 6rem;
+    padding: 0;
+    max-width: 20em;
+    line-height: 1.35;
+    font-size: calc(2vw + 1em);
+    color: black;
+    text-transform: lowercase;
+}
+
+blockquote::before{
+    content: "";
+    display: block;
+    width: 4em;
+    height: 4em;
+    background: black;
+    border-radius: 50% ;
+    margin: 3em 0 1em -.15em;
+}
+p:first-child span:nth-child(3),
+p:first-child strong,
+p:first-child em {
+    font-style: normal;
+    color: red;
+    border-bottom: .15em solid;
+}
+p {
+    margin: 0 0 0;
+    text-indent: 6rem;
+}
+p:first-child {
+    font-weight: 900
+}
+p:first-child span{
+    border-bottom: .15em solid;
+}
+
+p+ p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.signature{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    margin: 0;
+    border-bottom: 20px solid black;
+    padding: 2rem 4em;
+    color: white;
+    /* transform: translate(0, 150vh) rotate(-90deg); */
+
+    transform-origin: 0 0;
+
+    line-height: 1;
+
+    font-weight: 900;
+    background:red;
+    font-size: 1.5rem;
+    letter-spacing: .05em;
+}
+.signature span{
+    max-width: 20em;
+    display: inline-block;
+}
+footer p {
+    font-size: 80%;
+    width: 70%;
+font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* boutons */
+footer,
+form {
+
+    margin: 1em 0
+}
+button{
+    background: white;
+    border: 5px solid black;
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: .25em .75em .3em;
+    border-radius: .25em;
+}

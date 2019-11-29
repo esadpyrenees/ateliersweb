@@ -1,0 +1,109 @@
+/* styles de la mise en page */
+
+main {
+  display: grid;
+  grid-gap: 16px;
+  /* 3 colonnes */
+  /* => deux colonnes identiques qui se répartissent l’espace,
+   déterminées par repeat(2, 1fr) */
+  /* => une colonnes identiques qui fait au min 50px et au max 1/3 de l’espace */
+  grid-template-columns: repeat(2, 1fr) minmax(50px, 1fr);
+  grid-template-rows: repeat(10, min-content);
+}
+
+[data-grid='grid-column'] {
+  grid-column: 3;
+  grid-row: 2 / 9;
+  position: relative;
+}
+[data-grid='grid-column']:after {
+  bottom: 0;
+  content: "Les pistes peuvent se chevaucher";
+  font-style: italic;
+  opacity: .7;
+  left: 0;
+  padding: .7rem;
+  position: absolute;
+  right: 0;
+}
+[data-grid='grid-area'] {
+  grid-column: 1 / span 2;
+  grid-row: span 3;
+}
+
+[data-grid='grid-row'] {
+  grid-column: 1 / -1;
+  grid-row: 8;
+}
+
+.title {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+@media (min-width: 60em) {
+  main {
+    grid-template-columns: 10vw minmax(50px, 50vw) repeat(2, 1fr);
+    grid-template-rows: repeat(10, min-content);
+  }
+  [data-grid='grid-column'] {
+    grid-column: 4;
+    grid-row: 1 / 6;
+  }
+  [data-grid='grid-area'] {
+    grid-column: 2;
+  }
+  [data-grid='grid-row'] {
+    grid-row: 5;
+  }
+  .title {
+    grid-column: 2;
+  }
+}
+
+
+/* styles textuels et visuels */
+
+body {
+  background: #fff;
+  color: #717388;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-transform: lowercase;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 1rem;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+div {
+  border: 6px solid;
+  padding: .75vw 1vw;
+}
+
+h1 {
+  color: #717388;
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-bottom: .5rem;
+}
+
+h2 {
+  color: #999;
+  font-size: 1.25rem;
+}
+
+[data-grid] {
+  border-width: 6px;
+  border-style: solid;
+}
+
+p {
+  line-height: 1.5;
+}
+a {
+	color:inherit;
+    opacity: 0
+}
