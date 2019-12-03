@@ -8,6 +8,13 @@ Il est apparu après des années de bricolage ou furent utilisées des technique
 
 Il diffère de [Flexbox](../flex) principalement par le fait qu’il est dédié à des *layouts* bi-dimensionnels (lignes **et** colonnes), là où flexbox est dédié aux layouts uni-dimensionnels (lignes **ou** colonnes).
 
+## Ressources en ligne
+
+*   [Gridbyexample.com](https://gridbyexample.com/examples/), les grilles, par l’exemple…
+*   [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), your ultimate CSS grid visual guide
+*   [Grid experiments](https://codepen.io/search/pens?q=grid+experiment) sur Codepen
+*   Quelques [exemples](../../exemples/#grid) sur le site de l’atelier web
+
 ## Vocabulaire
 
 Quelques précisions sur les notions essentielles nécessaires à la compréhension de Grid layout.
