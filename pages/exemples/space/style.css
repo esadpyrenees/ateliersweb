@@ -1,0 +1,142 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/*  grille de mise en page */
+.grid {
+    display: grid;
+    margin: 0 auto;
+    /* autant de colonnes que nécessaire */
+    /* les colonnes font au moins 250px de large */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* autant de lignes que nécessaire */
+    /* les lignes font au moins 100px de haut */
+    grid-auto-rows: minmax(100px, auto);
+    /* permet de combler les “trous” dans la grille */
+    grid-auto-flow: dense;
+}
+
+/* les éléments avec class="tall" s’étendent sur deux lignes */
+.tall { grid-row-end: span 2; }
+/* les éléments avec class="large" s’étendent sur deux colonnes */
+.large { grid-column-end: span 2; }
+
+/* le .header et le .footer s’étendent de la première à la dernière colonne (-1) */
+.header,
+.footer {
+    grid-column: 1 / -1;
+}
+
+
+/* Typographie */
+
+body {
+    margin: 40px;
+    font-family: 'Space Mono', monospace;
+    background-color: #fff;
+    color: #000;
+}
+
+.header {
+    /* affichage en flex du header */
+    display: flex;
+    align-items: center;
+}
+h1, h2 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    /* font-size en fonction de la largeur de la fenêtre */
+    font-size: 7vw;
+    line-height: .8;
+    letter-spacing: 0.032em;
+    font-weight: 700;
+    /* espace inter-mot pour tricher avec la police monospace */
+    word-spacing: -.5ch;
+    /* valeur de flex identique pour h1 et h2 => même taille pour les deux */
+    flex: 1;
+}
+h2 {
+    /* valeur de flex identique pour h1 et h2 => même taille pour les deux */
+    flex: 1;
+    /* font-size en fonction de la largeur de la fenêtre */
+    font-size: 2vw;
+    line-height: 1.1;
+    /* voir ci-dessous ::before */
+    position: relative;
+}
+
+/* introduit un “pseudo-élément” à l’intérieur de h2, avant son contenu: (*before*) */
+/* qui permet de générer une bordure à sa gauche */
+/* la bordur est décalée de 1px vers le haut, le bas et la gauche */
+h2::before {
+    border-left: 1px solid;
+    content: "";
+    display: block;
+    position: absolute;
+    top:-1px;
+    bottom: -1px;
+    left:-1px;
+}
+
+
+/* tous les éléments “enfants directs” (pas les “petits-enfants”) de .grid */
+/* le <header>, le <footer> et tous les <a> */
+.grid > * {
+    background-color: #fff;
+    position: relative;
+    font-size: 150%;
+    margin: 0;
+}
+/* donne une bordure à tous les éléments à l’intérieur de .grid */
+/* grâce à un “pseudo-élément” inséré à l’intérieur de chaque élément */
+.grid > *:after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #000;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    top: -1px;
+}
+
+a {
+    padding: 20px;
+    color: blue;
+    text-decoration: none;
+}
+/* pseudo-élément pour introduire un "+" centré, visible au survol */
+a::before {
+    content: '+';
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    /* opacité zéro */
+    opacity: 0;
+}
+a:hover::before{
+    /* opacité 1 au survol (:hover) */
+    opacity: 1
+}
+
+/* ajustement des images */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
