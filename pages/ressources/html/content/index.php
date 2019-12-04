@@ -1,24 +1,29 @@
 <?php
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
-
-    $Parsedown = new ParsedownExtra();
-
+    // config
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="html";
+    $nav = "/web/snippets/ressources/html.php";
     $subsubsection="content";
+    $mdfile = "./content.md";
 
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/html.php");
-  ?>
+    // includes
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
-  <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./content.md') ); ?>
-      <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    // nav snippet
+    if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
+
+    // markdown!
+    $Parsedown = new ParsedownExtra();
+
+?>
+
+    <main class="pane active" id="content">
+        <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
-  <?php
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>

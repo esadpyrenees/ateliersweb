@@ -15,6 +15,8 @@ Il diffère de [Flexbox](../flex) principalement par le fait qu’il est dédié
 *   [Grid experiments](https://codepen.io/search/pens?q=grid+experiment) sur Codepen
 *   Quelques [exemples](../../exemples/#grid) sur le site de l’atelier web
 
+[→ C’est parti](start/){.bigbutton}
+
 ## Vocabulaire
 
 Quelques précisions sur les notions essentielles nécessaires à la compréhension de Grid layout.
@@ -63,5 +65,3 @@ Le conteneur qui contient la totalité de la grille CSS. C’est l’élément a
 #### Élément (*grid item*)
 Tout élément qui est l’enfant direct d’un conteneur de grille.
 ![](vocabulaire-item.svg)
-
-[→ C’est parti](start/){.bigbutton}

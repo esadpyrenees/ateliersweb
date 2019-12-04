@@ -1,45 +1,47 @@
 <?php
-
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
-
-    $Parsedown = new ParsedownExtra();
-
+    // config
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="css";
+    $nav = "/web/snippets/ressources/css.php";
     $subsubsection="positions";
+    $mdfile = "./positions.md";
 
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/css.php");
-  ?>
+    // includes
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
-  <style>
-  #fixed {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 20px;
-    height:20px;
-    background:black;
-  }
-  .sticky {
-    position: sticky;
-    float: right;
-    top: 0px;
-    width: 20px;
-    height:20px;
-    background:YellowGreen;
-  }
-  </style>
+    // nav snippet
+    if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
 
-  <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./positions.md') ); ?>
-      <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+    // markdown!
+    $Parsedown = new ParsedownExtra();
+
+?>
+
+    <style>
+        #fixed {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          width: 20px;
+          height:20px;
+          background:black;
+        }
+        .sticky {
+          position: sticky;
+          float: right;
+          top: 0px;
+          width: 20px;
+          height:20px;
+          background:YellowGreen;
+        }
+    </style>
+    <main class="pane active" id="content">
+        <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+        <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
-  <div id="fixed"></div>
-  <?php
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>
