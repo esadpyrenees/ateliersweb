@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Display a map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #mymap {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id='mymap'></div>
+
+    <script>
+        // s’inscrire sur http://mapbox.com pour créer un compte, recevoir un accessToken et customiser
+        // la carte via MapBox Studio
+        mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWVuYiIsImEiOiJWTzBDVFg0In0.9nmlzbnQ2mMOUX4Tu0ELzQ';
+
+        var map = new mapboxgl.Map({
+            container: 'mymap', // container id
+            style: 'mapbox://styles/julienb/cjou4jkxe1p0r2snvr30ompph', // stylesheet location
+            center: [-0.369010, 43.299229],
+            zoom: 12.5,
+            pitch: 45,
+            bearing: -17.6,
+            antialias: true
+        });
+
+    </script>
+
+</body>
+
+</html>

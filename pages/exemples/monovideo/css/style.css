@@ -1,0 +1,52 @@
+/* couleur principale */
+:root {
+    --monocolor : blue;
+}
+* { box-sizing: border-box;}
+/* pleine page */
+html, body{ height: 100%;}
+/* centrage de la vidéo */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--monocolor);
+    padding: 5vw
+}
+
+/* responsive youtube / vimeo / iframe container */
+.video-container {
+    position: relative;
+    padding: 0 0 56.25% !important; /* force un ratio de 16/9 */
+    height: 0;
+}
+.video-container iframe, .video-container::after, .video-container::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* container size */
+.video-container {
+    width: 100%;
+}
+
+/* monochrome trick */
+.video-container::before {
+    pointer-events: none;
+    content: "";
+    background-color: #000;
+    z-index: 1;
+    mix-blend-mode: saturation;
+}
+.video-container::after {
+    pointer-events: none;
+    content: "";
+    background-color: var(--monocolor);
+    mix-blend-mode: screen;
+    z-index: 2;
+    pointer-events: none;
+}
