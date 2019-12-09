@@ -1,0 +1,49 @@
+*{
+    margin:0; padding: 0; box-sizing: border-box;
+}
+body{
+    margin: 2rem;
+}
+#controls{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    font-size: 2em;
+    font-family: inherit;
+    text-transform: uppercase;
+    border-radius: 1em;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    padding: .25em .75em;
+    outline: none;
+}
+button[disabled] { display: none; }
+
+#stopButton {
+    animation: pulse 500ms alternate infinite;
+}
+@keyframes pulse {
+    0% { opacity: 1}
+    75% { opacity: 1}
+    100% { opacity: .2}
+}
+
+audio {
+    font-size: 2em;
+    width: 100%;
+    padding: .25em .75em;
+    border: 2px solid black;
+    background: black;
+    border-radius: 1em;
+}
+
+ol, li { list-style-type: none;}
+li {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto min-content;
+    margin-bottom: 2rem;
+}
