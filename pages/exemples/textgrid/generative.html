@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>L’Autre monde ou les États et empires de la Lune</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+<main class="grid">
+
+    <header class="text">
+        <p>
+        Version générative (voir code source). Les largeurs de colonnes et le positionnement des éléments peuvent être ajustés manuellement à partir du code source obtenu après l’opération de mise en page aléatoire.
+        </p>
+    </header>
+
+  <script type="text/javascript">
+    //  stockage des valeurs de couleurs, de tailles et de textes
+    var colors = ["red", "yellowgreen", "hotpink", "crimson", "tomato", "indigo", "lightsteelblue"];
+    var sizes = ["tiny","small", "medium", "big", "huge"];
+    var texts = [
+        ["h1", "L’Autre monde ou les États et empires de la Lune"],
+        ["h2", "Cyrano de Bergerac"],
+        ["p", "Texte établi par Frédéric Lachèvre, Garnier, 1932"],
+        ["p", "La lune étoit en son plein, le Ciel étoit découvert, et neuf heures du soir étoient sonnées, lorsque, revenant de Clamard près Paris (où Monsieur de Cuigy le fils, qui en est Seigneur, nous avoit régalés plusieurs de mes amis et moi), les diverses pensées que nous donna cette boule de safran, nous défrayèrent sur le chemin :"],
+        ["p", "de sorte que les yeux noyés dans ce grand Astre, tantôt l’un le prenait pour une lucarne du Ciel par où l’on entrevoyoit la gloire des bienheureux, tantôt un autre, persuadé des fables anciennes, s’imaginoit que possible Bacchus tenoit taverne là-haut au Ciel, et qu’il y avoit pendu pour enseigne la pleine lune, tantôt un autre assurait que c’étoit la platine où Diane dresse les rabats d’Apollon ;"],
+        ["p", "un autre, que ce pouvoit bien être le Soleil lui-même, qui s’étant au soir dépouillé de ses rayons, regardoit par un trou ce qu’on faisoit au monde quand il n’y étoit pas."],
+        ["p", "« Et moi, leur dis-je, qui souhaite mêler mes enthousiasmes aux vôtres, je crois sans m’amuser aux imaginations pointues dont vous chatouillez le Temps pour le faire marcher plus vite, que la Lune est un monde comme celui-ci, à qui le nôtre sert de Lune. »"],
+        ["p", " Quelques-uns de la compagnie me régalèrent d’un grand éclat de rire."],
+        ["p", "« Ainsi peut-être, leur dis-je, se moque-t-on maintenant dans la Lune, de quelque autre, qui soutient que ce globe-ci est un monde. » Mais j’eus beau leur alléguer que Pythagore, Epicure, Démocrite et, de notre âge, Copernic et Képler avoient été de cette opinion, je ne les obligeai qu’à rire de plus belle."],
+        ["p", "Cette pensée cependant, dont la hardiesse biaisoit à mon humeur, affermie par la contradiction, se plongea si profondément chez moi, que, pendant tout le reste du chemin, je demeurai gros de mille définitions de Lune, dont je ne pouvois accoucher : de sorte qu’à force d’appuyer cette croyance burlesque par des raisonnements presque sérieux, il s’en falloit peu que je n’y déférasse déjà, quand le miracle ou l’accident, la Providence, la fortune, ou peut-être ce qu’on nommera vision, fiction, chimère, ou folie si on veut, me fournit l’occasion qui m’engagea à ce discours."],
+        ["p", " Étant arrivé chez moi, je montai dans mon cabinet, où je trouvai sur la table un livre ouvert que je n’y avois point mis."],
+        ["p", "C’étoit celui de Cardan ; et quoique je n’eusse pas dessein d’y lire, je tombai de la vue, comme par force, justement sur une histoire de ce Philosophe, qui dit, qu’étudiant un soir à la chandelle, il aperçut entrer, au travers des portes fermées, deux grands vieillards, lesquels après beaucoup d’interrogations qu’il leur fit, répondirent qu’ils étoient habitants de la Lune, et en même temps disparurent."],
+        ["p", "Je demeurai si surpris, tant de voir un livre qui s’étoit apporté là tout seul, que du temps et de la feuille où il s’étoit rencontré ouvert, que je pris toute cette enchaînure d’incidens pour une inspiration de faire connoître aux hommes que la Lune est un Monde."],
+        ["p", "« Quoi ! disois-je en moi-même, après avoir tout aujourd’hui parlé d’une chose, un livre qui peut-être est le seul au monde où cette matière se traite si particulièrement, voler de ma bibliothèque sur ma table, devenir capable de raison, pour s’ouvrir justement à l’endroit d’une aventure si merveilleuse ;"],
+        ["p", "entraîner mes yeux dessus, comme par force, et fournir ensuite à ma fantaisie les réflexions, et à ma volonté les desseins que je fais ! — Sans doute, continuois-je, les deux vieillards qui apparurent à ce grand homme, sont ceux-là mêmes qui ont dérangé mon livre, et qui l’ont ouvert sur cette page, pour s’épargner la peine de me faire la harangue qu’ils ont faite à Cardan."],
+        ["p", "— Mais, ajoutois-je, je ne saurois m’éclaircir de ce doute, si je ne monte jusque-là ? — Et pourquoi non ? me répondois-je aussitôt. Prométhée fut bien autrefois au Ciel y dérober du feu. Suis-je moins hardi que lui ? et ai-je lieu de n’en pas espérer un succès aussi favorable ? » "],
+    ]
+
+    for (var i = 0; i < 100; i++) {
+        // on crée un div
+        var el = document.createElement('div');
+        // on détermine une couleur et une taille aléatoire
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        var randomSize = sizes[Math.floor(Math.random() * sizes.length)];
+        //  on affecte la classe à l’élément (avec une espace pour séparer les deux classes)
+        el.classList = randomColor + " " + randomSize;
+
+        // de temps en temps, ajoute un texte
+        if (
+            // selon une probabilité de 30%
+            Math.random() > .7
+            // associée à la condition que la taille ne soit pas "tiny" ou "small"
+            && ["tiny","small"].indexOf(randomSize) < 0
+            // et que la couleur ne soit pas "yellowgreen"
+            && randomColor != "yellowgreen") {
+
+                el.classList.add('text');
+                // el.style.backgroundImage = "url(img/" + i + ".jpg)";
+                // shift retourne et supprime du tableau son premier élément
+                var text = texts.shift();
+                // dans la liste des textes, en 1re position (index=0) est stockée le type d’élément à créer
+                var t = document.createElement(text[0]);
+                // dans la liste des textes, en 2e position (index=1) est stockée le texte lui-même
+                t.textContent = text[1];
+                // on ajoute l’élément texte
+                el.appendChild(t);
+        } else {
+            // si on ne crée pas un texte, on crée une image
+            var img = document.createElement('img');
+            img.src = "img/" + i + ".jpg";
+            el.appendChild(img);
+        }
+        // enfin, on ajoute l’élément à la grille
+        document.querySelector('.grid').appendChild(el);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*  grille de mise en page */
+.grid {
+    display: grid;
+    margin: 0 auto;
+    /* 12 colonnes */
+    grid-template-columns: repeat(12, 1fr);
+    /* lignes automatiques de 100px au minimum, ajustées à la taille du contenu au maximum */
+    grid-auto-rows: minmax(100px, content);
+    /* grid-auto-flow: dense; */
+    /* permettrait de combler automatiquement les “trous” dans la grille */
+    /* mais peut ré-organiser l’ordre des éléments */
+    /* ce que l’on ne souhaite pas dans le contexte d’un texte */
+
+}
+
+/* classes qui déterminent le nombre de colonnes de chaque élément */
+.tiny { grid-column-end: span 1 }
+.small { grid-column-end: span 2 }
+.medium { grid-column-end: span 3 }
+.big { grid-column-end: span 4 }
+.huge { grid-column-end: span 6 }
+.full { grid-column: 1 / -1; }
+
+/* hauteur maximale pour les images */
+.tiny, .small, .medium, .big, .huge, .full {
+    max-height: 400px;
+}
+.text {
+    max-height: 10000px;
+}
+
+.red { background: red}
+.yellowgreen { background: YellowGreen}
+.hotpink { background: hotpink}
+.crimson { background: crimson}
+.tomato { background: tomato}
+.indigo { background: indigo}
+.lightsteelblue { background: lightsteelblue}
+
+
+
+/* Typographie */
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/Cormorant-Italic.woff2') format('woff2'),
+        url('fonts/Cormorant-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/Cormorant-Bold.woff2') format('woff2'),
+        url('fonts/Cormorant-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonts/Cormorant-Regular.woff2') format('woff2'),
+        url('fonts/Cormorant-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CormorantSC';
+    src: url('fonts/CormorantSC-Regular.woff2') format('woff2'),
+        url('fonts/CormorantSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Cormorant", serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4em;
+    letter-spacing: 0.02em;
+}
+h1, h2, p {
+    font-weight: normal;
+    margin-top: 0
+}
+h1, h2 {
+    line-height: 1.1
+}
+.text {
+    padding: 1em;
+    color: white;
+}
+.text * {
+    max-width: 40em;
+}
+/* ajustement des images */
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* mode produit */
+    mix-blend-mode: multiply;
+}
+
+header,
+footer {
+    grid-column: 1 /  -1;
+    background: black;
+    padding: 3em 1em ;
+    color: white
+}
+footer a { color: white}
