@@ -27,9 +27,54 @@
 .huge { grid-column-end: span 6 }
 .full { grid-column: 1 / -1; }
 
+@media (max-width:60em) {
+    .grid { grid-template-columns: repeat(8, 1fr); /* 8 colonnes */ }
+    .tiny,
+    .small { grid-column-end: span 2 }
+    .medium,
+    .big { grid-column-end: span 4 }
+    .huge,
+    .full { grid-column: 1 / -1; }
+
+    /* cas particuliers => boucher les trous */
+    #el-7,
+    #el-39,
+    #el-47,
+    #el-84 {  grid-column: 1/ -1 }
+    #el-19,
+    #el-25,
+    #el-36,
+    #el-53,
+    #el-80 { grid-column: auto; grid-column-end: span 6 }
+    #el-26,
+    #el-38,
+    #el-50,
+    #el-52,
+    #el-87,
+    #el-92 { grid-column: auto; grid-column-end: span 4 }
+    #el-26,
+    #el-54,
+    #el-61,
+    #el-66,
+    #el-81 { grid-column: auto; grid-column-end: span 2 }
+    #el-68,
+    #el-75,
+    #el-77,
+    #el-82 { display: none; }
+}
+
+@media (max-width:40em) {
+    html {
+        font-size: .8em;
+    }
+    /* suppression de la grille */
+    .grid { display: block }
+}
+
 /* hauteur maximale pour les images */
 .tiny, .small, .medium, .big, .huge, .full {
     max-height: 400px;
+    overflow: hidden;
 }
 .text {
     max-height: 10000px;
@@ -89,7 +134,7 @@ body {
 }
 h1, h2, p {
     font-weight: normal;
-    margin-top: 0
+    margin: 0
 }
 h1, h2 {
     line-height: 1.1

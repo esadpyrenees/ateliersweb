@@ -47,6 +47,7 @@
         var randomSize = sizes[Math.floor(Math.random() * sizes.length)];
         //  on affecte la classe à l’élément (avec une espace pour séparer les deux classes)
         el.classList = randomColor + " " + randomSize;
+        el.id = 'el-' + i;
 
         // de temps en temps, ajoute un texte
         if (
