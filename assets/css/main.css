@@ -218,6 +218,7 @@ td code {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 2rem;
 }
+
 .exemples .exemple{
     border: none;
     display: block;
@@ -280,7 +281,13 @@ td code {
 .exemples .exemple:hover strong{
     opacity: 1;
 }
-
+@media (max-width:40em){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    .exemples .exemple span{ height: 20vw }
+}
 /* el highlighting */
 
 .el { position: relative; border: 2px solid black; padding: 20px 50px; background: white}
