@@ -17,7 +17,10 @@ article { float: left; width:220px; border: 10px solid black; margin: 0 30px 30p
 article:last-child { margin: 0}
 img { max-width: 100%; display: block; margin: 0 0 1em}
 
-
+footer{
+    clear: both;
+    color: #666;
+}
 /* plus de 1280px */
 @media only screen and (min-width:1280px) {}
 
@@ -54,14 +57,14 @@ img { max-width: 100%; display: block; margin: 0 0 1em}
     nav:hover ul { display: block;}
     nav { position: absolute; top: 0; left: 0; right: 0; width: 100%; background-color: #000; text-align: center;}
     section { margin-top: 2em}
-    nav:before { 
+    nav:before {
         font-size: 2em;
         content: "\2630";
         font-family: Arial;
         color: #fff;
         display: block;
-        
-        
+
+
         }
 }
 
