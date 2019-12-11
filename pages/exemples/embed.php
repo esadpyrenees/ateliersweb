@@ -16,8 +16,8 @@
                 if( isset($title) ){
                     $title_line = trim($title);
                     echo "<title>ÉSAD Pyrénées – Ateliers web – exemples</title>\n\n";
-                    echo "        <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web – $title_line'>\n";
-                    echo "        <meta property='og:description' content='ÉSAD Pyrénées – Ateliers web – exemple de code : $title_line'>\n";
+                    echo "        <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web'>\n";
+                    echo "        <meta property='og:description' content='$title_line'>\n";
                     echo "        <meta property='og:url' content='$localurl'>\n";
                     echo "        <meta property='og:type' content='website'>\n";
                     echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
