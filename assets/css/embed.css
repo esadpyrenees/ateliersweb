@@ -1,0 +1,26 @@
+html, body {
+    height:100%;
+}
+body{
+    display: flex;
+    margin:0;
+    flex-direction: column;
+}
+#embednav {
+    font-family: 'Ecole', sans-serif;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+#embednav a {
+    color: white;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border:none;
+    padding: .25em .5em;
+    display: block;
+}
+#embednav a span { display:none}
+#embednav a:hover span { display:inline}
+iframe { border:0; }
