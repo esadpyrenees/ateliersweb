@@ -36,6 +36,11 @@ nav button {
     display: inline-block;
     cursor: pointer;
 }
+#mainnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .pane {
     background: white;
     height: 100vh;

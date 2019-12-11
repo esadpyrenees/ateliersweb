@@ -7,6 +7,9 @@
     <li class="<?php echo $section == 'projets' ? 'opened' : '' ?>"><a href="/web/pages/projets/">Projets</a></li>
     <li class="<?php echo $section == 'archives' ? 'opened' : '' ?>"><a href="/web/archives/">Archives</a></li>
   </ul>
+  <span class="<?php echo $section == 'about' ? 'opened' : '' ?>">
+      <a href="/web/pages/about">À propos</a>
+  </span>
 </nav>
 
 <nav class="pane subnav <?php echo $section == 'ressources' ? 'active' : '' ?>"  id="ressources">
