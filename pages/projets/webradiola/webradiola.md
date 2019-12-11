@@ -17,7 +17,14 @@ La sélection des sources sonores pourra s’effectuer <del>dans vos albums pré
 
 ## Références
 
-- http://www.silenceradio.org/
+- [silenceradio.org](http://www.silenceradio.org/) : la taille de chaque “pastille” est liée à celle de la plage sonore.
+- [martinwecke.de/🎵](https://martinwecke.de/%f0%9f%8e%b5/) : une série d’instruments minimaux construits dans le navigateur par Martin Wecke.
+- [tone.js](https://tonejs.github.io/) est un framework javascript pour synthétiser du son dans un navigateur.
+- Dans son projet [otherti.me](https://otherti.me), Raphaël Bastide expérimente à plusieurs reprises avec le son : [ici](https://for.otherti.me/d/events/) ou [là](https://otherti.me/keygen/).
+- [radio.garden](https://radio.garden/) est un projet du studio Moniker.
+- [MusicalInteractions](https://tympanus.net/Development/MusicalInteractions/), une série d’exemples d’interactions musicales sur Codrops.
+- [sound.js](https://createjs.com/soundjs) est une librairie javascript pour jouer avec du son de synthèse ou des enregistrements.
+- [Song Maker](https://musiclab.chromeexperiments.com/Song-Maker/) est un séquenceur sonore visuel qui fait partie des [Chrome Experiments](https://musiclab.chromeexperiments.com/Experiments) musicaux. <small>Uniquement compatible avec la plateforme publicitaire Google Chrome. </small>
 
 ## Ressources
 
