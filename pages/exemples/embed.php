@@ -34,9 +34,10 @@
             }
 
         ?>
-
-        <link rel="stylesheet" href="/web/assets/fonts/fonts.css">
-        <link rel="stylesheet" href="/web/assets/css/embed.css">
+        <script>document.getElementsByTagName('html')[0].className = 'js'</script>
+        <style media="screen">
+            html,body{height:100%}body{display:flex;margin:0;flex-direction:column}#embednav{font-family:'Ecole',sans-serif;background:#000;display:flex;justify-content:space-between}#embednav a{color:#fff;font-size:.85em;text-transform:uppercase;text-decoration:none;border:none;padding:.6em .5em .25em;display:block}#embednav a span{display:none}#embednav a:hover span{display:inline}iframe{border:0}
+        </style>
     </head>
     <body>
 
