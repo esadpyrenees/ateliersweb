@@ -1,11 +1,10 @@
-console.log('yo')
 $('#mainnav').on('click', 'a', function(e){
     //e.preventDefault();
     var href = this.getAttribute('href');
     if (href.indexOf('#')==0) {
         showNav(href);
     } else {
-        //loadPage(href);    
+        //loadPage(href);
     }
 })
 
@@ -19,7 +18,7 @@ function loadPage(href){
 
     $.ajax({
         url: href,
-        
+
         beforeSend:function(){
             // gestion de l’historique
             // transformation du hash (#bidule) en search (?bidule)
@@ -30,11 +29,11 @@ function loadPage(href){
         error: function(XMLHttpRequest, textStatus, errorThrown) {
             // handler(XMLHttpRequest.responseText);
         },
-        success: function(data, textStatus, XMLHttpRequest) {            
+        success: function(data, textStatus, XMLHttpRequest) {
 
             // load result in virtual element
             var $dom = $(document.createElement("html"));
-            $dom[0].innerHTML = data; 
+            $dom[0].innerHTML = data;
             // retrieve content
             var $content = $dom.find('head').first().next().html();
 
@@ -67,7 +66,7 @@ function displayContent(href){
     }
     for (var key in og_tags) {
         $('#og_' + key ).attr('content', og_tags[key]);
-    }   
+    }
 
 
 };
