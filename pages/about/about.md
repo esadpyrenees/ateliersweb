@@ -10,6 +10,6 @@ Les images, sauf mention contraire, sont majoritairement extraites de la mise en
 
 Sauf [mention contraire](/web/pages/exemples/cookie-nav/), le site n’utilise pas de cookie.
 
-Le code complet du site (hasardeux mélange de PHP, markdown, js, css et html) est accessible sur [github](https://github.com/esapyrenees/ateliersweb/).
+Le code complet du site (hasardeux mélange de PHP, markdown, javascript, css et html) est accessible sur [github](https://github.com/esapyrenees/ateliersweb/).
 
 Pour toute question → [twitter](https://twitter.com/julienbidoret) → [e-mail](julien.bidoret@esad-pyrenees.fr).
