@@ -1,0 +1,18 @@
+/*  un wrapper assez haut pour qu’on scrolle */
+.wrapper {
+  width: 100%;
+  height: 150em;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+/* tous les éléments dont la classe *commence par* “speed” */
+[class^="speed"]{
+  position: fixed;
+}
+/* la variable --y est transmise au body par le js */
+.speed-1 {transform: translateY(calc(var(--y) * -0.1));}
+.speed-2 {transform: translateY(calc(var(--y) * -0.4));}
+.speed-3 {transform: translateY(calc(var(--y) * -0.6));}
+.speed-4 {transform: translateY(calc(var(--y) * -0.9));}
