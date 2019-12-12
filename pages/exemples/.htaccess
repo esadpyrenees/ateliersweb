@@ -3,3 +3,8 @@ RewriteCond %{QUERY_STRING} !^embed=(.*)
 RewriteCond %{SCRIPT_FILENAME} -d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^(.*)/$ embed.php?example=$1 [L]
+
+# super weird include
+#AddType application/x-httpd-php .html
+#php_value include_path ./:../:../../:../../../:../../../../
+#php_value auto_append_file "snippets/examples_nav.php"
