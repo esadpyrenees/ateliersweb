@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
  * PHP: Recursively Backup Files & Folders to ZIP-File
@@ -12,7 +12,7 @@ ini_set('memory_limit', '1024M');
 
 
 if($_GET['dir']){
-    $dir = $_GET['dir'];
+    $dir = str_replace("/","",$_GET['dir']); // no trailing slash
     $zip = "../../zip/$dir.zip";
     // there is alreay a backup
     if (is_file($zip)) {
@@ -60,10 +60,10 @@ function zipData($source, $destination) {
                 if (is_dir($source)) {
                     $files = new RecursiveIteratorIterator(
                         new RecursiveDirectoryIterator(
-                            $source, 
-                            RecursiveDirectoryIterator::SKIP_DOTS), 
+                            $source,
+                            RecursiveDirectoryIterator::SKIP_DOTS),
                         RecursiveIteratorIterator::SELF_FIRST);
-                    
+
                     foreach ($files as $file) {
                         $file = realpath($file);
                         if (is_dir($file)) {
@@ -91,7 +91,7 @@ function returnFile($dir, $zip){
     header("Content-Length:".filesize($zip));
     header("Content-Disposition: attachment; filename=$dir.zip");
     readfile($zip);
-    die();     
-} 
+    die();
+}
 
 ?>
