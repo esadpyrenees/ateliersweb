@@ -17,10 +17,10 @@ body {
 
 #bg2{
     width: 0%;
-    background: pink url("http://ateliers.esapyrenees.fr/_inc/img/750/1.jpg");
+    background: pink url("https://ateliers.esad-pyrenees.fr/_inc/img/750/1.jpg");
     background-size: cover;
     height: 80%;
-    position: fixed;  
+    position: fixed;
     top: 10%;
     animation: openupbg2 500ms ease-out 300ms forwards;
 }
@@ -83,7 +83,7 @@ img {
     padding: 1em;
     opacity: .5;
     transition: all 250ms;
-    
+
 }
 .item:hover div {
     top: 0;
@@ -93,11 +93,3 @@ img {
 #page h2 {
     font-size: var(--bigfontsize)
 }
-
-
-
-
-
-
-
-
