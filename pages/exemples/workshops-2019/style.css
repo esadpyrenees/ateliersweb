@@ -1,0 +1,223 @@
+
+@font-face{
+    font-family: "Ecole";
+    src: url("Ecole-Italic.woff") format("woff"),
+        url("Ecole-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Ecole";
+    src:url("Ecole-Bold.woff") format("woff"),
+        url("Ecole-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "Ecole";
+    src:url("Ecole-Regular.woff") format("woff"),
+        url("Ecole-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+
+
+:root{
+    --width:2.5rem;
+    --cols:3;
+    --gutter:1px;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height:100%;
+}
+body{
+    font-family: "Ecole";
+    background:black;
+    display: flex;
+    padding:  var(--gutter);
+    margin:0
+}
+a {
+    color: black
+}
+section {
+    height: 100%;
+    background:white;
+    overflow: hidden;
+    width: var(--width);
+    margin: 0  var(--gutter) 0 0;
+    transition: width .25s ease;
+    position: relative;
+}
+section:last-of-type { margin: 0; }
+section > div {
+    transition: background-color .25s ease;
+    background-color:#fff;
+    height: 100%;
+    width:calc(100vw - 17.5rem - 8px );
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+section > div > * {
+    grid-column: 1 / -1;
+}
+
+header {
+    transform-origin:top right;
+    height:var(--width);
+    padding-right:var(--width);
+    overflow:hidden;
+    transform: translate(-100%, 0) rotate(-90deg);
+    white-space: nowrap;
+    margin:0;
+    width:100vh;
+    text-align:right;
+    cursor: col-resize
+}
+header h1, header h2 {
+    display: inline;
+    letter-spacing: .05em;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: var(--width);
+}
+header h2, h3 {
+    font-weight: normal;
+    font-size: 1em;
+    letter-spacing: .025em;
+    margin: 0;
+}
+h3 { padding-left: 2.03125rem;}
+
+header h2 { display: none }
+
+article,
+h3,
+.date, .hours, .url {
+    display: none;
+}
+
+/* active section  */
+
+.visible {
+    width:calc(100vw - 17.5rem - 8px );
+}
+.visible > div {
+    padding:0 var(--width);
+    width:calc(100vw - 17.5rem - 8px);
+    background: tomato;
+    background: #EF2814;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.visible header {
+    transform:none;
+    width:auto;
+    text-align:left;
+    height: auto;
+    overflow: visible;
+    white-space: normal;
+    margin-bottom: 6em;
+    cursor: auto;
+}
+
+.visible header h1,
+.visible header h2,
+.visible header h3 {
+    display: block;
+}
+.visible h1{
+    font-family: "Ecole";
+    font-size: calc(9vw + 2rem);
+    letter-spacing: -.05em;
+    font-weight: 700;
+    line-height: .9;
+    margin: .25em 0 0 -.05em;
+}
+
+.visible article {
+    display: block;
+}
+
+/* home */
+
+.logo {
+    align-content: end;
+    display: none;
+    width: 100%;
+    padding-bottom: 2em;
+}
+.logo img { width: 100%;}
+
+#home.visible .logo { display: block;}
+#home.visible h2 {padding-top: var(--width); line-height: 1.45}
+#home h1 {
+    font-size: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+#home > div {
+    grid-template-rows: 1fr auto;
+}
+#home article {
+    max-width: 100%;
+    padding-bottom: 0
+}
+
+
+
+/* articles */
+
+article {
+    max-width: 30em;
+    line-height: 1.45;
+    padding-bottom: 4em;
+    font-size: 1.625rem;
+}
+p {
+    margin: 0;
+    text-indent: -1.25em;
+    padding-left: 1.25em;
+}
+.website::before {
+    content:"→ ";
+    display: inline-block;
+    width: 1.25em;
+    text-indent: 0
+}
+
+
+@media (max-width:1111px) {
+    .visible h1{
+        font-size: calc(7vw + 1.5rem);
+    }
+}
+
+@media (max-width:850px) {
+    :root{
+        --width:1.5rem;
+    }
+    html, body{
+        height: auto;
+        font-size: .85em
+    }
+    body { flex-direction: column;}
+    section, .visible, section > div, .visible > div, header { width: 100%}
+    section{margin: 0 0 var(--gutter)  0}
+    .visible, .visible > div { height: auto; overflow: inherit;}
+    .visible { flex: 1}
+    header { transform: none; text-align: left; padding: 0 var(--width); height: 2.5rem; line-height: 2.5rem}
+    .visible header { padding: 1em 0 0 0; line-height: 1.45; margin-bottom: 3em;}
+    .visible h1 {
+        letter-spacing: 0;
+        margin-bottom: .5em
+    }
+    article {
+        font-size: 1.25rem;
+    }
+}
