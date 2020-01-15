@@ -2,7 +2,7 @@
 
 
     $params = explode('/', $_GET["params"]);
-
+    
     if(isset($params[0]) ){
         $section = $params[0];
     } else {
@@ -47,4 +47,4 @@
     exec ($paste);
     exec ("rm -f " . $cache);
 
-    die('/web/media/' .'/'. 'ogp' .'/'. $key);
+    die('/web/media/ogp/'. $key);
