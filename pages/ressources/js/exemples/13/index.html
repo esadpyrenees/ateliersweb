@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reglo</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/stretch.css">
+    </head>
+    <body>
+        
+        <header class="stretch">
+            Paul Lafargue
+            —
+            Le Droit à la Paresse 
+            (extrait)
+        </header>
+
+        <p>
+            <a href="http://kropot.free.fr/Lafargue-paresse.htm">Texte trouvé sur kropot.free.fr</a> —
+            <a href="http://ospublish.constantvzw.org/foundry/reglo/">(dé)composé en Reglo, d’Open Source Publishing</a>.
+        </p>
+        
+        <article class="stretch">
+            Une étrange folie possède les classes ouvrières des nations où règne la civilisation capitaliste. Cette folie  traîne à sa suite des misères individuelles et sociales qui, depuis des siècles,torturent la triste humanité. Cette folie est l'amour du travail, la passion moribonde du travail, poussée jusqu'à l'épuisement  des forces vitales de l'individu et de sa progéniture. Au lieu de réagir contre cette aberration mentale, les prêtres, les économistes, les moralistes, ont sacro-sanctifié le travail. Hommes aveugles et bornés, ils ont voulu être plus sages que leur Dieu ; hommes faibles et méprisables, ils ont voulu réhabiliter ce que leur Dieu avait maudit. Moi, qui ne professe d'être chrétien, économe et moral, j'en appelle de leur jugement à celui de leur Dieu ; des prédications de leur morale religieuse, économique, libre penseuse, aux épouvantables conséquences du travail dans la société capitaliste.  
+        </article>
+
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+
+                var $stretch = $('.stretch');
+
+                $stretch.each(function(){
+                    var text = $(this).text().split(' ');
+
+                    $(this).empty();
+
+                    for (var i = 0; i < text.length; i++) {
+
+                        var scaleX = Math.floor((Math.random()+0.3)*10)/10,
+                            isital =  Math.random() > 0.5 ? true : false,
+                            transital='',
+                            $span = $('<span class="stretched">' + text[i] + ' </span>');
+
+                        $(this).append($span);      
+
+                        var thisWidth = $span.width()*scaleX;
+                        
+                        if(isital){
+                            var neg = Math.random() > 0.5 ? 1 : -1,
+                                ital = Math.floor((Math.random())*35+15) * neg,
+                                thisHeight = $span.height(),
+                                sideb = thisHeight / Math.cos(ital * Math.PI / 180),
+                                sidec = Math.floor(Math.sqrt(sideb * sideb - thisHeight * thisHeight)),
+                                trans = neg < 0 ? sidec : sidec * -1,
+                                transital = 'skew('+ ital +'deg)' + ' translate('+ trans/2 + 'px, 0)';
+                        }
+
+                        $span.css({                        
+                            'width': thisWidth,
+                            'transform':'scaleX(' + scaleX + ')' + transital                        
+                        });                      
+                    };
+                })
+                  
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+/* CSS */
+
+body { font-size: 50px; }
+
+#bouton { 
+    border:10px solid red;
+    transition: all 200ms;
+    }
+button.gros { border:40px solid red; font-size: 60px }

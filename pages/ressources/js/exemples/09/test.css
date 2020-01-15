@@ -1,0 +1,18 @@
+/* CSS */
+html, body { height: 100%}
+
+body { font-size: 50px; margin: 0}
+
+* { 
+      -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+#salut { height: 200px; width: 800px; margin: 0 auto; border: 1px solid #000; text-align: center; z-index: 3}
+span { position: relative; transition: all 200ms;}
+
+#btn { position: fixed; right: 0; top:0; z-index: 4}

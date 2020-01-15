@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Positions d’images aléatoires — 2</title>
+        <style type="text/css">
+            html, body { height: 100%;}
+            body {
+                margin:0;
+                display:grid;
+                grid-gap: 10px;
+            }
+            img {
+                width:100%;
+                height:100%;
+                object-fit:cover;
+            }
+        </style>        
+    </head>
+    <body>       
+        
+        
+        <script>
+
+            // Configuration  
+            var columns = 10,
+                rows = 5;
+                
+            // Crée une liste vide pour stocker les cellules occupées de la grille
+            var occupied_cells = [];
+
+            // Crée une liste vide pour stocker les images
+            var liste = [];
+            // Ajoute 25 entrées dans la liste, chacune constituée de l’URL d’une image
+            for( var i = 1; i < 25; i++ ){
+                liste.push("http://ateliers.esapyrenees.fr/_inc/img/250/"+ i +".jpg");
+            }
+            // La liste peut aussi être déterminée non-aléatoirement
+
+
+            // Détermine l’élément dans lequel on souhaite insérer les images
+            var container = document.querySelector('body');
+            // Détermine les grilles et colonnes de l’élément
+            container.style.gridTemplateColumns = "repeat("+ columns +", 1fr)";
+            container.style.gridTemplateRows = "repeat(" + rows + ", 1fr)";
+
+            // Pour chaque élément de la liste…
+            for(var i = 0; i < liste.length; i++){
+                // Crée un élément <img>,
+                var image = document.createElement('img');
+                // assigne un src correspondant à la 𝑛ième entrée dans la liste,
+                image.src= liste[ i ];
+                
+
+                putImageIntoRandomCell(image);
+            }
+
+            function putImageIntoRandomCell(image){
+
+                // Empêcher une boucle infinie si le nombre d’images est supérieur au nombre de cellules
+                if (liste.length >= rows*columns ) { 
+                    return false; 
+                }
+                
+                // Détermine une ligne et une colonne aléatoires
+                // contraintes par les dimensions du conteneur
+                var row = parseInt( Math.round( Math.random() * rows ) );
+                var column = parseInt( Math.round( Math.random() * columns ) );
+                // Syntaxe nécessaire pour grid-area
+                var cell = row + " / " + column;
+
+                // Vérifie que la cellule n’est pas déjà occupée 
+                if (occupied_cells.indexOf(cell) < 0) {                    
+                    // Si elle ne l’est pas, affecte la propriété CSS à l’image
+                    image.style.gridArea = cell;  
+                    // insère à l’intérieur du conteneur
+                    container.appendChild(image);                  
+                } else {
+                    // Sinon, réessaie…
+                    console.log(image)
+                    putImageIntoRandomCell(image);
+                }
+                // Ajoute la cellule à la liste des cellules occupées
+                occupied_cells.push(cell);
+                
+            }
+        </script>
+    </body>
+</html>

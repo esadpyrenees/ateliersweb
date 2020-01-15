@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Positions d’images aléatoires — 1</title>
+        <style type="text/css">
+            html, body { height: 100%;}
+            img {
+                width:200px;
+                position: absolute;
+            }
+        </style>        
+    </head>
+    <body>       
+        
+        
+        <script>
+            // Crée une liste vide
+            var liste = [];
+            // Ajoute 25 entrées dans la liste, chacune constituée de l’URL d’une image
+            for( var i = 1; i < 25; i++ ){
+                liste.push("http://ateliers.esapyrenees.fr/_inc/img/250/"+ i +".jpg");
+            }
+            // La liste peut aussi être déterminée non-aléatoirement
+            
+            // Détermine l’élément dans lequel on souhaite insérer les images
+            var container = document.querySelector('body');
+            // Enregistre ses dimensions
+            var container_width = container.offsetWidth;
+            var container_height = container.offsetHeight;
+
+            // Pour chaque élément de la liste…
+            for(var i = 0; i < liste.length; i++){
+                // Crée un élément <img>,
+                var image = document.createElement('img');
+                // assigne un src correspondant à la 𝑛ième entrée dans la liste,
+                image.src= liste[ i ];
+                // insère à l’intérieur du conteneur
+                container.appendChild(image);
+                // Quand l’image est chargée…
+                // Enregistre ses dimensions
+                var img_width = image.offsetWidth;
+                var img_height = image.offsetHeight;
+                // Assigne à l’image des positions aléatoires (left et top)
+                // contraintes par les dimensions du conteneur
+                image.style.left = parseInt( Math.round( Math.random() * (container_width - img_width) )) + 'px';
+                image.style.top = parseInt( Math.round( Math.random() * (container_height - img_height) )) + 'px';
+            }
+        </script>
+    </body>
+</html>

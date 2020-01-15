@@ -1,0 +1,36 @@
+/* CSS */
+
+body { font-size: 50px; margin: 0}
+#mask { 
+    position: fixed;
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 60px,rgba(255,255,255,0) 100%);
+    width: 100%;
+    height: 350px;
+    top: 0;
+    z-index: 1
+    }
+header {
+    position: fixed;
+    background: black;
+    color: rgba();
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    }
+h1 { font-size: 20px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
