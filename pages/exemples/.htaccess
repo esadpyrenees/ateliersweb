@@ -1,5 +1,5 @@
 #RewriteBase /web/pages/exemples/
-#RewriteCond %{QUERY_STRING} !^u=(.*)
-#RewriteCond %{SCRIPT_FILENAME} -d
-#RewriteCond %{SCRIPT_FILENAME} !-f
-#RewriteRule ^(.*)/$ embed.php?q=$1 [L]
+RewriteCond %{QUERY_STRING} !^u=(.*)
+RewriteCond %{SCRIPT_FILENAME} -d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)/$ embed.php?q=$1 [L]
