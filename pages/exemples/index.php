@@ -1,10 +1,10 @@
-  <?php 
+  <?php
 
     $title = "ÉSAD·Pyrénées — Ateliers web — Exemples";
     $section="exemples";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-  ?> 
+  ?>
 
   <main class="pane active exemples" id="content">
     <div class="grid">
@@ -15,7 +15,7 @@
     function scan_dir($dir) {
         $ignored = array('.', '..', '.svn', '.htaccess');
 
-        $files = array();    
+        $files = array();
         foreach (scandir($dir) as $file) {
             if (in_array($file, $ignored)) continue;
             $files[$file] = filemtime($dir . '/' . $file);
@@ -37,41 +37,43 @@
 
     clearstatcache();
 
-    
+
     // bulid page
     foreach ($exemples_dirs as $exemple){
-        
+
         $dir = $directory . DIRECTORY_SEPARATOR . $exemple;
         if (is_dir($dir)){
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
             $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
             if (file_exists($readme)) {
                 parse_str( file_get_contents($readme) );
-                echo "<div class='exemple ";
+                $my_tags = "";
                 if( isset($tags) ){
                     foreach (explode(',', $tags) as $tag) {
-                        echo "$tag ";
+                        $tg = str_replace(array("\r", "\n"), '', $tag);
+                        $my_tags .= "$tg ";
                     }
-                } 
-                echo "'>";
+                }
+                echo  "<div class='exemple $my_tags'>";
             }
             echo "<a class='download' download href='backup.php?dir=$exemple'>zip!</a>";
             echo "<a href='$exemple/'>";
             echo "<span><strong>";
             if( isset($tags) ){
                 foreach (explode(',', $tags) as $tag) {
-                    echo "#$tag ";
+                  $tg = str_replace(array("\r", "\n"), '', $tag);
+                    echo "#$tg ";
                 }
-            } 
+            }
             echo "</strong>";
             if (file_exists($thumb)) {
                 echo "<img src='$exemple/thumb.png'>";
             }
             echo "</span>";
             echo "<h2>$title</h2>";
-            echo "</a></div>";
+            echo "</a></div>\n\n";
         }
-    } 
+    }
     ?>
     </div>
   </main>
@@ -121,10 +123,8 @@
         mixer.filter(selector);
     };
 
-   
-  </script>
-  <?php 
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
 
-  
+  </script>
+  <?php
+    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
+  ?>
