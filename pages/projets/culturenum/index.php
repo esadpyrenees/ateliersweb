@@ -38,6 +38,7 @@
 
         .culturenum h1 {
             font-size: 3em;
+            margin-top: 0
         }
 
 
@@ -52,6 +53,7 @@
 
                 <?php
                     $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_cultures_numeriques/export/txt" );
+                    $pad = file_get_contents( "index.md" );
                     $parsed_pad = $Parsedown->text( $pad );
                     echo $parsed_pad;
                 ?>
