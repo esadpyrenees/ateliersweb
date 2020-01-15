@@ -15,7 +15,7 @@ La sélection des sources sonores pourra s’effectuer <del>dans vos albums pré
 3.  prototype web responsive fonctionnel
 4.  sélection de références commentées (focus sur l’expérience mobile)
 
-## Références
+## Références (en vrac)
 
 - [silenceradio.org](http://www.silenceradio.org/) : la taille de chaque “pastille” est liée à celle de la plage sonore.
 - [martinwecke.de/🎵](https://martinwecke.de/%f0%9f%8e%b5/) : une série d’instruments minimaux construits dans le navigateur par Martin Wecke.
@@ -25,6 +25,8 @@ La sélection des sources sonores pourra s’effectuer <del>dans vos albums pré
 - [MusicalInteractions](https://tympanus.net/Development/MusicalInteractions/), une série d’exemples d’interactions musicales sur Codrops.
 - [sound.js](https://createjs.com/soundjs) est une librairie javascript pour jouer avec du son de synthèse ou des enregistrements.
 - [Song Maker](https://musiclab.chromeexperiments.com/Song-Maker/) est un séquenceur sonore visuel qui fait partie des [Chrome Experiments](https://musiclab.chromeexperiments.com/Experiments) musicaux. <small>Uniquement compatible avec la plateforme publicitaire Google Chrome. </small>
+- [Scrollsound](https://zya.github.io/scrollsound/) est une expérimentation de [Ehsan Ziya](https://www.zya.cc/) utilisant le scroll comme logique d’interaction avec la génération sonore.
+- [JavaScript Systems Music. Learning Web Audio by Recreating The Works of Steve Reich and Brian Eno](https://teropa.info/blog/2016/07/28/javascript-systems-music.html#steve-reichits-gonna-rain1965). Un article fascinant sur la création de systèmes de génération musicale avec l’API Web Audio.
 
 ## Ressources
 
