@@ -55,6 +55,11 @@ open . </code></pre>
                 <li>La documentaton de la librairie jQuery est elle aussi très complète et abondamment illustrée par de nombreux exemples : <strong><a href="http://api.jquery.com/">api.jquery.com</a></strong></li>
             </ul>
         </section>
+        <section class="section" id="warning">
+                <p>
+                Les <i>snippets</i> de code ci-dessous, s’ils restent valables en 2020 sont écrits dans une syntaxe ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
+                </p>
+        </section>
 
         
 
