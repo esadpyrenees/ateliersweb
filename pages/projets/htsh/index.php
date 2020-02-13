@@ -45,7 +45,7 @@
         <section class="section" id="mediums">
             <?= $Parsedown->text( file_get_contents('./5.mediums.md') ); ?>
         </section>
-        <section class="section" id="references">
+        <section class="section" id="refs">
             <?= $Parsedown->text( file_get_contents('./6.references.md') ); ?>
         </section>
     </div>

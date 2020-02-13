@@ -5,6 +5,6 @@
     <li><a href="/web/pages/projets/htsh/#contraintes">Contraintes</a></li>
     <li><a href="/web/pages/projets/htsh/#methode">Méthode</a></li>
     <li><a href="/web/pages/projets/htsh/#mediums">Mediums</a></li>
-    <li><a href="/web/pages/projets/htsh/#references">Références</a></li>
+    <li><a href="/web/pages/projets/htsh/#refs">Références</a></li>
   </ul>
 </nav>
