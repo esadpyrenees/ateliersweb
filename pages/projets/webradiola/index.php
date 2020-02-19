@@ -2,7 +2,7 @@
   include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
   $Parsedown = new Parsedown();
 
-  $title = "ÉSAD·Pyrénées — Ateliers web — Projets";
+  $title = "Projets: webradiola";
   $section="projets";
   $subsection="webradiola";
   include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");

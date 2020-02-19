@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD·Pyrénées — Ateliers web — Projets";
+    $title = "Projets: Storytellers";
     $section="projets";
     $subsection="storytellers";
     // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
