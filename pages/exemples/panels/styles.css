@@ -1,0 +1,65 @@
+/* repair CSS */
+* { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    background: black;
+    /* pas de défilement horizontal */
+    overflow-x: hidden;
+}
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.panel {
+    background-color: darkmagenta;
+    color:white;
+    padding: 30px;
+    /* prend tout l’espace de la page */
+    position: fixed; top:0; left: 0; right:0; bottom: 0;
+    /* déplace l’élément hors de la zone visible du navigateur, le viewport */
+    transform: translateX(100%);
+    /* pas de transition */
+    transition: none;
+}
+
+.panel.visible {
+    /* élimine la transformation */
+    transform: translateX(0);
+    /* transition */
+    transition: transform 250ms;
+}
+.panel.hidden {
+    /* déplace l’élément hors du viewport, de l’autre côté */
+    transform: translateX(-100%);
+    /* transition */
+    transition: transform 250ms;
+}
+
+.no-js .panel {
+    /* contexte d’amélioration progressive */
+    position: static;
+    /* si javascript est désactivé, les panels sont visibles */
+    transform: none !important;
+}
+
+nav {
+    position: fixed;
+    bottom:0;
+    background-color: rebeccapurple;
+    width:100%;
+    z-index: 1;
+    display: flex;
+}
+
+nav a { 
+    flex:1; 
+    text-align: center;
+    padding: 1em;
+}
+nav a.active {
+    color: red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- une classe "no-js" est affectée à l’élément -->
+<html lang="fr" dir="ltr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Panels nav</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+        // la classe "no-js" est remplacée par "js" si javascript est activé
+        document.documentElement.className = "js"
+    </script>
+  </head>
+  <body>
+
+    <nav>
+        <a href="#panel-1" class="active">1</a>
+        <a href="#panel-2">2</a>
+        <a href="#panel-3">3</a>
+        <a href="#panel-4">4</a>
+    </nav>
+
+    <div id="panel-1" class="panel visible">
+        page 1<br>
+        navigation javascript qui s’adapte à la disponibilité et à l’activation 
+        de javascript chez l’utilisateur, suivant le principe du
+        <i>progressive enhancement</i>, l’amélioration progressive : 
+        si javascript est désactivé, le contenu reste accessible
+    </div>
+    <div id="panel-2" class="panel">page 2</div>
+    <div id="panel-3" class="panel">page 3</div>
+    <div id="panel-4" class="panel">page 4</div>
+
+    <script type="text/javascript" src="panels.js"></script>
+
+  </body>
+</html>
