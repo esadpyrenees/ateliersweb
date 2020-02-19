@@ -43,7 +43,9 @@
     <body>
 
         <nav id="embednav">
-            <a href="../">↩ <span>retour</span></a><a class='download' download href='../backup.php?dir=<?php echo $dir ?>'> <span>télécharger</span> ☻</a>
+            <a href="../">↩ <span>retour</span></a>
+            <a href="./?embed=2">↯ <span>masquer la navigation</span> </a>
+            <a class='download' download href='../backup.php?dir=<?php echo $dir ?>'> <span>télécharger</span> ☻</a>
         </nav>
 
         <!-- Le code source de l’exemple est situé dans cette iframe : -->
