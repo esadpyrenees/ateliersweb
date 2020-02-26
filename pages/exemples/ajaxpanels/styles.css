@@ -1,0 +1,48 @@
+
+* { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    background: black;
+    overflow-x: hidden;
+}
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.content {
+    background-color: greenyellow;
+    color:green;
+    padding: 30px;
+    /* prend tout l’espace de la page */
+    position: fixed; top:0; left: 0; right:0; bottom: 0;
+}
+
+p { margin: 0 0 1em;}
+
+nav {
+    position: fixed;
+    bottom:0;
+    background-color: forestgreen;
+    width:100%;
+    z-index: 1;
+    display: flex;
+}
+
+nav a { 
+    flex:1; 
+    text-align: center;
+    padding: 1em;
+}
+nav a.current {
+    color: greenyellow;
+}
+
+/* carte pour la page 2 */
+#mymap{
+    height: 350px;
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax nav</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+      document.documentElement.className = "js"
+    </script>
+    <!-- pour la carte de la page 2 -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css"/>    
+  </head>
+  <body>
+
+    <nav>
+        <a id="nav-index" data-section="index" href="index.html">1</a>
+        <a id="nav-page2" data-section="page2" href="page2.html">2</a>
+        <a id="nav-page3" data-section="page3" href="page3.html">3</a>
+        <a id="nav-page4" data-section="page4" class="current" href="page4.html">4</a>
+    </nav>
+
+    <div id="content" class="content">
+      <p>Page 4</p>
+    </div>
+    
+    <!-- pour la carte de la page 2 -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
+  </body>
+</html>
