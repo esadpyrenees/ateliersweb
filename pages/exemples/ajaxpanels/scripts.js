@@ -4,7 +4,9 @@
     var nav = document.querySelector('nav'),
         links = document.querySelectorAll('nav a'),
         content = document.querySelector('#content'),
-        defaultTitle = "Ajax nav";
+        defaultTitle = "Ajax nav",
+        player = document.querySelector('#player'),
+        playpause = document.querySelector('#playpause');
 
     // fonction utilitaire asynchrone de chargement de page
     async function getPage(url) {
@@ -13,8 +15,15 @@
         return text;
     }
 
+    // audio
+    if(player.paused) {
+        player.play();
+        playpause.textContent = 'pause';
+    }
+
     // éxécution de js spécifique à chaque page
     function doStuff(section){
+        
         if(section == undefined){
             section = document.querySelector('a.current').getAttribute('data-section');
         }
@@ -32,7 +41,7 @@
                     });
                 break;        
             default:
-                // 
+                // rien pour les sections page3 et page4
                 break;
         }
     }
@@ -75,7 +84,7 @@
 
     // au click sur un lien de la nav
     nav.addEventListener('click', function(e) {
-        if (e.target != e.currentTarget) {
+        if (e.target.tagName == 'A') {
             // annule le comportement par défaut (accéder à la page)
             e.preventDefault();
             // récupération des infos de chargement
@@ -85,8 +94,21 @@
             history.pushState(section, null, url);
             // appel de la fonction qui charge la nouvelle page
             loadPage(url, section);
+            e.stopPropagation();
         }
-        e.stopPropagation();
+        if (e.target.tagName == 'BUTTON' && e.target.id=="playpause" ) {
+            // audio
+            var paused = player.paused;
+            if (paused) {
+                playpause.textContent = 'pause';
+                player.play();
+            } else {
+                playpause.textContent = 'play';
+                player.pause();
+            }
+            e.stopPropagation();
+        }
+        
     }, false);
 
     // gestion de l’historique

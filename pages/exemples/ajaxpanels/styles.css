@@ -31,8 +31,13 @@ nav {
     z-index: 1;
     display: flex;
 }
-
+nav button,
 nav a { 
+    border:none;
+    background: transparent;
+    color: white;
+    padding: 0;
+    font-size: 1em;
     flex:1; 
     text-align: center;
     padding: 1em;

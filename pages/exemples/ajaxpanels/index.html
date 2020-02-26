@@ -13,6 +13,11 @@
   <body>
 
     <nav>
+        <!-- iframe trick to allow autoplay  -->
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <!-- audio : CC-BY reinsamba : https://freesound.org/people/reinsamba/sounds/18765/ -->
+        <audio id="player" loop><source src="evening-in-the-forest.mp3" type="audio/mp3"></audio>
+        <button id="playpause">play</button>
         <a id="nav-index" data-section="index" class="current" href="index.html">1</a>
         <a id="nav-page2" data-section="page2" href="page2.html">2</a>
         <a id="nav-page3" data-section="page3" href="page3.html">3</a>
