@@ -6,5 +6,6 @@
     <li><a href="/web/pages/projets/htsh/#methode">Méthode</a></li>
     <li><a href="/web/pages/projets/htsh/#mediums">Mediums</a></li>
     <li><a href="/web/pages/projets/htsh/#refs">Références</a></li>
+    <li><a href="/web/pages/projets/htsh/#tools">Outils</a></li>
   </ul>
 </nav>
