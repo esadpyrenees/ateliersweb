@@ -1,4 +1,4 @@
-img { width:200px; position:absolute }
+img { width:200px; position:absolute; cursor: pointer; }
 .hidden { display: none; }
 
 #image0 { left:45px;}
