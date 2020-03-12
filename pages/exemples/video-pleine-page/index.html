@@ -15,7 +15,7 @@
 <body>
 
     <section class="video">
-        <video autoplay loop muted oncanplay="this.play()" onloadedmetadata="this.muted=true" poster="video/Snapshots/Under.jpg">
+        <video id="video" autoplay loop muted oncanplay="this.play()" onloadedmetadata="this.muted=true" poster="video/Snapshots/Under.jpg">
             <source type="video/mp4" src="video/MP4/Under.mp4">
             <source type="video/ogv" src="video/OGV/Under.ogv">
             <source type="video/webm" src="video/WEBM/Under.webm">
@@ -25,7 +25,20 @@
     <section class="text">
         La vidéo couvre la totalité de l’écran et fait l’objet d’une rotation en mode portrait.
     </section>
+    <script>
 
+        var player = document.getElementById('video');
+        var playing = player.paused;
+        player.addEventListener('click', function(){
+            if (playing) {
+                player.pause();
+            } else {
+                player.play();
+            }
+            playing = !playing;
+        })
+
+    </script>
 </body>
 
 </html>
