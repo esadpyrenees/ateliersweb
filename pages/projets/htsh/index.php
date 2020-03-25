@@ -36,6 +36,9 @@
         <section class="section" id="hypertextualite">
             <?= $Parsedown->text( file_get_contents('./2.hypertextualite.md') ); ?>
         </section>
+        <section class="section" id="objectif">
+            <?= $Parsedown->text( file_get_contents('./2.5.objectif.md') ); ?>
+        </section>
         <section class="section" id="contraintes">
             <?= $Parsedown->text( file_get_contents('./3.contraintes.md') ); ?>
         </section>

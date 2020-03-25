@@ -77,7 +77,7 @@ Les blocs de citation sont utilisés pour identifier une citation.
 <p>Tim Berners-Lee a déclaré: </p>
 <blockquote>
   « Le web est plus une invention sociale que technologique. Je l’ai conçu pour qu’il ait un effet social – aider les gens à travailler ensemble – et non comme un jouet technologique. »
-</ blockquote>
+</blockquote>
 ```
 <p>Tim Berners-Lee a déclaré: </p>
 <blockquote>

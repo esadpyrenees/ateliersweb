@@ -98,6 +98,9 @@ if(srch != ""){
 
 // random
 $(function(){
+
+
+    
     var $ramdam = $('#randomramdam');
     var text = $ramdam.text();
     var letters = text.split('');
@@ -152,4 +155,35 @@ $(function(){
         ramdamize(this);
         interval = setInterval(ramdamize, 2000, $ramdam);
     })
+})
+
+
+function slugify(string) {
+    const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìłḿñńǹňôöòóœøōõőṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;'
+    const b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiilmnnnnoooooooooprrsssssttuuuuuuuuuwxyyzzz------'
+    const p = new RegExp(a.split('').join('|'), 'g')
+  
+    return string.toString().toLowerCase()
+      .replace(/\s+/g, '-') // Replace spaces with -
+      .replace(p, c => b.charAt(a.indexOf(c))) // Replace special characters
+      .replace(/&/g, '-and-') // Replace & with 'and'
+      .replace(/[^\w\-]+/g, '') // Remove all non-word characters
+      .replace(/\-\-+/g, '-') // Replace multiple - with single -
+      .replace(/^-+/, '') // Trim - from start of text
+      .replace(/-+$/, '') // Trim - from end of text
+  }
+
+
+// random
+$(function(){
+
+    var $headings = $('main h1, main h2, main h3');
+    $headings.each(function(){
+        var $self = $(this);
+        if(!$self.attr('id')){
+            $self.attr('id', slugify($self.text()));
+        }
+    })
+    
+
 })

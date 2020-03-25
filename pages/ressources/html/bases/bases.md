@@ -366,7 +366,7 @@ Ils afficheront :
 
 Il n’existe pas de règles spécifiques concernant le formatage HTML, mais il existe des conventions implicites, notamment:
 
-- utiliser des **tabulations** pour aider à visualiser comment les éléments HTML sont imbriqués
+- utiliser des **[tabulations](https://fr.wikipedia.org/wiki/Touche_de_tabulation)** pour aider à visualiser comment les éléments HTML sont imbriqués
 - placer les balises d’ouverture et de fermeture des éléments de niveau bloc sur leur propre ligne
 - écrire les éléments en ligne sur une ligne (y compris les balises d’ouverture et de fermeture)
 
@@ -391,10 +391,6 @@ Si la majorité des visiteurs naviguent sur le Web avec CSS, ceux qui utilisent 
 ### Doctype
 
 La première information à fournir est le type de document HTML que nous écrivons: le `doctype`.
-
-Il faut considérer le `doctype` comme la version d’une voiture au fil des années: une Ford Fiesta achetée en 1986 était une Fiesta 2. Si l’on en achète une aujourd’hui, c’est une Fiesta 7.
-
-Auparavant, plusieurs versions de HTML coexistaient (XHTML et HTML 4.01 étaient des normes concurrentes). De nos jours, HTML 5 est la norme.
 
 Pour indiquer au navigateur que le document HTML est écrit en HTML 5, la première ligne du document doit être :
 
