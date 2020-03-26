@@ -1,0 +1,33 @@
+
+html, body { height: 100%; margin: 0; }
+
+* { box-sizing: border-box; cursor: url("cursor.svg") 10 10, auto; }
+
+div {
+    font-size: 2em;
+    font-family: "Times New Roman", serif;
+}
+
+#estragon, #vladimir {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+#vladimir {
+    left:50%
+}
+#beckett {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+i { display: block; color: #999; text-transform: lowercase;}
+p { max-width: 28em; margin: 0 auto;}
