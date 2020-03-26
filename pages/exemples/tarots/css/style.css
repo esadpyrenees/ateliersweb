@@ -1,0 +1,91 @@
+
+html, body { height: 100%; margin: 0; }
+* { box-sizing: border-box;}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 50px 100px;
+    height: 100%;
+    font-family: 'Cormorant';
+}
+
+/* source : https://3dtransforms.desandro.com/ */
+/* + https://codepen.io/desandro/pen/LmWoWe */
+
+.card {
+    /*  définit la “profondeur” de la perspective 3D */
+    perspective: 100vw;
+    height: 100%;
+    cursor: pointer;
+}
+.card-inner {
+    width: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    /* hack pour ratio spécifique */
+    height: 0;
+    padding-bottom: 186%; /* ~= hauteur de l’image divisée par sa largeur */
+}
+
+.card.is-flipped .card-inner{
+    transform: rotateY(180deg);
+}
+
+.card-inner  > * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 10px solid #000;
+}
+
+.card-front {
+    background: black;
+}
+
+.card-back {
+    background: white;
+    transform: rotateY(180deg);
+    padding: 1em 2em;
+    /* centrage vertical à l’intérieur de la carte */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Styles visuels et typographie */
+
+h2, p { margin: .5em 0;}
+img{ max-width: 100%; display: block;}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('Cormorant-Italic.woff2') format('woff2'),
+        url('Cormorant-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('Cormorant-Bold.woff2') format('woff2'),
+        url('Cormorant-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('Cormorant-Regular.woff2') format('woff2'),
+        url('Cormorant-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
