@@ -1,6 +1,30 @@
-img { width:200px; position:absolute; cursor: pointer; }
+/* on s’assure que le body fait toute la hauteur du document */
+html, body { height: 100%; }
+
+body.end { background-color: black; color: white;}
+
+/* les images, le bouton et les p sont positionnés en absolu */
+button, img, p { position:absolute; cursor: pointer; }
+
+/* la classe “hidden” permet de masquer les éléments */
 .hidden { display: none; }
 
+/* positionnement des différents éléments */
 #image0 { left:45px;}
 #image1 { top:45px; right:200px}
 #image2 { bottom:45px; left:200px}
+#image3 { bottom:255px; left:400px}
+
+#texte1 { top: 45%; left: 60%;}
+#texte2 { bottom: 5%; right: 10%;}
+
+.start {
+    right: 20px;
+    top: 20px;
+    background: black;
+    color:white;
+    border: none;
+    font-size: 3em; 
+    padding: 0 .45em .25em .35em;
+    border-radius: 100%;
+}

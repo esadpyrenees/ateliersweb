@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Image suivante au clic</title>
-
-
-
-      <link rel="stylesheet" href="css/style.css">
-
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-  <img src="https://ateliers.esad-pyrenees.fr/_inc/img/250/4.jpg" data-imagesuivante="#image1" id="image0">
+  <button class="start">⟲</button>
 
-<img src="https://ateliers.esad-pyrenees.fr/_inc/img/250/8.jpg" class="hidden" id="image1" data-imagesuivante="#image2" >
+  <main>
 
-<img src="https://ateliers.esad-pyrenees.fr/_inc/img/250/14.jpg" class="hidden" id="image2">
-  <script src='//code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <!-- le premier élément n’a pas la class hidden -->
+    <img class="click_for_next" id="image0" data-next="#texte1" src="https://ateliers.esad-pyrenees.fr/_inc/img/250/4.jpg" >
+    
+    <!-- les autres éléments ont la class hidden -->
+    <p   class="click_for_next hidden" id="texte1" data-next="#image1" >Oh !</p>
+    <img class="click_for_next hidden" id="image1" data-next="#image2" src="https://ateliers.esad-pyrenees.fr/_inc/img/250/8.jpg">
+    <img class="click_for_next hidden" id="image2" data-next="#texte2" src="https://ateliers.esad-pyrenees.fr/_inc/img/250/6.jpg">
+    <p   class="click_for_next hidden" id="texte2" data-next="#image3" >Ah !</p>
+    <!-- le dernier élément n’a pas la class click_for_next -->
+    <img class="the_end hidden" id="image3" src="https://ateliers.esad-pyrenees.fr/_inc/img/250/3.jpg">
 
+  </main>
 
-
-    <script src="js/index.js"></script>
-
-
-
-
+  <script src="js/index.js"></script>
+  
 </body>
-
 </html>
