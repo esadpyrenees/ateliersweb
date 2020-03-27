@@ -11,6 +11,13 @@ main {
     font-family: 'Cormorant';
 }
 
+@media (max-width:1000px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px;
+    }
+}
+
 /* source : https://3dtransforms.desandro.com/ */
 /* + https://codepen.io/desandro/pen/LmWoWe */
 
@@ -27,7 +34,7 @@ main {
     position: relative;
     /* hack pour ratio spécifique */
     height: 0;
-    padding-bottom: 186%; /* ~= hauteur de l’image divisée par sa largeur */
+    padding-bottom: 190%; /* ~= hauteur de l’image divisée par sa largeur */
 }
 
 .card.is-flipped .card-inner{
@@ -50,18 +57,15 @@ main {
 .card-back {
     background: white;
     transform: rotateY(180deg);
-    padding: 1em 2em;
-    /* centrage vertical à l’intérieur de la carte */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    padding: 1em 1em;
+    /* scroll */
+    overflow-y: scroll;
 }
 
 /* Styles visuels et typographie */
 
 h2, p { margin: .5em 0;}
-img{ max-width: 100%; display: block;}
+img{ width: 100%; height: 100%; object-fit: cover; display: block;}
 
 @font-face {
     font-family: 'Cormorant';

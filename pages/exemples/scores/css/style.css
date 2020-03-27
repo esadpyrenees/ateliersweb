@@ -1,0 +1,34 @@
+
+
+/* functional */
+
+.hidden {
+  display: none;
+}
+
+/* visual */
+
+body, html{
+  height:100%;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: calc(2vw + 1rem);
+  font-family: "Times New Roman", "Times", serif;
+  text-align: center;
+}
+
+h1, p { margin: 0 0 1rem; }
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 1.25em;
+  border:none;
+  padding: .25em .75em;
+  text-transform: uppercase;
+  font-size: .75em; font-family: inherit;
+}
+span { display: block; }

@@ -32,8 +32,10 @@
         player.addEventListener('click', function(){
             if (playing) {
                 player.pause();
+                player.className = "paused"
             } else {
                 player.play();
+                player.className = "playing"
             }
             playing = !playing;
         })
