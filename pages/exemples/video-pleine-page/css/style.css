@@ -21,6 +21,14 @@ video{
   padding:4vw
 }
 
+.paused {
+  cursor: url("play.png") 50 50, pointer;
+}
+
+.playing {
+  cursor: url("pause.png") 50 50, pointer;
+}
+
 @media only screen and (orientation:portrait){
   .video {
     height: 100vh;
