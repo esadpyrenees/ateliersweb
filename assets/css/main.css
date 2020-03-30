@@ -24,6 +24,8 @@ h1, h2, h3 {
 
 nav ul { list-style: none; padding: 0; margin: 0 0 1.4em; }
 a { color: inherit; border-bottom: 1px solid #ccc; text-decoration: none; }
+
+a:hover { color: tomato;}
 nav button {
     color: inherit; text-decoration: none;
     background: none;
@@ -73,6 +75,11 @@ nav button {
 nav.pane{
     max-width: 10rem;
 }
+
+/* nav li {
+    line-height: 1.25;
+    margin-bottom: .5em;
+} */
 
 #content{
     position: absolute;
@@ -372,7 +379,8 @@ ul.list{
     margin-top: 2em
 }
 .bigbutton:hover{
-    background: crimson
+    background: tomato;
+    color: white;
 }
 
 
