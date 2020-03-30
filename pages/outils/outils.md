@@ -17,6 +17,11 @@
 * [Drawbot](https://drawbot.com/) (python, typo, variable fonts)
 * [p5Stamper](https://p5stamper.com/) (javascript, processing)
 
+### Image & video
+* [ImageOptim](https://imageoptim.com/howto.html) (compression des images)
+* [Shutter Encoder](http://www.shutterencoder.com/fr/) (compression / encodage / recadrage vidéo)
+
+
 ### Gestionnaires de contenus
 
 Gestionnaires de contenus sans base de données.
