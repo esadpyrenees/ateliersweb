@@ -48,7 +48,7 @@
             $resizethumb = $convert  . " -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors tomato,white -ordered-dither h4x4a -colorspace Gray " . $dirthumb . " " . $cthumb;
             exec ($resizethumb);
             // arrière-plan tomato
-            $background = $convert . ' -size 800x418  -background "#FF6347" xc:"#FF6347"  ' . $tomato;
+            $background = $convert . ' -size 800x418 -background "#FF6347" xc:"#FF6347" -compose Dst   -flatten ' . $tomato;
             exec ($background);
             // composition de la vignette ditherisée sur tomato
             $paste_on_tomato = $convert  . " -gravity center -compose Multiply  -extent 800x418  " . $tomato . " " . $cthumb. "  -composite  " . $rotten;
@@ -80,10 +80,10 @@
         exec ($dblpaste);
 
         // nettoyage
-        // exec ("rm -f " . $whitetitle);
-        // exec ("rm -f " . $white);
+        exec ("rm -f " . $whitetitle);
+        exec ("rm -f " . $white);
         // exec ("rm -f " . $tomato);
-        // exec ("rm -f " . $rotten);
+        exec ("rm -f " . $rotten);
         // exec ("rm -f " . $cthumb);
             
             
