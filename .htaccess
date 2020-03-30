@@ -10,7 +10,7 @@ RewriteBase /web/
 
 # open graph protocol
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} medias/(.*)/$
+# RewriteCond %{REQUEST_URI} medias/(.*)/$
 RewriteRule ^medias/(.*)/ogp.png$  ogimage.php?params=$1 [L]
 
 # archives
