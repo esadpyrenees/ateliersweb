@@ -4,7 +4,8 @@
         <meta charset="utf-8">
 
         <?php
-            $localurl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $localhost = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+            $localurl = $localhost . $_SERVER[REQUEST_URI];
 
             $dir =  $_GET['example'];
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
@@ -22,6 +23,9 @@
                     echo "        <meta property='og:type' content='website'>\n";
                     echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
                     echo "        <meta property='og:locale' content='fr'>\n";
+                    echo "        <meta name='twitter:card' content='summary_large_image'>\n";
+                    echo "        <meta name='twitter:site' content='@esadpyrenees'>\n";
+                    echo "        <meta name='twitter:creator' content='@julienbidoret'>\n";
                 }
                 if( isset($tags) ){
                     $tags_line = trim($tags);
@@ -29,7 +33,7 @@
                 }
             }
             if (file_exists($thumb)) {
-                $thumb = $localurl."thumb.png";
+                $thumb = "$localhost/web/medias/exemples/$dir/ogp.png";
                 echo "        <meta property='og:image' content='$thumb'>\n";
             }
 
