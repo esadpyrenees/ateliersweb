@@ -22,6 +22,9 @@
 
     // sinon, c’est parti…
 
+    $colors = array("#00B25B", "#928505", "#B0B685", "#FDD652", "#FF6347", "#FF6347", "#BEE1F0");
+    $color = $colors[array_rand($colors, 1)];
+    
     // chemin vers convert
     $convert = $_SERVER["HTTP_HOST"] == "localhost" ? '/usr/local/bin/convert' : '/usr/bin/convert';    
 
@@ -48,14 +51,14 @@
             $resizethumb = $convert  . " -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors tomato,white -ordered-dither h4x4a -colorspace Gray " . $dirthumb . " " . $cthumb;
             exec ($resizethumb);
             // arrière-plan tomato
-            $background = $convert . ' -size 800x418 -background "#FF6347" xc:"#FF6347" -compose Dst   -flatten ' . $tomato;
+            $background = $convert . ' -size 800x418 -background "' . $color . '" xc:"' . $color . '" -compose Dst   -flatten ' . $tomato;
             exec ($background);
             // composition de la vignette ditherisée sur tomato
             $paste_on_tomato = $convert  . " -gravity center -compose Multiply  -extent 800x418  " . $tomato . " " . $cthumb. "  -composite  " . $rotten;
             exec ($paste_on_tomato);
         } else {
             //  si pas d’image, un arrière-plan tomato
-            $background = $convert . ' -size 800x418  -background "#FF6347" xc:"#FF6347"  ' . $rotten;
+            $background = $convert . ' -size 800x418  -background "' . $color . '" xc:"' . $color . '"  ' . $rotten;
             exec ($background);
         }
 
@@ -82,9 +85,9 @@
         // nettoyage
         exec ("rm -f " . $whitetitle);
         exec ("rm -f " . $white);
-        // exec ("rm -f " . $tomato);
+        exec ("rm -f " . $tomato);
         exec ("rm -f " . $rotten);
-        // exec ("rm -f " . $cthumb);
+        exec ("rm -f " . $cthumb);
             
             
     } else {
@@ -95,7 +98,7 @@
         // sur-titre blanc
         $ogi = $convert . ' -size 750x380  -background white -gravity NorthWest -fill black -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD·Pyrénées → ateliers web"  ' . $thumb;
         // titre blanc
-        $title = $convert . ' -size 760x400  -background white -fill black -font ' . $fontbold . ' -pointsize 82 caption:"' . $text . '"   ' . $cache;
+        $title = $convert . ' -size 760x400  -background white -fill "' . $color . '" -font ' . $fontbold . ' -pointsize 82 caption:"' . $text . '"   ' . $cache;
         // titre et sur-titre ensemble
         $paste = $convert . " -gravity Center -geometry +0+70 -compose Multiply -extent 800x418 " . $thumb . " " . $cache . "  -composite  " . $thumb;
         
