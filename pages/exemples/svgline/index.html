@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Line</title>
+    <style>
+        
+        /*  styles fonctionnels pour la démo : */
+        .gribouillis {
+            stroke-dasharray: 9354;
+            stroke-dashoffset: 9354;
+            animation: dessine-moi-un-svg 4s ease-out forwards;
+        }
+        .signature {
+            stroke-dasharray: 669;
+            stroke-dashoffset: 669;
+            animation: dessine-moi-un-svg 1500ms 4.1s ease-out forwards;
+        }
+        @keyframes dessine-moi-un-svg {
+            to { stroke-dashoffset: 0; }
+        }
+
+        /*  styles graphiques pour les infos et la mise en page  :*/
+
+        * { box-sizing: border-box;}
+        html, body { height: 100%; margin: 0;}
+        .flex{display: flex;padding: 50px; height: 100%;}
+        #animated-svg {object-fit: contain; width: 100%; height: 100%;}
+        @keyframes anim-signature {
+            to { stroke-dashoffset: 1000; }
+        }
+        #info {
+            background: white;
+            padding: 2em;
+            width:50%;
+            position: fixed;
+            height: 100%;
+            top:0;
+            right:0;
+            border-left: 10px solid #000;
+            overflow-y: scroll;
+            transform: translateX(100%);
+            font-family: sans-serif;
+        }
+        a { color: currentColor;}
+        p { line-height: 1.35; max-width: 35em;}
+        pre{ color: forestgreen;}
+        #info.visible{ transform: translateX(0)}
+        #info-toggle{
+            z-index: ;
+            position: fixed;
+            right: 20px;
+            top:20px;
+            background: black ;
+            color: white;
+            font-size: 1em;
+            text-transform: uppercase;
+            border: none;
+            padding: .25em .5em ;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ci-dessous, le code nécessaire à l’animation -->
+    
+    <div class="flex">
+        <svg id="animated-svg" enable-background="new 0 0 666 523.7" viewBox="0 0 666 523.7" xmlns="http://www.w3.org/2000/svg">
+            <path class="gribouillis" fill="none" stroke="#000" stroke-miterlimit="10" d="m373 272.2c34.2-17 69-43.4 73.8-81.3 3.5-28-10.9-55.5-29.7-76.5-45-50.2-120.9-72.2-184.1-48.7-65.9 24.5-108.1 91.3-124.1 159.7-11.6 49.8-10.8 105.7 18.3 147.8 28.2 40.7 78 61.4 127 68.6 73.2 10.7 148.9-4.3 215.5-36.4 44.6-21.4 87.9-53.5 104.1-100.2 17.7-51.1-2.5-110.5-41.8-147.6s-94.5-54-148.5-55.8c-70.7-2.3-145.8 22.7-187.9 79.5-21 28.2-32.8 63.2-33.3 98.4-.5 34.8 10.3 70.1 31.9 97.5 13 16.5 29.4 29.9 46.9 41.5 33.3 22.1 71.4 38 111.2 41.3s81.5-6.6 112.8-31.5c37.9-30.1 57.5-81.4 49.5-129.1-8.1-47.7-43.5-89.7-89.2-105.7-18.2-6.4-37.5-8.8-56.7-10-16.6-1.1-33.7-1.3-49.5 4-30.5 10.2-50.8 38.8-66.9 66.7-24.1 41.8-44.4 87.4-46.7 135.6-.8 17.7.9 36 8.5 52 13.7 28.7 44.8 46.2 76.3 50.5s63.4-2.8 93.7-12.4c32.4-10.3 64.3-23.7 90.9-44.8 44.5-35.4 71.2-92.7 68.4-149.6s-35.2-111.7-84.2-140.5c-19.8-11.7-41.9-19.1-64.3-24.6-41.1-10-85-13.3-125.5-1.2-17.8 5.3-35.2 13.9-47.6 27.8-14.7 16.5-20.8 38.9-23.4 60.9-4.8 40.9 2.5 85 28.8 116.6 16 19.2 38 32.6 61.4 41.6 30.7 11.7 64.7 15.9 96.7 8.7s61.8-26.5 78.7-54.6c28.8-47.9 14.7-113.7-23.9-154.2s-96.2-58.3-152.1-59.7c-40.4-1-84.1 7.4-111.6 37-17.7 19-26.6 44.9-28.8 70.8-2.9 35.1 6.8 72 30.3 98.2s61.5 40.1 95.5 30.9 60.8-43.3 57.7-78.3c-1.5-17.4-10.4-34.5-25-44.1s-34.9-10.8-49.5-1.1c-11.4 7.6-18.4 20.8-20.1 34.4-1.5 12.5 1.5 26.1 10.5 34.9 13.5 13.2 35.6 12 53.2 5.2 12.9-4.9 25.3-12.7 32.4-24.6 10.5-17.7 6.8-41.4-5.3-58s-31.3-26.9-51-32.8c-12.1-3.6-25.5-5.8-37-.6-15.4 6.9-22.5 24.7-26.1 41.1-6.1 28-5.6 59 9.7 83.2 12 19 32.3 31.9 53.9 37.9s44.7 5.5 66.9 1.7c60-10.2 117.4-47 141.8-102.8 13.6-31 16.3-66.6 7.8-99.3-4.1-15.6-10.8-30.7-20.8-43.3-11.9-15.1-28.2-26.1-44.9-35.6-63.7-36-140-51.6-211.5-36.2s-136.6 63.4-166.1 130.3-19.5 151.4 30 205.2c20.1 21.8 45.5 38.2 72.7 50.1 54.4 23.7 116.1 29.5 174.4 18.4s113-38.9 157.9-77.7c24.5-21.2 46.4-46 60.8-75.1s20.7-62.7 14-94.4c-10.6-50.4-54.1-90.2-103.6-104.4s-103.6-5.4-150.4 15.9c-36.7 16.7-69.8 40.9-97.7 70-20.9 21.9-39.2 47.1-47.7 76.1s-6.2 62.2 11.1 87c21.1 30.1 59.8 42.5 96.4 46 60.9 5.8 122.4-7.9 179.1-30.9 43.5-17.6 87.6-43.7 106.7-86.6 14.3-32.2 12-70.7-3.6-102.3s-43.9-56.2-76.3-70c-47.3-20.1-104-17.1-148.3 8.9s-74.9 74.4-78.3 125.7c-1.1 17.5 1.7 37.1 15.3 48.1 9 7.3 20.5 13.2 33.2 16.1 16.2 3.6 40.7 6.2 77.3-9.3"/>
+            <path class="signature" fill="none" stroke="#000" stroke-miterlimit="10" d="m516.9 460.2c1.3-.9 1.4-2.8.7-4.2-1.4-2.9-5.5-3.8-8.3-2.1s-4 5.2-3.4 8.4c1.1 6.2 7.6 7.9 12.8 5.8 8.8-3.5 16.6-14 22.2-21.3 7.5-9.6 13.5-20.3 16.9-32.1 1-3.4 2.2-10.3.6-10.3s-2.3 5.1-2.3 7.9c-.1 14.7 1 29.5-1.8 43.9-.8 4.2-2 8.4-4.4 11.9s-8.3 7.3-10.6 6.5.4-6.9 2.7-9.4 5.3-4.3 8.1-6.2c11.9-7.9 21.5-19.4 27-32.6-6.1 15.3-11 31-14.7 47.1 9.1-18.2 35.2-53.5 28.3-53.5-2.7 0-4.2 3-4.2 5.7 0 .7 0 1.4.5 1.9.6.6 1.5.5 2.3.4 7.1-.8 17.9-2 24.8-3.5-10.9 2.9-18.3 12.2-22.5 20.2-3.1 6-4.8 12-5.1 18.7-.1 3.1 1.2 7.1 4.4 7.2 8.6 0 19.1-19.1 25.9-29.7 2.9-4.6 9.9-17.1 4.7-17.1s-15.9 29.1-21.1 42.4c-1.9 4.9-3.6 9.8-6.6 14.1-7.3 10.9-22.2 16-34.6 12-4.5-1.4-8.6-3.9-13-5.6s-9.4-2.5-13.8-.7c-2.5 1.1-4.8 4-3.4 6.4"/>
+        </svg>
+    </div>
+
+    <!-- ci-dessous, les informations d’aide -->
+    
+    <div id="info">
+        <p>
+            Étant donné un dessin enregistré en SVG depuis illustrator / inkscakpe (puis compressé avec <a href="https://imageoptim.com">imageoptim</a> ); le code du svg est directement intégré à la page web (svg <i>inline</i>) :<br>
+            <pre>
+    &lt;svg enable-background="new 0 0 184 138" viewBox="0 0 184 138" xmlns="…
+        &lt;path fill="none" stroke="#000" stroke-width="2" d="… </pre>
+            <svg enable-background="new 0 0 184 138" viewBox="0 0 184 138" xmlns="http://www.w3.org/2000/svg" style="width:50%">
+                <path fill="none" stroke="#000" stroke-width="2" d="M35.1,77.4c1.3-0.9,1.4-2.8,0.7-4.2c-1.4-2.9-5.5-3.8-8.3-2.1c-2.7,1.6-4,5.2-3.4,8.4c1.1,6.2,7.6,7.9,12.8,5.8
+                    c8.8-3.5,16.6-14,22.2-21.3c7.5-9.6,13.5-20.3,16.9-32.1c1-3.4,2.2-10.3,0.6-10.3s-2.3,5.1-2.3,7.9c-0.1,14.7,1,29.5-1.8,43.9
+                    c-0.8,4.2-2,8.4-4.4,11.9c-2.4,3.5-8.3,7.3-10.6,6.5s0.4-6.9,2.7-9.4c2.3-2.5,5.3-4.3,8.1-6.2c11.9-7.9,21.5-19.4,27-32.6
+                    c-6.1,15.3-11,31-14.7,47.1c9.1-18.2,35.2-53.5,28.3-53.5c-2.7,0-4.2,3-4.2,5.7c0,0.7,0,1.4,0.5,1.9c0.6,0.6,1.5,0.5,2.3,0.4
+                    c7.1-0.8,17.9-2,24.8-3.5C121.4,44.7,114,54,109.8,61.9c-3.1,6-4.8,12-5.1,18.7c-0.1,3.1,1.2,7.1,4.4,7.2c8.6,0,19.1-19.1,25.9-29.7
+                    c2.9-4.6,9.9-17.1,4.7-17.1c-5.2,0-15.9,29.1-21.1,42.4c-1.9,4.9-3.6,9.8-6.6,14.1c-7.3,10.9-22.2,16-34.6,12
+                    c-4.5-1.4-8.6-3.9-13-5.6s-9.4-2.5-13.8-0.7c-2.5,1.1-4.8,4-3.4,6.4"/>
+                </svg>
+        </p>
+        <p>
+            Les tracés doivent avoir un contour (stroke), et une épaisseur de contour (stroke-width):<br>
+            <pre>
+    &lt;path fill="none" stroke="#000" stroke-width="2" d="…
+            </pre>
+        </p>
+        <p>
+            Le code du svg est directement intégré à la page, et des attributs "class" sont ajoutés aux "path", pour pouvoir les différencier:<br>
+            <pre>
+    &lt;path class="signature" fill="none" stroke="#000" stroke-width="2" d="…
+            </pre>
+        </p>
+
+        <p>
+            En CSS, on peut alors cibler le <i>path</i> et lui attribuer un pointillé :<br>
+            <pre>
+    .signature { stroke-dasharray: 6; }</pre>
+            
+            <svg enable-background="new 0 0 184 138" viewBox="0 0 184 138" xmlns="http://www.w3.org/2000/svg" style="width:50%">
+            <path style="stroke-dasharray: 6;" fill="none" stroke="#000" stroke-width="2" d="M35.1,77.4c1.3-0.9,1.4-2.8,0.7-4.2c-1.4-2.9-5.5-3.8-8.3-2.1c-2.7,1.6-4,5.2-3.4,8.4c1.1,6.2,7.6,7.9,12.8,5.8
+                c8.8-3.5,16.6-14,22.2-21.3c7.5-9.6,13.5-20.3,16.9-32.1c1-3.4,2.2-10.3,0.6-10.3s-2.3,5.1-2.3,7.9c-0.1,14.7,1,29.5-1.8,43.9
+                c-0.8,4.2-2,8.4-4.4,11.9c-2.4,3.5-8.3,7.3-10.6,6.5s0.4-6.9,2.7-9.4c2.3-2.5,5.3-4.3,8.1-6.2c11.9-7.9,21.5-19.4,27-32.6
+                c-6.1,15.3-11,31-14.7,47.1c9.1-18.2,35.2-53.5,28.3-53.5c-2.7,0-4.2,3-4.2,5.7c0,0.7,0,1.4,0.5,1.9c0.6,0.6,1.5,0.5,2.3,0.4
+                c7.1-0.8,17.9-2,24.8-3.5C121.4,44.7,114,54,109.8,61.9c-3.1,6-4.8,12-5.1,18.7c-0.1,3.1,1.2,7.1,4.4,7.2c8.6,0,19.1-19.1,25.9-29.7
+                c2.9-4.6,9.9-17.1,4.7-17.1c-5.2,0-15.9,29.1-21.1,42.4c-1.9,4.9-3.6,9.8-6.6,14.1c-7.3,10.9-22.2,16-34.6,12
+                c-4.5-1.4-8.6-3.9-13-5.6s-9.4-2.5-13.8-0.7c-2.5,1.1-4.8,4-3.4,6.4"/>
+            </svg>
+        </p>
+        <p>
+            On peut également animer le tracé :<br>
+            <pre>
+    .signature { animation: anim-signature 10s linear infinite; }
+    @keyframes anim-signature {
+      to {
+        stroke-dashoffset: 1000;
+      }
+    }</pre>
+            <svg enable-background="new 0 0 184 138" viewBox="0 0 184 138" xmlns="http://www.w3.org/2000/svg" style="width:50%">
+                <path style="stroke-dasharray: 6; animation: anim-signature 10s linear  infinite" fill="none" stroke="#000" stroke-width="2" d="M35.1,77.4c1.3-0.9,1.4-2.8,0.7-4.2c-1.4-2.9-5.5-3.8-8.3-2.1c-2.7,1.6-4,5.2-3.4,8.4c1.1,6.2,7.6,7.9,12.8,5.8
+                    c8.8-3.5,16.6-14,22.2-21.3c7.5-9.6,13.5-20.3,16.9-32.1c1-3.4,2.2-10.3,0.6-10.3s-2.3,5.1-2.3,7.9c-0.1,14.7,1,29.5-1.8,43.9
+                    c-0.8,4.2-2,8.4-4.4,11.9c-2.4,3.5-8.3,7.3-10.6,6.5s0.4-6.9,2.7-9.4c2.3-2.5,5.3-4.3,8.1-6.2c11.9-7.9,21.5-19.4,27-32.6
+                    c-6.1,15.3-11,31-14.7,47.1c9.1-18.2,35.2-53.5,28.3-53.5c-2.7,0-4.2,3-4.2,5.7c0,0.7,0,1.4,0.5,1.9c0.6,0.6,1.5,0.5,2.3,0.4
+                    c7.1-0.8,17.9-2,24.8-3.5C121.4,44.7,114,54,109.8,61.9c-3.1,6-4.8,12-5.1,18.7c-0.1,3.1,1.2,7.1,4.4,7.2c8.6,0,19.1-19.1,25.9-29.7
+                    c2.9-4.6,9.9-17.1,4.7-17.1c-5.2,0-15.9,29.1-21.1,42.4c-1.9,4.9-3.6,9.8-6.6,14.1c-7.3,10.9-22.2,16-34.6,12
+                    c-4.5-1.4-8.6-3.9-13-5.6s-9.4-2.5-13.8-0.7c-2.5,1.1-4.8,4-3.4,6.4"/>
+            </svg>  
+        </p>
+        <p>
+            Si la longueur du pointillé équivaut à celle du tracé, et que l’<i>offset</i> (le décalage du pointillé) équivaut également à la longueur du tracé, 
+            on peut alors animer cette dernière propriété et ainsi “remplir” le tracé progressivement.<br>
+            Pour que l’animation se termine sur la dernière frame (et ne revienne pas à la position initiale ; ce qui est le comportement par défaut), il faut ajouter :
+            <pre>
+    .signature { animation-fill-mode: forwards; }
+            </pre>
+        </p>
+        <p>
+            Pour mesurer la longueur du tracé, on peut utiliser javascript :
+            <pre>
+    var signature_path = document.querySelector('.signature');
+    var signature_length = signature_path.getTotalLength();
+    console.log(signature_length);    
+            </pre>
+        </p>
+        <p>
+            Source : <a href="https://css-tricks.com/svg-line-animation-works/">How SVG Line Animation Works @ CSS Tricks</a>
+        </p>
+    </div>
+
+    <button id="info-toggle">info</button>
+    
+    <script>
+        // 
+        var gribouillis_path = document.querySelector('.gribouillis');
+        var gribouillis_length = gribouillis_path.getTotalLength();
+        console.log(gribouillis_length);
+        var signature_path = document.querySelector('.signature');
+        var signature_length = signature_path.getTotalLength();
+        console.log(signature_length);
+
+        // button + info
+        document.querySelector('#info-toggle').addEventListener('click', function(){
+            document.querySelector('#info').classList.toggle('visible')
+        })
+        
+    </script>
+</body>
+</html>
