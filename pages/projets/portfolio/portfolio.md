@@ -7,6 +7,15 @@ Ce sprojet propose de découvrir les bases de l’utilisation de systèmes de ge
 La dernière version du code du projet est téléchargeable ici:
 [↗ github.com/jbidoret/portfolio](https://github.com/jbidoret/portfolio/archive/master.zip) {.bigbutton}
 
+Pour les plus aventureux·ses, il est aussi possible d’utiliser **git**. Soit en ligne de commande (dans un terminal), soit via une application ([Github Desktop](https://desktop.github.com/) ou [Sourcetree](https://www.sourcetreeapp.com/)). 
+```
+# Allez dans le dossier racine de votre serveur de développement, par exemple :
+cd /Applications/MAMP/htdocs/
+# Puis “clonez” le dépôt :
+git clone https://github.com/jbidoret/portfolio.git
+```
+
+
 ## Prérequis
 
 - Un serveur de développement : [MAMP](http://mamp.info/) ou [XAMPP](https://www.apachefriends.org/index.html) ;

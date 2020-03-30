@@ -80,11 +80,11 @@
         exec ($dblpaste);
 
         // nettoyage
-        exec ("rm -f " . $whitetitle);
-        exec ("rm -f " . $white);
-        exec ("rm -f " . $tomato);
-        exec ("rm -f " . $rotten);
-        exec ("rm -f " . $cthumb);
+        // exec ("rm -f " . $whitetitle);
+        // exec ("rm -f " . $white);
+        // exec ("rm -f " . $tomato);
+        // exec ("rm -f " . $rotten);
+        // exec ("rm -f " . $cthumb);
             
             
     } else {
