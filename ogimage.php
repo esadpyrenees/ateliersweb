@@ -48,14 +48,14 @@
             $resizethumb = $convert  . " -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors tomato,white -ordered-dither h4x4a -colorspace Gray " . $dirthumb . " " . $cthumb;
             exec ($resizethumb);
             // arrière-plan tomato
-            $background = $convert . ' -size 800x418  -background "#FF6347" xc:  ' . $tomato;
+            $background = $convert . ' -size 800x418  -background "#FF6347" xc:"#FF6347"  ' . $tomato;
             exec ($background);
             // composition de la vignette ditherisée sur tomato
             $paste_on_tomato = $convert  . " -gravity center -compose Multiply  -extent 800x418  " . $tomato . " " . $cthumb. "  -composite  " . $rotten;
             exec ($paste_on_tomato);
         } else {
             //  si pas d’image, un arrière-plan tomato
-            $background = $convert . ' -size 800x418  -background "#FF6347 xc:  ' . $rotten;
+            $background = $convert . ' -size 800x418  -background "#FF6347" xc:"#FF6347"  ' . $rotten;
             exec ($background);
         }
 
