@@ -23,6 +23,7 @@
         <li class="<?php echo $subsection == 'rwd' ? 'opened' : '' ?>"><a href="/web/pages/ressources/rwd/">Responsive</a></li>
         <li class="<?php echo $subsection == 'canvas' ? 'opened' : '' ?>"><a href="/web/pages/ressources/canvas/">Canvas</a></li>
         <li class="<?php echo $subsection == 'html2print' ? 'opened' : '' ?>"><a href="/web/pages/ressources/html2print/">Html2print</a></li>
+        <li class="<?php echo $subsection == 'kirby' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Kirby</a></li>
     </ul>
 </nav>
 

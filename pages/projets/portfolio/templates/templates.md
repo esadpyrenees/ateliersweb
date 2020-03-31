@@ -1,12 +1,16 @@
 # Templates
 
-Les *templates* contiennent la structure HTML de chaque type de page, augmentée de PHP pour afficher le contenu.
+Les *templates* contiennent la structure HTML de chaque type de page, augmentée de PHP pour en afficher le contenu. Ils sont stockés dans le dossier `/site/templates/`.
 
-Les *templates* sont stockés dans le dossier `/site/templates/`.
+Pour créer un nouveau *template* pour une page type, créer un fichier `.php` dont le nom soit équivalent à celui du fichier `.txt` dans le dossier `/content/`. Par exemple :
 
-Pour créer un nouveau *template* pour une page type, créer un fichier `.php` dont le nom soit équivalent à celui du fichier `.txt` dans le dossier `/content/`.
+**content** : `/content/mes-projets/mon-super-projet/project.txt`  
+**blueprint** : `/site/blueprints/project.yml`   
+**template** : `/site/templates/project.php`
 
-## Quelques notes sur PHP
+La relation entre les fichiers se fait grâce à leur nom (c’est aussi le cas pour les *models* et les *controllers* – qui dépassent le cadre de cette introduction).
+
+## Quelques notes sur PHP {#php}
 
 Le langage PHP est un des plus répandus pour développer des sites web (à sa naissance, son acronyme était *Personal Home Page*).
 
@@ -52,7 +56,7 @@ Il existe une notation raccourcie pour faire appel à la méthode `echo` :
 ?>
 ```
 
-## PHP & Kirby
+## PHP & Kirby {#kirby}
 
 Dans le contexte des templates de Kirby, seules quelques bases de PHP sont nécessaires.
 
@@ -65,7 +69,7 @@ if ($machin == "bidule") {
     echo "Nope";
 }
 ```
-Peut aussi s’écrire :
+Peut aussi s’écrire (syntaxe préférable dans les templates) :
 ```php
 <?php if ($machin == "bidule") : ?>
     Ouaip
@@ -75,19 +79,42 @@ Peut aussi s’écrire :
 ```
 
 ### Les boucles
+
+La fonction `foreach` permet de parcourir les éléments d’une liste (Array) ou d’un objet. Dans le cas de Kirby, pour les listes de pages, fichiers et utilisateurs, on parle de [collections](https://getkirby.com/docs/cookbook/templating/loops).
+
 ```php
 foreach ($pages as $page) {
     echo "<h1>" . $page->title() . "</h1>";
 } 
 ```
-Peut aussi s’écrire :
+
+Peut aussi s’écrire (syntaxe préférable dans les templates) :
+
 ```php
 <?php foreach ($pages as $page) : ?>
     <h1><?= $page->title() ?></h1>
 <?php foreach ?>
 ```
-### Les variables prédéfinies
+
+Au sein de la boucle (entre `foreach` et `endforeach`), chaque élément de la liste est nommé selon la valeur définie par le mot-clé `as` – ici, `$page`.
+
+Les *collections* peuvent être [triées](https://getkirby.com/docs/cookbook/content/sorting), [filtrées](https://getkirby.com/docs/cookbook/content/filtering) ou limitées.
+
+```php
+// filtrer des projets par catégorie
+$projects = $page->children()->listed()->filterBy('category', 'webdesign');
+
+// trier les livres (enfants de la page dont l’id est "books") par auteur
+$books = page("books")->children()->listed()->sortBy('author',  'asc');
+
+// limiter les pages du même parent à 3
+$frangines = $page->siblings()->listed()->limit(3);
+```
+
+## Les variables prédéfinies
 Dans chaque page, Kirby met à dispostion les variables `$page` et `$site` qui permettent d’accéder au contenu de la page en cours ou du site.
+
+##### `/site/templates/project.php` {.filename}
 ```html
 <html>
 <head>
@@ -117,7 +144,7 @@ Dans chaque page, Kirby met à dispostion les variables `$page` et `$site` qui p
 </html>
 ```
 
-## Les snippets
+## Les snippets {#snippets}
 
 *[DRY]: Don’t repeat yourself
 
@@ -127,7 +154,7 @@ Ils sont stockés dans le dossier `/site/snippets/`.
 
 L’exemple de code ci-dessus gagnera à être découpé en :
 
-`/site/snippets/header.php`
+##### `/site/snippets/header.php` {.filename}
 ```html
 <html>
 <head>
@@ -149,13 +176,13 @@ L’exemple de code ci-dessus gagnera à être découpé en :
   </header>
 ```
 
-`/site/snippets/footer.php`
+##### `/site/snippets/footer.php`  {.filename}
 ```html
 </body>
 </html>
 ```
 
-`/site/templates/project.php`
+##### `/site/templates/project.php` {.filename}
 ```html
 <?php snippet("header") ?>
   <main>
@@ -163,4 +190,34 @@ L’exemple de code ci-dessus gagnera à être découpé en :
     <?= $page->text()->kirbytext() ?>
   </main>
 <?php snippet("footer") ?>
+```
+
+### Transmettre une variable à un snippet
+
+Il est parfois utile de transmettre une variable à un snippet. Ci-dessous, on parcours les enfants de la page de type “project”, 
+et on transmet la variable `$project` au snippet `project.php` qui peut alors utiliser et afficher les propriétés de l’enfant.
+
+##### `/site/templates/projects.php`  {.filename}
+
+```html
+<?php snippet('header') ?>
+
+<main>
+  <h1>Projets</h1>
+  <?php foreach($page->children() as $project): ?>
+    <?php snippet('project', ['project' => $project]); ?>
+  <?php endforeach ?>
+</main>
+
+<?php snippet('footer') ?>
+```
+
+##### `/site/snippets/project.php` {.filename}
+```html
+<article>
+  <h1><?= $project->title()->html() ?></h1>
+  <time><?= $project->date()->toDate('d/m/Y') ?></time>
+  <?= $project->intro()->kirbytext() ?>
+  <a href="<?= $project->url() ?>">Lire</a>
+</article>
 ```

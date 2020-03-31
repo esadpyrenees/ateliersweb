@@ -22,6 +22,7 @@ git clone https://github.com/jbidoret/portfolio.git
 - Un éditeur de code : [VS Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/) ;
 - Un hébergeur : [Alwaysdata](https://alwaysdata.com/) ou [OVH](https://ovh.com).    
 **NB: les étudiants de l’ÉSAD Pyrénées peuvent créer un compte Alwaysdata gratuit à partir d’[ici](https://alws.link/gyB4xU46)** ;
+- Un client FTP ([Cyberduck](https://cyberduck.io/), [FileZilla](https://filezilla-project.org/)) ;
 - Un navigateur récent : [Firefox](https://www.mozilla.org/fr/firefox/) ou [Chrome](https://www.google.fr/chrome/).
 
 ## Installation

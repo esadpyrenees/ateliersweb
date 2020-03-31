@@ -6,7 +6,7 @@
 - Une page à propos : un blueprint `about`
 
 ## Site
-`/site/blueprints/site.yml`
+##### `/site/blueprints/site.yml` {.filename}
 
 ```yml
 title: Site
@@ -20,7 +20,7 @@ sections:
 ```
 
 ## Accueil
-`/site/blueprints/pages/home.yml`
+##### `/site/blueprints/pages/home.yml` {.filename}
 
 ```yml
 title: Home
@@ -37,7 +37,7 @@ fields:
 
 
 ## Catégorie
-`/site/blueprints/pages/category.yml`
+##### `/site/blueprints/pages/category.yml` {.filename}
 
 ```yml
 title: Catégorie
@@ -49,7 +49,7 @@ sections:
 
 
 ## Projet
-`/site/blueprints/pages/project.yml`
+##### `/site/blueprints/pages/project.yml` {.filename}
 
 ```yml
 title: Projet
@@ -88,7 +88,7 @@ columns:
 
 
 ## À propos
-`/site/blueprints/pages/about.yml`
+##### `/site/blueprints/pages/about.yml` {.filename}
 
 ```yml
 title: À propos

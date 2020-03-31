@@ -13,6 +13,17 @@ function showNav(href){
     $(href).addClass('active');
 }
 
+// ogp image
+$('img[src^=ogi]').each(function(){
+    // var url = encodeURI(this.getAttribute("alt"));
+    
+    // $.get(url, 
+    // function(data) {
+    //     var ogi_url = $(data).find('meta[name=og:image]').attr("content");
+    //     console.log(ogi_url)
+    // });
+})
+
 // chargement de page
 function loadPage(href){
 

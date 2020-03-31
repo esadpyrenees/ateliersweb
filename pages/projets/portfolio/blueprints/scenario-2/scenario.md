@@ -8,7 +8,7 @@
 - \+ une page “projets” pour ranger les projets : un blueprint `projects`
 
 ## Site
-`/site/blueprints/site.yml`
+##### `/site/blueprints/site.yml`  {.filename}
 
 ```yml
 title: Site
@@ -22,7 +22,7 @@ sections:
 ```
 
 ## Projets
-`/site/blueprints/pages/projects.yml`
+##### `/site/blueprints/pages/projects.yml`  {.filename}
 
 ```yml
 title: Projets
@@ -38,7 +38,7 @@ sections:
 
 
 ## Projet vidéo
-`/site/blueprints/pages/video.yml`
+##### `/site/blueprints/pages/video.yml`  {.filename}
 
 ```yml
 title: Vidéo
@@ -79,7 +79,7 @@ columns:
         max: 1
 ```
 ## Projet photo
-`/site/blueprints/pages/photo.yml`
+##### `/site/blueprints/pages/photo.yml`  {.filename}
 
 ```yml
 title: Photo
@@ -118,7 +118,7 @@ columns:
 
 
 ## Gallery
-`/site/blueprints/pages/gallery.yml`
+##### `/site/blueprints/pages/gallery.yml`  {.filename}
 
 ```yml
 title: Galerie
@@ -155,7 +155,7 @@ columns:
 
 
 ## Journal
-`/site/blueprints/pages/journal.yml`
+##### `/site/blueprints/pages/journal.yml`  {.filename}
 
 ```yml
 title: Journal
