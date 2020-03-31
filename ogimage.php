@@ -48,7 +48,7 @@
             $tomato = $mediaroot .'/ogp/'. $key . '.tomato.png';
             $rotten = $mediaroot .'/ogp/'. $key . '.rotten.png';
             // resize, dither et colorisation de la vignette
-            $resizethumb = $convert  . " -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors tomato,white -ordered-dither h4x4a -colorspace Gray " . $dirthumb . " " . $cthumb;
+            $resizethumb = $convert  . " -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors ' . $color . ',white -ordered-dither h4x4a -colorspace Gray " . $dirthumb . " " . $cthumb;
             exec ($resizethumb);
             // arrière-plan tomato
             $background = $convert . ' -size 800x418 -background "' . $color . '" xc:"' . $color . '" -compose Dst   -flatten ' . $tomato;

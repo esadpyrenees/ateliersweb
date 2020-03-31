@@ -1,6 +1,6 @@
   <?php
-    $title = "ÉSAD·Pyrénées — Ateliers web";
-    $section="home";
+    $title = "Bienvenue";
+    $section="Bienvenue";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
   ?>
