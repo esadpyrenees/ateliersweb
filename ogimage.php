@@ -11,9 +11,14 @@
     $fontbold = $fonts_path  . "/Ecole-Bold.otf";
     $fontregular = $fonts_path  . '/' . "Ecole-Regular.otf";
 
+    $request_uri = $_SERVER['REQUEST_URI'];
+    $final_file_path = '.' . str_replace("web/", "", $request_uri);
+    $final_file_dir = dirname($final_file_path);
+    mkdir($final_file_dir, 0777, true);
+    
     $key  = 'ogpi_'. md5($section. '-' . $subsection) . '.png';
     $mediaroot = realpath(dirname(__FILE__) . "/medias/");
-    $thumb = $mediaroot .'/ogp/'. $key;
+    $thumb = $final_file_path;
     
     // redirige vers le fichier s’il existe
     if (file_exists($thumb)) {
