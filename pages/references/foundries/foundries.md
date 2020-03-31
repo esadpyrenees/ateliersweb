@@ -27,19 +27,21 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 
 #### Gros diffuseurs
 
+<div class="gridlist" markdown="1">
 *   [Typekit](http://typekit.com/) (devenu [Adobe fonts](https://fonts.adobe.com/))
 *   [Monotype](http://fonts.com)
 *   [Myfonts](http://myfonts.com)
 *   [Fontshop](http://fontshop.com)
 *   [Hoefler & co.](https://www.typography.com/)
-
+</div>
 
 ## Quelques indépendants à connaître
 
-*   [James Edmonson – OhNo Type Co](https://ohnotype.co/)
-*   \+ [futurefonts.xyz](https://www.futurefonts.xyz/)
+<div class="gridlist" markdown="1">
+*   [OhNo Type Co](https://ohnotype.co/)
+*   [futurefonts.xyz](https://www.futurefonts.xyz/)
 *   [David Jonathan Ross](https://djr.com/)
-*   \+ [Font of the Month Club](https://fontofthemonth.club/)
+*   [Font of the Month Club](https://fontofthemonth.club/)
 *   [Village](http://vllg.com/)
 *   [Binnenland](http://www.binnenland.ch)
 *   [Colophon Foundry](http://www.colophon-foundry.org)
@@ -59,14 +61,19 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 *   [Grilli](https://www.grillitype.com/)
 *   [Production Type](https://www.productiontype.com/)
 *   [Lucasdescroix](http://www.lucasdescroix.fr/)
-
+</div>
 ## Twitter
-*   [#](https://twitter.com/)
+
+<div class="gridlist" markdown="1">
+*   [:)](https://twitter.com/)
+</div>
 
 ## Blogs et ressources
 
+<div class="gridlist" markdown="1">
 *   [I love typography](http://ilovetypography.com/)
 *   [Font Review Journal](http://fontreviewjournal.com/)
 *   [Typewolf](http://www.typewolf.com/), notamment [typewolf.com/resources](https://www.typewolf.com/resources)
 *   [Ministry Of Type](http://ministryoftype.co.uk/) (almost dead)
 *   [Typographica](http://typographica.org/) (almost dead)
+</div>

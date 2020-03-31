@@ -200,6 +200,17 @@ p code,
 td code {
     background: #eee;
     }
+h5.filename {
+    margin: 0;
+    background-color: #272822;
+    padding: .5em ;
+    color: #ccc;
+    border-bottom: 1px solid #75715e;
+    font-weight: normal;
+}   
+h5.filename + pre {
+    margin-top: 0;
+}  
 
 .edit{
     animation: 2500ms linear alternate infinite edit;
@@ -225,6 +236,16 @@ td code {
   clear:both;
 }
 
+.gridlist ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem 2rem;
+    padding-left: 0;
+    max-width: none;
+}
+.gridlist li { list-style-type: none; padding: 0; margin: 0;}
+.gridlist p { margin: 0;}
+.gridlist p + p { margin-top: .5em;}
 .grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
