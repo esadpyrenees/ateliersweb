@@ -16,6 +16,6 @@ Pourquoi pas [À tant rêver du Roi](http://atrdr.net/) ? [Résonances](http://e
 
 ## Exemples
 
-Voir un exemple d’affiches génératives pour la journée d’études [médias ~ médiations](http://nm.esapyrenees.fr/medias-mediations/) (fonctionnel dans Google Chrome) ou pou les [workshops 2019](http://workshops.esad-pyrenees.fr/) de l’ÉSAD.
+Voir un exemple d’affiches génératives pour la journée d’études [médias ~ médiations](http://nm.esapyrenees.fr/medias-mediations/) ou pour les [workshops 2019](http://workshops.esad-pyrenees.fr/) de l’ÉSAD.
 
 Voir les [exemples html2print](../../exemples/#htmltoprint) dans la section dédiée.
