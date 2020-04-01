@@ -49,4 +49,3 @@ Services web.
 
 *   [Kirby](https://gekirby.com)
 *   [Kirby in a nutshell](https://getkirby.com/docs/cookbook/setup/kirby-in-a-nutshell)
-</main>

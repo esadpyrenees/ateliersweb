@@ -18,9 +18,9 @@
     echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png'>\n";
 
   ?>
-  <meta name="twitter:card" content="summary_large_image"></meta>
-  <meta name="twitter:site" content="@esadpyrenees"></meta>
-  <meta name="twitter:creator" content="@julienbidoret"></meta>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@esadpyrenees">
+  <meta name="twitter:creator" content="@julienbidoret">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
