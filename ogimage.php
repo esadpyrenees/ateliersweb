@@ -1,11 +1,17 @@
 <?php
 
     // WARNING : *really* dirty code
+    // obéissant aux principes :
+    // un tiens vaut mieux que deux tu l’auras
+    // ce qui est fait n’est plus à faire
 
     $params = explode('/', $_GET["params"]);
     
     $section = isset($params[0]) ? $params[0] : "";
     $subsection = isset($params[1]) ? $params[1] : "";
+
+
+    // attention, chemins en dur !
 
     $fonts_path = realpath(dirname(__FILE__) . '/assets/fonts');
     $fontbold = $fonts_path  . "/Ecole-Bold.otf";
