@@ -5,6 +5,7 @@
     <li class="<?php echo $section == 'references' ? 'opened' : '' ?>"><a href="/web/pages/references/">Références</a></li>
     <li class="<?php echo $section == 'outils' ? 'opened' : '' ?>"><a href="/web/pages/outils/">Outils</a></li>
     <li class="<?php echo $section == 'projets' ? 'opened' : '' ?>"><a href="/web/pages/projets/">Projets</a></li>
+    <li class="<?php echo $section == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/lectures/">Lectures</a></li>
     <li class="<?php echo $section == 'archives' ? 'opened' : '' ?>"><a href="/web/archives/">Archives</a></li>
   </ul>
   <span class="<?php echo $section == 'about' ? 'opened' : '' ?>">

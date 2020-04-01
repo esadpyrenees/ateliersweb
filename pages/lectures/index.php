@@ -1,10 +1,8 @@
 <?php
     // config
-    $title = "Références — Veille";
-    $section="references";
-    $subsection="veille";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
-    $mdfile = "./veille.md";
+    $title = "Lectures";
+    $section="lectures";
+    $mdfile = "./lectures.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
@@ -26,3 +24,4 @@
     </main>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>
+

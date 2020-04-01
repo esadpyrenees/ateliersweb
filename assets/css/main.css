@@ -213,12 +213,12 @@ h5.filename + pre {
 }  
 
 .edit{
-    animation: 2500ms linear alternate infinite edit;
+    animation: 250ms linear alternate infinite edit;
 }
 @keyframes edit {
     0%{ color: inherit; }
     50%{ color: inherit; }
-    100%{ color: MediumBlue; }
+    100%{ color: lightcoral; }
 }
 
 .blink{
