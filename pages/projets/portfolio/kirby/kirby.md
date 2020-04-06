@@ -12,6 +12,19 @@ Les principes de son fonctionnement sont néanmoins assez similaires à la plupa
 
 On peut tester Kirby gratuitement mais sa mise en ligne nécessite l’achat d’une licence. Les étudiants peuvent bénéficier d’un [tarif réduit](https://getkirby.com/buy#students).
 
+## À quoi ça sert ?
+
+Kirby est un gestionnaire de contenu. Il permet d’administrer (mettre à jour, augmenter, modifier) le **contenu** d’un site web. 
+
+Les CMS offrent également des fonctionnalités qui facilitent la conception de sites web dès qu’ils dépassent plusieurs pages, notamment lorsque de nombreuses pages de même type doivent être créées (ce qui est souvent le cas d’un portfolio).
+
+Ils disposent généralement d’une interface d’administration en ligne, accessible avec un identifiant et un mot de passe qui permet que chaque mise à jour ne demande pas d’écrire du code, de redimensionner et uploader des images ou de modifier dans chaque fichier HTML le menu de navigation.
+
+Ils permettent ainsi à des utilisateurs sans accès au code (les clients du/de la développeur·se) d’administrer eux-mêmes un site internet.
+
+Ils permettent de séparer les opérations de gestion de la forme et du contenu, laissant au designer la responsabilité de la forme et au commanditaire celle du contenu.
+
+[Notabene](#notabene)…
 
 ## Fonctionnement
 
@@ -51,3 +64,14 @@ Kirby possède une documentation précise et extensive : un [guide de démarrage
 
 Pour aller plus loin dans la découverte des principes de fonctionnement de Kirby, [lire *Kirby in a nutshell*](https://getkirby.com/docs/cookbook/setup/kirby-in-a-nutshell)
 
+## Notabene {#notabene}
+
+En 2020, de nouvelles manières de concevoir et de développer des sites ont le vent en poupe. L’ère des gros moteurs de gestion de contenu (Drupal, Joomla, Typo3 ou même Wordpress) s’essoufle peu à peu.
+
+Ces moteurs ont comme principal défaut de demander beaucoup de ressources aux serveurs et sont soumis à de fréquents et nombreux problèmes de sécurité. 
+
+L’obsolescence rapide des outils et des versions des langages, tout comme la question des performances (≈ rapidité d’affichage des sites) favorise l’émergence de nouveaux outils, plus résilients. 
+
+Kirby et quelques autres CMS *flatfiles* (Grav) fonctionnent avec des fichiers texte, du markdown et des médias bruts qui simplifient la mise à jour et la transition vers un nouveau CMS. 
+
+Aujourd’hui émergent de nouveaux outils, notamment des générateurs de sites statiques, ([Jeckyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Eleventy](https://www.11ty.dev/)) et des logiques de déploiement ([Forestry.io](https://forestry.io/), [Github](https://pages.github.com/), [Netlify](https://netlify.com)) qui seront sans doute le futur de la gestion de contenus sur le web.
