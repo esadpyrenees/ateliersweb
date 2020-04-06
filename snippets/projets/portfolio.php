@@ -20,5 +20,6 @@
         <li><a href="/web/pages/projets/portfolio/templates/#snippets">Snippets</a></li>
       </ul>      
     </li>
+    <li class="<?= $subsubsection == 'assets' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/assets/">CSS / JS</a></li>
   </ul>
 </nav>
