@@ -69,14 +69,44 @@ Une solution alternative pour pouvoir cibler des éléments dans des pages spéc
     data-template="<?= $page->template() ?>"
     data-intended-template="<?= $page->intendedTemplate() ?>">
     <!-- 
-      intendedTemplate() renvoit le nom du fichier txt du dossier content,
+      intendedTemplate() renvoit le nom du fichier txt du dossier `content`,
       même si aucun fichier correspondant n’existe dans le dossier `site/templates`
     -->
 ```
 
-On peut alors cibler ces éléments depuis la feuille de style grâce aux [sélecteurs d’attributs](/web/pages/ressources/css/selectors/) :
+On peut alors cibler des éléments depuis la feuille de style grâce aux [sélecteurs d’attributs](/web/pages/ressources/css/selectors/) :
 
 ```css
 [data-template="project"] h1 { font-size:4em; }
 [data-id="projets/mon-super-projet"] { background: tomato; }
 ```
+
+### Panel et mise en page
+
+Les *blueprints* et le panel permettent de stocker dans les fichiers de contenu des informations qui vont aider à leur mise en page. 
+
+Par exemple, si l’on veut pouvoir “rythmer” l’affichage en grille de projets (beaucoup de projets sur une colonne, quelques projets sur deux colonnes), on peut autoriser la saisie de cette information depuis le blueprint :
+
+##### `/site/blueprints/pages/project.yml` {.filename}
+
+```yml
+fields:
+  (…)
+  is_important:
+    label: Projet important
+    type: toggle
+    width: 1/4
+```
+Et utiliser cette information pour modifier la largeur d’une colonne :
+
+##### `/site/snippets/project.php` {.filename}
+```php
+<article class="<?php if($project->is_important()->toBool()) { echo 'important'; }?> ">
+```
+
+##### `/assets/css/style.css` {.filename}
+```css
+.important { grid-column-end: span 2}
+```
+
+
