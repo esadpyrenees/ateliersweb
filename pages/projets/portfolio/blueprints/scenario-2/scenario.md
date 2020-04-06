@@ -89,16 +89,16 @@ columns:
     sections:
       infos:
         type: fields
-          fields:
-            subtitle:
+        fields:
+          subtitle:
               label: Sous-titre
               type: text
               width: 3/4
-            year:
+          year:
               label: Année
               type: number
               width: 1/4
-            text:
+          text:
               label: Texte
               type: textarea
               size: medium
@@ -106,7 +106,7 @@ columns:
         type: files
         layout: cards
         template: image
-      
+
   - width: 1/3
     fields:
       cover:
