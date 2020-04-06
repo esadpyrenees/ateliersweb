@@ -188,7 +188,17 @@ blockquote {
     font-style: italic;
     font-family: Georgia;
 }
-
+sup { line-height: 1;}
+sup a.footnote-ref {
+    background: tomato; color: white;
+    font-size: .75em;
+    border-radius: 50%;
+    display: inline-block;
+    padding: .25em .35em .15em; 
+    min-width: 1.25em;
+    text-align: center;
+    line-height: .8;
+}
 pre, code {
     font-family: 'Fira Code';
     font-variant-ligatures: none;
