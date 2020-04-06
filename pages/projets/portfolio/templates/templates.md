@@ -111,6 +111,8 @@ $books = page("books")->children()->listed()->sortBy('author',  'asc');
 $frangines = $page->siblings()->listed()->limit(3);
 ```
 
+Voir la documentation pour des exemples avancés de logiques de filtre : [*Filtering compendium*](https://getkirby.com/docs/cookbook/content/filtering).
+
 ## Les variables prédéfinies
 Dans chaque page, Kirby met à dispostion les variables `$page` et `$site` qui permettent d’accéder au contenu de la page en cours ou du site.
 
@@ -166,7 +168,7 @@ L’exemple de code ci-dessus gagnera à être découpé en :
   </title>
 </head>
 <body>
-
+  <?php // le header principal, tout comme un menu, peut être inclus dans toutes les pages ?>
   <header>
     <h1>
       <a href="<?= $site->url() ?>">
@@ -174,12 +176,6 @@ L’exemple de code ci-dessus gagnera à être découpé en :
       </a>
     </h1>
   </header>
-```
-
-##### `/site/snippets/footer.php`  {.filename}
-```html
-</body>
-</html>
 ```
 
 ##### `/site/templates/project.php` {.filename}
@@ -190,6 +186,12 @@ L’exemple de code ci-dessus gagnera à être découpé en :
     <?= $page->text()->kirbytext() ?>
   </main>
 <?php snippet("footer") ?>
+```
+
+##### `/site/snippets/footer.php`  {.filename}
+```html
+</body>
+</html>
 ```
 
 ### Transmettre une variable à un snippet
