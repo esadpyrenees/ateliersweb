@@ -149,6 +149,8 @@ h2:last-of-type { /* le dernier h2 */ }
 h2:nth-of-type(3) { /* le troisième h2, etc. */ }
 ```
 
+Pour tester `nth-child`, voir chez [Lea Verou](http://lea.verou.me/demos/nth.html).
+
 —
 
 <small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io) et à [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>
