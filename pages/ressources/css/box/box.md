@@ -219,6 +219,11 @@ blockquote { background: #ddd; height: 100px; width: 200px; }
 <div class="blockquotes">
 <blockquote>Quand arriva l’antiquité à flots tumultueux (…) elle fit irruption et nous inonda. Jusqu’à Malherbe, ce ne fut que débordement et ravage. </blockquote>
 </div>
+<br>
+
+Autrement dit…
+
+![CSS is awesome](cssisawesome.png)
 
 ### Débordement en CSS
 

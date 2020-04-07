@@ -26,7 +26,7 @@
 
   <link rel="stylesheet" href="/web/assets/css/main.css">
   <link rel="stylesheet" href="/web/assets/fonts/fonts.css">
-  <link rel="stylesheet" href="/web/assets/highlight/styles/monokai.css">
+  <link rel="stylesheet" href="/web/assets/highlight/styles/monokai-esad.css">
 
   <script src="/web/assets/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
