@@ -75,21 +75,7 @@ a:hover {
    color: red;
 }
 ```
-## Sélecteurs de pseudo-éléments
 
-Les sélecteurs de pseudo-éléments permettent d’injecter du contenu avant ou après le contenu d’une balise html.
-
-```css
-a.external-url::before {
-  /* signale les liens externes par une flèche */
-  content: "↗ "
-}
-@media print {
-  /* ajoute le href des liens entre crochets à la suite de chaque lien dans le contexte print */
-  a::after { content: " [" attr( href) "]" }
-}
-
-```
 
 
 [→ Héritage](../inheritance/){.bigbutton}
@@ -151,6 +137,22 @@ h2:nth-of-type(3) { /* le troisième h2, etc. */ }
 
 Pour tester `nth-child`, voir chez [Lea Verou](http://lea.verou.me/demos/nth.html).
 
+## Sélecteurs de pseudo-éléments
+
+Les sélecteurs de pseudo-éléments permettent d’injecter du contenu avant ou après le contenu d’une balise html.
+
+```css
+a.external-url::before {
+  /* signale les liens externes par une flèche */
+  content: "↗ "
+}
+@media print {
+  /* ajoute le href des liens entre crochets à la suite de chaque lien dans le contexte print */
+  a::after { content: " [" attr( href) "]" }
+}
+
+```
+
 —
 
-<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io) et à [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>
+<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io) et [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>
