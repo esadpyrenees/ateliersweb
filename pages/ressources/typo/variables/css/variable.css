@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Mutator";
+    src: url(MutatorSans.ttf) format("truetype");    
+}
+
+@font-face {
+    font-family: "LibreFranklin";
+    src: url(LibreFranklinGX-Romans-v4015.ttf) format("truetype");    
+}
+@font-face {
+    font-family: "Yvain";
+    src: url(leo-gaullier-yvain.ttf) format("truetype");    
+}
+
+@font-face {
+    font-family: 'Plex Sans';
+    src: url('IBMPlexSansVar-Roman.woff2') format('woff2-variations');
+    font-stretch: 85% 100%;
+    font-weight: 100 700;
+    font-style: normal;
+}
+.libre { font-family: "LibreFranklin"; }
+.mutator{ font-family: "Mutator"; }
+.plex { font-family: 'Plex Sans'; }
+.libre, .mutator, .plex {font-size: 3em;}
+#yvain{
+    font-family: "Yvain";
+    font-size: 6em;
+}
+
+@keyframes mutant {
+    0% { font-variation-settings: "wdth" 0, "wght" 0 }
+    25% { font-variation-settings: "wdth" 1000, "wght" 0 }
+    50% { font-variation-settings: "wdth" 1000, "wght" 1000 }
+    75% { font-variation-settings: "wdth" 0, "wght" 1000 }
+    100% { font-variation-settings: "wdth" 0, "wght" 0 }
+}
+
+.char {
+    --delay: calc((var(--index) + 1) * 400ms);
+    animation: breathe 4000ms infinite both;
+    animation-delay: var(--delay);
+}
+
+@keyframes breathe {
+    0% { font-variation-settings: 'wght' 0, 'wdth' 0; }
+    60% { font-variation-settings: 'wght' 1000, 'wdth' 1000; }
+    100% { font-variation-settings: 'wght' 0, 'wdth' 0; }
+}

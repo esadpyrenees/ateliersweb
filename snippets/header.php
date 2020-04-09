@@ -27,6 +27,10 @@
   <link rel="stylesheet" href="/web/assets/css/main.css">
   <link rel="stylesheet" href="/web/assets/fonts/fonts.css">
   <link rel="stylesheet" href="/web/assets/highlight/styles/monokai-esad.css">
+ 
+  <?php if(isset($custom_css)): ?>
+    <link rel="stylesheet" href="<?= $custom_css ?>">
+  <?php endif ?>
 
   <script src="/web/assets/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>

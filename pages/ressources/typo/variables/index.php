@@ -7,6 +7,8 @@
     $subsubsection="variables";
     $mdfile = "./variables.md";
 
+    $custom_css = "/web/pages/ressources/typo/variables/css/variable.css";
+
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
