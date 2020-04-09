@@ -459,4 +459,4 @@ Si vous voyez cet exemple dans votre navigateur, vous verrez ceci:
 
 —
 
-<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io), sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>
+<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io), sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>

@@ -93,4 +93,4 @@ Et voilà…
 
 —
 
-<small>Contenu librement adapté et largement emprunté à [Jeremy Thomas](https://marksheet.io), sous [license Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) et à Antoine Arnaud / [iloth.net](https://iloth.net/2016/10/ce-quil-se-passe-quand-on-ouvre-une-page-web/).</small>
+<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io), sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) et à Antoine Arnaud / [iloth.net](https://iloth.net/2016/10/ce-quil-se-passe-quand-on-ouvre-une-page-web/).</small>

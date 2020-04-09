@@ -59,4 +59,4 @@ Un navigateur web ne peut afficher qu’un nombre réduit des types de fichiers 
 
 —
 
-<small>Contenu librement adapté et largement emprunté à [MDN Web docs](https://developer.mozilla.org/fr/docs/Apprendre/).</small>
+<small>Contenu adapté de [MDN Web docs](https://developer.mozilla.org/fr/docs/Apprendre/).</small>
