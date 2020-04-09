@@ -5,18 +5,6 @@
 
 *Mise à jour en cours*
 
-## Espace
-
-## Sélection
-
-## Rythme
-
-## Contraste et couleur
-
-
-## Structure, échelle et hiérarchie
-
-## Composition
 
 Défendre la veuve et l’orphelin, éviter les veuves et les orphelines.
 ```
