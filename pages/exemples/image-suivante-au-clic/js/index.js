@@ -2,10 +2,18 @@ document.addEventListener('click', function (event) {
 
   // si l’élément sur lequel on clique a la class “click_for_next”
 	if (event.target.matches('.click_for_next')) {
-    // on selectionne l’élément à afficher grâce à son attribut “data-next”
-    var next_element = document.querySelector(event.target.getAttribute('data-next'));
-    // on lui retire la class “hidden” qui le masquait
-    next_element.classList.remove('hidden');
+    // on selectionne les éléments à afficher grâce à son attribut “data-next”
+    var next_elements_list = event.target.getAttribute('data-next');
+
+    // l’attribut peut contenir une liste d’éléments, séparés par des virgules
+    // on le “splite” en une liste (un “array”)
+    next_elements = next_elements_list.split(",");
+
+    for(var i=0; i<next_elements.length; i++) {
+      // on lui retire à chaque élément la class “hidden” qui le masquait
+      document.querySelector(next_elements[i]).classList.remove('hidden');
+    }
+    
   }
   
   // si l’élément sur lequel on clique a la class “the_end”

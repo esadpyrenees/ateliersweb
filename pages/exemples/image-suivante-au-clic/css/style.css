@@ -17,6 +17,7 @@ button, img, p { position:absolute; cursor: pointer; }
 
 #texte1 { top: 45%; left: 60%;}
 #texte2 { bottom: 5%; right: 10%;}
+#texte3 { top: 25%; left: 40%;}
 
 .start {
     right: 20px;
