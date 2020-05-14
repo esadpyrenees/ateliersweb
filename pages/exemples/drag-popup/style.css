@@ -1,0 +1,40 @@
+/* CSS */
+* { box-sizing: border-box; }
+html, body { height: 100%}
+
+
+body { font-size: 50px; padding: 50px; margin: 0; font-family: sans-serif;}
+
+a { color: black; text-decoration: none;}
+ul { list-style-type: none; margin: 0; padding: 0;}
+li { display: inline;}
+
+article { 
+  /* par défaut, les popups sont masquées */
+  display: none; 
+  position: absolute; /* pour la rendre déplaçable */
+  /* position d’ouverture */
+  top:50%;
+  left:50%;
+  /* centrage */
+  transform: translate(-50%, -50%);
+  /* style visuel */
+  border: 10px solid;
+  background-color: white;
+  padding: 1em;
+}
+/* quand la popup a la class “open” */
+article.open {display: block;}
+
+/* styles du bouton close */
+.close {
+  position: absolute;
+  right:0;
+  top:0;
+  background: black;
+  color: white;
+  border: none;
+  font-size: .5em;
+  line-height: .7;
+  padding: calc(.25em - 10px) calc(.5em - 10px) .3em .35em;
+}
