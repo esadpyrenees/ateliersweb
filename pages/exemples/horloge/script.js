@@ -76,7 +76,7 @@ $(function(){
     /*------------------------------------------- */
     // initialisation, en appelant l’api
     $.ajax({
-        url : 'http://api.sunrise-sunset.org/json?lat=43.295100&lng=-0.370797&formatted=0',
+        url : '//api.sunrise-sunset.org/json?lat=43.295100&lng=-0.370797&formatted=0',
         success : function(data, statut){
             apidata = data;
         },
