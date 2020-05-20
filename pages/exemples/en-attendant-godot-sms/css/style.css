@@ -1,0 +1,67 @@
+body {
+    scroll-behavior: smooth;
+    font-family: monospace;
+}
+main{
+    max-width: 45em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0;
+}
+
+div { 
+    max-width: 75%; 
+    margin: 0 0 1.5em;
+}
+
+p {
+    margin:0;
+    padding: .5em 1em; 
+    min-width: 5em;
+    font-size: 1.5em;
+}
+span {
+    display: block;
+    color:#999;
+    padding-top: .25em;
+    position: relative;
+}
+span::after{
+    content: '';
+    position: absolute;
+    top:0;
+	width: 0;
+    height: 0;
+    border: 20px solid transparent;
+}
+.beckett {
+    margin: 1em auto;
+    border: none;
+    color: #999;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3em;
+}
+.beckett span { display: none;}
+
+.estragon { align-self: flex-start;  }
+.estragon p {background-color: tomato;}
+.vladimir { align-self: flex-end; }
+.vladimir p {background-color: greenyellow;}
+
+.estragon span:after {
+	border-top-color: tomato;
+    border-bottom: 0;
+	border-left: 0;
+	transform: translateX(10px);
+}
+
+.vladimir span:after {
+	border-top-color: greenyellow;
+	border-bottom: 0;
+    border-right: 0;
+    transform: translateX(-10px);
+    left: 0;
+}
+.vladimir span { float: right; padding-left: 1.25em;}
