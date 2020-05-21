@@ -197,7 +197,7 @@ Par exemple, `<a href="#top">` fait défiler la page jusqu’à l’élément do
 
 <a href="#top">Haut de page</a>
 
-### URL relatives
+### URL relatives {#urls-relatives}
 
 Si on souhaite définir un lien vers une autre page du même site Web, on utilise des URL relatives (relatives au document courant, à la page en cours).
 

@@ -24,6 +24,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="stylesheet" href="/web/assets/css/icons.css">
   <link rel="stylesheet" href="/web/assets/css/main.css">
   <link rel="stylesheet" href="/web/assets/fonts/fonts.css">
   <link rel="stylesheet" href="/web/assets/highlight/styles/monokai-esad.css">

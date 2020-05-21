@@ -1,10 +1,10 @@
 <?php
     // config
-    $title = "Javascript";
+    $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
-    $subsection="javascript";
-    $nav = "/web/snippets/ressources/js.php";
-    $mdfile = "./index.md";
+    $subsection="ftp";
+    $nav = "/web/snippets/ressources/ftp.php";
+    $mdfile = "./ftp.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
@@ -21,16 +21,8 @@
 ?>
 
     <main class="pane active" id="content">
-        <section>
-            <div id="randomramdam" >RANDOM/RAMDAM</div>                
-        </section>
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
-
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
-  <?php 
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
-
-  
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>

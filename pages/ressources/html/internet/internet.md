@@ -50,7 +50,7 @@ Un domaine a trois parties qui se lisent de droite à gauche:
 
 On peut penser aux domaines comme un moyen de nommer les ordinateurs connectés à Internet.
 
-On n’achète pas de domaine, mais on le loue à celui qui gère le TLD qu’on a choisit. Les entreprises qui gèrent des domaines Internet sont appelées *registrars* de domaines. En France, [Gandi](https://www.gandi.net/) ou [OVH](https://www.ovh.com/fr/) sont parmi les *registrars* les plus connus.
+On n’achète pas de domaine, mais on le loue à celui qui gère le TLD qu’on a choisi. Les entreprises qui gèrent des domaines Internet sont appelées *registrars* de domaines. En France, [Gandi](https://www.gandi.net/) ou [OVH](https://www.ovh.com/fr/) sont parmi les *registrars* les plus connus.
 
 ## Protocoles
 
