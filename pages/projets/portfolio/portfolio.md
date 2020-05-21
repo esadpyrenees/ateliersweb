@@ -45,3 +45,7 @@ Vous pourrez ensuite :
 
 [→ Démarrer avec Kirby](kirby/){.bigbutton}
 
+
+## Exemples
+
+Une sélection de portfolios par [Stéphane Elbaz sur are.na](sur https://www.are.na/stephane-elbaz/portfolio--12).
