@@ -84,7 +84,7 @@ Par défaut également, **le serveur affiche au visiteur le contenu du dossier `
 
 ![admin alwaysdata](images/alwaysdata-2.png) 
 
-Si vous disposez d’un nom de domaine, Alwaysdata permet de créer plusieurs sites, accessibles via différentes adresses. Dans le cas présent, nous allons héberger **plusieurs projets sur le même site**, grâce à une page d’index personnalisée.
+Si vous disposez d’un nom de domaine, Alwaysdata permet de créer plusieurs sites, accessibles via différentes adresses. Dans le cas présent, nous allons héberger **plusieurs projets sur le même site**, grâce à une page d’index personnalisée. Nous ne modifions donc pas la configuration du site par défaut d’Alwaysdata.
 
 ### Mise en ligne
 
@@ -173,6 +173,9 @@ Vous vous êtes trompé·e dans une des informations de connexion (nom de serveu
 
 #### Forbidden! You don't have permission to access … on this server.
 Si l’ouverture de votre site (http://[votrecompte].alwaysdata.net) dans un navigateur produit une erreur de ce type, c’est vraisemblablement que vous avez oublié de nommer `index.html` la page d’accueil de votre projet.
+
+#### Not Found! The requested URL / was not found on this server
+Si l’ouverture de votre site (http://[votrecompte].alwaysdata.net) dans un navigateur produit une erreur de ce type, c’est vraisemblablement que vous avez oublié de téléverser votre contenu à l’intérieur du dossier `www` (ou du dossier alternatif spécifié dans l’interface d’administration](https://admin.alwaysdata.com/site/) de votre site sur Alwaysdata).
 
 #### Les images / styles ne s’affichent pas
 Vérifiez que vous avez bien utilisé des [URLs relatives](../html/content/#urls-relatives) dans les chemins vers vos images, médias et fichiers css (et pas des URLs “absolues”, qui commencent par `file:///…`).
