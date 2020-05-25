@@ -10,9 +10,9 @@ La plus ancienne et robuste est d’utiliser un logiciel FTP (*File Transfer Pro
 
 Il est nécessaire de disposer d’un espace chez un hébergeur. Le coût annuel d’un hébergement est de quelques dizaines d’euros. En France, les hébergeurs les plus courants sonts [ovh](https://ovh.com/), [gandi](https://gandi.net) ou [online](https://www.online.net/fr/hebergement-web). [LWS](https://www.lws.fr/) est un hébergeur français dont les offres de prix sont très intéressantes. Les offres d’[Alwaysdata](https://www.alwaysdata.com/) sont plus onéreuses, mais un espace disque de 200 Mo est offert aux étudiants de l’ÉSAD en suivant [ce lien](https://alws.link/gyB4xU46).
 
-### Un nom de domaine
+### Un nom de domaine ?
 
-Le nom de domaine vous permet de personnaliser l’adresse à laquelle votre site sera accessible sur le web.
+Bien que n’étant pas indispensable à la suite du processus décrit ci-dessous, un nom de domaine vous permet de personnaliser l’adresse à laquelle votre site sera accessible sur le web.
 
 Pour rappel, un domaine a trois parties qui se lisent de droite à gauche:
 
@@ -78,7 +78,9 @@ Si vous avez saisi les bonnes informations de connexion, la fenêtre de Cyberduc
 
 ![Cyberduck](images/cy-4.png)
 
-Par défaut, l’utilisateur FTP d’Alwaysdata a accès à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). Par défaut également, le serveur affiche au visiteur le contenu du dossier `www`. Cette option est configurable dans [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte, via le menu “Web / Sites” → “Default site / Modifier”.
+Par défaut, l’utilisateur FTP d’Alwaysdata a accès à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). 
+
+Par défaut également, **le serveur affiche au visiteur le contenu du dossier `www`**. Cette option est configurable dans [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte, via le menu “Web / Sites” → “Default site / Modifier”.
 
 ![admin alwaysdata](images/alwaysdata-2.png) 
 
@@ -126,6 +128,26 @@ On crée alors un fichier html très simple (la CSS peut même y être intégré
 ```
 
 Vous pouvez alors téléverser (uploader) ce fichier `index.html` ainsi que les dossiers contenant le code de vos projets à l’intérieur du dossier `www`, par un simple glisser/déposer.
+
+La structure de votre FTP deviendra donc :
+
+<pre markdown="0">
+<span class="icon-folder-open"></span> / (racine)
+    <span class="icon-folder-open"></span> admin
+    <span class="icon-folder-open"></span> www
+        <span class="icon-file-empty"></span> index.html
+        <span class="icon-folder-open"></span> webdesign
+            <span class="icon-folder-open"></span> css
+            <span class="icon-folder-open"></span> img
+            <span class="icon-file-empty"></span> index.html
+            <span class="icon-file-empty"></span> …
+        <span class="icon-folder-open"></span> cultures_num
+            <span class="icon-folder-open"></span> css
+            <span class="icon-folder-open"></span> img
+            <span class="icon-file-empty"></span> index.html
+            <span class="icon-file-empty"></span> …
+    
+</pre>
 
 ![Cyberduck](images/cy-6.png)
 

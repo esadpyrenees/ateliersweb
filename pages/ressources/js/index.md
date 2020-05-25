@@ -5,9 +5,11 @@
 
 Les _snippets_ de code ci-dessous, s’ils restent valables en 2020, sont écrits dans une syntaxe ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
 
-### Ailleurs
+### Ressources en ligne
 
-Pour des exemples pratiques ayant trait à la manipulation du DOM en javascript, voir [htmldom.dev](https://htmldom.dev/). Une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain” peut se trouver ici : [javascript.info](https://javascript.info/). 
+- **[htmldom.dev](https://htmldom.dev/)** : exemples pratiques ayant trait à la manipulation du DOM en javascript. 
+- **[javascript.info](https://javascript.info/)** : une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain”. 
+- **[eloquentjavascript](https://eloquentjavascript.net/)** : un livre sous licence CC, sous-titré “<i>a modern introuction to programming</i>”.
 
 ## Introduction {#introduction}
 
