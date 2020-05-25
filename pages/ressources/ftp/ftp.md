@@ -96,6 +96,20 @@ Un fichier `index.html` y est placé par défaut et correspond à la page d’ac
 
 On crée alors un fichier html très simple (la CSS peut même y être intégrée), contentant quelques liens vers les dossiers des projets, voire même les fichiers de présentation (notes d’intention, maquettes, storyboard ou wireframes).
 
+Dans cet exemple, on postule deux projets, `webdesign` et `cultures_num` qui contiennent chacun quelques fichiers :
+
+<pre markdown="0">
+<span class="icon-file-empty"></span> index.html ← page d’accueil personnalisée
+<span class="icon-folder-open"></span> webdesign
+    <span class="icon-file-empty"></span> index.html
+    <span class="icon-file-empty"></span> note.pdf
+    <span class="icon-file-empty"></span> storyboard.pdf
+    <span class="icon-file-empty"></span> maquettes.pdf
+<span class="icon-folder-open"></span> cultures_num
+    <span class="icon-file-empty"></span> index.html
+    <span class="icon-file-empty"></span> note.pdf
+</pre>
+
 ``` html
 <!DOCTYPE html>
 <html lang="fr">
