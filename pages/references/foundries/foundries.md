@@ -12,6 +12,8 @@ Les fontes distribuées sous licence libres sont nombreuses et leur qualité aug
 *   [The League of Moveable Type](http://www.theleagueofmoveabletype.com/)
 *   [Omnibus Type](http://www.omnibus-type.com/)
 *   [Open Foundry](https://open-foundry.com/)
+*   [Noir Blanc Rouge](https://noirblancrouge.com/)
+*   [Badass Libre Fonts By Womxn](https://www.design-research.be/by-womxn/)
 
 Raphaël Bastide a initié et développé un outil (libre) pour lister et sélectionner des fontes numériques. Il contient une liste importante de polices libres ou open source : [use & modify](http://usemodify.com/).
 
