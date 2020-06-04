@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Video scroll</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="hauteur"></div>
+
+    <p class="scroll">(scroll)</p>
+    
+    <section class="video">
+        <video id="video"  muted class="paused" autobuffer="autobuffer" preload="preload">
+            <source type="video/mp4" src="pencil_down.mp4">
+        </video>
+    </section>
+
+    
+    <script>
+
+        var frame = 0,
+            speed = 600, // plus le nombre est bas, plus rapide est la lecture
+            hauteur = document.querySelector("#hauteur"), 
+            video = document.querySelector('#video'); 
+
+            
+
+        // requestAnimationFrame permet une lecture fluide
+        function scrollToPlay(){  
+            frame  = window.scrollY / speed;
+            video.currentTime  = parseFloat(frame).toPrecision(3);
+            window.requestAnimationFrame(scrollToPlay);
+        }
+
+        function setHeight() {
+            console.log(video.duration);
+            hauteur.style.height = video.duration * speed + "px";
+            console.log(video.duration * speed + "px")
+            window.requestAnimationFrame(scrollToPlay);
+        }
+        
+        // vérifie le statut de chagrgement de la vidéo
+        video.addEventListener('loadedmetadata', setHeight);
+
+        // vérifie le statut de chagrgement de la vidéo (nécessaire en local, sous FF)
+        if (video.readyState >= 2) {
+            setHeight();
+        }
+        
+        
+
+        
+
+    </script>
+</body>
+
+</html>
