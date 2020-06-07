@@ -13,47 +13,39 @@
     <p class="scroll">(scroll)</p>
     
     <section class="video">
-        <video id="video"  muted class="paused" autobuffer="autobuffer" preload="preload">
-            <source type="video/mp4" src="pencil_down.mp4">
-        </video>
+        <video id="video"  muted class="paused" autobuffer="autobuffer" preload="preload" src="pencil_down.mp4"></video>
     </section>
 
     
     <script>
 
-        var frame = 0,
-            speed = 600, // plus le nombre est bas, plus rapide est la lecture
-            hauteur = document.querySelector("#hauteur"), 
-            video = document.querySelector('#video'); 
-
-            
+        let frame = 0;
+        const speed = 600; // plus le nombre est bas, plus rapide est la lecture
+        const hauteur = document.querySelector("#hauteur");
+        const vid = document.querySelector('video'); 
 
         // requestAnimationFrame permet une lecture fluide
         function scrollToPlay(){  
-            frame  = window.scrollY / speed;
-            video.currentTime  = parseFloat(frame).toPrecision(3);
+            frame  = parseFloat(window.scrollY / speed).toFixed(2);
+            vid.currentTime = frame;
             window.requestAnimationFrame(scrollToPlay);
         }
 
         function setHeight() {
-            console.log(video.duration);
-            hauteur.style.height = video.duration * speed + "px";
-            console.log(video.duration * speed + "px")
-            window.requestAnimationFrame(scrollToPlay);
+            hauteur.style.height = vid.duration * speed + "px";
+            scrollToPlay();
         }
-        
+
         // vérifie le statut de chagrgement de la vidéo
-        video.addEventListener('loadedmetadata', setHeight);
+        vid.addEventListener('loadedmetadata', setHeight);
 
         // vérifie le statut de chagrgement de la vidéo (nécessaire en local, sous FF)
-        if (video.readyState >= 2) {
-            setHeight();
-        }
+        setTimeout(function(){
+            if (vid.readyState >= 2) {
+                setHeight();
+            }
+        },200)
         
-        
-
-        
-
     </script>
 </body>
 
