@@ -1,6 +1,12 @@
 
 RewriteEngine On
 
+AddType video/ogg .ogm
+AddType video/ogg .ogv
+AddType video/ogg .ogg
+AddType video/ogg .ogv
+AddType video/webm .webm
+
 
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} !=localhost
