@@ -2,7 +2,7 @@
 
 S’informer, se tenir au courant de l’actualité du design et des cultures numériques, connaître les tendances de fond comme les remous de surface, les analyser et les comprendre ne peut se faire sans un regard régulièrement porté sur les publications en ligne de nombreux acteurs et actrices issu·e·s du champ de la critique du design, de la typographie, du design d’interface ou des outils et usages du numérique.
 
-Lire des livres, qu’ils soient de bois d’arbre, d’encre électronique ou de pixels de lumière, et une nécessité absolue. Une bibliographie viendra se construire ici progressivement.
+Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique ou de pixels de lumière – est une nécessité absolue. Une bibliographie (s)élective viendra se construire ici progressivement.
 
 #### *work in progress* {.edit}
 
