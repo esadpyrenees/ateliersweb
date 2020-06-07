@@ -35,6 +35,7 @@
             if (file_exists($thumb)) {
                 $thumb = "$localhost/web/medias/exemples/$dir/ogp.png";
                 echo "        <meta property='og:image' content='$thumb'>\n";
+                echo "        <meta name='twitter:image' content='$thumb'>\n";
             }
 
         ?>
