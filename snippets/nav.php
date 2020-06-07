@@ -54,7 +54,6 @@
         <li class="<?php echo $subsection == 'foundries' ? 'opened' : '' ?>"><a href="/web/pages/references/foundries/">Fonderies</a></li>
         <li class="<?php echo $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/references/ecrituresnumeriques/">Écritures numériques</a></li>
         <li class="<?php echo $subsection == 'histoire' ? 'opened' : '' ?>"><a href="/web/pages/references/histoire/">Histoire du web</a></li>
-        <li class="<?php echo $subsection == 'veille' ? 'opened' : '' ?>"><a href="/web/pages/references/veille/">Veille</a></li>
         <li class="<?php echo $subsection == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/references/gopro/">Go pro !</a></li>
     </ul>
 </nav>
