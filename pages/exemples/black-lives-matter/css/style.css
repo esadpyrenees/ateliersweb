@@ -1,41 +1,47 @@
 
+/* 
+http://osp.kitchen/foundry/reglo/
+Reglo is a font so tough that you can seriously mistreat it. 
+Designed by Sebastien Sanfilippo @ Open Source Publishing  
+*/
+
 @font-face{
-    font-family: "Reglo";
-    src:url("Reglo-Bold.woff?blm") format("woff"),
-      url("Reglo-Bold.woff2?blm") format("woff2");
-  }
-  
-  html,body{ height:100%; margin:0; }
-  body{ overflow-x:hidden; font-family: "Reglo";}
-  
-  section {
-    height: 100vh;
-    width: auto;
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    transform: scaleY(0) translateZ(0px);
-    transform-origin: 50% 100% 0px; 
-    opacity: 0;
-  }
-  
-  .loaded section{ opacity: 1;}
-  
-  section:first-of-type{
-    transform: scaleY(1) translateZ(0px);
-  }
-  
-  span { 
-    left: -3.3%;
-    top: 0;  
-    display: block;
-    font-weight: bold;
-    position: absolute;
-    font-size: 4vw;
-    transform-origin:0 0; 
-    margin:0; 
-    line-height: 1;
-  }
-  
-  #h { width:1px; position: absolute;}
+  font-family: "Reglo";
+  src:url("Reglo-Bold.woff?blm") format("woff"),
+    url("Reglo-Bold.woff2?blm") format("woff2");
+}
+
+html,body{ height:100%; margin:0; }
+body{ overflow-x:hidden; font-family: "Reglo";}
+
+section {
+  height: 100vh;
+  width: auto;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  transform: scaleY(0) translateZ(0px);
+  transform-origin: 50% 100% 0px; 
+  opacity: 0;
+}
+
+.loaded section{ opacity: 1;}
+
+section:first-of-type{
+  transform: scaleY(1) translateZ(0px);
+}
+
+span { 
+  left: -3.3%;
+  top: 0;  
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  font-size: 4vw;
+  transform-origin:0 0; 
+  margin:0; 
+  line-height: 1;
+}
+
+#h { width:1px; position: absolute;}
