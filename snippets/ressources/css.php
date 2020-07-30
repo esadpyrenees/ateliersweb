@@ -13,8 +13,8 @@
   </ul>
   <h3>Avancé</h3>
   <ul>
-    <li><a href="/web/pages/ressources/flexbox/">Flexbox</a></li>
-    <li><a href="/web/pages/ressources/grid/">Grid</a></li>
-    <li><a href="/web/pages/ressources/css/transitions/">Animation</a></li>
+    <li class="<?= $subsubsection == 'flexbox' ? 'opened' : '' ?>"><a href="/web/pages/ressources/flexbox/">Flexbox</a></li>
+    <li class="<?= $subsubsection == 'grid' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/grid/">Grid</a></li>
+    <li class="<?= $subsubsection == 'transitions' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/transitions/">Animation</a></li>
   </ul>
 </nav>

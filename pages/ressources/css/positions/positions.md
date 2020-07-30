@@ -44,8 +44,8 @@ Avec la position `sticky` l'élément sera naturellement soumis au scroll du doc
 
 La valeur `relative` est un outil très puissant pour la mise en page. Elle permet plusieurs comportements :  
 
-- Sans autre règle, la position relative semble être strictement identique au positionnement `static`.
-- La position de l’élément peut être modifiée par les propriétés `top`, `right`, `bottom` ou `left` **relativement** à sa position d’origine.
+* Sans autre règle, la position relative semble être strictement identique au positionnement `static`.
+* La position de l’élément peut être modifiée par les propriétés `top`, `right`, `bottom` ou `left` **relativement** à sa position d’origine.
 
 <div style="padding-bottom:25px">
 

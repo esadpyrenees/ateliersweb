@@ -8,11 +8,11 @@ CSS fournit plusieurs propriétés de police qui affectent directement le rendu 
 
 Les polices sont regroupées dans de grandes familles génériques:
 
-- à empattements, ou `serif`
-- sans empattements, linéales ou `sans serif`
-- à chasse fixe, `monospace`
-- scriptes, ou `cursive`, à éviter
-- on évitera aussi l’usage de `fantasy`…
+* à empattements, ou `serif`
+* sans empattements, linéales ou `sans serif`
+* à chasse fixe, `monospace`
+* scriptes, ou `cursive`, à éviter
+* on évitera aussi l’usage de `fantasy`…
 
 La propriété `font-family` est héritée par tous les éléments enfants HTML, on peut donc appliquer une police à l’ensemble du document HTML en l’appliquant sur l’ancêtre de tous les éléments HTML: l’élément `<body>`.
 
@@ -102,8 +102,8 @@ La hauteur de ligne a pour but de définir un interligne lisible pour votre text
 
 Utiliser les `px` est utile lorsque l’on souhaite aligner le texte verticalement en fonction d’un autre élément et non en fonction de la taille de la police.
 
-- pour le corps du texte, une hauteur de ligne de 1.5 fois la taille du texte est un bon point de départ.
-- pour les en-têtes, une valeur de 1 à 1.2 permet d’avoir des titres plus compacts
+* pour le corps du texte, une hauteur de ligne de 1.5 fois la taille du texte est un bon point de départ.
+* pour les en-têtes, une valeur de 1 à 1.2 permet d’avoir des titres plus compacts
 
 ## Propriétés du texte
 
@@ -117,10 +117,10 @@ body { text-align: left; }
 ```
 Les valeurs les plus utilisées sont:
 
-- `left` : à gauche
-- `right` : à droite
-- `center` : centre
-- `justify` : justifier
+* `left` : à gauche
+* `right` : à droite
+* `center` : centre
+* `justify` : justifier
 
 La valeur `justify` est à manier avec précaution. Les possibilités de contrôle des césures n’étant pas encore très puissantes dans les navigateurs, l’utilisation de `justify` en particulier avec des lignes courtes peut occasionner de sérieuses difficultés de lectures et de [disgracieuses lézardes](https://fr.wikipedia.org/wiki/L%C3%A9zarde_(imprimerie)).
 
@@ -142,7 +142,7 @@ blockquote { text-indent: 30px; }
 blockquote { text-indent: 30px; }
 .shadow { text-shadow: 0 2px 5px rgba(0,255,0,0.9) }
 </style>
-> Pour la plupart des gens, une typographie parfaite n’offre pas d’attraits esthétiques particuliers […]. La conscience de servir anonymement et sans attendre de reconnaissance particulière, des œuvres de valeur et un petit nombre d’hommes optiquement réceptifs, est en général la seule récompense que reçoit le typographe pour son long apprentissage jamais achevé.  
+> Pour la plupart des gens, une typographie parfaite n’offre pas d’attraits esthétiques particuliers \[…\]. La conscience de servir anonymement et sans attendre de reconnaissance particulière, des œuvres de valeur et un petit nombre d’hommes optiquement réceptifs, est en général la seule récompense que reçoit le typographe pour son long apprentissage jamais achevé.  
     — Jan Tschichold
 
 Seule la première ligne est en retrait. Si l’on souhaite décaler tout le bloc de texte, il faut des marges intérieures, le [`padding`](../box/#padding).

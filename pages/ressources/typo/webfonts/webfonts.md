@@ -1,6 +1,6 @@
-# Typo &amp; web
+# Web fonts
 
-## Intégrer une web font
+## Intégrer une *web font*
 
 ### @font-face
 

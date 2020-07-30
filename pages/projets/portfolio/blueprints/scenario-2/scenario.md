@@ -1,11 +1,11 @@
 # Scénario 2
 
-- Une page d’accueil avec la liste des projets : pas de blueprint nécessaire
-- Une page projet de type “vidéo” : un blueprint `video`
-- Une page projet de type “photo” : un blueprint `photo`
-- Une page projet de type “galerie” : un blueprint `gallery`
-- Une page projet de type “journal” : un blueprint `journal`, etc.
-- \+ une page “projets” pour ranger les projets : un blueprint `projects`
+* Une page d’accueil avec la liste des projets : pas de blueprint nécessaire
+* Une page projet de type “vidéo” : un blueprint `video`
+* Une page projet de type “photo” : un blueprint `photo`
+* Une page projet de type “galerie” : un blueprint `gallery`
+* Une page projet de type “journal” : un blueprint `journal`, etc.
+* \+ une page “projets” pour ranger les projets : un blueprint `projects`
 
 ## Site
 ##### `/site/blueprints/site.yml`  {.filename}

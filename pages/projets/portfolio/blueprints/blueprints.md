@@ -12,10 +12,10 @@ Dans le contexte du portfolio,  plusieurs scénarios peuvent être envisagés. N
 
 ### Scénario 1
 
-- Une page d’accueil avec un projet à la une : un blueprint `home` 
-- Des catégories : un blueprint `category`
-- Une page projet : un blueprint `project`
-- Une page à propos : un blueprint `about`
+* Une page d’accueil avec un projet à la une : un blueprint `home` 
+* Des catégories : un blueprint `category`
+* Une page projet : un blueprint `project`
+* Une page à propos : un blueprint `about`
 
 ![kirby : scénario 1](scenario-1.svg)
 
@@ -23,11 +23,11 @@ Dans le contexte du portfolio,  plusieurs scénarios peuvent être envisagés. N
 
 ### Scénario 2
 
-- Une page d’accueil avec la liste des projets : pas de blueprint nécessaire
-- Une page projet de type “vidéo” : un blueprint `video`
-- Une page projet de type “photo” : un blueprint `photo`
-- Une page projet de type “galerie” : un blueprint `gallery`
-- Une page projet de type “journal” : un blueprint `journal`, etc.
+* Une page d’accueil avec la liste des projets : pas de blueprint nécessaire
+* Une page projet de type “vidéo” : un blueprint `video`
+* Une page projet de type “photo” : un blueprint `photo`
+* Une page projet de type “galerie” : un blueprint `gallery`
+* Une page projet de type “journal” : un blueprint `journal`, etc.
 
 ![kirby : scénario 2](scenario-2.svg)
 
@@ -43,37 +43,37 @@ Kirby propose par défaut un large ensemble de champs, qui permettent la saisie 
 
 <div class="gridlist" markdown="1">
 
-- [**Checkboxes**](https://getkirby.com/docs/reference/panel/fields/checkboxes)   
+* [**Checkboxes**](https://getkirby.com/docs/reference/panel/fields/checkboxes)   
 Une liste de cases à cocher
 
-- [**Date**](https://getkirby.com/docs/reference/panel/fields/date)   
+* [**Date**](https://getkirby.com/docs/reference/panel/fields/date)   
 Un champ de sélection de date
 
-- [**Files**](https://getkirby.com/docs/reference/panel/fields/files)   
+* [**Files**](https://getkirby.com/docs/reference/panel/fields/files)   
 Un champ de sélection de fichiers 
 
-- [**Number**](https://getkirby.com/docs/reference/panel/fields/number)   
+* [**Number**](https://getkirby.com/docs/reference/panel/fields/number)   
 Un champ de saisie de nombre avec validation
 
-- [**Pages**](https://getkirby.com/docs/reference/panel/fields/pages)   
+* [**Pages**](https://getkirby.com/docs/reference/panel/fields/pages)   
 Un champ de sélection de pages
 
-- [**Select**](https://getkirby.com/docs/reference/panel/fields/select)   
+* [**Select**](https://getkirby.com/docs/reference/panel/fields/select)   
 Un simple champ de sélection
 
-- [**Tags**](https://getkirby.com/docs/reference/panel/fields/tags)   
+* [**Tags**](https://getkirby.com/docs/reference/panel/fields/tags)   
 Un champ de saisie de tags avec autocomplétion
 
-- [**Text**](https://getkirby.com/docs/reference/panel/fields/text)   
+* [**Text**](https://getkirby.com/docs/reference/panel/fields/text)   
 Un champ de saisie standard à une ligne
 
-- [**Textarea**](https://getkirby.com/docs/reference/panel/fields/textarea)   
+* [**Textarea**](https://getkirby.com/docs/reference/panel/fields/textarea)   
 Une zone de texte, qui se redimensionne automatiquement et comporte des boutons de formatage intégrés.
 
-- [**Toggle**](https://getkirby.com/docs/reference/panel/fields/toggle)   
+* [**Toggle**](https://getkirby.com/docs/reference/panel/fields/toggle)   
 Interrupteur à bascule : oui ou non
 
-- [**Url**](https://getkirby.com/docs/reference/panel/fields/url)   
+* [**Url**](https://getkirby.com/docs/reference/panel/fields/url)   
 Un champ de saisie d'URL avec validation
 
 </div>

@@ -1,7 +1,8 @@
   <?php
     $title = "ÉSAD·Pyrénées — Ateliers web — Flexbox";
     $section="ressources";
-    $subsection="CSS";
+    $subsection="css";
+    $subsubsection="flexbox";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/css.php");

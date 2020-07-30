@@ -48,9 +48,9 @@ HSL est un autre moyen de définir une couleur, qui fonctionne de manière plus 
 
 Au lieu d’une couleur combinant rouge, vert et bleu, on définit :
 
-- **la teinte** : une valeur allant de 0 à 360, parcourant le cercle chromatique (rouge, jaune, vert, bleu, violet…).
-- le pourcentage de **saturation**, compris entre 0% et 100%, définit la “quantité de couleur”.
-- le pourcentage de **luminosité**, compris entre 0% et 100%, définit le niveau de luminosité.
+* **la teinte** : une valeur allant de 0 à 360, parcourant le cercle chromatique (rouge, jaune, vert, bleu, violet…).
+* le pourcentage de **saturation**, compris entre 0% et 100%, définit la “quantité de couleur”.
+* le pourcentage de **luminosité**, compris entre 0% et 100%, définit le niveau de luminosité.
 
 <p style="color: rgb(219, 78, 68);">
 La couleur de ce paragraphe est définie ainsi : <code>color: hsl (4,68%, 56%);</code>.
@@ -68,9 +68,9 @@ Une autre manière de déterminer une couleur est d’utiliser la notation hexad
 
 Si le système décimal permet d’énumérer dix valeurs (0, 1, 2, 3, 4, 5, 6, 7, 8, 9), le système hexadécimal en permet 16 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F). Les valeurs RVB du rouge précédemment utilisé peuvent alors être décrites ainsi :
 
-- Rouge : 219 => db
-- Vert : 78 => 4e
-- Bleu : 68 => 44
+* Rouge : 219 => db
+* Vert : 78 => 4e
+* Bleu : 68 => 44
 
 On le note :
 ```
@@ -83,16 +83,16 @@ Les valeurs hexadécimales sont plus difficilement lisibles, mais plus facilemen
 
 Il existe de nombreuses propriétés CSS nécessitant des unités de dimension :
 
-- `font-size` définit la taille du texte
-- `border-width` définit la graisse des bordures d’élément
-- `margin` définit l’espacement entre les éléments
-- `left/right/top/bottom` permettent de positionner et de déplacer des éléments
+* `font-size` définit la taille du texte
+* `border-width` définit la graisse des bordures d’élément
+* `margin` définit l’espacement entre les éléments
+* `left/right/top/bottom` permettent de positionner et de déplacer des éléments
 
 Les unités les plus utilisées sont:
 
-- `px` pour les pixels
-- `%`, `vw` ou `vh` pour les pourcentages
-- `em` ou `rem` pour le dimensionnement par rapport au corps du texte
+* `px` pour les pixels
+* `%`, `vw` ou `vh` pour les pourcentages
+* `em` ou `rem` pour le dimensionnement par rapport au corps du texte
 
 ### Pixels
 

@@ -3,9 +3,9 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="css";
-    $nav = "/web/snippets/ressources/grid.php";
-    $subsubsection="start";
-    $mdfile = "./start.md";
+    $nav = "/web/snippets/ressources/css.php";
+    $subsubsection="grid";
+    $mdfile = "./grid.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

@@ -2,8 +2,9 @@
 
     // WARNING : *really* dirty code
     // obéissant aux principes :
-    // un tiens vaut mieux que deux tu l’auras
-    // ce qui est fait n’est plus à faire
+    // « un tiens vaut mieux que deux tu l’auras »
+    // et
+    // « ce qui est fait n’est plus à faire »
 
     $params = explode('/', $_GET["params"]);
     

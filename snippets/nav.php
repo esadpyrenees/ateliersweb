@@ -57,14 +57,7 @@
         <li class="<?php echo $subsection == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/references/gopro/">Go pro !</a></li>
     </ul>
 </nav>
-<nav class="pane subnav <?php echo $section == 'outils' ? 'active' : '' ?>"  id="outils">
-    <ul>
-        <li class="<?php echo $subsection == 'editeurs' ? 'opened' : '' ?>"><a href="/web/pages/outils/#editeurs">Éditeurs</a></li>
-        <li class="<?php echo $subsection == 'servers' ? 'opened' : '' ?>"><a href="/web/pages/outils/#servers">Serveurs</a></li>
-        <li class="<?php echo $subsection == 'cms' ? 'opened' : '' ?>"><a href="/web/pages/outils/#cms">CMS</a></li>
 
-    </ul>
-</nav>
 <nav class="pane subnav <?php echo $section == 'projets' ? 'active' : '' ?>"  id="projets">
     <ul>
         <li class="<?php echo $subsection == 'htsh' ? 'opened' : '' ?>"><a href="/web/pages/projets/htsh/">Hypertext superhero</a></li>

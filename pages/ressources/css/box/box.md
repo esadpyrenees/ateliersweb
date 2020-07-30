@@ -84,16 +84,16 @@ Parce qu’un élément HTML est rendu sous forme de rectangle, il peut avoir ju
 
 Une bordure CSS a trois propriétés:
 
-- `border-color` définie en utilisant des unités de couleur
-- `border-style` peut être `solid`, `dashed`, `dotted`, voire `double` ou même `groove`…
-- `border-width` définie en utilisant des unités de taille
+* `border-color` définie en utilisant des unités de couleur
+* `border-style` peut être `solid`, `dashed`, `dotted`, voire `double` ou même `groove`…
+* `border-width` définie en utilisant des unités de taille
 
 Il a aussi 4 côtés possibles:
 
-- `border-top`
-- `border-bottom`
-- `border-left`
-- `border-right`
+* `border-top`
+* `border-bottom`
+* `border-left`
+* `border-right`
 
 ```
 blockquote { border-color: #ddd; border-style: solid; border-width: 1px; }
@@ -184,8 +184,8 @@ h2 { width:50%; }
 
 La citation `<blockquote>` ne prendra pas toute la largeur disponible, mais restera fixée à `20em` de large. Le `<h1>` n’occupera que la moitié de la largeur disponible.
 
-- si la fenêtre du navigateur est inférieure à 600px, une barre de défilement horizontale s’affichera.
-- si la fenêtre du navigateur est plus large que 600px, la citation restera à 600px de large et n’occupera pas tout l’espace horizontal
+* si la fenêtre du navigateur est inférieure à 600px, une barre de défilement horizontale s’affichera.
+* si la fenêtre du navigateur est plus large que 600px, la citation restera à 600px de large et n’occupera pas tout l’espace horizontal
 
 Comme nous n’avons défini que la largeur, la citation reste fluide en hauteur: la hauteur devient la dimension variable adaptée au contenu.
 

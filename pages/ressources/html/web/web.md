@@ -17,23 +17,22 @@ On affiche ce type de documents avec un navigateur Web.
 
 Pour accéder à une page Web, on peut soit :
 
-- saisir son URL dans la barre d’adresse de son navigateur, comme http://ateliers.esad-pyrenees.fr/web/
-- cliquez sur un lien, comme [celui-ci](http://ateliers.esad-pyrenees.fr/web/)
+* saisir son URL dans la barre d’adresse de son navigateur, comme http://ateliers.esad-pyrenees.fr/web/
+* cliquez sur un lien, comme [celui-ci](http://ateliers.esad-pyrenees.fr/web/), qui a pour effet d’accéder à l’URL référencée par le lien.
 
-Comme la mémorisation des URL est fastidieuse, le Web à l’origine est basé sur des documents liés les uns aux autres pour faciliter la navigation des utilisateurs sur le Web.
 
 ## Site Internet
 
 Un site Web est simplement un ensemble de pages Web situées sur un même domaine.
 
-- Web **https://**
+* Web **https://**
     * Site **ateliers.esad-pyrenees.fr**
-        - Dossier **web/pages/ressources/html/**
-            - Page **/index.html**
-            - Page **/page2.html**
-            - Page **/page3.html**
+        * Dossier **web/pages/ressources/html/**
+            * Page **/index.html**
+            * Page **/page2.html**
+            * Page **/page3.html**
 
-N. B. : Dans le cas précis de ce site, l’extension du fichier que l’on affiche est `.php` et pas `.html`. PHP est un langage qui s’exécute sur le serveur et qui renvoie au client (vous) un document HTML.
+N. B. : Dans le cas précis de ce site, l’extension du fichier que l’on affiche est `.php` et pas `.html`. PHP est un langage qui s’exécute sur le serveur et qui renvoie au client (vous / votre navigateur) un document HTML.
 
 ## Ouvrir une page Web dans votre navigateur
 
@@ -41,10 +40,12 @@ En saisissant l’adresse de cette page dans un navigateur web, vous allez deman
 
 1. le navigateur “parse” votre requête, pour en extraire les trois composantes principales (le protocole, le domaine et le chemin). Puisque vous n’avez pas saisi le protocole, le navigateur utilise par défaut https ou http).
 
-2. Une fois repéré l’hôte (le serveur, signalé par l’apparition du premier /), le navigateur doit établir la correspondance entre **ateliers.esad-pyrenees.fr** et **178.32.130.57**, l’adresse IP du serveur de l’école. Il se met donc en relation avec le serveur DNS (Domain Name System, annuaire géant des noms de domaines sur internet) spécifié au nivau de botre système d’exploitation :  
+2. Une fois repéré l’hôte (le serveur, signalé par l’apparition du premier /), le navigateur doit établir la correspondance entre **ateliers.esad-pyrenees.fr** et **178.32.130.57**, l’adresse IP du serveur de l’école. Il se met donc en relation avec le serveur DNS (Domain Name System, annuaire géant des noms de domaines sur internet) spécifié au nivau de votre système d’exploitation :  
 
     — Client « Salut DNS, connais-tu *ateliers.esad-pyrenees.fr* ? »  
     — DNS « Hi. ’t should be 178.32.130.57 »
+
+    Pour en savoir plus sur les DNS, [lire une petite BD](https://howdns.works/ep1/) ou lire cette [conversation twitter](https://twitter.com/neonemesis/status/1281639974622896129).
 
 3. Maintenant votre navigateur connait l’hôte, la page demandée et l’adresse IP à contacter. Il peut établir la connexion au niveau TCP (Transmission Control Protocol est un protocole de connexion au dessus d’IP ; il permet d’être sûr que rien ne se perde dans les communications entre le client et le serveur). Le navigateur ouvre donc une connexion TCP vers 178.32.130.57 sur le port 80 (port par défaut de http, 443 pour https):  
 
@@ -67,14 +68,15 @@ En saisissant l’adresse de cette page dans un navigateur web, vous allez deman
 ```
 
     Plusieurs possibilités s’offrent alors au serveur :
-    - La ressource demandée peut être un simple fichier (.html, .jpg, .pdf, .whatever ), auquel cas, il sera envoyé sans plus de cérémonie (code de réponse: 200). On passe alors directement à l’étape 7.  
-    - Il se peut que le fichier n’existe pas et que le serveur n’ait aucune possibilité pour le générer ; c’est alors une réponse de code 404 qui sera envoyée au navigateur (Document not found).  
-    - Il se peut que l’utilisateur n’ait pas le droit d’accéder au fichier ; alors, le code 403 sera renvoyé (Forbidden). Le fichier peut avoir été déplacé ; si le serveur est au courant, il enverra une réponse 301 (Moved Permanently) ou 302 (redirection temporaire).  
-    - Il se peut également que le serveur soit en mesure de “générer” la réponse ; nous avons alors affaire à un site “dynamique”. C’est le cas pour notre page …/web.php. On passe alors à l’étape 6.  
+    * La ressource demandée peut être un simple **fichier** (.html, .jpg, .pdf, .whatever ), auquel cas, il sera envoyé sans plus de cérémonie (code de réponse: 200). On passe alors directement à l’étape 6.  
+    * Il se peut que le fichier n’existe pas et que le serveur n’ait aucune possibilité pour le générer ; c’est alors une réponse de code **404** qui sera envoyée au navigateur (Document not found).  
+    * Il se peut que le serveur “plante” ; une erreur **500** (ou 5**) sera renvoyée.
+    * Il se peut que l’utilisateur n’ait pas le droit d’accéder au fichier ; alors, le code **403** sera renvoyé (Forbidden). Le fichier peut avoir été déplacé ; si le serveur est au courant, il enverra une réponse **301** (Moved Permanently) ou **302** (redirection temporaire).  
+    * Il se peut également que le serveur soit en mesure de “générer” la réponse ; nous avons alors affaire à un site **“dynamique”**. C’est le cas pour notre page …/web.php. On passe alors à l’étape 5.  
 
 
-5. Il existe de très nombreux langages de programmation pour générer des pages web. Le cas le plus simple et le plus répandu est PHP.  
-    Le serveur a reçu une requête pour une page web qui correspond à un fichier php, qui contient du code que le serveur va demander au logiciel PHP d’exécuter. PHP va lire le fichier et faire ce qui est demandé. Il peut avoir à inclure d’autres fichiers, se connecter à une base de données ou à d’autres sites ou services web, déterminer l’heure qu’il est ou l’age du capitaine. PHP générera alors un fichier texte/html qui sera renvoyé au serveur, qui se chargera de la transmettre au client.
+5. Il existe de très nombreux langages de programmation pour générer des pages web. Le cas le plus simple et le plus répandu est PHP. Le serveur a reçu une requête pour une page web qui correspond à un fichier php, qui contient du code que le serveur va demander au logiciel PHP d’exécuter.      
+PHP va lire le fichier et faire ce qui est demandé. Il peut avoir à inclure d’autres fichiers, se connecter à une base de données ou à d’autres sites ou services web, déterminer l’heure qu’il est ou deviner l’âge du capitaine. PHP générera alors un fichier texte/html qui sera renvoyé au serveur, qui se chargera de la transmettre au client.
 
     Client — « Bonjour ÉSAD·Pyrénées, j'aimerais le fichier web.php s'il vous plaît »  
     Serveur — « Houla… C’est compliqué, attendez une seconde »  

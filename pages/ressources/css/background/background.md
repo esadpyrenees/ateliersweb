@@ -35,8 +35,8 @@ Un motif ou une image décorative, une icône représentant un panier… peuvent
 
 CSS permet également de définir des dégradés de couleurs en tant qu’images d’arrière-plan, sous 2 formes différentes:
 
-- `linear-gradient` ; pour les dégradés dans une seule direction, de forme rectangulaire
-- `radial-gradient` ; pour des dégradés émergeant d’un point dans toutes les directions, de forme circulaire
+* `linear-gradient` ; pour les dégradés dans une seule direction, de forme rectangulaire
+* `radial-gradient` ; pour des dégradés émergeant d’un point dans toutes les directions, de forme circulaire
 
 ```
 .linear { background-image: linear-gradient(white, grey); }
@@ -62,9 +62,9 @@ CSS permet également de définir des dégradés de couleurs en tant qu’images
 
 On peut spécifier la position d’origine de l’arrière-plan en choisissant une valeur horizontale et une valeur verticale :
 
-- valeurs en pixels `px`
-- en pourcentages, `%`, par rapport aux dimensions de l’élément HTML
-- avec des mots clés : `left`, `center`, `bottom`, `top`.
+* valeurs en pixels `px`
+* en pourcentages, `%`, par rapport aux dimensions de l’élément HTML
+* avec des mots clés : `left`, `center`, `bottom`, `top`.
 
 ```
 body { background-position: bottom right; }

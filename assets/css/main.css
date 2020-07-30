@@ -126,7 +126,10 @@ img {
     color: white
 }
 #header h1 { float: right; }
-
+#header a{
+    text-decoration: none;
+    border: none;
+}
 nav h2,
 nav h3 {
     font-size: 1em;

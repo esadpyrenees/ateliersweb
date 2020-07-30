@@ -16,11 +16,11 @@ De la même manière, <strong class="blink">accents et espaces doivent être pro
 
 Un site standard possède toujours le même type de structure:
 
-- à la racine, un fichier html nommé `index.html`, qui sert de page d’accueil du projet ;
-- à la racine également, les autres fichiers html (pages du site) ;
-- un dossier `img`, `images` ou `medias`, dédié à recevoir vos images et médias ;
-- un dossier `css` ou `styles`, pour stocker les feuilles de styles et les fichiers relatifs à celles-ci (polices, images de mise en forme) ;
-- enfin, un dossier `js` ou `scripts`, dédié aux fichiers javascript.
+* à la racine, un fichier html nommé `index.html`, qui sert de page d’accueil du projet ;
+* à la racine également, les autres fichiers html (pages du site) ;
+* un dossier `img`, `images` ou `medias`, dédié à recevoir vos images et médias ;
+* un dossier `css` ou `styles`, pour stocker les feuilles de styles et les fichiers relatifs à celles-ci (polices, images de mise en forme) ;
+* enfin, un dossier `js` ou `scripts`, dédié aux fichiers javascript.
 
 ![organisation des fichiers](site.png)
 
@@ -46,13 +46,13 @@ Attention ! Les chemins de fichiers sont source de nombreuses erreurs et incompr
 
 Un navigateur web ne peut afficher qu’un nombre réduit des types de fichiers que l’on peut manipuler sur un ordinateur. Il est essentiel de s’assurer que votre système d’exploitation affiche les extensions de fichiers.
 
-- Les pages HTML ont l’extension `html` (ou plus rarement `htm`…) ;
-- Les images bitmap peuvent être `gif`, `jpg` (`jpeg`) ou `png`. On pourra également rencontrer `webp` (plus rarement `bmp`…) ; pas de `tif`, `psd`, etc. Elles doivent utiliser l’espace colorimétrique RVB (pas de CMJN).
-- Les images vectorielles doivent au format `svg` ;
-- Les vidéos peuvent être `mp4`, `webm` ou `ogv` ;
-- Les fichiers audio peuvent être `mp3`, `ogg` ou `wav` ;
-- Les feuilles de styles ont l’extension `css` ;
-- Les fichiers javascript ont l’extension `js`.
+* Les pages HTML ont l’extension `html` (ou plus rarement `htm`…) ;
+* Les images bitmap peuvent être `gif`, `jpg` (`jpeg`) ou `png`. On pourra également rencontrer `webp` (plus rarement `bmp`…) ; pas de `tif`, `psd`, etc. Elles doivent utiliser l’espace colorimétrique RVB (pas de CMJN).
+* Les images vectorielles doivent au format `svg` ;
+* Les vidéos peuvent être `mp4`, `webm` ou `ogv` ;
+* Les fichiers audio peuvent être `mp3`, `ogg` ou `wav` ;
+* Les feuilles de styles ont l’extension `css` ;
+* Les fichiers javascript ont l’extension `js`.
 
 
 [→ Les bases](../bases/){.bigbutton}

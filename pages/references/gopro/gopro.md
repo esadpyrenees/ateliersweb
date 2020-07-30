@@ -19,16 +19,16 @@ Pour démarrer, [c’est ici](https://www.autoentrepreneur.urssaf.fr/portail/acc
 Le [Calkulator](https://www.calkulator.com/fr/accueil/) est un guide (payant) de tarification des services de design édité en partenariat avec [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/).
 
 ### Les syndicats et représentants professionnels 
-- [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;
-- [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
-- [Le CAAP](http://caap.asso.fr) - Comité des artistes-auteurs plasticiens.
+* [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;
+* [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
+* [Le CAAP](http://caap.asso.fr) - Comité des artistes-auteurs plasticiens.
 
 ### Formation continue 
 [L’AFDAS](https://www.afdas.com/) est l’organisme gestionnaire du fonds de formation des artistes-auteurs.
 
 ### Les bourses, résidences et appels à projets 
-- [Fondation Nationale des Arts Graphiques et Plastiques](http://fnagp.fr) ;
-- Bourse [Brouillon d’un rêve numérique](http://www.scam.fr/Brouillon-dun-reve) de la SCAM ;
-- Appels à projet de la [DRAC Nouvelle Aquitaine]( https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine/Appels-a-projets-et-a-candidatures) ;
-- Dispositif pour la Création Artistique Multimédia et Numérique : [DICRéAM](https://www.cnc.fr/professionnels/aides-et-financements/creation-numerique/dispositif-pour-la-creation-artistique-multimedia-et-numerique-dicream_191324) ;
-- [Résidences et annonces](https://www.cnap.fr/annonces) du CNAP.
+* [Fondation Nationale des Arts Graphiques et Plastiques](http://fnagp.fr) ;
+* Bourse [Brouillon d’un rêve numérique](http://www.scam.fr/Brouillon-dun-reve) de la SCAM ;
+* Appels à projet de la [DRAC Nouvelle Aquitaine]( https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine/Appels-a-projets-et-a-candidatures) ;
+* Dispositif pour la Création Artistique Multimédia et Numérique : [DICRéAM](https://www.cnc.fr/professionnels/aides-et-financements/creation-numerique/dispositif-pour-la-creation-artistique-multimedia-et-numerique-dicream_191324) ;
+* [Résidences et annonces](https://www.cnap.fr/annonces) du CNAP.

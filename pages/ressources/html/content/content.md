@@ -21,9 +21,9 @@ Les paragraphes `<p>` sont les éléments HTML les plus utilisés, car ils agiss
 
 Les listes existent en 3 variantes:
 
-- `<ul>` sont des listes non ordonnées
-- `<ol>` sont des listes ordonnées (dont les éléments sont automatiquement numérotés)
-- `<dl>` sont des listes de définitions (plus rarement utilisées, et non décrites ici)
+* `<ul>` sont des listes non ordonnées
+* `<ol>` sont des listes ordonnées (dont les éléments sont automatiquement numérotés)
+* `<dl>` sont des listes de définitions (plus rarement utilisées, et non décrites ici)
 
 Les listes HTML nécessitent une structure spécifique:
 
@@ -185,9 +185,9 @@ Les liens constituent l’interaction principale d’une page Web : on navigue 
 
 On peut définir trois types de cibles :
 
-- **ancres cibles**, pour naviguer dans la même page
-- **URL relatives**, pour naviguer dans le même site Web
-- **URL absolues**, pour naviguer vers un autre site Web
+* **ancres cibles**, pour naviguer dans la même page
+* **URL relatives**, pour naviguer dans le même site Web
+* **URL absolues**, pour naviguer vers un autre site Web
 
 ### Ancres cibles
 
@@ -203,12 +203,12 @@ Si on souhaite définir un lien vers une autre page du même site Web, on utilis
 
 Exemple : le dossier “mon-site” contient deux fichiers HTML (`home.html` et `contact.html`), mais aussi un sous-dossier “projets” qui contient d’autres pages.
 
-- mon-site/
-        - accueil.html
-        - contact.html
-        - projets/
-            - projet1.html
-            - projet2.html
+* mon-site/
+        * accueil.html
+        * contact.html
+        * projets/
+            * projet1.html
+            * projet2.html
 
 Dans `accueil.html`, on peut écrire :
 ```
@@ -234,9 +234,9 @@ Pour partager le lien vers un projet, il faudra transférer le site en ligne, et
 
 Cette URL peut être segmentée en 3 parties:
 
-- **protocole** : `https://`
-- **domaine** : `monsupersite.com`
-- **chemin du fichier** : `/projets/projet1.html`
+* **protocole** : `https://`
+* **domaine** : `monsupersite.com`
+* **chemin du fichier** : `/projets/projet1.html`
 
 Cette URL absolue est autonome : peu importe où l’on affiche le lien, il contient toutes les informations nécessaires pour trouver le bon fichier, dans le bon domaine, avec le bon protocole.
 
@@ -273,9 +273,9 @@ Les images utilisent l’élément `<img>`, qui est un élément à fermeture au
 
 L’attribut `src` définit l’emplacement de l’image. Comme pour les liens, on peut utiliser des URL relatives ou absolues.
 
-- mon-site/
-    - accueil.html
-    - logo.png
+* mon-site/
+    * accueil.html
+    * logo.png
 
 ```
 <h1><img src="logo.png" alt="Logo de mon super site"></h1>
@@ -313,10 +313,10 @@ Lorsque l’on écrit un contenu HTML tel que des paragraphes, des listes ou des
 
 Une page de blog peut être divisée en 4 parties:
 
-- un en-tête similaire sur chaque page, contenant la navigation principale du site
-- un contenu principal, qui change pour chaque page: une liste d’articles, un article unique avec des commentaires, une page à propos…
-- une barre latérale qui relie aux archives mensuelles et aux catégories
-- un pied de page pour des liens supplémentaires vers des pages moins importantes
+* un en-tête similaire sur chaque page, contenant la navigation principale du site
+* un contenu principal, qui change pour chaque page: une liste d’articles, un article unique avec des commentaires, une page à propos…
+* une barre latérale qui relie aux archives mensuelles et aux catégories
+* un pied de page pour des liens supplémentaires vers des pages moins importantes
 
 Il existe certains éléments HTML structurels que l’on peut utiliser comme conteneurs pour d’autres éléments.
 
@@ -395,20 +395,20 @@ Comme pour la balise *inline* `<span>`, on a souvent besoin de grouper le conten
 
 Lorsque l’on navigue sur le Web, l’interaction d’un utilisateur consiste principalement à cliquer sur des liens pour naviguer de page en page. Mais il est également possible de lui proposer de saisir des informations ou d’interagir avec la page grace à des éléments de formulaires. Par exemple :
 
-- inscription et connexion à un site Web
-- saisie d’informations personnelles (nom, adresse, carte de crédit…)
-- filtrer un contenu (en utilisant des listes déroulantes, des cases à cocher…)
-- effectuer une recherche
-- uploader des fichiers
+* inscription et connexion à un site Web
+* saisie d’informations personnelles (nom, adresse, carte de crédit…)
+* filtrer un contenu (en utilisant des listes déroulantes, des cases à cocher…)
+* effectuer une recherche
+* uploader des fichiers
 
 Pour répondre à ces besoins, HTML fournit des contrôles de formulaire interactifs:
 
-- saisie de texte (pour une ou plusieurs lignes)
-- boutons radio
-- cases à cocher
-- listes déroulantes
-- widgets d’upload
-- boutons de soumission
+* saisie de texte (pour une ou plusieurs lignes)
+* boutons radio
+* cases à cocher
+* listes déroulantes
+* widgets d’upload
+* boutons de soumission
 
 Ces contrôles utilisent différentes balises HTML, mais la plupart d’entre eux utilisent la balise `<input>`. Comme il s’agit d’un élément à fermeture automatique, le type d’entrée est défini par son attribut type:
 ```
@@ -427,16 +427,16 @@ Ces contrôles utilisent différentes balises HTML, mais la plupart d’entre eu
 
 Deux attributs HTML sont requis:
 
-- L’`action`, qui contient une adresse qui définit où les informations du formulaire seront envoyées
-- La `method`, qui peut être GET ou POST définit comment les informations du formulaire seront envoyées.
+* L’`action`, qui contient une adresse qui définit où les informations du formulaire seront envoyées
+* La `method`, qui peut être GET ou POST définit comment les informations du formulaire seront envoyées.
 
 Généralement, les informations de formulaire sont envoyées à un serveur. La manière dont ces données seront ensuite traitées dépasse le cadre de ce tutoriel.
 
 Un formulaire est un ensemble d’éléments de saisie qui effectuent une seule opération. Pour un formulaire de connexion, on pet avoir trois éléments:
 
-- une entrée email `<input type="email">`
-- une entrée de mot de passe `<input type="password">`
-- un bouton d’envoi `<input type="submit">`
+* une entrée email `<input type="email">`
+* une entrée de mot de passe `<input type="password">`
+* un bouton d’envoi `<input type="submit">`
 
 Ces trois éléments HTML sont inclus dans un seul `<form action="login" method="POST">`.
 

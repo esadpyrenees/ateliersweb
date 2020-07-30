@@ -3,7 +3,8 @@
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section = "ressources";
     $subsection = "typo";
-    $mdfile = "./webfonts.md";
+    $subsubsection = 'intro';
+    $mdfile = "./typo.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

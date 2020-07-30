@@ -1,9 +1,9 @@
 # Scénario 1
 
-- Une page d’accueil avec un projet à la une : un blueprint `home` 
-- Des catégories : un blueprint `category`
-- Une page projet : un blueprint `project`
-- Une page à propos : un blueprint `about`
+* Une page d’accueil avec un projet à la une : un blueprint `home` 
+* Des catégories : un blueprint `category`
+* Une page projet : un blueprint `project`
+* Une page à propos : un blueprint `about`
 
 ## Site
 ##### `/site/blueprints/site.yml` {.filename}

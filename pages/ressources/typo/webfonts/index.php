@@ -2,10 +2,12 @@
     // config
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
-    $subsection="css";
-    $nav = "/web/snippets/ressources/grid.php";
-    $subsubsection="grid";
-    $mdfile = "./grid.md";
+    $subsection="typo";
+    $nav = "/web/snippets/ressources/type.php";
+    $subsubsection="webfonts";
+    $mdfile = "./webfonts.md";
+
+    $custom_css = "/web/pages/ressources/typo/variables/css/variable.css";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

@@ -12,9 +12,9 @@ qui { quoi: comment; }
 
 CSS est un processus en trois phases:
 
-- le sélecteur définit qui est ciblé, quel(s) élément(s) HTML
-- la propriété définit la caractéristique à modifier
-- la valeur définit comment modifier cette caractéristique
+* le sélecteur définit qui est ciblé, quel(s) élément(s) HTML
+* la propriété définit la caractéristique à modifier
+* la valeur définit comment modifier cette caractéristique
 
 Ce bloc entier (sélecteur / propriété / valeur) est une règle CSS.
 

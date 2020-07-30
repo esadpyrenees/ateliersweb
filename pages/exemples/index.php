@@ -46,7 +46,10 @@
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
             $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
             if (file_exists($readme)) {
-                parse_str( file_get_contents($readme) );
+                parse_str( file_get_contents($readme), $result );
+                $tags = $result["tags"];
+                $title = $result["title"];
+
                 $my_tags = "";
                 if( isset($tags) ){
                     foreach (explode(',', $tags) as $tag) {

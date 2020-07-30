@@ -16,9 +16,9 @@ Bien que n’étant pas indispensable à la suite du processus décrit ci-dessou
 
 Pour rappel, un domaine a trois parties qui se lisent de droite à gauche:
 
-- **Domaine de premier niveau** (ou TLD): il existe des domaines génériques (.com, .org, .net) et spécifiques à des pays (.us, .nl, .fr).
-- **Nom de domaine** : un nom tel que wikipedia ou esad-pyrenees, pouvant inclure des lettres, des chiffres, mais pas d’espace ni de point.
-- **Sous-domaine** (facultatif). Bien que cette troisième partie soit facultative, la plupart des sites Web utilisent www comme sous-domaine par défaut.
+* **Domaine de premier niveau** (ou TLD): il existe des domaines génériques (.com, .org, .net) et spécifiques à des pays (.us, .nl, .fr).
+* **Nom de domaine** : un nom tel que wikipedia ou esad-pyrenees, pouvant inclure des lettres, des chiffres, mais pas d’espace ni de point.
+* **Sous-domaine** (facultatif). Bien que cette troisième partie soit facultative, la plupart des sites Web utilisent www comme sous-domaine par défaut.
 
 On n’achète pas de domaine, mais on le loue à celui qui gère le TLD qu’on a choisi. Les entreprises qui gèrent des domaines Internet sont appelées *registrars* de domaines. En France, [gandi](https://gandi.net) ou [ovh](https://ovh.com/) sont parmi les registrars les plus connus, mais la plupart des hébergeurs vous proposent d’associer (parfois gratuitement, ou à prix réduit la 1<sup>re</sup> année) un domaine à votre hébergement.
 
@@ -51,9 +51,9 @@ Pour déposer des fichiers sur votre espace dans le serveur d’Alwaysdata, il v
 
 ![admin FTP alwaysdata](images/ftp.png)
 
-1. L’**hôte FTP** : ftp-[votrecompte].alwaysdata.net
-2. Le **nom d’utilisateur** : [votrecompte]
-3. Le **mot de passe** : [votr3m0tdep4sse!]
+1. L’**hôte FTP** : ftp-\[votrecompte\].alwaysdata.net
+2. Le **nom d’utilisateur** : \[votrecompte\]
+3. Le **mot de passe** : \[votr3m0tdep4sse\!]
 
 ### Cyberduck
 

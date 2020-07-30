@@ -2,7 +2,7 @@
     // config
     $title = "Javascript";
     $section="ressources";
-    $subsection="javascript";
+    $subsection="js";
     $nav = "/web/snippets/ressources/js.php";
     $mdfile = "./index.md";
 

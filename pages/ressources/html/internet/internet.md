@@ -4,7 +4,7 @@
 
 Internet et le Web sont deux choses différentes. Internet est plus ancien, plus vaste et plus varié que le web. Le Web n’est qu’une partie d’Internet, celle à laquelle on accède via le protocole http (ou https).
 
-> Internet est le réseau informatique mondial accessible au public. C'est un réseau de réseaux, […] sans centre névralgique, composé de millions de réseaux aussi bien publics que privés, universitaires, commerciaux et gouvernementaux […]. L'information est transmise via Internet grâce à un ensemble standardisé de protocoles de transfert de données, qui permet des applications variées comme le courrier électronique, la messagerie instantanée, le pair-à-pair et le World Wide Web. C'est l'apparition de ce dernier qui a popularisé Internet.
+> Internet est le réseau informatique mondial accessible au public. C'est un réseau de réseaux, \[…\] sans centre névralgique, composé de millions de réseaux aussi bien publics que privés, universitaires, commerciaux et gouvernementaux \[…\]. L'information est transmise via Internet grâce à un ensemble standardisé de protocoles de transfert de données, qui permet des applications variées comme le courrier électronique, la messagerie instantanée, le pair-à-pair et le World Wide Web. C'est l'apparition de ce dernier qui a popularisé Internet.
 
 > — [fr.wikipedia.org/wiki/Internet](https://fr.wikipedia.org/wiki/Internet)
 
@@ -14,15 +14,15 @@ Internet a été inventé dans les années 1960 pour connecter des ordinateurs �
 
 Habituellement, une connexion sur Internet est établie entre 2 ordinateurs uniquement:
 
-- celui qui a l’information (le serveur)
-- celui qui la veut (le client).
+* celui qui a l’information (le serveur)
+* celui qui la veut (le client).
 
 Un client est un programme qui peut prendre plusieurs formes:
 
-- un navigateur Web (comme Firefox)
-- un client mail (comme Outlook, Thunderbird)
-- une application de messagerie (comme Whatsapp)
-- un service de streaming vidéo (comme Netflix)
+* un navigateur Web (comme Firefox)
+* un client mail (comme Outlook, Thunderbird)
+* une application de messagerie (comme Whatsapp)
+* un service de streaming vidéo (comme Netflix)
 
 Chacun de ces programmes récupérera des informations sur un serveur, où quelque chose est stocké (un site web, vos emails, vos messages, vos films). Bien que les programmes clients envoient également des informations au serveur, ils ne les stockent généralement pas, contrairement aux serveurs.
 
@@ -44,9 +44,9 @@ C’est pourquoi les **domaines** ont été créés en 1985. Ils *associent* une
 
 Un domaine a trois parties qui se lisent de droite à gauche:
 
-- **Domaine de premier niveau** (ou TLD): il existe des domaines génériques (.com, .org, .net) et spécifiques à des pays (.us, .nl, .fr).
-- **Nom de domaine** : un nom tel que wikipedia ou esad-pyrenees, pouvant inclure des lettres, des chiffres, mais pas d’espace ni de point.
-- **Sous-domaine** (facultatif). Bien que cette troisième partie soit facultative, la plupart des sites Web utilisent www comme sous-domaine par défaut.
+* **Domaine de premier niveau** (ou TLD): il existe des domaines génériques (.com, .org, .net) et spécifiques à des pays (.us, .nl, .fr).
+* **Nom de domaine** : un nom tel que wikipedia ou esad-pyrenees, pouvant inclure des lettres, des chiffres, mais pas d’espace ni de point.
+* **Sous-domaine** (facultatif). Bien que cette troisième partie soit facultative, la plupart des sites Web utilisent www comme sous-domaine par défaut.
 
 On peut penser aux domaines comme un moyen de nommer les ordinateurs connectés à Internet.
 
@@ -72,14 +72,14 @@ Maintenant que nous avons vu ce que sont les domaines et les protocoles, nous po
 
 Par exemple, l’URL de la page en cours est https://ateliers.esad-pyrenees.fr/web/pages/ressources/html/internet.php. Elle peut être divisée en plusieurs parties:
 
-- **https://** est le protocole
-- **ateliers.esad-pyrenees.fr** est le domaine (sous-domaine + domaine + tld)
-- **/web/pages/ressources/html/internet.php** est le chemin vers la page
+* **https://** est le protocole
+* **ateliers.esad-pyrenees.fr** est le domaine (sous-domaine + domaine + tld)
+* **/web/pages/ressources/html/internet.php** est le chemin vers la page
 
 Cette URL est unique et définit
 
-- *où* trouver quelque chose sur le web (ateliers.esad-pyrenees.fr/web/…)
-- *comment* l'ordinateur est censé le lire (https://)
+* *où* trouver quelque chose sur le web (ateliers.esad-pyrenees.fr/web/…)
+* *comment* l'ordinateur est censé le lire (https://)
 
 Les URL peuvent être plus complexes. Vous pouvez lire sur l'anatomie d'une URL.
 

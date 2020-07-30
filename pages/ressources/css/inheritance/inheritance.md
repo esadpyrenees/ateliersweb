@@ -33,9 +33,9 @@ Tous les éléments enfants et descendants hériteront de la valeur de cet ancê
 
 Seules quelques propriétés CSS peuvent être héritées d’ancêtres. Ce sont principalement des propriétés de texte:
 
-- couleur du texte : `color`
-- police (famille, taille, style, graisse) : `font-family`, `font-size`, `font-style`, `font-weight`,
-- hauteur de ligne : `line-height`
+* couleur du texte : `color`
+* police (famille, taille, style, graisse) : `font-family`, `font-size`, `font-style`, `font-weight`,
+* hauteur de ligne : `line-height`
 
 Certains éléments HTML n’héritent pas de leurs ancêtres. Les liens, par exemple, n’héritent pas de la propriété `color`.
 

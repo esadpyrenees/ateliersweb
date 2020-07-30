@@ -30,10 +30,10 @@ Le lien passe sans transition d’orange à vert lorsqu’il est survolé.
 
 La propriété `transition` permet une animation fluide (plutôt qu’un saut d’un état à un autre). C’est une propriété abrégée qui combine les propriétés suivantes (qui peuvent être utilisées individuellement):
 
-- `transition-property` : quelle propriété (ou quelles propriétés) sera / seront en transition?
-- `transition-duration` : combien de temps dure la transition.
-- `transition-timing-function` : si la transition a lieu à une vitesse constante, si elle accélère ou décélère.
-- `transition-delay` : combien de temps attendre jusqu’à ce que la transition ait lieu.
+* `transition-property` : quelle propriété (ou quelles propriétés) sera / seront en transition?
+* `transition-duration` : combien de temps dure la transition.
+* `transition-timing-function` : si la transition a lieu à une vitesse constante, si elle accélère ou décélère.
+* `transition-delay` : combien de temps attendre jusqu’à ce que la transition ait lieu.
 
 On l’applique sur l’élément dans son état initial :
 

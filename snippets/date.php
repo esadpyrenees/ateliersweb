@@ -2,9 +2,10 @@
     <p>—</p>
     <small>
         <?php
-            
-            if (file_exists($mdfile)) {
-                $file = basename($mdfile);
+            if(isset($mdfile)){
+                if (file_exists($mdfile)) {
+                    $file = basename($mdfile);
+                }
             } else {
                 $file =  basename($_SERVER["SCRIPT_NAME"]);
             }
