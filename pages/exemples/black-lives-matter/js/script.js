@@ -1,7 +1,7 @@
 
 // init text content
 const BLM = ["BLACK", "LIVES", "MATTER"];
-for(let i=0; i<50; i++){
+for(let i=0; i<10; i++){
   for (let j = 0; j < BLM.length; j++) {
     var b = document.createElement('section'),
       s = document.createElement('span');
