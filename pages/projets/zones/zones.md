@@ -21,30 +21,30 @@ Le projet est de comprendre et d’appliquer les principes de mise en page du we
 
 ### Références internes
 
-- [Typographie & numérique](../../references/typo/)
-- [Fonderies](../../references/foundries/)
+* [Typographie & numérique](../../references/typo/)
+* [Fonderies](../../references/foundries/)
 
 ### Ressources internes
 
-- [HTML / Contenu](../../ressources/html/content/)
-- [Typo & web](../../ressources/typo/)
-- [CSS / Texte](../../ressources/css/text/)
+* [HTML / Contenu](../../ressources/html/content/)
+* [Typo & web](../../ressources/typo/)
+* [CSS / Texte](../../ressources/css/text/)
 
 ### Lectures et regards
 
-- [Font Review Journal](https://fontreviewjournal.com/)
-- [The Shape of Design](https://shapeofdesignbook.com/)
-- [Why Do All Websites Look the Same?](https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73)
-- [Anti web design Manifesto](http://brandon.invergo.net/news/2013-03-10-Anti-web-design-Manifesto.html)
-- [Motherfucking website](http://motherfuckingwebsite.com/)
-- [Still a motherfucking website](http://bettermotherfuckingwebsite.com/)
-- [The public school for architecture brussels](http://psfa-bxl.org/)
-- [Koenig & Clinton](http://koenigandclinton.com/gallery/)
-- [Common Room](http://common-room.net/)
-- [Your world of text](https://www.yourworldoftext.com/)
-- [DIA](https://dia.tv/)
-- [Editorial New](https://editorialnew.com/)
-- [L’ebook redistribuable](https://jaypanoz.github.io/reflow/)
+* [Font Review Journal](https://fontreviewjournal.com/)
+* [The Shape of Design](https://shapeofdesignbook.com/)
+* [Why Do All Websites Look the Same?](https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73)
+* [Anti web design Manifesto](http://brandon.invergo.net/news/2013-03-10-Anti-web-design-Manifesto.html)
+* [Motherfucking website](http://motherfuckingwebsite.com/)
+* [Still a motherfucking website](http://bettermotherfuckingwebsite.com/)
+* [The public school for architecture brussels](http://psfa-bxl.org/)
+* [Koenig & Clinton](http://koenigandclinton.com/gallery/)
+* [Common Room](http://common-room.net/)
+* [Your world of text](https://www.yourworldoftext.com/)
+* [DIA](https://dia.tv/)
+* [Editorial New](https://editorialnew.com/)
+* [L’ebook redistribuable](https://jaypanoz.github.io/reflow/)
 
 
 ### Textes

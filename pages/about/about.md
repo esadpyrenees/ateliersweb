@@ -1,6 +1,6 @@
 # ÉSAD Pyrénées – Ateliers web
 
-Les ressources et références mises à disposition dans cet espace sont dédiées aux étudiant·e·s de l’École supérieure d’art et de design des Pyrénées.
+Les ressources et références mises à disposition dans cet espace sont dédiées aux étudiant·e·s de l’École supérieure d’art et de design des Pyrénées, mais également ouvertes à tou·te·s.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
 
@@ -14,4 +14,4 @@ Sauf [mention contraire](/web/pages/exemples/cookie-nav/), le site n’utilise p
 
 Le code complet du site (hasardeux mélange de PHP, markdown, javascript, css et html) est accessible sur [github](https://github.com/esapyrenees/ateliersweb/).
 
-Pour toute question → [twitter](https://twitter.com/julienbidoret) → [e-mail](julien.bidoret@esad-pyrenees.fr).
+Pour toute question → [twitter](https://twitter.com/julienbidoret) → [e-mail](mailto:julien.bidoret@esad-pyrenees.fr).
