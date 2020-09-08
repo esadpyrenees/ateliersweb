@@ -20,6 +20,8 @@ Pour accéder à une page Web, on peut soit :
 * saisir son URL dans la barre d’adresse de son navigateur, comme http://ateliers.esad-pyrenees.fr/web/
 * cliquez sur un lien, comme [celui-ci](http://ateliers.esad-pyrenees.fr/web/), qui a pour effet d’accéder à l’URL référencée par le lien.
 
+Une autre forme à l’introduction ci-dessous peut se trouver ici : [Around the world in 80ms](http://alexmic.net/around-the-world-in-80ms/)
+
 
 ## Site Internet
 
