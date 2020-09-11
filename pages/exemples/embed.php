@@ -6,14 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <?php
             $localhost = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-            $localurl = $localhost . $_SERVER[REQUEST_URI];
+            $localurl = $localhost . $_SERVER["REQUEST_URI"];
 
             $dir =  $_GET['example'];
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
             $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
 
             if (file_exists($readme)) {
-                parse_str( file_get_contents($readme) );
+                parse_str( file_get_contents($readme), $myArray );
+                extract($myArray);
 
                 if( isset($title) ){
                     $title_line = trim($title);
