@@ -1,0 +1,92 @@
+
+
+:root{
+  /* variables pour la transformation du menu off/in canvas */
+  --offcanvas: translate3d(-50%, -100%, 0);
+  --incanvas: translate3d(-50%, 1em, 0);
+}
+
+
+.menu-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 0;
+  overflow: auto;
+  z-index: 1;
+  background: black;
+  color: white;
+  font-size: 12vw;
+}
+
+
+.menu-trigger {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: var(--incanvas);
+  padding: .35em .5em .15em;
+  z-index: 2;
+  border:none;
+  background: black;
+  color: white;
+  font-size: 2em;
+  transition: transform 0.4s;
+  border-radius: 1em;
+  text-transform: uppercase;
+  font-family: inherit;
+  line-height: 1;
+}
+
+
+/* ---------------------------------- styles fonctionnels */
+
+
+.scroll-down .menu-trigger{
+  /* cache le bouton au scroll down */
+  transform: var(--offcanvas);
+}
+
+.scroll-up .menu-trigger {
+  /* affiche le bouton au scroll up */
+  transform: var(--incanvas);
+}
+
+.menu-open {
+  /* embpêche le scroll du body quand le menu est ouvert */
+  overflow: hidden;
+}
+
+.menu-open .menu-content {
+  /* affiche le contenu du menu */
+  display: flex;
+}
+
+.menu-open .menu-trigger {
+  /* styles du bouton quand le menu est ouvert */
+  background: white;
+  color:black
+}
+
+
+
+/* ---------------------------------- styles visuels */
+
+body{
+  font-family: sans-serif;
+}
+
+main{
+  text-align: center;
+  padding-top: 20%;
+  height: 400vh;
+}
+
+h1 { margin: 0; font-weight: 400; font-size: 12vw; line-height: 1; }
+small { color: #999; font-size: 1em;}
