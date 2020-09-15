@@ -90,3 +90,8 @@ main{
 
 h1 { margin: 0; font-weight: 400; font-size: 12vw; line-height: 1; }
 small { color: #999; font-size: 1em;}
+p {
+  max-width: 35em;
+  text-align: center;
+  margin: 0 auto;
+}

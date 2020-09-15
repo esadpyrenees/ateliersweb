@@ -9,20 +9,31 @@ html,body {
 }
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 
 p {
     page-break-inside: avoid;
     break-inside: avoid;
+    font-size: 66pt;
+    height: 40cm;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 1em;
+    text-transform: uppercase;
 }
-
+p:first-child {
+    position: fixed;
+    font-size: 18pt;
+    width: 100%;
+    bottom: 2cm;
+    height: auto;
+}
+p:first-child br {display: none;}
 section {
-    grid-template-columns: repeat(auto-fill, minmax(4cm, 1fr));
+    height: 40cm;
 }
 
-p { font-size: calc(1rem  + 1vmin); }
-p:first-child { font-size: calc(1rem + 4vmax + 2vmin); }
-p:nth-child(2n+3) {  font-size: calc(.9rem + 1vmin); }
-p:nth-child(4n+5) { font-size: calc(1rem 1vmin); }
-p:nth-child(6n+7) {  font-size: calc(.6rem + 1vmin); }
-p:nth-child(8n+9) {  font-size: calc(1.2rem + 1vmin); }
