@@ -4,7 +4,11 @@
 Le livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya.
 
 ### En ligne 
-Voir le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/) et le site [Kob One](https://www.kob-one.com/) et son [forum](https://www.kob-one.com/forum/).
+Voir le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/) et le forum [Kob One](https://www.kob-one.com/).
+
+### Au secours je suis artiste – en vidéo
+“Au secours je suis artiste” est une web série de 13 vidéos (de deux à trois minutes) qui a pour objectif d'accompagner les artistes plasticiens et auteurs dans la compréhension de leurs démarches administratives professionnelles, en répondant à plusieurs questions pratiques et ciblées : Je déclare quoi aux impôts? Je vends une oeuvre, que dois-je faire? Je dois noter quoi dans la cession de droits? etc.
+À voir sur [la chaîne Youtube](https://www.youtube.com/playlist?list=PLIILQPFtEDHt_U0U96wuaQahOS5JDCdut) du Cnap.
 
 ### IRL 
 L’association Pola, à Bordeaux, propose à ses adhérents [une offre de services pour les artistes (et graphistes)](https://pola.fr/ressources-pro/), notamment grâce à une permanence juridique, des ateliers et accompagnements de projets.
@@ -17,6 +21,8 @@ Pour démarrer, [c’est ici](https://www.autoentrepreneur.urssaf.fr/portail/acc
 
 ### Les tarifs 
 Le [Calkulator](https://www.calkulator.com/fr/accueil/) est un guide (payant) de tarification des services de design édité en partenariat avec [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/).
+
+Calculer un tarif journalier moyen n’est pas chose aisée. Deux articles – écrits pour un public de développeurs web freelance, mais largement adaptables à l’exercice de designer web (ou pas web) freelance ou indépendants – peuvent aider : [Développeurs web indépendants : bien fixer, annoncer et négocier vos tarifs ](https://www.miximum.fr/blog/developpeur-web-freelance-tjm/) et [Parce que vous le valez bien](https://libelilou.github.io/2017/05/29/sudweb.html).
 
 ### Les syndicats et représentants professionnels 
 * [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;
