@@ -4,7 +4,7 @@ S’informer, se tenir au courant de l’actualité du design et des cultures nu
 
 Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique ou de pixels de lumière – est une nécessité absolue. Une bibliographie (s)élective viendra se construire ici progressivement.
 
-#### *work in progress* {.edit}
+#### *work in progress / en travaux * {.edit}
 
 ## Livres {.livres}
 
@@ -22,6 +22,24 @@ Anthony Masure, B42, 2017 [↗](https://editions-b42.com/produit/design-et-human
 
 * #### Post-digital Print   – La mutation de l’edition depuis 1894
 Alessandro Ludovico, B42, 2016 [↗](https://editions-b42.com/produit/post-digital-print/)
+
+* #### La toile que nous voulons, le web néguentropique
+Bernard Stiegler, Julian Assange, Paul Jorion, Dominique Cardon, Evgeny Morozov, François Bon, Fyp éditions
+
+* #### Cyberstructure, L'Internet, un espace politique
+Stéphane Bortzmeyer, C&F éditions
+
+* #### L'appétit des géants, Pouvoir des algorithmes, ambitions des plateformes, 
+Olivier Ertzscheid, C&F éditions
+
+* #### Le Design des choses à l’heure du numérique 
+Jean-Louis Frechin, Fyp éditions
+
+* #### Anoptikon : une exploration de l’internet invisible, Échapper à la main de Darwin 
+Olivier Auber, Fyp éditions
+
+* #### L’écriture sans ecriture – Du langage à l'âge numérique 
+Kenneth Goldsmith, éditions Jean Boîte, 2018
 
 </div>
 
@@ -72,4 +90,6 @@ Conseils sur la typographie sur le web (design & technique) + infos sur l'évolu
 * #### UX / UI
 La lettre d’Erik D. Kennedy contient d’intéressants *uses-cases*, – analytiques et pratiques – liés au design d’interface  [↗](https://learnui.design/)
 
+* #### Règle 30 · Il n’y a pas de femmes sur Internet
+Une newsletter écrite par Lucie Ronfaut pour Numerama
 </div>

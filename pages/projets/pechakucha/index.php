@@ -111,7 +111,7 @@
 
     <article>
         <p>
-            Chaque semaine, en début de cours de webdesign (jeudi pair ou vendredi impair), se succèderont deux temps de présentation de sites web*, sur le mode Pechakucha.
+            Chaque semaine, en début de cours de webdesign (jeudi de semaine impaire ou jeudi et vendredi de semaines paires), aura lieu un temps de présentation de sites web*, sur le mode Pechakucha.
         </p>
         <p>
             [ <i>Le Pechakucha est un format de présentation orale associée à la projection de 20 diapositives se succédant toutes les 20 secondes, de préférence sans effets d’animations. Cette contrainte impose à l’orateur de l’éloquence et un sens de la narration, du rythme, de la concision, mais aussi de l’expression graphique. <a href="https://fr.wikipedia.org/wiki/Pecha_Kucha">— wikipedia</a></i>  ]
@@ -133,54 +133,20 @@
         </p>
 
     </article>
+    
+    <!-- <div id="pk"></div> -->
+    <!-- <script src="script.js"></script> -->
 
-    <section>
-        <h2 style="transform: scaleX(1.31617); margin-left: -1.73231px;">8/11</h2>
-        <p>Lia P. + Thibault V.</p>
-        <p>Claire B. + Ania J.</p>
-    </section>
-    <section>
-        <h2 style="transform: scaleX(2.06359); margin-left: -4.25839px;">14/11</h2>
-        <p>Alizée B. + Sophie F.</p>
-        <p>Anais L. + Adeline S.</p>
-    </section>
-    <section>
-        <h2 style="transform: scaleX(2.59983); margin-left: -6.75913px;">22/11</h2>
-
-
-    </section>
-    <section>
-        <h2 style="transform: scaleX(2.52893); margin-left: -6.39546px;">28/11</h2>
-        <p>Sarah C. + Célia T.</p>
-        <p>Thomas F. + Eamon G.</p>
-        <p>Paul L.</p>
-    </section>
-    <section>
-        <h2 style="transform: scaleX(2.16258); margin-left: -4.67676px;">6/12</h2>
-        <p>Alexia S.</p>
-        <p>Rafael F. + Blandine C. + Margot Laforge</p>
-        <p>Ana C. + Emmanuelle G.</p>
-    </section>
-    <section>
-        <h2 style="transform: scaleX(0.921694); margin-left: -0.84952px;">12/12</h2>
-        <p>Lisa F. + Justine R.</p>
-        <p>Julian N. + Florent T.</p>
-        <p>Dongni J. + Wenpeng S.</p>
-    </section>
-    <section>
-        <h2 style="transform: scaleX(1.80011); margin-left: -3.24041px;">20/12</h2>
-        <p>Mélissa A. + Audrey L.</p>
-        <p>Stéphanie D. + Anais T.</p>
-    </section>
+    <section><h2 style="transform: scaleX(1.75129); margin-left: -3.06702px;" id="15-10">15/10</h2><p>Malea L., Salome R.</p></section><section><h2 style="transform: scaleX(2.01086); margin-left: -4.04355px;" id="16-10">16/10</h2><p>Maud E., Cecile B.</p></section><section><h2 style="transform: scaleX(2.5509); margin-left: -6.50711px;" id="22-10">22/10</h2><p>Marie A., Elisa M.</p></section><section><h2 style="transform: scaleX(2.25003); margin-left: -5.06264px;" id="5-11">5/11</h2><p>Hugo H., Wenting Z.</p></section><section><h2 style="transform: scaleX(1.89519); margin-left: -3.59175px;" id="12-11">12/11</h2><p>Adeline S., Ambrosia D.</p></section><section><h2 style="transform: scaleX(1.02097); margin-left: -1.04238px;" id="13-11">13/11</h2><p>Irma B., Agathe C.</p></section><section><h2 style="transform: scaleX(0.861564); margin-left: -0.742293px;" id="19-11">19/11</h2><p>Ophelie S., Matthew C.</p></section><section><h2 style="transform: scaleX(1.52853); margin-left: -2.3364px;" id="26-11">26/11</h2><p>Orso D., Carla R.</p></section><section><h2 style="transform: scaleX(1.95018); margin-left: -3.80321px;" id="27-11">27/11</h2><p>Oceane F., Chloé G.</p></section><section><h2 style="transform: scaleX(2.11699); margin-left: -4.48166px;" id="3-12">3/12</h2><p>Thibault J., Soulyne C.</p></section><section><h2 style="transform: scaleX(0.609093); margin-left: -0.370995px;" id="10-12">10/12</h2><p>Jiajing W., Anastasia V.</p></section><section><h2 style="transform: scaleX(1.80096); margin-left: -3.24345px;" id="11-12">11/12</h2><p>Manon G., Paul L.</p></section>
 
     <article>
-        <p>—</p>
         <p>Le code source javascript pour la répartition des groupes et des étudiant·e·s est <a href="script.js">accessible ici</a></p>
     </article>
 
 </div>
     <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
+    <script src="script.js"></script>
 <?php
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
 ?>
