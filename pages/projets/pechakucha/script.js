@@ -1,31 +1,19 @@
 
-var students = [
-    "Marie A.",
-    "Irma B.",
-    "Cecile B.",
-    "Agathe C.",
-    "Matthew C.",
-    "Soulyne C.",
-    "Ambrosia D.",
-    "Orso D.",
-    "Maud E.",
-    "Oceane F.",
-    "Manon G.",
-    "Chloé G.",
-    "Hugo H.",
-    "Thibault J.",
-    "Malea L.",
-    "Paul L.",
-    "Elisa M.",
-    "Marion R.",
-    "Salome R.",
-    "Carla R.",
-    "Adeline S.",
-    "Ophelie S.",
-    "Anastasia V.",
-    "Jiajing W.",
-    "Wenting Z."
-];
+
+var groups = [
+  ["Marie A.", "Malea L."],
+  ["Irma B.","Maud E."],
+  ["Wenting Z.", "Jiajing W."],
+  ["Anastasia V.", "Cecile B." ],
+  ["Ophelie S.", "Marion R."],
+  ["Adeline S.", "Paul L."],
+  ["Carla R.", "Ambrosia D."],
+  ["Thibault J.", "Hugo H."],
+  ["Chloé G.","Oceane F."],
+  ["Manon G.","Elisa M.",],
+  ["Salome R.", "Matthew C."],
+  ["Soulyne C.", "Orso D."]
+]
 
   
   var dates = [
@@ -46,11 +34,11 @@ var students = [
   
   // suffle
   
-  for(let i = students.length - 1; i > 0; i--){
+  for(let i = groups.length - 1; i > 0; i--){
     const j = Math.floor(Math.random() * i)
-    const temp = students[i]
-    students[i] = students[j]
-    students[j] = temp
+    const temp = groups[i]
+    groups[i] = groups[j]
+    groups[j] = temp
   }
   
   dates.forEach(madate => {
@@ -71,12 +59,7 @@ var students = [
     h2.style.marginLeft = scale * scale * -1 + 'px';
     // quelles étudiantes
     var p = document.createElement('p');
-    for (var i = 0; i < 2; i++) {
-      p.textContent += students.shift();
-      if (i == 0){
-        p.textContent +=  ', ';
-      }
-    }
+    p.textContent += groups.shift();
     section.appendChild(p);
   
     document.querySelector('#pk').appendChild(section);
