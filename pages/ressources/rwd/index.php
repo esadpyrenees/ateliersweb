@@ -2,7 +2,7 @@
     // config
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
     $section="ressources";
-    $subsection="html2print";
+    $subsection="rwd";
     $nav = "/web/snippets/ressources/rwd.php";
     $subsubsection="rwd";
     $mdfile = "./rwd.md";

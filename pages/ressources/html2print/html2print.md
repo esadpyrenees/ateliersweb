@@ -43,11 +43,11 @@ Le collectif bruxellois [Luuse](http://luuse.io/). Le collectif [Bonjour monde](
 ## Techniques
 
 Intégrer une feuille de style dont les règles ne seront appliquées qu’à l’impression
-```
+``` css
 <link media="print" href="print.css">
 ```
 Déterminer une taille de page
-```
+``` css
 @page {
   size: A4 landscape;
 }
@@ -56,6 +56,7 @@ Déterminer une taille de page
   size: A3 portrait;
 }
 ```
+
 On peut cibler des pages spécifiques avec les sélecteurs `:left` et `:right`. La première page peut être ciblée avec `:first`, les pages vierges avec `:blank` :
 
 ```
@@ -105,12 +106,13 @@ section {
     box-decoration-break: clone;
 }
 ```
+
 ### Tester
 
 Sur Firefox, ouvrir les outils de développement et saisir `media emulate print`
 Sur Chrome, ouvrir les outils de développement et sélectionner “More Tools” puis “Rendering”.
 
-[ à suivre… ]
+\[ à suivre… \]
 
 ## Pourquoi ?
 

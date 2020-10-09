@@ -4,6 +4,8 @@
     $section="lectures";
     $mdfile = "./lectures.md";
 
+    $nav = "/web/snippets/lectures/lectures.php";
+
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';

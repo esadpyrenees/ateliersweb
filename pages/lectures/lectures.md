@@ -59,22 +59,12 @@ Revue indépendante de critique sociale [↗](https://pantherepremiere.org/)
 * #### Nichons-nous dans l'Internet
 Nichons-nous dans l'Internet est une revue en papier intégralement consacrée à Internet [↗](http://nichonsnousdanslinternet.fr/)
 
-</div>
-
-
-## Sites {.sites}
-
-<div class="gridlist" markdown="1">
-
 * #### Sens public
 Revue interdisciplinaire de recherche : numérique, analyse philosophique et politique des mutations contemporaines des espaces publics [↗](https://sens-public.org)
 
-* #### Affordance.info
-Le blog d’Olivier Ertzscheid, maître de conférences en sciences de l'information [↗](https://www.affordance.info)
 
-* #### Image sociale
-Le carnet de recherche en ligne d’André Gunthert, historien des cultures visuelles, enseignant-chercheur à l’EHESS [↗](https://imagesociale.fr)
 </div>
+
 
 
 ## Newsletters {.newsletters}
@@ -92,4 +82,41 @@ La lettre d’Erik D. Kennedy contient d’intéressants *uses-cases*, – anal
 
 * #### Règle 30 · Il n’y a pas de femmes sur Internet
 Une newsletter écrite par Lucie Ronfaut pour Numerama
+</div>
+
+
+## Podcasts {.podcasts}
+
+<div class="gridlist" markdown="1">
+
+* #### Le code a changé
+Un podcast de Xavier de La Porte, internet-exploreur, inocemment à la recherche de la texture intime des internets. [↗](https://www.franceinter.fr/emissions/le-code-a-change)
+
+* #### CPU
+Carré, Petit, Utile : Le programme radio (toulousain) des gens du numérique par Da Scritch [↗](https://cpu.dascritch.net/)
+
+* #### Paléofutur
+Un pdcast rétrofuturiste de la Radio Télévision Suisse [↗](https://www.rts.ch/la-1ere/programmes/paleofutur/podcast/)
+
+</div>
+
+## Sites indispensables {#sites}
+
+<div class="gridlist" markdown="1">
+
+* #### Affordance.info
+Le blog d’Olivier Ertzscheid, maître de conférences en sciences de l'information. Clairvoyant, accessible et engagé. [↗](https://www.affordance.info)
+
+* #### Mais où va le web
+Blog sur les technologies numériques, tenu par Irénée Régnault, qui explore les futurs souhaitables du web, à la fois critique et enthousiaste. [↗](http://maisouvaleweb.fr/)
+
+* #### Image sociale
+Le carnet de recherche en ligne d’André Gunthert, historien des cultures visuelles, enseignant-chercheur à l’EHESS [↗](https://imagesociale.fr)
+
+* #### Internet Actu
+Blog consacré à l’innovation dans les techniques, les services et les usages des technologies de l’information et de la communication, et aux débats qui en découlent. [↗](http://www.internetactu.net/)
+
+* #### A list apart
+Fondé en 1997, *A list apart* explore (en anglais) les enjeux du design, du développement, et du sens du contenu web, avec une attention particulière portée aux standards du  web. [↗](https://alistapart.com/)
+
 </div>

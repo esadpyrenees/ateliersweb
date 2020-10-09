@@ -146,7 +146,7 @@ Redimensionner votre fenêtre de navigateur (ou utilisez “l’affichage adapta
 
 ### Quelques définitions
 
-La définition du [responsive web design](https://fr.wikipedia.org/wiki/Site_web_adaptatif) par Wikipédia (où _responsive_ se traduit en “adaptatif”), la première mention du terme, dans un [article d’Ethan Marcotte](http://alistapart.com/article/responsive-web-design) sur [A List Apart](http://alistapart.com/) (en anglais) ainsi que [Responsive Typography: The Basics](https://ia.net/know-how/responsive-typography-the-basics), un article d’Olivier Reichenstein
+La définition du [responsive web design](https://fr.wikipedia.org/wiki/Site_web_adaptatif) par Wikipédia (où _responsive_ se traduit en “adaptatif”). La première mention du terme, dans un [article d’Ethan Marcotte](http://alistapart.com/article/responsive-web-design) sur [A List Apart](http://alistapart.com/) (en anglais). Ainsi que [Responsive Typography: The Basics](https://ia.net/know-how/responsive-typography-the-basics), un article d’Olivier Reichenstein
 
 ### Quelques exemples
 
@@ -166,8 +166,5 @@ Le monde merveilleux de l’OpenType enfin accessible en css ; une introduction 
 
 [Slabtext](https://freqdec.github.io/slabText/), un plugin jquery pour faire des gros titres (voir aussi fittext, ou bigtext)
 
-### Un exemple (vite fait…)
-
-[Tom Joad](http://ateliers.esapyrenees.fr/web/exemples/typographie/01.html)
 
 </section>

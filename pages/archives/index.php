@@ -8,7 +8,7 @@
   <main class="pane active" id="content">
     <nav>
       
-        L’importation des archives est en cours
+        L’importation des archives est en cours ☺
         <br><br>
 
   <?php

@@ -2,7 +2,7 @@
 
 ### Éditeurs
 
-*   [Visual studio Code (open source, Microsoft)](https://code.visualstudio.com/)
+*   ✔ [Visual studio Code (open source, Microsoft)](https://code.visualstudio.com/)
 *   [Atom (open source, Github)](http://atom.io)
 *   [Brackets (open source, Adobe)](http://brackets.io)
 
@@ -20,15 +20,16 @@
 ### Image & video
 * [ImageOptim](https://imageoptim.com/howto.html) (compression des images)
 * [Shutter Encoder](http://www.shutterencoder.com/fr/) (compression / encodage / recadrage vidéo)
-
+* [ImageMagick](https://imagemagick.org/index.php) (manipulation d’images bitmap en ligne de commande)
 
 ### Gestionnaires de contenus
 
 Gestionnaires de contenus sans base de données.
 
-*   [Stacey](http://staceyapp.com)
+*   ✔ [Kirby ($)](http://getkirby.com)    
+Old school:
+*   [Stacey](http://staceyapp.com) 
 *   [Berta](http://www.berta.me/download/)
-*   [Kirby ($)](http://getkirby.com)
 *   [Subfolio](http://subfolio.com)
 
 Gestionnaires de contenus avec base de données.
@@ -41,11 +42,6 @@ Services web.
 
 *   [Wordpress.com](http://wordpress.com)
 *   [Tumblr](http://tumblr.com)
-*   [Cargo ($)](http://cargocollective.com/)
+*   [Cargo (~$)](http://cargocollective.com/)
 *   [Squarespace ($)](http://squarespace.com/)
 
-
-### Kirby
-
-*   [Kirby](https://gekirby.com)
-*   [Kirby in a nutshell](https://getkirby.com/docs/cookbook/setup/kirby-in-a-nutshell)
