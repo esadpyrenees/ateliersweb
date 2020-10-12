@@ -9,18 +9,6 @@
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
   ?>
 
-  <style type="text/css">
-      #wrapper img{
-        max-width: 100%;
-      }
-      #wrapper span[title]:after {
-        content: attr(title);
-        display: block;
-        font-size: .85em;
-        color: rgba(0,0,0,.7);
-        margin-bottom: 1em;
-      }
-  </style>
 
 
   <main class="pane active" id="content">
