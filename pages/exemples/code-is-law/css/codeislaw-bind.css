@@ -1,0 +1,127 @@
+
+
+body{
+  font-family: "Redaction";
+  font-size: 1.3em;
+  line-height: 1.35;
+  margin:0;
+}
+
+p {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+ 
+
+/* folios */
+
+
+.📖-running-header {
+  font-family: "Redaction-50";
+  position: absolute;
+  bottom: var(--bindery-margin-top);
+  top: auto !important;
+  font-size: 0.5em;
+  z-index: 100;
+}
+
+.📖-right .📖-running-header {
+  left: var(--bindery-margin-inner);
+  right: auto !important;
+  
+}
+.📖-left .📖-running-header{
+  right: var(--bindery-margin-inner);
+  left: auto !important;
+}
+
+
+/* text */
+
+body{
+  font-family: "Redaction";
+  font-size: 1em;
+  line-height: 1.4;
+  margin:0;
+}
+.text h4, .text h3 {
+  font-family: "Redaction-35";
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  
+}
+#start{ padding-top: 8em;}
+
+.text p + h3,
+.text p + h4 {
+  margin: 2.7rem 0 1rem 0;
+}
+
+/* couv */
+
+
+.cover-1  {
+  /* height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom)); */
+  height: 19cm;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover-1  figure { 
+  text-align: center;
+  font-family: "JetBrainsMono";
+  font-weight: bold;
+  font-size: .4em;
+  margin-top:var(--bindery-margin-top); 
+}
+.cover-1  hgroup {
+  position: absolute;  
+  writing-mode: vertical-rl; 
+  transform: rotate(-180deg); 
+  bottom:var(--bindery-margin-bottom); 
+  left:var(--bindery-margin-outer); 
+}
+.cover-1  h1 {
+    margin: 0;
+    font-size: 1em;
+    font-family: "Redaction-70";
+}
+.cover-1  h2, .cover-1  h3 {
+  font-size: 1em;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Redaction-35";
+}
+
+.cover-1  h2 { padding-top: 1cm;}
+
+/* colophon */
+.cover-4 h1 { line-height: 1.1; margin-bottom: .25em;}
+.cover-4 {
+  width: 6.5cm;
+  font-size: 8pt;
+}
+
+
+/* howto */
+
+.howto ol { 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.howto li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.howto p {
+  padding-right: 1cm;
+  margin: 0 0 1em;
+}
+.howto img { 
+  height: 2cm;
+}

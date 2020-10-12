@@ -1,0 +1,221 @@
+/*  
+  This CSS is common to screen and print modes.
+  First comes a handful of faces.
+*/
+
+/* 
+  Redaction was designed by Forest Young and Jeremy Mickel
+  https://www.redaction.us/
+*/
+@font-face {
+  font-family: "Redaction-10";
+  src: url("fonts/Redaction_10-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-10";
+  src: url("fonts/Redaction_10-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction-10";
+  src: url("fonts/Redaction_10-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-20";
+  src: url("fonts/Redaction_20-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-20";
+  src: url("fonts/Redaction_20-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction-20";
+  src: url("fonts/Redaction_20-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-35";
+  src: url("fonts/Redaction_35-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-35";
+  src: url("fonts/Redaction_35-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction-35";
+  src: url("fonts/Redaction_35-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-50";
+  src: url("fonts/Redaction_50-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-50";
+  src: url("fonts/Redaction_50-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction-50";
+  src: url("fonts/Redaction_50-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-70";
+  src: url("fonts/Redaction_70-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-70";
+  src: url("fonts/Redaction_70-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction-70";
+  src: url("fonts/Redaction_70-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-100";
+  src: url("fonts/Redaction_100-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction-100";
+  src: url("fonts/Redaction_100-Italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction-100";
+  src: url("fonts/Redaction_100-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction";
+  src: url("fonts/Redaction-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Redaction";
+  src: url("fonts/Redaction-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Redaction";
+  src: url("fonts/Redaction-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+  Messapia & SneakyTimes comes from Collletttivo 
+  http://collletttivo.it/
+*/
+@font-face {
+  font-family: "Messapia";
+  src: url("fonts/Messapia-Bold.woff") format("woff"),
+      url("fonts/Messapia-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Messapia";
+  src: url("fonts/Messapia-Regular.woff") format("woff"),
+      url("fonts/Messapia-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SneakyTimes";
+  src: url("fonts/Sneaky-Times.woff") format("woff"),
+      url("fonts/Sneaky-Times.woff2") format("woff2");
+  font-weight: 400;
+}
+
+
+/* 
+  JetBrains Mono a été développée par Philipp Nurullin pour JetBrains
+  https://www.jetbrains.com/lp/mono/ 
+*/
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("fonts/JetBrainsMono-Regular.woff") format("woff"),
+      url("fonts/JetBrainsMono-Regular.woff2") format("woff2");
+      font-weight: 400;
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("fonts/JetBrainsMono-Bold.woff") format("woff"),
+      url("fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("fonts/JetBrainsMono-Italic.woff") format("woff"),
+      url("fonts/JetBrainsMono-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: italic;
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("fonts/JetBrainsMono-Medium.woff") format("woff"),
+      url("fonts/JetBrainsMono-Medium.woff") format("woff2");
+  font-weight: 500;
+}
+
+
+
+
+body{
+  font-family: "Redaction";
+  margin:0;
+}
+
+figure, img{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+a { color: currentColor;}
+ 
+/* 4e de couv */
+.cover-4 p, .cover-4 h1 {
+  margin: 0;
+  font-family: "Redaction-35";
+}
+
+.cover-4 {
+  line-height: 1.5;
+  hyphens: auto;
+}
+.info{
+  
+  margin-top: 1em;
+}
+.cover-4 .info p { display: inline; line-height: 1em;}
+.cover-4 .info p + p::before { content: "¶"; font-family: "Redaction-100";}

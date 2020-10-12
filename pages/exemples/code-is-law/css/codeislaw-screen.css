@@ -1,0 +1,55 @@
+/* 
+  This CSS is specific to screen display
+*/
+
+body{
+  font-size: 1em;
+}
+:root{
+  --figure-width: 25rem;
+}
+
+.text, .cover-4 {
+  line-height: 1.5;
+  margin: 2em 2em 2em var(--figure-width);
+  max-width: 43rem;
+  font-size: 1.3em;
+  line-height: 1.35;
+}
+
+.cover-4 {
+  font-size: 1em;
+}
+
+/*  */
+.content { display: flex; flex-direction: column; }
+.content .cover-1  { order: 1; }
+.content .text { order: 2; }
+.content .cover-4 { order: 3; }
+
+.hide-on-screen {display: none;}
+
+.cover-1 {
+  display: flex;
+  align-items: center;
+  min-height: 75vh; 
+  color: white;
+  background: #333; 
+  width: 100%;
+}
+.cover-1 h1 { font-weight: bold; line-height: 1; font-size: 4em; margin: 0; font-family: "Redaction-20";}
+.cover-1 h2 { font-weight: normal; line-height: 1; font-family: "Redaction-35";}
+.cover-1 h3 { font-weight: normal; line-height: 1;}
+.cover-1 h3::before { content: "~ ";}
+
+
+figure {
+  font-size: .5em;
+  line-height: 1;
+  font-family: "JetBrainsMono";
+  font-weight: bold;
+  width: var(--figure-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

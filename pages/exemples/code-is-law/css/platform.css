@@ -1,0 +1,75 @@
+/* 
+This CSS is specific to platform related stuff : main navigation, print buttons, etc.
+
+It also allows the booklet to be previewed while being layouted via Bindery preview mode.
+To do so, set body classname to "layout-mode".
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right:0;
+  height:100vh;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+}
+nav a, nav button, #howto button {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: .25em .5em;
+  border: none;
+  border-radius: 2em;
+  font-family: inherit;
+}
+
+/* howto: displays binding instructions + print button */
+#howto{
+  background-color: white;
+  padding: 4em;
+  display: none;
+  position: fixed;
+  top:0; left:0; right: 0; bottom: 0;
+  z-index: 1000;
+}
+
+#howto p {
+  max-width: 32em;
+  margin: 0 0 .5em;
+}
+
+#howto.visible{
+  display: block;
+}
+
+/* layout mode + bindery-mode : hide platform stuff */
+.layout-mode nav,
+.layout-mode #howto,
+.bindery-mode nav,
+.bindery-mode #howto { display: none;}
+
+#print-button[disabled] { color: #666;}
+#print-button span { display: block;}
+#print-button[disabled] span { display: none;}
+#print-button[disabled]::before{
+  display: block;
+  content: url("loader.gif");
+}
+
+@media print {
+  nav,
+  #howto {display: none !important;} 
+}
