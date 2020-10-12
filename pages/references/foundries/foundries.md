@@ -30,11 +30,11 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 #### Gros diffuseurs
 
 <div class="gridlist" markdown="1">
+*   [Fontshop](http://fontshop.com)
+*   [Hoefler & co.](https://www.typography.com/)
 *   [Typekit](http://typekit.com/) (devenu [Adobe fonts](https://fonts.adobe.com/))
 *   [Monotype](http://fonts.com)
 *   [Myfonts](http://myfonts.com)
-*   [Fontshop](http://fontshop.com)
-*   [Hoefler & co.](https://www.typography.com/)
 </div>
 
 ## Quelques indépendants à connaître
@@ -55,12 +55,12 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 *   [Lineto](http://lineto.com)
 *   [Optimo](http://www.optimo.ch)
 *   [Ourtype](http://ourtype.be)
-*   [Playtype](https://playtype.com/)
+*   [205 TF](https://www.205.tf)
 *   [Smeltery](http://smeltery.net)
 *   [Typotheque](http://www.typotheque.com)
 *   [Underware](http://www.underware.nl)
 *   [Benoît Bodhuin](https://www.bb-bureau.fr/)
-*   [Grilli](https://www.grillitype.com/)
+*   [Grilli Type](https://www.grillitype.com/)
 *   [Production Type](https://www.productiontype.com/)
 *   [Lucasdescroix](http://www.lucasdescroix.fr/)
 </div>
