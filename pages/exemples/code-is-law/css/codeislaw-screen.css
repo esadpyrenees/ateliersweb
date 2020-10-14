@@ -15,17 +15,18 @@ body{
   max-width: 43rem;
   font-size: 1.3em;
   line-height: 1.35;
+  color: #555;
 }
 
 .cover-4 {
   font-size: 1em;
 }
 
-/*  */
 .content { display: flex; flex-direction: column; }
-.content .cover-1  { order: 1; }
-.content .text { order: 2; }
-.content .cover-4 { order: 3; }
+/* flex permet de ré-ordonner arbitrairement les éléments */
+.cover-1  { order: 1; }
+.text { order: 2; }
+.cover-4 { order: 3; }
 
 .hide-on-screen {display: none;}
 
@@ -34,11 +35,13 @@ body{
   align-items: center;
   min-height: 75vh; 
   color: white;
-  background: #333; 
+  background: rgb(32, 32, 32); 
+  background: radial-gradient(circle at 0% 33%, #F69, #00F);
   width: 100%;
+  padding: 2em 0;
 }
-.cover-1 h1 { font-weight: bold; line-height: 1; font-size: 4em; margin: 0; font-family: "Redaction-20";}
-.cover-1 h2 { font-weight: normal; line-height: 1; font-family: "Redaction-35";}
+.cover-1 h1 { font-weight: bold; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-20";}
+.cover-1 h2 { font-weight: normal; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-35";}
 .cover-1 h3 { font-weight: normal; line-height: 1;}
 .cover-1 h3::before { content: "~ ";}
 

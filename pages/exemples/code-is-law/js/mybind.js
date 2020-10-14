@@ -50,8 +50,6 @@ function bind(){
 }
 
 
-
-
 // select useful elements
 var bind_button = document.querySelector('#bind-button');
 var print_button = document.querySelector('#print-button');
