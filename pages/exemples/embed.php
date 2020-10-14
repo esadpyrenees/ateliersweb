@@ -64,7 +64,7 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
         ?>
         <script>document.getElementsByTagName('html')[0].className = 'js'</script>
         <style media="all">
-            html,body{height:100%}body{display:flex;margin:0;flex-direction:column}#embednav{font-family:'Ecole',sans-serif;background:#000;display:flex;justify-content:space-between}#embednav a{color:#fff;font-size:.85em;text-transform:uppercase;text-decoration:none;border:none;padding:.6em .5em .25em}#embednav a span{display:none}#embednav a:hover span{display:inline}iframe{border:0}
+            html,body{height:100%}body{display:flex;margin:0;flex-direction:column}#embednav{height:2em;font-family:'Ecole',sans-serif;background:#000;display:flex;justify-content:space-between}#embednav a{color:#fff;font-size:.85em;text-transform:uppercase;text-decoration:none;border:none;padding:.6em .5em .25em}#embednav a span{display:none}#embednav a:hover span{display:inline}iframe{border:0;height:calc(100vh - 2em)}
             @media print {#embednav {display: none; }}
         </style>
     </head>
@@ -77,7 +77,7 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
         </nav>
 
         <!-- Le code source de l’exemple est situé dans cette iframe : -->
-        <iframe src="../<?php echo $dir ?>/?embed=1" width="100%" height="100%"></iframe>
+        <iframe src="../<?php echo $dir ?>/?embed=1" width="100%" ></iframe>
 
     </body>
 </html>

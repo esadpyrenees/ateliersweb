@@ -139,6 +139,13 @@ nav h3 {
 nav .mixitup-control-active,
 nav .opened {font-weight: bold;}
 
+nav ul {
+    line-height: 1.15;
+}
+nav li {
+    margin-bottom: .5em;
+}
+
 .contextsub {
     display: none
 }
