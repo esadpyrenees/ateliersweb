@@ -61,7 +61,6 @@ C’est un dispositif de médiation en ligne de l’information, une œuvre inte
 - http://nt2.uqam.ca/fr/cahiers-virtuels/article/-relire-afternoon-story-de-michael-joyce-nouvelle-visualisation-et
 
 
-
 ## Web-séries 
 Invisibles https://www.france.tv/slash/invisibles/
 Dans ton tel https://www.arte.tv/fr/videos/RC-017944/dans-ton-tel/
