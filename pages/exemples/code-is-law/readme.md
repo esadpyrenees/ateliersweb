@@ -26,14 +26,15 @@ Ce fichier est spécifique au mode impression. Il contient les styles spécifiqu
 Trois fichiers sont intégrés à la page html :
 
 - **bindery.js**
-La librairie créée par Evan Brooks, utilisée pour “paginer“ le flux. 
-Le contenu est d’abord réparti en plusieurs éléments, générant plusieurs pages. On peut définir des règles pour générer des titres courants, des marges et des notes de bas de page en fonction du contenu de chaque page. On peut transformer créer une table des matières ou un index,  configurer les fonds perdus, les repères de coupe et l'ordre d’impression du livre.
+La librairie créée par Evan Brooks, utilisée pour “paginer“ le flux: 
+le contenu est réparti en plusieurs éléments, générant plusieurs pages. 
 
 - **mybook.js**    
 Permet d’exécuter du javascript sur le contenu avant la transformation du document par bindery.js.
 
 - **mybind.js**    
-Ce fichier sert à l’initialisation de bindery. Il est hautement lié à la structure HTML et CSS de l’exemple. 
+Ce fichier sert à l’initialisation de bindery. On peut définir des règles pour générer des titres courants, des marges et des notes de bas de page en fonction du contenu de chaque page. On peut transformer créer une table des matières ou un index,  configurer les fonds perdus, les repères de coupe et l'ordre d’impression du livre.   
+Il est hautement lié à la structure HTML et CSS de l’exemple :
     * Il automatise l’initialisation de Bindery si le `body` du document possède a comme `class` la valeur `layout-mode`.
     * Il permet de cliquer sur un bouton pour lancer l’impression d’un texte affiché à l’écran dans une mise en forme spécifique.
     * Il supprime alors la CSS écran (`codeislaw-screen.css`) pour appliquer la CSS print (`codeislaw-bind.css`)
