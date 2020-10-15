@@ -5,14 +5,14 @@
 
 1.  Choisir un livre *
 2.  Choisir un ou quelques chapitres
-3.  Déterminer une iconographie / modalité d’illustration
+3.  Envisager une iconographie
 4.  Les mettre en page sous une forme web
 5.  Penser à une “couverture”, à la navigation…
-6.  Produire une feuille de style pour impression domestique
+6.  Utiliser les outils *web to print* pour impression 
 
-\* Les livres (2019) :
+\* Les livres (2020) :
 
-*   [Jouir, en quête de l’orgasme féminin](https://www.editions-zones.fr/livres/jouir/), de Sarah Barmak
+*   [Sex friends, Comment (bien) rater sa vie amoureuse à l’ère numérique,](https://www.editions-zones.fr/lyber?sex-friends), de Richard Mèmeteau
 *   [Sorcières, la puissance invaincue des femmes](https://www.editions-zones.fr/livres/sorcieres/), de Mona Chollet
 *   [Propaganda, Comment manipuler l'opinion en démocratie](https://www.editions-zones.fr/livres/propaganda/), d’Edward Bernays (1928)
 

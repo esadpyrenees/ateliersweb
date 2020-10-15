@@ -9,26 +9,16 @@ body{
   --figure-width: 25rem;
 }
 
-.text, .cover-4 {
-  line-height: 1.5;
-  margin: 2em 2em 2em var(--figure-width);
-  max-width: 43rem;
-  font-size: 1.3em;
-  line-height: 1.35;
-  color: #555;
-}
-
-.cover-4 {
-  font-size: 1em;
-}
-
 .content { display: flex; flex-direction: column; }
 /* flex permet de ré-ordonner arbitrairement les éléments */
 .cover-1  { order: 1; }
-.text { order: 2; }
-.cover-4 { order: 3; }
+.cover-2 { order: 4; }
+.text { order: 3; }
+.cover-4 { order: 2; }
 
 .hide-on-screen {display: none;}
+
+/*  1re de couverture => figure */
 
 .cover-1 {
   display: flex;
@@ -45,6 +35,20 @@ body{
 .cover-1 h3 { font-weight: normal; line-height: 1;}
 .cover-1 h3::before { content: "~ ";}
 
+/*  2e de couverture => figure */
+
+.text, .cover-2 {
+  line-height: 1.5;
+  margin: 2em 2em 2em var(--figure-width);
+  max-width: 43rem;
+  font-size: 1.3em;
+  line-height: 1.35;
+  color: #555;
+}
+
+.cover-2 {
+  font-size: 1em;
+}
 
 figure {
   font-size: .5em;

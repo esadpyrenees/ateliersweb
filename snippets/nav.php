@@ -51,7 +51,7 @@
     <ul>
         <li class="<?php echo $subsection == 'htmlcss' ? 'opened' : '' ?>"><a href="/web/pages/references/htmlcss/">HTML / CSS</a></li>
         <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/references/typo/">Typographie</a></li>
-        <li class="<?php echo $subsection == 'foundries' ? 'opened' : '' ?>"><a href="/web/pages/references/foundries/">Fonderies</a></li>
+        <!-- <li class="<?php echo $subsection == 'foundries' ? 'opened' : '' ?>"><a href="/web/pages/references/foundries/">Fonderies</a></li> -->
         <li class="<?php echo $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/references/ecrituresnumeriques/">Écritures numériques</a></li>
         <li class="<?php echo $subsection == 'webdocumentaire' ? 'opened' : '' ?>"><a href="/web/pages/references/webdocumentaire/">Webdoc</a></li>
         <li class="<?php echo $subsection == 'visite' ? 'opened' : '' ?>"><a href="/web/pages/references/visite/">Visite</a></li>        
@@ -70,7 +70,7 @@
         <li class="<?php echo $subsection == 'culturenum' ? 'opened' : '' ?>"><a href="/web/pages/projets/culturenum/">Cultures numériques</a></li>
         <li class="<?php echo $subsection == 'storytellers' ? 'opened' : '' ?>"><a href="/web/pages/projets/storytellers/">Storytellers</a></li>
         <li class="<?php echo $subsection == 'portfolio' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Portfolio</a></li>
-        <li class="<?php echo $subsection == 'portfolio' ? 'opened' : '' ?>"><a href="/web/pages/projets/codeislaw/">Code is law</a></li>
+        <li class="<?php echo $subsection == 'portfolio' ? 'opened' : '' ?>"><a href="/web/pages/projets/textedit/">Textedit</a></li>
     </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->

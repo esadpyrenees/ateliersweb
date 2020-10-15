@@ -3,7 +3,7 @@
     $title = "Références — Typographie";
     $section="references";
     $subsection="typo";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
+    $nav = "/web/snippets/references/typo.php"; // specific subnav
     $mdfile = "./typo.md";
 
     // includes

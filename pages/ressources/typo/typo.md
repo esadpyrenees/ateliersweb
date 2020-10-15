@@ -8,7 +8,7 @@ Le site des ateliers web de l’ÉSAD, bien que comportant de nombreuses ressour
 
 ## Sur ce site
 
-On trouvera des **ressources** consacrées à la [macro](macro/) et [micro-typographie](micro/), aux [fontes](webfonts/) et aux [fonctionnalités opentype](opentype/) pour le web, au contenu [HTML](../../ressources/html/content/) et à la [gestion du texte en CSS](../../ressources/css/text/) ainsi qu’aux [fontes variables](variables/) ;
+On trouvera des **ressources** consacrées aux [fontes](webfonts/) web, au contenu [HTML](../../ressources/html/content/) et à la [gestion du texte en CSS](../../ressources/css/text/), aux [fonctionnalités opentype](opentype/) pour le web ainsi qu’aux [fontes variables](variables/) ;
 
 Des **références** sur les [fontes variables](../../references/typo/#fontes-variables), les [outils numériques de la typographie](../../references/typo/#typographie-numerique) ou plus généralement, [la typo à l’écran](../../references/typo/#typographie-a-lecran) et aux [fonderies et distributeurs](../../references/foundries/)  de caractères;
 
