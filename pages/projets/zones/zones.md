@@ -8,7 +8,7 @@
 3.  Envisager une iconographie
 4.  Les mettre en page sous une forme web
 5.  Penser à une “couverture”, à la navigation…
-6.  Utiliser les outils *web to print* pour impression 
+6.  Utiliser les outils *web to print* pour l’imprimer
 
 \* Les livres (2020) :
 
