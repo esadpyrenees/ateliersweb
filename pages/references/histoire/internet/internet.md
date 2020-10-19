@@ -20,9 +20,9 @@ Le compagnon numérique du livre “_When the World Went Digital – A sweeping 
 
 ## Une contre-histoire de l’Internet
 
-<iframe width="650" height="365" sandbox="allow-same-origin allow-scripts" src="https://peertube.fr/videos/embed/998405f2-45b1-466a-8178-292ad74597d2" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/311894477" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-Une contre-histoire de l’Internet est un film documentaire français réalisé par Sylvain Bergère et diffusé à la télévision française pour la première fois en mai 2013. C’est également le titre d’une [édition spéciale d’OWNI](ContreHistoire_ebook_FINAL.pdf) avec Jean-Marc Manach, Danah Boyd, EFF, Astrid Girardeau et l’équipe des Big Brother Awards.
+Une contre-histoire de l’Internet est un film documentaire français réalisé par Sylvain Bergère et diffusé à la télévision française pour la première fois en mai 2013. C’est également le titre d’une [édition spéciale d’OWNI](ContreHistoire_ebook_FINAL.pdf) avec Jean-Marc Manach, Danah Boyd, EFF, Astrid Girardeau et l’équipe des Big Brother Awards. Et c’est aussi le sous-titre de [*L'utopie déchue*](https://www.fayard.fr/sciences-humaines/lutopie-dechue-9782213710044), un livre de Félix Tréguer, membre de la Quadrature du Net.
 
 ## Timeline des technologies de l’édition numérique
 
