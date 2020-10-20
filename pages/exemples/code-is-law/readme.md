@@ -6,7 +6,7 @@ L’impression est gérée par la librairie [Bindery.js](https://evanbrooks.info
 
 La reliure est dite “à l’orientale”, ou “à la japonaise”. Chaque feuille est imprimée sur une seule face, pliée, puis agrafée avec les autres.
 
-Le principe et l’intention initiale sont dus à Lisa Clamens.
+Le principe et l’intention initiale sont dus à Lisa 🦸‍♀️ Clamens.
 
 ## CSS
 Quatre fichiers CSS permettent la mise en page du document.
