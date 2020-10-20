@@ -30,6 +30,15 @@ body{
   width: 100%;
   padding: 2em 0;
 }
+.cover-4 {
+  display: flex;
+  align-items: center;
+  min-height: 75vh; 
+  color: white;
+  width: 100%;
+  padding: 2em 2em 2em var(--figure-width);
+  position: absolute;
+}
 .cover-1 h1 { font-weight: bold; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-20";}
 .cover-1 h2 { font-weight: normal; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-35";}
 .cover-1 h3 { font-weight: normal; line-height: 1;}

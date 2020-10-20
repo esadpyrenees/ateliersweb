@@ -13,9 +13,9 @@ function bind(){
       // margins
       margin: { 
         top:    '1cm', 
-        inner:  '1cm', 
-        outer:  '2cm', 
-        bottom: '1.5cm' 
+        inner:  '2cm', // since we’re binding with oriental / japanese technique, remember to reverse inner & outer
+        outer:  '3cm', 
+        bottom: '2.5cm' 
       },
     },
     printSetup: {
@@ -32,14 +32,16 @@ function bind(){
     rules: [
       // force page breaks after specific elements
       Bindery.PageBreak({ selector: '.howto', position: 'after' }),
-      Bindery.PageBreak({ selector: '.cover-4', position: 'after' }),
+      Bindery.PageBreak({ selector: '.cover-2', position: 'after' }),
       Bindery.PageBreak({ selector: '.cover-1', position: 'after' }),
+      Bindery.PageBreak({ selector: '.cover-4', position: 'after' }),
+      Bindery.PageBreak({ selector: '.cover-4 div', position: 'after' }),
       // full bleed (fond-perdu ;) if needed
       Bindery.FullBleedPage({ selector: '.cover-1' }),
       // page numbers 
       Bindery.RunningHeader({
         render: (page) => {
-          if (page.isEmpty || page.number < 1) return '';
+          if (page.isEmpty || page.number < 1 || page.number > 8) return '';
           if (page.isLeft) return `${page.number}`;
           if (page.isRight) return `${page.number}`;
         },

@@ -1,9 +1,17 @@
 
+/* Custom properties (= variables) */
+:root{
+  --typesize: 12px;
+  --lineheight: 17px;
+}
+
+
+/* common */
 
 body{
   font-family: "Redaction";
-  font-size: 1.3em;
-  line-height: 1.35;
+  font-size: var(--typesize);
+  line-height: var(--lineheight);
   margin:0;
 }
 
@@ -12,11 +20,25 @@ p {
   margin-top: 0;
 }
 
+
+/* debug grid: add "debug" class to body */
+
+.debug .text p {
+  background: rgba(0,255,255,.2);
+}
+.debug .text{
+  background: repeating-linear-gradient(
+    to bottom,
+    cyan,
+    cyan 1px,
+    transparent 1px,
+    transparent var(--lineheight)
+  );
+}
+
  
 
 /* folios */
-
-
 .📖-running-header {
   font-family: "Redaction-50";
   position: absolute;
@@ -39,75 +61,83 @@ p {
 
 /* text */
 
-body{
-  font-family: "Redaction";
-  font-size: 1em;
-  line-height: 1.4;
-  margin:0;
-}
 .text h4, .text h3 {
   font-family: "Redaction-35";
-  font-size: 2em;
+  font-size: calc(var(--typesize) * 2 );
   font-weight: 400;
-  margin: 0 0 1rem 0;
+  margin: calc(var(--lineheight) * 2 ) 0 var(--lineheight);
   
 }
-#start{ padding-top: 8em;}
+#start{ padding-top: calc(var(--lineheight) * 11 );}
 
+.text p {
+  margin: 0 0 var(--lineheight);
+}
 .text p + h3,
 .text p + h4 {
-  margin: 2.7rem 0 1rem 0;
+  font-size: 2em;
 }
 
+
 /* couv */
-
-
-.cover-1  {
-  /* height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom)); */
-  height: 19cm;
+.cover-1 {
+  height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
+  height: 20cm;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.cover-1  figure { 
+.cover-1 figure { 
   text-align: center;
   font-family: "JetBrainsMono";
   font-weight: bold;
-  font-size: .4em;
-  margin-top:var(--bindery-margin-top); 
+  font-size: .6em;
+  line-height: 1.4;
 }
-.cover-1  hgroup {
-  position: absolute;  
-  writing-mode: vertical-rl; 
-  transform: rotate(-180deg); 
-  bottom:var(--bindery-margin-bottom); 
-  left:var(--bindery-margin-outer); 
-}
-.cover-1  h1 {
-    margin: 0;
-    font-size: 1em;
-    font-family: "Redaction-70";
-}
-.cover-1  h2, .cover-1  h3 {
-  font-size: 1em;
-  margin: 0;
-  font-weight: 400;
-  font-family: "Redaction-35";
-}
-
-.cover-1  h2 { padding-top: 1cm;}
 
 /* colophon */
-.cover-4 h1 { line-height: 1.1; margin-bottom: .25em;}
-.cover-4 {
+.cover-2 h1 { line-height: 1.1; margin-bottom: .25em;}
+.cover-2 {
   width: 6.5cm;
   font-size: 8pt;
 }
 
 
-/* howto */
+/* 4e de couv */
+.cover-4 {
+  position: relative;
+  height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
+}
+.cover-4 div{
+  /* useful empty div, remember? */
+  height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
+}
+.cover-4  hgroup {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  writing-mode: vertical-rl; 
+  transform: rotate(-180deg); 
+}
+.cover-4  h1 {
+    margin: 0;
+    font-size: 1em;
+    font-family: "Redaction-70";
+}
+.cover-4  h2, .cover-4  h3 {
+  font-size: 1em;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Redaction-35";
+}
+.cover-4  h2 { padding-top: .5cm;}
 
+
+/* howto */
+.howto {
+  height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
+}
 .howto ol { 
   list-style-type: none;
   padding: 0;
