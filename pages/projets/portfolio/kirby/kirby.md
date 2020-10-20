@@ -74,6 +74,8 @@ L’obsolescence rapide des outils et des versions des langages, tout comme la q
 
 Kirby et quelques autres CMS *flatfiles* (Grav) fonctionnent avec des fichiers texte, du markdown et des médias bruts qui simplifient la mise à jour et la transition vers un nouveau CMS. 
 
-Aujourd’hui émergent de nouveaux outils, notamment des générateurs de sites statiques, ([Jeckyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Eleventy](https://www.11ty.dev/)) et des logiques de déploiement ([Forestry.io](https://forestry.io/), [Github](https://pages.github.com/), [Netlify](https://netlify.com)) qui seront sans doute le futur de la gestion de contenus sur le web.
+Aujourd’hui émergent de nouveaux outils, notamment des générateurs de sites statiques, ([Jeckyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Eleventy](https://www.11ty.dev/)) ou encore [Publii](https://getpublii.com/) et des logiques de déploiement ([Forestry.io](https://forestry.io/), [Github](https://pages.github.com/), [Netlify](https://netlify.com)) qui seront sans doute le futur de la gestion de contenus sur le web.
+
+
 
 PS : L’approche la plus résiliente (et *futureproof* *since* 1990) est d’écrire et de publier “à la main” son propre HTML. Voir [HTML.energy](https://html.energy) !
