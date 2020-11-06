@@ -1,6 +1,8 @@
 <?php
-  include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
+  include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+  include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
   $Parsedown = new Parsedown();
+  $Parsedown = new ParsedownExtra();
 
   $title = "ÉSAD·Pyrénées — Ateliers web — Projets";
   $section="projets";
@@ -36,10 +38,16 @@
             font-family: "HappyTimes";
         }
 
-        .culturenum h1 {
-            font-size: 3em;
-            margin-top: 0
-        }
+.culturenum h1 {
+    font-size: 3em;
+    margin-top: 0;
+    line-height:1;
+    padding-top:0
+}
+
+.culturenum h4 {
+    margin-top: 0;
+}
 
 
     </style>
@@ -47,13 +55,18 @@
     <div class="culturenum">
 
 
-        <h1><span>cultures</span> <span>numériques</span></h1>
+        <h1><span>Cultures</span><br><span>numériques</span></h1>
 
         <article>
 
                 <?php
-                    $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_cultures_numeriques/export/txt" );
-                    $pad = file_get_contents( "index.md" );
+                    $doc = file_get_contents( "index.md" );
+                    $parsed_doc = $Parsedown->text( $doc );
+                    echo $parsed_doc;
+                ?>
+                <h2>Pad (live)</h2>
+                <?php
+                    $pad = file_get_contents( "https://semestriel.framapad.org/p/cultures-numeriques-9jmv/export/markdown" );
                     $parsed_pad = $Parsedown->text( $pad );
                     echo $parsed_pad;
                 ?>

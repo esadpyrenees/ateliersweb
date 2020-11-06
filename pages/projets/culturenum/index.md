@@ -1,48 +1,61 @@
 
 
-## Inscriptions
-https://semestriel.framapad.org/p/cultures-numeriques-9jmv?lang=fr
+
+## Exposé
+
+Produire un exposé oral de 10 minutes soutenu par un support visuel ~~vidéo-projeté~~ (visio-conférencé…) sous la forme d’une page web. 
+
+Chaque présentation sera suivie de 5 minutes de questions/réponses.
+
+#### Les dates des présentations sont encore à définir (le 18 novembre sera la **dernière** session de suivi individuel) {.blink}
+
+### Enjeux
+
+* Structurer l’exposé : introduire, développer, conclure (ouvrir)
+* Trouver un “angle” : chaque proposition thématique (artiste, studio, designer, festival…) doit être abordée selon votre propre point de vue : vous pouvez déterminer un ensemble de projets à présenter, faire un focus sur deux ou trois points saillants
+* Rythmer la présentation, trouver un équilibre entre la présentation orale et la dimension visuelle
+* Si vous souhaitez diffuser un extrait de vidéo, mesurez le temps souhaitable et nécessaire pour que l’on comprenne sans grèver votre temps de présentation
+
+### Méthode
+* Un Padlet dédié peut être mis en place pour récolter les informations (liens, images, textes, URLs, vidéos Youtube/Vimeo, etc.)
+* La page HTML (ou les pages) auront tout intérêt à rester très simples en termes de mise en forme ; il s’agit principalement de **structurer hiérarchiquement** un contenu tetuel et visuel
+* Les pages seront mises en ligne selon les modalités vues ensemble dans le cours de webdesign du 6 novembre
 
 
+## Présentations
 
-## Liste
+### Session #1 ~ 9:00 – 13:00
+* Rioji Ikeda : Théa B.
+* Rafael Lozano-Hemmer : Audrey M.
+* Julien Prévieux : Rodolphe B.
+* Jurgh Lehni : Merilin M.
+* Datagueule : Massinissa M.
+* Chevalvert : Hannah F.
+* g.u.i. : Colin G.
+* Lab 212 : Amandine L.
+* David Jonathan Ross :  Lorelei J.
+* Réalité augmentée : Maëva H.
+* Velvetyne Type Foundry : Andréas C.
+* Stereolux : Lilian M.
+* Centre Phi - Montréal : Emma L.
+* Ars electronica : Astrid G.
 
-* Stereolux
-* Centre Phi - Montréal
-* Ars electronica
-* Kikk Festival
-* Gaité Lyrique
-* Mapping Festival
-* Wellformat
-* The Moving Poster
-* Motion + Design
-* arte webproductions
-* france tv slash
-* Jonathan Puckey
-* Moniker
-* Catalog tree
-* Open Source Publishing
-* John Maeda
-* Emigre / Zuzana Licko
-* Erik van Blokland
-* Zach Liebermann
-* Daily tous les jours
-* Susan Kare
-* Cory Arcangel
-* Constant Dullaart
-* Rioji Ikeda
-* Kyle McDonald
-* Rafael Lozano Hemmer
-* Adrien M + Claire B
-* Julien Prévieux
-* Jurgh Lehni (lineto website + projets)
-* Datagueule
-* Chevalvert
-* g.u.i.
-* Upian
-* Lab 212
-* Nick Sherman 
-* David Jonathan Ross
-* Louis Eveillard + Atelier des chercheurs
-* AR : (https://artivive.com/, adobe Aero, https://100-beste-plakate.de/, https://www.mecha.studio/, …)
-* Velvetyne Type Foundry
+### Session #2 ~ 9:00 – 13:00
+* ? : Charlène N.
+* Kyle McDonald : Izis S.
+* Gaité Lyrique : Mailys M.
+* Weltformat : Paula C.
+* The Moving Poster : Guillaume L.
+* Arte webproductions : Jade L.
+* France tv slash : Coline M.
+* Moniker : Alix L.
+* John Maeda : Baptiste R.
+* Emigre / Zuzana Licko : Morganne M.
+* Zach Liebermann : Capucine P.
+* Daily tous les jours : Aurore T.
+* Susan Kare : Anita B.
+* Cory Arcangel : Sarah B.
+* Constant Dullaart : Alice M.
+
+
+## https://semestriel.framapad.org/p/cultures-numeriques-9jmv?lang=fr
