@@ -36,8 +36,15 @@
         font-variation-settings: 'wdth' 115;
         font-size: 2em;
     }
-    main h1 { font-size: calc(4vw + 1em); font-variation-settings: 'wdth' 200; text-transform: uppercase;}
-    main h2 { font-variation-settings: 'wdth' 150; font-size:1.5em }
+    main header:first-of-type {        
+        display:flex;
+        justify-content: center
+    }
+    main h1 { font-size: calc(4vw + 1em); font-variation-settings: 'wdth' 200; text-transform: uppercase; padding:0; margin-top:1em}
+    main h2, section h2 { font-variation-settings: 'wdth' 150; font-size:1.5em; margin-bottom:1em }
+    main h2:first-of-type span{
+        border-bottom:4px double;
+    }
     main h3 { font-variation-settings: 'wdth' 100; border:none; padding:0; margin-bottom:3em}
     hr {
         margin:4em auto;
@@ -47,9 +54,11 @@
         border-top:3px solid black; 
     }
     
-    #cil { font-size:.7em }
+    #cil { 
+        font-size:.7em;
+    }
     #cil h1 { font-size: calc(2vw + 1em); font-variation-settings: 'wdth' 120; }
-    main p { 
+    main p,main h2 + p { 
         margin: 1em auto
     }
     ul {
@@ -83,6 +92,57 @@
     .objectif3{
         font-variation-settings: 'wdth' 50, 'wght' 100; font-size:2.5em ;  text-transform: uppercase;
     }
+    .button{
+        border:1px solid;
+        padding: .25em;
+        background:white;
+        display:block;
+        width:13em;
+        box-shadow:5px 5px;
+        font-size:2em;
+        margin:0 auto
+    }
+    .button span{
+        display:block;
+        text-align:center;
+        font-family: "Sprat";
+        text-transform:uppercase;
+        border:3px solid;
+        padding: .5em .75em;
+        font-variation-settings: 'wdth' 150, 'wght' 100; font-style:normal
+    }
+
+    section h3 {
+        margin: 1.5em 0 1em
+    }
+
+
+    .scrollables {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 1rem 2rem;
+        padding-left: 0;
+        max-width: none;
+    }
+    .scrollables a {
+        display:block;
+        border:none
+    }
+    .scrollables figure { 
+        margin: 0 0 3em;
+        border:1px solid #eee;
+        position:relative;
+    }
+    .scrollables figcaption { 
+        position:absolute;
+        font-size:.75em; color:#777;
+        bottom:0;
+        margin: 0 0 -2.5em;
+        text-align:center;
+        width:100%;
+    }
+    .scrollables p + p { margin-top: .5em;}
+
 </style>
 
     <main class="pane active" id="content">
