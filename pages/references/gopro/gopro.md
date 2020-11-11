@@ -24,6 +24,8 @@ Le [Calkulator](https://www.calkulator.com/fr/accueil/) est un guide (payant) de
 
 Calculer un tarif journalier moyen n’est pas chose aisée. Deux articles – écrits pour un public de développeurs web freelance, mais largement adaptables à l’exercice de designer web (ou pas web) freelance ou indépendants – peuvent aider : [Développeurs web indépendants : bien fixer, annoncer et négocier vos tarifs ](https://www.miximum.fr/blog/developpeur-web-freelance-tjm/) et [Parce que vous le valez bien](https://libelilou.github.io/2017/05/29/sudweb.html).
 
+Gauthier Rousillhe publie chaque année son “[rapport de modèle économique](http://gauthierroussilhe.com/fr/posts/activite-2019-2020)” dans lequel il propose une approche de planification financière basée sur l’équilibre entre ses rentrées d’argent et ses dépenses.
+
 ### Les syndicats et représentants professionnels 
 * [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;
 * [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
