@@ -6,7 +6,7 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 
 #### *work in progress / en travaux * {.edit}
 
-## Livres {.livres}
+## Livres {#livres}
 
 <div class="gridlist" markdown="1">
 
@@ -43,7 +43,7 @@ Kenneth Goldsmith, éditions Jean Boîte, 2018
 
 </div>
 
-## Revues {.revues}
+## Revues {#revues}
 
 <div class="gridlist" markdown="1">
 
@@ -62,12 +62,13 @@ Nichons-nous dans l'Internet est une revue en papier intégralement consacrée �
 * #### Sens public
 Revue interdisciplinaire de recherche : numérique, analyse philosophique et politique des mutations contemporaines des espaces publics [↗](https://sens-public.org)
 
-
+* #### Multitudes
+Revue politique, artistique et philosophique trimestrielle [↗](https://www.multitudes.net/)
 </div>
 
 
 
-## Newsletters {.newsletters}
+## Newsletters {#newsletters}
 
 <div class="gridlist" markdown="1">
 
@@ -85,7 +86,7 @@ Une newsletter écrite par Lucie Ronfaut pour Numerama
 </div>
 
 
-## Podcasts {.podcasts}
+## Podcasts {#podcasts}
 
 <div class="gridlist" markdown="1">
 
@@ -98,6 +99,18 @@ Carré, Petit, Utile : Le programme radio (toulousain) des gens du numérique pa
 * #### Paléofutur
 Un pdcast rétrofuturiste de la Radio Télévision Suisse [↗](https://www.rts.ch/la-1ere/programmes/paleofutur/podcast/)
 
+</div>
+
+
+## MOOCs & vidéos {#videos}
+
+<div class="gridlist" markdown="1">
+
+* #### Aux Sources Du Numérique
+Une série d’entretiens avec des auteurs et autrices qui pensent la société numérique. Un projet initié et piloté par Spintank et Renaissance numérique. [↗](https://www.youtube.com/channel/UCq5tJo0MH1nJrhQpWpn_m_g)
+
+* #### MOOC digital paris
+Une série d’entretiens pour mieux comprendre les pratiques et usages du numérique qui modifient nos comportements au quotidien. [↗](https://moocdigital.paris/propos)
 </div>
 
 ## Sites indispensables {#sites}
