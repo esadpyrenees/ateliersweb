@@ -1,12 +1,12 @@
 
-/* Custom properties (= variables) */
+/* ---------------------------------------------------------- Custom properties (= variables) */
 :root{
-  --typesize: 12px;
-  --lineheight: 17px;
+  --typesize: 13.8px;
+  --lineheight: 18px;
 }
 
 
-/* common */
+/* ---------------------------------------------------------- common */
 
 body{
   font-family: "Redaction";
@@ -16,12 +16,11 @@ body{
 }
 
 p {
-  font-weight: 400;
   margin-top: 0;
 }
 
 
-/* debug grid: add "debug" class to body */
+/* ---------------------------------------------------------- debug grid: add "debug" class to body */
 
 .debug .text p {
   background: rgba(0,255,255,.2);
@@ -38,7 +37,7 @@ p {
 
  
 
-/* folios */
+/* ---------------------------------------------------------- folios */
 .📖-running-header {
   font-family: "Redaction-50";
   position: absolute;
@@ -59,30 +58,43 @@ p {
 }
 
 
-/* text */
+/* ---------------------------------------------------------- text */
 
-.text h4, .text h3 {
+h4, h3 {
   font-family: "Redaction-35";
   font-size: calc(var(--typesize) * 2 );
   font-weight: 400;
-  margin: calc(var(--lineheight) * 2 ) 0 var(--lineheight);
-  
+  margin: var(--lineheight) 0;
 }
-#start{ padding-top: calc(var(--lineheight) * 11 );}
+.text h4:last-child,
+.text h3:last-child {
+  margin-top: calc(var(--lineheight) * 4 );
+}
+.text p + h3, .text p + h4 {
+  margin-top: calc(var(--lineheight) * 3 );
+}
+#start{ padding-top: calc(var(--lineheight) * 7 );}
 
-.text p {
+p {
   margin: 0 0 var(--lineheight);
+  margin: 0;
 }
-.text p + h3,
-.text p + h4 {
-  font-size: 2em;
+p + p {
+  text-indent: 1em;
+}
+.text h3,
+.text h4 {
+  font-size: 4em;  
+  line-height: calc(var(--lineheight) * 2 );
+  padding-left: 1em;
+  margin-left: -.5em;
+  text-indent: -1em;
+  break-inside: avoid;
 }
 
-
-/* couv */
+/* ---------------------------------------------------------- couv */
 .cover-1 {
-  height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
-  height: 20cm;
+  height: var(--bindery-page-height);
   position: relative;
   display: flex;
   justify-content: center;
@@ -96,15 +108,19 @@ p {
   line-height: 1.4;
 }
 
-/* colophon */
+/* ---------------------------------------------------------- colophon = 2e de couv */
 .cover-2 h1 { line-height: 1.1; margin-bottom: .25em;}
 .cover-2 {
   width: 6.5cm;
-  font-size: 8pt;
+  font-size: calc( var(--typesize) * .75);  
+  line-height: 1.4;
 }
+.cover-2 p {text-indent: 0; display: inline;}
 
+.info p:not(:first-child):before{content: " ¶ ";}
+  
 
-/* 4e de couv */
+/* ---------------------------------------------------------- 4e de couv */
 .cover-4 {
   position: relative;
   height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
@@ -129,19 +145,19 @@ p {
   font-size: 1em;
   margin: 0;
   font-weight: 400;
-  font-family: "Redaction-35";
+  font-family: "Redaction-35"; 
 }
 .cover-4  h2 { padding-top: .5cm;}
 
 
-/* howto */
+/* ---------------------------------------------------------- howto */
 .howto {
   height: calc(var(--bindery-page-height) - var(--bindery-margin-top)  - var(--bindery-margin-bottom) - .5cm);
 }
 .howto ol { 
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 2em 0 0 ;
 }
 .howto li {
   display: flex;
@@ -154,4 +170,5 @@ p {
 }
 .howto img { 
   height: 2cm;
+  margin-left: 1em;
 }

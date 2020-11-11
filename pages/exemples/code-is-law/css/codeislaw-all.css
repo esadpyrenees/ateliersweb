@@ -219,3 +219,10 @@ a { color: currentColor;}
 }
 .cover-4 .info p { display: inline; line-height: 1em;}
 .cover-4 .info p + p::before { content: "¶"; font-family: "Redaction-100";}
+
+.cover-2 span{
+  display: block;
+  text-indent: -1em;
+  font-weight: normal;
+  font-style: italic;
+}

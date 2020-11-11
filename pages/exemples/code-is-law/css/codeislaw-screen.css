@@ -39,10 +39,11 @@ body{
   padding: 2em 2em 2em var(--figure-width);
   position: absolute;
 }
-.cover-1 h1 { font-weight: bold; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-20";}
-.cover-1 h2 { font-weight: normal; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-35";}
-.cover-1 h3 { font-weight: normal; line-height: 1;}
-.cover-1 h3::before { content: "~ ";}
+.colophon {display: none;}
+.cover-4 h1 { font-weight: bold; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-20";}
+.cover-4 h2 { font-weight: normal; line-height: 1; font-size: 1.5em; margin: 0; font-family: "Redaction-35";}
+.cover-4 h3 { font-weight: normal; line-height: 1;}
+.cover-4 h3::before { content: "~ ";}
 
 /*  2e de couverture => figure */
 

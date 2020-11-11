@@ -35,7 +35,7 @@ function bind(){
       Bindery.PageBreak({ selector: '.cover-2', position: 'after' }),
       Bindery.PageBreak({ selector: '.cover-1', position: 'after' }),
       Bindery.PageBreak({ selector: '.cover-4', position: 'after' }),
-      Bindery.PageBreak({ selector: '.cover-4 div', position: 'after' }),
+      Bindery.PageBreak({ selector: '.cover-4 div:first-of-type', position: 'after' }),
       // full bleed (fond-perdu ;) if needed
       Bindery.FullBleedPage({ selector: '.cover-1' }),
       // page numbers 
