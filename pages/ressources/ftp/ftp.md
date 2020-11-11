@@ -47,13 +47,15 @@ Un site web est composé de nombreux fichiers : contenu textuel, code, feuilles 
 
 ### Récupérer les identifiants et mot de passe de connexion
 
-Pour déposer des fichiers sur votre espace dans le serveur d’Alwaysdata, il vous faut conaitre les identifiants permettant de vous y connecter. Ces informations sont accessibles depuis le menu “FTP” de [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte sur alwaysdata.
+Pour déposer des fichiers sur votre espace dans le serveur d’Alwaysdata, il vous faut conaitre les identifiants permettant de vous y connecter. Ces informations sont accessibles depuis le menu “Accès distant / FTP” de [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte sur alwaysdata.
 
 ![admin FTP alwaysdata](images/ftp.png)
 
 1. L’**hôte FTP** : ftp-\[votrecompte\].alwaysdata.net
 2. Le **nom d’utilisateur** : \[votrecompte\]
 3. Le **mot de passe** : \[votr3m0tdep4sse\!]
+
+## Clients FTP
 
 ### Cyberduck
 
@@ -78,6 +80,30 @@ Si vous avez saisi les bonnes informations de connexion, la fenêtre de Cyberduc
 
 ![Cyberduck](images/cy-4.png)
 
+
+### Filezilla
+
+Filezilla est un logiciel *open source* plus ancien que Cyberduck et doté d’une interface un peu plus complexe.
+
+Il permet notamment d’afficher à la fois le contenu local (à gauche – les fichiers de notre propre ordinateur) et le contenu distant (à droite – le contenu du serveur).
+
+![Cyberduck](images/fz-1.png)
+
+Cliquer sur l’icône en haut à gauche (Gestionnaire de sites), créez un nouveau site (équivalent à un “favori” sur Cyberduck), puis saisissez les informations d’authentification dans la partie droite.
+
+Le “Chiffrement” devrait être établi sur “Connexion FTP explicite sur TLS si disponible” et le “type d’authentification" sur “Normale”.
+
+
+Une boîte de dialogue vous proposera d’enregistrer votre mot de passe. Et une alerte de sécurité s’affichera peut-être.
+
+![Cyberduck](images/fz-2.png)
+
+Contrairement à Cyberduck qui nécessite l’utilisation du Finder ou de l’explorateur de fichiers Windows pour pouvoir glisser les fichiers vers l’espace en ligne, Filezilla offre un navigateur de fichiers locaux. Son seul “défaut” est d’afficher les dossiers et les fichiers dans deux zones séparées.
+
+
+
+## Mise en ligne
+
 Par défaut, l’utilisateur FTP d’Alwaysdata a accès à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). 
 
 Par défaut également, **le serveur affiche au visiteur le contenu du dossier `www`**. Cette option est configurable dans [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte, via le menu “Web / Sites” → “Default site / Modifier”.
@@ -86,9 +112,7 @@ Par défaut également, **le serveur affiche au visiteur le contenu du dossier `
 
 Si vous disposez d’un nom de domaine, Alwaysdata permet de créer plusieurs sites, accessibles via différentes adresses. Dans le cas présent, nous allons héberger **plusieurs projets sur le même site**, grâce à une page d’index personnalisée. Nous ne modifions donc pas la configuration du site par défaut d’Alwaysdata.
 
-### Mise en ligne
-
-Dans Cyberduck, en double-cliquant sur `www`, on peut accéder au contenu du dossier que verront les visiteurs du site.
+Dans Cyberduck ou Filezilla, en double-cliquant sur `www`, on peut accéder au contenu du dossier que verront les visiteurs du site.
 
 ![Cyberduck](images/cy-5.png)
 
@@ -165,6 +189,8 @@ La structure de votre FTP deviendra donc :
 
 ![Cyberduck](images/cy-6.png)
 
+Une fois que les fichiers ont été transférés via le protocole FTP, on peut y accéder dans un navigateur web en HTTP en saisissant l’URL :    
+http://votre-compte.alwaysdata.net.
 
 ## Erreurs fréquentes
 
