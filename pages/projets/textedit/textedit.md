@@ -113,6 +113,6 @@ Tout exercice de design propose au designer de s’approprier le contenu à mett
 
 La convocation d’images, de citations, d’illustrations est possible. Tout comme est possible – souhaitable – la création d’un rythme au sein du document, qui soutienne la lecture.
 
-Le paratexte (titre et sous-titre, auteur, date, colophon et crédits) doit être questionné et pris en charge pour le donner à la lecture : dans quel ordre doit-on afficher ces éléments ? Quels registres hiérarchiques doit-on proposer ? Est-il envisageable de commencer par le texte et de finir par le titre ? Etc.
+Le paratexte (titre et sous-titre, auteur, date, colophon et crédits) doit être questionné et pris en charge pour le donner à la lecture : dans quel ordre doit-on afficher ces éléments ? Quels registres hiérarchiques doit-on proposer ? Est-il envisageable de commencer par le texte et de finir par le titre ? etc.
 
 </section>
