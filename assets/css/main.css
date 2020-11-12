@@ -193,6 +193,9 @@ blockquote, ol, ul { max-width: 650px}
 blockquote, q {
     quotes: none;
 }
+blockquote em {
+    font-style: normal;
+}
 
 blockquote {
     margin-left: 0;
