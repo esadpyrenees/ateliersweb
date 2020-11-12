@@ -190,6 +190,11 @@ tr {
 p,
 blockquote, ol, ul { max-width: 650px}
 
+p, blockquote {
+ orphans: 2;
+ widows: 2;
+}
+
 blockquote, q {
     quotes: none;
 }
