@@ -1,10 +1,18 @@
-# Macrotypographie
-
 > On ne peut pas *ne pas* communiquer    
 — Paul Watzlawick
 
+La prise en compte conjointe des notions de macro et micro-typographie est essentielle pour atteindre la perfection appelée de ses vœux par Maximilien Vox : « En typographie, il n'y a qu'un seul degré de bien : la perfection ». Maximilien reconnaissait néanmoins que « La typographie est simple, aussi simple que de jouer du violon. »
+<br><br>
+
+
+##### Mise à jour en cours {.blink}
+
+# Macrotypographie
+
+
 > La macrotypographie désigne l’agencement de l’espace typographique et la mise en page : le format de l’imprimé, la taille et la disposition des colonnes de texte et des illustrations, la hiérarchisation des titres et des légendes.  
 — Le détail en typographie, Jost Hochuli, Éditions B42
+
 
 ## Sélection
 
@@ -117,16 +125,25 @@ h3    { font-size: 1.125rem; } /* 16px × 1.125 = 18px */
 small { font-size: .875rem; }  /* 16px × 0.875 = 14px */ 
 ```
 
-Plusieurs outils en ligne permettent de générer des échelles typographiques basés sur les rapports de proportion classiques : [type-scale.com](https://type-scale.com/) ou [Type Scale Generator](https://baseline.is/tools/type-scale-generator/).
+Plusieurs outils en ligne permettent de générer des échelles typographiques basées sur les rapports de proportion classiques : [type-scale.com](https://type-scale.com/) ou [Type Scale Generator](https://baseline.is/tools/type-scale-generator/).
 
 
-## Espace
+## Espace et contraste
+
+L’espace blanc ou l’espace négatif (en typo comme en photo) est une composante majeure de la macro-typographie. C’est la spatialisation des éléments dans une page qui détermine les dynamiques de lectures et la manière qu’aura le lecteur de lire, naviguer et parcourir le texte.
 
 ## Contraste et couleur
 
-## Composition
+Le contraste est lié à la mise en page et à l’espace négatif circulant entre les éléments, mais également à la couleur du texte *versus* celle de son arrière-plan.
+
+On peut chercher à diminuer le contraste pour diminuer la fatigue de l’œil du lecteur (à l’écran, le blanc est *très* lumineux), en veillant néanmoins à conserver un contraste suffisant. Les règles d’accessibilité du contenu textuel (édictées par les *Web Content Accessibility Guidelines* / WCAG) proposent de ne pas descendre [en dessous de certaines valeurs](https://developer.mozilla.org/fr/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Contraste_de_la_couleur). Le sélecteur de couleur de Firefox donne une “note” au contraste produit par la combinaison de la couleur du texte et de son arrière-plan.
+
+Toute information apportée par la couleur doit également prendre en compte les problématiques liées au daltonisme et aux différents types de dyschromatopsie (anomalies de la vision affectant la perception des couleurs, qui touchent beaucoup de monde – ~8% de la pop. masculine française, notamment). Voir [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/).
+
+## Détails dans la composition
 
 Défendre la veuve et l’orphelin, éviter les veuves et les orphelines.
+
 ```
 p {
     orphans: 2;
@@ -134,8 +151,12 @@ p {
 }
 ```
 
+
+
 # Microtypographie
+
+##### Mise à jour en cours {.blink}
 
 [Espaces unicode et navigateurs web](https://fvsch.com/espaces-unicode/)
 
-*Mise à jour en cours*
+Un [préprocesseur HTML pour la typographie](https://typeset.lllllllllllllllll.com/)
