@@ -54,7 +54,7 @@ Il s’agit donc dans un premier temps de veiller à la qualité de la compositi
 
 ### Quelques exemples de composition de texte 
 
-<div class="scrollables"  markdown="1" >
+<div class="scrollables" >
 
   <figure>
     <a href="https://www.lemonde.fr/big-browser/article/2020/07/17/les-emojis-au-c-ur-de-batailles-de-representation_6046552_4832693.html"><img src="images/lemonde.png" alt="Composition typographique"></a> 
@@ -103,6 +103,7 @@ Le design graphique est un langage dont la richesse réside dans la tension qu�
   <img src="images/mark-zuckerberg-samsung-unpacked-2016.jpg">
   <figcaption>Réalité virtuelle : Mark Zuckerberg crée la surprise à la conférence Samsung au MWC2016 © Facebook</figcaption>
 </figure>
+
 <blockquote> 
   <p>The important question then, is not: Are we becoming cyborgs? It is: What kind of cyborg do we want to be, now and in the future?</p>
   <cite>
