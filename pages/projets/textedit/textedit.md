@@ -30,29 +30,27 @@
 
 Lawrence Lessig est professeur de droit des affaires au Centre Berkman de la Harvard Law School.
 
-Dans cet article, on y découvre le code comme "loi du cyberpespace". Selon comment le code a été écrit et pensé, il changera radicalement la façon dont on utilise internet et le web : par exemple selon le code, on sera anonyme ou surveillé, capable d'accéder à toutes les informations ou seulement à une portion.
+Dans cet article Lessig présente le code comme la "loi du cyberpespace". Selon comment le code a été conçu, il modifie radicalement la façon dont on peut utiliser les outils informatiques ou numériques.
 
-L'auteur analyse ainsi la régulation d'internet, ce que contrôle le code, évoque les architectures du cyberespace et enfin les valeurs sous-jacentes du code : les codeurs écriront le code, mais auront nous démocratiquement un mot à dire dans les valeurs qu'ils mettront dans celui-ci ?
+L'auteur analyse notamment la régulation d'internet, ce que contrôle le code, évoque les architectures du cyberespace et enfin les valeurs sous-jacentes du code : les codeurs (majoritairement issus des ) écrivent le code, mais avons-nous démocratiquement un mot à dire dans les valeurs qu'ils mettent dans celui-ci ?
 
 [La traduction du texte](https://framablog.org/2010/05/22/code-is-law-lessig/) a été produite par Barbidule, Siltaar, Goofy & Don Rico pour Framasoft. L’article original est en ligne sur https://harvardmagazine.com/2000/01/code-is-law-html
 
 Devenu un “classique”, le texte a inspiré de nombreuses réactions. Lionel Maurel en a proposé un renversement, « Law Is Code », [sur son blog S.I.Lex](https://scinfolex.com/2014/01/24/comment-code-is-law-sest-renverse-en-law-is-code/). Véronique Bonnet, présidente de l’April, professeur de philosophie, propose [Code is Education](https://www.april.org/code-education-un-editorial-de-rentree-de-veronique-bonnet-presidente-de-l-april). Olivier Ertzscheid, pas avare en jeux de mots annonçait « [Code is Jail / business / money / judge](https://affordance.typepad.com/mon_weblog/2015/03/code-is-law-and-code-is-jail.html) ».  Lessig est par ailleurs un des fondateurs des licences [*Creative Commons*](https://creativecommons.org/) et l’auteur du livre *Free Culture*, [téléchargeable légalement ici-même](../zones/texts/lessing_freeculture.odt).
 
 
-<a class="button" href="https://harvardmagazine.com/2000/01/code-is-law-html"><span>Lire le texte</span></a>
+<a class="button" href="https://framablog.org/2010/05/22/code-is-law-lessig/"><span>Lire le texte</span></a>
 
 ****
 
 
 <section id="mobile"  markdown="1" >
 
-## <span>1. Mobile first</span>
+## <span>1. Mobile *text* first</span>
 
 L’approche *mobile first*, notamment développée par Luke Wroblewski dans son ouvrage éponyme ([Mobile First, A Book Apart, Eyrolles, 2012](http://static.lukew.com/MobileFirst_LukeW.pdf), à [télécharger ici](https://www.dropbox.com/s/u07bwpgbkjkdoem/Mobile_first_ed1_v1.pdf?dl=0)) permet de se concentrer sur l’accessibilité et la lisibilité du contenu dans les conditions de mise en page les plus contraintes.
 
 Il s’agit donc dans un premier temps de veiller à la qualité de la composition typographique : choix des familles de caractères, gestion de la hiérarchie, espace blanc, adaptation du corps de texte au support, etc.
-
-Les contraintes, notamment spatiales, ne doivent cependant pas empêcher l’audace et l’ambition dans la mise en page ou la composition typographique.
 
 ### Quelques exemples de composition de texte 
 
@@ -91,8 +89,30 @@ Les contraintes, notamment spatiales, ne doivent cependant pas empêcher l’aud
     <figcaption>NYTimes.com</figcaption>
   </figure>
 
-  
-
 </div>
+
+</section>
+
+<section id="mobile"  markdown="1" >
+
+## <span>2. Vibration</span>
+
+Le design graphique est un langage dont la richesse réside dans la tension qu’il entretient entre art et communication, entre la mise en forme d’un matériau informatif et la création d’une vibration esthétique et sensible. 
+
+<figure>
+  <img src="images/mark-zuckerberg-samsung-unpacked-2016.jpg">
+  <figcaption>Réalité virtuelle : Mark Zuckerberg crée la surprise à la conférence Samsung au MWC2016 © Facebook</figcaption>
+</figure>
+<blockquote> 
+  <p>The important question then, is not: Are we becoming cyborgs? It is: What kind of cyborg do we want to be, now and in the future?</p>
+  <cite>
+  Sean Ness, <i>Human+Machine Futures in Full Color: Extending Our Senses and Ourselves</i>, IFTF, 2015 — Cité par la <a href="http://www.zite.fr/wp-content/uploads/2017/11/Brochure_Z9_Google.pdf">revue Z</a></cite>  
+</blockquote>
+
+Tout exercice de design propose au designer de s’approprier le contenu à mettre en forme. Les contraintes issues de l’approche *mobile first*, notamment spatiales, ne doivent pas empêcher l’audace et l’ambition dans la mise en page ou la composition typographique. 
+
+La convocation d’images, de citations, d’illustrations est possible. Tout comme est possible – souhaitable – la création d’un rythme au sein du document, qui soutienne la lecture.
+
+Le paratexte (titre et sous-titre, auteur, date, colophon et crédits) doit être questionné et pris en charge pour le donner à la lecture : dans quel ordre doit-on afficher ces éléments ? Quels registres hiérarchiques doit-on proposer ? Est-il envisageable de commencer par le texte et de finir par le titre ? Etc.
 
 </section>
