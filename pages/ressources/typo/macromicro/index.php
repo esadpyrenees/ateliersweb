@@ -4,8 +4,8 @@
     $section="ressources";
     $subsection="typo";
     $nav = "/web/snippets/ressources/type.php";
-    $subsubsection="macro";
-    $mdfile = "./macro.md";
+    $subsubsection="macromicro";
+    $mdfile = "./macromicro.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

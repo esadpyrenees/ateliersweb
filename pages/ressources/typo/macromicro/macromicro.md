@@ -1,0 +1,141 @@
+# Macrotypographie
+
+> On ne peut pas *ne pas* communiquer    
+— Paul Watzlawick
+
+> La macrotypographie désigne l’agencement de l’espace typographique et la mise en page : le format de l’imprimé, la taille et la disposition des colonnes de texte et des illustrations, la hiérarchisation des titres et des légendes.  
+— Le détail en typographie, Jost Hochuli, Éditions B42
+
+## Sélection
+
+Une bonne composition typographique requiert un bon choix typographique.
+Il faut considérer :
+* le ton (la justesse du choix par rapport au contenu mis en forme)
+* la lisibilité (corps de texte ou titrage, légendes)
+* la qualité technique (complétude du jeu de caractères, spacing, hinting, fonctionnalités opentype)
+* les variations disponibles (présence d’italiques, de vriations de graisse, de largeurs)
+
+La page de références dédiées aux [fonderies numériques](../../../references/typo/) contient de très nombreux liens vers des fournisseurs de polices de caractères de qualité (on n’y trouvera donc pas de lien vers dafont.com, bien qu’une fonte issue de ce site puisse parfaitement répondre aux enjeux évoqués ci-dessus).
+
+L’appairage (mise en combinaison de deux ou plusieurs fontes dans un même document) recquiert un soin particulier. De nombreuses ressources existent en ligne pour trouver de l’inspiration : [fontpair.co](https://fontpair.co/), [fontsinuse.com](https://fontsinuse.com/), etc.
+
+## Unités
+
+Pour déterminer la taille (le corps) du texte dans le contexte d’une page web, il est préférable d’utiliser des unités relatives (`em`, `rem` voire `%`) que des unités absolues (`cm`, `pt`, ou même `px`). Cela permet de composer le texte en gardant à l’esprit les *relations* qu’entretiennent les éléments entre eux et facilite la réalisation d’un document à la [typographie *responsive*](../../rwd/#typography). 
+
+#### em
+L’unité `em` est relative au corps de texte de l’élément parent.
+
+```
+div         { font-size: 16px; }
+div h1      { font-size: 2em; }   /* = 32px */ 
+div p       { font-size: .75em; } /* = 12px */ 
+div p small { font-size: .75em; } /* = 9px */ 
+```
+
+#### rem
+L’unité `rem` est relative au corps de texte de l’élément HTML.
+
+```
+html        { font-size: 16px; }
+div h1      { font-size: 2rem; }   /* = 32px */ 
+div p       { font-size: .75rem; } /* = 12px */ 
+div p small { font-size: .75rem; } /* = 9px <= différent */ 
+```
+
+#### vw / vh
+Pour les gros corps de texte, on peut envisager d’utiliser les unités `vw` et `vh`, liées à la taille de l’écran (plus précisément au *viewport*, zone visible du navigateur) en les couplant à la fonction `calc` de CSS, qui permet de multiplier/aditionner/diviser/soustraire des valeurs établies en différentes unités.
+
+Approche simplifiée :
+
+```
+h1 { font-size: calc(4vw + 1rem); }
+```
+
+Approche complète :
+
+
+```
+/* applicable en dessous de 320px */
+h1 { font-size: 1.25rem; }
+p { font-size: .9375rem; }
+
+/* applicable entre 320px et 960px */
+@media screen and (min-width: 320px) {
+    h1 { font-size: calc( 1.25rem + 3.125vw - 10px ); }
+    p { font-size: calc( .9375rem + 0.46875vw - 1.5px ); }
+}
+/* applicable au dessus de 960px */
+@media (min-width: 960px) {
+    h1 { font-size: calc( 1.25rem + 20px ); }
+    p { font-size: calc( .9375rem + 3px ); }
+}
+```
+<small>Exemple issu de l’article [The math of CSS Locks](https://fvsch.com/css-locks) de Florens Verschelde.</small>
+
+<style>
+    .relative{ background:#eee; padding: 1em}
+    .relative h1 { font-size: 1.25rem; margin:0; padding:0}
+    .relative p { font-size: .9375rem; margin: 0}
+@media screen and (min-width: 320px) {
+    .relative h1 {
+        font-size: calc( 1.25rem + 3.125vw - 10px );
+    }
+    .relative p {
+        font-size: calc( .9375rem + 0.46875vw - 1.5px );
+    }
+}
+@media (min-width: 960px) {
+    .relative h1 {
+        font-size: calc( 1.25rem + 20px );
+    }
+    .relative p {
+        font-size: calc( .9375rem + 3px );
+    }
+}
+</style>
+<div class="relative" resizable>
+<h1>Redimensionner…</h1>
+<p>…le navigateur pour voir le titre évoluer de 20px à 40px et le texte de 15 à 18px.</p>
+</div>
+
+## Rythme, échelle et hiérarchie
+
+La taille et la définition des écrans ayant considérablement augmenté depuis ces dernières années (tout comme la qualité des moteurs de rendu typographique des appareils), l’usage de corps de texte importants est à favoriser. 
+
+Pour le texte long, un corps minimal de 16px (voire [beaucoup plus](https://fvsch.com/body-copy-sizes)) est ~~souhaitable~~ nécessaire.
+
+On peut envisager de réduire ce corps de base pour le mobile, généralement tenu plus près de l’oeil du lecteur, afin d’augmenter le nombre de mots par ligne.
+
+Une échelle tpographique, permettant de conserver un rapport harmonieux entre les différents corps peut être mise en place :
+
+```
+body  { font-size: 16px; }
+h1    { font-size: 2.25rem; }  /* 16px × 2.25 = 36px */ 
+h2    { font-size: 1.5rem; }   /* 16px × 1.5 = 24px */ 
+h3    { font-size: 1.125rem; } /* 16px × 1.125 = 18px */ 
+small { font-size: .875rem; }  /* 16px × 0.875 = 14px */ 
+```
+
+Plusieurs outils en ligne permettent de générer des échelles typographiques basés sur les rapports de proportion classiques : [type-scale.com](https://type-scale.com/) ou [Type Scale Generator](https://baseline.is/tools/type-scale-generator/).
+
+
+## Espace
+
+## Contraste et couleur
+
+## Composition
+
+Défendre la veuve et l’orphelin, éviter les veuves et les orphelines.
+```
+p {
+    orphans: 2;
+    widows: 2;
+}
+```
+
+# Microtypographie
+
+[Espaces unicode et navigateurs web](https://fvsch.com/espaces-unicode/)
+
+*Mise à jour en cours*
