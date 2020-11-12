@@ -1,5 +1,32 @@
 # Une visite du web
 
+#### 12/11/2020
+
+Le [domaine public](https://publicdomainreview.org/) est vaste ; il a même un [calendrier de l’avent](http://aventdudomainepublic.org/?date=2018-12-31). 
+
+[Dirk Koy](https://vimeo.com/dirkkoy) étudie des formes animées. Raphaël Bastide propose des [formes empathiques](https://empathi.cc/).
+
+La biennale de design d’Istanbul revisite l’empathie : [Designs for more than one](https://empathyrevisited.iksv.org/en/index) pendant qu’en Nouvelle-Zélande, Anne Galloway se pose la question d’un [design non humano-centré](http://www.morethanhumanlab.nz/).
+
+[CSS est bizarre](https://www.youtube.com/watch?v=aHUtMbJw8iA&feature=emb_title) (et c’est important). Les [couleurs ont des noms](http://www.html-color-names.com/). Nicolas Nova explore nos [usages des smartphones](https://www.youtube.com/watch?v=x-Rx-P_75UM)
+
+On peut se perde dans les [archives musicales du sombre et de l’expérimental](https://www.gutsofdarkness.com/god/styles.php). Outre son travail de microenquêtes sur l’écriture dans l’espace public au sein de [Scriptopolis](http://www.scriptopolis.fr/) et le [sublime livre](https://editions-non-standard.com/books/scriptopolis) qui en est tiré, Jérôme Denis met des cassettes dans sa [boombox](https://twitter.com/search?q=%23boombox%20(from%3Ajrmdns)&src=typed_query), des pièces dans le [jukebox](https://twitter.com/search?q=%23jukebox%20(from%3Ajrmdns)&src=typed_query) et chaque vendredi, propose un [disque pour la nuit](https://twitter.com/search?q=(from%3Ajrmdns)%20%23seulelamusique&src=typed_query).
+
+Entre la [Loi de programmation de la recherche](https://www.youtube.com/watch?v=aT2aIN551SQ&feature=emb_title), adoptée en première lecture à l’Assemblée nationale et la [proposition de loi « Sécurité globale »](https://www.laquadrature.net/securiteglobale/) examinée bientôt, la dérive autoritaire du gouvernement augure de sombres jours. Oups… ai-je [le droit d’écrire ça ici](https://fr.wikipedia.org/wiki/Libert%C3%A9_acad%C3%A9mique) ?
+
+« Les seins condensent cette injonction enracinée de la disponibilité corporelle. Ils doivent être suffisamment visibles pour remplir leur rôle d’appât sexuel mais pas trop, pour demeurer les objets privés de ceux à qui ils sont destinés. » nous dit [Camille Froidevaux-Metterie](https://lesglorieuses.fr/revolution-genitale/?v=11aedd0e4327).
+
+Il faut sans doute que je lise [Ruined By Design](https://www.ruinedby.design/) un livre de Mike Monteiro sous-titré « How Designers Destroyed the World and 
+What We Can Do to Fix It ».
+
+Naître queux, mordre les poussières ou partir en courants avec [Lady Dada](https://ironemes.peuplecache.com/) aka [Étienne Candel](https://twitter.com/etienne_cdl). Il faut faire feu de toute loi. Quand on veut que tout change, [on appelle le feu](https://fr.wikipedia.org/wiki/La_Psychanalyse_du_feu).
+
+Les 103 numéros d’[OASE](https://oasejournal.nl/) (*Journal for architecture*) sont disponibles en pdf et [Karel Martens](https://www.martens-martens.com/index.html) a un site web.
+
+—
+
+#### 12/10/2020
+
 Le [Cyberespace est indépendant](http://editions-hache.com/essais/barlow/barlow2.html). [Presque](https://www.liberation.fr/debats/2018/02/09/une-nouvelle-declaration-d-independance-du-cyberespace_1628377).
 
 Philippe de Jonckheere est le responsable du [désordre](https://desordre.net/) mais aussi l’auteur de son [plan](http://desordre.net/plan). Le [cyberespace est une ZAD](https://www.affordance.info/mon_weblog/2020/04/le-cyberespace-est-une-zad.html).
