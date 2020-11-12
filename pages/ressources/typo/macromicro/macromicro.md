@@ -1,7 +1,7 @@
 > On ne peut pas *ne pas* communiquer    
 — Paul Watzlawick
 
-La prise en compte conjointe des notions de macro et micro-typographie est essentielle pour atteindre la perfection appelée de ses vœux par Maximilien Vox : « En typographie, il n'y a qu'un seul degré de bien : la perfection ». Maximilien reconnaissait néanmoins que « La typographie est simple, aussi simple que de jouer du violon. »
+La prise en compte conjointe des notions de macro et micro-typographie est essentielle pour atteindre la qualité typographique appelée de ses vœux par Maximilien Vox : « En typographie, il n'y a qu'un seul degré de bien : la perfection ». Max reconnaissait néanmoins que « La typographie est simple, aussi simple que de jouer du violon. »
 <br><br>
 
 
@@ -60,13 +60,13 @@ Approche simplifiée :
 h1 { font-size: calc(4vw + 1rem); }
 ```
 
-Approche complète :
+Approche complète (complexe) :
 
 
 ```
 /* applicable en dessous de 320px */
-h1 { font-size: 1.25rem; }
-p { font-size: .9375rem; }
+h1 { font-size: 1.25rem; } /* = 20px */
+p { font-size: .9375rem; } /* = 15px */
 
 /* applicable entre 320px et 960px */
 @media screen and (min-width: 320px) {
@@ -104,7 +104,7 @@ p { font-size: .9375rem; }
 </style>
 <div class="relative" resizable>
 <h1>Redimensionner…</h1>
-<p>…le navigateur pour voir le titre évoluer de 20px à 40px et le texte de 15 à 18px.</p>
+<p>…le navigateur pour voir le titre évoluer de 20px à 40px et le texte de 15 à 18px selon la largeur du <i>viewport</i>. Ou <a href="https://fvsch.com/articles/css-locks/demo3.html">accéder à l’exemple en ligne</a>.</p>
 </div>
 
 ## Rythme, échelle et hiérarchie
@@ -142,7 +142,7 @@ Toute information apportée par la couleur doit également prendre en compte les
 
 ## Détails dans la composition
 
-Défendre la veuve et l’orphelin, éviter les veuves et les orphelines.
+Défendre la veuve et l’orphelin, éviter les veuves et les orphelines. (Utile en cas de mise en page en colonnes uniquement)
 
 ```
 p {
