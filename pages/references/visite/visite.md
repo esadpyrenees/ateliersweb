@@ -4,11 +4,9 @@
 
 Le [domaine public](https://publicdomainreview.org/) est vaste ; il a même un [calendrier de l’avent](http://aventdudomainepublic.org/?date=2018-12-31). 
 
-[Dirk Koy](https://vimeo.com/dirkkoy) étudie des formes animées. Raphaël Bastide propose des [formes empathiques](https://empathi.cc/).
+[Dirk Koy](https://vimeo.com/dirkkoy) étudie des formes animées. Raphaël Bastide propose des [formes empathiques](https://empathi.cc/) et la biennale de design d’Istanbul essaie de revisiter l’empathie : [Designs for more than one](https://empathyrevisited.iksv.org/en/index) pendant qu’en Nouvelle-Zélande, Anne Galloway se pose la question d’un [design non humano-centré](http://www.morethanhumanlab.nz/).
 
-La biennale de design d’Istanbul revisite l’empathie : [Designs for more than one](https://empathyrevisited.iksv.org/en/index) pendant qu’en Nouvelle-Zélande, Anne Galloway se pose la question d’un [design non humano-centré](http://www.morethanhumanlab.nz/).
-
-[CSS est bizarre](https://www.youtube.com/watch?v=aHUtMbJw8iA&feature=emb_title) (et c’est important). Les [couleurs ont des noms](http://www.html-color-names.com/). Nicolas Nova explore nos [usages des smartphones](https://www.youtube.com/watch?v=x-Rx-P_75UM)
+[CSS est bizarre](https://www.youtube.com/watch?v=aHUtMbJw8iA&feature=emb_title) (et c’est important). Les [couleurs ont des noms](http://www.html-color-names.com/). Nicolas Nova examine nos [usages des smartphones](https://www.youtube.com/watch?v=x-Rx-P_75UM) et [explore le futur](http://nearfuturelaboratory.com/) à travers le design.
 
 On peut se perde dans les [archives musicales du sombre et de l’expérimental](https://www.gutsofdarkness.com/god/styles.php). Outre son travail de microenquêtes sur l’écriture dans l’espace public au sein de [Scriptopolis](http://www.scriptopolis.fr/) et le [sublime livre](https://editions-non-standard.com/books/scriptopolis) qui en est tiré, Jérôme Denis met des cassettes dans sa [boombox](https://twitter.com/search?q=%23boombox%20(from%3Ajrmdns)&src=typed_query), des pièces dans le [jukebox](https://twitter.com/search?q=%23jukebox%20(from%3Ajrmdns)&src=typed_query) et chaque vendredi, propose un [disque pour la nuit](https://twitter.com/search?q=(from%3Ajrmdns)%20%23seulelamusique&src=typed_query).
 
@@ -19,9 +17,9 @@ Entre la [Loi de programmation de la recherche](https://www.youtube.com/watch?v=
 Il faut sans doute que je lise [Ruined By Design](https://www.ruinedby.design/) un livre de Mike Monteiro sous-titré « How Designers Destroyed the World and 
 What We Can Do to Fix It ».
 
-Naître queux, mordre les poussières ou partir en courants avec [Lady Dada](https://ironemes.peuplecache.com/) aka [Étienne Candel](https://twitter.com/etienne_cdl). Il faut faire feu de toute loi. Quand on veut que tout change, [on appelle le feu](https://fr.wikipedia.org/wiki/La_Psychanalyse_du_feu).
+*Naître queux*, *mordre les poussières* ou *partir en courants* avec les ironèmes de [Lady Dada](https://ironemes.peuplecache.com/) aka [Étienne Candel](https://twitter.com/etienne_cdl). Il faut faire feu de toute loi. Quand on veut que tout change, [on appelle le feu](https://fr.wikipedia.org/wiki/La_Psychanalyse_du_feu).
 
-Les 103 numéros d’[OASE](https://oasejournal.nl/) (*Journal for architecture*) sont disponibles en pdf et [Karel Martens](https://www.martens-martens.com/index.html) a un site web.
+Les 103 numéros d’[OASE](https://oasejournal.nl/) (*Journal for architecture*) sont disponibles en pdf et [Karel Martens](https://www.martens-martens.com/index.html) a un site web. Remarque, [Bonnefrite](http://bonnefrites.free.fr/) et [Vincent Perrottet](https://vincentperrottet.com/) aussi.
 
 —
 
