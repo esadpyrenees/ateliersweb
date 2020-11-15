@@ -27,7 +27,7 @@ Alessandro Ludovico, B42, 2016 [↗](https://editions-b42.com/produit/post-digit
 Bernard Stiegler, Julian Assange, Paul Jorion, Dominique Cardon, Evgeny Morozov, François Bon, Fyp éditions
 
 * #### Cyberstructure, L'Internet, un espace politique
-Stéphane Bortzmeyer, C&F éditions
+Stéphane Bortzmeyer, C&F éditions, [↗](https://cyberstructure.fr/)
 
 * #### L'appétit des géants, Pouvoir des algorithmes, ambitions des plateformes, 
 Olivier Ertzscheid, C&F éditions
@@ -40,6 +40,9 @@ Olivier Auber, Fyp éditions
 
 * #### L’écriture sans ecriture – Du langage à l'âge numérique 
 Kenneth Goldsmith, éditions Jean Boîte, 2018
+
+* #### Confessions d’un voleur – Internet : La liberté confisquée
+Laurent Chemla, Denoël, [↗](http://www.confessions-voleur.net/)
 
 </div>
 
