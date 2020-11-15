@@ -1,0 +1,132 @@
+body{
+  background: #eee;
+  color: #333;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 20px;  
+  /* suppression des marges par défaut */
+  margin:0
+}
+
+
+/* ------------------------ styles communs (présents dans toute CSS qui se respecte…)  */
+
+* { box-sizing: border-box; } /* voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/box/#box-model */
+
+img {
+  /* pour empêcher que les très grandes images ne “dépassent” */
+  max-width: 100%;
+}
+a {
+  /* la couleur des liens doit être spécifiée */
+  color: currentColor; /* currentColor permet aux liens d’hériter de la couleur de leur contexte */  
+  /* on peut supprimer le soulignement – ou pas */
+  /* text-decoration: none; */
+}
+
+/* ------------------------ styles de mise en page générale */
+
+header {
+  text-align: center;
+  /* calc permet au header d’avoir une hauteur de 100% du viewport –la zone visible du navigateur– *moins* 3 em (la hauteur de la nav) */
+  height: calc(100vh - 3em);
+}
+header p { margin: 0 auto;} /* centrage du p */
+header img {
+  /* object-fit permet de recadrer une image (ici pour qu’elle recouvre la zone spécifiée par height et width */
+  object-fit: cover;
+  height: 70%;
+  width: 100%;
+}
+/* marges et alignements */
+header h1 { margin-bottom: 0; }
+
+nav {
+  height: 3em;
+  background: #000;
+  /* flex permet de mettre en page (=aligner) les éléments dans une direction */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* la nav reste fixe en haut de l’écran quand elle atteint le haut de l’écran */
+  position: sticky;
+  top: 0;
+  /* z-index permet de définir la “profondeur” de l’élément */
+  /* ici, afin qu’il passe au dessus de tout le reste */
+  z-index: 1;
+}
+nav a {
+  /* la couleur des liens dans la nav doit être spécifiée */
+  color:white;
+  /* on peut supprimer le soulignement */
+  text-decoration: none;
+  /* et ajouter de l’espace entre chaque */
+  padding:0 1em;
+  /* diminuer la taille */
+  font-size: .75em;
+  line-height: 1;
+  /*  voire les mettre en caps et les interlettrer */
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+section {
+  /* au minimum, chaque section remplit la zone de l’écran */
+  min-height: 100vh;
+  /* on ajoute de la marge à l’intérieur (padding) de chaque section */
+  padding: 2em;
+  /* arrière-plan par défaut */
+}
+
+/* grâce aux ids on peut spécifier différents arrière-plans et couleurs  */
+
+#introduction { background: #ccc; color:#333;}
+#biographie { background: #eee; color:#333;}
+#entretiens { background: #ccc; color:#000;}
+#galerie { background: #000; color:#ccc;}
+#inventaire { background: #fff; color:#333;}
+#glossaire { background: #ccc; color:#333;}
+#films { background: #eee; color:#333;}
+#bibliographie { background: #ccc; color:#333;}
+
+/*  styles génériques pour les figure et figcaption (légendes) */
+figure {
+  /* suppression des marges par défaut */
+  margin: 1em 0;
+}
+figcaption {
+  margin-top: .5em;
+  font-size: .75em;
+  opacity: .7; /* de 0 (transarent) à 1 (opaque) */
+}
+
+
+/*  styles pour le footer*/
+footer {
+  padding: 2em;
+}
+
+/* ------------------------ styles typographiques vus en exemple 8 (légèrement modifiés) */
+
+h1 {
+  text-transform: uppercase;
+  font-size: 80px;
+  /* suppression de l’alignement sur le h1, on va le mettre sur l’ensemble du header */
+  /* l’alignement sera “hérité” */
+  /* text-align: center; */
+  font-weight: normal;
+}
+
+p {
+  max-width: 38em;
+  line-height: 1.4;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 40px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
