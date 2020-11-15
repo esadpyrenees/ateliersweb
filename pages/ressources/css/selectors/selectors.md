@@ -24,7 +24,7 @@ header a {
 
 Ici, les liens `<a>` contenus dans le `<header>` seront italicisés.
 
-## Les classes
+## Les classes {#class}
 
 On ne souhaite pas forcément attribuer un style identique à tous les paragraphes ou à tous les titres. Il faut donc pouvoir les différencier.
 
@@ -49,7 +49,7 @@ Le sélecteur de classe `.date` ciblera tous les éléments HTML dotés de l’a
 </p>
 ```
 
-## Les identifiants
+## Les identifiants {#id}
 
 On peut également utiliser l’attribut `id` dans le code HTML et le cibler avec un croisillon (qui n’est pas un “dièse” ♯, ni un “hashtag”) dans le code CSS.
 
