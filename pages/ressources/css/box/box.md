@@ -105,7 +105,7 @@ Une version abrégée de la notation permet de définir les trois propriétés �
 blockquote{ border: 1px solid #ddd; }
 ```
 
-## Box model
+## Box model {#box-model}
 
 La notion de « modèle de boîte » en CSS correspond à la manière dont le navigateur interprète la largeur et la hauteur d’un élément. Le modèle standard produit une largeur apparente qui correspond à `width` + `padding` + `border`. De même pour la hauteur : `height` + `padding` + `border`.
 
