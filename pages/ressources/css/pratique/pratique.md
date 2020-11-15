@@ -2,7 +2,9 @@
 
 Ce “pas-à-pas” est dédié à montrer le processus de structuration d’un document HTML en vue de lui appliquer de la mise en forme CSS.
 
-👉 Les exemples HTML et CSS sont commentés. Il faut afficher le code source des pages pour accéder aux commentaires (`cmd/ctrl + U` sous Firefox ou `cmd/ctrl + maj + U` pour Chrome)
+👉 Les exemples HTML et CSS sont commentés. Il faut afficher le code source des pages pour accéder aux commentaires (`cmd/ctrl + U` sous Firefox ou `cmd/ctrl + maj + U` pour Chrome).
+
+Les [exemples peuvent être téléchargés](css-pas-a-pas.zip).
 
 ## 1 – Déterminer un espace de travail
 
