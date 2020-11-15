@@ -4,9 +4,6 @@
 La prise en compte conjointe des notions de macro et micro-typographie est essentielle pour atteindre la qualité typographique appelée de ses vœux par Maximilien Vox : « En typographie, il n'y a qu'un seul degré de bien : la perfection ». Max reconnaissait néanmoins que « La typographie est simple, aussi simple que de jouer du violon. »
 <br><br>
 
-
-##### Mise à jour en cours {.blink}
-
 # Macrotypographie
 
 
@@ -25,7 +22,17 @@ Il faut considérer :
 
 La page de références dédiées aux [fonderies numériques](../../../references/typo/) contient de très nombreux liens vers des fournisseurs de polices de caractères de qualité (on n’y trouvera donc pas de lien vers dafont.com, bien qu’une fonte issue de ce site puisse parfaitement répondre aux enjeux évoqués ci-dessus).
 
-L’appairage (mise en combinaison de deux ou plusieurs fontes dans un même document) recquiert un soin particulier. De nombreuses ressources existent en ligne pour trouver de l’inspiration : [fontpair.co](https://fontpair.co/), [fontsinuse.com](https://fontsinuse.com/), etc.
+S’il n’existe pas de caractères intrinsèquement bons ou de mauvais, il existe de bons ou de mauvais usages.
+
+Chaque caractère est ancré dans sa propre histoire et se définit, au delà de ses qualités de dessin, par un contexte culturel d’usages.  
+
+## Associations typographiques internationales
+
+L’appairage (mise en combinaison de deux ou plusieurs fontes dans un même document) recquiert un soin particulier. 
+
+Il est souvent délicat d’associer deux fontes de familles similaires, ou à la personnalité très forte. Il faut privilégier le contraste, à la fois dans les choix de caractères et dans les graisses et corps utilisés.
+
+De nombreuses ressources existent en ligne pour trouver de l’inspiration : [fontpair.co](https://fontpair.co/), [fontsinuse.com](https://fontsinuse.com/), [Better Web Type](https://betterwebtype.com/combining-fonts-guide), [Typewolf](https://www.typewolf.com/)…
 
 ## Unités
 
@@ -57,8 +64,14 @@ Pour les gros corps de texte, on peut envisager d’utiliser les unités `vw` et
 Approche simplifiée :
 
 ```
-h1 { font-size: calc(4vw + 1rem); }
+h1 { font-size: calc(5vw + 1rem); }
 ```
+
+<style>
+    .fluid{ font-size: calc(5vw + 1rem); margin:0 ; max-width:none}
+</style>
+
+<p class="fluid">De la fluidité</p>
 
 Approche complète (complexe) :
 

@@ -14,4 +14,4 @@ Des **références** sur les [fontes variables](../../references/typo/#fontes-va
 
 Des **exemples** consacrés à la [mise en page](../../exemples/#layout) et à la [gestion du texte](../../exemples/#typo) ;
 
-Un **projet** dédié à la mise en page web d’un texte long : [Zones](../../projets/zones).
+Un **projet** dédié à la mise en page web d’un texte long ([Zones](../../projets/zones)), d’un texte moyen ([Textedit](../../projets/textedit)) ou de textes courts ([Feck Perfuction](../../projets/perfuction)).

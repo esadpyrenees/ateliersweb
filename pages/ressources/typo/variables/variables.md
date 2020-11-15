@@ -11,10 +11,22 @@ Auparavant, l'utilisation de plusieurs styles requerait le chargement de plusieu
 ### Intégration & usage
 
 On peut principalement intégrer des fontes variables à une feuille de style CSS via les formats de fichier `ttf` et `woff2`. 
+
+#### TTF :(
 ```css
 @font-face {
     font-family: "Mutator";
     src: url("MutatorSans.ttf") format("truetype");   
+}
+```
+
+#### WOFF2 ;)
+```css
+@font-face {
+    font-family: 'Commissioner';
+    src: url('https://on-air.caricomassimo.org/assets/fonts/Commissioner.woff2') format('woff2 supports variations'),
+        url('https://on-air.caricomassimo.org/assets/fonts/Commissioner.woff2') format('woff2-variations');
+    font-weight: 100 900;
 }
 ```
 
@@ -26,7 +38,6 @@ Certains axes (`stretch`, la chasse, `weight`, la graisse ; mais aussi *slant*, 
 @font-face {
     font-family: 'Plex Sans';
     src: url('IBMPlexSansVar-Roman.woff2') format('woff2-variations');
-    /* les propriétés suivantes aident le navigateur, mais sont optionnelles */
     font-stretch: 85% 100%; /* les valeurs de font-stretch pour Plex Sans varient entre 85% et 100% */
     font-weight: 100 700; /* les valeurs de font-weight pour Plex Sans varient entre 100 et 700 */
     font-style: normal;
