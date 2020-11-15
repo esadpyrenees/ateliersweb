@@ -17,4 +17,8 @@
     <li class="<?= $subsubsection == 'grid' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/grid/">Grid</a></li>
     <li class="<?= $subsubsection == 'transitions' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/transitions/">Animation</a></li>
   </ul>
+  <h3>Pratique</h3>
+  <ul>
+    <li class="<?= $subsubsection == 'pratique' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/pratique/">Processus</a></li>
+  </ul>
 </nav>
