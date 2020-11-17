@@ -106,7 +106,7 @@ Objectifs :
 
 #### [Exemple #11](examples/11.html) : Aller plus loin
 
-## 12 – Recommencer
+## 12 – Faire vibrer
 
 Ces étapes ont permis de produire une mise en forme fonctionelle, assez simple et relativement efficace pour présenter le contenu. Rendre le contenu accessible et lisible est le premier enjeu du designer.
 

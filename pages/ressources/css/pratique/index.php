@@ -25,18 +25,23 @@
         margin:1em 0;
         font-weight:normal
     }
+    main h4::before {
+        font-size:2em;
+        position:relative;
+        top:.15em
+    }
     main h4:nth-of-type(1)::before { content: "😀 " }
     main h4:nth-of-type(2)::before { content: "😬 " }
     main h4:nth-of-type(3)::before { content: "😁 " }
     main h4:nth-of-type(4)::before { content: "😊 " }
     main h4:nth-of-type(5)::before { content: "😂 " }
-    main h4:nth-of-type(6)::before { content: "😆 " }
-    main h4:nth-of-type(7)::before { content: "😳 " }
+    main h4:nth-of-type(6)::before { content: "😳 " }
+    main h4:nth-of-type(7)::before { content: "😆 " }
     main h4:nth-of-type(8)::before { content: "🤓 " }
-    main h4:nth-of-type(9)::before { content: "😱 " }
-    main h4:nth-of-type(10)::before { content: "😆 " }
-    main h4:nth-of-type(11)::before { content: "😆 " }
-    main h4:nth-of-type(12)::before { content: "😆 " }
+    main h4:nth-of-type(9)::before { content: "😘 " }
+    main h4:nth-of-type(10)::before { content: "😏 " }
+    main h4:nth-of-type(11)::before { content: "😜 " }
+    main h4:nth-of-type(12)::before { content: "😱 " }
 </style>
 
     <main class="pane active" id="content">
