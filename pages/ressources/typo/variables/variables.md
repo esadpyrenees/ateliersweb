@@ -24,8 +24,8 @@ On peut principalement intégrer des fontes variables à une feuille de style CS
 ```css
 @font-face {
     font-family: 'Commissioner';
-    src: url('https://on-air.caricomassimo.org/assets/fonts/Commissioner.woff2') format('woff2 supports variations'),
-        url('https://on-air.caricomassimo.org/assets/fonts/Commissioner.woff2') format('woff2-variations');
+    src: url('fonts/Commissioner.woff2') format('woff2 supports variations'),
+        url('fonts/Commissioner.woff2') format('woff2-variations');
     font-weight: 100 900;
 }
 ```
