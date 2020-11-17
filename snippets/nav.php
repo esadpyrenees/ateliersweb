@@ -71,7 +71,7 @@
         <li class="<?php echo $subsection == 'storytellers' ? 'opened' : '' ?>"><a href="/web/pages/projets/storytellers/">Storytellers</a></li>
         <li class="<?php echo $subsection == 'portfolio' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Portfolio</a></li>
         <li class="<?php echo $subsection == 'textedit' ? 'opened' : '' ?>"><a href="/web/pages/projets/textedit/">Textedit</a></li>
-        <li class="<?php echo $subsection == 'perfuction' ? 'opened' : '' ?>"><a href="/web/pages/projets/perfuction/">Feck perfuction</a></li>
+        <li class="<?php echo $subsection == 'perfuction' ? 'opened' : '' ?>"><a href="/web/pages/projets/perfuction/">Puck Ferpection</a></li>
     </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
