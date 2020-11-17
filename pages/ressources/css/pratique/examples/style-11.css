@@ -1,0 +1,189 @@
+/* Les commentaires précédents ont été supprimés pour plus de clarté */
+/* Tout commentaire (sauf ceux en CAPS) correspond donc à une évolution par rapport au fichier style-08.css  */
+
+
+/* ------------------------ Ajout des typos */
+
+/* Voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/typo/webfonts/ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Xanh+Mono:ital@1&display=swap');
+
+
+/* ------------------------ Body */
+body{
+  background: #eee;
+  color: #333;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;  
+  margin:0;
+}
+
+/* ------------------------ STYLES COMMUNS */
+
+* { box-sizing: border-box; } 
+img { max-width: 100%; }
+a { color: currentColor; }
+
+.important {
+  background-color: yellow;
+}
+blockquote .important { color:black;}
+
+/* ------------------------ STYLES DE MISE EN PAGE GÉNÉRALE */
+
+header {
+  text-align: center;
+  height: calc(100vh - 3em);
+}
+header p { 
+  margin: 0 auto;
+  /* Modification de la casse, du corps et de l’interlettrage */
+  text-transform: uppercase;
+  font-size: .85em;
+  letter-spacing: .1em;
+} 
+header img {
+  object-fit: cover;
+  height: 70%;
+  width: 100%;
+}
+header h1 { margin-bottom: 0; }
+
+nav {
+  height: 3em;
+  background: #000;
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap;
+  position: sticky; top: 0; z-index: 1;
+}
+nav a {
+  color:white;
+  text-decoration: none;
+  padding:0 1em;
+  font-size: .75em;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2em;
+}
+
+#introduction { background: #ccc; color:#333;}
+#biographie { background: #eee; color:#333;}
+#entretiens { background: #ccc; color:#000;}
+#galerie { background: #000; color:#ccc;}
+#inventaire { background: #fff; color:#333;}
+#glossaire { background: #ccc; color:#333;}
+#films { background: #eee; color:#333;}
+#bibliographie { background: #ccc; color:#333;}
+
+figure {
+  margin: 1em 0;
+}
+figcaption {
+  margin-top: .5em;
+  font-size: .75em;
+  opacity: .7;
+}
+
+footer {
+  padding: 2em;
+}
+
+/* ------------------------ STYLES SPÉCIFIQUES DES SECTIONS */
+
+/* ----------- INTRODUCTION */
+#introduction img {
+  float: right;
+  max-width: 25%;
+}
+
+/* ----------- BIOGRAPHIE */
+#biographie figure {
+  float: right;
+  max-width: 25%;
+  padding-left: 2em;
+}
+#biographie h3 { margin-bottom: 0; margin-top: 1em;}
+#biographie p { margin: 0; }
+#biographie article {
+  columns: 2;
+  column-gap: 2em;
+}
+#biographie article h3 {break-after: avoid;}
+#biographie article p {break-inside: avoid;}
+#biographie article h3:first-child { margin-top: 0;}
+
+/* ----------- CITATION */
+blockquote {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: calc(1.5vw + 1rem);
+  margin: 0;
+  padding:3em;
+  font-family: 'Xanh Mono', monospace;
+  font-style: italic;
+}
+blockquote p { margin: 0;}
+
+/* ----------- ENTRETIENS */
+#entretiens figure {
+  float: right;
+  max-width: 25%;
+  padding-left: 2em;
+}
+.question {
+  font-weight: bold;
+}
+
+/* ----------- GALERIE */
+#galerie {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+}
+
+/* ----------- INVENTAIRE */
+#inventaire p {
+  font-family: serif;
+  font-family: 'Xanh Mono', monospace;
+}
+
+/* ----------- Glossaire */
+#glossaire {
+  columns: 4;
+  column-gap: 2em;
+}
+#glossaire article {
+  break-inside: avoid;
+}
+#glossaire  p {
+  font-size: .85em;
+}
+#glossaire h2 { margin-top: 0;}
+
+/* ------------------------ STYLES TYPOGRAPHIQUES */
+
+h1 {
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: normal;
+  /* Modification de l’approche */
+  letter-spacing: .1em;
+}
+
+p {
+  max-width: 38em;
+  line-height: 1.4;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 40px;
+}
+
+h3 {
+  margin-bottom: 0;
+}

@@ -95,3 +95,13 @@ Objectifs :
 * créer des liens dans la galerie pour afficher les images en taille originale
 
 #### [Exemple #10](examples/10.html) : Mise en page
+
+
+## 11 – Aller plus loin
+
+Objectifs :
+
+* choix typographique plus précis
+* mise en relief des informations importantes
+
+#### [Exemple #11](examples/11.html) : Aller plus loin
