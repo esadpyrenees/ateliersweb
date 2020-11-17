@@ -1,14 +1,14 @@
 
 <header>
   <h1>
-    <span>Feck</span>
-    <span>Perfuction</span>
+    <span>Puck</span>
+    <span>Ferpection</span>
   </h1>
 </header>
 
-[Feck Perfuction](https://www.feckperfuction.com/) est un livre/projet de [James Victore](https://www.jamesvictore.com/), graphiste, auteur et *guru* (très) états-unien, amateur de maximes percutantes. Si Maximilien Vox proposait qu’« En typographie, il n'y a qu'un seul degré de bien : la perfection », Victore – héritier d’*Emigre*, du post-modernisme ou de l’expressivité graphique et typographique – professe que « la normalité est un fil de fer barbelé pour l'esprit humain ».
+[Feck Perfuction](https://www.feckperfuction.com/) est un livre/projet/mantra de [James Victore](https://www.jamesvictore.com/), graphiste, auteur et *guru* (très) états-unien, amateur de maximes percutantes. Si Maximilien Vox proposait qu’« En typographie, il n'y a qu'un seul degré de bien : la perfection », Victore – héritier d’*Emigre*, du post-modernisme ou de l’expressivité graphique et typographique – professe que « la normalité est un fil de fer barbelé pour l'esprit humain ».
 
-Ce projet se propose d’explorer la mise en forme web expressive de textes (très) courts à travers une sélection de citations de grand·e·s et petit·e·s designers.
+Ce projet se propose d’explorer la mise en forme web expressive de très courts textes : une sélection de citations de grand·e·s et petit·e·s designers (ou non designers) liées au design et aux cultures numériques.
 
 Il s’agit de trouver un équilibre –ou d’affirmer le choix radical– entre les deux positions : perfection *vs* perfuction, transparence *vs* expressivité, simplicité *vs* complexité.
 
@@ -22,6 +22,9 @@ En utilisant toutes les possibilités de mise en forme que CSS propose, on mettr
 
 * #### Think more, design less
 — Ellen Lupton
+
+* #### On the Internet, nobody knows you're a dog
+— Peter Steiner
 
 * #### Less is more
 — Ludwig Mies Van Der Rohe
@@ -37,6 +40,9 @@ En utilisant toutes les possibilités de mise en forme que CSS propose, on mettr
 
 * #### Leise ist besser als laut
 — Dieter Rams
+
+* #### To save the world, we’re going to have to stop working
+— David Graeber
 
 * #### Less is a bore
 — Robert Venturi
