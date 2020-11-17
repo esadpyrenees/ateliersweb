@@ -105,3 +105,13 @@ Objectifs :
 * mise en relief des informations importantes
 
 #### [Exemple #11](examples/11.html) : Aller plus loin
+
+## 12 – Recommencer
+
+Ces étapes ont permis de produire une mise en forme fonctionelle, assez simple et relativement efficace pour présenter le contenu. Rendre le contenu accessible et lisible est le premier enjeu du designer.
+
+Une ambition supplémentaire, et également nécessaire, serait de transmettre *à travers les formes* graphiques et typographiques un supplément d’âme, qui rendrait mieux justice au contenu (ici, le travail de Vera Molnár), et produirait une vibration esthétique plus puissante.
+
+Pour ce faire, une *intention* doit guider la mise en forme CSS – et quelques modifications mineures doivent être apportées à la structure HTML.
+
+#### [Exemple #12](examples/12.html) : Vibration

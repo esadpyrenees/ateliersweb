@@ -1,0 +1,281 @@
+/* Les commentaires précédents ont été supprimés pour plus de clarté */
+/* Tout commentaire (sauf ceux en CAPS) correspond donc à une évolution par rapport au fichier style-08.css  */
+
+
+/* ------------------------ Ajout des typos */
+
+/* Voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/typo/webfonts/ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Xanh+Mono:ital@1&display=swap');
+
+
+/* ------------------------ html */
+html {
+  /* comportement du scroll pour la navigation interne à la page : déplacement fluide */
+  scroll-behavior: smooth;
+}
+
+/* ------------------------ Body */
+body{
+  background: #eee;
+  color: #333;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;  
+  margin:0;
+}
+
+/* ------------------------ STYLES COMMUNS */
+
+* { box-sizing: border-box; } 
+img { max-width: 100%; }
+a { color: currentColor; }
+
+.important {
+  background-color: yellow;
+}
+blockquote .important { color:black;}
+
+figure {
+  margin: 0;
+}
+figcaption {
+  margin-top: .5em;
+  font-size: .75em;
+  opacity: .7;
+}
+
+
+/* ------------------------ STYLES TYPOGRAPHIQUES */
+
+p {
+  max-width: 35em;
+  line-height: 1.5;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 40px;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+/* ------------------------ Styles du header */
+
+#top {
+  height: 100vh;
+  /* diminution du contraste de l’image qui va venir se superposer à un arrière plan noir */
+  background: #000; 
+  padding: 2em;
+}
+#top img {
+  object-fit: cover;
+  /* l’image couvre toute la zone du header */
+  height: 100%;
+  width: 100%;
+  /* et se “positionne” de manière “absolue” */
+  /* voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/positions/ */
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* opacité reduite de l’image */
+  opacity: .6;
+}
+#top h1 { 
+  margin: 0; 
+  color: yellow;
+  /* mode de fusion du texte sur son arrière plan */
+  mix-blend-mode: difference;
+  /* unité déterminée en fonction du viewport */
+  font-size: 22vw;
+  line-height: .7;
+  text-transform: uppercase;
+  letter-spacing: -.05em;
+  margin-left: -.075em;
+}
+
+#top p { 
+  /* le sous-titre doit pouvoir se superposer à l’image */
+  position: relative;
+  z-index: 1;
+  /* styles typographiques */
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  max-width: 22em;
+  color: yellow;
+  line-height: 1;
+  margin: .25em 0 0 ;
+} 
+
+/* introduction dans le HTML d’un élément <main> qui contient tout sauf le header */
+/* + introduction dans le <main> d’un élément <content> qui contient tout sauf la nav */
+main {
+  position: relative;
+}
+.content {
+  margin-left: 200px; /* la largeur de la nav */  
+}
+
+nav {
+  padding: 2em .5em;
+  /* se “positionne” de manière “sticky” */
+  /* voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/positions/ */
+  position: sticky; 
+  top: 0; z-index: 1;
+  width: 200px; /* la largeur de la nav ;) */
+  float: left;
+}
+nav a {
+  display: block;
+  color:#000;
+  text-decoration: none;
+  padding:0 1em;
+  font-size: .75em;
+  line-height: 1;
+  margin-bottom: .5em;
+  color: #666;
+}
+nav a:hover {
+  color: #000;
+}
+
+/* mise en page des sections */
+/* pour les besoins de la mise en page elles ne contiennent que deux enfants : */
+/*  - un <header class="section-header"> */
+/*  - et un <div class="section-content"> */
+section {
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.section-header {
+  /* se “positionne” de manière “sticky” */
+  /* voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/positions/ */
+  position: sticky;
+  top:0;
+  min-height: 100vh;
+  padding: 2em;
+  background:rgba(255,255,255, .5);
+  width: 33%;
+  /* interdiction de diminuer sa largeur (contexte flexbox) */
+  flex-shrink: 0;
+}
+.section-header figure figcaption {
+  /* diminution du contraste des légendes */
+  opacity: .6;
+}
+.section-header figure figcaption::before{
+  /* introduction “stylistique” d’une flèche avant les légendes d’images  */
+  content: "↳ ";
+}
+
+.section-header h2 {
+  /* se “positionne” de manière absolue”, en bas de son parent */
+  /* voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/positions/ */
+  position: absolute;
+  bottom: 2rem;
+}
+.section-header h2 small {
+  /* Voir la section “Inventaire” */
+  display: block;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+
+.section-content {
+  padding: 2em;
+}
+
+
+#introduction { background: #ccc; color:#333;}
+#biographie { background: #ddd; color:#333;}
+#entretiens { background: #ccc; color:#000;}
+#galerie { background: #000; color:#ccc;}
+#inventaire { background: #fff; color:#333;}
+#glossaire { background: #ccc; color:#333;}
+#films { background: #bbb; color:#333;}
+#bibliographie { background: #ccc; color:#333;}
+
+
+footer {
+  padding: 2em;
+  background: #bbb; color:#333;
+  font-size: .75em;
+}
+
+
+/* ------------------------ STYLES SPÉCIFIQUES DES SECTIONS */
+
+/* ----------- BIOGRAPHIE */
+#biographie .section-header {
+  background: #eaeaea;
+}
+#biographie h3 { margin-bottom: 0; margin-top: 1em;}
+#biographie p { margin: 0; font-size: .85em;}
+#biographie .section-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+#biographie article h3 {break-after: avoid;}
+#biographie article p {break-inside: avoid;}
+#biographie article h3:first-child { margin-top: 0;}
+
+/* ----------- CITATION */
+blockquote {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: calc(1.5vw + 1rem);
+  margin: 0;
+  padding:3em;
+  font-family: 'Xanh Mono', monospace;
+  font-style: italic;
+}
+blockquote p { margin: 0;}
+
+/* ----------- ENTRETIENS */
+
+.question {
+  font-weight: bold;
+}
+
+/* ----------- GALERIE */
+#galerie {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+}
+
+/* ----------- INVENTAIRE */
+#inventaire .section-header {
+  background:rgba(0,0,0, .2);
+}
+#inventaire p {
+  font-family: serif;
+  font-family: 'Xanh Mono', monospace;
+}
+
+/* ----------- Glossaire */
+#glossaire {
+  columns: 4;
+  column-gap: 2em;
+}
+#glossaire article {
+  break-inside: avoid;
+}
+#glossaire  p {
+  font-size: .85em;
+}
+#glossaire h2 { margin-top: 0;}
+
+
+/* ----------- Films */
+#films p:not(:first-of-type){
+  font-size: .75em;
+}
