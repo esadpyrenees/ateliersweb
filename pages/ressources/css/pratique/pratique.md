@@ -94,7 +94,7 @@ Objectifs :
 * différencier la famille de caractères pour certaines sections
 * créer des liens dans la galerie pour afficher les images en taille originale
 
-#### [Exemple #10](examples/10.html) : Mise en page
+#### [Exemple #10](examples/10.html) : Mise en page affinée
 
 
 ## 11 – Aller plus loin
