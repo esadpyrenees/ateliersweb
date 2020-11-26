@@ -1,5 +1,8 @@
 # Texte
 
+#### Les ressources liées à la mise en forme du texte sur ce site sont (très/trop/pas encore) assez nombreuses. {.blink}
+Ci-dessous, quelques bases spécifiquement liées à CSS, qui seront volontiers complétées par un recours aux pages dédiées à la [Typographie à l’écran](../../typo/), et notamment aux questions de [Macro & micro typo](../../typo/macromicro/).
+
 ## Famille de caractères
 
 CSS fournit plusieurs propriétés de police qui affectent directement le rendu du texte. La propriété font-family définit la police à utiliser.
@@ -32,7 +35,7 @@ La page Web utilisera Helvetica à condition qu’elle soit installée sur l’o
 
 Jusqu’à la fin des années 2000, il était délicat d’intégrer à un site web d’autres familles que les polices considérées comme “sûres” (car installées sur la plupart des systèmes d’exploitation : Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana).
 
-On peut désormais aller beaucoup plus loin dans les choix typographiques pour le web, en utilisant les règles `@font-face`, [décrites en détail sur la page dédiée](../../typo/).
+On peut désormais aller beaucoup plus loin dans les choix typographiques pour le web, en utilisant les règles `@font-face`, [décrites en détail sur la page dédiée](../../typo/webfonts/).
 
 
 ## Propriétés du texte
@@ -96,7 +99,7 @@ La propriété `line-height`, lorsqu’elle est appliquée à un élément de ni
 
 La propriété `line-height` peut utiliser les unités `px`, `em`, `%` ou pas d’unité : `1.5`.
 
-Les valeurs sans unité agissent essentiellement comme des pourcentages. Donc, 150% est égal à 1,5. Ce dernier est juste plus compact et lisible.
+Les valeurs sans unité agissent essentiellement comme des pourcentages. Donc, 150% est égal à 1.5. Ce dernier est juste plus compact et lisible.
 
 La hauteur de ligne a pour but de définir un interligne lisible pour votre texte. La lisibilité dépendant de la taille du texte, il est recommandé d’utiliser une valeur dynamique relative à la taille du texte. L’utilisation de `px` n’est donc pas recommandée car elle définit une valeur statique.
 
@@ -167,6 +170,10 @@ On définit:
 # À l’ombre des jeunes filles en fleurs {.shadow}
 
 Seules les valeurs x et y sont requises. Le flou par défaut est zéro, tandis que la couleur par défaut est celle du texte.
+
+[→ Aller plus loin : Macro & micro typo](../../typo/macromicro/){.bigbutton}
+
+Ou continuer sur…
 
 [→ les arrière-plans](../background/){.bigbutton}
 
