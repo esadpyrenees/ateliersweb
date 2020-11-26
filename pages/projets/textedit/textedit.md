@@ -111,6 +111,34 @@ La convocation d’images, de citations, d’illustrations est possible. Tout co
 
 Le paratexte (titre et sous-titre, auteur, date, colophon et crédits) doit être questionné et pris en charge pour le donner à lire : dans quel ordre doit-on afficher ces éléments ? Quels registres hiérarchiques doit-on proposer ? Est-il envisageable de commencer par le texte et de finir par le titre ? etc.
 
+
+
+***
+
+## <span>3. Think fluid</span>
+
+Le web est un média *fluide*.  
+
+☞ Une page Web est un document liquide : si on redimensionne la fenêtre d’un navigateur affichant un simple document HTML, les éléments s’adaptent à l’espace disponible et “coulent” à l’intérieur. Le “viewport”, la zone visible du navigateur n’a pas de dimension fixe, elle est “scrollable”, “zoomable” et sa dimension originelle, qui s’adapte naturellement à la quantité de contenu, est inconnue. 
+
+☞ Le Web est fluide temporellement, il est <span class="animated">animé</span>, il accueille des mouvements spatiaux, des vidéos et des animations, il est en transition entre de multiples états. 
+
+☞ Sa fluidité est aussi celle de son contenu. Il est traversé par des flux de données en évolution constante, qui émettent des signaux, se répondent
+
+<blockquote class="fluide">
+<p>Le design fluide crée des architectures fluides : des structures malléables, liquides, capables de supporter toutes sortes de contenus</p>
+<cite>Louise Drulhe, <a href="https://louisedrulhe.fr/designfluide/#manifeste">Design Fluide, Manifeste</a></cite>
+</blockquote>
+
+### Références et ressources
+
+*[Responsive 💧 man ](http://projects.niravigad.com/responsive_man/)* par Nir Avigad. *[The Quick brown 🦊](https://www.thequickbrown.com/)* par Jonhatan Puckey. *[Requête 🚀 spatiale](https://raphaelbastide.com/workshops/requetespatiale/)*, workshop de Louise Drulhe et Raphaël Bastide. *[What You See 👀  Is What You Get](https://whatyouseeiswhatyouget.net)* par Jonas Lund.
+
+Quelques ressources sur la [micro et macro typographie](../../ressources/typo/macromicro/) et les bases du *[Responsive web design](../../ressources/rwd/)*, ainsi que quelques exemples liés au [RWD](../../exemples/#rwd) ou à la mise en page avec [flex](../../exemples/#flex) et [grid](../../exemples/#grid), voire même à la [mise en page de texte responsive](../../exemples/text/).
+
+
+<footer markdown="1" >
 —
 
 Police de titrage : [Sprat](https://github.com/EthanNakache/Sprat-type), [Ethan Nakache](http://www.ethannakache.com/)
+</footer>

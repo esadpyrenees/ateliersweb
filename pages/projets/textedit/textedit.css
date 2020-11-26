@@ -19,7 +19,7 @@ main header:first-of-type {
 }
 main h1 { font-size: calc(4vw + 1em); font-variation-settings: 'wdth' 200; text-transform: uppercase; padding:0; margin-top:1em}
 main h2, section h2, hr + h2 { font-variation-settings: 'wdth' 150; font-size:1.5em; margin-bottom:1em }
-main h2:first-of-type span{
+main h2 span{
   border-bottom:4px double;
 }
 main h3 { font-variation-settings: 'wdth' 100; border:none; padding:0; margin-bottom:1em}
@@ -190,3 +190,36 @@ h3 {
   width:100%;
 }
 .scrollables p + p { margin-top: .5em;}
+
+footer{
+  margin-top: 6em;
+  text-align: center;
+}
+footer + footer{
+  margin-top: 0;
+}
+
+.fluide {
+  max-width: none;
+  background: radial-gradient(circle at 20% 12%, #F69, #00F);
+  font-size: calc(3vw + 1em);
+  text-align: center;
+  line-height: 1;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Sprat";
+  font-variation-settings: 'wdth' 150, 'wght' 100; font-style:normal;
+  margin-bottom: 1em;
+}
+.fluide p {
+  max-width: none;
+  margin-bottom: 0;
+}
+.animated {
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon1 {
+  from { text-shadow: 0 0 .40em #F69, 0 0 .70em #F69, 0 0 .80em #F69, 0 0 1.00em #F69, 0 0 1.50em #F69; }
+  to   { text-shadow: 0 0 .20em rgb(74, 101, 250), 0 0 .35em rgb(74, 101, 250), 0 0 .40em rgb(74, 101, 250), 0 0 .50em rgb(74, 101, 250), 0 0 .75em rgb(74, 101, 250); }
+}
