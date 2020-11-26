@@ -8,6 +8,9 @@ Un site conçu ainsi s’adapte à l'environnement de visualisation en utilisant
 *   Les images flexibles sont également dimensionnées en unités relatives, afin de les empêcher de s'afficher en dehors de leur élément parent.
 *   Les _media queries_ permettent à la page d'utiliser différentes règles de style CSS en fonction des caractéristiques du périphérique sur lequel le site est affiché, le plus souvent de la largeur du navigateur.
 
+<div style="padding:42.5% 0 0 0;position:relative;border-right:1px solid;border-bottom:1px solid;"><iframe src="https://whatyouseeiswhatyouget.net/" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<small>What You See Is What You Get, Jonas Lund, 2012, <a href="http://whatyouseeiswhatyouget.net">http://whatyouseeiswhatyouget.net</a>. La taille de chaque navigateur qui s’est connecté au site depuis 2012 est enregistrée, puis affichée séquentiellement – jusqu’à celle de votre propre visite.</small>
+
 <div id="media-queries"></div>
 
 ## Media queries
