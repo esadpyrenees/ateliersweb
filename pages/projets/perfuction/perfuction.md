@@ -32,6 +32,9 @@ En utilisant toutes les possibilités de mise en forme que CSS propose, on mettr
 * #### Code is law
 — Lawrence Lessig
 
+* #### Your body is a battleground
+— Barbara Kruger
+
 * #### Graphic design will save the world right after rock and roll does
 — David Carson
 

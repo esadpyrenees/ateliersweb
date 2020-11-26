@@ -25,11 +25,15 @@ header h1 {
 header h1 span { 
   display: block;
   line-height: .8;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
 }
 .gridlist {
   margin: 4em 0;
 }
 .gridlist h4 {
+  font-size: 2.5em;
   line-height: 1.1;
   margin-bottom: .25em;
   color: tomato;
