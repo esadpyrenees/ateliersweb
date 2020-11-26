@@ -1,3 +1,48 @@
+
+body{
+    font-family: 'Montserrat';
+    margin: 4em;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    max-width: 30em;
+    line-height: 1.5;
+    color: #444
+}
+
+.encouleur {
+    color: lime
+}
+
+/* boutons */
+
+button{
+    background: black;
+    border: none;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: .25em .75em .3em;
+    border-radius: .25em;
+    margin-bottom: .3em;
+}
+
+@media (max-width:500px){
+    body{ margin: 2em;}
+}
+
+@media (max-width:320px){
+    body{ 
+        margin: 1em;
+        font-size: .9em;
+    }
+}
+
+
+/* fonts */
+
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts/Montserrat-Italic.woff2') format('woff2'),
@@ -20,35 +65,4 @@
         url('fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-body{
-    font-family: 'Montserrat';
-    margin: 4em;
-}
-
-blockquote {
-    margin: 0;
-    padding: 0;
-    max-width: 30em;
-    line-height: 1.5;
-    color: #444
-}
-
-
-
-.encouleur {
-    color: lime
-}
-
-/* boutons */
-
-button{
-    background: black;
-    border: none;
-    font-size: 16px;
-    color: white;
-    text-transform: uppercase;
-    padding: .25em .75em .3em;
-    border-radius: .25em;
 }

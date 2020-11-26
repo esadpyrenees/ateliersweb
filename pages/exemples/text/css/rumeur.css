@@ -1,19 +1,4 @@
 
-@font-face {
-    font-family: 'Rumeur';
-    src: url('fonts/rumeur.woff2') format('woff2'),
-        url('fonts/rumeur.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-/* L’italique provient d’une autre fonte, mais est déclarée sous le même nom  */
-@font-face {
-    font-family: 'Rumeur';
-    src: url('fonts/Syne-Italic.woff2') format('woff2'),
-        url('fonts/Syne-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
 
 /* variables CSS */
 /* on les déclare dans un élément :root, et on les applique grâce à la notation var(--text-color) */
@@ -27,6 +12,8 @@ body{
     font-family: 'Rumeur';
     display: flex;
     justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 /* soulignement avec une image */
@@ -115,8 +102,8 @@ strong {
     background: url(images/lazlo.jpg) no-repeat;
     width: 500px;
     height: 500px;
-    right: 0;
-    transform: translate(-50%,-50%);
+    right: calc(-1 * (1.5vw + 1em));
+    transform: translate(0,-50%);
     z-index: -1; /* pour mettre l’image en dessous du reste du contenu */
 }
 
@@ -135,4 +122,34 @@ button{
     text-transform: uppercase;
     padding: .25em .75em .3em;
     border-radius: .25em;
+    margin-bottom: .3em;
+}
+
+
+@media (max-width:1100px){
+    .signature::after {transform: translate(0,-50%);}
+}
+
+@media (max-width:500px){
+    strong { padding-left: 0;}
+    .signature::after {transform: translate(0,0);}
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'Rumeur';
+    src: url('fonts/rumeur.woff2') format('woff2'),
+        url('fonts/rumeur.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+/* L’italique provient d’une autre fonte, mais est déclarée sous le même nom  */
+@font-face {
+    font-family: 'Rumeur';
+    src: url('fonts/Syne-Italic.woff2') format('woff2'),
+        url('fonts/Syne-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }
