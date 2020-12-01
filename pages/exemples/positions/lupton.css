@@ -1,0 +1,63 @@
+
+body {
+  overflow: hidden;  
+  font-size: 12vw;
+  font-weight: 700;
+}
+
+.think {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform:translateY(100%) rotate(-90deg);
+  transform-origin: 0 0;
+}
+.more {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-.15em) rotate(0deg);
+}
+.design {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: 0 0;
+  transform: translateX(100%) rotate(90deg);
+}
+.less {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-.05em) translateY(.15em);
+}
+
+.signature {
+  font-size: 25px;
+  position: absolute;
+  left: 70%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  text-align: center;
+  font-weight: normal;
+}
+.signature strong{
+  font-weight: normal;
+}
+
+.less {
+  
+  background-image: linear-gradient(270deg, #e6b620, #f07600, #96f000, #b900f0);
+  background-size: 800% 800%;
+  animation: muchless 15s ease infinite;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes muchless {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

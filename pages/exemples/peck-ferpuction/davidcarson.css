@@ -1,0 +1,43 @@
+/* typo */
+@font-face {
+  font-family: 'Nicolas Frespech';
+  src: url('fonts/NicolasFrespech.woff2') format('woff2'),
+      url('fonts/NicolasFrespech.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* styles */
+html, body{
+  height: 100%;
+}
+body {
+  font-size: 13vw;
+  line-height: .65;
+  font-family: 'Nicolas Frespech';
+  margin: 0;
+  overflow: hidden;
+}
+
+span {
+  /* mode de fusion des couleurs */
+  mix-blend-mode: multiply;
+  position: absolute;
+}
+
+.dont { top: 0; left:0; color: red}
+.conf { top: 10vh; right:0; color: pink}
+.legi { top: 22vh; left:0; color: blue; font-size: 1.15em;}
+.with { top: 30vh; right:0; color: tomato}
+.comm { bottom: 25vh; left:0; color: orangered}
+
+.sign {
+  font-size: .5em;
+  position: absolute;
+  bottom:.25em
+}
+
+
+
+
