@@ -47,17 +47,12 @@ body {
 
 .less {
   
-  background-image: linear-gradient(270deg, #e6b620, #f07600, #96f000, #b900f0);
-  background-size: 800% 800%;
-  animation: muchless 15s ease infinite;
+  animation: muchless 100ms ease infinite alternate; 
 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 @keyframes muchless {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  0%{color:white}
+  10%{color:black}
+  100%{color:black}
 }
