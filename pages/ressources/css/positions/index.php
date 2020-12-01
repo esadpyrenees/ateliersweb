@@ -22,7 +22,7 @@
 ?>
 
     <style>
-        #fixed {
+        .fixed {
           position: fixed;
           bottom: 20px;
           right: 20px;
@@ -43,5 +43,6 @@
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
+    <div class="fixed"></div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>

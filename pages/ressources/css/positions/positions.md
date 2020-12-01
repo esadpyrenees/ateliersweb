@@ -16,6 +16,7 @@ On dit d’un élément auquel est affecté une `position` autre que `static` qu
 
 La position `fixed` permet de définir la position d’un élément par rapprort au _viewport_, l’espace visible de la fenêtre du navigateur. Il permet d’utiliser les propriétés `top`, `right`, `bottom` ou `left`. Voici le code qui correspond au carré noir en bas de page :
 
+```css
     #fixed {
         position: fixed;
         bottom: 20px;
@@ -24,6 +25,7 @@ La position `fixed` permet de définir la position d’un élément par rapprort
         height:20px;
         background:black;
     }
+```
 
 Bien que particulièrement utile, cette propriété peut être gênante sur mobiles (si l’élément `fixed` est trop grand).
 

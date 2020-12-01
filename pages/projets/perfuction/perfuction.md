@@ -14,6 +14,8 @@ Il s’agit de trouver un équilibre –ou d’affirmer le choix radical– entr
 
 En utilisant toutes les possibilités de mise en forme que CSS propose, on mettra en page une citation choisie parmi la liste ci-dessous. On se réfèrera aux [ressources](../../ressources/css/text/) liées à la mise en forme du texte, à celles concernant la [macro et micro-typographie](../../ressources/typo/macromicro/) ou même aux [fontes variables](../../ressources/typo/variables/).
 
+Pour positionner le texte dans l’espace, on peut utiliser [l’ensemble des mécanismes de mise en page CSS](../../ressources/css/layout/), mais on gagnera à explorer les positionnements absolus ([exemples](../../exemples/#positions)).
+
 
 <div class="gridlist" markdown="1">
 
@@ -35,8 +37,14 @@ En utilisant toutes les possibilités de mise en forme que CSS propose, on mettr
 * #### Your body is a battleground
 — Barbara Kruger
 
+* #### CSS is weird
+— Miriam Suzanne
+
 * #### Graphic design will save the world right after rock and roll does
 — David Carson
+
+* #### Anything can be made in anything
+– Ed Fella
 
 * #### Space is the breath of art
 — Frank Lloyd Wright
@@ -65,7 +73,7 @@ En utilisant toutes les possibilités de mise en forme que CSS propose, on mettr
 * #### It’s through mistakes that you actually can grow. You have to get bad in order to get good
 — Paula Scher
 
-* #### Design is the conscious effort to impose a mea- ningful order
+* #### Design is the conscious effort to impose a meaningful order
 — Victor Papanek
 
 * #### To make pearls, you’ve got to eat dirt
@@ -82,7 +90,7 @@ En utilisant toutes les possibilités de mise en forme que CSS propose, on mettr
 
 </div>
 
-N.B. : Les citations ci-dessus sont malheureusement trop souvent anglophones et issues de vieux mâles blancs… N’hésitez pas [à soumettre](mailto:julien.bidoret@esad-pyrenees.fr?subject=FeckPerfuction) toute proposition qui serait issue de femmes ou de représentant·e·s de minorités culturelles, sociales ou ethniques.
+N.B. : Les citations ci-dessus sont très largement apocryphes et malheureusement trop souvent anglophones issues de vieux mâles blancs… N’hésitez pas [à soumettre](mailto:julien.bidoret@esad-pyrenees.fr?subject=FeckPerfuction) toute proposition qui serait issue de femmes ou de représentant·e·s de minorités culturelles, sociales ou ethniques.
 
 —
 
