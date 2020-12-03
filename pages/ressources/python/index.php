@@ -1,5 +1,5 @@
   <?php
-    $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
+    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="python";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");

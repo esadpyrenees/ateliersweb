@@ -4,7 +4,7 @@
 
     $Parsedown = new Parsedown();
 
-    $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
+    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="html";
     $subsubsection="content";

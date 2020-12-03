@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
+    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="rwd";
     $nav = "/web/snippets/ressources/rwd.php";

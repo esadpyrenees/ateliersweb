@@ -8,7 +8,7 @@ La plus ancienne et robuste est d’utiliser un logiciel FTP (*File Transfer Pro
 
 ### Un hébergeur
 
-Il est nécessaire de disposer d’un espace chez un hébergeur. Le coût annuel d’un hébergement est de quelques dizaines d’euros. En France, les hébergeurs les plus courants sonts [ovh](https://ovh.com/), [gandi](https://gandi.net) ou [online](https://www.online.net/fr/hebergement-web). [LWS](https://www.lws.fr/) est un hébergeur français dont les offres de prix sont très intéressantes. Les offres d’[Alwaysdata](https://www.alwaysdata.com/) sont plus onéreuses, mais un espace disque de 200 Mo est offert aux étudiants de l’ÉSAD.
+Il est nécessaire de disposer d’un espace chez un hébergeur. Le coût annuel d’un hébergement est de quelques dizaines d’euros. En France, les hébergeurs les plus courants sonts [ovh](https://ovh.com/), [gandi](https://gandi.net) ou [online](https://www.online.net/fr/hebergement-web). [LWS](https://www.lws.fr/) est un hébergeur français dont les offres de prix sont très intéressantes. Les offres d’[Alwaysdata](https://www.alwaysdata.com/) sont plus onéreuses, mais un espace disque de 200 Mo est offert aux étudiants de l’ÉSAD ([me contacter](mailto:julien.bidoret@esad-pyrenees.fr)).
 
 ### Un nom de domaine ?
 
@@ -33,7 +33,7 @@ Il existe de nombreux logiciels capables de se connecter à un serveur en FTP, t
 
 Un site web est composé de nombreux fichiers : contenu textuel, code, feuilles de styles, contenus média, etc. organisés en dossiers et sous-dossiers. Relire [HTML/Bien démarrer](../html/start/)
 
-<strong class="blink" markdown="1">Accents, espaces, capitales doivent être proscrits dans les noms des fichiers et dossiers !</strong>
+<p class="" markdown="0" style="background:tomato; color:white; padding:1em; font-size:1.5em"> Accents, espaces, capitales doivent être proscrits dans les noms des fichiers et dossiers. La page d’accueil de chaque dossier doit se nommer <code style="background:rgba(0,0,0,.4)">index.html</code></p>
 
 <pre markdown="0">
 <span class="icon-folder-open"></span> mon_site
@@ -89,7 +89,7 @@ Il permet notamment d’afficher à la fois le contenu local (à gauche – les 
 
 ![Cyberduck](images/fz-1.png)
 
-Cliquer sur l’icône en haut à gauche (Gestionnaire de sites), créez un nouveau site (équivalent à un “favori” sur Cyberduck), puis saisissez les informations d’authentification dans la partie droite.
+Cliquer sur l’icône en haut à gauche (Gestionnaire de sites), créez un nouveau site (équivalent à un “signet” sur Cyberduck), puis saisissez les informations d’authentification dans la partie droite.
 
 Le “Chiffrement” devrait être établi sur “Connexion FTP explicite sur TLS si disponible” et le “type d’authentification" sur “Normale”.
 
@@ -106,11 +106,12 @@ Contrairement à Cyberduck qui nécessite l’utilisation du Finder ou de l’ex
 
 Par défaut, l’utilisateur FTP d’Alwaysdata a accès à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). 
 
-Par défaut également, **le serveur affiche au visiteur le contenu du dossier `www`**. Cette option est configurable dans [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte, via le menu “Web / Sites” → “Default site / Modifier”.
+Par défaut également, **le serveur affiche au visiteur le contenu du dossier `www`**. 
 
-![admin alwaysdata](images/alwaysdata-2.png) 
+<small markdown="1">Cette option est configurable dans [l’interface d’administration](https://admin.alwaysdata.com/) de votre compte, via le menu “Web / Sites” → “Default site / Modifier” (il est préférable de laisser la configuration par défaut).</small>
 
-Si vous disposez d’un nom de domaine, Alwaysdata permet de créer plusieurs sites, accessibles via différentes adresses. Dans le cas présent, nous allons héberger **plusieurs projets sur le même site**, grâce à une page d’index personnalisée. Nous ne modifions donc pas la configuration du site par défaut d’Alwaysdata.
+
+Si vous disposez d’un nom de domaine, Alwaysdata permet de créer plusieurs sites, accessibles via différentes adresses. Dans le cas présent, nous allons héberger **plusieurs projets sur le même site**, grâce à une page d’index personnalisée. 
 
 Dans Cyberduck ou Filezilla, en double-cliquant sur `www`, on peut accéder au contenu du dossier que verront les visiteurs du site.
 

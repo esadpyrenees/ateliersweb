@@ -80,7 +80,7 @@ En saisissant l’adresse de cette page dans un navigateur web, vous allez deman
 5. Il existe de très nombreux langages de programmation pour générer des pages web. Le cas le plus simple et le plus répandu est PHP. Le serveur a reçu une requête pour une page web qui correspond à un fichier php, qui contient du code que le serveur va demander au logiciel PHP d’exécuter.      
 PHP va lire le fichier et faire ce qui est demandé. Il peut avoir à inclure d’autres fichiers, se connecter à une base de données ou à d’autres sites ou services web, déterminer l’heure qu’il est ou deviner l’âge du capitaine. PHP générera alors un fichier texte/html qui sera renvoyé au serveur, qui se chargera de la transmettre au client.
 
-    Client — « Bonjour ÉSAD·Pyrénées, j'aimerais le fichier web.php s'il vous plaît »  
+    Client — « Bonjour ÉSAD Pyrénées, j'aimerais le fichier web.php s'il vous plaît »  
     Serveur — « Houla… C’est compliqué, attendez une seconde »  
     Client — « D'accord, je vais attendre »  
     Serveur — « Hey, PHP, tu veux bien me générer cette page ? »  

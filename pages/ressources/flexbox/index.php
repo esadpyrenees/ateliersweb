@@ -1,5 +1,5 @@
   <?php
-    $title = "ÉSAD·Pyrénées — Ateliers web — Flexbox";
+    $title = "ÉSAD Pyrénées — Ateliers web — Flexbox";
     $section="ressources";
     $subsection="css";
     $subsubsection="flexbox";

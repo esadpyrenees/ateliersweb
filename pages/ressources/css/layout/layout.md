@@ -1,11 +1,11 @@
 # Mise en page
 
-Au cours du temps, et particulièrement depuis l’avènement de CSS et de la navigation mobile, les principes et les outils de mise en page ont beaucoup évolué sur le Web.
+Au cours du temps, et particulièrement depuis l’avènement de CSS et de la navigation mobile, les principes et les outils de mise en page ont beaucoup évolué sur le Web. Plusieurs outils et techniques nous permettent aujour’hui de concevoir des mises en page pour le web.
 
 ## Flexbox
 
 Flexbox est principalement conçu pour déterminer la mise en page d’éléments dans un contexte **unidimensionnel** (une ligne ou une colonne).
-Il est idéal pour construire des barres de navigation, pour centrer un élément dans son conteneur ou pour aligner des éléments. Flexbox fonctionne idéalement avec Grid.
+Il est idéal pour construire des barres de navigation, pour centrer un élément dans son conteneur ou pour aligner des éléments. 
 
 <svg width="650" height="50" viewBox="0 0 650 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="649" height="49" stroke="black"/>
@@ -26,7 +26,7 @@ Consulter la [**documentation sommaire**](../../flexbox/) et voir quelques exemp
 
 ## Grid
 
-Grid est la dernière innovation de CSS pour la mise en page. C’est un module puissant et potentiellement complexe qui représente sans aucun doute l’avenir de la mise en page pour le Web. Il est dédié aux mise en page multidimensionnelles (lignes **et** colonnes). Grid fonctionne idéalement avec Flexbox.
+Grid est la dernière innovation de CSS pour la mise en page. C’est un module puissant et potentiellement complexe qui représente sans aucun doute l’avenir de la mise en page pour le Web. Il est dédié aux mise en page multidimensionnelles (lignes **et** colonnes). 
 
 <svg width="650" height="277" viewBox="0 0 650 277" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="649" height="276" stroke="black"/>

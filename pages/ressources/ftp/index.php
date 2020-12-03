@@ -1,9 +1,9 @@
 <?php
     // config
-    $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
+    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
     $section="ressources";
     $subsection="ftp";
-    $nav = "/web/snippets/ressources/ftp.php";
+    // $nav = "/web/snippets/ressources/ftp.php";
     $mdfile = "./ftp.md";
 
     // includes
