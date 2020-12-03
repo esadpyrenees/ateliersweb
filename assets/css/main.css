@@ -167,6 +167,7 @@ main h2 {
     margin-top: 2em;
     font-size: 2em;
     font-weight: 400;
+    scroll-margin-top: 1em;
 }
 main h2 + p { margin: 0em 0 .5em }
 main h1 + h2 { margin-top: 1em; }
@@ -403,7 +404,7 @@ ul.list{
     display: inline-block;
     opacity: 0;
 }
-.shake,
+
 #randomramdam span.brbrbr {
     opacity: 1;
     animation: brbrbrbr linear .2s;
@@ -488,6 +489,29 @@ ul.list{
     .active ~ .active ~ .active ~ #content,
     .active ~ .active ~ .active ~ .active ~ #content { width: 100%}
 }
+.pane.home { 
+    display: block; 
+    left: 12em !important;
+    padding-bottom: 2rem !important;
+    position: relative;
+    border-left: none;
+    width: calc(100% - 12rem) !important;
+}
+.home > * {
+    position: absolute;
+    transition: all 250ms ease-out;
+}
+.home input, .home label, .home select,  .home option {
+    font-size: 1rem;
+}
+.home input {
+    position: absolute;    
+    left: -1.5em;
+    top: .05em;
+    font-size: 1em;
+}
+ 
+.home progress { width: 100%; top:1.25em; left: 0; position: absolute;}
 
 
 @media only screen and (max-width: 30em) {
@@ -537,3 +561,19 @@ ul.list{
     p, h2, h3 { orphans: 3; widows: 3; }
     h2, h3 { page-break-after: avoid; }
 }
+
+
+#debug{
+    height: 100vh;
+    width: 50vw;
+    overflow: scroll;
+    background: white;
+    position: absolute;
+    z-index: 5555;
+    border-left: 2px solid;
+    font-size: .5em;
+    padding: 4em;
+    right: 0;
+}
+#debug p { margin: 0;}
+
