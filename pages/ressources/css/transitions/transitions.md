@@ -78,28 +78,72 @@ a {
 }
 ```
 
-Voir [Ceaser – CSS Easing Animation Tool](https://matthewlein.com/tools/ceaser).
+<table>
+    <tr>  
+        <td>Linear</td>
+        <td>linear</td>
+        <td class="demo"><div style=""></div></td>
+    </tr>
+    <tr>  
+        <td>Ease In Quad</td>
+        <td>cubic-bezier(0.550, 0.085, 0.680, 0.530)</td>
+        <td class="demo"><div style="animation-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530)"></div></td>
+    </tr>
+    <tr>  
+        <td>Ease Out Cubic</td>
+        <td>cubic-bezier(0.215, 0.610, 0.355, 1.000)</td>
+        <td class="demo"><div style="animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)"></div></td>
+    </tr>
+    <tr>  
+        <td>Ease In Out Expo</td>
+        <td>cubic-bezier(1.000, 0.000, 0.000, 1.000)</td>
+        <td class="demo"><div style="animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000)"></div></td>
+    </tr>
+</table>
+
+
+Voir [easings.net](https://easings.net/) pour un large ensemble de possibilités.
 
 
 ## Animations
 
-La règle `@keyframes` permet de définir les étapes qui composent la séquence d'une animation CSS de manière plus précise qu’avec les transitions, et sans qu’un changement d’état soit nécessaire :
+La règle `@keyframes` permet de définir les étapes qui composent la séquence d'une animation CSS de manière plus précise qu’avec les transitions, et sans qu’un changement d’état soit nécessaire.
 
+Les animations peuvent être entendues comme une séquence de plusieurs règles. Contrairement aux transitions, qui ne peuvent alterner qu’entre deux états, les animations permettent de déterminer des étapes intermédiaires, peuvent être mises en boucle et offrent une plus grande maîtrise.
+
+Un exemple : 
+
+```
+@keyframes bounce {
+    0%   { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+    100% { bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1);}
+}
+.ball{ animation: bounce 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;}
+```
+<div class="ballcontainer"><div class="ball"></div></div>
+
+Sur l’élément que l’on souhaite animer, on peut définir :
+* un nom d’animation arbitraire (ici `bounce`),
+* une durée (en secondes –`s`– ou en millisecondes –`ms`–), 
+* une fonction d’accélération (`linear`, `ease-out`, etc.)
+* un délai (ou pas…)
+* un nombre d’itération, fixe ou `infinite`,
+* une direction (`normal`, `reverse`, `alternate`, `alternate-reverse`)
+* et la propriété `fill-mode`, qui détermine si l’animation revient à la première frame quand elle est terminée (`none`), ou si elle s’arrête sur la dernière (`forwards`).
+
+Un autre exemple : 
 ```
 .shake {
-    animation: brbrbrbr linear .2s;
-    animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    }
+    opacity: 1;
+    animation: shake linear .2s infinite;
+}
 
-@keyframes brbrbrbr {
-    0%    { transform:  translate(0px,0px) }
-    33%   { transform:  translate(1px,0px) }
-    66%  { transform:  translate(-1px,0px) }
-    }
-
+@keyframes shake {
+    0%    { transform:  translateX(0px) }
+    33%   { transform:  translateX(2px) }
+    66%   { transform:  translateX(-2px) }
+}
 ```
-
 <div class="shake">shake!</div>
 
-N. B. : L’animation ci-dessus utilise en outre les “transformations CSS”.
+N. B. : L’animation ci-dessus utilise en outre les [transformations CSS](../transformations).
