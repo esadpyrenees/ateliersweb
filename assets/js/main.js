@@ -198,3 +198,14 @@ $(function(){
     
 
 })
+
+// var debug = document.createElement('div');
+// debug.id="debug";
+// var links = document.querySelectorAll("nav a") ;
+// var l = [];
+// links.forEach(e => {
+//     var p = document.createElement('p');
+//     p.textContent = '["' + e.textContent + '", "' + e.href +'"],';
+//     debug.appendChild(p)
+// })
+// document.body.appendChild(debug);
