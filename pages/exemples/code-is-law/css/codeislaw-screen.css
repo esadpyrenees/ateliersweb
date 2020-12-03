@@ -25,8 +25,7 @@ body{
   align-items: center;
   min-height: 75vh; 
   color: white;
-  background: rgb(32, 32, 32); 
-  background: radial-gradient(circle at 0% 33%, #F69, #00F);
+  background: black; 
   width: 100%;
   padding: 2em 0;
 }
