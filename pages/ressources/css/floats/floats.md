@@ -1,16 +1,12 @@
-
 # Mise en page avec float & clear
 
-La propriété `float` est une des plus utilisées pour structurer une mise en page **[ avant que n’arrivent [flexbox](/web/pages/ressources/flexbox/) et [grid](/web/pages/ressources/grid/) ]**, mais son usage est parfois délicat. Elle spécifie qu'un élément doit être retiré du flux normal et placé **à la droite** ou **à la gauche** du bloc qui le contient. Le texte et les éléments `inline` adjacents se répartiront autour de lui.
+La propriété `float` est une des plus utilisées pour structurer une mise en page **\[ avant que n’arrivent [flexbox](/web/pages/ressources/flexbox/) et [grid](/web/pages/ressources/grid/) \]**, mais son usage est parfois délicat. Elle spécifie qu'un élément doit être retiré du flux normal et placé **à la droite** ou **à la gauche** du bloc qui le contient. Le texte et les éléments `inline` adjacents se répartiront autour de lui.
 
 Dans son usage le plus simple, la propriété `float` permet d’habiller une image avec du texte :
 
 
 <div class="el">
-
 <p><img src="pages--mise-en-page--lettrine-small.gif" alt="C" style="float:left; margin:0 15px 0 -4px;">ette jolie lettre ornée est l’œuvre de Joseph Apoux, peintre et illustrateur français de la fin du XIXe siècle proche du décadentisme (dixit <a href="http://fr.wikipedia.org/wiki/Joseph_Apoux">wikipedia</a>). Joseph Apoux étudie la peinture et le dessin avec Jean-Léon Gérôme. (…) On lui doit notamment cet <em>Alphabet pornographique</em>, dont est issu <a href="pages--mise-en-page--lettrine.png">cette image</a>, et qui grace à la propriété <code>float</code> permet de créer une lettrine (<em>notabene</em>: la propriété <code>p:first-letter</code> permettrait de le faire de manière plus élégante, et/ou sans utiliser d’image). Pour plus de typographie érotique, voir <a href="http://maxb.home.xs4all.nl/erotype.html">Max Bruinsma</a>.</p>
-
-
 </div>
 
 ```
@@ -47,7 +43,7 @@ On affecte une marge à l’article, pour « laisser la place » à l’élémen
 
 ### Multiples colonnes
 
-En juxtaposant des boîtes flottantes, on peut créer une mise en page en plusieurs colonnes régulières… **[ mais il vaut mieux utiliser [flex](/web/pages/ressources/flexbox/) et [grid](/web/pages/ressources/grid/) ]**
+En juxtaposant des boîtes flottantes, on peut créer une mise en page en plusieurs colonnes régulières… **\[ mais il vaut mieux utiliser [flex](/web/pages/ressources/flexbox/) et [grid](/web/pages/ressources/grid/) \]**
 
 <section class="clearfix">
 
