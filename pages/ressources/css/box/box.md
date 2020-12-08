@@ -139,14 +139,14 @@ div { width:300px; border:20px solid black; background: #ddd; padding: 10px; }
 </div>
 </article>
 
-Pour homogénéiser le rendu sur l’ensemble des boîtes, on peut (on doit…) utiliser le « sélecteur universel », qui affecte la propriété à l’ensemble des éléments HTML :
+Pour homogénéiser le rendu sur l’ensemble des boîtes, on peut (on doit !) utiliser le sélecteur universel (`*`), qui affecte la propriété à l’ensemble des éléments HTML :
 
 ```
-* { box-sizing: border-box; }
+*, *::after, *::before { box-sizing: border-box; }
 
 ```
 
-## Display
+## Display {#display}
 
 Chaque élément HTML possède par défaut une propriété `display`, qui peut être modifiée en CSS pour les besoins de la mise en page. Si le plus fréquemment, la valeur de ces propriétés est `block` ou `inline`, les valeurs `inline-block` ou `none` sont particulièrement utiles.
 
