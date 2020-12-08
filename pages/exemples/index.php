@@ -70,7 +70,7 @@
             }
             echo "</strong>";
             if (file_exists($thumb)) {
-                echo "<img src='$exemple/thumb.png'>";
+                echo "<img src='$exemple/thumb.png' loading='lazy'>";
             }
             echo "</span>";
             echo "<h2>$title</h2>";
