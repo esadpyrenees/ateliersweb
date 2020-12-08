@@ -82,7 +82,7 @@ a {
     <tr>  
         <td>Linear</td>
         <td>linear</td>
-        <td class="demo"><div style=""></div></td>
+        <td class="demo"><div style="animation-timing-function: linear"></div></td>
     </tr>
     <tr>  
         <td>Ease In Quad</td>
