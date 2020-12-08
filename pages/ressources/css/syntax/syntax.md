@@ -51,7 +51,7 @@ blockquote { background: orange; }
 
 ```
 
-La balise HTML `<blockquote>` est un élément de bloc. Il a une contrepartie en ligne: `<q>`. Si l’on veut créer un lien visuel entre elles, on peut ajouter un sélecteur à la règle :
+La balise HTML `<blockquote>` est un élément de type `block` [*](../box/#display) ; il a une contrepartie `inline`: `<q>`. Si l’on veut créer un lien visuel entre elles, on peut ajouter un sélecteur à la règle :
 
 ```
 blockquote, q {
