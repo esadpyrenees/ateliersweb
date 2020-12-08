@@ -1,0 +1,148 @@
+/* pour le cadre noir et le positionnement dans la page */
+
+html, body{ height: 100%; display: grid; margin: 0; }
+body{ padding: 50px; }
+* { box-sizing:border-box; } /* voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/box/#box-model*/
+article {
+  border:5px solid;
+  position: relative; /* définit un contexte de positionnement */
+  overflow: hidden; /* empêche la visibilité du débordement */
+}
+
+/* tous les div en `absolute` */
+div { 
+  margin: 0; 
+  position: absolute;
+}
+
+.carre-rouge {
+  transform: rotate(30deg);
+  background: red; 
+  right: 4%;
+  top:20%;
+  z-index: 2; /* profondeur */
+  transition: all 2s; /* transition de 2 secondes */
+  height:15vh; /* dimensions établies en fonction de la taille du viewport (hauteur: vh, largeur: vw) */
+  width: 15vh;
+}
+.carre-noir {
+  transform: rotate(30deg);
+  background: black;
+  z-index: 1;
+  transition: all 2s;
+  right: 20%;
+  top:40px;  
+  height:15vh;
+  width: 15vh;
+}
+
+.rond-rouge {
+  background: red; 
+  border-radius: 50%; /* le border-radius définit l’arrondi des coins */
+  width: min(60vw, 80vh); /* renvoie la dimension la plus petite entre 60vw et 80vh */
+  height: min(60vw, 80vh);
+  bottom:-19vh;
+  left:-19vh;
+  transition: all 2s;
+}
+
+
+.eye {
+  background: #000;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  transform-origin: -800% -800%; /* déplace le centre de transformation en dehors du centre de l’élément */
+  transition: all 2s;
+}
+.eye-right {
+  right: 20%;
+  top:15%;
+}
+.eye-left {  
+  top: 30%;  
+  left: 40%;
+  transform: scale(1.25);
+  transform-origin: 380% -150%; /* déplace le centre de transformation en dehors du centre de l’élément */
+}
+.pupil {
+  position: absolute;
+  background: black;
+  border: 6px solid white;
+  height: 10px;
+  width: 10px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius:5px;
+}
+
+.nose {
+  width: 70%;
+  height: 10%;
+  background: black;
+  top:30%;
+  left:65%;
+  transform: rotate(-20deg);
+  transform-origin: 0 50%;
+  transition: all 2s;
+}
+
+.mouth {
+  width: 40%;
+  height: 4%;
+  background: black;
+  bottom:30%;
+  left:20%;
+  transform: rotate(20deg);
+  transition: all 250ms;
+}
+
+.ru {
+  top:12vh;
+  left:20vh; 
+  font-size: 40px;
+  line-height: 1;
+  font-family: sans-serif;
+  background: none;
+  line-height: 1;
+  transition: all 2s;
+  z-index: 6;
+  transform: rotate(9deg);
+  transform-origin: 20% 50%;
+}
+
+
+/* survol */
+
+article:hover .rond-rouge {
+  transform: rotate(-29deg) scale(.85);  
+  left:48vh
+}
+
+article:hover .nose {
+  transform: rotate(229deg) scale(.85);  
+}
+article:hover .mouth {
+  transform: rotate(10deg);
+}
+article:hover .eye-left {
+  transform: translate(150%, 100%) rotate(90deg);
+}
+article:hover .eye-right {
+  transform: rotate(6deg);
+}
+
+article:hover .carre-noir  {
+  transform: rotate(-290deg) scale(2);
+  right:80%;
+  top:10%
+}
+article:hover .carre-rouge {
+  transform: rotate(-250deg) scale(1.5);
+  right:70%;
+  top:15%
+}
+article:hover .ru{
+transform: rotate(-1070deg) scale(1.25) translateX(40%);
+}
