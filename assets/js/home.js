@@ -1,222 +1,216 @@
-var lonks = [
-  ["Ressources", "/web/pages/ressources/"],
-  ["Exemples", "/web/pages/exemples/"],
-  ["Références", "/web/pages/references/"],
-  ["Outils", "/web/pages/outils/"],
-  ["Projets", "/web/pages/projets/"],
-  ["Lectures", "/web/pages/lectures/"],
-  ["Archives", "/web/archives/"],
-  ["À propos", "/web/pages/about"],
-  ["HTML", "/web/pages/ressources/html/"],
-  ["CSS", "/web/pages/ressources/css/"],
-  ["FTP", "/web/pages/ressources/ftp/"],
-  ["Javascript", "/web/pages/ressources/js/"],
-  ["Python", "/web/pages/ressources/python/"],
-  ["Typographie", "/web/pages/ressources/typo/"],
-  ["Audio & vidéo", "/web/pages/ressources/audiovideo/"],
-  ["Responsive", "/web/pages/ressources/rwd/"],
-  ["Canvas", "/web/pages/ressources/canvas/"],
-  ["Html2print", "/web/pages/ressources/html2print/"],
-  ["Kirby", "/web/pages/projets/portfolio/"],
-  ["HTML / CSS", "/web/pages/references/htmlcss/"],
-  ["Typographie", "/web/pages/references/typo/"],
-  ["Écritures numériques", "/web/pages/references/ecrituresnumeriques/"],
-  ["Webdoc", "/web/pages/references/webdocumentaire/"],
-  ["Visite", "/web/pages/references/visite/"],
-  ["Histoire", "/web/pages/references/histoire/"],
-  ["Go pro !", "/web/pages/references/gopro/"],
-  ["Hypertext superhero", "/web/pages/projets/htsh/"],
-  ["Pecha Kucha", "/web/pages/projets/pechakucha/"],
-  ["Webradiola", "/web/pages/projets/webradiola/"],
-  ["Zones", "/web/pages/projets/zones/"],
-  ["Programmation", "/web/pages/projets/programmation/"],
-  ["Cultures numériques", "/web/pages/projets/culturenum/"],
-  ["Storytellers", "/web/pages/projets/storytellers/"],
-  ["Portfolio", "/web/pages/projets/portfolio/"],
-  ["Textedit", "/web/pages/projets/textedit/"],
-  ["Puck Ferpection", "/web/pages/projets/perfuction/"],
-  ["Internet", "/web/pages/ressources/html/internet/"],
-  ["Le Web", "/web/pages/ressources/html/web/"],
-  ["Démarrer", "/web/pages/ressources/html/start/"],
-  ["Bases", "/web/pages/ressources/html/bases/"],
-  ["Syntaxe", "/web/pages/ressources/html/bases/#syntax"],
-  ["Attributs", "/web/pages/ressources/html/bases/#attributes"],
-  ["Commentaires", "/web/pages/ressources/html/bases/#comments"],
-  ["Block/Inline", "/web/pages/ressources/html/bases/#block-inline"],
-  ["Hiérarchie", "/web/pages/ressources/html/bases/#hierarchy"],
-  ["Sémantique", "/web/pages/ressources/html/bases/#semantics"],
-  ["Espaces", "/web/pages/ressources/html/bases/#spaces"],
-  ["Validation", "/web/pages/ressources/html/bases/#validation"],
-  ["Contenu", "/web/pages/ressources/html/content/"],
-  ["Texte", "/web/pages/ressources/html/content/#text"],
-  ["En ligne", "/web/pages/ressources/html/content/#inline"],
-  ["Liens", "/web/pages/ressources/html/content/#links"],
-  ["Images", "/web/pages/ressources/html/content/#images"],
-  ["Structure", "/web/pages/ressources/html/content/#structure"],
-  ["Formulaires", "/web/pages/ressources/html/content/#forms"],
-  ["Démarrer", "/web/pages/ressources/css/"],
-  ["Syntaxe", "/web/pages/ressources/css/syntax/"],
-  ["Sélecteurs", "/web/pages/ressources/css/selectors/"],
-  ["Héritage", "/web/pages/ressources/css/inheritance/"],
-  ["Unités", "/web/pages/ressources/css/units/"],
-  ["Texte", "/web/pages/ressources/css/text/"],
-  ["Arrière-plan", "/web/pages/ressources/css/background/"],
-  ["Box model", "/web/pages/ressources/css/box/"],
-  ["Positions", "/web/pages/ressources/css/positions/"],
-  ["Mise en page", "/web/pages/ressources/css/layout/"],
-  ["Flexbox", "/web/pages/ressources/flexbox/"],
-  ["Grid", "/web/pages/ressources/css/grid/"],
-  ["Animation", "/web/pages/ressources/css/transitions/"],
-  ["Transform", "/web/pages/ressources/css/transform/"],
-  ["Processus", "/web/pages/ressources/css/pratique/"],
-  ["Ressources", "/web/pages/ressources/js/#ressources-js"],
-  ["Javascript", "/web/pages/ressources/js/#introduction"],
-  ["Variables", "/web/pages/ressources/js/#variables"],
-  ["Logique", "/web/pages/ressources/js/#logique"],
-  ["Conditions", "/web/pages/ressources/js/#conditions"],
-  ["Boucles", "/web/pages/ressources/js/#boucles"],
-  ["Fonctions", "/web/pages/ressources/js/#fonctions"],
-  ["DOM", "/web/pages/ressources/js/#dom"],
-  ["jQuery", "/web/pages/ressources/js/#jquery"],
-  ["Aléatoire", "/web/pages/ressources/js/#random"],
-  ["Typo", "/web/pages/ressources/typo/"],
-  ["Macro & micro", "/web/pages/ressources/typo/macromicro/"],
-  ["Webfonts", "/web/pages/ressources/typo/webfonts/"],
-  ["Opentype", "/web/pages/ressources/typo/opentype/"],
-  ["Variables", "/web/pages/ressources/typo/variables/"],
-  ["Ressources", "/web/pages/ressources/audiovideo/#ressources-audiovideo"],
-  ["Exemples", "/web/pages/ressources/audiovideo/#exemples-audiovideo"],
-  ["HTML", "/web/pages/ressources/audiovideo/#html"],
-  ["Services web", "/web/pages/ressources/audiovideo/#services"],
-  ["Javascript", "/web/pages/ressources/audiovideo/#javascript"],
-  ["Web Audio Api", "/web/pages/ressources/audiovideo/#webaudioapi"],
-  ["Media queries", "/web/pages/ressources/rwd/#media-queries"],
-  ["Usages", "/web/pages/ressources/rwd/#usages"],
-  ["Typographie", "/web/pages/ressources/rwd/#typography"],
-  ["Portfolio", "/web/pages/projets/portfolio/"],
-  ["Kirby", "/web/pages/projets/portfolio/kirby"],
-  ["Blueprints", "/web/pages/projets/portfolio/blueprints"],
-  ["Données", "/web/pages/projets/portfolio/blueprints/#modele-de-donnees"],
-  ["Scénario 1", "/web/pages/projets/portfolio/blueprints/scenario-1"],
-  ["Scénario 2", "/web/pages/projets/portfolio/blueprints/scenario-2"],
-  ["Champs", "/web/pages/projets/portfolio/blueprints/#champs"],
-  ["Interface", "/web/pages/projets/portfolio/blueprints/#interface-dadministration"],
-  ["Templates", "/web/pages/projets/portfolio/templates"],
-  ["Bases", "/web/pages/projets/portfolio/templates/#php"],
-  ["PHP & Kirby", "/web/pages/projets/portfolio/templates/#kirby"],
-  ["Snippets", "/web/pages/projets/portfolio/templates/#snippets"],
-  ["CSS / JS", "/web/pages/projets/portfolio/assets/"],
-  ["Mise en page", "/web/pages/exemples/#layout"],
-  ["Aléatoire", "/web/pages/exemples/#random"],
-  ["Audio/vidéo", "/web/pages/exemples/#audio,#video"],
-  ["Flex", "/web/pages/exemples/#flex"],
-  ["Grid", "/web/pages/exemples/#grid"],
-  ["Javascript", "/web/pages/exemples/#js"],
-  ["CSS", "/web/pages/exemples/#css"],
-  ["Responsive", "/web/pages/exemples/#rwd"],
-  ["Typographie", "/web/pages/exemples/#typo"],
-  ["Interactivité", "/web/pages/exemples/#interactive"],
-  ["Variable fonts", "/web/pages/exemples/#variable"],
-  ["Html2Print", "/web/pages/exemples/#htmltoprint"],
-  ["Fonderies", "/web/pages/references/typo/#fonderies"],
-  ["Fontes variables", "/web/pages/references/typo/#fontes-variables"],
-  ["Typographie numérique", "/web/pages/references/typo/#typographie-numerique"],
-  ["Newsletters", "/web/pages/references/typo/#newsletters"],
-  ["Pratique", "/web/pages/references/typo/#pratique"],
-  ["En jouant", "/web/pages/references/typo/#en-jouant"],
-  ["Réflexions", "/web/pages/references/typo/#reflexions"],
-  ["Techniques web", "/web/pages/references/typo/#techniques-web"],
-  ["Histoire", "/web/pages/references/histoire/"],
-  ["Internet", "/web/pages/references/histoire/internet/"],
-  ["Machines", "/web/pages/references/histoire/machines/"],
-  ["Livres", "/web/pages/lectures/#livres"],
-  ["Revues", "/web/pages/lectures/#revues"],
-  ["Newsletters", "/web/pages/lectures/#newsletters"],
-  ["Podcasts", "/web/pages/lectures/#podcasts"],
-  ["Vidéos", "/web/pages/lectures/#videos"],
-  ["Sites", "/web/pages/lectures/#sites"]
+var links = [
+  ["HTML", "/web/pages/ressources/html/","ressources"],
+  ["CSS", "/web/pages/ressources/css/","ressources"],
+  ["FTP", "/web/pages/ressources/ftp/","ressources"],
+  ["Javascript", "/web/pages/ressources/js/","ressources"],
+  ["Python", "/web/pages/ressources/python/","ressources"],
+  ["Typographie", "/web/pages/ressources/typo/","ressources"],
+  ["Audio & vidéo", "/web/pages/ressources/audiovideo/","ressources"],
+  ["Responsive", "/web/pages/ressources/rwd/","ressources"],
+  ["Canvas", "/web/pages/ressources/canvas/","ressources"],
+  ["Html2print", "/web/pages/ressources/html2print/","ressources"],
+  ["Kirby", "/web/pages/projets/portfolio/", "projets"],
+  ["HTML / CSS", "/web/pages/references/htmlcss/", "references"],
+  ["Typographie", "/web/pages/references/typo/", "references"],
+  ["Écritures numériques", "/web/pages/references/ecrituresnumeriques/", "references"],
+  ["Webdoc", "/web/pages/references/webdocumentaire/", "references"],
+  ["Visite", "/web/pages/references/visite/", "references"],
+  ["Histoire", "/web/pages/references/histoire/", "references"],
+  ["Go pro !", "/web/pages/references/gopro/", "references"],
+  ["Hypertext superhero", "/web/pages/projets/htsh/", "projets"],
+  ["Pecha Kucha", "/web/pages/projets/pechakucha/", "projets"],
+  ["Webradiola", "/web/pages/projets/webradiola/", "projets"],
+  ["Zones", "/web/pages/projets/zones/", "projets"],
+  ["Programmation", "/web/pages/projets/programmation/", "projets"],
+  ["Cultures numériques", "/web/pages/projets/culturenum/", "projets"],
+  ["Storytellers", "/web/pages/projets/storytellers/", "projets"],
+  ["Portfolio", "/web/pages/projets/portfolio/", "projets"],
+  ["Textedit", "/web/pages/projets/textedit/", "projets"],
+  ["Puck Ferpection", "/web/pages/projets/perfuction/", "projets"],
+  ["Internet", "/web/pages/ressources/html/internet/","ressources"],
+  ["Le Web", "/web/pages/ressources/html/web/","ressources"],
+  ["Démarrer", "/web/pages/ressources/html/start/","ressources"],
+  ["Bases", "/web/pages/ressources/html/bases/","ressources"],
+  ["Syntaxe", "/web/pages/ressources/html/bases/#syntax","ressources"],
+  ["Attributs", "/web/pages/ressources/html/bases/#attributes","ressources"],
+  ["Commentaires", "/web/pages/ressources/html/bases/#comments","ressources"],
+  ["Block/Inline", "/web/pages/ressources/html/bases/#block-inline","ressources"],
+  ["Hiérarchie", "/web/pages/ressources/html/bases/#hierarchy","ressources"],
+  ["Sémantique", "/web/pages/ressources/html/bases/#semantics","ressources"],
+  ["Espaces", "/web/pages/ressources/html/bases/#spaces","ressources"],
+  ["Validation", "/web/pages/ressources/html/bases/#validation","ressources"],
+  ["Contenu", "/web/pages/ressources/html/content/","ressources"],
+  ["Texte", "/web/pages/ressources/html/content/#text","ressources"],
+  ["En ligne", "/web/pages/ressources/html/content/#inline","ressources"],
+  ["Liens", "/web/pages/ressources/html/content/#links","ressources"],
+  ["Images", "/web/pages/ressources/html/content/#images","ressources"],
+  ["Structure", "/web/pages/ressources/html/content/#structure","ressources"],
+  ["Formulaires", "/web/pages/ressources/html/content/#forms","ressources"],
+  ["Démarrer", "/web/pages/ressources/css/","ressources"],
+  ["Syntaxe", "/web/pages/ressources/css/syntax/","ressources"],
+  ["Sélecteurs", "/web/pages/ressources/css/selectors/","ressources"],
+  ["Héritage", "/web/pages/ressources/css/inheritance/","ressources"],
+  ["Unités", "/web/pages/ressources/css/units/","ressources"],
+  ["Texte", "/web/pages/ressources/css/text/","ressources"],
+  ["Arrière-plan", "/web/pages/ressources/css/background/","ressources"],
+  ["Box model", "/web/pages/ressources/css/box/","ressources"],
+  ["Positions", "/web/pages/ressources/css/positions/","ressources"],
+  ["Mise en page", "/web/pages/ressources/css/layout/","ressources"],
+  ["Flexbox", "/web/pages/ressources/flexbox/","ressources"],
+  ["Grid", "/web/pages/ressources/css/grid/","ressources"],
+  ["Animation", "/web/pages/ressources/css/transitions/","ressources"],
+  ["Transformations", "/web/pages/ressources/css/transform/","ressources"],
+  ["Processus", "/web/pages/ressources/css/pratique/","ressources"],
+  ["Ressources", "/web/pages/ressources/js/#ressources-js","ressources"],
+  ["Javascript", "/web/pages/ressources/js/#introduction","ressources"],
+  ["Variables", "/web/pages/ressources/js/#variables","ressources"],
+  ["Logique", "/web/pages/ressources/js/#logique","ressources"],
+  ["Conditions", "/web/pages/ressources/js/#conditions","ressources"],
+  ["Boucles", "/web/pages/ressources/js/#boucles","ressources"],
+  ["Fonctions", "/web/pages/ressources/js/#fonctions","ressources"],
+  ["DOM", "/web/pages/ressources/js/#dom","ressources"],
+  ["jQuery", "/web/pages/ressources/js/#jquery","ressources"],
+  ["Aléatoire", "/web/pages/ressources/js/#random","ressources"],
+  ["Typo", "/web/pages/ressources/typo/","ressources"],
+  ["Macro & micro", "/web/pages/ressources/typo/macromicro/","ressources"],
+  ["Webfonts", "/web/pages/ressources/typo/webfonts/","ressources"],
+  ["Opentype", "/web/pages/ressources/typo/opentype/","ressources"],
+  ["Variables", "/web/pages/ressources/typo/variables/","ressources"],
+  ["Ressources", "/web/pages/ressources/audiovideo/#ressources-audiovideo","ressources"],
+  ["Exemples", "/web/pages/ressources/audiovideo/#exemples-audiovideo","ressources"],
+  ["HTML", "/web/pages/ressources/audiovideo/#html","ressources"],
+  ["Services web", "/web/pages/ressources/audiovideo/#services","ressources"],
+  ["Javascript", "/web/pages/ressources/audiovideo/#javascript","ressources"],
+  ["Web Audio Api", "/web/pages/ressources/audiovideo/#webaudioapi","ressources"],
+  ["Media queries", "/web/pages/ressources/rwd/#media-queries","ressources"],
+  ["Usages", "/web/pages/ressources/rwd/#usages","ressources"],
+  ["Typographie", "/web/pages/ressources/rwd/#typography","ressources"],
+  ["Portfolio", "/web/pages/projets/portfolio/", "projets"],
+  ["Kirby", "/web/pages/projets/portfolio/kirby", "projets"],
+  ["Blueprints", "/web/pages/projets/portfolio/blueprints", "projets"],
+  ["Données", "/web/pages/projets/portfolio/blueprints/#modele-de-donnees", "projets"],
+  ["Scénario 1", "/web/pages/projets/portfolio/blueprints/scenario-1", "projets"],
+  ["Scénario 2", "/web/pages/projets/portfolio/blueprints/scenario-2", "projets"],
+  ["Champs", "/web/pages/projets/portfolio/blueprints/#champs", "projets"],
+  ["Interface", "/web/pages/projets/portfolio/blueprints/#interface-dadministration", "projets"],
+  ["Templates", "/web/pages/projets/portfolio/templates", "projets"],
+  ["Bases", "/web/pages/projets/portfolio/templates/#php", "projets"],
+  ["PHP & Kirby", "/web/pages/projets/portfolio/templates/#kirby", "projets"],
+  ["Snippets", "/web/pages/projets/portfolio/templates/#snippets", "projets"],
+  ["CSS / JS", "/web/pages/projets/portfolio/assets/", "projets"],
+  ["Mise en page", "/web/pages/exemples/#layout", "exemples"],
+  ["Aléatoire", "/web/pages/exemples/#random", "exemples"],
+  ["Audio/vidéo", "/web/pages/exemples/#audio,#video", "exemples"],
+  ["Flex", "/web/pages/exemples/#flex", "exemples"],
+  ["Grid", "/web/pages/exemples/#grid", "exemples"],
+  ["Javascript", "/web/pages/exemples/#js", "exemples"],
+  ["Positions", "/web/pages/exemples/#positions", "exemples"],
+  ["CSS", "/web/pages/exemples/#css", "exemples"],
+  ["Responsive", "/web/pages/exemples/#rwd", "exemples"],
+  ["Typographie", "/web/pages/exemples/#typo", "exemples"],
+  ["Interactivité", "/web/pages/exemples/#interactive", "exemples"],
+  ["Variable fonts", "/web/pages/exemples/#variable", "exemples"],
+  ["Html2Print", "/web/pages/exemples/#htmltoprint", "exemples"],
+  ["Fonderies", "/web/pages/references/typo/#fonderies", "references"],
+  ["Fontes variables", "/web/pages/references/typo/#fontes-variables", "references"],
+  ["Typographie numérique", "/web/pages/references/typo/#typographie-numerique", "references"],
+  ["Newsletters", "/web/pages/references/typo/#newsletters", "references"],
+  ["Pratique", "/web/pages/references/typo/#pratique", "references"],
+  ["En jouant", "/web/pages/references/typo/#en-jouant", "references"],
+  ["Réflexions", "/web/pages/references/typo/#reflexions", "references"],
+  ["Techniques web", "/web/pages/references/typo/#techniques-web", "references"],
+  ["Histoire", "/web/pages/references/histoire/", "references"],
+  ["Internet", "/web/pages/references/histoire/internet/", "references"],
+  ["Machines", "/web/pages/references/histoire/machines/", "references"],
+  ["Livres", "/web/pages/lectures/#livres", "lectures"],
+  ["Revues", "/web/pages/lectures/#revues", "lectures"],
+  ["Newsletters", "/web/pages/lectures/#newsletters", "lectures"],
+  ["Podcasts", "/web/pages/lectures/#podcasts", "lectures"],
+  ["Vidéos", "/web/pages/lectures/#videos", "lectures"],
+  ["Sites", "/web/pages/lectures/#sites", "lectures"],
 ];
 
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
+
+var pane = document.querySelector('#content'), pane_width = 0, pane_height = 0, styles = "", s = null, anchors = [];
+
+function createLink (idx) {
+    var data = links[idx];
+    var el = document.createElement('a');
+    var text = data[0];
+    var href = data[1];
+    var cat  = data[2];
+
+    el.href = href;
+    el.textContent = text;
+    el.className = el.dataset.category = cat;
+
+
+    el.id = "el-" + idx;
+    pane.appendChild(el);
+
+    el.addEventListener('mouseover', function(e){
+      pane.classList.add(e.target.dataset.category);
+      pane.classList.add('hover');
+    })
+
+    el.addEventListener('mouseout', function(e){    
+      pane.classList.remove(e.target.dataset.category);
+      pane.classList.remove('hover');
+    });  
+
+    anchors.push(el);
 }
 
-var pane = document.querySelector('#content');
-var pane_width = pane.clientWidth - (8 * 16);
-var pane_height = pane.clientHeight  - (4 * 16);
-console.log(pane.clientWidth, pane_width);
-
-shuffle(lonks);
-
-var styles = "";
-
-
-var css = document.createElement('style');
-css.setAttribute('type', "text/css");
-document.querySelector('head').appendChild(css);
-
-for (var i = 0; i<lonks.length; i++){
-  var el = null;
-  var link = lonks[i];
-  var text = link[0];
-  var href = link[1];
-  var seed = Math.random();
-  if(seed < .3){
-    el = document.createElement('select');
-    var option = document.createElement('option');
-    option.textContent = text;
-    el.dataset.val = href;
-    option.dataset.val = href;
-    el.appendChild(option);
-  } else if(seed < .6){
-    el = document.createElement('label');
-    var input = document.createElement('input');
-    el.textContent = text;
-    input.type = "checkbox";
-    el.dataset.val = href;
-    input.dataset.val = href;
-    el.appendChild(input)
-  } else {
-    el = document.createElement('label');
-    el.dataset.val = href;
-    var progress = document.createElement('progress');
-    el.textContent = text;
-    el.dataset.val = href;
-    progress.dataset.val = href;
-    el.appendChild(progress)
-  }
-
-  pane.appendChild(el);
-  el.id = "el-" + i;
-
-  el.addEventListener('click', function(e){
-    document.location.href= e.target.dataset.val;
-  })
-
-  var w = el.clientHeight;
-  var h = el.clientWidth;
+function setLinkPosition(idx){
+  var el = anchors[idx];
+  var w = el.clientWidth;
+  var h = el.clientHeight;
   
-  var base_t = 32 + Math.round( Math.random() * (pane_height - h));
-  var base_l = 32 + Math.round( Math.random() * (pane_width - w));
-  var base_d = (i * 20) + "ms";
-  styles += "#el-" + i + " { top:" + base_t + "px; left:" + base_l + "px; transition-delay:" + base_d + "}";
+  var base_t = 32 + Math.round( Math.random() * (pane_height - h) / 20 ) * 20;
+  var base_l = 32 + Math.round( Math.random() * (pane_width  - w) / 50 ) * 50;
+  var base_d = (idx * 5) + "ms";
+  styles += "#el-" + idx + " { top:" + base_t + "px; left:" + base_l + "px; transition-delay:" + base_d + ", 0ms, " + base_d + ", 0ms }";
 
-  var t = 32 + Math.round( Math.random() * (pane_height - h));
-  var l = 32 + Math.round( Math.random() * (pane_width - w));
-
-  styles += "#el-" + i + ".loaded { top:" + t + "px; left:" + l + "px;}";
+  var t = 32 + Math.round( Math.random() * (pane_height - h) / 20 ) * 20;
+  styles += ".loaded #el-" + idx + "{ top:" + t + "px;}";
 }
 
-css.textContent = styles;
+function createStyles(){
+  pane_width = pane.clientWidth - (6 * 16);
+  pane_height = pane.clientHeight  - (4 * 16);
+  var css = document.querySelector('#homecss') || document.createElement('style');
+  css.type = "text/css";
+  css.id = "homecss";
+  css.textContent = "";
+  styles= "";
+
+  for(var i = 0; i< links.length; i++) {
+    setLinkPosition(i);
+  }
+  pane.classList.add("done");
+  css.textContent = styles;
+  document.querySelector('head').appendChild(css);
+  s = setInterval(souk, 8000);
+  setTimeout(souk,100);
+}
+
+function init(){
+
+  for(var i = 0; i< links.length; i++) {
+    createLink(i);
+  }
+  createStyles();
+}
+
 
 function souk(){
-  for (var i = 0; i<lonks.length; i++){
-    var el = document.querySelector("#el-" + i);
-      el.classList.toggle("loaded");
-  }
+  pane.classList.toggle("loaded");
 }
-setInterval(souk, 8000)
-setTimeout(souk,100)
+
+// 
+init();
+
+// resize
+window.addEventListener('resize', function(){
+  createStyles();
+})

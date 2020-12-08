@@ -497,24 +497,47 @@ ul.list{
     border-left: none;
     width: calc(100% - 12rem) !important;
 }
-.home > * {
+.home a {
     position: absolute;
-    transition: all 250ms ease-out;
+    border: 4px solid #000;
+    background: #fff;
+    line-height: 1;
+    padding: .25em;
+    opacity: 0;
+    transition: top 250ms ease-out 0ms, color 250ms ease-out 0ms, border 250ms ease-out 0ms, background 0ms ease-out 0ms;
 }
-.home input, .home label, .home select,  .home option {
-    font-size: 1rem;
-}
-.home input {
-    position: absolute;    
-    left: -1.5em;
-    top: .05em;
-    font-size: 1em;
-}
- 
-.home progress { width: 100%; top:1.25em; left: 0; position: absolute;}
+
+.home.ressources .ressources { border-color: tomato; color: tomato;}
+.home .ressources:hover { color: #fff; border-color: tomato; background: tomato; z-index: 1;}
+
+.home.references .references { border-color: DeepSkyBlue; color: DeepSkyBlue;}
+.home .references:hover { color: #fff; border-color: DeepSkyBlue; background: DeepSkyBlue; z-index: 1;}
+
+.home.lectures .lectures { border-color: blueviolet; color: blueviolet;}
+.home .lectures:hover { color: #fff; border-color: blueviolet; background: blueviolet; z-index: 1;}
+
+.home.exemples .exemples { border-color: DarkSeaGreen; color: DarkSeaGreen;}
+.home .exemples:hover { color: #fff; border-color: DarkSeaGreen; background: DarkSeaGreen; z-index: 1;}
+
+.home.projets .projets { border-color: DeepPink; color: DeepPink;}
+.home .projets:hover { color: #fff; border-color: DeepPink; background: DeepPink; z-index: 1;}
+
+.home.done a { opacity: 1; }
+.home a:hover { z-index: 2; }
 
 
-@media only screen and (max-width: 30em) {
+
+@media only screen and (max-width: 45em) {
+
+    .pane.home {width: 100% !important;}
+    .home a {
+        position: static !important;
+        display: inline-block;
+        margin: 0 .25em .25em 0;
+    }
+}
+
+@media only screen and (max-width: 40em) {
     body {
         display: block;
         margin: 0 ;
