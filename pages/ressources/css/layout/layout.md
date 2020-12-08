@@ -26,7 +26,7 @@ Consulter la [**documentation sommaire**](../../flexbox/) et voir quelques exemp
 
 ## Grid
 
-Grid est la dernière innovation de CSS pour la mise en page. C’est un module puissant et potentiellement complexe qui représente sans aucun doute l’avenir de la mise en page pour le Web. Il est dédié aux mise en page multidimensionnelles (lignes **et** colonnes). 
+Grid est la dernière innovation de CSS pour la mise en page. C’est un module puissant –potentiellement complexe– qui est une des plus grandes évolutions de la mise en page pour le Web. Il est dédié aux mise en page multidimensionnelles (lignes **et** colonnes). 
 
 <svg width="650" height="277" viewBox="0 0 650 277" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="649" height="276" stroke="black"/>
@@ -94,18 +94,18 @@ Consulter la [**documentation sommaire**](../../css/positions/) et voir quelques
 
 ## Old school & future-proof
 
-### Propriétés `float` et `inline-block`
-
-Les propriétés CSS `float:left|right` et `display:inline-block` ont ensuite permis de créer des mise en pages plus souples, et de retrouver la dimension sémantique. Ces techniques, bien que souffrant de quelques limites, sont matures et efficientes, mais ont été supplantées depuis par les modules CSS Grid et Flexbox.
-
-Voir l’[archive de la documentation sur `float` et `inline-block`](../floats/).
-
 
 ### Tableaux, lignes et cellules
 
 Avant CSS, on utilisait les éléments `<table>`, leurs `<tr>` (lignes) et `<td>` (cellules) pour mettre en page les sites web. Pour créer des espaces dans la mise en page, on utilisait des images transparentes (`spacer.gif`) en forçant leurs tailles. C’était douloureux, inefficace et non-sémantique au possible (les `<table>` sont dédiées à l’affichage de données tabulaires).
 
 Voir [le site de Libération en 2000, sur web.archive.org](https://web.archive.org/web/20000809010933/http://www.liberation.fr/).
+
+### Propriétés `float` et `inline-block`
+
+Les propriétés CSS `float:left|right` et `display:inline-block` ont ensuite permis de créer des mise en pages plus souples, et de retrouver la dimension sémantique. Ces techniques, bien que souffrant de nombreuses limites, sont matures et efficientes, mais ont été supplantées depuis par les modules CSS Grid et Flexbox.
+
+Voir l’[archive de la documentation sur `float` et `inline-block`](../floats/).
 
 ## Ressources
 
