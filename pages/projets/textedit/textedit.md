@@ -137,8 +137,14 @@ Le web est un média *fluide*.
 Quelques ressources sur la [micro et macro typographie](../../ressources/typo/macromicro/) et les bases du *[Responsive web design](../../ressources/rwd/)*, ainsi que quelques exemples liés au [RWD](../../exemples/#rwd) ou à la mise en page avec [flex](../../exemples/#flex) et [grid](../../exemples/#grid), voire même à la [mise en page de texte responsive](../../exemples/text/).
 
 
+
+## <span>4. Print it!</span>
+
+[Rendez-vous ici](https://mensuel.framapad.org/p/wkbyqr1t0j-9kka?lang=fr)
+
 <footer markdown="1" >
 —
 
 Police de titrage : [Sprat](https://github.com/EthanNakache/Sprat-type), [Ethan Nakache](http://www.ethannakache.com/)
 </footer>
+
