@@ -2,9 +2,6 @@
 
 Au cours du temps, et particulièrement depuis l’avènement de CSS et de la navigation mobile, les principes et les outils de mise en page ont beaucoup évolué sur le Web. Plusieurs outils et techniques nous permettent aujour’hui de concevoir des mises en page pour le web.
 
-## Rendez-vous ici
-
-[https://codepen.io/esadpyrenees/professor/XWjNWGw](https://codepen.io/esadpyrenees/professor/XWjNWGw)
 
 ## Flexbox
 
