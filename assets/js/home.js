@@ -169,7 +169,8 @@ function setLinkPosition(idx){
   var base_t = 32 + Math.round( Math.random() * (pane_height - h) / 20 ) * 20;
   var base_l = 32 + Math.round( Math.random() * (pane_width  - w) / 50 ) * 50;
   var base_d = (idx * 5) + "ms";
-  styles += "#el-" + idx + " { top:" + base_t + "px; left:" + base_l + "px; transition-delay:" + base_d + ", 0ms, " + base_d + ", 0ms }";
+  base_d =  idx * 2 + Math.round( Math.random() * 100 );
+  styles += "#el-" + idx + " { top:" + base_t + "px; left:" + base_l + "px; transition-delay:" + base_d + "ms }";
 
   var t = 32 + Math.round( Math.random() * (pane_height - h) / 20 ) * 20;
   styles += ".loaded #el-" + idx + "{ top:" + t + "px;}";
@@ -190,7 +191,7 @@ function createStyles(){
   pane.classList.add("done");
   css.textContent = styles;
   document.querySelector('head').appendChild(css);
-  s = setInterval(souk, 8000);
+  s = setInterval(souk, 12000);
   setTimeout(souk,100);
 }
 

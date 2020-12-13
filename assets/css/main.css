@@ -504,7 +504,7 @@ ul.list{
     line-height: 1;
     padding: .25em;
     opacity: 0;
-    transition: top 250ms ease-out 0ms, color 250ms ease-out 0ms, border 250ms ease-out 0ms, background 0ms ease-out 0ms;
+    transition: all 250ms ease-out;
 }
 
 .home.ressources .ressources { border-color: tomato; color: tomato;}
