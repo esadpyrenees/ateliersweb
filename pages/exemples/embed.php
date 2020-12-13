@@ -39,8 +39,8 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
 
                 if( isset($title) ){
                     $title_line = trim($title);
-                    echo "<title>ÉSAD Pyrénées – Ateliers web – exemples</title>\n\n";
-                    echo "        <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web'>\n";
+                    echo "<title>ÉSAD Pyrénées – Ateliers web – Exemples</title>\n\n";
+                    echo "        <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web – Exemples'>\n";
                     echo "        <meta property='og:description' content='$title_line'>\n";
                     echo "        <meta property='og:url' content='$localurl'>\n";
                     echo "        <meta property='og:type' content='website'>\n";
