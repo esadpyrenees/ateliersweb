@@ -1,0 +1,332 @@
+@media print {
+
+  /* --------------------------------------------------- Mise en page générale */
+
+  /**** variable qui nous permet de connaitre la hauteur de l’empagement, la “page area”  */
+  /**** utilise les propriétés personnalisées CSS générées par paged.js  */
+  .pagedjs_page {
+    --pagedjs-pagearea-height: calc(var(--pagedjs-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom) );
+  }
+  
+  @page {
+    /**** Format du document imprimé : A5  */
+    size: 148mm 210mm;
+    /**** Marges hautes (blanc de tête) et basses (blanc de pied) pour toutes les pages  */
+    margin-bottom: 2.5cm;
+    margin-top: 1.5cm;
+  }
+
+  /**** Établir des marges provoque la création de “margin-boxes”  */
+  .pagedjs_pagebox > * {
+    /**** Décommenter la ligne ci-dessous pour les visualiser */
+    /* outline: 1px solid turquoise; */
+  }
+
+
+  @page :left {
+    /**** Pages de gauche – petit fond = 30px / grand fond = 90px  */
+    margin-right: 30px;
+    margin-left: 90px;
+    
+  }
+  @page :right {
+    /**** Pages de droite – petit fond = 30px / grand fond = 90px  */
+    margin-right: 90px;
+    margin-left: 30px;
+  }
+
+
+  /* --------------------------------------------------- Contenus générés / positionnés en margin-box  */
+
+  #booktitle { 
+    /**** un paragraphe, id="booktitle", permet de définir un titre courant */
+    /**** l’utilisation de position: running(identifiant), donne la possibilité d’utiliser “identifiant” dans une margin-box */
+    position: running(booktitle); 
+  }
+  
+  .pagedjs_margin-content { 
+    white-space: nowrap; /**** permet au contenu des margin-box de rester sur une seule ligne */
+    text-transform: uppercase;
+    font-size: .85em;
+  }
+
+
+
+  /* --------------------------------------------------- Couverture */
+
+  .cover-1 {
+    page: couverture; /**** affecte à la <section class="cover-1"> le gabarit de page “couverture”*/
+  }
+
+  @page couverture {
+    background-color: var(--background);
+    margin: 30px;
+  }
+    
+  .cover-1 h1 {
+    /**** valeur absolue (px) plutôt que relative (vh ou %) */
+    font-size: 80px; 
+    overflow: hidden;
+  }
+  .cover-1, h4  {
+    /**** suppression de min-height: 100vh */
+    min-height: 0;
+  }
+  .cover-1 img {
+    /**** positionnement de l’image de couverture */
+    top: calc(var(--pagedjs-margin-top) * -1); /**** marge négative pour compenser les marges de la page-area */
+    left: calc(var(--pagedjs-margin-left) * -1);
+    height: var(--pagedjs-height);
+    width: var(--pagedjs-width);
+  }
+
+  /**** positionnement et variations individuelles des mots du titre */
+  .cover-1 h1 span { transform:none !important}
+  .cover-1 h1 span:nth-child(1){ 
+    top: 0; 
+    left: 0; 
+  }
+  /**** la propriété personnalisée --h (utilisée pour le décalage progressif des mots) est abandonnée au profit d’une valeur absolue : 190px */
+  .cover-1 h1 span:nth-child(2){ right: 0%; top: calc(190px * 1); }
+  .cover-1 h1 span:nth-child(3){ left: 0%; top: calc(190px * 2); }
+  .cover-1 h1 span:nth-child(4){ left: 30%; top: calc(190px * 3); }
+
+  .cover-1 h2 span, .cover-1 h3  { 
+    position: absolute; 
+    left: 90px; 
+    transform: translateY(150%);
+  }
+  /*** De la liberté  */
+  .cover-1 h2 span:nth-child(1){ 
+    top: calc(190px / 2);
+  }
+  /*** dans le  */
+  .cover-1 h2 span:nth-child(2){ 
+    top: calc(190px * 1 + 190px / 2);
+  }
+  /*** cyberespace  */
+  .cover-1 h2 span:nth-child(3){ 
+    top: calc(190px * 2 + 190px / 2);
+  }
+  /**** Lawrence Lessig  */
+  .cover-1 h3 {
+    text-align: left;
+    top: calc(190px * 3 + 190px / 2)
+  }
+
+
+
+
+
+  /* --------------------------------------------------------------------- Faux-titre */
+
+  .half-title {
+    break-before: right; /**** oblige la section à commencer sur une page de droite */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: var(--pagedjs-pagearea-height);    
+  }
+
+  .info {
+    margin: 0;
+    font-size: 10px;
+    max-width: 25em;
+  }
+  .info:last-child {
+    margin-bottom: 0;
+  }
+  .half-title a {
+    text-decoration: none;
+  }
+  .half-title .info p { display: inline; }
+  .half-title .info p:not(:first-child)::before { content: "¶ "; color:var(--accentcolor); }
+  
+
+
+  /* --------------------------------------------------------------------- Intro */
+
+  .intro {
+    page: intro; /**** affecte à la <section class="intro"> le gabarit de page intro*/
+    break-before: right; /**** oblige la section à commencer sur une page de droite */
+    font-size: 22px;
+    line-height: 1.58;
+    text-align: left;
+    padding: 0;
+    font-variation-settings: 'wdth' 115, 'wght' 100;     
+  }
+  @page intro {
+    margin: 30px;  
+  }
+  .intro p.first-child {
+    margin-top: 5em;
+  }
+  .intro p { margin: 0;}
+  .intro p + p {
+    text-indent: 90px;
+  }
+  .drop {
+    padding-right: .15em;
+    height: .8em;
+  }
+  /**** suppression du pseudo-élément qui insère une filet sous la lettrine */
+  .drop::after{
+    display: none;
+  }
+
+  /* --------------------------------------------------------------------- Intertitres */
+  
+  .intertitre-left {
+    break-before: left; /**** oblige l’élément à commencer sur une page de gauche */
+    page: intertitre; /**** affecte au <h4 class="intertitre-left">  le gabarit de page intertitre */
+  }
+  .intertitre-right {
+    page: intertitre; /**** affecte au <h4 class="intertitre-right"> le gabarit de page intertitre */
+    break-before: right; /**** oblige l’élément à commencer sur une page de droite */
+  }
+
+  @page intertitre {
+    background-color: var(--background);
+    margin: 30px;
+  }
+
+  h4 {
+    margin: 0;
+    font-weight: 400;
+    height: var(--pagedjs-pagearea-height);
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align-last: left;
+    string-set: chaptertitle content(text); /**** détermine une chaîne de caractères “chaptertitle” – voir lignes 278 & 289 */
+    position: relative;
+    font-size: 22px;
+    padding: 12em 0 0 60px;
+    font-variation-settings: 'wdth' 140, 'wght' 110; 
+  }
+
+  /**** positionnement des images des intertitres  */
+
+  h4 img {
+    /**** réinitialisation des styles issus de vibration.css  */
+    object-fit: none;
+    width: auto;
+    height: auto;
+  }
+
+  #controle-left img {
+    top: calc(var(--pagedjs-margin-top) * -1);
+    left: calc(var(--pagedjs-margin-left) * -1);
+    width: 200px;
+  }
+
+  #architectures-left img {
+    top: calc(var(--pagedjs-margin-top) * -1);
+    left: calc(var(--pagedjs-margin-left) * -1);
+    width: var(--pagedjs-width);
+    object-fit: 100% auto;
+    object-position: left 60%;
+  } 
+  #architectures img {
+    top: calc(var(--pagedjs-margin-top) * -1);
+    left: calc(var(--pagedjs-margin-left) * -1);
+    width: calc(var(--pagedjs-width) * 1);
+    object-fit: 100% auto;
+    object-position: right 65%;
+  }
+  
+  #valeurs-left img {
+    top: calc(var(--pagedjs-margin-top) * -1);
+    left: calc(var(--pagedjs-margin-left) * -1);
+    width: var(--pagedjs-width);
+    object-fit: 100% auto;
+    object-position: 20% 27%;
+  } 
+
+  .progressive {
+    /* background-clip n’est pas bien supporté à l’impression, dommage… */
+    /* background-image: -webkit-gradient(linear, left top, right top, from(var(--background)), to(var(--accentcolor)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+
+  /* --------------------------------------------------------------------- Texte */
+
+  .text {
+    page: text; /**** affecte à la <section class="text">  le gabarit de page text */
+    padding: 0;
+    font-size: 14px;
+  }
+  .text p.first-child {
+    /**** reproduit les styles de .intro pour le premier enfant de chaque section */
+    /**** du fait de la pagination, p:first-child ,e fonctionne pas ; une class .first-child est ajoutée manuellement */
+    font-size: 22px;
+    line-height: 1.58;
+    text-align: left;
+    padding: 0;    
+    font-variation-settings: 'wdth' 115, 'wght' 100;     
+    margin-top: -.25em;
+    margin-left: calc( var(--pagedjs-margin-left) * -1 + 30px);
+    margin-bottom: .75em;
+  }
+  
+  @page text:left {
+    @bottom-left {
+      content: counter(page);
+      font-variation-settings: 'wdth' 200, 'wght' 100; 
+    }
+    /* running header (book title)  */
+    @bottom-right {
+        content: element(booktitle);
+        font-variation-settings: 'wdth' 100, 'wght' 100; 
+    }
+  }
+  @page text:right {
+    @bottom-right {
+      content: counter(page);
+      font-variation-settings: 'wdth' 200, 'wght' 100; 
+    }
+    /* running header (book title)  */
+    @bottom-left {
+        content: string(chaptertitle);
+        font-variation-settings: 'wdth' 100, 'wght' 100; 
+    }
+  }
+
+
+  /* --------------------------------------------------------------------- Texte */
+
+  .cover-4 {
+    page: colophon;
+    margin-top: 0;
+    line-height: 1.55;
+    padding: 12em 0 0;
+    font-variation-settings: 'wdth' 200, 'wght' 100; 
+    font-size: 1em;
+  }
+  .cover-4 h1,
+  .cover-4 .byline { text-align: left;}
+
+  @page colophon {
+    margin: 30px;
+    background: var(--background);
+  }
+  .cover-4 h1 {
+    margin: 0 0 .5em;
+    font-size: 22px;
+    line-height: 1.2;
+    color: var(--accentcolor);
+  }
+  .cover-4 h1 span {
+    color: var(--blue);
+    display: block;
+    margin-left: 90px;
+  }
+  .cover-4 p {
+    color: var(--blue);
+    margin-left: 90px;
+    font-size: 1em;
+    font-variation-settings: 'wdth' 120,'wght' 100;
+  }
+  
+}

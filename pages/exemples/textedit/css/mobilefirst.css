@@ -1,0 +1,99 @@
+
+/* --------------------------------------------------- Typographie **/
+
+/* Intégration de Sprat, une fonte variable */
+@font-face {
+  font-family: "Sprat";
+  src: url("fonts/Sprat_Variable.woff2") format("woff2 supports variations"), 
+      url("fonts/Sprat_Variable.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 200;
+}
+
+
+/* --------------------------------------------------- Styles communs **/
+
+body{
+  font-family: "Sprat";
+  margin:0;
+  background: linear-gradient(0deg, #eee, #999 ) no-repeat;
+  background-size: 100% 120%;
+  /* variation de graisse (wght) et de chasse (wdth) */
+  font-variation-settings: 'wdth' 120, 'wght' 100; 
+}
+
+/* styles standards */
+*, *::before, *::after { box-sizing: border-box;}
+a { color: currentColor;}
+
+/* espace interne aux sections */
+section { 
+  padding: 1em; 
+}
+
+
+/* --------------------------------------------------- 1re de couv */
+
+.cover-1 {
+  min-height: 100vh;
+  /* centrage du contenu à l’intérieur de la couv */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+.cover-1 h1, 
+.cover-1 h2,
+.cover-1 h3 {
+  margin: 0 0 .5em;
+}  
+.cover-1 h1 {
+  font-size: calc(12vw + 1em); 
+  line-height: .9;
+  font-variation-settings: 'wdth' 100, 'wght' 200; 
+  text-transform: uppercase; 
+  margin-bottom: .25em;
+}
+
+
+/* --------------------------------------------------- Sections de texte */
+
+.text {
+  font-size: 1em;
+  font-variation-settings: 'wdth' 110, 'wght' 100; 
+  line-height: 1.4;  
+}
+.text p {
+  margin: 0;
+}
+.text p + p {
+  /* les paragraphes précédés par un paragraphe */
+  text-indent: 3em;
+}
+
+
+
+/* --------------------------------------------------- 4e de couv */
+
+.cover-4 {
+  font-size: 1em;  
+  line-height: 1.45;
+  background-color: #000;
+  color: white;
+  padding: 1em;
+  font-variation-settings: 'wdth' 200, 'wght' 100; 
+}
+
+.cover-4 p, .cover-4 h1 {
+  margin: 0;
+}
+.cover-4 h1 {
+  line-height: 1;
+  margin: 3em 0 1.5em;
+}
+.info{
+  font-variation-settings: 'wdth' 105, 'wght' 100; 
+  margin: 2em auto;
+}
+.cover-4 .info p { display: inline; line-height: 1em;}
+.cover-4 .info p + p::before { content: "¶ "; }

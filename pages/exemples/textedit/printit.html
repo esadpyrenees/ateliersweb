@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code is law</title>
+
+  <!-- mes styles  -->
+  <link type="text/css" rel="stylesheet" href="css/vibration.css">
+  <link type="text/css" rel="stylesheet" href="css/printit.css">
+    
+  <!-- le style de l’interface paged.js  -->
+  <link type="text/css" rel="stylesheet" href="css/interface.css">
+
+  <!-- le script paged js -->
+  <script src="js/paged.polyfill.js"></script>
+
+  <!-- reload in place -->
+  <script src="js/paged.reload-in-place.js"></script>
+
+  <script>
+    if(!navigator.userAgent.includes("Chrome")){
+      var message = ":-( Only Chrome/Chromium browsers can properly print out this document"
+      result = window.confirm(message);
+      if(result){
+        alert('Sorry…')
+      } else {
+        alert('Really sorry…')
+      }
+    }
+  </script>
+  
+</head>
+<body >
+
+    
+
+    <!--  book 1re de couv  -->
+    <section class="cover-1">
+      <img src="img/seagull+drone-book.jpg" alt="">
+      <h1>
+        <span>Le</span> 
+        <span>code</span>
+        <span>fait</span> 
+        <span>loi</span>
+      </h1>
+      <h2>
+        <span>De la liberté</span>
+        <span>dans le</span>
+        <span>cyberespace</span>
+      </h2>
+      <h3>Lawrence Lessig</h3>  
+      <p id="booktitle">Le code fait loi</p>  
+    </section>
+
+    <!-- Faux-titre -->
+    <section class="half-title">
+      <header>
+        <h1>Code Is Law <br>—<br> On Liberty in Cyberspace</h1>
+        <p class="byline">Lawrence Lessig<br> Harvard Magazine<br> janvier 2000</p>   
+      </header>
+      <div class="info">
+        <p>
+          Lawrence Lessig est juriste, professeur de droit et militant politique états-unien. 
+        </p>
+        <p>
+          Spécialiste de droit constitutionnel et de droit de la propriété intellectuelle, 
+          défenseur engagé des libertés sur Internet, il est le fondateur de l'organisation Creative Commons.
+        </p>
+        <p>
+          Le livre associé à cet article, <i>Le code, et les autres lois du cyberespace</i>,  a été publié par Basic Books :
+          <a href="http://code-is-law.org">code-is-law.org</a>. L’article est accessible sur <a href="http://harvardmagazine.com/2000/01/code-is-law.html">harvardmagazine.com/2000/01/code-is-law.html</a>
+        </p>
+        <p>Traduction française de Barbidule, Siltaar, Goofy &amp; Don Rico pour Framalang. Photographie&#8201: <a href="https://www.dpreview.com/forums/post/59789190?image=0"><i>Seagull Chasing Drone</i> ©2017 Derek Dean</a>.</p>      
+        <p>
+          Texte composé en <a href="https://github.com/EthanNakache/Sprat-type">Sprat</a>, de Ethan Nakache, imprimable grâce à <a href="https://pagedjs.org/">Paged.js</a>. 
+        </p>
+      </div>
+    </section>
+
+    <!-- book text content -->
+    <section class=" intro">
+      <p class="first-child"><span class="drop">À</span> chaque époque son institution de contrôle, sa menace pour les libertés. Nos Pères Fondateurs craignaient la puissance émergente du gouvernement fédéral&nbsp;; la constitution américaine fut écrite pour répondre à cette crainte. John Stuart Mill s’inquiétait du contrôle par les normes sociales dans l’Angleterre du 19<sup>e</sup> siècle&nbsp;; il écrivit son livre <i>De la Liberté</i> en réaction à ce contrôle. Au 20<sup>e</sup>  siècle, de nombreux progressistes se sont émus des injustices du marché. En réponse furent élaborés réformes du marché, et filets de&nbsp;sécurité.</p>
+      <p>Nous sommes à l’âge du cyberespace. Il possède lui aussi son propre régulateur, qui lui aussi menace les libertés. Mais, qu’il s’agisse d’une autorisation qu’il nous concède ou d’une conquête qu’on lui arrache, nous sommes tellement obnubilés par l’idée que la liberté est intimement liée à celle de gouvernement que nous ne voyons pas la régulation qui s’opère dans ce nouvel espace, ni la menace qu’elle fait peser sur les&nbsp;libertés.</p>
+      <p><span class="progressive">Ce régulateur, c’est le code</span> &#8201: le logiciel et le matériel qui font du cyber-espace ce qu’il est. Ce code, ou cette architecture, définit la manière dont nous vivons le cyberespace. Il détermine s’il est facile ou non de protéger sa vie privée, ou de censurer la parole. Il détermine si l’accès à l’information est global ou sectorisé. Il a un impact sur qui peut voir quoi, ou sur ce qui est surveillé. Lorsqu’on commence à comprendre la nature de ce code, on se rend compte que, d’une myriade de manières, le code du cyberespace&nbsp;régule.</p>
+      <p>Cette régulation est en train de changer. Le code du cyberespace aussi. Et à mesure que ce code change, il en va de même pour la nature du cyberespace. <span class="progressive">Le cyber-espace est un lieu qui protège l’anonymat, la liberté d’expres-sion et l’autonomie des individus</span>, il est en train de devenir un lieu qui rend l’anonymat plus difficile, l’expression moins libre et fait de l’autonomie individuelle l’apanage des seuls&nbsp;experts.</p>
+      <p>Mon objectif, dans ce court article, est de faire comprendre cette régulation, et de montrer en quoi elle est en train de changer. Car si nous ne comprenons pas en quoi le cyberespace peut intégrer, ou supplanter, certaines valeurs de nos traditions constitutionnelles, nous perdrons le contrôle de ces valeurs. <span class="progressive">La loi du cyberespace — le code — les&nbsp;supplantera.</span></p>
+    </section>
+    
+    <h4 class="intertitre-left" id="controle-left">
+      <img src="img/seagull+drone-controle.jpg" alt="">
+    </h4>
+    <h4 class="intertitre-right" id="controle">
+      <strong>
+        <span>Ce que</span>
+        <span>contrôle</span>
+        <span>le code</span>
+      </strong>        
+    </h4>
+
+    <section class="text">      
+      <p class="first-child">Le code élémentaire d’Internet est constitué d’un ensemble de protocoles appelé TCP/IP. Ces protocoles permettent l’échange de données entre réseaux interconnectés. Ces échanges se produisent sans que les réseaux aient connaissance du contenu des données, et sans qu’ils sachent qui est réellement l’expéditeur de tel ou tel bloc de données. Ce code est donc neutre à l’égard des données, et ignore tout de&nbsp;l’utilisateur.</p>
+      <p>Ces spécificités du TCP/IP ont des conséquences sur la <em>régulabilité</em> des activités sur Internet. Elles rendent la régulation des comportements difficile. Dans la mesure où il est difficile d’identifier les internautes, il devient très difficile d’associer un comportement à un individu particulier. Et dans la mesure où il est difficile d’identifier le type de données qui sont envoyées, il devient très difficile de réguler l’échange d’un certain type de données. Ces spécificités de l’architecture d’Internet signifient que les gouvernements sont relativement restreints dans leur capacité à réguler les activités sur le&nbsp;Net.</p>
+      <p>Dans certains contextes, et pour certaines personnes, cette <em>irrégulabilité</em> est un bienfait. <span class="progressive">C’est cette caractéristique du Net, par exemple, qui protège la liberté d’expression.</span> Elle code l’équivalent d’un Premier amendement dans l’architecture même du cyberespace, car elle complique, pour un gouvernement ou une institution puissante, la possibilité de surveiller qui dit quoi et quand. Des informations en provenance de Bosnie ou du Timor Oriental peuvent circuler librement d’un bout à l’autre de la planète car le Net empêche les gouvernements de ces pays de contrôler la manière dont circule l’information. Le Net les en empêche du fait de son architecture&nbsp;même.</p>
+      <p>Mais dans d’autres contextes, et du point de vue d’autres personnes, ce caractère incontrôlable n’est pas une qualité. Prenez par exemple le gouvernement allemand, confronté aux discours nazis, ou le gouvernement américain, face à la pédo-pornographie. Dans ces situations, l’architecture empêche également tout contrôle, mais ici cette <em>irrégulabilité</em> est considérée comme une&nbsp;tare.</p>
+      <p>Et il ne s’agit pas seulement des discours nazis et de pornographie enfantine. Les principaux besoins de régulation concerneront le commerce en ligne&#8201: quand l’architecture ne permet pas de transactions sécurisées, quand elle permet de masquer facilement la source d’interférences, quand elle facilite la distribution de copies illégales de logiciels ou de musique. Dans ces contextes, le caractère incontrôlable du Net n’est pas considéré comme une qualité par les commerçants, et freinera le développement du&nbsp;commerce.</p>
+      <p class="question">Que peut-on y faire&#8201?</p>
+      <p>Nombreux sont ceux qui pensent qu’il n’y a rien à faire&#8201: <em>l’irrégulabilité</em> d’Internet est définitive. Il n’est rien que nous puissions faire pour y remédier. Aussi longtemps qu’il existera, Internet restera un espace incontrôlable. C’est dans sa <em>nature</em>&nbsp;même.</p>
+      <p>Mais <span class="progressive">rien n’est plus dangereux pour l’avenir de la liberté dans le cyberespace que de croire la liberté garantie par le code.</span> Car le code n’est pas figé. L’architecture du cyberespace n’est pas définitive. <em>L’irrégulabilité</em> est une conséquence du code, mais le code peut changer. D’autres architectures peuvent être superposées aux protocoles de base TCP/IP, et ces nouvelles couches peuvent rendre l’usage du Net fondamentalement contrôlable. Le commerce est en train de construire une architecture de ce type. Le gouvernement peut y aider. Les deux réunis peuvent transformer la nature même du Net. <span class="progressive">Il le peuvent, et le&nbsp;font</span>.</p>
+    </section>
+    
+    <h4 class="intertitre-left" id="architectures-left">
+      <img src="img/seagull+drone-architectures.jpg" alt="">
+    </h4>
+    <h4 class="intertitre-right" id="architectures">
+      <img src="img/seagull+drone-architectures.jpg" alt="">
+      <strong>
+        <span>D’autres</span> 
+        <span>architectures</span>
+      </strong>
+    </h4>
+    <section class="text">      
+      <p class="first-child">Ce qui rend le Net incontrôlable, c’est qu’il est difficile d’y savoir qui est qui, et difficile de connaître la nature des informations qui y sont échangées.</p>
+      <p>Ces deux caractéristiques sont en train de changer&#8201: premièrement, on voit émerger des architectures destinées à faciliter l’identification de l’utilisateur, ou permettant, plus généralement, de garantir la véracité de certaines informations le concernant (qu’il est majeur, que c’est un homme, qu’il est américain, qu’il est avocat). Deuxièmement, des architectures permettant de qualifier les contenus (pornographie, discours violent, discours raciste, discours politique) ont été conçues, et sont déployées en ce moment-même. Ces deux évolutions sont développées <span class="progressive">sans mandat</span> du gouvernement&nbsp;; et utilisées conjointement elles mèneraient à un degré de contrôle extraordinaire sur toute activité en ligne. Conjointement, elles pourraient renverser l’irrégulabilité du&nbsp;Net.</p>
+      <p>Tout dépendrait de la manière dont elles seraient conçues. Les architectures ne sont pas binaires. Il ne s’agit pas juste de choisir entre développer une architecture permettant l’identification ou l’évaluation, ou non. Ce que permet une architecture, et la manière dont elle limite les contrôles, sont des choix. Et en fonction de ces choix, c’est bien plus que la régulabilité qui est en&nbsp;jeu.</p>
+      <p>Prenons tout d’abord les architectures d’identification, ou de certification. Il existe de nombreuses architectures de certification dans le monde réel. Le permis de conduire, par exemple. Lorsque la police vous arrête et vous demande vos papiers, ils demandent un certificat montrant que vous êtes autorisé à conduire. Ce certificat contient votre nom, votre sexe, votre âge, votre domicile. Toutes ces informations sont nécessaires car il n’existe aucun autre moyen simple pour établir un lien entre le permis et la personne. Vous devez divulguer ces éléments vous concernant afin de certifier que vous êtes le titulaire légitime du&nbsp;permis.</p>
+      <p>Mais dans le cyberespace, la certification pourrait être ajustée beaucoup plus finement. Si un site est réservé aux adultes, il serait possible – en utilisant des technologies de certification – de certifier que vous êtes un adulte, sans avoir à révéler qui vous êtes ou d’où vous venez. La technologie pourrait permettre de certifier certains faits vous concernant, tout en gardant d’autres faits confidentiels. <span class="progressive">La technologie dans le cyberespace pourrait fonctionner selon une logique de «&#8201moindre révélation&#8201»</span>, ce qui n’est pas possible dans la&nbsp;réalité.</p>
+      <p>Là encore, tout dépendrait de la manière dont elle a été conçue. Mais il n’est pas dit que les choses iront dans ce sens. Il existe d’autres architectures en développement, de type «&#8201une seule carte pour tout&#8201». Dans ces architectures, il n’est plus possible de limiter simplement ce qui est révélé par un certificat. Si sur un certificat figure votre nom, votre adresse, votre âge, votre nationalité, ainsi que le fait que vous êtes avocat, et si devez prouver que vous êtes avocat, cette architecture certifierait non seulement votre profession, mais également tous les autres éléments vous concernant qui sont contenus dans le certificat. Dans la logique de cette architecture, plus il y a d’informations, mieux c’est. Rien ne permet aux individus de faire le choix du&nbsp;moins.</p>
+      <p><span class="progressive">La différence entre ces deux conceptions est que l’une garantit la vie privée, alors que l’autre non</span>. La première inscrit le respect de la vie privée au cœur de l’architecture d’identification, en laissant un choix clair à l’utilisateur sur ce qu’il veut révéler&nbsp;; la seconde néglige cette&nbsp;valeur.</p>
+      <p>Ainsi, le fait que l’architecture de certification qui se construit respecte ou non la vie privée dépend des choix de ceux qui codent. Leurs choix dépendent des incitations qu’ils reçoivent. S’il n’existe aucune incitation à protéger la vie privée – si la demande n’existe pas sur le marché, et que la loi est muette – alors le code ne le fera&nbsp;pas.</p>
+      <p>L’identification n’est qu’un exemple parmi d’autres. Prenons-en un deuxième, concernant la confidentialité des informations personnelles. RealJukebox est une technologie permettant de copier un CD de musique sur un ordinateur, ou de de télécharger de la musique sur le Net pour la stocker sur un disque dur. Il est apparu en octobre que le système était un peu trop curieux&#8201: il inspectait discrètement le disque dur de l’utilisateur, puis transférait à l’entreprise le fruit de ses recherches. Tout ceci en secret, bien entendu&#8201: RealNetworks n’avait prévenu personne que son produit collectait et transférait des données personnelles. Quand cet espionnage a été découvert, l’entreprise a tout d’abord tenté de justifier cette pratique (en avançant qu’aucune donnée personnelle n’était conservée), mais elle a fini par revenir à la raison, et a promis de ne plus recueillir ces&nbsp;données.</p>
+      <p>Ce <em>problème</em> est dû, une fois de plus, à l’architecture. Il n’est pas facile de dire qui espionne quoi, dans le cyberespace. Bien que le problème puisse être corrigé au niveau de l’architecture (en faisant appel à la technologie <a href="https://fr.wikipedia.org/wiki/Platform_for_Privacy_Preferences">P3P</a>, par exemple), voici un cas pour lequel la loi est préférable. Si les données personnelles étaient reconnues comme propriété de l’individu, alors leur collecte sans consentement exprès s’apparenterait à du&nbsp;vol.</p>
+      <p>Dans toutes ces circonstances, les architectures viendront garantir nos valeurs traditionnelles – ou pas. À chaque fois, des décisions seront prises afin de parvenir à une architecture d’Internet respectueuse de ces valeurs et conforme à la loi. <span class="progressive">Les choix concernant le code et le droit sont des choix de&nbsp;valeurs.</span></p>
+    </section>
+    
+    <h4 class="intertitre-left" id="valeurs-left">
+      <img src="img/seagull+drone-valeurs.jpg" alt="">
+    </h4>
+    <h4 class="intertitre-right" id="valeurs">
+      <strong>
+        <span>Une</span>
+        <span>question</span>
+        <span>de valeurs</span>
+      </strong>
+    </h4>
+    <section class="text"> 
+      <p class="first-child">Si c’est le code qui détermine nos valeurs, ne devons-nous pas intervenir dans le choix de ce code&#8201? Devons-nous nous préoccuper de la manière dont les valeurs émergent ici&#8201?</p>
+      <p>En d’autres temps, cette question aurait semblé incongrue. La démocratie consiste à surveiller et altérer les pouvoirs qui affectent nos valeurs fondamentales, ou comme je le disais au début, les contrôles qui affectent la liberté. En d’autres temps, nous aurions dit «&#8201Bien sûr que cela nous concerne. Bien sûr que nous avons un rôle à jouer.&#8201»</p>
+      <p>Mais nous vivons à une époque de scepticisme à l’égard de la démocratie. Notre époque est obsédée par la non-intervention. Laissons Internet se développer comme les codeurs l’entendent, voilà l’opinion générale. Laissons l’État en dehors de&nbsp;ça.</p>
+      <p>Ce point de vue est compréhensible, vu la nature des interventions étatiques. Vu leurs défauts, il semble préférable d’écarter purement et simplement l’État. Mais c’est une tentation dangereuse, en particulier&nbsp;aujourd’hui.</p>
+      <p>Ce n’est pas entre <em>régulation</em> et <em>absence de régulation</em> que nous avons à choisir. Le code régule. Il implémente – ou non – un certain nombre de valeurs. Il garantit certaines libertés, ou les empêche. Il protège la vie privée, ou promeut la surveillance. Des gens décident comment le code va se comporter. Des gens l’écrivent. La question n’est donc pas de savoir qui décidera de la manière dont le cyberespace est régulé&#8201: ce seront les codeurs. La seule question est de savoir <span class="progressive">si nous aurons collectivement un rôle dans leur choix</span> – et donc dans la manière dont ces valeurs sont garanties – ou <span class="progressive">si nous laisserons aux codeurs le soin de choisir nos valeurs à notre&nbsp;place.</span></p>
+      <p>Car c’est une évidence&#8201: quand l’État se retire, la place ne reste pas vide. Les intérêts privés ont des objectifs qu’ils vont poursuivre. En appuyant sur le bouton anti-Étatique, on ne se téléporte pas au Paradis. Quand les intérêts gouvernementaux sont écartés, d’autres intérêts les remplacent. Les connaissons-nous&#8201? Sommes-nous sûrs qu’ils sont meilleurs&#8201?</p>
+      <p>Notre première réaction devrait être l’hésitation. Il est opportun de commencer par laisser le marché se développer. Mais, tout comme la Constitution contrôle et limite l’action du Congrès, les valeurs constitutionnelles devraient contrôler et limiter l’action du marché. Nous devrions examiner l’architecture du cyberespace de la même manière que nous examinons le fonctionnement de nos&nbsp;institutions.</p>
+      <p>Si nous ne le faisons pas, ou si nous n’apprenons pas à le faire, la pertinence de notre tradition constitutionnelle va décliner. Tout comme notre engagement autour de valeurs fondamentales, par le biais d’une constitution promulguée en pleine conscience. Nous resterons aveugles à la menace que notre époque fait peser sur les libertés et les valeurs dont nous avons hérité. La loi du cyberespace dépendra de la manière dont il est codé, mais nous aurons perdu tout rôle dans le choix de cette&nbsp;loi.</p>
+    </section>
+    
+    <!--  book 4e de couv  -->
+    <section class="cover-4">
+      <h1>Code Is Law <br> <span>On Liberty in Cyberspace</span></h1>
+      <p class="byline">Lawrence Lessig</p>   
+    </section>
+  </main>
+
+    <script src="js/vibration.js"></script>
+  
+</body>
+</html>

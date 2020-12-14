@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code is law</title>
+
+  <!-- mes styles  -->
+  <link type="text/css" rel="stylesheet" href="css/index.css">
+  
+  
+</head>
+<body >
+
+  <h1>Text edit</h1>
+  <p>
+    « Pas à pas » relatif au projet <a href="../../projets/textedit/">Text Edit</a>.
+  </p>
+  <p>
+    Chaque étape est documentée en <code>/* commentaires */</code> dans les fichiers CSS. <br>Les <a href="/web/pages/exemples/backup.php?dir=textedit">fichiers peuvent être téléchargés</a>.
+  </p>
+
+  <section>
+    <h2><a href="mobilefirst.html">Mobile text first</a></h2>
+    <p>
+      <code>/* commentaires étape 1 */</code>
+    </p>
+    <p>
+      Choix typographique.
+      Mise en page minimale du texte.
+      Corrections orthotypographiques : intégration d’espaces fines insécables (<code>&amp;#8201;</code>) avant les ponctuations doubles (! ; « ») et  d’espaces mot insécables entre les deux derniers mots d’un paragraphe pour éviter les mots isolés en début de ligne.
+    </p>
+  </section>
+
+  <section>
+    <h2><a href="thinkfluid.html">Think fluid</a></h2>
+    <p>
+      <code>/** commentaires étape 2 */</code>
+    </p>
+    <p>
+      Ajout de <code>max-width</code> aux paragraphes.
+      Intégration de <i>media queries</i> : <code>@media (min-width: 40em) {}</code> qui permettent de modifier les corps de caractères, les marges et la mise en page du document au delà d’une certaine largeur d’écran.
+      Utilisation de propriétés personnalisées (“variables” CSS : <code>--padding: 1em</code>) et de pseudo-éléments (<code>::after</code>, <code>::before</code>) pour injecter des contenus dédiés à la mise en forme.
+      Ajout d’une lettrine pour le premier paragraphe.
+      Intégration de tirets de césure conditionnels (<code>&amp;shy;</code>).
+    </p>
+  </section>
+
+  <section>
+    <h2><a href="vibration.html">Vibration</a></h2>
+    <p>
+      <code>/*** commentaires étape 3 */</code>
+    </p>
+    <p>
+      Décisions formelles (images, arrières-plans, couleurs, mise en page du titre et des intertitres). Modifications mineures du HTML (dans le titre et les intertitres ou pour l’ajout des images). Utilisation de javascript pour la mise en exergue de certaines phrases du texte grâce à la fonte variable. 
+    </p>
+  </section>
+
+  <section>
+    <h2><a href="printit.html">Print it!</a></h2>
+    <p>
+      <code>/**** commentaires étape 4 */</code>
+    </p>
+    <p>
+      Intégration de la librairie Paged.js (<a href="js/paged.polyfill.js">js/paged.polyfill.js</a>) et de la CSS pour la prévisualisation du document imprimé (<a href="css/interface.css">css/interface.css</a>). Ajout du script <a href="js/paged.reload-in-place.js">js/paged.reload-in-place.js</a> pour faciliter les prévisualisations au fil du document.
+    </p>
+    <p>
+      👉 Paged.js requiert que le document soit lu depuis un serveur web (MAMP, XAMP, ou l’extension “Go Live” de VS Code).
+    </p>
+    <p>
+      Le HTML est modifié pour introduire une page de “faux-titre” (<code>.half-title</code>), qui intègre le contenu de la section <code>.cover-4</code>.
+    </p>
+    <p>
+      Le HTML est également modifié afin d’extraire les intertitres des sections, et pouvoir en faire des doubles-pages plus autonomes. Pour plus de souplesse dans la mise en forme de ces double-pages, les intertitres sont dupliqués et une classe spécifique est attribuée à chacun (<code>.intertitre-left</code> et <code>.intertitre-right</code>).
+    </p>
+    <p>
+      Le lien vers le fichier CSS <code>css/vibration.css</code> est maintenu, mais une autre feuille de style (<code>css/printit.css</code>) va venir compléter et modifier les styles initiaux.
+    </p>
+    <p>
+      Dans la CSS : abandon des unités relatives au viewport (<code>vh</code> et <code>vw</code>) au profit d’unités absolues établies en <code>px</code> ; la section d’introduction est singularisée et quitte l’association à la classe <code>.text</code>. 
+    </p>
+    <p>
+      Certains éléments (les <code>&lt;section&gt;</code>, notamment) se voient attribuées des déclarations <code>@page {}</code> qui permettent de définir des gabarits de pages types, possédant leurs marges, leur arrière-plan ou encore le positionnement des titres courants ou des folios. 
+    </p>
+    <p>
+      Pour améliorer la microtypographie, une fois le corps de texte précisément établi, on peut venir améliorer la justification en insérant des tirets de césure manuels ou conditionnels aux endroits problématiques.
+    </p>
+  </section>
+
+</body>
+</html>

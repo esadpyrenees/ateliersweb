@@ -1,0 +1,50 @@
+
+/* Intégration de Sprat, une fonte variable */
+@font-face {
+  font-family: "Sprat";
+  src: url("fonts/Sprat_Variable.woff2") format("woff2 supports variations"), 
+      url("fonts/Sprat_Variable.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 200;
+}
+
+
+body{
+  font-family: "Sprat";
+  margin:5%;
+  font-variation-settings: 'wdth' 120, 'wght' 100; 
+}
+
+a { color: currentColor; }
+a:hover { color: deeppink; }
+h1 {
+  text-transform: uppercase;
+  font-variation-settings: 'wdth' 200, 'wght' 100; 
+}
+p {
+  max-width: 40em;
+}
+code {
+  color: deeppink;
+}
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: calc(4vw + 1em);
+}
+section + section {
+  margin-top: 2em;
+}
+
+section:nth-of-type(1) h2 { 
+  font-variation-settings: 'wdth' 100, 'wght' 100;
+}
+section:nth-of-type(2) h2 { 
+  font-variation-settings: 'wdth'200, 'wght' 100;
+}
+section:nth-of-type(3) h2 { 
+  font-variation-settings: 'wdth'140, 'wght' 100;
+}
+section:nth-of-type(4) h2 { 
+  font-variation-settings: 'wdth'180, 'wght' 100;
+}
