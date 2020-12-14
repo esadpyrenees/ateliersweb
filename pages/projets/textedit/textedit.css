@@ -163,7 +163,7 @@ h3 {
 }
 
 
-.scrollables {
+/* .scrollables {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem 2rem;
@@ -171,25 +171,43 @@ h3 {
   max-width: none;
   background:#222;
   margin: 0 -2rem
-}
-.scrollables a , .scrollables img{
+} */
+.scrollables a{
   display:block;
-  border:none
+  border:none;
+  
 }
+.scrollables img {
+  display: block;
+  height: calc(400px - 3em);
+  
+}
+
 .scrollables figure { 
-  margin: 0 0 3em;
-  position:relative;
+  width: calc((400px - 3em) / 1.778);
+  margin: 2rem 0 3rem 2rem;
+  position: relative;
 }
+/* carousel height */
+.scrollables {
+  background:#222;
+  margin: 0 -2rem;
+  padding-left: 2rem;
+}
+
 .scrollables figcaption { 
   position:absolute;
   font-size:.75em; 
   color:#777;
-  bottom:0;
-  margin: 0 0 -2.5em;
+  bottom:-2.5em;
+  padding: 1em 0 0 0;
   text-align:center;
   width:100%;
 }
 .scrollables p + p { margin-top: .5em;}
+
+
+
 
 footer{
   margin-top: 6em;

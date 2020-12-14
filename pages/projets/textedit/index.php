@@ -21,10 +21,24 @@
 ?>
 
 <link rel="stylesheet" href="textedit.css"/>
+<link rel="stylesheet" href="/web/assets/css/vendor/flickity.css"/>
+
 
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
+<script src="/web/assets/js/vendor/flickity.pkgd.min.js"></script>
+<script>
+    // element argument can be a selector string
+    //   for an individual element
+    var flkty = new Flickity( '.scrollables', {
+        pageDots: false,
+        imagesLoaded: true,
+        cellAlign: 'left',
+        lazyLoading:true,
+        cellSelector: 'figure'
+    });
+</script>
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>
