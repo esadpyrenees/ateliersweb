@@ -13,6 +13,7 @@ body{
   font-family: "Sprat";
   margin:5%;
   font-variation-settings: 'wdth' 120, 'wght' 100; 
+  counter-reset: section;
 }
 
 a { color: currentColor; }
@@ -28,11 +29,29 @@ code {
   color: deeppink;
 }
 h2 {
-  margin: 0;
+  margin: .75em 0 0;
   font-weight: 400;
   font-size: calc(4vw + 1em);
+  counter-increment: section;
 }
-section + section {
+h2:before{
+  content: counter(section);
+  display: inline-block;
+  width: calc((4vw + 1rem) * .8);
+  height: calc((4vw + 1rem) * .8);
+  background: #000;
+  font-size: .5em;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  top:-0.3em;
+  margin-right: .25em;
+}
+h2 a { text-decoration: none;}
+section {
   margin-top: 2em;
 }
 
