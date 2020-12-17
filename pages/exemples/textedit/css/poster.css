@@ -1,0 +1,219 @@
+:root{
+  --background: rgb(12, 20, 38);
+  --accentcolor: rgb(125, 57, 146);
+  --blue: rgb(135, 175, 248); 
+  /* paged.js specific var */
+  --pagedjs-pagearea-height: calc(var(--pagedjs-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom) );
+}
+
+@media screen {
+  html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagedjs_page {
+    margin: 1cm auto !important;
+  }
+}
+
+
+@media print {
+
+  /* --------------------------------------------------- Page setup **/
+  @page {
+    size: 600mm 800mm;
+    margin: 72px;
+  }
+  .pagedjs_page {
+    background-color: var(--background);
+    box-shadow: 0 0 0 1px #666;
+    margin: 0;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  /* --------------------------------------------------- Typographie **/
+
+  @font-face {
+    font-family: "Sprat";
+    src: url("fonts/Sprat_Variable.woff2") format("woff2 supports variations"), 
+        url("fonts/Sprat_Variable.woff2") format("woff2-variations");
+    font-style: normal;
+    font-weight: 100 200;
+  }
+
+
+  /* --------------------------------------------------- Styles communs **/
+
+
+  body{
+    font-family: "Sprat";
+    margin:0;
+    font-variation-settings: 'wdth' 120, 'wght' 100; 
+    color: white;
+  }
+
+  *, *::before, *::after { box-sizing: border-box;}
+  a { color: currentColor; text-decoration: none;}
+  sup { line-height:0;  vertical-align: baseline; font-size: 80%; position: relative; top: -0.35em; }
+
+
+  /* --------------------------------------------------- Mise en page **/
+
+
+  .poster {
+    height: var(--pagedjs-pagearea-height);
+    display: grid;
+    grid-column-gap: 1cm;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .intro { grid-column: 4 / span 2; grid-row: 1 / span 2;}
+  #controle { grid-column: 2 / span 2; grid-row: 4 / span 5; margin-top: -2em;}
+  #architectures { grid-column: 5 / 7; grid-row: 5 / span 7;}
+  #valeurs { grid-column: 3 / span 2; grid-row: 9 / span 3; align-self: end; margin-bottom: -10em;}
+  .half-title { grid-column: 6 / span 1; grid-row: 11 / span 2; align-self: end; }
+
+
+  /* --------------------------------------------------- 1re de couv **/
+
+  .cover-1 {
+    position: absolute;
+    height: var(--pagedjs-pagearea-height);
+    position: absolute;
+    width: 100%;
+    color: var(--accentcolor);
+    z-index: 1;
+  }
+  /*** Traitement des images  */
+  .cover-1 img {
+    mix-blend-mode: screen;
+    left: calc(var(--pagedjs-margin-left) * -1);
+    right: calc(var(--pagedjs-margin-left) * -1);
+    top: calc(var(--pagedjs-margin-left) * -1);
+    width: var(--pagedjs-width);
+    height:  var(--pagedjs-height);
+    position: absolute;
+    object-fit: cover;
+  }
+
+
+  .cover-1 h1, 
+  .cover-1 h2,
+  .cover-1 h3 {
+    margin: 0;
+    text-transform: uppercase; 
+  }  
+  .cover-1 h1 {
+    font-size: calc(480px * 1.3); 
+    line-height: .65;
+    font-variation-settings: 'wdth' 100, 'wght' 150; 
+  }
+
+  /*** positionnement et variations individuelles des mots du titre */
+  .cover-1 h1 span { position: absolute; }
+  .cover-1 h1 span:nth-child(1){ left: 0; top: 0; }
+  .cover-1 h1 span:nth-child(2){ right: -1cm; top: calc(21.2cm * 1); }
+  .cover-1 h1 span:nth-child(3){ left: 0%; top: calc(21.2cm * 2); }
+  .cover-1 h1 span:nth-child(4){ left: 30%; top: calc(21.2cm * 3); }
+
+  /*** positionnement et variations individuelles des mots du sous-titre */
+  
+  .cover-1 h2 span  { 
+    position: absolute; 
+    transform: translateY(200%);
+    font-size: calc(60px * 1.3); 
+    font-variation-settings: 'wdth' 200, 'wght' 100; 
+    color: var(--blue);
+  }
+  /*** De la liberté  */
+  .cover-1 h2 span:nth-child(1){ 
+    top: calc(21.2cm / 2);
+    right: 0;
+  }
+  /*** dans le  */
+  .cover-1 h2 span:nth-child(2){ 
+    top: calc(21.2cm * 1 + 21.2cm / 2);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  /*** cyberespace  */
+  .cover-1 h2 span:nth-child(3){ 
+    top: calc(21.2cm * 2 + 21.2cm / 2);
+    left: 0;
+    transform: translateY(80%);
+  }
+  /**** Lawrence Lessig  */
+  .cover-1 h3 {
+    position: absolute;
+    bottom: 6em;
+    text-transform: uppercase;
+    font-variation-settings: 'wdth' 140, 'wght' 100; 
+    font-size: 32px;
+    color: var(--blue);
+    width: 28%;
+    text-align: center;
+  }
+
+
+
+  /* --------------------------------------------------- Sections de texte */
+
+  .intro,
+  .text {
+    font-variation-settings: 'wdth' 110, 'wght' 110; 
+    line-height: 1.45;  
+    position: relative;
+    z-index: 2;
+    font-size: 13px;
+    columns: 2;
+    column-gap: .5cm;
+  }
+
+  /** lettrine pour le premier paragraphe  */
+  .drop {
+    float: left;
+    font-variation-settings: 'wdth' 100, 'wght' 100; 
+    font-size: 4.2em;
+    line-height: .7em;
+    margin-left: -.025em;
+    margin-bottom: -.15em;
+    padding-right: .25em;
+    position: relative;
+    height: 1em;
+    top: .15em;
+  }
+  p { margin: 0; }
+  p + p { text-indent: 2em; }
+
+  h4 {
+    font-variation-settings: 'wdth' 140, 'wght' 100; 
+    font-size: 32px;
+    margin: 0 0 0 -50%;
+    line-height: 1.2;
+    text-transform: uppercase;  
+    transform: translateY(-50%);
+  }
+  h4 strong > span{ display: block; }
+  
+
+  /* --------------------------------------------------- 4e de couv */
+
+  .half-title { line-height: 1.45; color: white; position: relative;z-index: 2;}
+  .half-title p, .half-title h1 { margin: 0; }
+  .half-title h1 { line-height: 1; margin-bottom: 1em; }
+
+  .info{
+    margin-top: 1em;
+    font-size: .75em;
+    font-variation-settings: 'wdth' 105, 'wght' 100; 
+  }
+  .half-title .info p { display: inline; line-height: 1em;}
+  .half-title .info p:not(:first-child)::before { content: " ¶ "; color: var(--accentcolor);}
+
+}
