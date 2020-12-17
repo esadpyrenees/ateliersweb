@@ -8,11 +8,11 @@ Les fontes distribuées sous licence libres sont nombreuses et leur qualité aug
 
 ★ [Velvetyne Type Foundry](http://velvetyne.fr/), ⚡ [OpenSourcePublishing Foundry](http://ospublish.constantvzw.org/foundry/), [Open Font Library](http://openfontlibrary.org/), [The League of Moveable Type](http://www.theleagueofmoveabletype.com/), [Omnibus Type](http://www.omnibus-type.com/), [Open Foundry](https://open-foundry.com/), [Noir Blanc Rouge](https://noirblancrouge.com/), ❤️ [Badass Libre Fonts By Womxn](https://www.design-research.be/by-womxn/).
 
-[Franck Adebiaye](http://fadebiaye.com/), qui maintient un [annuaire de la scène typographique française](http://www.fadebiaye.com/type/1554/typo_scene_fr.html)
+[Franck Adebiaye](http://fadebiaye.com/) maintient un [annuaire de la scène typographique française](http://www.fadebiaye.com/type/1554/typo_scene_fr.html)
 
-Raphaël Bastide a initié et développé un outil (libre) pour lister et sélectionner des fontes numériques. Il contient une liste importante de polices libres ou open source : [use & modify](http://usemodify.com/).
+☞ Raphaël Bastide a initié et développé un outil (libre) pour lister et sélectionner des fontes numériques. Il contient une liste importante de polices libres ou open source : [use & modify](http://usemodify.com/).
 
-☞ Raphaël Bastide maintient également une liste de fonderies libres : [gitlab.com/raphaelbastide/libre-foundries](https://gitlab.com/raphaelbastide/libre-foundries)
+Raphaël Bastide maintient également une liste de fonderies libres : [gitlab.com/raphaelbastide/libre-foundries](https://gitlab.com/raphaelbastide/libre-foundries)
 
 Google est également devenu un distributeur de fontes ayant à son catalogue de nombreuses polices de qualité (pas toutes…) : [Google Web Fonts](http://www.google.com/webfonts). <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web</span>.
 
@@ -66,6 +66,8 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 </div>
 
 ## Fontes variables {#fontes-variables}
+
+Jeter un œil aux [ressources dédiées](../../ressources/typo/variables/) pour savoir comment les intégrer, les manipuler…
 
 #### [variablefonts.io](https://variablefonts.io/)
 Une introduction complète (en anglais) aux fontes variables par  Jason Pamental, Caren Litherland et Paula Ashton
