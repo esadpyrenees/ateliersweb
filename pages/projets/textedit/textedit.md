@@ -149,7 +149,7 @@ La section [html2print](../../ressources/html2print/) offre une introduction à 
 
 Parmi ces outils, la librairie [Paged.js](https://pagedjs.org/) est l’une des initiatives les plus abouties et prometteuses. Basée sur les standards CSS Print définis par le W3C, elle permet de mettre en page des documents paginés (= des livres, des magazines, des fanzines), de les imprimer ou d’en générer des pdf depuis le navigateur.
 
-La documentation –en anglais– de la librairie est importante. Lire notamment [Getting Started with Paged.js](https://www.pagedjs.org/documentation/02-getting-started-with-paged-js/) et [Named Page](https://www.pagedjs.org/documentation/08-named-pages/). Le dépôt Gitlab recèle de très nombreux et utiles exemples : 
+La documentation –en anglais– de la librairie est importante. Lire notamment [Getting Started with Paged.js](https://www.pagedjs.org/documentation/02-getting-started-with-paged-js/) et [Named Page](https://www.pagedjs.org/documentation/08-named-pages/). Le dépôt Gitlab recèle de très nombreux et utiles [exemples liés à des questions spécifiques](https://gitlab.pagedmedia.org/tools/experiments/) et le [projet qui a été présenté](https://gitlab.pagedmedia.org/samples/) (*Printing in Relation to Graphic Art*).
 
 Julien Taquet (et Julie Blanc) répondent régulièrement aux questions posées sur [mattermost](https://mattermost.pagedmedia.org/pagedmedia/channels/town-square).
 
