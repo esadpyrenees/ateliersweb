@@ -11,9 +11,6 @@
   <!-- le script paged js -->
   <script src="js/paged.polyfill.js"></script>
 
-  <!-- reload in place -->
-  <script src="js/paged.reload-in-place.js"></script>
-
   <script>
     if(!navigator.userAgent.includes("Chrome")){
       var message = ":-( Only Chrome/Chromium browsers can properly print out this document"
@@ -140,7 +137,61 @@
     </section>
     
   </main>
-    <script src="js/vibration.js"></script>
+  <script src="js/vibration.js"></script>
+
+  
+
+  <script>
+    // script pour la fonctionnalité zoom in / zoom out
+
+    var poster, poster_height, screen_height, ratio;
+
+    class MyHandler extends Paged.Handler {
+      constructor(chunker, polisher, caller) {
+        super(chunker, polisher, caller);
+      }
+  
+      afterRendered(pages) {
+        poster = document.querySelector('.pagedjs_pages');
+        poster_height = poster.clientHeight;
+        screen_height = window.innerHeight - 60;
+        ratio = screen_height / poster_height;
+        poster.style.transform = 'scale(' + ratio + ')';
+        
+        var zoom = document.createElement('nav');
+        var zoomout = document.createElement('button');
+        zoom.style.position = "fixed";
+        zoomout.textContent = " zoom –";
+        zoomout.id = "zoomout";
+        var zoomin = document.createElement('button');
+        zoomin.textContent = " zoom +";
+        zoomin.id = "zoomin";
+        zoom.addEventListener('click', function(e){
+          if(e.target.id == "zoomout") {
+            poster.style.transform = 'scale(' + ratio + ')';
+          } else {
+              poster.style.transform = "none";
+          }
+        });
+        zoom.appendChild(zoomin);
+        zoom.appendChild(zoomout);
+        document.body.appendChild(zoom);
+      }
+    }
+    Paged.registerHandlers(MyHandler);
+
+    // recalc on resize
+    window.addEventListener('resize', function(){
+      screen_height = window.innerHeight - 60;
+      ratio = screen_height / poster_height;
+      poster.style.transform = 'scale(' + ratio + ')';
+    })
+
+    
+    
+
+
+  </script>
   
 </body>
 </html>
