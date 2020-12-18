@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Sol Le witt</title>
+        <style media="screen">
+            html, body{ height: 100%;}
+            :root{
+            --size: 80vh;
+            --bg: repeating-linear-gradient(90deg, #fff, #fff 10px, #000 10px, #000 20px);
+            }
+            body{
+            display: grid;
+            place-content:center;
+            }
+            body, body::before, body::after{
+            background:var(--bg);
+            background-size: 200% 200%;
+            animation: bg 20s infinite linear;
+            }
+
+            body::before, body::after{
+            content:"";
+            grid-column: 1;
+            grid-row: 1;
+            place-self:center;
+            display: block;
+            width: var(--size);
+            height: var(--size);
+            border-radius: 50%;
+            transform:rotate(90deg);
+            }
+
+            body::after {
+            width: calc(var(--size) / 3);
+            height: calc(var(--size) / 3);
+            transform:rotate(0deg);
+            }
+
+            @keyframes bg {
+            to { background-position: 100% 100%;}
+            }
+
+            @media (orientation: portrait){
+            :root{ --size: 80vw;}
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- the infinite emptiness -->
+
+    </body>
+</html>
