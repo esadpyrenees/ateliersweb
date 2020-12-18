@@ -1,8 +1,8 @@
 # Stotytellers – RING
 
-Explore the notion of extimacy and create a character. His reality oscillates between reality and fiction. You have extracted his substance from your intimate identity and you should be ready to project him online to the public audience. 
+Explore the notion of extimacy and create a character. Their reality oscillates between reality and fiction. You have extracted their substance from your intimate identity and you should be ready to project them online to the public audience. 
 
-Our proposal is to project this character into the world, to contextualize him, to make him meet the city, the inhabitants, the students (from your own class, from the school), the landscape, the architecture. 
+Our proposal is to project these characters into the world, to contextualize them, make them meet the city, the inhabitants, the students (from your own class, from the school), the landscape, the architecture. 
 The mode can be that of fiction, essay, poetry or documentary, visual experimentation… Can be narrative (or not).    
 ↯ Write an auto-fiction from this character. Produce media (texts, audio recordings, photographic images, video images, but also, why not, drawings, sketches, graphic samples) that bear witness to this character's encounter with the world.
 
