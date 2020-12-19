@@ -22,6 +22,7 @@ header h1 {
   font-size: calc((100vw - 11rem) / 8 * 3); padding:0;
   margin: .1em 0 .15em;
   background: url(perfuction.png) no-repeat 80% 25%;
+  background-size: 50% auto;
 }
 header h1 span { 
   display: block;
