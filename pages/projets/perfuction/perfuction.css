@@ -21,6 +21,7 @@ main h1, main h2, main h3, main h4 {
 header h1 { 
   font-size: calc((100vw - 11rem) / 8 * 3); padding:0;
   margin: .1em 0 .15em;
+  background: url(perfuction.png) no-repeat 80% 25%;
 }
 header h1 span { 
   display: block;
