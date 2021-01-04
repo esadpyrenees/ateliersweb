@@ -1,41 +1,65 @@
-/* typo */
-@font-face {
-  font-family: 'Nicolas Frespech';
-  src: url('fonts/NicolasFrespech.woff2') format('woff2'),
-      url('fonts/NicolasFrespech.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 /* styles */
 html, body{
   height: 100%;
 }
 body {
-  font-size: 13vw;
-  line-height: .65;
-  font-family: 'Nicolas Frespech';
+  font-family: sans-serif;
   margin: 0;
-  overflow: hidden;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5vw;
+  grid-row-gap: 3vw;
+  margin: 0 auto;
+  font-size: 8vw;
+  line-height: .65;
+  letter-spacing: .05em;
 }
 
 span {
-  /* mode de fusion des couleurs */
-  mix-blend-mode: multiply;
-  position: absolute;
+  position: relative;
 }
+.dont {grid-column: 2;}
+.mis { grid-column: 1; grid-row: 1; text-align: right; top: .1em;}
+.mis span { padding-left: .2em;}
+.take { grid-column: 2;}
+.legi {grid-column: 1; grid-row: 2; text-align: right; top: .1em; left: -.1em;}
+.legi span { padding-left: .1em;}
+.bility {grid-column: 2;  letter-spacing: .08em;}
+.for {grid-column: 1; grid-row: 3; text-align: right; top: .1em;}
+.for span { padding-right: .4em;}
+.comm {grid-column: 2; letter-spacing: 0;}
+.comm span { padding-left: .15em;}
+.ication {grid-column: 1; grid-row: 4; text-align: right; top: .1em; letter-spacing: -.05em;}
+.ication span {padding-left: .2em;}
 
-.dont { top: 0; left:0; color: red}
-.conf { top: 10vh; right:0; color: pink}
-.legi { top: 22vh; left:0; color: blue; font-size: 1.15em;}
-.with { top: 30vh; right:0; color: tomato}
-.comm { bottom: 25vh; left:0; color: orangered}
-
-.sign {
-  font-size: .5em;
+a {
+  font-size: 1.5em;
   position: absolute;
-  bottom:.25em
+  top: 3.5em;
+  left: 2em;
+  width: 2em;
+  transform: rotate(-4deg);
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  border-bottom: 1px solid;
+  
+}
+.sign {
+  font-size: 1.5em;
+  position: absolute;
+  top:1.5em;
+  left: -.15em;
+  width: 2em;
+  transform: rotate(-8deg);
 }
 
 
