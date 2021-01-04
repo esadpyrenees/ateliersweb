@@ -172,6 +172,8 @@ p {
 
 [Espaces unicode et navigateurs web](https://fvsch.com/espaces-unicode/)
 
+Le [Petit guide typographique à l’usage de l’internet](http://www.uzine.net/article1802.html) d’Uzine.net
+
 Un [préprocesseur HTML pour la typographie](https://typeset.lllllllllllllllll.com/)
 
 Sur la question des notes de bas de pages (ou <i>marginalia</i>, ou encore <i>sidenotes</i>) : [gwern.net/Sidenotes](https://www.gwern.net/Sidenotes)
