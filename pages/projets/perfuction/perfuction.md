@@ -88,6 +88,9 @@ Pour positionner le texte dans l’espace, on peut utiliser [l’ensemble des m�
 * #### We read best what we read most
 — Zuzana Licko
 
+* #### The production of new typefaces is only a necessity under capitalism
+— Jan Tschichold
+
 </div>
 
 N.B. : Les citations ci-dessus sont très largement apocryphes et malheureusement trop souvent anglophones issues de vieux mâles blancs… N’hésitez pas [à soumettre](mailto:julien.bidoret@esad-pyrenees.fr?subject=FeckPerfuction) toute proposition qui serait issue de femmes ou de représentant·e·s de minorités culturelles, sociales ou ethniques.
