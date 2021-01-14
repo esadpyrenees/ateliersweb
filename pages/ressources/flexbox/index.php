@@ -195,7 +195,7 @@
 
             <h2 class="section-subtitle">Orientation</h2>
             <p>
-                Par défaut, les éléments enfants d’un élément flexbox vont s’organiser horizontalement : la valeur de leur propriété <code>flex-direction</code> est <code>row</code>.
+                Par défaut, les éléments enfants d’un élément flexbox vont s’organiser horizontalement : la valeur de la propriété <code>flex-direction</code> du parent est <code>row</code>.
             </p>
             <p>
                   Les valeurs possibles sont  <code>row</code>, <code>row-reverse</code> (qui inverse l’ordre…), <code>column</code>, et <code>column-reverse</code>.
@@ -203,8 +203,6 @@
 
             <pre class="langage-css"><code>.parent {
     display: flex;
-}
-.enfant {
     flex-direction: column;
 }</code></pre>
 
