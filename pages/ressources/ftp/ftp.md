@@ -55,7 +55,7 @@ Pour déposer des fichiers sur votre espace dans le serveur d’Alwaysdata, il v
 
 ![admin FTP alwaysdata](images/ftp.png)
 
-1. L’**hôte FTP** : ftp-\[votrecompte\].alwaysdata.net
+1. L’**hôte FTP** (ou **serveur**) : ftp-\[votrecompte\].alwaysdata.net
 2. Le **nom d’utilisateur** : \[votrecompte\]
 3. Le **mot de passe** : \[votr3m0tdep4sse\!]
 
