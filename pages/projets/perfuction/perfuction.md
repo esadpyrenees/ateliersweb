@@ -8,7 +8,7 @@
 
 [Feck Perfuction](https://www.feckperfuction.com/) est un livre/projet/mantra de [James Victore](https://www.jamesvictore.com/), graphiste, auteur et *guru* (très) états-unien, amateur de maximes percutantes. Si Maximilien Vox proposait qu’« En typographie, il n'y a qu'un seul degré de bien : la perfection », Victore – héritier d’*Emigre*, du post-modernisme ou de l’expressivité graphique et typographique – professe que « la normalité est un fil de fer barbelé pour l'esprit humain ».
 
-Ce projet se propose d’explorer la mise en forme web expressive de très courts textes : une sélection de citations de grand·e·s et petit·e·s designers (ou non designers) liées au design et aux cultures numériques.
+Ce projet se propose d’explorer la mise en forme web expressive de très courts textes : une sélection de citations (parfois apocryphes) de grand·e·s et petit·e·s designers (ou non designers) liées au design et aux cultures numériques.
 
 Il s’agit de trouver un équilibre –ou d’affirmer le choix radical– entre les deux positions : perfection *vs* perfuction, transparence *vs* expressivité, simplicité *vs* complexité.
 
@@ -24,6 +24,9 @@ Pour positionner le texte dans l’espace, on peut utiliser [l’ensemble des m�
 
 * #### Think more, design less
 — Ellen Lupton
+
+* #### Work less, think more
+— Raphaël Bastide
 
 * #### On the Internet, nobody knows you're a dog
 — Peter Steiner
