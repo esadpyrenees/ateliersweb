@@ -6,7 +6,7 @@ La plus ancienne et robuste est d’utiliser un logiciel FTP (*File Transfer Pro
 
 ## Qu’est-ce que c’est / à quoi ça sert
 
-Le protocole FTP permet de transférer des fichiers situés sur votre disque dur vers un serveur web, afin qu’ils deviennent accessibles à l’ensemble des internautes qui en connaissent l’adresse / URL.
+Le protocole FTP permet de transférer des fichiers situés sur votre disque dur vers un serveur web, afin qu’ils deviennent accessibles à l’ensemble des internautes qui en connaissent l’adresse (URL).
 
 ## Pré-requis
 
