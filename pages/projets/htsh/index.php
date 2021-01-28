@@ -4,7 +4,7 @@
 
     $title = "Projets: Hypertext Superhero";
     $section="projets";
-    $subsection="htsh";
+    $subsection="Hypertext Superhero";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/projets/htsh.php");
