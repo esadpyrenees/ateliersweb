@@ -1,11 +1,11 @@
-## Ressources {#ressources-js}
-* Une connaissance de base du HTML et du CSS est requise. Les ressources de l’ÉSA sont accessibles ici : **[ateliers.esapyrenees.fr/web](http://ateliers.esapyrenees.fr/web)** 
+## Avertissement
+* Une connaissance de base du [HTML](../html) et du [CSS](../css) est requise. 
 * Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 
-* La documentaton de la librairie jQuery est elle aussi très complète et abondamment illustrée par de nombreux exemples : **[api.jquery.com](http://api.jquery.com/)**</section>
 
-Les _snippets_ de code ci-dessous, s’ils restent valables en 2020, sont écrits dans une syntaxe ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
 
-### Ressources en ligne
+Les _snippets_ de code ci-dessous, s’ils restent valables en 2020, sont écrits dans une syntaxe vaguement ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
+
+### Ressources en ligne  {#ressources-js}
 
 * **[htmldom.dev](https://htmldom.dev/)** : exemples pratiques ayant trait à la manipulation du DOM en javascript. 
 * **[javascript.info](https://javascript.info/)** : une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain”. 
