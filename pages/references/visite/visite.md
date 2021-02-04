@@ -2,14 +2,17 @@
 
 #### 22/01/2021
 
-https://www.generativefonts.xyz/
-https://creativepro.com/files/kahrel/indesign/sidenotes.html
-https://situer-le-numerique.netlify.app/
-https://designcommun.fr/cahiers/situer-le-numerique/
-http://oa.letterformarchive.org/
-Chrome is Bad https://chromeisbad.com/
-http://www.risdchromascript.com/
-Ascii art is not dead https://play.ertdfgcvb.xyz/
+[Une fonte variable pour un climat variable](https://kampanjat.hs.fi/climatefont/index.html), mais aussi des [fontes génératives](https://www.generativefonts.xyz/). Un [script pour InDesign](https://creativepro.com/files/kahrel/indesign/sidenotes.html) transforme les *footnotes* en *sidenotes*, mais l’on n’imagine pas combien les *marginalia* et leur balisage HTML peut [poser de questions](https://www.gwern.net/Sidenotes). En typographie, le diable est [dans les détails](https://editions-b42.com/produit/le-detail-en-typographie/).
+
+[Situer le numérique](https://designcommun.fr/cahiers/situer-le-numerique/) dans la complexité dramatique des enjeux environementaux est utile. [Cliquez ici](https://situer-le-numerique.netlify.app/) pour “bien imprimer”.
+
+Il se passe des tas de trucs dans l’[ordinateur d’Elliot](https://elliott.computer/) et 
+Cory Arcangel propose une compétition de surf, [*the classic way From Amazon to Piratebay*](https://rhizome.org/editorial/2014/jul/30/trailblazers/)
+ 
+
+Il faut explorer [Letteform Archive](http://letterformarchive.org/), notamment parce qu’elle permet de découvrir les [coulisses d’Emigre](https://letterformarchive.org/news/view/emigre-archives-continue-to-provoke-and-enlighten).
+
+[Google Chrome is Bad](https://chromeisbad.com/), et vous n’imaginez pas [combien…](https://framablog.org/2019/03/07/nous-devons-nous-passer-de-chrome/). Andreas Gysin prouve que l’[*ascii art is not dead*](https://play.ertdfgcvb.xyz/), vraiment [même pas mort](http://schemasofuncertainty.com/).
 
 #### 12/11/2020
 
