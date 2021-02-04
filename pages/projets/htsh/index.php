@@ -1,6 +1,7 @@
   <?php 
-    include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
-    $Parsedown = new Parsedown();
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+    $Parsedown = new ParsedownExtra();
 
     $title = "Projets: Hypertext Superhero";
     $section="projets";

@@ -1,5 +1,16 @@
 # Une visite du web
 
+#### 22/01/2021
+
+https://www.generativefonts.xyz/
+https://creativepro.com/files/kahrel/indesign/sidenotes.html
+https://situer-le-numerique.netlify.app/
+https://designcommun.fr/cahiers/situer-le-numerique/
+http://oa.letterformarchive.org/
+Chrome is Bad https://chromeisbad.com/
+http://www.risdchromascript.com/
+Ascii art is not dead https://play.ertdfgcvb.xyz/
+
 #### 12/11/2020
 
 Le [domaine public](https://publicdomainreview.org/) est vaste ; il a même un [calendrier de l’avent](http://aventdudomainepublic.org/?date=2018-12-31). 

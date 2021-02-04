@@ -6,6 +6,16 @@
 *   [Atom (open source, Github)](http://atom.io)
 *   [Brackets (open source, Adobe)](http://brackets.io)
 
+### Outils de conception
+*   [Penpot](https://penpot.app) (prototypage web / appli, libre)
+*   [Figma](https://figma.com) (prototypage web / appli, pas libre)
+
+
+### Outils de dessin / retouche
+*   [Photopea](https://www.photopea.com/) (un clone de Photoshop dans le navigateur ?)
+*   [Affinity studio / designer / publisher](http://affinity.serif.com/) (une suite alternative à Ad*be)
+*   [Inkscape](https://inkscape.org/) (le plus convaincant des outils libre de dessin vectoriel)
+
 ### Serveurs de développement
 
 *   [MAMP](http://mamp.info/)
@@ -45,6 +55,10 @@ Services web.
 *   [Cargo (~$)](http://cargocollective.com/)
 *   [Squarespace ($)](http://squarespace.com/)
 
+Publication rapide
+
+*   [txti.es](https://txti.es)
+*   [telegra.ph](http://telegra.ph)
 
 ### Télécharger des vidéos
 * Extension Firefox pour YT : https://addons.mozilla.org/fr/firefox/addon/1-click-downloader-video-photo/
