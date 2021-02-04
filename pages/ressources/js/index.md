@@ -1,9 +1,13 @@
 ## Avertissement
+
+Les _snippets_ de code ci-dessous, s’ils restent valables en 2020, sont écrits dans une syntaxe vaguement ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
+
+### Pré-requis
+
 * Une connaissance de base du [HTML](../html) et du [CSS](../css) est requise. 
 * Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 
 
 
-Les _snippets_ de code ci-dessous, s’ils restent valables en 2020, sont écrits dans une syntaxe vaguement ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
 
 ### Ressources en ligne  {#ressources-js}
 
