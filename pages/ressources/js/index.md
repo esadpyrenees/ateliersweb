@@ -1,6 +1,6 @@
 ## Avertissement
 
-Les _snippets_ de code ci-dessous, s’ils restent valables en 2020, sont écrits dans une syntaxe vaguement ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
+Les _snippets_ de code ci-dessous, s’ils restent valables en 2021, sont écrits dans une syntaxe vaguement ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
 
 ### Pré-requis
 
