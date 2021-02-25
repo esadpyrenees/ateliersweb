@@ -67,13 +67,13 @@ Pour une meilleure compatibilité, une syntaxe plus complète peut être saisie 
 
 ### Services
 
-Le service [webfonts](http://www.google.com/webfonts/) de Google permet d’intégrer une police fournie par google en faisant simplement un lien avec la feuille de style qui la contient. <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web.</span>
+Le service [webfonts](http://www.google.com/webfonts/) de Google permet d’intégrer une police fournie par google en faisant simplement un lien avec la feuille de style qui la contient. <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web.</span> Il sera préférable de télécharger les polices, de les convertir en woff/woff2 (voir ci-dessous), de les inclure dans un fichier CSS, en les hébergeant soi-même.
 
 D’autres services, tels [<del>Typekit</del> Adobe fonts](http://typekit.com) ou [fonts.com](http://fonts.com) permettent également d’intégrer des typos (moyennant paiement), parfois via l’insertion d’un script javascript.
 
-Sur la page [ateliers.esad-pyrenees.fr/web/pages/references/foundries/](../../references/foundries/) se trouve une liste de ces services.
+Sur la page [Réferences/fonderies](../../../references/foundries/) se trouve une liste de ces services.
 
-### Générer des webfonts
+### Générer / convertir des webfonts
 
 La page [fonderies/](../../references/foundries/) liste également quelques fonderies numériques libre ou open-source ([Velvetyne](http://velvetyne.fr/), [OpenSourcePublishing](http://ospublish.constantvzw.org/foundry/)…), qui peuvent vous permettre de télécharger leurs créations sans vous fournir l’ensemble des fichiers nécessaires.
 

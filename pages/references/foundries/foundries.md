@@ -19,9 +19,7 @@ Raphaël Bastide a initié et développé un outil (libre) pour lister et sélec
 
 ☞ Raphaël Bastide maintient également une liste de fonderies libres : [gitlab.com/raphaelbastide/libre-foundries](https://gitlab.com/raphaelbastide/libre-foundries)
 
-Google est également devenu un distributeur de fontes ayant à son catalogue de nombreuses polices de qualité (pas toutes…) : [Google Web Fonts](http://www.google.com/webfonts). <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web</span>.
-
-[Font Squirrel](http://www.fontsquirrel.com/) propose de nombreuses polices libres et/ou gratuites et dispose d’un excellent générateur de [« packs » @font-face](http://www.fontsquirrel.com/fontface/generator).
+Google est également devenu un distributeur de fontes ayant à son catalogue de nombreuses polices libre/open-source de qualité (pas toutes…) : [Google Web Fonts](http://www.google.com/webfonts). <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web</span>. Il sera préférable de télécharger les polices, de [les convertir en woff/woff2](../../ressources/typo/webfonts/), de les inclure dans un fichier CSS, en les hébergeant soi-même.
 
 ## Services et fonderies commerciales
 

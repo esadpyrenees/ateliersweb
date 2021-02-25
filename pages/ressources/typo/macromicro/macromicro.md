@@ -120,6 +120,16 @@ p { font-size: .9375rem; } /* = 15px */
 <p>…le navigateur pour voir le titre évoluer de 20px à 40px et le texte de 15 à 18px selon la largeur du <i>viewport</i>. Ou <a href="https://fvsch.com/articles/css-locks/demo3.html">accéder à l’exemple en ligne</a>.</p>
 </div>
 
+En 2021, il devient possible d’utiliser la fonction CSS `clamp()` qui permet de simplifier ces calculs mathématiques : 
+
+```css
+h1 {
+    font-size: clamp(1em, 5vw, 4em)
+}
+```
+
+La fonction `clamp()` prend une valeur minimale, une valeur idéale et une valeur maximale. Le `h1` évoluera entre `1rem` (au minimum), `4em` (au maximum) et entre les deux, essaiera d’avoir la valeur `5vw`.
+
 ## Rythme, échelle et hiérarchie
 
 La taille et la définition des écrans ayant considérablement augmenté depuis ces dernières années (tout comme la qualité des moteurs de rendu typographique des appareils), l’usage de corps de texte importants est à favoriser. 

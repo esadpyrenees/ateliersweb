@@ -1,6 +1,9 @@
 ## Avertissement
 
-Les _snippets_ de code ci-dessous, s’ils restent valables en 2021, sont écrits dans une syntaxe vaguement ancienne. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel.
+Les _snippets_ de code ci-dessous, s’ils restent valables en 2021, sont écrits dans une syntaxe déjà “ancienne”. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel. La version la plus récente de javascript est nommée ES2015 ou plus souvent <abbr title="ECMAScript v. 6">ES6</abbr>.
+
+## Modifications en cours {.edit}
+Pour jouer, c’est [par ici](experiences).
 
 ### Pré-requis
 
@@ -52,14 +55,24 @@ console.log("Salut, tout le monde.");
 
 Une variable est un espace de stockage, un nom symbolique, pour stocker une valeur.
 
-Une **variable** est composée d’un **nom** (ou identifiant) et d’une **valeur**. Pour la déclarer, il faut utiliser le mot clé `var`. Pour lui attribuer une valeur, il faut utiliser le signe `=` ; et terminer la ligne par un `;` :
+Une **variable** est composée d’un **nom** (ou identifiant) et d’une **valeur**. Pour la déclarer, il faut utiliser le mot clé `var`. Pour lui attribuer une valeur, il faut utiliser le signe `=` ; et terminer la ligne par un `;`. Les noms des variables (ou plus loin des fonctions) ne peuvent pas contenir d’espace ni commencer par un chiffre, et il est préférable de ne pas les accentuer.
 ```js
 var nom = valeur;
 ```
 
-Une variable peut être _déclarée_, tout en n’étant pas _initialisée_. Une fois crée, on peut l’initialiser :
+En javascript “contemporain” (aka ES6), deux autres mots-clés sont préférés à `var` : `let` et `const`.
 ```js
-var nom;
+let parole = "Je vais pouvoir être modifiée (une valeur différente va pouvoir m’être ré-assignée)";
+const marbre = "Ma valeur est définie à tous jamais";
+```
+
+`let` et `const` présentent de nombreux avantages par rapport à `var`.
+
+Attention, `const`, pour “constante”, présente la particularité de ne pas pouvoir être modifiée.
+
+Une variable déclarée avec `var` ou `let` peut être _déclarée_, tout en n’étant pas _initialisée_. Une fois crée, on peut l’initialiser ou modifier sa valeur :
+```js
+let nom;
 nom = valeur;
 ```
 
@@ -70,22 +83,24 @@ Dans javascript, une variable est dite "typée dynamiquement". On ne sait pas à
 Les valeurs simples sont : `number`, un nombre, qui peut être entier ou flottant ; `string`, une chaîne de caractères ; un `boolean`, sorte d’interrupteur qui n’a que deux valeurs possibles (`true` ou `false`). On trouve également les valeurs `null`(aucune valeur) et `undefined` (valeur non définie).
 
 ```js
-var ma_chaine = "Hifi"; 
+let ma_chaine = "Hifi"; 
 // Une chaîne de caractères se place entre guillemets (droits, doubles ou simples)
-var mon_nombre = 20; 
+let age_du_capitaine = `42 ans`;
+// depuis ES6, on peut aussi utiliser des “backtiks” : ``
+let mon_nombre = 20; 
 // un nombre n’a pas de guillements
-var mon_autre_nombre = 17 + 3; 
+let mon_autre_nombre = 17 + 3; 
 // Javascript sait faire des maths… 
-var javascript_cest_facile = true; 
+let javascript_cest_facile = true; 
 // n’est-ce-pas ?
 ```
 
 Des valeurs plus complexes existent : ce sont les mystérieux **objets**, dont on parlera plus tard #oupas ; les **tableaux**, qui servent à faire des listes ; et les **fonctions**, qui servent à …faire des trucs, et dont on parlera vraiment plus tard.
 
 ```js
-var mon_objet = {}; 
-var ma_liste = ['pierre', 'papier', 'ciseaux'];
-var ma_fonction = function(){
+let mon_objet = {}; 
+let ma_liste = ['pierre', 'papier', 'ciseaux'];
+function ma_fonction(){
     // fera quelque chose plus tard
 }
 ```
@@ -103,29 +118,33 @@ En passant, on aura remarqué que l’on peut inscrire des commentaires dans du 
 
 ### Opérations
 
-Oui, Javascript peut faire des additions, des divisions, des multiplications, des soustractions et quantité d’autres opérations sur les nombres qui nous seront fort utiles plus tard.
+Javascript peut faire des additions, des divisions, des multiplications, des soustractions et quantité d’autres opérations sur les nombres qui nous seront fort utiles plus tard.
 ```js
-var torchons = 4; 
-var serviettes = 2; 
+let torchons = 4; 
+let serviettes = 2; 
 // ou
-var torchons = 4, 
+let torchons = 4, 
     serviettes = 2;
 // les deux notations ci-dessus sont équivalentes
+
 console.log(torchons + serviettes);
 // affiche 6 dans la console 
 torchons = 6;
-// une variable a comme immense intérêt qu’elle peut varier 
+// une variable (déclarée avec var ou let) peut varier 
 // ici, on assigne à la variable torchons une nouvelle valeur
 console.log(torchons + serviettes);
 // affiche 8 dans la console 
-console.log("torchons" + serviettes);
-// affiche "torchons2" dans la console 
-// si l’on peut effectivement aditionner des torchons et des serviettes, 
-// l’adition de variables de type différent provoque parfois des résultats innatendus
 console.log( torchons / serviettes);
 // affiche "3" dans la console (6 divisé par 2, vous suivez ?)
+
+console.log("torchons" + serviettes);
+// affiche "torchons2" dans la console 
+// ici l’opérateur "+" ne produit pas une adition, mais une “concaténation”
+// on se sert de la concaténation pour intégrer des variables à des chaines de caractères
+console.log("J’ai " + serviettes + " serviettes"); // affichera “J’ai 2 serviettes”
+// Par contre :
 console.log( "torchons" * serviettes);
-// affiche NaN, ou Not a Number ; on ne peut pas diviser une chaine de caractères par un nombre
+// affiche NaN, (pour “Not a Number” ; en javascrit, on ne peut pas diviser une chaine de caractères par un nombre
 ```
 
 ### Tableaux
@@ -134,27 +153,27 @@ Les tableaux, ou `Array`, sont des listes pouvant contenir tous types de donnée
 
 Chaque élément d’un tableau est accessible via son **index**, qui représente sa position (son ordre) dans le tableau. Le premier élément d’un tableau a l’index **0**;
 ```js
-var un_tableau_vide = [];
-var choses_a_faire = ['Manger', 'Dormir', 'Prendre des vacances'];
+let un_tableau_vide = [];
+let choses_a_faire = ['Manger', 'Dormir', 'Prendre des vacances'];
 choses_a_faire[1];
 // 'Dormir'
 ```
 Il est possible de réassigner une valeur :
 ```js
-var choses_a_faire = ['Manger', 'Dormir', 'Prendre des vacances'];
+let choses_a_faire = ['Manger', 'Dormir', 'Prendre des vacances'];
 choses_a_faire[2] = "Travailler";
 choses_a_faire;
 // ['Manger', 'Dormir', 'Travailler']
 ```
 On peut connaitre la longueur d’une liste (le nombre d’éléments qu’elle contient) en appelant la propriété `length`
 ```js
-var choses_a_faire = ['Manger', 'Dormir', 'Travailler'];
+let choses_a_faire = ['Manger', 'Dormir', 'Travailler'];
 choses_a_faire.length;
 // 3
 ```
 On peut ajouter ou supprimer des éléments en utilisant les méthodes `push` et `pop` :
 ```js
-var choses_a_faire = ['Manger', 'Dormir', 'Travailler'];
+let choses_a_faire = ['Manger', 'Dormir', 'Travailler'];
 choses_a_faire.push('Coder');
 choses_a_faire;
 // ['Manger', 'Dormir', 'Travailler', 'Coder']
@@ -165,11 +184,11 @@ choses_a_faire.pop();
 
 ### Objets
 
-Dans javascript, les “objets” sont comme ceux de la vraie vie. Ils ont des propriétés et des capacités : Un chat a une couleur, cette couleur peut être noir, ou blanc, ou bleu mais c’est plus rare.  
+Dans javascript, les “objets” sont –presque– comme ceux de la vraie vie. Ils ont des propriétés et des capacités : Un chat a une couleur, cette couleur peut être noir, ou blanc, ou bleu mais c’est plus rare. 
 
 Il peut miauler, courir, sauter et ([parfois](http://www.gifbin.com/bin/20052777.gif)) danser comme Travolta.
 ```js
-var chat = {
+const chat = {
     couleur: "noir",
     age: 9,
     miaule: function () { alert("Miiaaaaww…"); }
@@ -234,11 +253,11 @@ On peut également déterminer si une valeur est plus grande (`>`), ou plus peti
 
 La logique est utilisée pour prendre des décisions dans le code, par exemple d’effectuer telle action ou telle autre. Cela requiert l’évaluation d’une condition ; les plus simples d’entre elles étant le `if` (si…) et le `else` (sinon…).
 ```js
-var sel = 8, 
+let sel = 8, 
     poivre = 5;
 if (sel > poivre) {
     // c’est mauvais pour le cœur
-    // seul le code à l’intérieur de ces premières accolades sera exécuté puisque sel > poivre est true
+    // seul le code à l’intérieur de ces premières accolades sera exécuté puisque sel > poivre est true, la valeur stockée dans `sel` est bien supérieure à celle stockée dans `poivre`.
 } else {
     // le code à l’intérieur de ces derrnières accolades ne pourra être exécuté que si la valeur de poivre change
 }
@@ -252,7 +271,7 @@ Les boucles permettent de répéter la même instruction de code plusieurs fois,
 
 Le mot-clé `while` permet de faire une boucle dans laquelle on doit modifier la valeur évaluée:
 ```js
-var i = 1;
+let i = 1;
 while (i < 10) {
     console.log(i);
     i = i + 1;
@@ -261,21 +280,29 @@ while (i < 10) {
 ```
 Le mot-clé `for` est la manière la plus courante de faire des boucles. Mais là où `while` ne prend qu’un seul paramètre (la condition à évaluer), `for` en demande 3 : une variable initiale, une condition et une expression finale, séparées par des `;`
 ```js
-for ( var i = 0; i < 10; i++) {
+for ( let i = 0; i < 10; i++) {
     // au départ, on crée la variable i, en l’initialisant à 0
     // on vérifie que i est inférieur à 10
-    // on "incrémente" la variable i (= on lui ajoute 1)
+    // on "incrémente" la variable i (=> on lui ajoute 1)
     console.log(i);
 }
-// i ne vaut rien du tout, sa “portée“ (scope) est restreinte à l’intérieur de la boucle
+// à l’extérieur de la boucle, i ne vaut rien du tout, sa “portée“ (scope) est restreinte à l’intérieur de la boucle
 ```
 `i++` est equivalent à `i = i + 1`.
 
+ES6 permet d’utiliser une sytaxe plus concise :
+```js
+const faces = "🤠🙃😎";
+for (face of faces) {
+  console.log(face);
+}
+```
+
 ## Fonctions {#fonctions}
 
-Les fonction sont les “verbes” du javascript ; elles permettent de **faire des choses**. Il faut tout d’abord les déclarer, grâce au mot-clé `function`, suivi de parenthèses (qui permettront de transmettre des paramètres à la fonction) et d’accolades (qui contiennent le code à exétuter). Puis, une fois délarée, on peut l’invoquer.
+Les fonction sont les “verbes” du javascript ; elles permettent de **faire des choses**. Il faut tout d’abord les déclarer, grâce au mot-clé `function`, et les faire suivre de parenthèses (qui permettront de transmettre des paramètres à la fonction) et d’accolades (qui contiennent le code à exétuter). Puis, une fois délarée, on peut l’invoquer.
 ```js
-var dis_bonjour = function(){
+function dis_bonjour(){
     alert ("Hello !");
 }
 // la fonction est délarée sous le nom dis_bonjour
@@ -285,13 +312,13 @@ dis_bonjour();
 ```
 Une fonction peut prendre un ou plusieurs paramètres
 ```js
-var dis_bonjour = function(a_qui){
+function dis_bonjour(a_qui){
     alert ("Bonjour " + a_qui + " !");
 }
 
 dis_bonjour('monsieur');
 
-var dis_bonjour = function(a_qui, sur_quel_ton){
+function dis_bonjour(a_qui, sur_quel_ton){
     // on évalue la variable sur_quel_ton (deuxième variable passée en paramètres)
     // et on effectue une action différente selon sa valeur
     if (sur_quel_ton == "reverencieux") {
@@ -309,7 +336,7 @@ dis_bonjour('monsieur');
 ```
 Une fonction, plutôt que faire quelque chose, peut également renvoyer une valeur, grâce au mot-clé `return`.
 ```js
-var ajoute = function (a, b) {
+function ajoute(a, b) {
     return a + b;
 }
 // déclarée
@@ -329,62 +356,49 @@ Il existe un élément racine (`<html>`), qui a deux branches (`<head>` et `<bod
 
 Le DOM est “visible” en ouvrant l’inspecteur web de vos outils de développement.
 
+Un des aspects importants de javascript est sa capacité à interagir avec le DOM.
 
-## jQuery {#jquery}
-
-Au cours de sa vie, Javascript a été implémenté de manières très différentes selon les constructeurs (Netscape _vs_ Microsoft). Ses différences de fonctionnement d’un navigateur à l’autre, d’une version d’un navigateur à l’autre, ont conduit des développeurs à créer des librairies capables d’harmoniser le comportement sur tous les navigateurs. C’est le cas de [jQuery](http://jquery.com), mais aussi de Mootools, Prototype, Zepto…
-
-La suite de cette introduction utilisera intensivement le framework jQuery ; mais il est capital de comprendre que jQuery, développé en javascript, **est** du javascript. jQuery nous servira à manipuler des variables, des objets, des tableaux, etc. et à interagir avec le DOM.
-
-### Events et callbacks
-
-Dans notre code javascript, la plupart des instructions seront soumises à des **événements**. Ces évenements peuvent être le chargement de la page ou d’une image, un clic ou une action tactile de l’utilisateur, ou des quantités d’autres. En javascript, beaucoup d’objets sont dits “event-emitters”, ils recçoivent et envoient des événements.
+On peut sélectionner un élément grâce à la même syntaxe qu’en CSS :
 ```js
-var faisQuelqueChose = function (event) {
-    // fais quelque chose
-};
-var bouton = document.querySelector('#bouton');
-bouton.addEventListener('click', faisQuelqueChose);
+const lien = document.querySelector("a"); // via son type
+const autre_lien = document.querySelector("#autre_lien") // via son id
 ```
-Avec jQuery, les deux lignes ci-dessus peuvent s’écrire :
-```js
-$('#bouton').on('click', faisQuelqueChose);
-```
-jQuery possède une fonction maîtresse au nom très court : `$`. Cette fonction très puissante permet ici à jQuery de sélectionner l’élément dont l’`id` est “bouton”, de lui attacher un écouteur sur l’événement `click`, et d’exécuter la fonction `faisQuelqueChose` quand on clique dessus.  
 
-NB: `id="machin"` en HTML se traduit `#machin` en css.
-
-### jQuery DOM API
-
-Grâce à une syntaxe semblables aux sélecteurs utilisés en CSS, jQuery peut **sélectionner** un élément de la page et le **manipuler** (changer son style, ses attributs, son contenu…).  
+On peut aussi sélectionner plusieurs éléments :
 ```js
-$('#grosbouton').css('font-size', '30px');    
+const liens = document.querySelectorAll("a"); // via leur types
+const autres_liens = document.querySelector(".autre_lien") // via leurs class
 ```
-Les istructions peuvent être enchaînées :
-```js
-$('#grosbouton').css('font-size', '30px').height(100);    
-```
-La syntaxe se comporte comme une phrase : — “Eh, toi, le gros bouton, quand on te clique dessus, devient rouge” :
-```js
-$('#grosbouton').on('click', function(){
-    $(this).css('color', 'red');
-});
-```
-Ici, on a introduit deux notions importantes : le mot clé **`this`** et une **fonction anonyme**. Le mot `this` désigne l’élément sur lequel on a cliqué ; la fonction anonyme ne sert pas ailleurs dans notre code ; on peut donc la déclarer au même instant qu’on l’exécute.
 
-### Getters et Setters
-
-Ci dessus, nous avons utilisé les méthodes `.css` et `.height` pour **attribuer** des valeurs css et une hauteur à notre bouton. Ces méthodes peuvent également être utilisées pour **lire** ces valeurs css et de hauteur. Elles sont alors invoquées sans l’argument d’affectation :
+On peut modifier les propriétés CSS des éléments :
 ```js
-$('#grosbouton').css('font-size');
-// retourne '30px'
-$('#grosbouton').height();
-// retourne '100px'
-$('#grosbouton').height(200);
-// change la hauteur du bouton à 200px
-$('#grosbouton').height();
-// retourne maintenant '200px'
+lien.style.color = "red";
+lien.style.backgroundColor = "blue"; // la syntaxe est dite “camelCase”, on remplace les “-” des propriétés CSS par une capitale
 ```
+
+On peut lire leurs propriétés :
+```js
+let texte = lien.textContent;
+let width = lien.getBoundingClientRect().width;
+let id = lien.id; // certaines propriétés et attributs sont accessibles très simplement
+let href = lien.getAttribute('href'); // d’autres via la méthode “getAttribute”
+```
+
+On peut modifier leurs propriétés :
+```js
+lien.textContent = "Un autre texte";
+lien.id = "new_id";
+lien.setAttribute('href', "https://uneautrepage.com");
+```
+
+On peut en créer, et les ajouter au DOM :
+```js
+const bouton = document.createElement("button");
+const paragraphe = document.querySelector("#paragraphecible");
+paragraphe.appendChild(bouton);
+```
+
+Le site [plainjs.com](https://plainjs.com/javascript/) donne des exemples pour de très nombreuses opérations simples qu’on peut souhaiter effectuer en javascript dans une page web.
 
 ## Aléatoire
 
@@ -463,3 +477,13 @@ function randColor(){
 ```
 
 [exemple 11](exemples/11/)
+
+
+
+## jQuery {#jquery}
+
+Au cours de sa vie, Javascript a été implémenté de manières très différentes selon les constructeurs (Netscape _vs_ Microsoft). Ses différences de fonctionnement d’un navigateur à l’autre, d’une version d’un navigateur à l’autre, ont conduit des développeurs à créer des librairies capables d’harmoniser le comportement sur tous les navigateurs. C’est le cas de [jQuery](http://jquery.com), mais aussi de Mootools, Prototype, Zepto…
+
+La librairie jQuery, créé en 2008 a révolutionné l’usage de javascript en donnant accès à une manière unifié d’écrire du js, et en faisant naître un immense écosystème de *plugins*. 
+
+Le Javascript natif (ou *vanilla*) est en 2021 suffisamment stable, robuste et supporté par la majeure partie des navigateurs pour pouvoir la plupart du temps se dispenser du recours à cette librairie. Néanmoins, la rapide documentation rédigée ici [reste accessible](jquery.php).

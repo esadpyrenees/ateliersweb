@@ -1,13 +1,17 @@
 # Une visite du web
 
+
+#### 19/02/2021
+Vous pouvez [écouter une forêt](https://www.tree.fm/)
+
 #### 22/01/2021
 
 [Une fonte variable pour un climat variable](https://kampanjat.hs.fi/climatefont/index.html), mais aussi des [fontes génératives](https://www.generativefonts.xyz/). Un [script pour InDesign](https://creativepro.com/files/kahrel/indesign/sidenotes.html) transforme les *footnotes* en *sidenotes*, mais l’on n’imagine pas combien les *marginalia* et leur balisage HTML peut [poser de questions](https://www.gwern.net/Sidenotes). En typographie, le diable est [dans les détails](https://editions-b42.com/produit/le-detail-en-typographie/).
 
-[Situer le numérique](https://designcommun.fr/cahiers/situer-le-numerique/) dans la complexité dramatique des enjeux environementaux est utile. [Cliquez ici](https://situer-le-numerique.netlify.app/) pour “bien imprimer”.
+[Situer le numérique](https://designcommun.fr/cahiers/situer-le-numerique/) dans la complexité dramatique des enjeux environementaux est utile. [Cliquez ici](https://situer-le-numerique.netlify.app/) pour “bien imprimer”. 
 
 Il se passe des tas de trucs dans l’[ordinateur d’Elliot](https://elliott.computer/) et 
-Cory Arcangel propose une compétition de surf, [*the classic way From Amazon to Piratebay*](https://rhizome.org/editorial/2014/jul/30/trailblazers/)
+Cory Arcangel propose une compétition de surf, [*the classic way From Amazon to Piratebay*](https://rhizome.org/editorial/2014/jul/30/trailblazers/). Savez-vous qu’il y a de la vie sur Mars ? David Bowie le savait et nous a dit qu’[elle était arrivée sur Terre](https://www.youtube.com/watch?v=8tCC9yxUIdw).
  
 
 Il faut explorer [Letteform Archive](http://letterformarchive.org/), notamment parce qu’elle permet de découvrir les [coulisses d’Emigre](https://letterformarchive.org/news/view/emigre-archives-continue-to-provoke-and-enlighten).

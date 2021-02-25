@@ -175,6 +175,11 @@ main h1 + h2 { margin-top: 1em; }
 main h3 + p,
 main h4 + p { margin-top: 0}
 
+main h5 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
 section ul { margin-bottom: 2em}
 
 table {
@@ -249,6 +254,25 @@ h5.filename + pre {
     0%{ color: inherit; }
     50%{ color: inherit; }
     100%{ color: lightcoral; }
+}
+
+
+.new::after{
+    content: "NEW";
+    font-size: .75em;
+    background: lightcoral;
+    padding: 0.1em .25em;
+    line-height: 1;
+    color:white;
+    display: inline-block;
+    margin: 0 .5em;
+    color: white;
+    border-radius: 3px;
+    font-weight: normal;
+    font-family: monospace, serif;
+    vertical-align: top;
+    letter-spacing: .05em;
+    transform: rotate(-7deg);
 }
 
 .blink{

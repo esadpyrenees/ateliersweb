@@ -47,9 +47,9 @@ Les attributs sont des informations complémentaires liées à un élément HTML
 Par exemple, l’attribut `href` est utilisé pour définir la cible d’un lien (balise `<a>`) :
 
 ```
-<a href="http://http://ateliers.esad-pyrenees.fr/">Ce site est génial</a>
+<a href="https://ateliers.esad-pyrenees.fr/">Ce site est génial</a>
 ```
-Qui se traduit en : « [Ce site est génial](http://http://ateliers.esad-pyrenees.fr/) »
+Qui se traduit en : « [Ce site est génial](https://ateliers.esad-pyrenees.fr/) »
 
 Les attributs sont normalisés (on ne peut pas écrire ce que l’on veut). Les plus courants sont `class`, `id`, `href`, `src` ; ils seront abordés progressivement dans la suite de ce document et dans la section [CSS](../css/).
 

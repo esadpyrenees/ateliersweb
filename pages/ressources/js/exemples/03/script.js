@@ -19,7 +19,7 @@ bouton.addEventListener('click', function(){
 
 
 
-var quelleHeureEstIl = function( ma_date ){
+function quelleHeureEstIl( ma_date ){
 	// on vérifie que le paramètre reçu est bien une Date
 	if(ma_date instanceof Date) {
 		// on crée une chaine de caractères complète grace aux fonctions de l’objet Date

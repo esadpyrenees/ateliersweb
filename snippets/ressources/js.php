@@ -8,8 +8,8 @@
     <li><a href="/web/pages/ressources/js/#boucles">Boucles</a></li>
     <li><a href="/web/pages/ressources/js/#fonctions">Fonctions</a></li>
     <li><a href="/web/pages/ressources/js/#dom">DOM</a></li>
-    <li><a href="/web/pages/ressources/js/#jquery">jQuery</a></li>
     <li><a href="/web/pages/ressources/js/#random">Aléatoire</a></li>
+    <li><a href="/web/pages/ressources/js/#jquery">jQuery</a></li>
 
   </ul>
 </nav>
