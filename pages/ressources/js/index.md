@@ -367,7 +367,7 @@ const autre_lien = document.querySelector("#autre_lien") // via son id
 On peut aussi sélectionner plusieurs éléments :
 ```js
 const liens = document.querySelectorAll("a"); // via leur types
-const autres_liens = document.querySelector(".autre_lien") // via leurs class
+const autres_liens = document.querySelectorAll(".autre_lien") // via leurs class
 ```
 
 On peut modifier les propriétés CSS des éléments :
