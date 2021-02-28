@@ -1,5 +1,5 @@
 archives/*
 .DS_Store
 zip/
-medias/*
-!medias/ogp/.gitkeep
+#medias/*
+#!medias/ogp/.gitkeep
