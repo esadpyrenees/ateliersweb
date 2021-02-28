@@ -15,7 +15,7 @@
     // attention, chemins en dur !
 
     $fonts_path = realpath(dirname(__FILE__) . '/assets/fonts');
-    $fontbold = $fonts_path  . "/Ecole-Regular.otf";
+    $fontbold = $fonts_path  . "/Ecole-Bold.otf";
     $fontregular = $fonts_path  . '/' . "Ecole-Regular.otf";
 
     $request_uri = $_SERVER['REQUEST_URI'];
