@@ -15,7 +15,15 @@
     echo "        <meta property='og:type' content='website'>\n";
     echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
     echo "        <meta property='og:locale' content='fr'>\n";
-    echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png'>\n";
+    if(isset($ogp_url)){
+    echo "        <meta property='og:image' content='$host/web/medias/$ogp_url'>\n";
+    } else {
+    echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png'>\n";    
+    }
+    if(isset($canonical_url)){
+      echo '<link rel="canonical" href="'. htmlspecialchars($canonical_url) .'" >';
+    }
+    
 
   ?>
   <meta name="twitter:card" content="summary_large_image">
@@ -44,3 +52,5 @@
     <h1><a href="/web/">Ateliers web</a></h1>
     <h2>ÉSAD·Pyrénées</h2>
   </header>
+
+  <?php echo substr(__FILE__, strlen($_SERVER['DOCUMENT_ROOT'])); ?>

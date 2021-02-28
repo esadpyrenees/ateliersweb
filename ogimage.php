@@ -10,18 +10,20 @@
     
     $section = isset($params[0]) ? $params[0] : "";
     $subsection = isset($params[1]) ? $params[1] : "";
-
+    
 
     // attention, chemins en dur !
 
     $fonts_path = realpath(dirname(__FILE__) . '/assets/fonts');
-    $fontbold = $fonts_path  . "/Ecole-Bold.otf";
+    $fontbold = $fonts_path  . "/Ecole-Regular.otf";
     $fontregular = $fonts_path  . '/' . "Ecole-Regular.otf";
 
     $request_uri = $_SERVER['REQUEST_URI'];
     $final_file_path = '.' . str_replace("web/", "", $request_uri);
     $final_file_dir = dirname($final_file_path);
-    mkdir($final_file_dir, 0777, true);
+    if (!is_dir($final_file_dir)) {
+            mkdir($final_file_dir, 0777, true);
+    }
     
     $key  = 'ogpi_'. md5($section. '-' . $subsection) . '.png';
     $mediaroot = realpath(dirname(__FILE__) . "/medias/");
@@ -30,6 +32,7 @@
     // redirige vers le fichier s’il existe
     if (file_exists($thumb)) {
         serveImage($thumb);
+        exit();
     }
 
     // sinon, c’est parti…
@@ -39,6 +42,7 @@
     
     // chemin vers convert
     $convert = $_SERVER["HTTP_HOST"] == "localhost" ? '/usr/local/bin/convert' : '/usr/bin/convert';    
+    
 
     // cas des exemples
     if($section == "exemples"){
@@ -76,7 +80,7 @@
 
         // sur-titre blanc
         $white = $mediaroot .'/ogp/'. $key . '.white.png';
-        $ogi = $convert . ' -size 750x380  -background black -gravity NorthWest -fill white -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD·Pyrénées → ateliers web"  ' . $white;
+        $ogi = $convert . ' -size 750x380  -background black -gravity NorthWest -fill white -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD Pyrénées → ateliers web"  ' . $white;
         
         // titre blanc
         $whitetitle = $mediaroot .'/ogp/'. $key . '.whitetitle.png';
@@ -108,11 +112,11 @@
 
         $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ));
         // sur-titre blanc
-        $ogi = $convert . ' -size 750x380  -background white -gravity NorthWest -fill black -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD·Pyrénées → ateliers web"  ' . $thumb;
+        $ogi = $convert . ' -size 750x380  -background white -gravity NorthWest -fill black -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD Pyrénées → ateliers web"  ' . $thumb;
         // titre blanc
-        $title = $convert . ' -size 760x400  -background white -fill "' . $color . '" -font ' . $fontbold . ' -pointsize 82 caption:"' . $text . '"   ' . $cache;
+        $title = $convert . ' -size 760x400  -background white -fill "' . $color . '" -font ' . $fontbold . ' -pointsize 80 caption:"' . $text . '"   ' . $cache;
         // titre et sur-titre ensemble
-        $paste = $convert . " -gravity Center -geometry +0+70 -compose Multiply -extent 800x418 " . $thumb . " " . $cache . "  -composite  " . $thumb;
+        $paste = $convert . " -gravity Center -geometry +0+70 -compose Multiply -colorspace RGB -extent 800x418 " . $thumb . " " . $cache . "  -composite  " . $thumb;
         
         // exécution
         exec ($ogi);
