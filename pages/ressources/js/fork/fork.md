@@ -3,6 +3,8 @@ Cet exercice propose de découvrir javascript par l’appropriation d’exemples
 
 ☞ Explorer les expériences en commençant par les versions 1 (elles se complexifient progressivement), puis essayez de vous approprier les techniques employées pour en faire votre propre version (sur le plan graphique autant qu’au niveau de l’interaction).
 
+☞ Une fois ouvert l’un des exemples, cliquer sur “Edit on CodePen”, puis dans la page CodePen, en bas à droite, sur le bouton “Fork”. 
+
 ### 1 – Cliquer sur un bouton pour afficher un élément
 1. **[base 1.1](https://codepen.io/esadpyrenees/pen/WNodOmN)**    
 ###### HTML: créer un bouton et un élement-cible à afficher.<br>CSS: cacher l’élément-cible. <br>JS: référencer le bouton et l’élément-cible à afficher. Au click sur le bouton, changer le style de `display` de l’élément-cible. 

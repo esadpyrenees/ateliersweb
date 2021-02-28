@@ -27,7 +27,7 @@ Plus d’infos sur [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Utilisat
 ## Exemple de player
 
 [Voir exemple simple](https://codepen.io/jbidoret/pen/EbVRXd)
-[Voir l’exemple avancé](http://ateliers.esapyrenees.fr/web/exemples/typographie/01.html)
+[Voir l’exemple avancé](http://ateliers.esad-pyrenees.fr/web/exemples/typographie/01.html)
 
 <div id="player">
 <audio src="https://ubusound.memoryoftheworld.org/russian_avant2/23_el_lisitzsky_-_about_two_squares_-_a_suprematist_story_childrens_book_1920-22.mp3" id="audioplayer"></audio>

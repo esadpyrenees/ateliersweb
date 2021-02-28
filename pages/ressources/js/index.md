@@ -1,16 +1,16 @@
 ## Avertissement
 
-Les _snippets_ de code ci-dessous, s’ils restent valables en 2021, sont écrits dans une syntaxe déjà “ancienne”. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel. La version la plus récente de javascript est nommée ES2015 ou plus souvent <abbr title="ECMAScript v. 6">ES6</abbr>.
+Les _snippets_ de code ci-dessous ont été mis à jour pour refleter la syntaxe utilisée dans la version ES2015 (plus souvent nommée <abbr title="ECMAScript v. 6">ES6</abbr>) de javascript.
+Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel. De [nombreux exemples](../../exemples/#js) présents dans ce site utilisent une syntaxe plus ancienne.
 
 ### Découvrir par la pratique et l’exemple
-Des exemples de déviations sur la base d’interactions simples, à hybrider et continuer à faire dévier.
+Des exemples d’interactions simples, à hybrider et continuer à faire dévier.
 
 [→ fork ! ](fork){.bigbutton}
 
 ### Pré-requis
 
 * Une connaissance de base du [HTML](../html) et du [CSS](../css) est requise. 
-* Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 
 
 
 
@@ -19,6 +19,7 @@ Des exemples de déviations sur la base d’interactions simples, à hybrider et
 * **[htmldom.dev](https://htmldom.dev/)** : exemples pratiques ayant trait à la manipulation du DOM en javascript. 
 * **[javascript.info](https://javascript.info/)** : une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain”. 
 * **[eloquentjavascript](https://eloquentjavascript.net/)** : un livre sous licence CC, sous-titré “<i>a modern introuction to programming</i>”.
+* Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 
 
 ## Introduction {#introduction}
 
@@ -418,7 +419,7 @@ Math.random() * 150 ;
 Math.floor(Math.random() * 150) ;
 // retourne un nombre entier (arrondi) entre 0 et 150 ; par ex. : 127
 
-var positif_ou_negatif = function(){
+function positif_ou_negatif(){
     if(Math.random() > 0.5){
         // une chance sur deux – à peu près – que la valeur retournée soit supérieure à 0.5
         return -1;
@@ -458,8 +459,8 @@ Math.round(Math.random() * 4) * 100 + 200;
 ```
 Un nombre entier aléatoire peut être utilisé pour sélectionner une valeur dans une liste :
 ```js
-var couleurs = ["#FF0000", "#FF00FF", "#00FF00", "#0000FF"]
-var quel_index = Math.floor(Math.random() * couleurs.length);
+const couleurs = ["#FF0000", "#FF00FF", "#00FF00", "#0000FF"]
+const quel_index = Math.floor(Math.random() * couleurs.length);
 // retourne 0, 1, 2 ou 3
 couleurs[quel_index];
 // retourne du rouge, du magenta, du vert, ou du bleu
