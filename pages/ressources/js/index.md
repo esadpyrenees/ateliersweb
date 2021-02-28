@@ -2,8 +2,10 @@
 
 Les _snippets_ de code ci-dessous, s’ils restent valables en 2021, sont écrits dans une syntaxe déjà “ancienne”. Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel. La version la plus récente de javascript est nommée ES2015 ou plus souvent <abbr title="ECMAScript v. 6">ES6</abbr>.
 
-## Modifications en cours {.edit}
-Pour jouer, c’est [par ici](experiences).
+### Découvrir par la pratique et l’exemple
+Des exemples de déviations sur la base d’interactions simples, à hybrider et continuer à faire dévier.
+
+[→ fork ! ](fork){.bigbutton}
 
 ### Pré-requis
 
@@ -484,6 +486,6 @@ function randColor(){
 
 Au cours de sa vie, Javascript a été implémenté de manières très différentes selon les constructeurs (Netscape _vs_ Microsoft). Ses différences de fonctionnement d’un navigateur à l’autre, d’une version d’un navigateur à l’autre, ont conduit des développeurs à créer des librairies capables d’harmoniser le comportement sur tous les navigateurs. C’est le cas de [jQuery](http://jquery.com), mais aussi de Mootools, Prototype, Zepto…
 
-La librairie jQuery, créé en 2008 a révolutionné l’usage de javascript en donnant accès à une manière unifié d’écrire du js, et en faisant naître un immense écosystème de *plugins*. 
+La librairie jQuery, créé en 2008 a révolutionné l’usage de javascript en donnant accès à une manière unifiée d’écrire du js, et en faisant naître un immense écosystème de *plugins* permettant à de nombreux webdesigners d’ajouter des fonctionnalités interactives à leurs pages sans difficultés techniques. 
 
 Le Javascript natif (ou *vanilla*) est en 2021 suffisamment stable, robuste et supporté par la majeure partie des navigateurs pour pouvoir la plupart du temps se dispenser du recours à cette librairie. Néanmoins, la rapide documentation rédigée ici [reste accessible](jquery.php).

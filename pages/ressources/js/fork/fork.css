@@ -1,0 +1,45 @@
+main h6 {
+  font-family: Syne;
+  color:#666;
+  font-style:italic;
+  margin-bottom:1em;
+  max-width: 75ch;
+
+}
+main h6 code {
+  font-family: 'Syne Mono';
+  font-size-adjust:.45;
+}
+main ol ul {
+  margin-bottom:2em
+}
+main h5 {
+  max-width: 650px;
+}
+main u {
+  text-decoration:none;
+  border-bottom: 1px dashed;
+}
+main > ol {
+  margin-left:calc(1em + 10px);
+}
+main ol {
+  list-style:none;
+  padding-left:1.5em;
+  max-width: none;
+}
+main li {
+  position: relative
+}
+main li::before {
+  content:"↳";
+  position: absolute;
+  left: -1.3em;
+}
+.cp_embed_wrapper { 
+  margin-bottom: 2em;
+}
+ol .cp_embed_wrapper { margin-left: calc(-3em - 10px);}
+ol ol .cp_embed_wrapper { margin-left: calc(-4.5em - 10px);}
+ol ol ol .cp_embed_wrapper { margin-left: calc(-6em - 10px);}
+ol ol ol ol .cp_embed_wrapper { margin-left: calc(-7.5em - 10px);}

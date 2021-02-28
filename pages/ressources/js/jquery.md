@@ -2,7 +2,6 @@
 
 Au cours de sa vie, Javascript a été implémenté de manières très différentes selon les constructeurs (Netscape _vs_ Microsoft). Ses différences de fonctionnement d’un navigateur à l’autre, d’une version d’un navigateur à l’autre, ont conduit des développeurs à créer des librairies capables d’harmoniser le comportement sur tous les navigateurs. C’est le cas de [jQuery](http://jquery.com), mais aussi de Mootools, Prototype, Zepto…
 
-La suite de cette introduction utilisera intensivement le framework jQuery ; mais il est capital de comprendre que jQuery, développé en javascript, **est** du javascript. jQuery nous servira à manipuler des variables, des objets, des tableaux, etc. et à interagir avec le DOM.
 
 ### Events et callbacks
 

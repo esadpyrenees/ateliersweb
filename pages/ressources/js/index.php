@@ -19,7 +19,9 @@
     $Parsedown = new ParsedownExtra();
 
 ?>
-
+    <style>
+        .bigbutton {margin-top:0.5em}
+    </style>
     <main class="pane active" id="content">
         <section>
             <div id="randomramdam" >RANDOM/RAMDAM</div>                
