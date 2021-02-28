@@ -24,6 +24,37 @@
 
 
 
+@font-face {
+     font-family: 'Syne';
+     font-style:  normal;
+     font-weight: normal;
+     src: url("Syne-Regular.woff2") format("woff2"),
+          url("Syne-Regular.woff") format("woff");
+}
+@font-face {
+     font-family: 'Syne';
+     font-style:  normal;
+     font-weight: bold;
+     src: url("Syne-Bold.woff2") format("woff2"),
+          url("Syne-Bold.woff") format("woff");
+}   
+
+@font-face {
+     font-family: 'Syne';
+     font-style:  italic;
+     font-weight: normal;
+     src: url("Syne-Italic.woff2") format("woff2"),
+          url("Syne-Italic.woff") format("woff");
+}   
+    
+@font-face {
+     font-family: 'Syne Mono';
+     font-style:  italic;
+     font-weight: normal;
+     src: url("SyneMono-Regular.woff2") format("woff2"),
+          url("SyneMono-Regular.woff") format("woff");
+}   
+     
 
 @font-face {
   font-family: 'Inter';
