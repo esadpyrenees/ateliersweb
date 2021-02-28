@@ -1,0 +1,15 @@
+html, body { height: 100%}
+
+body { margin: 0; overflow: hidden; }
+
+img { 
+  /* les images sont masquées par défaut */
+  opacity: 0;
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+/* quand le body a la class “loaded”, on affiche les images*/ 
+.loaded img {
+  opacity: 1;
+}
