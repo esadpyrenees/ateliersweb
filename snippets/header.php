@@ -52,5 +52,3 @@
     <h1><a href="/web/">Ateliers web</a></h1>
     <h2>ÉSAD·Pyrénées</h2>
   </header>
-
-  <?php echo substr(__FILE__, strlen($_SERVER['DOCUMENT_ROOT'])); ?>
