@@ -8,6 +8,7 @@ AddType video/ogg .ogv
 AddType video/webm .webm
 
 AddDefaultCharset utf-8
+AddCharset UTF-8 .html .css .js
 
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} !=localhost
