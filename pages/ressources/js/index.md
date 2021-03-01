@@ -1,9 +1,9 @@
 ## Avertissement
 
 Les _snippets_ de code ci-dessous ont été mis à jour pour refleter la syntaxe utilisée dans la version ES2015 (plus souvent nommée <abbr title="ECMAScript v. 6">ES6</abbr>) de javascript.
-Javascript est un langage très puissant et très utilisé, qui évolue très vite et dont ces ressources ne peuvent se faire le miroir en temps réel. De [nombreux exemples](../../exemples/#js) présents dans ce site utilisent une syntaxe plus ancienne.
+Javascript est un langage très puissant et très utilisé, qui évolue rapidement et dont ces ressources ne peuvent se faire le miroir en temps réel. De [nombreux exemples](../../exemples/#js) présents dans ce site utilisent une syntaxe plus ancienne.
 
-### Découvrir par la pratique et l’exemple
+### Découvrir par la pratique
 Des exemples d’interactions simples, à hybrider et continuer à faire dévier.
 
 [→ fork ! ](fork){.bigbutton}
