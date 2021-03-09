@@ -14,10 +14,11 @@ Il diffère de [Flexbox](../flex) principalement par le fait qu’il est dédié
 *   *Visual cheat sheet*, [toutes les propriétés, illustrées](http://grid.malven.co/)
 *   [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual guide*
 *   [Grid experiments](https://codepen.io/search/pens?q=grid+experiment) sur Codepen
+*   [Un guide interactif](https://fjolt.com/article/a-guide-to-css-grid) pour CSS Grid. 
 
 ## Exemples
 
-*   Quelques [exemples](../../exemples/#grid) sur le site de l’atelier web
+*   Quelques [exemples](../../../exemples/#grid) sur le site de l’atelier web
 
 ## Vocabulaire
 

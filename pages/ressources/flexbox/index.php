@@ -156,7 +156,7 @@
         Flexbox est un module CSS déjà largement implémenté dans les navigateurs (2016/2017). Il permet de définir une logique de mise en page flexible.
     </p>
     <p>
-        Au delà de ceux qui sont présents dans cette page, <a href="../exemples/#flex">des exemples basiques </a> sont disponibles dans la section dédéiée.
+        Au delà de ceux qui sont présents dans cette page, <a href="../../exemples/#flex">des exemples basiques </a> sont disponibles dans la section dédéiée.
     </p>
 
 
@@ -230,7 +230,7 @@
             </p>
 
 
-          <h4>flex-start</h4>
+          <h4>justify-content: flex-start</h4>
           <article class="alignment-example alignment-start">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -240,7 +240,7 @@
               Les éléments sont groupés au début de la ligne. C’est la valeur par défaut.
           </p>
 
-          <h4>flex-end</h4>
+          <h4>justify-content: flex-end</h4>
           <article class="alignment-example alignment-end">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -250,7 +250,7 @@
               Les éléments sont groupés à la fin de la ligne.
           </p>
 
-          <h4>space-between</h4>
+          <h4>justify-content: space-between</h4>
           <article class="alignment-example alignment-between">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -260,7 +260,7 @@
               Les éléments sont distribués au long de la ligne ; le premier en début de ligne, le dernier en fin de ligne.
           </p>
 
-          <h4>space-around</h4>
+          <h4>justify-content: space-around</h4>
           <article class="alignment-example alignment-around">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -270,7 +270,7 @@
               Les éléments sont distribués au long de la ligne avec un même espace autour de chacun. Noter que les espaces ne sont pas visuellement équivamlents, chaque élément successif ayant le même espace sur chacun de ses côtés.
           </p>
 
-          <h4>center</h4>
+          <h4>justify-content: center</h4>
           <article class="alignment-example alignment-center">
             <div>Item 1</div>
             <div>Item 2</div>
@@ -301,28 +301,28 @@
                 Dans cette série d’exemples, aucun des éléments enfants ne s’est vue attribué de hauteur explicite. La hauteur des parents est de 80px.
             </p>
 
-          <h4>Start</h4>
+          <h4>align-items: start</h4>
           <article class="alignment-example alignment-start">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
           </article>
 
-          <h4>End</h4>
+          <h4>align-items: end</h4>
           <article class="alignment-example alignment-end">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
           </article>
 
-          <h4>Center</h4>
+          <h4>align-items: center</h4>
           <article class="alignment-example alignment-center">
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
           </article>
 
-          <h4>Baseline</h4>
+          <h4>align-items: baseline</h4>
           <article class="alignment-example alignment-baseline">
             <div style="font-size:1em">Item 1</div>
             <div style="font-size:.75em">Item 2 (.75em) </div>
@@ -330,7 +330,7 @@
           </article>
           <p>L’alignement se fait sur la ligne de base la plus importante.</p>
 
-          <h4>Stretch</h4>
+          <h4>align-items: stretch</h4>
           <article class="alignment-example alignment-stretch">
             <div>Item 1</div>
             <div>Item 2</div>
