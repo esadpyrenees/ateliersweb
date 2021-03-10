@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  /* center the form (visible when clicking on add button) */
+  display: grid;
+  place-items: center;
+}
+
+#add {
+  position: absolute;
+  /* center element according to its top/left position */
+  transform: translate(-50%, -50%);
+  /* initial position */
+  top:-100px;
+  left:-100px;
+  /* style */
+  background: #000;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+  border: none;
+  border-radius: 25px;
+}
+
+
+#form {
+  position: absolute;
+  z-index: 20;
+  background: white;
+  color: black;
+  display: none;
+  flex-direction: column;
+  padding: 15vh;
+  height: 80vh;
+  width: 80vh;
+  border-radius: 40vh;
+  justify-content: center;
+}
+#form.visible {
+  display: flex;
+}
+
+#form p { margin: 0;}
+#form p:not(:last-child) { margin-bottom: 1em; }
+#form label { display: block; text-align: center;}
+#form input, #form select, #form button { font: inherit; width: 100%; border: 1px solid #ddd; padding: .25em .5em; }
+#form input[type=range]{ cursor: ew-resize; }
+
+
+/* demo styles  */
+main div {
+  background: #000;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  border-radius: 100%;
+  mix-blend-mode: multiply;
+  transform: translate(-50%, -50%);
+}

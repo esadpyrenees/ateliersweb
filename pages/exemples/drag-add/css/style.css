@@ -1,0 +1,33 @@
+
+/* full width/height body, with overflow hidden */
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    background: black;
+  }
+  main {
+    /* map size, set in vh/vw, ems or pixels… */
+    --height:4500px; /* modify to change map height */
+    --width:4000px; /* modify to change map width */
+  
+    height: var(--height);
+    width: var(--width);
+    top:calc(50% - (var(--height) / 2)); /* start at center */
+    left: calc(50% - (var(--width) / 2)); /* start at center */
+    position: absolute;
+  
+    /* decoration */
+    background-image: radial-gradient(#aaa 5%, #f0f0f0 5%);
+    background-size: 40px 40px;
+  }
+  
+  /* Drag cursors */
+  .draggable { cursor: move; cursor: grab; cursor: -moz-grab; cursor: -webkit-grab; }
+  .draggable.active { cursor: grabbing; cursor: -moz-grabbing; cursor: -webkit-grabbing; }
+  
+  /* every child of main draggable area is absolutely positionned */
+  main > * { position: absolute; display: block; cursor: default; /* reset cursor */ }
+  main a { cursor: pointer; /* reset pointer cursor on links */ }
+  
