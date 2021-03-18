@@ -7,6 +7,6 @@
 *   [03](exemples/03/) Multiples lecteurs audio controlés par javascript + random
 *   [04](exemples/04/) Multiples lecteurs audio controlés par javascript + random + couleur
 *   [05](exemples/05/) Variation de la vitesse de lecture  
-*   [06](exemples/06/) Variation de la vitesse de lecture selon l’orientation du mobile
 
+Voir plus d’exemples [dans la section dédiée](../../exemples#audio,.video) du site.
 
