@@ -1,7 +1,7 @@
-var p = document.createElement('p'),
+var nav = document.createElement('nav'),
   head = document.head,
   style = document.createElement('style'),
-  css = '#webring { position: fixed; color: white; background: #000; bottom: 0; width: 100vw; left: 0; padding: 10px; display: flex; justify-content: space-between; } #webring a {flex: 1; color: white; text-decoration: none; font-size: 16px; font-family: sans-serif; text-align: center;}',
+  css = '#webring { position: fixed; color: white; margin:0; background: #000; bottom: 0; width: 100vw; left: 0; padding: 10px; display: flex; justify-content: space-between; } #webring a {flex: 1; color: white; text-decoration: none; font-size: 16px; font-family: sans-serif; text-align: center;}',
   links = [
     "https://amandine-l.alwaysdata.net/exercices/sons/",
     "https://capucine.alwaysdata.net/microonde/",
@@ -33,8 +33,7 @@ var p = document.createElement('p'),
     var firstletters = links[i].split('//')[1].substring(0,2);
     a.textContent = firstletters;
     a.href = links[i];
-    p.appendChild(a);
+    nav.appendChild(a);
   }
-
-  p.id= "webring";
-  document.body.appendChild(p);
+  nav.id= "webring";
+  document.body.appendChild(nav);
