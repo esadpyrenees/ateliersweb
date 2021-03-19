@@ -13,7 +13,8 @@ var p = document.createElement('p'),
   ];
 
   
-  style.appendChild(document.createTextNode(css));
+  style.appendChild(document.createTextNode(css)); 
+  head.appendChild(style);
 
   for(var i = 0; i<links.length; i++){
     var a = document.createElement('a');
