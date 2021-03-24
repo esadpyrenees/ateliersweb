@@ -60,7 +60,7 @@ Entre art et politique, entre savants et militants [↗](https://vacarme.org/)
 Revue indépendante de critique sociale [↗](https://pantherepremiere.org/)
 
 * #### Nichons-nous dans l'Internet
-Nichons-nous dans l'Internet est une revue en papier intégralement consacrée à Internet [↗](http://nichonsnousdanslinternet.fr/)
+Nichons-nous dans l'Internet † fut une revue en papier intégralement consacrée à Internet [↗](http://nichonsnousdanslinternet.fr/)
 
 * #### Sens public
 Revue interdisciplinaire de recherche : numérique, analyse philosophique et politique des mutations contemporaines des espaces publics [↗](https://sens-public.org)
@@ -85,7 +85,10 @@ Conseils sur la typographie sur le web (design & technique) + infos sur l'évolu
 La lettre d’Erik D. Kennedy contient d’intéressants *uses-cases*, – analytiques et pratiques – liés au design d’interface  [↗](https://learnui.design/)
 
 * #### Règle 30 · Il n’y a pas de femmes sur Internet
-Une newsletter écrite par Lucie Ronfaut pour Numerama
+Une newsletter écrite par Lucie Ronfaut pour Numerama [↗](https://www.numerama.com/newsletter-regle30-il-ny-a-pas-de-femmes-sur-internet/)
+	
+* #### Arobase
+Chaque semaine, une rencontre avec celles et ceux qui font internet, plus des choses à lire, voir et écouter, par Alexandre Lechenet (ex Nichons-nous dans l’Internet). [↗](https://arobase.substack.com/)
 </div>
 
 
