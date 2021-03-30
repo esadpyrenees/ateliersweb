@@ -32,6 +32,7 @@ Le projet est de comprendre et d’appliquer les principes de mise en page du we
 
 ### Lectures et regards
 
+* [Tufte CSS](https://edwardtufte.github.io/tufte-css/)
 * [Font Review Journal](https://fontreviewjournal.com/)
 * [The Shape of Design](https://shapeofdesignbook.com/)
 * [Why Do All Websites Look the Same?](https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73)
