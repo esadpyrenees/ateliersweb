@@ -17,6 +17,7 @@
     <li class="<?= $subsubsection == 'grid' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/grid/">Grid</a></li>
     <li class="<?= $subsubsection == 'transitions' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/transitions/">Animation</a></li>
     <li class="<?= $subsubsection == 'transformations' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/transformations/">Transform</a></li>
+    <li class="<?= $subsubsection == 'marginalia' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/marginalia/">Notes de marge</a></li>
   </ul>
   <h3>Pratique</h3>
   <ul>
