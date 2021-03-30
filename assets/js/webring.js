@@ -4,18 +4,13 @@ var nav = document.createElement('nav'),
   css = '#webring { position: fixed; color: white; margin:0; background: #000; bottom: 0; width: 100vw; left: 0; padding: 10px; display: flex; justify-content: space-between; } #webring a {flex: 1; color: white; text-decoration: none; font-size: 16px; font-family: sans-serif; text-align: center;} #webring a:hover, #webring a.active{color:tomato}',
   links = [
     "https://esad-pyrenees.alwaysdata.net/whatever/index.html",
-    "https://amandine-l.alwaysdata.net/exercices/sons/",
-    "https://capucine.alwaysdata.net/microonde/",
-    "https://astridgautier.alwaysdata.net/exercices/ts.html",
     "https://massinissa.alwaysdata.net/webring/webring.html",
     "https://maevahuber.alwaysdata.net/video/index.html",
     "https://merilin.alwaysdata.net/mavuidieo.html",
     "https://alicemry.alwaysdata.net/video/video.html",
     "https://andreas2camps.alwaysdata.net/son/son.html",
-    "https://bosschaerts.alwaysdata.net/ILOVEE MEU",
-    "https://guigui.alwaysdata.net/19_03_2021/",
     "https://chbzdesign.alwaysdata.net/video/ring",
-    "https://lorelei-jougleux.alwaysdata.net/webring/tea.html",
+    "https://lorelei-jougleux.alwaysdata.net/accueil/webring/tea.html",
     "https://emmasdata.alwaysdata.net/",
     "https://chrismaik.alwaysdata.net/video/",
     "https://bonnemazousarah.alwaysdata.net/pages_web/webring/webring.html",
@@ -23,8 +18,13 @@ var nav = document.createElement('nav'),
     "https://morganne.alwaysdata.net/son/index.html",
     "https://baptisteroca.alwaysdata.net/",
     "https://jadelafont.alwaysdata.net/2021-03-19/",
+    "https://anitaz.alwaysdata.net/test_video/",
+    "https://tajine.alwaysdata.net/2021_03_19/index.html",
+    "https://astridgautier.alwaysdata.net/exercices/ts.html",
+    "https://bosschaerts.alwaysdata.net/webring/site1.html",
   ];
 
+  
   
   style.appendChild(document.createTextNode(css)); 
   head.appendChild(style);
