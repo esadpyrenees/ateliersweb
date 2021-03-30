@@ -1,0 +1,158 @@
+*, *::before, *::after{
+  box-sizing:border-box;
+}
+:root {
+  --p-width: 650px; /* largeur max des paragraphes */
+  --sn-width: 250px; /* largeur des notes */
+  --sn-margin: 50px; /* marge entre notes et paragraphes*/
+  counter-reset: sn-counter; /* compteur CSS pour les numéros des notes */
+  counter-reset: icono-counter; /* compteur CSS pour l’iconographie */
+}
+
+article {
+  /* largeur max déterminée en additionnant largeur des paragraphes, marge et largeur des notes*/
+  max-width: calc(var(--p-width) + var(--sn-width) * 2 + var(--sn-margin) * 2);
+  /* préservation de l’espace espace dédié aux notes */
+  padding-right: calc(var(--sn-width) + var(--sn-margin));
+  /* préservation de l’espace espace dédié aux notes */
+  padding-left: calc(var(--sn-width) + var(--sn-margin));  
+}
+
+/* chaque label rencontré incrémente la valeur du compteur */
+.sn-toggle-label { counter-increment: sn-counter; }
+/* chaque label rencontré incrémente la valeur du compteur */
+.icono-toggle-label { counter-increment: icono-counter; }
+/* La valeur du compteur est injectée à l’intérieur du <label> */
+.sn-toggle-label::after {
+  content: counter(sn-counter, decimal);
+}
+/* La valeur du compteur est injectée à l’intérieur du <label> */
+.icono-toggle-label::after {
+  content: " [ " counter(icono-counter,lower-alpha) " ]";
+  letter-spacing: -.075em
+}
+.sn-note::before {
+  content: counter(sn-counter, decimal);
+}
+.icono-note::before {
+  display: block;
+  content: "[ " counter(icono-counter,lower-alpha) " ]";
+}
+.sn-note::before,
+.icono-note::before {
+  position: absolute;
+  margin-left: calc(var(--sn-margin) * -1);
+  width: var(--sn-margin);
+  text-align: right;
+  padding-right: .75em;
+  letter-spacing: -.075em
+}
+
+/* on cache la case à cocher */
+.sn-toggle { display: none; }
+/* quand la case est cochée, l’élément suivant (+) est affiché */
+.sn-toggle:checked + .icono-note,
+.sn-toggle:checked + .sn-note { display: block; }
+
+/* styles pour mettre la note en marge */
+.icono-note {
+   /* largeur de la note */
+  width: var(--sn-width);
+  /* espace de marge interne */
+  padding-right: var(--sn-margin);
+  /* la note “sort du flux” et vient se positionner à gauche */
+  float: left;
+  clear: left;    
+  /* marge négative qui décale la note de sa propre largeur */  
+  margin-left: calc(var(--sn-width) * -1);
+}
+.sn-note {
+  /* largeur de la note */
+  width: var(--sn-width);
+  /* espace de marge interne */
+  padding-left: var(--sn-margin);
+  /* la note “sort du flux” et vient se positionner à droite */
+  float: right;
+  clear: right;    
+  /* marge négative qui décale la note de sa propre largeur */  
+  margin-right: calc(var(--sn-width) * -1);
+}
+
+@media (max-width:1250px){
+  /* correction de la largeur max de l’article */
+  article { 
+    padding-right:0; 
+    max-width: calc(var(--p-width) + var(--sn-width)  + var(--sn-margin));
+  }
+  /* on cache la note */
+  .sn-note { display: none; }
+  /* quand la case est cochée, l’élément suivant (+) est affiché */
+  .sn-toggle:checked + .sn-note  { 
+    display: block; 
+    width: 100%;
+    float: left;
+    clear: both;
+    margin:1em 0;
+    top:0;
+  }
+  .sn-toggle-label{
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+@media (max-width:950px){
+  /* correction de la largeur max de l’article */
+  article { 
+    padding-left:0; 
+    max-width: var(--p-width);
+  }
+  /* on cache la note */
+  .icono-note  { display: none; }
+  /* quand la case est cochée, l’élément suivant (+) est affiché */
+  .sn-toggle:checked + .icono-note { 
+    display: block; 
+    width: 100%;
+    float: left;
+    clear: both;
+    margin:1em 0;
+    top:0;
+  }
+  .icono-toggle-label {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .icono-note img {
+    display: block;
+    width: auto;
+  }
+}
+
+
+
+
+/* ------------ styles typographiques */
+
+.sn-toggle-label::after {
+  padding: 0 0 0 0.1em;
+  font-size: 0.85em;
+  position: relative;
+  top: -0.25em;
+}
+
+
+.icono-note,
+.sn-note {
+  font-size: 0.85em;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 0.25em;
+}
+
+.icono-note img {
+  display: block;
+  width: 100%;
+  margin-bottom: .5em;
+}

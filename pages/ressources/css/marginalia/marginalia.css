@@ -1,0 +1,59 @@
+:root {
+  --sn-width: 300px;
+  --sn-margin: 30px;
+  counter-reset: sn-counter;
+}
+/* on cache la case à cocher */
+.sn-toggle {
+  display: none;
+}
+/* quand la case est cochée, l’élément suivant (+) est affiché */
+.sn-toggle:checked + .sn-note {
+  display: block;
+}
+label[for^="sn-"] {
+  counter-increment: sn-counter;
+}
+/* La valeur du compteur est injectée à l’intérieur du <label> */
+label[for^="sn-"]::after {
+  content: counter(sn-counter, decimal);
+  padding: 0 0.2em;
+  font-size: 0.85em;
+  top: -0.25em;
+  position: relative;
+}
+.sn-note::before {
+  content: counter(sn-counter, decimal) " – ";
+}
+.sn-note {
+  top: 0.25em;
+  font-size: 0.85em;
+  float: right;
+  clear: right;
+  width: var(--sn-width);
+  margin-right: calc(var(--sn-width) * -1);
+  margin-bottom: 1rem;
+  padding-left: var(--sn-margin);
+  position: relative;
+}
+
+@media (max-width:1250px){
+  /* correction de la largeur max de l’article */
+
+  /* on cache la note */
+  .sn-note { display: none; }
+  /* quand la case est cochée, l’élément suivant (+) est affiché */
+  .sn-toggle:checked + .sn-note  { 
+    display: block; 
+    width: 100%;
+    float: left;
+    clear: both;
+    margin:1em 0;
+    top:0;
+  }
+  label[for^="sn-"]{
+    color: tomato;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
