@@ -1,6 +1,11 @@
 
+:root {
+    --p-width: 650px; 
+    --sn-width: 250px;
+    --sn-margin: 50px;
+}
 
-* { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: border-box; }
 html {
     color: #444;
     font-size: 1em;
@@ -198,14 +203,23 @@ tr {
     border-bottom:1px solid #eee;
 }
 
-p,
-blockquote, ol, ul { max-width: 650px}
+p, figure,
+blockquote, ol, ul { max-width: var(--p-width)}
 
 p, blockquote {
  orphans: 2;
  widows: 2;
 }
-
+figure{
+    margin: 1.5em 0;
+}
+figcaption {
+    margin-left: 0;
+    font-style: italic;
+    font-family: Georgia;
+    text-align: center;
+    padding: 0 2em;
+}
 blockquote, q {
     quotes: none;
 }
@@ -219,16 +233,7 @@ blockquote {
     font-family: Georgia;
 }
 sup { line-height: 1;}
-sup a.footnote-ref {
-    background: tomato; color: white;
-    font-size: .75em;
-    border-radius: 50%;
-    display: inline-block;
-    padding: .25em .35em .15em; 
-    min-width: 1.25em;
-    text-align: center;
-    line-height: .8;
-}
+
 pre, code {
     font-family: 'Fira Code';
     font-variant-ligatures: none;
@@ -310,6 +315,47 @@ h5.filename + pre {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 2rem;
 }
+
+
+/* notes */
+.sn-toggle{display:none}
+.sn-toggle:checked + .sn-note{display:block}
+.sn-toggle-label,sup a.footnote-ref{padding:0 0 .25em .15em;font-size:.75em;top:-.5em;position:relative;text-decoration:none;border:none}
+.sn-note::before{display:block;content:attr(data-ref);position:absolute;margin-left:calc(var(--sn-margin) * -1);width:var(--sn-margin);text-align:right;padding-right:.75em;letter-spacing:-.075em}
+sup[id^=fn]{vertical-align:baseline}
+sup a.footnote-ref{color:#ff6347;font-weight:700}
+.sn-note{top:.25em;font-size:.85em;float:right;clear:right;width:var(--sn-width);margin-right:calc(var(--sn-width) * -1);margin-bottom:1rem;padding-left:var(--sn-margin);position:relative}
+.sn-note :first-child{margin-top:0}
+.sn-note img {display: block;}
+.sn-note p {margin: 0;}
+@media (max-width:1250px) {
+    .sn-note{display:none}
+    .sn-toggle:checked + .sn-note{display:block;width:100%;float:left;clear:both;margin:1em 0;top:0}
+    label[for^="sn-"]{color:#ff6347;cursor:pointer;font-weight:700}
+}
+
+/* default footnotes (no js) */
+.footnotes{max-width:var(--p-width);margin-top:2em;padding-top:1em}
+.footnotes ol{font-size:.85em;padding-left:1em}
+.footnotes :target{background:#ff0}
+.footnotes hr{background:none;border:none;margin:0;width:4em}
+.footnotes::before{content:'—'}
+
+
+
+/* typeset */
+.typeset big{
+    font-size: 2.5em;
+    line-height: 1.1;
+    font-family: 'Syne';
+}
+.typeset big + br{
+    margin-bottom: .5em;
+}
+
+
+
+/* probably very old stuff */
 
 .exemples .exemple{
     border: none;
