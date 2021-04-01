@@ -177,6 +177,8 @@ Un problème d’**accessibilité** est créé par la propriété `display: none
 
 Pour pouvoir **agrandir les images** –dont la taille en marges est réduite–, on peut envisager l’adjonction d’un *plugin* javascript de type _lightbox_. [Voir l’exemple](https://codepen.io/esadpyrenees/pen/dyNpOyR) avec le plugin [GLightbox](https://github.com/biati-digital/glightbox/blob/master/README.md).
 
+Dans le cas de **génération automatique de notes**, notamment via markdown, on en maîtrise pas le rendu HTML qui est produit. Markdown (dans ses “[extras](https://michelf.ca/projects/php-markdown/extra/#footnotes)”) transforme la notation `[^1]` en appel de note, puis `[^1]: contenu de la note` en note de bas de page. Un script js peut alors nous aider à transformer ces notes en notes de marge.
+
 ## Aller plus loin {#contexte}
 
 Un [fil Twitter](https://twitter.com/julienbidoret/status/1376484874547310595) qui signale des références sur cette question.
