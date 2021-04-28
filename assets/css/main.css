@@ -223,10 +223,11 @@ figcaption {
 blockquote, q {
     quotes: none;
 }
+q em,
 blockquote em {
     font-style: normal;
 }
-
+q,
 blockquote {
     margin-left: 0;
     font-style: italic;

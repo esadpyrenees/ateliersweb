@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets: Cultures numériques";
+    $title = "Cultures numériques – design éthique";
     $section="projets";
     $subsection="culturenum";
     $subsubsection="ethique";
