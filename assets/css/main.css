@@ -319,13 +319,14 @@ h5.filename + pre {
 
 
 /* notes */
-.sn-toggle{display:none}
+.sn-toggle{display:none; }
 .sn-toggle:checked + .sn-note{display:block}
 .sn-toggle-label,sup a.footnote-ref{padding:0 0 .25em .15em;font-size:.75em;top:-.5em;position:relative;text-decoration:none;border:none}
 .sn-note::before{display:block;content:attr(data-ref);position:absolute;margin-left:calc(var(--sn-margin) * -1);width:var(--sn-margin);text-align:right;padding-right:.75em;letter-spacing:-.075em}
 sup[id^=fn]{vertical-align:baseline}
 sup a.footnote-ref{color:#ff6347;font-weight:700}
-.sn-note{top:.25em;font-size:.85em;float:right;clear:right;width:var(--sn-width);margin-right:calc(var(--sn-width) * -1);margin-bottom:1rem;padding-left:var(--sn-margin);position:relative}
+.sn-note{top:.25em;font-size:.85em;float:right;clear:right;width:var(--sn-width);margin-right:calc(var(--sn-width) * -1);margin-bottom:1rem;padding-left:var(--sn-margin);position:relative; font-style: normal;}
+.sn-note em, .sn-note i { font-style: italic;}
 .sn-note :first-child{margin-top:0}
 .sn-note img {display: block;}
 .sn-note p {margin: 0;}
