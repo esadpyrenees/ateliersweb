@@ -91,11 +91,12 @@ Dès 1995, le projet [GIMP](https://www.gimp.org/) est lancé. Au début des ann
 * [Raphaël Bastide](https://raphaelbastide.com/) ☜ [PrePostPrint](https://prepostprint.org/)
 * [Lafkon](https://lafkon.net/)
 * [Figures libres](https://figureslibres.cc/)
-* [La Villa Hermosa](http://www.lavillahermosa.com/)
-* [Bonjour Monde](http://bonjourmonde.net/) ☞ [Benjamin Dumond](http://www.benjamindumond.fr/) 
+* ~~[La Villa Hermosa](http://www.lavillahermosa.com/)~~
+* ~~[Bonjour Monde](http://bonjourmonde.net/)~~ ☞ [Benjamin Dumond](http://www.benjamindumond.fr/) 
 * [Luuse](http://www.luuse.io/provisoire/) ☞ [Étienne Ozeray](http://www.etienneozeray.fr/), [Luuse Typotheque](https://typotheque.luuse.fun/)
 * [D-E-A-L](http://d-e-a-l.eu/)
 * [G.U.I.](http://www.g-u-i.net/)
+* [L’Atelier des Chercheurs](https://latelier-des-chercheurs.fr/)
 * [Manufactura Independente](https://manufacturaindependente.org/)
 * [Hundredrabbits](https://100r.co/)
 
