@@ -71,6 +71,8 @@ En 1983, Richard M. Stallman, qui travaillait au laboratoire d’intelligence ar
 
 Eric Raymond raconte son expérience du logiciel libre dans un livre devenu une référence du mouvement, [La Cathédrale et le Bazar](http://www.linux-france.org/article/these/cathedrale-bazar/) compare et oppose deux modes de pensée et d’organisation ; celui de la cathédrale, pyramidal, hiérarchique et vertical, et celui du bazar, horizontal, « désordonné » (et effrayant à première vue), mais dont l’efficacité s’avère supérieure au premier de par sa capacité d’adaptation et de flexibilité. Linux, le système d’exploitation opensource fut conçu et développé par Linus Torvalds et des milliers de contributeurs sur ce modèle du bazar.
 
+Avec le libre, le <abbr title="Do It Yourself">DIY</abbr> peut devenir <abbr title="Do It With Others">DIWO</abbr>. La collaboration, le partage et l’amélioration par le dialogue, la participation et les retours d’une communauté d’utilisateurs y sont grandement favorisées.
+
 Torvalds et <abbr title="Richard Matthew Stallman">rms</abbr> sont deux personnalités qu’on oppose régulièrement selon leurs deux conceptions de l’ouverture. Stallman, militant du libre comme éthique, Linus pragmatique adepte du code ouvert et interopérable. Les deux notions sont associées dans l’acronyme f/l/os[^flos].
 [^flos]:*Free / libre / open source* – inclut le mot “libre” pour signaler *"free as in free speech, not free beer"*. 
 
