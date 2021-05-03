@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>webradiola — 01</title>
+	<link rel="stylesheet" type="text/css" href="../assets/exemples.css">
+	<style type="text/css">
+		#bouton {
+			font-family: sans-serif;
+			background-color: black;
+			background-size: contain;
+			color: white;
+			height: 100px;
+			width: 100px;
+			line-height: 100px;
+			text-align: center;
+			cursor: pointer;
+			border-radius: 100px;
+			position:absolute;
+			right: 50px;
+			top: 50px;	
+		}
+		#bouton span {
+			/* cache le contenu textuel pour afficher une image */
+			display: none;
+		}
+		#bouton.paused { background-image: url("paused.svg");}
+		#bouton.playing {background-image: url("playing.svg");}
+
+	</style>
+</head>
+
+<body>
+
+	<p>Audio “autoplay”, avec bouton personnalisé et position de démarrage spécifique</p>
+
+	<!-- L’élément audio doit avoir un attribut, ici “data-start”, dont la valeur est 3,45 (secondes) qui indique le moment auquel démarrer -->
+	<!-- l’attribut “loop” est présent -->
+	<audio 
+		data-start="3.45"  
+		src="../assets/audio/Fluxus-Anthology_07_Robert-Filliou.mp3" 
+		id="audioplayer" 
+		loop>
+	</audio>
+
+	<div id="bouton" class="paused"><span>Play/pause</span></div>
+
+	<script type="text/javascript">
+
+		// les éléments : audio et bouton
+		const player = document.querySelector('#audioplayer');
+		const bouton = document.querySelector('#bouton');
+		// un "flag" pour savoir si on a initialisé le player
+		let is_initialized = false;
+
+		// on “force” le chargement du son
+		player.load(); 
+		// initialisation
+		if(is_initialized == false){
+			player.currentTime = parseFloat(player.dataset.start);
+			bouton.className = 'playing';
+			player.play();			
+			// maintenant c’est ok :)
+			is_initialized = true;
+		}
+			
+		// fonctionnalité play / pause sur le bouton
+		bouton.addEventListener('click', () => {
+			if (player.paused) {
+				bouton.className = 'playing';
+				player.play();
+			} else {
+				bouton.className = 'paused';
+				player.pause();
+			}
+		})
+	</script>
+</body>
+
+</html>
