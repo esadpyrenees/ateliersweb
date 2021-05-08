@@ -10,6 +10,12 @@ Que serait une approche éco-consciente du design ? Une approche inclusive, ouve
 
 Ce que cette introduction se propose de rapidement parcourir, c’est « en quoi avoir des bonnes intentions n’est pas suffisant » ; ou, formulé autrement : quel est le niveau de  cohérence auquel on peut prétendre en tant que designer.
 
+### EDIT {.edit}
+
+Deux raisons ont amené la proposition de cette introduction : la publication par Designers éthiques d’un [guide d’éco-conception de services numériques](https://eco-conception.designersethiques.org/guide/) et l’activité sur Twitter de [Design non éthique](https://twitter.com/designonethique). Deux positions qui s’opposent et qui ouvrent l’espace d’une dialectique féconde. 
+
+Les réactions des étudiant·es aux tweets et aux textes de Design non éthique leur ont offert la possibilité d’une réponse qui éclaire la nature de leur critique et la radicalité de leur position. [Elle est à lire sur Medium](https://designonethic.medium.com/conversations-1-ae02afb6dbf9).
+
 ## Petits détours historiques
 
 Quelques points saillants de l’histoire du design (<small>par un non historien… en cas d’erreur, [prévenez-moi](mailto:julien.bidoret@esad-pyrenees.fr)</small>) nécessaires pour mettre en perspective quelques unes des tensions idéologiques ou politiques qui ont animé cette histoire.
