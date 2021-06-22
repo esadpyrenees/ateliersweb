@@ -52,10 +52,11 @@ Dans les années 60 en Italie, Enzo Mari[^mari], Alessandro Mendini, Ettore Sott
 En 1964, [Ken Garland](http://indexgrafik.fr/ken-garland/) un groupe de 21 designers publient un manifeste intitulé « _First Things First_ ». Adressé aux designers graphiques, c’est un puissant appel à résister aux attraits de l’industrie publicitaire en faveur d’un travail socialement utile. Il sera repris et [augmenté en 2000](http://www.formes-vives.org/first-things-first), et à nouveau en 2014 puis en [2020](https://www.firstthingsfirst2020.org/).
 
 
-1968, les étudiant·es  de l’Atelier populaire[^mai] de l’école des Beaux-Arts de Paris produisent les images que l’on connaît. S’ensuit une longue et vivante tradition du graphisme engagé en France, qui va de [Grapus](http://www.cnap.graphismeenfrance.fr/article/focus-comment-tu-ne-connais-pas-grapus),  à [Gérard Paris-Clavel](https://www.nepasplier.fr/), [Vincent Perrottet](https://vincentperrottet.com/), [Sébastien Marchal](https://sebastienmarchal.fr/sebastien-marchal/), [Formes vives](http://www.formes-vives.org/histoire/) ou [Groupe CCC](http://groupeccc.com/) et [Formes des luttes](http://www.formesdesluttes.org).
+1968, les étudiant·es  de l’Atelier populaire[^mai] de l’école des Beaux-Arts de Paris produisent les images que l’on connaît. S’ensuit une longue et vivante tradition du graphisme engagé en France, qui va de [Grapus](http://www.cnap.graphismeenfrance.fr/article/focus-comment-tu-ne-connais-pas-grapus),  à [Gérard Paris-Clavel](https://www.nepasplier.fr/), [Vincent Perrottet](https://vincentperrottet.com/)[^vp], [Sébastien Marchal](https://sebastienmarchal.fr/sebastien-marchal/), [Formes vives](http://www.formes-vives.org/histoire/) ou [Groupe CCC](http://groupeccc.com/) et [Formes des luttes](http://www.formesdesluttes.org).
 
 [^mai]: ![](1968---MarcRiboud-Mai68-AtelierPopulaire_1.jpg) 
 
+[^vp]: NDLR: Jeune graphiste, j’aurais voulu pouvoir lire les textes de Vincent Perrottet : [Partager le regard](http://www.partager-le-regard.info/assets/image/Partager_le_regard.pdf), mais aussi et surtout ce premier [texte sans titre](https://vincentperrottet.com/texte%20V.P..pdf), afin de ne devenir ni *technicien de surfaces visuelles* ni *graphi&shy;patéticien·ne*.
 
 En 1971, Victor Papanek, designer austro-américain publie _Design for the real world, Human Ecology and Social Change_, manifeste d'une reconfiguration radicale, sociale et écologique du design, du point de vue de ses formes comme de ses objectifs.
 
@@ -115,5 +116,5 @@ Que sont les « low-tech », permettent-elles d’envisager un autre rapport �
 Joyeux mémoire de fin d’étude de Paul Morin, sous la direction de Frank Burbage.
 
 [A Designer’s Code of Ethics](https://deardesignstudent.com/a-designers-code-of-ethics-f4a88aca9e95)    
-Un article / manifeste du designer Mike Monteiro, adressé aux étudiant·es en design.
+Un article / manifeste du designer états-unien Mike Monteiro, adressé aux étudiant·es en design.
 
