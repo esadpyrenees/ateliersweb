@@ -11,4 +11,4 @@ développer l’approche documentaire, la méthodologie de recherche, la capacit
 Ce cours propose aux étudiants de développer leur regard et leur connaissance du monde de la création et du design numérique. Dans des champs aussi variés que le design d’interface, la typographie, les pratiques artistiques ou expérimentales, la critique et la pensée des médias, l’analyse des usages émergents ou l’histoire du design numérique, les étudiant·es sont amené·es à découvrir et à s’approprier la diversité des pratiques numériques contemporaines dans les champs de l’art et du design.
 
 
-Au 2<sup>nd</sup> semestre 2021, la proposition s’inscrit dans une approche progressive des questions liées au projet [**Radical web design**](https://radicalweb.design).
+À partir du 2<sup>nd</sup> semestre 2021, la proposition s’inscrit dans une approche progressive des questions liées au projet [**Radical web design**](https://radicalweb.design).
