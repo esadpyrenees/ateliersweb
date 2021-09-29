@@ -1,0 +1,95 @@
+/* box model is our friend */
+* { box-sizing: border-box; }
+
+body{
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  background: #000;
+  /* centrage des éléments par défaut */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  /* typo */
+  color: rgba(255,255,255,.6);
+  font-style: italic;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  /* position des slides */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  /* masquées par défaut */
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1s;
+  /* centrage des éléments par défaut */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* bordure minimum de 20px, de 3vw si possible, et maximum de 50px */
+  border: clamp(20px, 3vw, 50px) solid black;
+}
+
+/* la slide visible */
+.visible {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* style par défaut pour toutes les images */
+img {display: block; max-width: 100%; max-height: 100%;}
+
+/* les slides peuvent recevoir les class : cover, contain, left, right, bottom, medium, small, tiny */
+/* les règles suivantes déterminent la mise en page de ces différentes classes combinées  */
+.cover img { width: 100%; height: 100%; object-fit: cover;}
+.contain img { width: 100%; height: 100%; object-fit: contain;}
+.left img {object-position: 0 0;}
+.right img {object-position: 100% 0;}
+
+.bottom img,
+.bottom.center img {object-position: 50% 100%;}
+.bottom.left img {object-position: 0 100%;}
+.bottom.right img {object-position: 100% 100%;}
+
+.medium { padding: 12.5vh 12.5vw }
+.small { padding: 18vh 18vw }
+.tiny { padding: 22vh 22vw }
+
+.slide.medium.left,
+.slide.tiny.left,
+.slide.small.left { justify-content: flex-start;}
+.slide.medium.right,
+.slide.tiny.right,
+.slide.small.right { justify-content: flex-end;}
+
+/* la navigation est par dessus les slides */
+nav {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 3;
+  /* pour que les deux liens occupent tout l’espace */
+  justify-content: stretch;
+}
+nav a { 
+  flex: 1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+  text-decoration: none; 
+  opacity: 0; 
+}
+/* lien “suivant” deux fois plus grand que le lien “précédant” */
+nav a:nth-child(2) { flex: 2;}
+nav a:hover { opacity: 1;}

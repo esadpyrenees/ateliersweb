@@ -93,7 +93,7 @@ Peut aussi s’écrire (syntaxe préférable dans les templates) :
 ```php
 <?php foreach ($pages as $page) : ?>
     <h1><?= $page->title() ?></h1>
-<?php foreach ?>
+<?php endforeach ?>
 ```
 
 Au sein de la boucle (entre `foreach` et `endforeach`), chaque élément de la liste est nommé selon la valeur définie par le mot-clé `as` – ici, `$page`.
