@@ -2,6 +2,9 @@
     <p>—</p>
     <small>
         <?php
+            if(isset($date)){
+                echo $date . " — Mise à jour le ";
+            }
             if(isset($mdfile)){
                 if (file_exists($mdfile)) {
                     $file = basename($mdfile);

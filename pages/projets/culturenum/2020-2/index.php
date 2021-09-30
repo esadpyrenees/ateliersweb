@@ -35,7 +35,7 @@
 }
 
         .culturenum {
-            font-family: "HappyTimes";
+            /* font-family: "HappyTimes"; */
         }
 
 .culturenum h1 {
