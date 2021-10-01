@@ -5,6 +5,7 @@
     <li class="<?php echo $section == 'references' ? 'opened' : '' ?>"><a href="/web/pages/references/">Références</a></li>
     <li class="<?php echo $section == 'outils' ? 'opened' : '' ?>"><a href="/web/pages/outils/">Outils</a></li>
     <li class="<?php echo $section == 'projets' ? 'opened' : '' ?>"><a href="/web/pages/projets/">Projets</a></li>
+    <li class="<?php echo $section == 'culturenum' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Cultures numériques</a></li> 
     <li class="<?php echo $section == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/lectures/">Lectures</a></li>
     <li class="<?php echo $section == 'archives' ? 'opened' : '' ?>"><a href="/web/archives/">Archives</a></li>
   </ul>
@@ -68,11 +69,19 @@
         <li class="<?php echo $subsection == 'webradiola' ? 'opened' : '' ?>"><a href="/web/pages/projets/webradiola/">Webradiola</a></li>
         <li class="<?php echo $subsection == 'zones' ? 'opened' : '' ?>"><a href="/web/pages/projets/zones/">Zones</a></li>
         <li class="<?php echo $subsection == 'programmation' ? 'opened' : '' ?>"><a href="/web/pages/projets/programmation/">Programmation</a></li>
-        <li class="<?php echo $subsection == 'culturenum' ? 'opened' : '' ?>"><a href="/web/pages/projets/culturenum/">Cultures numériques</a></li>
         <li class="<?php echo $subsection == 'storytellers' ? 'opened' : '' ?>"><a href="/web/pages/projets/storytellers/">Storytellers</a></li>
         <li class="<?php echo $subsection == 'portfolio' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Portfolio</a></li>
         <li class="<?php echo $subsection == 'textedit' ? 'opened' : '' ?>"><a href="/web/pages/projets/textedit/">Textedit</a></li>
         <li class="<?php echo $subsection == 'perfuction' ? 'opened' : '' ?>"><a href="/web/pages/projets/perfuction/">Puck Ferpection</a></li>
     </ul>
+</nav>
+<nav class="pane subnav <?php echo $section == 'culturenum' ? 'active' : '' ?>"  id="culturenum">
+  <ul>
+    <li class="<?= $subsection == 'intro' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Introduction !</a></li>
+    <li class="<?= $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/figures/">Figures</a></li>
+    <li class="<?= $subsection == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/lectures/">Lectures</a></li>
+    <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
+    <li class="<?= $subsection == 'assets' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
+  </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->

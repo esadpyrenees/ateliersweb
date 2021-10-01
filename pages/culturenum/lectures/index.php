@@ -1,11 +1,10 @@
 <?php
     // config
-    $title = "Cultures numériques – design éthique";
-    $section="projets";
-    $subsection="culturenum";
-    $subsubsection="ethique";
-    $nav = "/web/snippets/projets/culturenum.php"; // specific subnav
-    $mdfile = "./ethique.md";
+    $title = "Cultures numériques – lectures";
+    $section="culturenum";
+    $subsection="lectures";
+    $mdfile = "./index.md";
+    // $date = "today";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
@@ -20,7 +19,6 @@
     $Parsedown = new ParsedownExtra();
 
 ?>
-
     <main class="pane active typeset" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>

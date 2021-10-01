@@ -1,11 +1,9 @@
 <?php
     // config
-    $title = "Projets: Cultures numériques";
-    $section="projets";
-    $subsection="culturenum";
-    $subsubsection="intro";
-    $nav = "/web/snippets/projets/culturenum.php"; // specific subnav
-    $mdfile = "./culturenum.md";
+    $title = "Cultures numériques – design libre";
+    $section="culturenum";
+    $subsection="libre";
+    $mdfile = "./libre.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

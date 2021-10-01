@@ -1,10 +1,8 @@
 <?php
     // config
     $title = "Cultures numériques – figures";
-    $section="projets";
-    $subsection="culturenum";
-    $subsubsection="figures";
-    $nav = "/web/snippets/projets/culturenum.php"; // specific subnav
+    $section="culturenum";
+    $subsection="figures";
     $mdfile = "./index.md";
     // $date = "today";
 
