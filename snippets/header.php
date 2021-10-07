@@ -30,6 +30,8 @@
   <meta name="twitter:site" content="@esadpyrenees">
   <meta name="twitter:creator" content="@julienbidoret">
 
+  <meta name="author" content="Julien Bidoret">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="/web/assets/css/icons.css">
