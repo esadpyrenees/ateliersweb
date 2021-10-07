@@ -30,7 +30,7 @@ Pour être exécuté par le _moteur_ PHP, l’extension du fichier doit être `.
 #### Important
 
 Le code PHP est toujours encapsulé entre les balises `<?php ` et `?>`.   
-Chaque ligne doit se terminer par`;`.
+Chaque ligne **doit** se terminer par un ` ; `.
 
 ```php
 <?php 
@@ -169,3 +169,11 @@ echo($contenu);
 ```    
 
 Un exemple de ces deux types d’inclusions est [téléchargeable ici](php-exemple-01.zip). 
+
+## Paramètres d’URL
+
+\[à suivre\]
+
+## Formulaires 
+
+\[à suivre\]
