@@ -3,6 +3,7 @@
     --p-width: 650px; 
     --sn-width: 250px;
     --sn-margin: 50px;
+    --family: 'Ecole', sans-serif
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -11,7 +12,7 @@ html {
     font-size: 1em;
     line-height: 1.5;
   font-family: 'Inter', sans-serif;
-  font-family: 'Ecole', sans-serif;
+  font-family: var(--family);
 }
 
 ::-moz-selection { background: #b3d4fc; text-shadow: none;}
@@ -325,7 +326,7 @@ h5.filename + pre {
 .sn-note::before{display:block;content:attr(data-ref);position:absolute;margin-left:calc(var(--sn-margin) * -1);width:var(--sn-margin);text-align:right;padding-right:.75em;letter-spacing:-.075em}
 sup[id^=fn]{vertical-align:baseline}
 sup a.footnote-ref{color:#ff6347;font-weight:700}
-.sn-note{top:.25em;font-size:.85em;float:right;clear:right;width:var(--sn-width);margin-right:calc(var(--sn-width) * -1);margin-bottom:1rem;padding-left:var(--sn-margin);position:relative; font-style: normal;}
+.sn-note{font-family: var(--family);top:.25em;font-size:.85rem;float:right;clear:right;width:var(--sn-width);margin-right:calc(var(--sn-width) * -1);margin-bottom:1rem;padding-left:var(--sn-margin);position:relative; font-style: normal;}
 .sn-note em, .sn-note i { font-style: italic;}
 .sn-note :first-child{margin-top:0}
 .sn-note img {display: block;}
@@ -348,7 +349,7 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
 /* typeset */
 .typeset big{
     font-size: 2.5em;
-    line-height: 1.1;
+    line-height: 1.2;
     font-family: 'Syne';
 }
 .typeset big + br{
