@@ -3,7 +3,7 @@
 In French, RAM, Random access memory, literally translates to “Living memory”.
 
 ## Context
-Read the introduction - _Context_, _Re-enchant_ and _Personal Home Page_ - of the **[Micromedia](../micromedia)** project, on which the _Living Memory_ project is based. It is situated in a logic of re-appropriation of digital publication spaces, rejecting submission to pre-constructed tools, canonical forms, standardised templates and private platforms.
+Read the introduction - _Context_, _Re-enchant_ and _Personal Home Page_ - of the **[Micromedia](https://ateliers-esad--pyrenees-fr.translate.goog/web/pages/projets/micromedia/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui)** project, on which the _Living Memory_ project is based. It is situated in a logic of re-appropriation of digital publication spaces, rejecting submission to pre-constructed tools, canonical forms, standardised templates and private platforms.
 
 [✌ **in french**](?fr)
 
