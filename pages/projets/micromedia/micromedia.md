@@ -86,7 +86,7 @@ L’approche peut être documentaire ou fictionnelle, centrée sur vous, votre e
 | 14/10 | _Suivi & travail individuel/collectif_ |
 | 21/10 | RWD, du mobile à l’écran |
 | 22/10 | _Suivi & travail individuel/collectif_ |
-| 22/10 – 28/10 | → Notes d’intention par e-mail et en ligne |
+| 22/10 – 28/10 | → Notes d’intention (par e-mail et) en ligne |
 | 28/10 | RWD, de l’écran au papier  |
 | 18/11 | → Open publishing fest (évènement web2print) |
 | 19/11 | _Suivi & travail individuel/collectif_ |
@@ -97,5 +97,6 @@ L’approche peut être documentaire ou fictionnelle, centrée sur vous, votre e
 | 06/01 | _Suivi & travail individuel/collectif_ |
 | 13/01 | _Suivi & travail individuel/collectif_ |
 | 14/01 | _Suivi & travail individuel/collectif_ |
+| 15/01 | → Publication en ligne et envoi (par e-mail ou) en ligne des documents connexes |
 
 *[RWD]: Responsive Web Design
