@@ -1,5 +1,7 @@
 # Mémoire vive
 
+![A Binary cell (BC) for RAM memory](ram.png)
+
 ## Contexte
 
 Lire l’introduction – _Contexte_, _Ré-enchanter_ et _Personal Home Page_ – du projet **[Micromédia](../micromedia)**, sur lequel se base le projet _Mémoire vive_. Il se situe dans une logique de ré-appropriation des espaces de publication numérique, rejetant la soumissions aux outils pré-construits, aux formes canoniques, aux templates standardisés et aux plateformes privatives.
