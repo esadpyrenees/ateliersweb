@@ -1,7 +1,7 @@
 # Professionalisation
 
 ### Livres + online
-Le livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya. Voir le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/).
+Un livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya. Voir aussi en ligne le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/).
 
 ### Au secours je suis artiste – en vidéo
 “Au secours je suis artiste” est une web série de 13 vidéos (de deux à trois minutes) qui a pour objectif d'accompagner les artistes plasticiens et auteurs dans la compréhension de leurs démarches administratives professionnelles, en répondant à plusieurs questions pratiques et ciblées : Je déclare quoi aux impôts? Je vends une oeuvre, que dois-je faire? Je dois noter quoi dans la cession de droits? etc.
@@ -25,6 +25,12 @@ Le [Calkulator](https://www.calkulator.com/fr/accueil/) est un guide (payant) de
 Calculer un tarif journalier moyen n’est pas chose aisée. Deux articles – écrits pour un public de développeurs web freelance, mais largement adaptables à l’exercice de designer web (ou pas web) freelance ou indépendants – peuvent aider : [Développeurs web indépendants : bien fixer, annoncer et négocier vos tarifs ](https://www.miximum.fr/blog/developpeur-web-freelance-tjm/) et [Parce que vous le valez bien](https://libelilou.github.io/2017/05/29/sudweb.html).
 
 Gauthier Rousillhe publie chaque année son “[rapport de modèle économique](http://gauthierroussilhe.com/fr/posts/activite-2019-2020)” dans lequel il propose une approche de planification financière basée sur l’équilibre entre ses rentrées d’argent et ses dépenses.
+
+### La commande
+Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](guide-de-la-commande-de-design-graphique.pdf) destiné à accompagner les commanditaires privés et publics dans leurs commandes aux designers graphiques et à valoriser les meilleures pratiques. Dès 2006, l’AFD a édité une [“Charte AFD  des marchés publics de design”](charte-afd-des-marches-publics-de-design-4e-edition.pdf), qui faisait suite à un manifeste proposé en 2006 : [Dites NON aux idées gratuites](dites-non-aux-idees-gratuites.pdf).
+
+*[Cnap]: Centre national des arts plastiques
+*[AFD]: Alliance française des designers
 
 ### Les syndicats et représentants professionnels 
 * [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;

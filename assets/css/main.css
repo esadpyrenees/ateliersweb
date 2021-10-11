@@ -610,7 +610,9 @@ ul.list{
 
 .homelinks.done a { opacity: 1; }
 .homelinks a:hover { z-index: 2; }
-
+.lastlinks {
+    margin: -.2em 0 1em;
+}
 .lastlinks span {
     background: tomato;
     color:white;
