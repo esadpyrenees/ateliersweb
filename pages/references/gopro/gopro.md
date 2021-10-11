@@ -1,14 +1,14 @@
 # Professionalisation
 
-### Livres
-Le livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya.
-
-### En ligne 
-Voir le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/) et le forum [Kob One](https://www.kob-one.com/).
+### Livres + online
+Le livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya. Voir le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/).
 
 ### Au secours je suis artiste – en vidéo
 “Au secours je suis artiste” est une web série de 13 vidéos (de deux à trois minutes) qui a pour objectif d'accompagner les artistes plasticiens et auteurs dans la compréhension de leurs démarches administratives professionnelles, en répondant à plusieurs questions pratiques et ciblées : Je déclare quoi aux impôts? Je vends une oeuvre, que dois-je faire? Je dois noter quoi dans la cession de droits? etc.
 À voir sur [la chaîne Youtube](https://www.youtube.com/playlist?list=PLIILQPFtEDHt_U0U96wuaQahOS5JDCdut) du Cnap.
+
+### Réalités économiques – en vidéo
+Un cycle de conférence organisé par le Signe / Centre national du graphisme. Voir les interventions de l’Atelier Téméraire : [« Pour des réseaux de solidarité »](https://www.youtube.com/watch?v=-7gJDM-ackc), Frank Adebiaye : [« Vers une comptabilité de création »](https://www.youtube.com/watch?v=_o9XaL2FmOY), Grégory Jerôme : [« Petit vadémécum des graphistes »](https://www.youtube.com/watch?v=ZyF8VfSeVh0) et Élodie Boyer des éditions Non Standard [« Le plaisir et l'argent »](https://www.youtube.com/watch?v=zGx0_2Q0YHo).
 
 ### IRL 
 L’association Pola, à Bordeaux, propose à ses adhérents [une offre de services pour les artistes (et graphistes)](https://pola.fr/ressources-pro/), notamment grâce à une permanence juridique, des ateliers et accompagnements de projets.

@@ -134,7 +134,7 @@ var links = [
 ];
 
 
-var pane = document.querySelector('#content'), pane_width = 0, pane_height = 0, styles = "", s = null, anchors = [];
+var pane = document.querySelector('.homelinks'), pane_width = 0, pane_height = 0, styles = "", s = null, anchors = [];
 
 function createLink (idx) {
     var data = links[idx];
