@@ -20,3 +20,5 @@ The idea of the Living Memory project is to propose an alternative approach to t
 
 It will be incremental, hypertextual, moving and evolving, in its forms as in its contents. This evolution will benefit from being documented (an archaeology of the project’s evolution, particularly in terms of form, should be made possible).
 
+## Notions
+Maïeutique, hypothèses, corpus, thésaurus, index, taxonomie, fragments, esquisses, énonciation publique

@@ -1,4 +1,7 @@
 # Une visite du web 
+
+#### 10/10/2021
+[Conifer](https://conifer.rhizome.org/) permet d’archiver des pages web et leur interactivité. [Abrüpt](https://abrupt.cc/) édite des livres et des [antilivres](https://www.antilivre.org/#manifeste) de poétique politique. _Everyone is an entrepreneur, nobody is safe_ est le sous-titre d’[Entreprecariat](https://silviolorusso.com/work/entreprecariat-eng/), un livre de Silvio Lorusso. [Daniel Eatock](https://eatock.com/) ! Elodie Boyer, directrice des [éditions Non Standard](https://editions-non-standard.com/) était l’invitée du cycle Réalités économiques du [Signe / Centre national du graphisme](http://www.centrenationaldugraphisme.fr/) pour parler du [plaisir et de l’argent](https://www.youtube.com/watch?v=zGx0_2Q0YHo). Les expériences web et les productions artistiques en ligne de [Leander Herzog](https://www.leanderherzog.ch/) sont fascinantes, bien qu’il se soit lancé dans le [marché des NFT](https://www.anthonymasure.com/articles/2021-11-singulariser-multiple-nft-artistiques). [Garage.digital](https://garage.digital/en/) est une plateforme russe dédiée à la diffusion et à la production d’œuvres numériques, avec un intérêt fort pour l’univers du jeu vidéo.
  
 
 #### 19/02/2021

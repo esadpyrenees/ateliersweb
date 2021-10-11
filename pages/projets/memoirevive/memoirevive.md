@@ -17,3 +17,6 @@ Ce projet agira comme une augmentation, un complément, une articulation entre v
 L’idée du projet _Mémoire vive_ est de proposer une approche alternative à la forme du traditionnel bloc-note, du carnet, du journal, soit un outil développé à votre mesure (fait sur mesure ?), et conscient de l’importance du rôle des nouveaux médias dans le partage des idées et des formes aujourd’hui. 
 
 Il sera incrémental, hypertextuel, mouvant et évolutif, dans ses formes comme dans ses contenus. Cette évolution gagnera à être documentée (une archéologie de l’évolution, notamment formelle, du projet devra être rendue possible).
+
+## Notions
+Maïeutique, hypothèses, corpus, thésaurus, index, taxonomie, fragments, esquisses, énonciation publique
