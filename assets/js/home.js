@@ -59,7 +59,7 @@ var links = [
   ["Flexbox", "/web/pages/ressources/flexbox/","ressources"],
   ["Grid", "/web/pages/ressources/css/grid/","ressources"],
   ["Animation", "/web/pages/ressources/css/transitions/","ressources"],
-  ["Transformations", "/web/pages/ressources/css/transform/","ressources"],
+  ["Transformations", "/web/pages/ressources/css/transformations/","ressources"],
   ["Processus", "/web/pages/ressources/css/pratique/","ressources"],
   ["Ressources", "/web/pages/ressources/js/#ressources-js","ressources"],
   ["Javascript", "/web/pages/ressources/js/#introduction","ressources"],

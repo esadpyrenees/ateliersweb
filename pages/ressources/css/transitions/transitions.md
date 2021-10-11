@@ -6,12 +6,8 @@ Les transitions permettent d’animer facilement des éléments de la page sans 
 
 #### Un exemple rapide
 ```
-a {
-    color: blue;
-}
-a:hover {
-    color: green
-}
+a { color: blue; }
+a:hover { color: green }
 ```
 
 <style>
@@ -26,7 +22,7 @@ a:hover {
 <p class="notrans">
     <a href="#">Survolez-moi !</a>
 </p>
-Le lien passe sans transition d’orange à vert lorsqu’il est survolé.
+Le lien passe _sans transition_ d’orange à vert lorsqu’il est survolé.
 
 La propriété `transition` permet une animation fluide (plutôt qu’un saut d’un état à un autre). C’est une propriété abrégée qui combine les propriétés suivantes (qui peuvent être utilisées individuellement):
 
@@ -104,6 +100,10 @@ a {
 
 Voir [easings.net](https://easings.net/) pour un large ensemble de possibilités.
 
+### Déclencher une transition
+Les transitions peuvent être déclenchées au changement d’état d’un élément. Les différents états peuvent être définis à l'aide de pseudo-classes telles que `:hover` ou `:active` ou être définis dynamiquement avec JavaScript.
+
+Ainsi, en ajoutant / modifiant une `class` d’un élément via JavaScript, on peut activer sa transition d’un état à l’autre. [Voir un exemple](../../../exemples/transition/).
 
 ## Animations
 

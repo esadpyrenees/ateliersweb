@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Mutator';
+    src: url("fonts/MutatorSans.ttf") format("truetype");
+    font-weight: 1 999;    
+}
+
+
+html {
+    font-family: 'Mutator', sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+#word {
+    /* les variables (ou “propriétés personnalisées” seront modifiées via javascript */
+    --wdth:400;
+    --wght:400;
+    font-variation-settings: "wght" var(--wght), "wdth" var(--wdth);
+    text-transform: uppercase;
+    font-size: 12vw;
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    /* toutes les propriétés sont susceptibles de faire l’objet de transitions: */
+    transition: all 500ms ease-out;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: .5em;
+}
+
+
+#word.a-gauche { transform: translate(-100%, -50% )}
+#word.a-droite { transform: translate(0%, -50% )}
+#word.au-centre { transform: translate(-50%, -50% )}
+
+nav {
+   display: flex; 
+   font-size: 1em;
+   font-weight: bold;
+   line-height: 1;
+}
+button { 
+    cursor: pointer;
+    margin-right: .5em;
+    border: none;
+    padding: 0;
+    background: none;
+    font: bold 1em sans-serif;
+}
+#debug { margin-left: auto }
