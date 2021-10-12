@@ -9,5 +9,6 @@
     <li><a href="/web/pages/ressources/php/#includes">Inclusions</a></li>
     <li><a href="/web/pages/ressources/php/#formulaires">Formulaires</a></li>
     <li><a href="/web/pages/ressources/php/#querystrings">Paramètres d’URL</a></li>
+    <li><a href="/web/pages/ressources/php/#list">Lister le contenu d’un dossier</a></li>
   </ul>
 </nav>

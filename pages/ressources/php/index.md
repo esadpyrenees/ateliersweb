@@ -168,7 +168,7 @@ $contenu = file_get_contents('https://mensuel.framapad.org/p/skldhwn3h5-9pzm/exp
 echo($contenu);
 ```    
 
-Un exemple de ces deux types d’inclusions est [téléchargeable ici](php-exemple-01.zip) et [visible ici](exemples/includes/).  
+Un exemple de ces deux types d’inclusions est [téléchargeable ici](php-exemple-includes.zip) et [visible ici](exemples/includes/).  
 
 ## Formulaires {#formulaires}
 
@@ -198,7 +198,7 @@ La soumission de formulaires s’effectue généralement via la methode POST, qu
 ?>
 
 ```
-Voir cet [exemple](exemples/post/) de manière plus détaillée.
+Voir cet [exemple](exemples/post/) de manière plus détaillée, ou [téléchargez-le](php-exemple-post.zip).
 
 ## Paramètres d’URL {#querystrings}
 
@@ -221,12 +221,13 @@ Via la méthode `GET`, on peut analyser des données transférées via des param
     }
 ?>
 ```
-Voir cet [exemple](exemples/get/) de manière plus détaillée.
+Voir cet [exemple](exemples/get/) de manière plus détaillée, ou [téléchargez-le](php-exemple-get.zip).
 
 
-## Lister le contenu d’un dossier sur le serveur
+## Lister le contenu d’un dossier sur le serveur {#list}
 
 PHP permet de créer rapidement des interfaces de visualisation des images contenues dans des dossiers.
+Il existe plusieurs méthodes (notamment [`scandir`](https://www.php.net/manual/fr/function.scandir.php)) pour le faire, la plus simple étant d’utiliser la fonction `glob()`.
 ```php
 <a href="index.php?dossier=butterflies">papillons</a>
 <a href="index.php?dossier=birds">oiseaux</a>
@@ -240,4 +241,4 @@ PHP permet de créer rapidement des interfaces de visualisation des images conte
     }
 ?>
 ```
-Voir cet [exemple](exemples/list/) de manière plus détaillée.
+Voir cet [exemple](exemples/list/) de manière plus détaillée, ou [téléchargez-le](php-exemple-list.zip).
