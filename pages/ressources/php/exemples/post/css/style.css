@@ -1,0 +1,11 @@
+body{
+  background: #000;
+  color: greenyellow;
+  margin: 50px;
+  font-family: monospace;
+}
+a { color: currentColor;}
+
+img {
+  width: 200px;
+}

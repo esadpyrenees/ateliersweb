@@ -7,5 +7,7 @@
     <li><a href="/web/pages/ressources/php/#conditions">Conditions</a></li>
     <li><a href="/web/pages/ressources/php/#loops">Boucles</a></li>
     <li><a href="/web/pages/ressources/php/#includes">Inclusions</a></li>
+    <li><a href="/web/pages/ressources/php/#formulaires">Formulaires</a></li>
+    <li><a href="/web/pages/ressources/php/#querystrings">Paramètres d’URL</a></li>
   </ul>
 </nav>

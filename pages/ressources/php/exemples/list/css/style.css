@@ -1,0 +1,20 @@
+body{
+  background: #000;
+  color: greenyellow;
+  margin: 50px;
+  font-family: monospace;
+}
+a { color: currentColor;}
+
+img {
+  display: block;
+  max-width: 100%;
+  filter: sepia(1) contrast(1.2) invert(1) hue-rotate(-150deg) saturate(4);
+}
+
+.gallery {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) );
+  grid-gap: 40px;
+}

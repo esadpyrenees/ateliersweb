@@ -1,0 +1,20 @@
+body{
+  background: #000;
+  color: greenyellow;
+  margin: 50px;
+  font-family: monospace;
+}
+a { color: currentColor;}
+
+svg {
+  width: 200px;
+}
+
+path {
+  animation: pigeon 1500ms infinite alternate;
+}
+
+@keyframes pigeon {
+  0% { fill: greenyellow}
+  100% { fill: green}
+}

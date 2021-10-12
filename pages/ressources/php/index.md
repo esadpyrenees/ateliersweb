@@ -168,12 +168,76 @@ $contenu = file_get_contents('https://mensuel.framapad.org/p/skldhwn3h5-9pzm/exp
 echo($contenu);
 ```    
 
-Un exemple de ces deux types d’inclusions est [téléchargeable ici](php-exemple-01.zip). 
+Un exemple de ces deux types d’inclusions est [téléchargeable ici](php-exemple-01.zip) et [visible ici](exemples/includes/).  
 
-## Paramètres d’URL
+## Formulaires {#formulaires}
 
-\[à suivre\]
+Si HTML possède tous les éléments nécessaires à la [construction de formulaires](../html/content/#forms), il n’est pas capable d’en traiter la soumission.
 
-## Formulaires 
+PHP possède deux méthodes pour recevoir des données de l’utilisateur:
+* via la méthode `GET`, PHP reçoit les informations à travers une requête transmise dans l’URL (voir plus bas, les [paramètres d’URL](#querystrings))
+* via la méthode `POST`, les informations sont transmises dans l’entête de la requête HTTP 
 
-\[à suivre\]
+La soumission de formulaires s’effectue généralement via la methode POST, qui n’expose pas les informations transmises dans l’URL, offre une plus grande souplesse et une plus grande sécurité.
+
+```php
+<form method="POST">
+    <input type="text" name="name">
+    <input type="number" name="age">
+    <input type="hidden" name="secret" value="Mystère">
+    <button type="submit">OK</button>
+</form>
+<?php 
+    // L’ensemble de la requête postée par la soumission du formulaire sera accessible dans une variable nommé “$_POST”
+    // isset vérifie l’existence d’une variable
+    // Ici, on vérifie l’existence dans la requête de la variable “secret”
+    if(isset($_POST['secret'])){
+        // print_r affiche “proprement” le contenu d’une variable, notamment ici, une liste (un array)
+        print_r($_POST);
+    }
+?>
+
+```
+Voir cet [exemple](exemples/post/) de manière plus détaillée.
+
+## Paramètres d’URL {#querystrings}
+
+Via la méthode `GET`, on peut analyser des données transférées via des paramètres d’URL, ou _query string_.   
+`GET` peut être utilisé dans le contexte de formulaires, mais aussi dans de simples URLs :
+
+
+```php
+// la requête est transmise à la page index.php, grâce une succession de paramètres suivis de leur valeur 
+// ici, un seul paramètre, "id", qui vaut "1" 
+<a href="index.php?id=1">un</a>
+<a href="index.php?id=2">deux</a>
+// ici, deux paramètres, "id" et "color" 
+<a href="index.php?id=3&color=red">trois</a>
+<?php 
+    // L’ensemble de la requête d’URL sera accessible dans une variable nommé “$_GET”
+    if(isset($_GET['id'])){
+        $id = $_GET['id']; // pour plus de concision
+        echo "<img src='$id.jpg'>";
+    }
+?>
+```
+Voir cet [exemple](exemples/get/) de manière plus détaillée.
+
+
+## Lister le contenu d’un dossier sur le serveur
+
+PHP permet de créer rapidement des interfaces de visualisation des images contenues dans des dossiers.
+```php
+<a href="index.php?dossier=butterflies">papillons</a>
+<a href="index.php?dossier=birds">oiseaux</a>
+<a href="index.php?dossier=bugs">coléoptères</a>
+<?php 
+    if(isset($_GET['dossier'])){
+        $dossier = $_GET['dossier']; 
+        foreach(glob($dossier.'*.{jpg,JPG,jpeg,JPEG,png,PNG}',GLOB_BRACE) as $file){
+            echo "<img src='$file.jpg'>";
+        }        
+    }
+?>
+```
+Voir cet [exemple](exemples/list/) de manière plus détaillée.
