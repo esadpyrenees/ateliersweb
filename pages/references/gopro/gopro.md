@@ -14,9 +14,9 @@ Un cycle de conférence organisé par le Signe / Centre national du graphisme. V
 L’association Pola, à Bordeaux, propose à ses adhérents [une offre de services pour les artistes (et graphistes)](https://pola.fr/ressources-pro/), notamment grâce à une permanence juridique, des ateliers et accompagnements de projets.
 
 ### Les statuts 
-Le statut le plus naturel (et avantageux) pour les graphistes est celui d’artiste auteur (AA), qui est géré par la Maison des Artistes (et l’Urssaf). Pour débuter une activité en tant qu’artiste-auteur, voir le [guide de l’URSSAF](https://www.urssaf.fr/portail/home/espaces-dedies/artistes-auteurs-diffuseurs-comm/vous-etes-artiste-auteur/debuter-votre-activite.html) et le site de la [Maison des artistes](http://www.secu-artistes-auteurs.fr).
+Le statut le plus naturel (et avantageux) pour les graphistes est celui d’artiste auteur (AA), qui est géré par l’Urssaf (depuis 2019, à la suite de la Maison des Artistes). Pour débuter une activité en tant qu’artiste-auteur, voir le [guide de l’URSSAF](https://www.urssaf.fr/portail/home/espaces-dedies/artistes-auteurs-diffuseurs-comm/vous-etes-artiste-auteur/debuter-votre-activite.html) et le site de la [Maison des artistes](http://www.secu-artistes-auteurs.fr).
 
-Le statut d’auto-entrepreneur est moins avantageux à certains égards (droit à la formation moindre, cotisations sociales plus élevées, moindre spécificité), mais aussi plus souple (il permet des activités que ne permet pas le statut d’AA, assez restrictif).
+Le statut d’auto-entrepreneur est moins avantageux à certains égards (droit à la formation moindre, cotisations sociales plus élevées, moindre spécificité), mais aussi plus souple (il permet des activités que ne permet pas le statut d’AA, assez restrictif). Il ne permet pas de facturer de droits d’auteurs.
 Pour démarrer, [c’est ici](https://www.autoentrepreneur.urssaf.fr/portail/accueil/creer-mon-auto-entreprise.html).
 
 ### Les tarifs 
