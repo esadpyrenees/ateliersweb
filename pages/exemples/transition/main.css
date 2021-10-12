@@ -19,7 +19,7 @@ body{
     --wght:400;
     font-variation-settings: "wght" var(--wght), "wdth" var(--wdth);
     text-transform: uppercase;
-    font-size: 12vw;
+    font-size: 8vw;
     text-align: center;
     line-height: 1;
     position: absolute;
