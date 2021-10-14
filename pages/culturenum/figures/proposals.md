@@ -2,19 +2,16 @@
 ## Propositions
 
 #### Studios & designers
-Jonathan Puckey,
+Jürg Lehni,
 Moniker,
 Catalog tree,
 Open Source Publishing,
 Lust,
 Chevalvert,
 Metahaven,
-Pinar & Viola,
-Lab 212,
 Upian,
 Collectif BAM,
-g.u.i.,
-Leander Herzog
+g.u.i.
 
 #### Artistes
 Jodi,
@@ -26,12 +23,13 @@ Jon Rafman,
 Aram Barthol,
 Rioji Ikeda,
 Evan Roth,
+Olia Lialina,
 Graffiti Research Lab,
-Benjamin Gaulon,
 John Maeda,
 Casey Reas,
 Constant Dullaart,
-Raphaël Bastide
+Raphaël Bastide,
+Leander Herzog
 
 #### Creative code
 Andreas Gysin,
@@ -66,10 +64,8 @@ Processing,
 Python,
 Flash,
 Adobe,
-Drawbot,
 Figma,
-OpenFrameworks,
-Git
+OpenFrameworks
 
 #### Typographie
 David Jonathan Ross,
@@ -79,7 +75,7 @@ Erik Spiekermann,
 Erik van Blokland,
 Velvetyne Type Foundry,
 Just Van Rossum,
-futurefonts,
+Future Fonts,
 Matthew Carter
 
 #### Histoire
@@ -90,6 +86,9 @@ James Bridle (New Aesthetic),
 Grace Hopper,
 Ada Lovelace,
 Richard Stallman,
+Linus Torvalds,
+Norbert Wiener,
+Douglas Engelbart,
 Rhizome,
 Kenneth Goldsmith (Ubu),
 Brewster Kahle (Internet Archive),
@@ -98,11 +97,14 @@ Ted Nelson (Projet Xanadu),
 Julian Assange (Wikileaks),
 Stewart Brand (The Whole Earth Catalog),
 Donald Knuth (Metafont),
+Donna Haraway,
 Aaron Swartz,
 Chaos Computer Club,
+Cornelia Sollfrank,
 Kenneth Goldsmith,
 Vera Molnar,
-Susan Kare
+Susan Kare,
+Steve Jobs
 
 #### Médias
 usbeketrica.com,
@@ -117,8 +119,7 @@ Nichons nous,
 Xavier de la Porte,
 David Dufresne,
 Strabic,
-Nichons nous dans l’internet,
-Alexandre Brachet
+Nichons nous dans l’internet
 
 #### Radio
 πNode,
@@ -133,7 +134,6 @@ Evgeni Morozov,
 Philippe Aigrain,
 Bernard Stiegler,
 Dominique Cardon,
-Ariel Kyrou,
 Nicolas Nova,
 André Gunthert,
 Gauthier Roussilhe,
