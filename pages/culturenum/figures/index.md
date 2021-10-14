@@ -1,4 +1,6 @@
 # Figures
+<div style="position: relative; padding-bottom: 52.25%; padding-top: 30px; height: 0; overflow: hidden; max-width:var(--p-width)">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KCV_4eRJv7E?controls=0" title="YouTube video player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Produire un exposé oral de 10 minutes soutenu par un support visuel vidéo-projeté réalisé sous la forme d’une page web[^webdesign], dédié à la présentation d’une grande figure du numérique (de son histoire ou de son actualité, dans le champ de l’art, du design, de la pensée ou de la critique).
 
