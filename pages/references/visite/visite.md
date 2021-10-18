@@ -7,7 +7,7 @@
 #### 19/02/2021
 Vous pouvez [écouter une forêt](https://www.tree.fm/). 
 Des chiens vous [expliquent internet](https://www.reddit.com/r/PublicFreakout/comments/lfx12d/dogs_explain_the_internet/). Internet Archive [sauvegarde les gifs](https://gifcities.org/).
-Enfreindre ou absoudre ? Plongez dans [les méandres de la conjugaison française](https://www.lerobert.com/dis-moi-robert/robert-et-vous/dejouez-pieges/enfreindre-ou-absoudre.html).
+Enfreindre ou absoudre ? Plongez dans [les méandres de la conjugaison française](https://dictionnaire.lerobert.com/dis-moi-robert/raconte-moi-robert/dejouez-pieges/enfreindre-ou-absoudre.html).
 
 #### 22/01/2021
 
