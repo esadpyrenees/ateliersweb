@@ -31,7 +31,7 @@ En 2021, cette hypothèse est largement mise à mal par les centres commerciaux 
 
 [^BB]: Regarder la conférence de B. Bayard _Internet libre, ou Minitel 2.0 ?_ sur [Youtube](https://www.youtube.com/watch?v=AoRGoQ76PK8) ou (mieux ;) sur [PeerTube](https://peertube.social/videos/watch/9a8642c0-62f0-4060-95e4-088de9c5db00).
 
-> <big> « Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather. »</big> [^cyber]
+> <big> « Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather. »</big> [^cyber]
 
 Si les internets et le web ont inscrit au cœur de leurs fondations techniques, philosophiques et politiques une puissante position d’ouverture et de décentralisation, force est de constater qu’elle demande à être réinvestie. La liberté ne s’usant que si l’on ne s’en sert pas, cette proposition de travail vise à vous permettre de re-gagner un espace de liberté d’expression – thématique, formelle, conceptuelle, narrative, documentaire…
 
