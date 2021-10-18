@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-shadow:2px 2px 2px rgba(0,0,0,.2);
+  color:white;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+}
+
+svg { width: 100%;}
+circle { fill:none; stroke: #fff}
+p { position: absolute; transform:translateY(var(--y, -200px)); color:rgba(255,255,255,.4)}
+
+.help {
+  position: absolute; 
+  top:0; right:0; margin: 0;
+  padding: 1em;
+  color:#999
+}
+.soleil{ left:5%; --y:-220px; }
+.mercure{ left:7%; --y:-180px; }
+.venus{ left:8%; --y:-160px; }
+.terre{ left:9.2%; --y:-140px; }
+.mars{ left:10.5%; --y:-120px; }
+.jupiter{ left:22%; --y:-100px; }
+.saturne{ left:37.3%; --y:-80px; }
+.uranus{ left:62.8%; --y:-60px; }
+.neptune{ left: auto; right: 4.5%; --y:-40px; }
+
+@media (min-width:300px){.soleil{color:white} #soleil{fill:Gold; stroke:none}}
+@media (min-width:408px){.mercure{color:white} #mercure{fill:grey; stroke:none}}
+@media (min-width:517px){.venus{color:white} #venus{fill:GoldenRod ;stroke:none}} 
+@media (min-width:626px){.terre{color:white} #terre{fill:DeepSkyBlue; stroke:none}}
+@media (min-width:735px){.mars{color:white} #mars{fill:IndianRed; stroke:none}}
+@media (min-width:844px){.jupiter{color:white} #jupiter{fill:tomato; stroke:none}}
+@media (min-width:953px){.saturne{color:white} #saturne{fill:Aquamarine; stroke:none}}
+@media (min-width:1062px){.uranus{color:white} #uranus{fill:PowderBlue; stroke:none}}
+@media (min-width:1171px){.neptune{color:white} #neptune{fill:DodgerBlue; stroke:none}}
+
+  

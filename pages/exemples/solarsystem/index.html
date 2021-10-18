@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RWD – stystème solaire</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="help">Redimensionner la fenêtre du navigateur</div>
+
+    <!-- nb : les noms des planètes sont identifiés par leur class “.planete” -->
+    <p class="soleil">Soleil</p>
+    <p class="mercure">Mercure</p>
+    <p class="venus">Venus</p>
+    <p class="terre">Terre</p>
+    <p class="mars">Mars</p>
+    <p class="jupiter">Jupiter</p>
+    <p class="saturne">Saturne</p>
+    <p class="uranus">Uranus</p>
+    <p class="neptune">Neptune</p>
+        
+    <!-- nb : les formes des planètes sont identifiés par leur id “#planete” -->
+    <svg version="1.1" id="systeme" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 1121 630" style="enable-background:new 0 0 1121 630;" xml:space="preserve">
+      <circle id="soleil" cx="-382.5" cy="315" r="447.5"/>
+      <circle id="mercure" cx="79" cy="319.5" r="1"/>
+      <circle id="venus" cx="91" cy="319.5" r="4"/>
+      <circle id="terre" cx="104" cy="319.5" r="3"/>
+      <circle id="mars" cx="120" cy="319.5" r="2"/>
+      <circle id="jupiter" cx="245" cy="319.5" r="22"/>
+      <circle id="saturne" cx="418" cy="319.5" r="16"/>
+      <circle id="uranus" cx="706" cy="319.5" r="11"/>
+      <circle id="neptune" cx="1068" cy="319.5" r="10"/>
+    </svg>
+
+  
+    <script>
+      // le code ci-dessous génère les règles CSS utilisées dans l’exemple
+      const colors = ["Gold","grey","GoldenRod","DeepSkyBlue","IndianRed","tomato","Aquamarine","PowderBlue","DodgerBlue"];
+      const planets = ["soleil", "mercure", "venus", "terre", "mars", "jupiter", "saturne", "uranus", "neptune"]
+      
+      Number.prototype.map = function (in_min, in_max, out_min, out_max) {
+        return (this - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+      }
+      function generateRules(){
+        // vide la page de tout contenu
+        document.documentElement.innerHTML = "";
+        // parcourt toutes les planètes
+        for(var i=0; i< planets.length; i++){
+          // génère un “breakpoint” qui répartit chaque planète entre les largeurs 300px et 1280px
+          var bp = Math.floor(i.map(0,planets.length, 300, 1280));
+          // écrit la règle dans la page pour pouvoir la copier
+          document.write("@media (min-width:" + bp+ "px){." + planets[i] + "{color:white} #"+ planets[i] +"{background:" + colors[i] + "}}" + "<br>")
+        }
+      }
+      // décommenter pour activer :
+      // setTimeout(generateRules, 20)
+    </script>
+</body>
+</html>

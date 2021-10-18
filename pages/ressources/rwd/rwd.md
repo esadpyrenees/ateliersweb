@@ -1,12 +1,17 @@
 # Responsive web design
 
-Le _Responsive Web Design_ (RWD) est une approche du design web qui permet de construire des pages dont l’affichage s’effectuera correctement sur tous types de périphériques et de tailles de fenêtres ou d'écrans.
+Le _Responsive Web Design_ (RWD) est une approche du design web qui permet de construire des pages dont l’affichage est maîtrisé sur tous types de périphériques et de tailles de fenêtres ou d'écrans.
 
-Un site conçu ainsi s’adapte à l'environnement de visualisation en utilisant des grilles fluides et proportionnées, des images flexibles, et des “requêtes de média” (_media queries_):
+Un site conçu ainsi s’adapte à l'environnement de visualisation en utilisant des grilles fluides ou proportionnelles, des images flexibles et des “requêtes de média” (_media queries_):
 
-*   Le concept de grille fluide demande que la taille des éléments de page soit exprimée en unités relatives, telles que des pourcentages, plutôt qu'en unités absolues, telles que les pixels ou les points.
-*   Les images flexibles sont également dimensionnées en unités relatives, afin de les empêcher de s'afficher en dehors de leur élément parent.
-*   Les _media queries_ permettent à la page d'utiliser différentes règles de style CSS en fonction des caractéristiques du périphérique sur lequel le site est affiché, le plus souvent de la largeur du navigateur.
+*   Le concept de grille fluide demande que la taille des éléments de page soit exprimée en unités relatives, telles que des pourcentages, plutôt qu'en unités absolues, telles que les pixels.
+*   Les images flexibles sont également dimensionnées en unités relatives, afin de les empêcher de déborder de leur élément parent.
+*   Les _media queries_ permettent à la page d'utiliser différentes règles de style CSS en fonction des caractéristiques du périphérique sur lequel le site est affiché (le plus souvent, la largeur du navigateur, mais aussi le support, _screen_ ou _print_).
+
+Découvrir [quelques exemples d’utilisatin du Responsive Web Design et des MediaQueries](../../exemples/#rwd).
+
+Redimensionner votre fenêtre de navigateur (ou utilisez “l’affichage adaptatif”, dans Firefox, ou Chrome) pour voir les règles à l’œuvre.
+
 
 <div style="padding:42.5% 0 0 0;position:relative;border-right:1px solid;border-bottom:1px solid;"><iframe src="https://whatyouseeiswhatyouget.net/" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 <small>What You See Is What You Get, Jonas Lund, 2012, <a href="http://whatyouseeiswhatyouget.net">http://whatyouseeiswhatyouget.net</a>. La taille de chaque navigateur qui s’est connecté au site depuis 2012 est enregistrée, puis affichée séquentiellement – jusqu’à celle de votre propre visite.</small>
@@ -137,11 +142,6 @@ Ci-dessous, un élément servant d’ornement pourra être affiché sur les gran
         }
     }
 
-### Aller plus loin
-
-[Quelques exemples d’utilisatin du Responsive Web Design et des MediaQueries](../../exemples/#rwd).
-
-Redimensionner votre fenêtre de navigateur (ou utilisez “l’affichage adaptatif”, dans Firefox, ou Chrome) pour voir les règles à l’œuvre.
 
 <div id="typography"></div>
 
