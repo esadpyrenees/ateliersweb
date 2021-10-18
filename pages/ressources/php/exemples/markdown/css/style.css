@@ -34,7 +34,7 @@ a { color: currentColor;}
 
 img { max-width: 100%;}
 
-main { flex: 1; max-width: 1200px; }
+main { flex: 1; max-width: 1038px; }
 main p, main ul, main blockquote, main ol {
   max-width: 45em;
 }
