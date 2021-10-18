@@ -1,6 +1,11 @@
+:root {
+  /* variable (custom property) CSS pour la couleur de base de chaque section */
+  --color: greenyellow;
+}
+
 body{
   background: #000;
-  color: greenyellow;
+  color: var(--color);
   margin: 50px;
   font-family: monospace;
   display: flex;
@@ -34,6 +39,13 @@ main p, main ul, main blockquote, main ol {
   max-width: 45em;
 }
 
+/* mise en forme spécifique pour chaque section */
+.intro { --color: aquamarine; }
+.part-1 { --color:coral; }
+.part-2 { --color:deeppink; }
+.part-3 { --color:gold; }
+.part-about { color:papayawhip; }
+
 /* responsive youtube embed */
 .video { padding-bottom:56.35%; height:0; position:relative; }
 .video iframe { position:absolute; top:0; left:0; width:100%; height:100%; }
@@ -42,14 +54,14 @@ main p, main ul, main blockquote, main ol {
 hr {
   background: none;
   border: none;
-  border: 1px dashed greenyellow;
+  border: 1px dashed var(--color);
 }
 sup[id^=fnref]{
   vertical-align: baseline;
   display: inline-block;
   margin: 0 0 0 .15em;
   padding: 0 .25em;
-  background: greenyellow;
+  background: var(--color);
   border-radius: 4px;
   color: #000;
 }
@@ -58,7 +70,7 @@ sup[id^=fnref] a { text-decoration: none;}
 
 
 /* monochrome trick , just for fun*/
-.video { background:greenyellow; margin: 2em 0;}
+.video { background:var(--color); margin: 2em 0;}
 .video::before,
 .video::after {
   pointer-events: none;
@@ -75,7 +87,7 @@ sup[id^=fnref] a { text-decoration: none;}
   mix-blend-mode: saturation;
 }
 .video::after {
-  background-color:greenyellow;
+  background-color:var(--color);
   mix-blend-mode: color;
   z-index: 2;
 }
