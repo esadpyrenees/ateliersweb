@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Ressources – PHP";
     $section="ressources";
     $subsection="php";
     $nav = "/web/snippets/ressources/php.php";
@@ -22,9 +22,8 @@
 ?>
 
     <main class="pane active" id="content">
-
-
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+        
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 

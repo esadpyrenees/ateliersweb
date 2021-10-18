@@ -17,3 +17,11 @@ img {
   object-fit: contain;
   z-index: -1;
 }
+
+.red {
+  background: tomato;
+  color: red;
+}
+.red img {
+  transform: scale(-1);
+}

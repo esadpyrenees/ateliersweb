@@ -1,0 +1,81 @@
+body{
+  background: #000;
+  color: greenyellow;
+  margin: 50px;
+  font-family: monospace;
+  display: flex;
+  line-height: 1.45;
+}
+header {
+  width: 15vw;
+  position: sticky;
+  top: 50px;
+  align-self: flex-start
+}
+.logo {
+  font-size: 4em;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+.active { text-decoration: underline; }
+
+header a {
+  text-decoration: none;
+}
+
+a { color: currentColor;}
+
+img { max-width: 100%;}
+
+main { flex: 1; max-width: 1200px; }
+main p, main ul, main blockquote, main ol {
+  max-width: 45em;
+}
+
+/* responsive youtube embed */
+.video { padding-bottom:56.35%; height:0; position:relative; }
+.video iframe { position:absolute; top:0; left:0; width:100%; height:100%; }
+
+/* footnotes */
+hr {
+  background: none;
+  border: none;
+  border: 1px dashed greenyellow;
+}
+sup[id^=fnref]{
+  vertical-align: baseline;
+  display: inline-block;
+  margin: 0 0 0 .15em;
+  padding: 0 .25em;
+  background: greenyellow;
+  border-radius: 4px;
+  color: #000;
+}
+sup[id^=fnref] a { text-decoration: none;}
+
+
+
+/* monochrome trick , just for fun*/
+.video { background:greenyellow; margin: 2em 0;}
+.video::before,
+.video::after {
+  pointer-events: none;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.video::before {
+  background: #000;
+  z-index: 1;
+  mix-blend-mode: saturation;
+}
+.video::after {
+  background-color:greenyellow;
+  mix-blend-mode: color;
+  z-index: 2;
+}

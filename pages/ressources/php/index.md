@@ -242,3 +242,13 @@ Il existe plusieurs méthodes (notamment [`scandir`](https://www.php.net/manual/
 ?>
 ```
 Voir cet [exemple](exemples/list/) de manière plus détaillée, ou [téléchargez-le](php-exemple-list.zip).
+
+## Utiliser Markdown {#markdown}
+
+Le format de balisage [markdown](https://daringfireball.net/projects/markdown/syntax) permet de structurer sémantiquement un contenu textuel en titres, intertitres, paragraphes, listes, citations, etc. Il permet d’inclure des images, ou des bribes de html pour – par exemple – intégrer des vidéos.
+
+PHP, grâce aux librairies [Parsedown](https://parsedown.org/) et [ParsedownExtra](https://github.com/erusev/parsedown-extra/), permet de traiter des fichiers texte formattés en markdown pour les convertir en HTML.
+
+L’extension markdown-extra permet d’ajouter des attributs (class, id, lang…) aux titres, liens et images, de créer des tableaux, des notes de bas de page et des abréviations.
+
+Voir l’[exemple](exemples/markdown/), ou [téléchargez-le](php-exemple-markdow.zip).
