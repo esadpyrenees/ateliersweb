@@ -12,7 +12,8 @@
       <a href="pages/ressources/HTML/start">Bien démarrer avec HTML <span>2DGM</span></a>,
       <a href="pages/projets/micromedia">Micromédia </a> +
       <a href="pages/ressources/rwd">Responsive web design <span>3DGM</span></a>,
-      <a href="pages/projets/memoirevive/">Mémoire vive <span>4DGM</span></a>
+      <a href="pages/projets/memoirevive/">Mémoire vive <span>4DGM</span></a>,
+      <a href="pages/ressources/php/">Démarrer avec PHP <span>4/5DGM</span></a>
     </article>
     <article class="homelinks">
       
