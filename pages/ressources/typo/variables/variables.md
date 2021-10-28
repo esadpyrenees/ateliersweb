@@ -1,6 +1,6 @@
 # Fontes variables
 
-Lire l’introduction de Jason Pamental : [*An Introduction to Variable Fonts*](https://24ways.org/2019/an-introduction-to-variable-fonts/) ou parcourir [variablefonts.io](https://variablefonts.io/). Découvrir et jouer avec des fontes variables sur [v-fonts.com](https://v-fonts.com/), [axis-praxis](https://www.axis-praxis.org/) ou [variable emojis](http://variableemojis.com/). <span style="text-decoration:line-through">Expérimenter les fontes paramétriques avec [Prototypo](http://prototypo.io/)</span> 😢.
+Lire l’introduction de Jason Pamental : [*An Introduction to Variable Fonts*](https://24ways.org/2019/an-introduction-to-variable-fonts/) ou parcourir [variablefonts.io](https://variablefonts.io/). Découvrir et jouer avec des fontes variables sur [v-fonts.com](https://v-fonts.com/), [axis-praxis](https://www.axis-praxis.org/) ou [variable emojis](http://variableemojis.com/). ~~Expérimenter les fontes paramétriques avec [Prototypo](http://prototypo.io/)~~ 😢.
 
 ## Introduction
 

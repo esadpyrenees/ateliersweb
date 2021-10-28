@@ -12,6 +12,22 @@
   <a href="index.php?dossier=birds">oiseaux</a>
   <a href="index.php?dossier=bugs">coléoptères</a>
   
+  <?php 
+      if(isset($_GET['dossier'])){
+        // crée un div class="gallery" uniquement si un dossier a été requis
+        echo '<div class="gallery">';
+          // ajoute un "/" au nom du dossier 
+          $dossier = $_GET['dossier'] . "/"; 
+          // détermine quels seront les fichiers à conserver
+          $files = $dossier.'*.{jpg,JPG,jpeg,JPEG,png,PNG}';
+          // utilise la fonction glob() pour lister les fichiers
+          // plus de détails sur https://www.php.net/manual/fr/function.glob.php
+          foreach(glob($files,GLOB_BRACE) as $file){
+              echo "<img src='$file'>";
+          }
+        echo '</div>';
+      }
+  ?>
   
 </body>
 </html>
