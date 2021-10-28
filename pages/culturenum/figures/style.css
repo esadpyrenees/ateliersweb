@@ -1,0 +1,90 @@
+.galleries {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+  grid-gap: 40px;
+  margin: 2em 0 4em;
+  position: relative;
+}
+.figure {
+  display: grid;
+  scroll-margin-top:20px;
+  align-content: start;
+  /* grid-template-rows: minmax(min-content, 1fr)  1fr; */
+}
+.gallery {
+  --m: 15px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  aspect-ratio: 1 / 1;
+}
+.gallery figure {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  max-width: calc(100% - 30px);
+  position: relative;
+  display: none;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.gallery figure:hover { z-index: 1;}
+.gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery figcaption {
+  display: none;
+}
+
+.gallery figure:nth-child(1) {display: block; top:calc(var(--m) * -1); left: calc(var(--m) * -1);}
+.gallery figure:nth-child(2) {display: block; top:calc(var(--m) * 0); left: calc(var(--m) * 0);}
+.gallery figure:nth-child(3) {display: block; top:calc(var(--m) * 1); left: calc(var(--m) * 1);}
+
+.text { position: relative;}
+.text * { display: none;}
+.text h1 {
+  font-size: 1em;
+  font-weight: normal;
+  margin: .5em 0 0;
+  padding: 0;
+  display: block;
+}
+
+
+
+.figure.visible-figure {
+  grid-column: span 2;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.figure.visible-figure .text * { display: revert;}
+
+.figure.visible-figure .text h1 { margin-top: 0; font-weight: bold;}
+
+.figure.visible-figure .gallery {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  aspect-ratio: auto;
+  grid-gap: 10px;
+  /* align-self: center; */
+}
+
+.figure.visible-figure .gallery figure {
+  top: 0 !important;
+  left: 0 !important;
+  grid-row: auto;
+  grid-column: auto;
+  display: block;
+  aspect-ratio: auto;
+}
+
+.close-figure { position: absolute; right: -5px; top:-5px; cursor: pointer; padding: 10px; display: inline-block; line-height: 1;}

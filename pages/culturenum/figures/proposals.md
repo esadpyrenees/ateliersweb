@@ -13,6 +13,29 @@ Upian,
 Collectif BAM,
 g.u.i.
 
+
+# Digital design pionniers
+Jonathan Barnbrook
+Rudy VanderLans + Zuzana Licko 
+
+David Carson
+April Greiman
+Katherine McCoy
+David Carson
+Fred Woodward
+Matthew Carter
+
+The Designers Republic
+
+# Digital arts
+
+John Whitney 
+
+Frieder Nake
+Grégory Chatonsky
+Cory Arcangel 
+Daniel Eatock
+
 #### Artistes
 Jodi,
 Rafael Rozendaal,

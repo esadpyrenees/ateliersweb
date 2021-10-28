@@ -1,0 +1,5 @@
+# Brewster Kahle
+
+1960 – …
+
+Brewster Kahle est un documentaliste états-unien, ingénieur informatique, entrepreneur et défenseur de l'accès universel à la connaissance. En 1996 il a co-fondé la compagnie Alexa (nommée en référence à la Bibliothèque d’Alexandrie), dédiée au développement d’une navigation web avancée qui s'améliorerait continuellement sur la base des données générées par ses utilisateurs. La technologie développée était à la fois un outil statistique et un moteur d’indexation du web. À la suite de la vente d’Alexa à Amazon, il crée [Internet Archive](https://archive.org/), consacré à l’archivage du Web mais également bibliothèque numérique libre. Ayant dédié son énergie à la préservation de la connaissance humaine et l'accessibilité des collections à tous, Brewster Kahle est rentré en 2012 au *Internet Hall of Fame*.
