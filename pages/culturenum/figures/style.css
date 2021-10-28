@@ -20,6 +20,9 @@
   grid-template-columns: 1fr;
   aspect-ratio: 1 / 1;
 }
+.figure:not(.visible-figure){
+  cursor: pointer;
+}
 .gallery figure {
   grid-column: 1;
   grid-row: 1;
