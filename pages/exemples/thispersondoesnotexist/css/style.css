@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-shadow:2px 2px 2px rgba(0,0,0,.2);
+  color:white;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+figure {
+  position: fixed;
+  margin: 0;
+  top:0;left:0;bottom:0;right: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1s;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* la slide visible */
+.visible {
+  opacity: 1;
+  z-index: 2;
+}
+
+nav { position: absolute; z-index: 4;}
+a{
+  font-size: 4vw;
+  display: block;
+  transform: rotate(-45deg);
+  text-decoration: none;
+  color: currentColor;
+}

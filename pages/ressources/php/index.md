@@ -251,4 +251,4 @@ PHP, grâce aux librairies [Parsedown](https://parsedown.org/) et [ParsedownExtr
 
 L’extension markdown-extra permet d’ajouter des attributs (class, id, lang…) aux titres, liens et images, de créer des tableaux, des notes de bas de page et des abréviations.
 
-Voir l’[exemple](exemples/markdown/), ou [téléchargez-le](php-exemple-markdow.zip).
+Voir l’[exemple](exemples/markdown/), ou [téléchargez-le](php-exemple-markdown.zip).
