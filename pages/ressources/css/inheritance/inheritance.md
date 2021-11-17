@@ -24,7 +24,7 @@ h6 { color: grey; }
 ## Propagation de la valeur
 
 La valeur de couleur peut être héritée d’un ancêtre. Considérant que nous voulons modifier toute la page Web, nous choisirons l’ancêtre de tous les éléments HTML, la balise `body`:
-```
+```css
 body { color: grey; }
 ```
 Tous les éléments enfants et descendants hériteront de la valeur de cet ancêtre commun, qui englobe naturellement tous les éléments (on peut également utiliser la balise html).
@@ -42,7 +42,7 @@ Certains éléments HTML n’héritent pas de leurs ancêtres. Les liens, par ex
 # Priorités
 
 Un élément HTML peut être ciblé par plusieurs règles CSS. Prenons un simple paragraphe, par exemple:
-```
+```html
 <p class="message" id="introduction">
   Le CSS, c’est fabuleux
 </p>
