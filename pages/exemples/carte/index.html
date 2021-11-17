@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carte</title>
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="screen">
+
+    <!-- feuilles de style  -->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    
+</head>
+<body>
+
+    <div id="carte"></div>
+
+    
+    <!-- leaflet : la librairie qui permet d’insérer des cartes -->
+    <script src="leaflet/leaflet.js"></script>
+    <!-- stamen maps -->
+    <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+    <!-- https://github.com/leaflet-extras/leaflet-providers -->
+    <script src="leaflet/leaflet-providers.js"></script> 
+
+    <script>
+        // Pour trouver des latitudes et longitudes : https://latlong.net
+        var center = [
+            43.295101, // latitude
+            -0.370797,  // longitude
+            
+            
+        ];
+        var zoom = 13;
+        // l’élément #carte sera utilisé pour intégrer la carte
+        var map = L.map('carte').setView(center, zoom);
+
+        // ajout d’un fond de carte standard
+        // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        //     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        // }).addTo(map);
+
+        // ajout d’un fond de carte “Toner”
+        var layer = new L.StamenTileLayer("toner");
+        map.addLayer(layer);
+        
+        // Création d’une icône
+        var arrow = L.icon({
+            iconUrl: 'img/arrow.svg',
+            iconSize:     [50, 80], // size of the icon
+            iconAnchor:   [16, 78], // point of the icon which will correspond to marker's location
+            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+
+        // ajout d’un marker
+        var marker = L.marker([43.297582, -0.363804], {icon: arrow}).addTo(map);
+        // contenu d’une popup
+        marker.bindPopup('You might be here…');
+        
+    </script>
+
+</body>
+</html>

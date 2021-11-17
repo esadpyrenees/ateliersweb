@@ -1,0 +1,16 @@
+
+#carte {
+    position: fixed;
+    top:0; left:0; right:0; bottom: 0;
+}
+
+.leaflet-popup-tip-container {
+    display: none;
+}
+.leaflet-popup-content-wrapper {
+    border: 3px solid;
+    background: white;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 2em;
+}
