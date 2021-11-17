@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout: Sidebar</title>
+    <link rel="stylesheet" href="typography.css">
+    <style>
+      body { display: flex;  }
+      header { width: 30%; position: sticky; top: 0; align-self: flex-start;}
+      main { flex: 1; overflow: auto; }
+      @media(max-width:900px){ body{ flex-direction: column;} header{width: 100%;}}
+    </style>
+  </head>
+
+  <body class="typography-sidebar">
+
+    <header>
+      <p class="info">⚠️ Une entête fixe de 30% de large.</p>
+      <nav>
+        <a href="sidebar.html">sticky sidebar</a>
+        <a href="sticky.html">top header</a>
+        <a href="split.html">split screen</a>
+      </nav>
+    </header>
+
+    <main>
+      <p class="info">⚠️ Un contenu scrollable.</p>
+      <article>
+        <p>Les règles CSS liées à la mise en page sont contenues dans une balise &lt;style&gt; insérée dans le &lt;head&gt; du fichier HTML.</p>
+        <p>Les styles contenus dans le fichier typography.css sont uniquement destinés à homogénéiser l’affichage typographique entre les différents exemples de mise en pages.</p>
+        <p>Le contenu textuel ci-après (issu des pages <a href="https://fr.wikipedia.org/wiki/Codex">Codex</a> et <a href="https://fr.wikipedia.org/wiki/Volumen">Volumen</a> de Wikipedia) est présent afin de forcer le scroll de l’élément &lt;main&gt;.</p>
+        <p>Le <i>volumen</i> (mot latin signifiant « chose enroulée ») est un livre à base de feuilles de papyrus collées les unes aux autres et qui s'enroule sur lui-même. Il a été créé en Égypte vers 3000 av. J.-C. Le texte est rédigé en colonnes parallèles assez étroites. C'est le support du texte par excellence durant les trente siècles précédant notre ère, d'abord en Égypte, puis dans tout le monde méditerranéen. Il sera ensuite progressivement remplacé par le codex. </p>
+        <p>Un <i>codex</i> (pluriel : <i>codices</i>) est un cahier formé de pages manuscrites reliées ensemble en forme de livre. Cet ancêtre du livre moderne a été inventé à Rome durant le II<sup>e</sup> siècle av. J.-C. et s'est répandu à partir du I<sup>er</sup> siècle, pour progressivement remplacer le rouleau de papyrus (le volumen) grâce à son faible encombrement, son coût modéré, sa maniabilité et la possibilité qu'il offre d'accéder directement à n'importe quelle partie du texte. </p>
+      </article>
+    </main>
+  </body>
+
+</html>

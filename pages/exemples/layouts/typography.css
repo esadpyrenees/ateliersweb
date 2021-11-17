@@ -1,0 +1,47 @@
+/* 
+  Les styles contenus dans ce fichier CSS sont uniquement destinés à homogénéiser 
+  l’affichage typographique entre les différents exemples de mise en pages.
+*/
+
+* { margin: 0; box-sizing: border-box;}
+body{ font-family: sans-serif; font-weight: bold; }
+article { font-size: 5vw; line-height: 1.05; }
+h1, h2 { font-size: 1em; }
+header, main { padding: 1rem; }
+a { color: currentColor; }
+nav { margin-top: 1rem; display: flex; flex-direction: column; }
+.info { margin: 1em 0; font-size: 1rem; }
+article p { display: inline;}
+article p+p::before {content:"¶ "; color: crimson;}
+
+
+/*------------ exemple: sidebar */
+.typography-sidebar main { border-left: 1px solid;}
+
+/*------------ exemple: sticky header */
+.typography-sticky header {
+  background: white;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.typography-sticky nav { flex-direction: row; }
+.typography-sticky nav a { padding-left: 1em;}
+
+/*------------ exemple: split */
+.typography-split #header {
+  height: 55vh;
+  border-bottom: 1px solid;
+  position: static;
+  text-align: center;
+}
+.typography-split article {
+  font-size: 3.5vw; 
+  padding: 1em;
+}
+.typography-split section:not(:last-child){
+  border-bottom: 1px solid;
+}
+/* la bordure est affectée soit au header soit à l’article */
+.typography-split section:nth-child(even) header{ border-right: 1px solid; }
+.typography-split section:nth-child(odd) article{ border-right: 1px solid; }

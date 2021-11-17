@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 630" style="enable-background:new 0 0 1200 630;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect class="st0" width="1200" height="630"/>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="530.8" y1="233.5" x2="530.8" y2="396.5"/>
+	</g>
+	<g>
+		<path d="M724.8,239.5v151H475.2v-151H724.8 M730.8,233.5H469.2v163h261.6V233.5L730.8,233.5z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M413.2,239.5v151H163.6v-151H413.2 M419.2,233.5H157.6v163h261.6V233.5L419.2,233.5z"/>
+	</g>
+	<line class="st1" x1="157.6" y1="269.4" x2="419.2" y2="269.4"/>
+</g>
+<g>
+	<g>
+		<path d="M1036.4,239.5v151H786.8v-151H1036.4 M1042.4,233.5H780.8v163h261.6V233.5L1042.4,233.5z"/>
+	</g>
+	<line class="st1" x1="780.8" y1="269.4" x2="1042.4" y2="269.4"/>
+	<line class="st1" x1="911.6" y1="396.5" x2="911.6" y2="269.4"/>
+</g>
+</svg>
