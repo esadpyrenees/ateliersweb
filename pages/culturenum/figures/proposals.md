@@ -119,7 +119,6 @@ Muriel Cooper,
 Ted Nelson (Projet Xanadu),
 Julian Assange (Wikileaks),
 Stewart Brand (The Whole Earth Catalog),
-Donald Knuth (Metafont),
 Donna Haraway,
 Aaron Swartz,
 Chaos Computer Club,
@@ -128,6 +127,11 @@ Kenneth Goldsmith,
 Vera Molnar,
 Susan Kare,
 Steve Jobs
++
+Donald Knuth (Metafont),
+Jimmy Whales
+McKenzie Wark
+Jan Robert Leegte 
 
 #### Médias
 usbeketrica.com,

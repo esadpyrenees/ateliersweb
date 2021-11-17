@@ -21,6 +21,7 @@
     // markdown!
     $Parsedown = new ParsedownExtra();
 
+    //find . -name '*.jpg' -exec mogrify -resize 300x300 {} +
 ?>
     <style>
         .pad{

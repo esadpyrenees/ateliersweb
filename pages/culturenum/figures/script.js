@@ -14,6 +14,16 @@ galleries.forEach( g => {
     createClose(g);
   })
   
+  var children = g.querySelectorAll('figure');
+  g.addEventListener('mousemove', function(e){
+    var rect = g.getBoundingClientRect();
+    var x = e.clientX - rect.left; //x position within the element.
+    var xp = Math.floor(x * 100 / rect.width);
+    var showIndex = Math.floor(xp * children.length / 100);
+    children.forEach((c) => {c.style.zIndex = 1})
+    var stackmedia = children[showIndex];
+    stackmedia.style.zIndex = 2000;
+  })
 });
 
 function createClose(g){
