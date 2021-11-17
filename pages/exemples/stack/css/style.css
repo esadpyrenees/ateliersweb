@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gallery {
+  display: grid;
+  place-content: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --taille:min(70vh, 300px);
+  --decalage: 15px;
+  width: calc(var(--taille) + var(--decalage) * 4);
+  height: calc(var(--taille) + var(--decalage) * 4);
+}
+
+figure {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  top: var(--m); 
+  left: var(--m); 
+  width: var(--taille);
+}
+
+img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+figure:nth-child(1) { --m: calc(var(--decalage) * 0); }
+figure:nth-child(2) { --m: calc(var(--decalage) * 1); }
+figure:nth-child(3) { --m: calc(var(--decalage) * 2); }
+figure:nth-child(4) { --m: calc(var(--decalage) * 3); }
+figure:nth-child(5) { --m: calc(var(--decalage) * 4); }
+
+
+figure.above{ background: red; z-index: 2;}
+figure.above img{ mix-blend-mode: multiply;}
+
+
+/* debug & info */
+figure.above::before{
+  content:"•";
+  color: red;
+  position: absolute;
+  top: calc(var(--m) * -1 - 20px);  
+}
+
+.info{
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 22em;
+  padding: 1em;
+  margin: 0;
+}
+.debug{
+  left:unset;
+  right: 0;
+}
