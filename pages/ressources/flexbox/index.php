@@ -184,10 +184,6 @@
             <div>Item 3</div>
           </article>
 
-          <p>
-              Il n’est ainsi plus besoin d’utiliser les propriétés <code>float</code>, ou <code>inline-block</code>.
-          </p>
-
         </section> <!-- #example-1 -->
 
         <section class="section example" id="example-2">
@@ -432,7 +428,7 @@
             </p>
             <p>
                 Chris Coyier, auteur du site CSS Tricks, en offre un aperçu complet ici :
-                <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a>
+                <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a>. Une “<i>cheatsheet</i> visuelle est disponible sur <a href="https://flexboxsheet.com/">flexboxsheet.com</a>.
             </p>
             <p>
                 Mozilla Developper Network reste une référence complète : <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Disposition_des_bo%C3%AEtes_flexibles_CSS/Mises_en_page_avancees_avec_flexbox">Mises en page avancées avec les boîtes flexibles</a>
