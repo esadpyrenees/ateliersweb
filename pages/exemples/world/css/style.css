@@ -1,0 +1,54 @@
+:root{
+    --fond : #000;
+}
+#carte {
+    position: fixed;
+    top:0; left:0; right:0; bottom: 0;
+    background: var(--fond);
+}
+
+#carte svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#Countries path,
+#Countries polygon{
+    fill: #fff;
+    transition: fill 500ms;
+    transition-delay: 1500ms;
+}
+
+#Background, #Text { display:none; }
+#Lakes { pointer-events: none; }
+#Lakes path { fill: var(--fond); }
+
+#Countries path:hover,
+#Countries polygon:hover{
+    fill: chartreuse;
+    transition-delay: 0ms;
+}
+
+/* 
+#Countries .st3:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#FF9966;}
+#Countries .st4:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#EBD7B0;}
+#Countries .st5:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#F5E0AB;}
+#Countries .st6:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#C8CF6A;}
+#Countries .st7:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#C9F2B1;}
+#Countries .st8:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#F0BC88;}
+#Countries .st9:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#BFD690;}
+#Countries .st10:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#EDD268;}
+#Countries .st11:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#EDC5C5;}
+#Countries .st12:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#CCCC33;}
+#Countries .st13:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFF99;}
+#Countries .st14:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#FF9999;}
+#Countries .st15:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#FFCC99;}
+#Countries .st16:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#A1C379;}
+#Countries .st17:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#EE8844;}
+#Countries .st18:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#D6CBCF;}
+#Countries .st19:hover{fill-rule:evenodd;clip-rule:evenodd;fill:#77C6E7;}
+
+ */
+
+
