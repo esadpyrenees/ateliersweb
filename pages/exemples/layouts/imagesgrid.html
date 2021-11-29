@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout: Grille d’images</title>
+    <link rel="stylesheet" href="typography.css">
+    <style>
+      header { position: sticky; top: 0;}
+      .grille {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 40px;
+        align-items: center; /* aligne horizontalement les images */
+        grid-auto-flow: dense; /* autorise le réagencement de l’ordre des images pour “densifier” la grille */
+      }
+      img {
+        width: 100%;
+        display: block;
+      }
+      .landscape { grid-column: span 2; }
+
+      @media(max-width:900px){ 
+        body{ flex-direction: column;} 
+        header{width: 100%;}
+        .grille {grid-template-columns: repeat(2,1fr);} /* seulement deux colonnes pour les petits écrans*/
+      }
+    </style>
+  </head>
+
+  <body class="typography-sticky">
+
+    <header>
+      <p class="info">⚠️ Une entête fixe en haut de page.</p>
+      <nav>
+        <a href="sidebar.html">sticky sidebar</a>
+        <a href="sticky.html">top header</a>
+        <a href="split.html">split screen</a>
+        <a href="imagesgrid.html">images grid</a>
+        <a href="imagesline.html">images line</a>
+      </nav>
+    </header>
+
+    <main>
+      <p>⚠️ Une grille de quatre colonnes. Les images en paysage occupent deux colonnes.<br><br></p>
+      <section class="grille">
+        <img src="images/86.jpg">
+        <img src="images/57.jpg" class="landscape">
+        <img src="images/84.jpg">
+        <img src="images/25.jpg" class="landscape">
+        <img src="images/100.jpg">
+        <img src="images/65.jpg" class="landscape">
+        <img src="images/69.jpg">
+        <img src="images/85.jpg" class="landscape">
+      </section>
+    </main>
+  </body>
+  
+</html>

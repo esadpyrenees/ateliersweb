@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout: Grille d’images</title>
+    <link rel="stylesheet" href="typography.css">
+    <style>
+      header { position: sticky; top: 0;}
+      
+      .line{
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+      }
+
+      .line img {
+        height: 50vh;
+        margin: 20px;
+      }
+
+      @media(max-width:900px){ 
+        body{ flex-direction: column;} 
+        header{width: 100%;}
+        .line { flex-direction: column;} /* Une colonne pour les petits écrans*/
+      }
+    </style>
+  </head>
+
+  <body class="typography-sticky">
+
+    <header>
+      <p class="info">⚠️ Une entête fixe en haut de page.</p>
+      <nav>
+        <a href="sidebar.html">sticky sidebar</a>
+        <a href="sticky.html">top header</a>
+        <a href="split.html">split screen</a>
+        <a href="imagesgrid.html">images grid</a>
+        <a href="imagesline.html">images line</a>
+      </nav>
+    </header>
+
+    <main>
+      <p>⚠️ Une ligne d’images “scrollable” horizontalement. Voir la <a href="imagesline-js.html">version avec javascript</a>.<br><br></p>
+      <section class="line">
+        <img src="images/86.jpg">
+        <img src="images/57.jpg" class="landscape">
+        <img src="images/84.jpg">
+        <img src="images/25.jpg" class="landscape">
+        <img src="images/100.jpg">
+        <img src="images/65.jpg" class="landscape">
+        <img src="images/69.jpg">
+        <img src="images/85.jpg" class="landscape">
+      </section>
+    </main>
+  </body>
+  
+</html>

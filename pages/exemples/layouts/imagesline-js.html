@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout: Grille d’images</title>
+    <link rel="stylesheet" href="typography.css">
+    <style>
+      header { position: sticky; top: 0;}
+      
+      .line{
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        /* overflow-x: scroll; */ /* suppression de la visibilité du scroll horizontal */
+      }
+
+      .line img {
+        height: 50vh;
+        margin: 20px;
+        pointer-events: none; /* ajout d’une propriété qui supprime les évènements de souris sur les images */
+      }
+
+      @media(max-width:900px){ 
+        body{ flex-direction: column;} 
+        header{width: 100%;}
+        .line { flex-direction: column;} /* Une colonne pour les petits écrans*/
+      }
+    </style>
+  </head>
+
+  <body class="typography-sticky">
+
+    <header>
+      <p class="info">⚠️ Une entête fixe en haut de page.</p>
+      <nav>
+        <a href="sidebar.html">sticky sidebar</a>
+        <a href="sticky.html">top header</a>
+        <a href="split.html">split screen</a>
+        <a href="imagesgrid.html">images grid</a>
+        <a href="imagesline.html">images line</a>
+      </nav>
+    </header>
+
+    <main>
+      <p>⚠️ Une ligne d’images “scrollable” horizontalement. Voir la <a href="imagesline.html">version sans javascript</a>.<br><br></p>
+      <section class="line">
+        <img src="images/86.jpg">
+        <img src="images/57.jpg" class="landscape">
+        <img src="images/84.jpg">
+        <img src="images/25.jpg" class="landscape">
+        <img src="images/100.jpg">
+        <img src="images/65.jpg" class="landscape">
+        <img src="images/69.jpg">
+        <img src="images/85.jpg" class="landscape">
+      </section>
+    </main>
+
+    <script>
+      // ----------------------------------------------------------------------
+      // image slider
+      // ----------------------------------------------------------------------
+
+      document.addEventListener('DOMContentLoaded', function() {
+          var line = document.querySelector(".line");
+          if(line){
+              line.style.cursor = 'grab';
+
+              var pos = { top: 0, left: 0, x: 0, y: 0 };
+
+              var mouseDownHandler = function(e) {
+                  line.style.cursor = 'grabbing';
+                  line.style.userSelect = 'none';
+
+                  pos = {
+                      left: line.scrollLeft,
+                      top: line.scrollTop,
+                      // Get the current mouse position
+                      x: e.clientX,
+                      y: e.clientY,
+                  };
+
+                  document.addEventListener('mousemove', mouseMoveHandler);
+                  document.addEventListener('mouseup', mouseUpHandler);
+              };
+
+              var mouseMoveHandler = function(e) {
+                  // How far the mouse has been moved
+                  var dx = e.clientX - pos.x;
+                  var dy = e.clientY - pos.y;
+
+                  // Scroll the element
+                  line.scrollTop = pos.top - dy;
+                  line.scrollLeft = pos.left - dx;
+              };
+
+              var mouseUpHandler = function() {
+                  line.style.cursor = 'grab';
+                  line.style.removeProperty('user-select');
+
+                  document.removeEventListener('mousemove', mouseMoveHandler);
+                  document.removeEventListener('mouseup', mouseUpHandler);
+              };
+
+              // Attach the handler
+              line.addEventListener('mousedown', mouseDownHandler);
+          }
+      });
+    </script>
+  </body>
+  
+</html>
