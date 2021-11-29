@@ -7,6 +7,10 @@ Produire un exposé oral de 10 minutes soutenu par un support visuel vidéo-proj
 
 Chaque présentation sera suivie de 5 minutes de questions/réponses.
 
+### Attention
+
+La proposition de travail n’est pas un exercice d’écriture textuelle, mais de recherche, d’articulation et de synthèse. Les sources externes sont bienvenues et doivent être référencées par l’intermédiaire d’une bibliographie ou par l’association de liens hypertextes à la suite des citations.
+
 
 ### Enjeux
 
