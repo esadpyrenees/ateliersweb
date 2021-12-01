@@ -259,6 +259,13 @@ h5.filename + pre {
     margin-top: 0;
 }  
 
+pre:not([markdown="0"]) {
+    margin: 1em -40px;
+}
+pre .hljs {
+    padding: 0.5em 40px !important;
+}
+
 .edit{
     animation: 250ms linear alternate infinite edit;
 }
