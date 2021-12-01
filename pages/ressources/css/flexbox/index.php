@@ -156,7 +156,7 @@
         Flexbox est un module CSS déjà largement implémenté dans les navigateurs (2016/2017). Il permet de définir une logique de mise en page flexible.
     </p>
     <p>
-        Au delà de ceux qui sont présents dans cette page, <a href="../../exemples/#flex">des exemples basiques </a> sont disponibles dans la section dédéiée.
+        Au delà de ceux qui sont présents dans cette page, <a href="../../../exemples/#flex">des exemples basiques </a> sont disponibles dans la section dédéiée.
     </p>
 
 

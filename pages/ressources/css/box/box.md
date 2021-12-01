@@ -148,7 +148,7 @@ Pour homogénéiser le rendu sur l’ensemble des boîtes, on peut (on doit !) 
 
 ## Display {#display}
 
-Chaque élément HTML possède par défaut une propriété `display`, qui peut être modifiée en CSS pour les besoins de la mise en page. Si le plus fréquemment, la valeur de ces propriétés est `block` ou `inline`, les valeurs `inline-block` ou `none` sont particulièrement utiles.
+Chaque élément HTML possède par défaut une propriété `display`, qui peut être modifiée en CSS pour les besoins de la mise en page. 
 
 ### display:block
 
@@ -163,7 +163,7 @@ Les éléments inline n’interompent pas le flux du texte ; ils s’insèrent d
 
 ### display:inline-block
 
-`inline-block` est une valeur qui peut être utilisée pour la mise en page de colonnes et de blocs juxtaposés les uns aux autres, comme nous le verrons plus loin. Mais son usage le plus courant est celui des images. C’est effectivement la propriété par défaut de l’élément `<img>`.
+`inline-block` est la propriété par défaut de l’élément `<img>`.
 
 <div class="el">
 <img src="pages--mise-en-page--img.gif" alt=""> L’élément <code>&lt;img&gt;</code> est par défaut aligné sur la ligne de base du texte qui l’entoure, à moins que sa propriété <code>vertical-align</code> ne soit modifiée, ou que ne lui soit affectée la propriété <code>display:block</code>.
@@ -173,6 +173,9 @@ Les éléments inline n’interompent pas le flux du texte ; ils s’insèrent d
 
 La valeur `none` permet de masquer totalement un élément, en rendant inopérantes ses valeurs de `height`, `width`, `margin` ou `padding` et son impact sur les éléments adjacents. Différement, la propriété `visibility:hidden` masque l’élément en préservant la place prise par l’élément dans la mise en page.
 
+### display:grid ou flex
+
+Les valeurs de `display` grid et flex sont utilisées pour déterminer un contexte de mise en page des éléments déscendants. Leurs fonctionnalités sont détaillées dans les pages dédiées : [CSS Grid](../grid/) et [Flexbox](../flexbox).
 
 ## Dimensions
 
