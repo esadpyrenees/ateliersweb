@@ -26,6 +26,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^archives/(.*)/  pages/archives/index.php?params=$1 [L]
 RewriteRule ^archives/$  pages/archives/index.php [L]
 
+# Specials
+RewriteRule pages/ressources/html2print(.*)  pages/ressources/ctrl-alt-print$1 [R,L]
+
 # home
 RewriteRule ^$  pages/home.php [L]
 RewriteRule ^pages/$  pages/home.php [L]

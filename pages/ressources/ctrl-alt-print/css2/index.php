@@ -1,11 +1,11 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Ressources – CSS print";
     $section="ressources";
-    $subsection="html2print";
-    // $nav = "/web/snippets/ressources/html.php";
-    $subsubsection="intro";
-    $mdfile = "./html2print.md";
+    $subsection="ctrlaltprint";
+    $nav = "/web/snippets/ressources/ctrlaltprint.php";
+    $subsubsection="css2";
+    $mdfile = "./css2.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

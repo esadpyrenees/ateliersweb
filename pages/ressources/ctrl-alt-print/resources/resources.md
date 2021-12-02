@@ -1,12 +1,4 @@
-# html2print
-
-Pourquoi et comment créer des documents imprimés avec les technologies du web.
-
-## Exemples
-
-Voir les exemples dans la [section dédiée](/web/pages/exemples/#htmltoprint) du site des ateliers Web.
-
-## Collectifs et initiatives
+# Collectifs et initiatives
 
 ### [PrePostPrint](http://prepostprint.org/)
 PrePostPrint cultive un intérêt pour les procédés de création graphique et les systèmes de publication libres considérés comme « alternatifs » ou « non conventionnels », particulièrement s'ils sont conçus avec les technologies du web. Cette initiative a pour vocation première d'interroger, partager, confronter et encourager ces pratiques naissantes et faciliter l'accès aux projets et outils existants. À L’initiative de  [Sarah Garcin](https://sarahgarcin.com), [Raphaël Bastide](https://raphaelbastide.com) et [Julie Blanc](https://julie-blanc.fr).
@@ -31,7 +23,7 @@ Le collectif bruxellois [Luuse](http://luuse.io/). Le collectif [Bonjour monde](
 *   [PDFutils](https://github.com/osp/PDFutils): un répertoire de scripts permettant de manipuler et convertir des pdf rgb vers du CMJN, avec aperçu des plaques et noir forcé.
 *   [The Sausage machine](http://www.publishinglab.nl/the-sausage-machine/2016/01/14/hello-world/): du texte au format ePub, icml ou html.
 *   [hybrid publishing Group](https://hpg.io/): plateforme de solutions modulables pour publications multi-format.
-* Plus de ressources sur la page [Resources](https://prepostprint.org/seclection/) de PrePostPrint.org.
+* **Plus de ressources sur la page [Resources](https://prepostprint.org/seclection/) de PrePostPrint.org.**
 
 
 ## Projets
@@ -39,95 +31,8 @@ Le collectif bruxellois [Luuse](http://luuse.io/). Le collectif [Bonjour monde](
 * La [Villa Chiragan](https://villachiragan.saintraymond.toulouse.fr/) est un projet mené par Julie Blanc et Antoine Fauchié pour le musée Saint-Raymond de Toulouse qui a donné lieu à la création d’un site web et un catalogue imprimable. Lire l’[étude de cas](https://julie-blanc.fr/projects/villa-chiragan/) sur le site de Julie Blanc ou accéder à la [version imprimable du catalogue](https://villachiragan.saintraymond.toulouse.fr/impression) (attention, ~200 Mo).
 *   [Hybrid Publishing Back To The Future Publishing Theses at the KABK](https://i.liketightpants.net/and/hybrid-publishing-back-to-the-future-publishing-theses-at-the-kabk), projet d’Eric Schrijver à la KABK / *Royal Academy of Art* de la Haie. Mémoires de fin d’étude sous forme de publication hybride (web / print).
 *   [L’atlas critique d’Internet](http://internet-atlas.net/), travail de recherche théorique et graphique initié et développé par Louise Drulhe dont l’impression se conçoit sous la forme d’un objet “responsif”, naturellement adaptable à [tous les formats d’impression](http://internet-atlas.net/order/).
-* Plus de projets sur la page [Selection](https://prepostprint.org/seclection/) de PrePostPrint.org.
+* **Plus de projets sur la page [Selection](https://prepostprint.org/seclection/) de PrePostPrint.org**.
 
 
 
-## Techniques
 
-Intégrer une feuille de style dont les règles ne seront appliquées qu’à l’impression
-``` css
-<link media="print" href="print.css">
-```
-Déterminer une taille de page
-``` css
-@page {
-  size: A4 landscape;
-}
-/* ou pour une affiche */
-@page {
-  size: A3 portrait;
-}
-```
-
-On peut cibler des pages spécifiques avec les sélecteurs `:left` et `:right`. La première page peut être ciblée avec `:first`, les pages vierges avec `:blank` :
-
-```
-@page :first {
-    margin-top: 4cm;
-}
-@page :left {
-    margin-right: 8cm;
-}
-
-@page :right {
-    margin-left: 8cm;
-}
-```
-Pour mieux maîtriser la pagination du flux du contenu, il faut utiliser les règles `break-*` et `page-break-*`:
-```
-h2 {
-    /* toujours provoquer un saut de page avant l'élément h2 */
-    break-before: page; /* ou */
-    page-break-before: always;
-}
-h2, h3 {
-    /* éviter qu'un paragraphe ne se détache du titre qui le précède immédiatement. */
-    break-after: avoid-page; /* ou */
-    page-break-after: avoid;
-}
-figure {
-    /* pour éviter qu’un élément soit coupé et affiché sur deux pages */
-    break-inside: avoid; /* ou */
-    page-break-inside: avoid;  
-}
-```
-Veuves et orphelines
-```
-p {
-    /* minimume deux lignes présentes sur la page, au début ou à la fin d’un paragraphe */
-    orphans: 2;
-    widows: 2;
-}
-```
-Contours continus
-```
-section {
-    /* pour que le contour de la section soit complet sur chaque page */
-    border: 0.5pt solid;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-}
-```
-
-## Pourquoi ?
-
-> « Les technologies du web offrent un environnement de publication ouvert et décentralisé. Les documents web sont ainsi éditables en différents endroits et temporalités par une variété de personnes et d'outils, rompant avec la logique linéaire de l'ère Gutenberg. ¶ Dans cet espace, la notion de flux est centrale: le flux des données, allant de la conversion de documents "bruts" vers la production de multiples formats; le flux des formes produites, conditionné par la struture du HTML et la logique de «cascade» des feuilles de style; ou encore le flux des personnes et les nouveaux moyens de collaboration qui leurs sont offerts par le net. ¶ Si cet espace offre de nouvelles possibilités, cela ne va pas sans poser de questions. Comment penser un design alors sans le subordonner au contenu? Comment publier sur différents formats sans nier la spécificité des différents supports? Comment tester et combiner différentes pistes de mise en page? Comment se partager les taches tout en permettant à tous d'avoir une vue d'ensemble sur l'objet produit ? »  — [OLA](http://ola4.outilslibresalternatifs.org/#00-ola)
-
-### Adobe
-
-Si des alternatives libres ([Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.fr/), [Scribus](https://www.scribus.net/)) ou commerciales ([Affinity](https://affinity.serif.com/)) existent ou émergent, Adobe a établi une puissante hégémonie sur l’écosystème logiciel de la création graphique. Ce qui n’est pas sans poser quelques problèmes:
-
-*   formatage de l'expérience esthétique
-*   location de l'outil de travail
-*   dépendance au logiciel
-*   création et pratiques conditionnées
-*   Surconception
-*   Non adapté aux médias interactifs
-
-### 4 libertés du logiciel libre (Richard Stallman)
-
-*   liberté d’utiliser le logiciel, pour quelque usage que ce soit — liberté 0
-*   liberté d’étudier le fonctionnement du programme, et de l’adapter à vos propres besoins — liberté 1
-*   liberté de redistribuer des copies à tout le monde — liberté 2
-*   liberté d’améliorer le programme et de publier vos améliorations — liberté 3

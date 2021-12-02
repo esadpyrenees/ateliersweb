@@ -44,7 +44,7 @@
   <?php endif ?>
 
   <script src="/web/assets/highlight/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script>hljs.highlightAll();</script>
  
 </head>
 

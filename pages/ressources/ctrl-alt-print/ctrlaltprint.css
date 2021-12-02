@@ -1,0 +1,46 @@
+
+.scrollables img {
+  display: table-cell;
+  width: auto;
+  max-width: unset;
+  height: unset;  
+  height: 400px;
+}
+
+.scrollables figure { 
+  display: flex;
+  flex-direction: column;  
+  margin: 2rem 0 3rem 2rem;
+  pointer-events: none;
+  position: relative;
+  padding-right:1px;
+}
+.scrollables a {
+  pointer-events: all;
+}
+/* carousel height */
+.scrollables {
+  max-width: none;
+  list-style-type: none;
+  padding: 0 2em 0 0;
+  background:#222;
+  margin: 0 -2rem;
+  width: calc(100% + 4rem);
+  display: flex;
+  /* align-items: center; */
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+
+.scrollables figcaption { 
+  /* position:absolute; */
+  font-size:.75em; 
+  color:#777;
+  /* bottom:-2.5em;*/
+  padding: 1em 0 0 0;
+  text-align:center;
+  width:100%;
+}
