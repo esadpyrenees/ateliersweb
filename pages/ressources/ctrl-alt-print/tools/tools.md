@@ -1,4 +1,4 @@
-# Outils et projets
+# Outils 
 
 *   [Paged.js](https://gitlab.pagedmedia.org/tools/pagedjs) : Une librairie javascript pour mettre en page des livres imprimables avec HTML et CSS Voir aussi l’article tutoriel sur Paged.js : [Printing in Relation to Graphic Art](https://gitlab.pagedmedia.org/samples/printing-in-relation-to-graphic-art").
 *   [Bindery.js](https://evanbrooks.info/bindery/): une autre librairie javascript pour mettre en page des livres imprimables avec HTML, CSS et javascript.

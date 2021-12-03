@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Ressources – Outils alternatifs et projets";
+    $title = "Ressources – Outils alternatifs";
     $section="ressources";
     $subsection="ctrlaltprint";
     $nav = "/web/snippets/ressources/ctrlaltprint.php";
