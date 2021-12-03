@@ -11,14 +11,3 @@
 *   [hybrid publishing Group](https://hpg.io/): plateforme de solutions modulables pour publications multi-format.
 * **Plus de ressources sur la page [Resources](https://prepostprint.org/seclection/) de PrePostPrint.org.**
 
-
-## Projets
-
-* La [Villa Chiragan](https://villachiragan.saintraymond.toulouse.fr/) est un projet mené par Julie Blanc et Antoine Fauchié pour le musée Saint-Raymond de Toulouse qui a donné lieu à la création d’un site web et un catalogue imprimable. Lire l’[étude de cas](https://julie-blanc.fr/projects/villa-chiragan/) sur le site de Julie Blanc ou accéder à la [version imprimable du catalogue](https://villachiragan.saintraymond.toulouse.fr/impression) (attention, ~200 Mo).
-*   [Hybrid Publishing Back To The Future Publishing Theses at the KABK](https://i.liketightpants.net/and/hybrid-publishing-back-to-the-future-publishing-theses-at-the-kabk), projet d’Eric Schrijver à la KABK / *Royal Academy of Art* de la Haie. Mémoires de fin d’étude sous forme de publication hybride (web / print).
-*   [L’atlas critique d’Internet](http://internet-atlas.net/), travail de recherche théorique et graphique initié et développé par Louise Drulhe dont l’impression se conçoit sous la forme d’un objet “responsif”, naturellement adaptable à [tous les formats d’impression](http://internet-atlas.net/order/).
-* **Plus de projets sur la page [Selection](https://prepostprint.org/seclection/) de PrePostPrint.org**.
-
-
-
-
