@@ -1,14 +1,19 @@
-$('#mainnav').on('click', 'a', function(e){
-    var href = this.getAttribute('href');
-    if (href.indexOf('#')==0) {
-        showNav(href);
-    }
-})
 
-function showNav(href){
-    $('.pane.active').removeClass('active');
-    $(href).addClass('active');
-}
+// var mainnavlinks = document.querySelectorAll('#mainnav a');
+// mainnavlinks.forEach(a => {
+//     a.onclick = (e) => {
+//         alert("eee")
+//         var href = a.getAttribute('href');
+//         if (href.indexOf('#')==0) {
+//             var active = document.querySelector(".pane.active");
+//             if(active){
+//                 active.classList.remove('active')
+//             }
+//             document.querySelector(href).classList.add(active);
+//         }
+//     }
+// });
+
 
 
 
@@ -34,62 +39,68 @@ initializeFootnotes();
   
 
 // random
-$(function(){
 
-    var $ramdam = $('#randomramdam');
-    var text = $ramdam.text();
+var ramdam = document.querySelector('#randomramdam');
+if(ramdam){
+    var text = ramdam.textContent;
     var letters = text.split('');
 
     // suppression du contenu de <div id='ramdam'>
-    $ramdam.empty();
+    ramdam.innerHTML = "";
 
     // crée des <span> à partir de chaque lettre du texte
     for (var i = 0; i < letters.length; i++) {
-        var $span = $('<span>' + letters[i] + '</span>');
-        $ramdam.append($span);
-        if(letters[i]=='/') $ramdam.append('<br>');
+        var span = document.createElement('span');
+        span.textContent = letters[i];
+        ramdam.appendChild(span);
+        if(letters[i]=='/') ramdam.appendChild( document.createElement('br') );
         // mesure la position naturelle de chaque lettre et l’enregitre dans un attribut pour pouvoir la retrouver plus tard
-        $span.attr('data--original-left', $span.position().left)
+        var left = span.getBoundingClientRect().left
+        span.dataset.originalLeft = left;
     };
 
     // function qui "met en désordre" les lettres
     ramdamize = function(container){
-        $(container).find('span').each(function(i){
-            var $span = $(this);
+        var spans = ramdam.querySelectorAll('span');
+        var ramdam_bcr = ramdam.getBoundingClientRect();
+        spans.forEach((span) => {
             // récupère la valeur left naturelle
-            var original_left = $span.attr('data--original-left');
+            var original_left = parseInt(span.dataset.originalLeft);
+            var span_bcr = span.getBoundingClientRect();            
             // crée une valeur left aléatoire
             // qui permette de garder le span à l’intérieur de <div id='ramdam'>
-            var new_left = Math.round(Math.random() * ($ramdam.width() - $span.width())) - original_left;
-            $span.css({
-                'left': new_left,
-                'transition': 'left 200ms ease-out'
-            })
+            var new_left = Math.round(Math.random() * (ramdam_bcr.width - span_bcr.width)) - original_left;
+            span.style.left = new_left + "px";
+            console.log(original_left, new_left);
+            span.style.transition =  'left 200ms ease-out';
             // rend visible et anime les lettres sequentiellement
             var s = setTimeout(function(){
-                $span.addClass('brbrbr');
+                span.classList.add('brbrbr');
             }, 100 * i)
         })
     }
 
     // à intervale régulier, on remet en désordre
     var interval = setInterval(function(){
-        ramdamize($ramdam);
+        ramdamize(ramdam);
     }, 2000)
 
     // itialisation
-    ramdamize($ramdam);
+    ramdamize(ramdam);
 
     // interactivité
-    $ramdam.on('mouseenter', function(){
-        $(this).find('span').css('left', 0)
+    ramdam.addEventListener('mouseenter', function(){
+        var spans = ramdam.querySelectorAll('span');
+        spans.forEach((span) => {
+            span.style.left = 0;
+        })
         clearInterval(interval);
-    }).on('mouseleave', function(){
-        ramdamize(this);
-        interval = setInterval(ramdamize, 2000, $ramdam);
     })
-
-})
+    ramdam.addEventListener('mouseleave', function(){
+        ramdamize(ramdam);
+        interval = setInterval(ramdamize, 2000, ramdam);
+    })
+}
 
 
 function slugify(string) {
@@ -108,18 +119,12 @@ function slugify(string) {
   }
 
 
-// random
-$(function(){
-
-    var $headings = $('main h1, main h2, main h3');
-    $headings.each(function(){
-        var $self = $(this);
-        if(!$self.attr('id')){
-            $self.attr('id', slugify($self.text()));
-        }
-    })
-    
-
+// headings ids
+var headings = document.querySelectorAll('main h1, main h2, main h3');
+headings.forEach(function(heading){
+    if(!heading.getAttribute('id')){
+        heading.setAttribute('id', slugify(heading.textContent));
+    }
 })
 
 
