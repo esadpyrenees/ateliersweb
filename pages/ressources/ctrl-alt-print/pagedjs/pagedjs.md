@@ -136,7 +136,7 @@ Paged.js offre d’autres possibilités que les compteurs de page, notamment gr�
 
 Voir [exemple 04](exemples/titrecourant.html). 
 
-## Aller plus loin
+## Aller plus loin {#more}
 
 Ces principes de base permettent de mettre en pages un contenu relativement rapidement. Mais de nombreuses possibilités graphiques peuvent encore être explorées, chacune demandant une approche spécifique. Ci-dessous viendront s’ajouter des liens vers des résolutions concrètes, des exemples plus complexes ou des problèmes courants.
 
@@ -150,6 +150,7 @@ Pour comprendre, [téléchargez les examples](exemples.zip) et examinez leur cod
 * Imposer le document pour une [impression directe en livret](exemples/imposition.html)
 * Éxécuter Paged.js [à la demande](exemples/ondemand.html)
 * [Recharger le document à la même page](exemples/reloadinplace.html) en cas de modification css/html
+* Rendre interactive [chaque page](exemples/interactive.html) d’un livre
 
 
 On peut aussi parcourir les exemples de Julien Taquet sur [gitlab.pagedmedia.org](https://gitlab.pagedmedia.org/julientaq/book-of-cook/) ou sur [codepen.io/julientaq](https://codepen.io/julientaq/), les [experiments](https://gitlab.pagedmedia.org/tools/experiments) sur le gitlab de PagedMedia, ou les [démos](https://gitlab.com/prepostprint/demos) de Raphaël Bastide / PrePostPrint.
