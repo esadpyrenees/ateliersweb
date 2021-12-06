@@ -140,7 +140,7 @@ Voir [exemple 04](exemples/titrecourant.html).
 
 Ces principes de base permettent de mettre en pages un contenu relativement rapidement. Mais de nombreuses possibilités graphiques peuvent encore être explorées, chacune demandant une approche spécifique. Ci-dessous viendront s’ajouter des liens vers des résolutions concrètes, des exemples plus complexes ou des problèmes courants.
 
-Pour comprendre, [téléchargez les examples](exemples.zip) et examinez leur code source.
+Pour comprendre, [téléchargez les examples](pagedjs-exemples.zip) et examinez leur code source.
 
 * Générer une [table des matières](exemples/toc.html)
 * Gérer des [notes de bas de page](exemples/footnotes.html)
