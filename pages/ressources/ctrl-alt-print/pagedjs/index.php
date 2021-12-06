@@ -1,6 +1,7 @@
 <?php
     // config
     $title = "Ressources – Paged.js";
+    $description = "Aperçu des méthodes de mise en page d’un livre dns la navigateur avec la librairie Paged.js";
     $section="ressources";
     $subsection="ctrlaltprint";
     $nav = "/web/snippets/ressources/ctrlaltprint.php";

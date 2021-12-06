@@ -1,10 +1,14 @@
 <?php
     // config
-    $title = "ÉSAD·Pyrénées — Ateliers web — Projets";
-    $section="TOPLEVELPAGE";
-    $subsection="PAGE";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
+    $title = "SECTION – Titre";
+    $description = "";
+    $section="SECTION";
+    $subsection="SUBSECTION";
+    $subsubsection="SUBSUBSECTION";
+    $nav = "/web/snippets/ressources/SECTION.php"; // specific subnav
     $mdfile = "./FILE.md";
+    $custom_css = "custom.css"; // relative or absolute file URL
+    $custom_js = "custom.js"; // relative or absolute file URL
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

@@ -1,6 +1,7 @@
 <?php
     // config
     $title = "Ressources – CTRL + Alt + print";
+    $description = "Pourquoi et comment créer des documents imprimés avec des outils alternatifs – et notamment avec les langages du web.";
     $section="ressources";
     $subsection="ctrlaltprint";
     $nav = "/web/snippets/ressources/ctrlaltprint.php";
