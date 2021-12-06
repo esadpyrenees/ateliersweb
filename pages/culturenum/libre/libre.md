@@ -111,6 +111,7 @@ Dès 1995, le projet [GIMP](https://www.gimp.org/) est lancé. Au début des ann
 * [L’Atelier des Chercheurs](https://latelier-des-chercheurs.fr/)
 * [Manufactura Independente](https://manufacturaindependente.org/)
 * [Hundredrabbits](https://100r.co/)
+* [Garage de Recherches Graphiques](http://www.g-r-g.fr/)
 
 Dans le champ typographique, de nombreux projets se sont également approprié cette philosophie. Signalons notamment :
 
@@ -122,7 +123,8 @@ Dans le champ typographique, de nombreux projets se sont également approprié c
 
 * [Libre Graphics Meeting](https://libregraphicsmeeting.org/), un peu partout
 * [Journées du Logiciel Libre](https://jdll.org/), à Lyon
-* [ Open Source Design](https://opensourcedesign.net/), en lien avec le [FOSDEM](https://fosdem.org/)
+* [Open Source Design](https://opensourcedesign.net/), en lien avec le [FOSDEM](https://fosdem.org/)
+* [Open Publishing Fest](https://openpublishingfest.org/)
 
 ### Articles, conférences et publications
 
