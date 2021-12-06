@@ -1,1 +1,1 @@
-title=Galerie d’images&tags=css,js
+title=Galerie d’images&tags=css,js,interactive

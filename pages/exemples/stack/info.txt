@@ -1,1 +1,1 @@
-title=Images empilées&tags=css,js
+title=Images empilées&tags=css,js,interactive

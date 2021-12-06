@@ -1,0 +1,54 @@
+.slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow figure {
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity var(--duration);
+}
+
+.slideshow figure:first-child {
+    display: flex;
+}
+.slideshow figure img{
+    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.slideshow figure.hiding { opacity: 0; }
+.slideshow figure.showing { opacity: 1; }
+
+/* slideshow cover */
+.slideshow.cover figure img { object-fit: cover; }
+
+
+/* pour la déco */
+body{
+    margin: 100px;
+    font-family: monospace;
+}
+p{
+    margin: 2em 0;
+    text-align: center;
+}
+figcaption {
+    margin: 1em 0 0;
+}
+.slideshow{
+    background: #000;
+    color: white;
+    height: 50vh;    
+    padding: 50px;
+}
