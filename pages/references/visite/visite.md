@@ -1,7 +1,7 @@
 # Une visite du web 
 
 #### 12/2021
-Peut-on remplacer [Darmanin par un bouquet de persil](http://cqfd-journal.org/Le-Grand-soulagement-Au-gre-des), Macron par de petites pelures de clémentines ou [la 5G par le point G](https://librairiesanstitre.com/produit/le-grand-soulagement-objectif-4-remplacer-la-cinq-g-par-le-point-g/) ?
+Peut-on remplacer [Darmanin par un bouquet de persil](http://cqfd-journal.org/Le-Grand-soulagement-Au-gre-des), Macron par de petites pelures de clémentines ou [la 5G par le point G](https://librairiesanstitre.com/produit/le-grand-soulagement-objectif-4-remplacer-la-cinq-g-par-le-point-g/) ? Pour Graphê, Frank Adebiaye a écrit sur l’[alphabet pan-nigérian](https://www.dropbox.com/s/y6we32qrsmaovwm/pan_nigerian.pdf?dl=0) d’Hermann Zapf. Pour le catalogue de la Biennale internationale de design graphique de Chaumont 2021, Anthony Masure se demande comment [ouvrir le livre](https://www.anthonymasure.com/articles/2021-10-head-publishing-chaumont). On trouve en ligne des [numérisations haute définition](http://bav.bodleian.ox.ac.uk/arch-b-b10) d’un vieux livre imprimé.
 
 #### 18/11/2021
 
