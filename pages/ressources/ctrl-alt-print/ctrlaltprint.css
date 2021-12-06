@@ -1,19 +1,20 @@
 
 .scrollables img {
-  display: table-cell;
-  width: auto;
-  max-width: unset;
+  display: inline-flex;
+  /* width: auto; */
+  max-width: none;
   height: unset;  
+  pointer-events: none;
   height: 400px;
 }
 
 .scrollables figure { 
+  max-width: none;
   display: flex;
   flex-direction: column;  
   margin: 2rem 0 3rem 2rem;
-  pointer-events: none;
   position: relative;
-  padding-right:1px;
+  /* padding-right:1px; */
 }
 .scrollables a {
   pointer-events: all;

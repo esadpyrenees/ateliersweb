@@ -9,8 +9,11 @@ Open Source Publishing est un collectif de designers travaillant à Bruxelles qu
 ### [L’Atelier des chercheurs](https://latelier-des-chercheurs.fr/)
 L’Atelier des chercheurs est un collectif de designers engagés depuis 2013 dans la création d’outils libres et modulaires pour transformer les manières d'apprendre et de travailler. Il est aujourd’huicomposé de Sarah Garcin, Pauline Gourlet et Louis Eveillard.
 
-### Mais ausi
+### Mais aussi…
 Le collectif bruxellois [Luuse](http://luuse.io/). Le collectif [Bonjour monde](http://bonjourmonde.net/) (recherche des procédés alternatifs dans le champ de la création graphique). Le [Groupe CCC](http://groupeccc.com/), fondé par Alice Gavin et Valentin Bigel. Le studio [Figures libres](http://figureslibres.cc/). Le site d’[Antoine Fauchié](https://quaternum.net/), doctorant à l’Université de Montréal (recherche et articles sur les écritures et les livres numériques). [Loraine Furter](https://www.lorainefurter.net/fr), édition hybride (publications papier et numériques), recherche en design graphique les projets féministes intersectionnels. [La Villa Hermosa](http://www.lavillahermosa.com/) est un autre atelier de design graphique bruxellois.
+
+### Et tant d’autres !
+La liste esquissée ici est nécessairement partielle. Elle pourra venir se compléter dans le futur. *[Stay tuned](/web/pages/about/)!*
 
 ## Projets
 

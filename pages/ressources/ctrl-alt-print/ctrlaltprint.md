@@ -11,48 +11,65 @@ Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de
 
 <div class="scrollables" >
 
+
 <figure>
-    <img src="img2/luuse-poisson-eveque.jpg" alt="*">
+    <img src="img/controverses-home-4.png" alt="*">
+    <figcaption>Sarah Garcin : <a href="https://controverses.org/mode-demploi/">Controverses mode d’emploi</a></figcaption>
+</figure>
+<figure>
+    <img src="img/chiragan-0.jpg" alt="*">
+    <figcaption>Julie Blanc : <a href="https://controverses.org/mode-demploi/">Les sculptures de la villa Chiragan</a></figcaption>
+</figure>
+<figure>
+    <img src="img/luuse-poisson-eveque.png" alt="*">
     <figcaption>Luuse : <a href="https://gitlab.com/Luuse/poisson-eveque">Poisson Éveque</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/PPP-flyer-Raphael-Bastide.jpg" alt="*">
+    <img src="img/12-poisson_eveque-couv.png" alt="*">
+    <figcaption>Luuse : <a href="https://gitlab.com/Luuse/poisson-eveque">Poisson Éveque</a></figcaption>
+</figure>
+<figure>
+    <img src="img/PPP-flyer-Raphael-Bastide.png" alt="*">
     <figcaption>Raphaël Bastide : <a href="https://prepostprint.org/">Flyer PPP</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/atlas-critique.jpg" alt="*">
+    <img src="img/epaf.png" alt="*">
+    <figcaption>Raphaël Bastide : <a href="https://raphaelbastide.com/epaf/">Each page a function</a></figcaption>
+</figure>
+<figure>
+    <img src="img/atlas-critique.png" alt="*">
     <figcaption>Louise Drulhe : <a href="https://louisedrulhe.fr/internet-atlas/">Atlas Critique de l’Internet</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/balsamine.jpeg" alt="*" >
+    <img src="img/balsamine.jpeg" alt="*" >
     <figcaption>Open Source publishing : <a href="http://osp.kitchen/work/balsamine.2020-2021/">Balsamine</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/balsamine2.png" alt="*" >
+    <img src="img/balsamine2.png" alt="*" >
     <figcaption>Open Source publishing : <a href="http://osp.kitchen/work/balsamine.2020-2021/">Balsamine</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/bonjour-monde.jpg" alt="*" width="784" height="400">
+    <img src="img/bonjour-monde.png" alt="*">
     <figcaption>Bonjour Monde : <a href="http://bonjourmonde.net/">Workshop Gutenberg</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/code-X_01.png" alt="*">
+    <img src="img/code-X_01.png" alt="*">
     <figcaption><a href="http://editions-hyx.com/fr/code-x">Code X</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/web-1.png" alt="*">
+    <img src="img/web-1.png" alt="*">
     <figcaption><a href="http://editions-hyx.com/fr/code-x">Code X</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/open-source-pusblishing.png" alt="*">
+    <img src="img/open-source-pusblishing.png" alt="*">
     <figcaption>Open Source publishing : <a href="http://osp.kitchen/workshop/saison-graphique/">Une saison graphique</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/pad2print-DEViation-Luuse.png" alt="*">
+    <img src="img/pad2print-DEViation-Luuse.png" alt="*">
     <figcaption>Luuse : <a href="https://gitlab.com/Luuse/pad2print/">pad2print</a></figcaption>
 </figure>
 <figure>
-    <img src="img2/trouble-academy.png" alt="*">
+    <img src="img/trouble-academy.png" alt="*">
     <figcaption>After Howl : <a href="https://afterhowl.tumblr.com/">Trouble Academy</a>  </figcaption>
 </figure>
 
@@ -60,7 +77,7 @@ Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de
 </div>
 
 
-## Exemples techniques
+## Exemples pratiques
 
 Voir les exemples dans la [section dédiée](/web/pages/exemples/#htmltoprint) du site des ateliers Web.
 

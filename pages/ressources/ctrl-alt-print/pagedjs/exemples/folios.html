@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CTRL Alt print</title>
+    <link rel="stylesheet" type="text/css" href="css/pagedjs-interface.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+    <style media="print">
+      @page {
+        size: 148mm 210mm;
+        marks: crop;
+        bleed: 4mm;
+      }
+      @page :left{ 
+        margin: 15mm 12mm 32mm 22mm;  
+        @bottom-left {
+            content: counter(page)  ;
+        }
+      }
+      @page :right{ 
+        margin: 15mm 22mm 32mm 12mm; 
+        @bottom-right {
+            content: counter(page);
+        }
+      }
+      @page macouverture {
+        background: black;
+        margin: 0;
+      }
+      .couverture { 
+        page: macouverture;
+        color: white;
+        @bottom-right { content: none }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="couverture">
+      <h1>CTRL Alt print</h1>
+      <h2> Paged.js – Ex. 03 : folios</h2>
+    </header>
+    <div class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, optio.
+      Nemo et quam dignissimos aut voluptas similique, voluptatem neque alias?
+      Deleniti provident nihil nemo ipsam iusto officia, quaerat corporis perspiciatis.
+      Asperiores est sequi consequatur doloribus. Nemo, numquam? Aut, quas similique.
+      Delectus aliquid iste soluta libero voluptate excepturi dolor unde debitis?
+      Earum rem harum ipsum totam itaque! Expedita a accusantium aperiam.
+      Cum, cumque quisquam temporibus commodi quod qui iure provident voluptates.
+      Neque est dolorem libero ducimus obcaecati deleniti nostrum dignissimos distinctio.
+      Molestias ipsa animi reprehenderit dolores incidunt? Exercitationem sit sint ipsum.
+      Natus sed illo non vel reiciendis distinctio vitae corporis sequi.
+      Aut ad excepturi nemo voluptatibus consectetur, molestiae quia error explicabo.
+      Nulla nihil nostrum perferendis illum aut quos nam maxime tempore.
+      Optio, voluptas delectus at omnis magni sapiente atque modi accusamus?
+      Deserunt illo veritatis maxime. Sed, reprehenderit? A nobis quisquam nihil!
+      Non asperiores accusantium itaque? Quaerat vitae repudiandae consequatur veniam aliquid.
+      Minima ab obcaecati quisquam molestias, vel quas nulla ut dolore!
+      Perferendis saepe voluptatem amet impedit eligendi dolore aliquam quos obcaecati!
+      Hic consectetur totam perspiciatis quaerat reprehenderit, similique qui aliquam neque.
+      Deleniti, voluptatum obcaecati nesciunt ex ab accusantium sint numquam corrupti.
+      Incidunt, assumenda sapiente illo qui a error cumque nemo voluptatem!
+      Corporis inventore consectetur et vel ipsum aspernatur quaerat sit enim.
+      Tempora adipisci omnis, earum quod numquam debitis provident eos quibusdam.
+      Consectetur voluptas, quis voluptatum pariatur at minus facere dicta iusto.
+      Sapiente maxime sint deserunt fugiat dolores, architecto sunt doloremque quidem?
+      Enim expedita earum facilis minima similique, ipsum eligendi sapiente quae.
+      Natus nulla laborum tempora fugiat dolore temporibus sapiente alias est.
+      Magni dignissimos ipsa impedit fugit quis rerum commodi, dolorum ipsum!
+      Rem architecto blanditiis recusandae necessitatibus facere repellat quasi possimus repudiandae!
+      Ab ipsam repellat iste rerum doloribus? Accusantium ullam inventore necessitatibus.
+      Similique ipsum minus rem deleniti optio! Distinctio nihil ducimus vero.
+      Nobis placeat veniam ducimus harum, voluptas vitae consequatur aut enim?
+      Sequi rerum voluptatem tempora eius aperiam adipisci deserunt qui cumque.
+      Magnam maxime repellat, dolorem dolores eius officiis amet optio exercitationem!
+      Culpa, fuga hic cumque numquam quisquam modi a eius veritatis!
+      Eaque ad ipsa nobis sed itaque. In, ad! Ducimus, reiciendis!
+      Voluptatem, quaerat qui nemo aperiam alias accusantium. Ea, ab iure?
+      Voluptatum, nisi. Dignissimos, omnis dolor. Doloremque at corporis incidunt facere.
+      Culpa ipsum quaerat recusandae ad! Nihil cum tenetur odio porro!
+      Doloribus odit labore repudiandae. Fugiat vero natus aliquam distinctio explicabo.
+      Est deleniti ad ullam ab nihil vero perferendis ea sit.
+    </div>
+    
+    <script type="text/javascript" src="js/paged.polyfill.js"></script>
+    
+  </body>
+</html>

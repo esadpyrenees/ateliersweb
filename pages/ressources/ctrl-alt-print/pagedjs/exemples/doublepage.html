@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CTRL Alt print</title>
+    <link rel="stylesheet" type="text/css" href="css/pagedjs-interface.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+    <style media="print">
+      @page {
+        size: 148mm 210mm;
+      }
+      @page :left{ margin: 15mm 12mm 32mm 22mm; }
+      @page :right{ margin: 15mm 22mm 32mm 12mm; }
+      @page macouverture {
+        background: black;
+      }
+      .couverture { 
+        page: macouverture;
+        color: white;
+      }
+      @page macouverture {
+        background: black;
+      }
+      .doublepage{
+        page-break-before: left;
+        page: doublepage;
+      }
+      .doublepage img{
+        page-break-after: page;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+        top: calc(-1 * var(--pagedjs-margin-top) - var(--pagedjs-bleed-top));
+        left: calc(-1 * var(--pagedjs-margin-left) - var(--left-offset));
+        height: calc(var(--pagedjs-pagebox-height) + var(--pagedjs-bleed-top) + var(--pagedjs-bleed-bottom)); 
+        width: calc(var(--pagedjs-pagebox-width) + var(--sidebleed));
+        object-position: var(--object-position) 50% ;
+      }
+      @page doublepage:left { 
+        --object-position:0; 
+        --sidebleed: var(--pagedjs-bleed-left);
+        --left-offset: var(--pagedjs-bleed-left);
+      }
+      @page doublepage:right { 
+        --object-position: calc(-1 * var(--pagedjs-pagebox-width)); 
+        --sidebleed: calc(var(--pagedjs-bleed-right) + var(--pagedjs-bleed-left));
+        --left-offset: var(--pagedjs-bleed-right);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="couverture">
+      <h1>CTRL Alt print</h1>
+      <h2> Paged.js – Double-pages d’images</h2>
+      <p>
+        Les images d’arrière-plan sont déterminées par la présence d’une élément dont la class est <code>doublepage</code>, et qui disposent d’un attribut <code>data-background</code>. Les images d’arrière-plan sont insérées grâce au script <code>doublepage.js</code>.
+      </p>
+    </header>
+    <div class="text">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum enim iure asperiores sit porro in, iste at doloremque. Incidunt sit dignissimos dolor exercitationem voluptatem nostrum aliquid labore facilis illo molestiae et, dolorum nihil obcaecati maiores quas rerum esse reiciendis adipisci doloremque. Molestiae voluptatibus rem nisi recusandae a, architecto repudiandae omnis excepturi impedit maiores praesentium error consequatur harum repellendus dolorem, voluptatem, magni quas! Earum tempora libero aperiam totam laborum facere aliquam necessitatibus quis pariatur fugiat vitae modi, nisi culpa repellendus voluptas animi! Dolore deleniti cum alias itaque fugiat harum inventore? Possimus aliquam natus labore excepturi magnam suscipit, a ipsum blanditiis obcaecati porro, nemo quis vitae nulla voluptatem consequuntur? Deserunt molestias fugiat ex dolorem repellat ipsam? Velit soluta in quas voluptates numquam fugiat sequi aliquam. Adipisci dolores nesciunt consectetur, eius, magni mollitia exercitationem tempora iure amet, totam maxime? Similique, iure ullam. Ipsa dolorum, sequi harum optio qui quae possimus adipisci exercitationem, natus soluta unde quis. Minus, quae. Facere fugiat tenetur, provident doloremque quae nihil unde. Reiciendis, autem. Molestiae necessitatibus, nobis excepturi enim explicabo maxime dicta quibusdam ratione nam, ut distinctio corporis laboriosam autem. Impedit, vitae perferendis repellat perspiciatis alias, voluptate harum dolorum in hic, minus quas? Suscipit aperiam voluptates minus repellat beatae.</p>
+      <p>Maxime fuga facere aperiam velit aliquam nemo unde accusantium corrupti aut numquam ratione ipsa totam eos voluptatibus perspiciatis quis, natus, tenetur saepe excepturi id doloremque eligendi vitae? Molestias praesentium, amet blanditiis quas facilis officiis sapiente tenetur earum repellendus et commodi adipisci quae, maiores tempore debitis repudiandae vero. Magni eos unde assumenda quo ad. Officiis soluta possimus facilis odit? Delectus ea distinctio, culpa assumenda excepturi nulla soluta doloribus ex inventore molestias. Et ipsam porro fugiat itaque eligendi temporibus deleniti, dolores saepe nulla facilis tenetur totam est deserunt aliquid labore fugit, vel distinctio hic perspiciatis, quis accusamus repudiandae. Sunt, et officiis officia excepturi, eos perspiciatis placeat obcaecati eaque quasi veniam tenetur nemo corporis qui iure quia recusandae dolore quod porro incidunt non quibusdam voluptatum, ipsa error. Delectus harum explicabo ullam vitae? Optio ratione aspernatur minima omnis expedita nesciunt non veniam vero amet assumenda laborum, dolorum unde incidunt accusantium, porro nam.</p>
+      
+      <div class="doublepage" data-background="/web/assets/img/highres/01.jpg" ></div>
+      <p>Delectus minima aliquid porro optio deleniti dolor enim at? Dignissimos rerum repellendus expedita optio error perspiciatis facilis sit minima iusto, accusantium illum vitae soluta perferendis facere! Eius accusamus delectus odio incidunt atque molestias quibusdam! Sunt cumque facere voluptas corrupti possimus nobis earum quasi debitis? Ratione id placeat, ab officia sint ullam aspernatur sapiente aliquid voluptates quos nostrum nesciunt accusamus quaerat, neque commodi ex facilis necessitatibus fugiat hic a iusto quasi distinctio amet. Hic, nesciunt. Id ullam vero excepturi a, illo natus porro perspiciatis officia consequatur consectetur error dicta ducimus deleniti adipisci assumenda quo quidem voluptate eveniet aperiam repudiandae optio! Sed, ab. Rerum et non incidunt aperiam amet temporibus deleniti iusto eveniet quaerat vero, excepturi eum unde explicabo ratione placeat ullam quisquam tenetur qui laborum veniam repellendus? Officia pariatur corporis voluptatem quam minus nihil totam incidunt explicabo accusantium ea! Aut pariatur ab natus rerum, cupiditate sint nobis saepe provident suscipit fugiat est placeat laborum adipisci sit impedit aspernatur odio in nesciunt reiciendis corporis eius hic dolorum. Nisi dolor distinctio voluptas suscipit pariatur totam fuga. Alias, voluptatibus ratione? Id quod vitae voluptates quos tempore autem, laborum, saepe architecto possimus perferendis officiis ad dolorem quaerat, velit corrupti. Ab hic sequi optio maxime quis. Dicta quia recusandae suscipit sequi soluta, obcaecati magni nisi dolore minima eius ab, molestias ullam. Assumenda nihil architecto atque suscipit facere natus odit, nemo reiciendis ipsa officia temporibus ullam porro repudiandae dolorum laudantium nam magnam voluptatibus consequuntur enim quos. Ducimus perferendis, odit fugiat iure corrupti, assumenda quas, ad quos repellendus consectetur tempore. Deserunt corrupti nihil explicabo consectetur blanditiis inventore debitis quam labore veniam quisquam porro repudiandae dolores in suscipit, maxime ipsam molestiae corporis itaque dignissimos. </p>
+      <div class="doublepage" data-background="/web/assets/img/highres/02.jpg" ></div>
+      <p>Fugit, rerum est voluptate ipsa fugiat rem atque hic amet accusamus odit cum quasi laboriosam eligendi provident minus velit nostrum minima quam ad quibusdam nulla ipsam quaerat perspiciatis voluptatem? Non totam sunt provident adipisci. Placeat quidem ducimus, quam nobis tempore vero suscipit neque perspiciatis, molestias labore error, repellendus cupiditate maxime expedita. Laboriosam voluptates eum id officia reprehenderit dolorem suscipit blanditiis nostrum quam, deleniti tempora libero iste quidem autem voluptatum est. Veniam ipsa ea necessitatibus, maxime vero nostrum nihil soluta tempore laborum aliquam debitis magnam dolorum nam mollitia, nulla voluptas aperiam repellat sit vitae amet obcaecati explicabo optio qui praesentium? Eius veniam officia facere aut ipsa repudiandae, adipisci facilis quam ullam fugiat magni voluptate eveniet culpa odio molestias dolores iure laborum minima omnis possimus reiciendis provident.</p>
+      <p>Pariatur inventore praesentium, voluptates aliquid in architecto reprehenderit officia explicabo quia corporis minima provident, consequatur a! Hic itaque pariatur quo expedita, illo atque veniam, eligendi quos sunt explicabo repellat mollitia ex fuga facilis. Officiis est quo pariatur corporis ad aliquam laudantium, nesciunt consequuntur ut ipsam sint deserunt inventore quod aut nisi, modi incidunt saepe iste. Voluptas esse omnis nam vitae animi saepe ipsam delectus itaque a blanditiis nobis placeat neque cumque temporibus doloribus iusto necessitatibus nulla, reiciendis dolores harum magnam. Placeat, dolorum ipsam corrupti aspernatur deserunt commodi error illum, voluptatibus nostrum similique voluptate animi suscipit voluptates odio velit dignissimos veritatis nihil. Debitis maxime quasi reprehenderit repudiandae veritatis officia inventore unde. Voluptas voluptate quidem id optio quaerat commodi quam, beatae repudiandae repellendus dolor quasi! Molestias, itaque. Illo doloribus, enim commodi explicabo corporis qui veritatis sint aliquid voluptates nesciunt ipsa id perspiciatis sed aut adipisci illum aliquam magnam ea fugit. Voluptas facilis magni dolorem placeat ducimus tempore unde quos excepturi, ea necessitatibus? Accusamus sint eius iure et id ducimus voluptatibus velit facilis a cumque qui consectetur iste, quibusdam laboriosam, quos reprehenderit repellendus itaque nulla molestias hic autem sunt quo omnis! Dicta ipsam consectetur architecto facere, dolorum cum at tenetur quo delectus debitis?</p>
+      <div class="doublepage" data-background="/web/assets/img/highres/03.jpg" ></div>
+      
+      <div class="doublepage" data-background="/web/assets/img/highres/04.jpg" ></div>
+      <p>Laborum aut saepe vitae, nostrum ullam praesentium magni in enim corrupti. Unde perferendis, deserunt sint doloribus quo neque, tenetur minima esse magnam quas asperiores! Saepe maxime quo pariatur itaque odit minus placeat rem non doloremque, nam quam voluptatum ab alias minima nihil cum veniam quia? Explicabo natus facere rerum molestiae ab, aut blanditiis accusamus saepe, quod odit pariatur quisquam. Delectus est suscipit eligendi, nemo animi placeat libero, voluptatibus repudiandae odio quia quas, fugit maiores impedit praesentium incidunt commodi consequatur nam laudantium expedita. Eveniet voluptatem dolore nobis maxime? Veritatis unde tenetur deserunt facilis quia reiciendis aut accusantium commodi a sint voluptatem natus ratione accusamus doloremque est, totam fugit obcaecati eos corrupti dolorum fuga perspiciatis! Nostrum id vitae earum non unde minima accusamus impedit excepturi, tempore iure sit pariatur sed eos, at nam eum, in necessitatibus harum possimus itaque dolorem! Atque fugit iure animi, culpa nam quaerat possimus repudiandae velit. Neque expedita nam quae non earum similique eaque atque veniam autem, rem dolores sapiente nulla deleniti quibusdam consequuntur iure officia dignissimos doloribus! Animi dolorem eveniet, dolor cumque provident voluptas soluta praesentium quasi ad quod facilis? Nam laudantium maxime quidem laboriosam itaque. Sed consequuntur nulla doloremque maiores eligendi tempora impedit, officiis earum labore.</p>
+      <p>Reprehenderit fugit aliquam itaque cumque quasi sit ipsa laboriosam eius eaque modi vitae nihil, maiores doloribus magni ab! Molestias totam atque eaque suscipit nisi illo, veritatis dolore sequi eum enim tenetur magni. At quidem molestiae placeat perferendis, nihil labore cupiditate sequi optio nam suscipit ut delectus saepe quas ab voluptatibus fugit. Ut earum praesentium explicabo eum reiciendis commodi dolor magni? Perspiciatis ex officia perferendis harum veniam, quasi fugiat dolorum, atque quibusdam, ipsum dolore doloremque unde minima voluptas veritatis placeat. Provident fugiat quod rerum maxime aperiam illum voluptatum ipsam corporis minus alias sed ut voluptate dolores expedita laudantium consequuntur dolorem atque ratione, explicabo voluptatem tempora, ipsum molestiae numquam incidunt. Optio quasi ad, nam obcaecati hic reprehenderit odio? Odit, perferendis! Quod quidem est nam, odio recusandae facere itaque veniam eum magni quisquam voluptatibus soluta in fugit exercitationem magnam placeat necessitatibus doloremque adipisci ipsam rerum repellat nesciunt aut molestias culpa. Maiores temporibus ullam quaerat animi rerum, ipsa ipsum est voluptates, nisi totam deserunt eos eaque voluptas quasi doloribus aliquam iusto facere optio nihil, modi a incidunt. Id laboriosam maxime dolorem eius error expedita quibusdam, itaque cupiditate libero tempore et consequatur mollitia omnis facilis placeat facere architecto. Pariatur quidem exercitationem non consectetur doloribus aliquam!</p>
+      <p>Temporibus eos nam et! Quia dolorem odio est nemo tempore incidunt nostrum, quae libero, repudiandae animi numquam sit sequi esse qui? Eaque reiciendis ipsa cupiditate, molestiae ab saepe suscipit dicta reprehenderit voluptatibus voluptatem assumenda, explicabo placeat incidunt aperiam itaque doloremque pariatur, sunt omnis nostrum fuga corporis debitis esse. Vel incidunt quos hic voluptas numquam ducimus illo! Fugiat ab vero eius rem, repellat maxime sed itaque. Ex enim alias adipisci minus sapiente eaque! Ducimus maxime totam porro accusantium, laboriosam reiciendis est magnam temporibus nihil atque suscipit sit distinctio? Harum reiciendis dolore pariatur consequatur. A minus quaerat sunt iste, eos exercitationem numquam fugit laboriosam, dicta explicabo vel mollitia sequi! Fuga eveniet, blanditiis dolore hic necessitatibus tempora in quidem perspiciatis cum similique explicabo officia suscipit, numquam adipisci consequuntur sint sit eaque sunt ut quos, accusamus saepe est! Quibusdam atque nam vel hic neque natus veritatis saepe consectetur minima beatae vitae corrupti, harum nihil officiis rerum sapiente dolorum necessitatibus. Harum, consectetur soluta maxime eius quos veniam animi qui eligendi autem facilis impedit mollitia tempore totam molestiae illum iusto quasi repudiandae architecto unde rerum consequuntur. Eos delectus voluptatum maxime quisquam hic facilis obcaecati ullam maiores cupiditate sunt odio sapiente alias debitis itaque, praesentium eius distinctio.</p>
+    </div>
+    
+    <script type="text/javascript" src="js/paged.polyfill.js"></script>
+    <script type="text/javascript" src="js/doublepage.js"></script>
+    
+  </body>
+</html>

@@ -9,5 +9,7 @@
 *   [PDFutils](https://github.com/osp/PDFutils): un répertoire de scripts permettant de manipuler et convertir des pdf rgb vers du CMJN, avec aperçu des plaques et noir forcé.
 *   [The Sausage machine](http://www.publishinglab.nl/the-sausage-machine/2016/01/14/hello-world/): du texte au format ePub, icml ou html.
 *   [hybrid publishing Group](https://hpg.io/): plateforme de solutions modulables pour publications multi-format.
-* **Plus de ressources sur la page [Resources](https://prepostprint.org/seclection/) de PrePostPrint.org.**
+
+### Et tant d’autres !
+La liste esquissée ici est nécessairement partielle. **Une liste collaborative de ressources utiles est disponible sur la page [Ressources](https://prepostprint.org/resources/) de PrePostPrint.org.**
 

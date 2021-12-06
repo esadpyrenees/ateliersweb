@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CTRL Alt print</title>
+    <link rel="stylesheet" type="text/css" href="css/pagedjs-interface.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+    <style media="print">
+      @page {
+        size: 148mm 210mm;
+        marks: crop;
+        bleed: 4mm;
+      }
+      @page :left{ margin: 15mm 12mm 32mm 22mm;  }
+      @page :right{ margin: 15mm 22mm 32mm 12mm; }
+      /* pour la visualisation des éléments: */
+      .pagedjs_page { background: AliceBlue; }
+      .pagedjs_page_content { background: Lavender; }
+      [class*=pagedjs_margin]{
+        border: 1px solid tomato;
+      }
+      .highlighted {background: blue; visibility: visible !important; border: none !important}
+    </style>
+  </head>
+  <body>
+    <h1>CTRL Alt print</h1>
+    <h2> Paged.js – Ex. 01</h2>
+    <p>
+      En <em style="background: aliceblue;">aliceblue</em>, l’arrière plan de la page (élément <code>.pagedjs_page</code>).
+    </p>
+    <p>
+      En <em style="background: rgb(217, 217, 241);">lavender</em>, la zone d’empagement (élément <code>.pagedjs_page_content</code>).</p>
+    <p>
+      Paged.js génère aussi des éléments de marge (<i>margin boxes</i>) ici contourées en <span style="border: 1px solid tomato;">tomato</span> : 
+
+      <em class="mb" data-mb="top-left-corner">top-left-corner</em>,
+      <em class="mb" data-mb="top-left">top-left</em>,
+      <em class="mb" data-mb="top-center">top-center</em>,
+      <em class="mb" data-mb="top-right">top-right</em>,
+      <em class="mb" data-mb="top-right-corner">top-right-corner</em>,
+      <em class="mb" data-mb="left-top">left-top</em>,
+      <em class="mb" data-mb="left-middle">left-middle</em>,
+      <em class="mb" data-mb="left-bottom">left-bottom</em>,
+      <em class="mb" data-mb="right-top">right-top</em>,
+      <em class="mb" data-mb="right-middle">right-middle</em>,
+      <em class="mb" data-mb="right-bottom">right-bottom</em>,
+      <em class="mb" data-mb="bottom-left-corner">bottom-left-corner</em>,
+      <em class="mb" data-mb="bottom-left">bottom-left</em>,
+      <em class="mb" data-mb="bottom-center">bottom-center</em>,
+      <em class="mb" data-mb="bottom-right">bottom-right</em> et
+      <em class="mb" data-mb="bottom-right-corner">bottom-right-corner</em> (survoler les noms des marges pour les visualiser)
+
+      
+    </p>
+    
+    <script type="text/javascript" src="js/paged.polyfill.js"></script>
+    <script>
+
+      class MyHandler extends Paged.Handler {
+        constructor(chunker, polisher, caller) {
+          super(chunker, polisher, caller);
+        }
+
+        afterRendered(pages) {
+          document.querySelectorAll('.mb').forEach( (em) => {
+            em.onmouseenter = (e) =>{
+              // console.log(em.dataset.mb);
+              document.querySelectorAll(".pagedjs_margin-" + em.dataset.mb).forEach((mb) => {
+                console.log(".pagedjs_margin-" + em.dataset.mb);
+                mb.classList.add("highlighted")
+              })
+            }
+            em.onmouseleave = (e) =>{
+              document.querySelectorAll(".highlighted").forEach((m) => {
+                m.classList.remove("highlighted")
+              })
+            }
+          })
+        }
+      }
+      Paged.registerHandlers(MyHandler);
+      
+    </script>
+    
+  </body>
+</html>

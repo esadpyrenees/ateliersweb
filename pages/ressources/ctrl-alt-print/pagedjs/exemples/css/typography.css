@@ -1,0 +1,16 @@
+/* Fichier destiné à déterminer l’apparence typographique des exemples */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+body{
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+h1, h2, h3 { font-size: 1em; }
+/* p {margin: 0;} */
+a { color: currentColor;}
+p:first-child { margin-top: 0;}
+
+code {
+  font-size: 1em;
+}
