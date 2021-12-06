@@ -129,9 +129,10 @@ Susan Kare,
 Steve Jobs
 +
 Donald Knuth (Metafont),
-Jimmy Whales
+Jimmy Wales
 McKenzie Wark
 Jan Robert Leegte 
+Alexandra Elbakyan
 
 #### Médias
 usbeketrica.com,
