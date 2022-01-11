@@ -265,7 +265,16 @@ pre:not([markdown="0"]) {
 pre .hljs {
     padding: 0.5em 40px !important;
 }
-
+details[open] div {
+    border: 2px solid;
+    padding: 1em;
+    max-width: var(--p-width)
+}
+details[open] div > :first-child{ margin-top: 0;}
+details[open] div > :last-child{ margin-bottom: 0;}
+details summary {
+    cursor: pointer;
+}
 .edit{
     animation: 250ms linear alternate infinite edit;
 }

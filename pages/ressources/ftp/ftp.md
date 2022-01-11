@@ -23,6 +23,12 @@ Il existe de nombreux logiciels capables de se connecter à un serveur en FTP, t
 
 \* Bien que n’étant pas indispensable à la suite du processus décrit ci-dessous, un nom de domaine vous permet de personnaliser l’adresse à laquelle votre site sera accessible sur le web.
 
+<details>
+
+<summary>Voir les détails</summary>
+
+<div  markdown="1">
+
 Pour rappel, un domaine a trois parties qui se lisent de droite à gauche:
 
 * **Domaine de premier niveau** (ou TLD): il existe des domaines génériques (.com, .org, .net) et spécifiques à des pays (.us, .nl, .fr).
@@ -34,6 +40,11 @@ On n’achète pas de domaine, mais on le loue à celui qui gère le TLD qu’on
 NB: le service [freenom.com](https://www.freenom.com/) permet de trouver des noms de domaine gratuits (en .tk, .ml, .ga, .cf et .gq).
 
 Sur l’offre gratuite d’Alwaysdata, le domaine est *alwaysdata.net* et le sous-domaine correspond au nom de votre compte ; par exemple : [esad-pyrenees.alwaysdata.net](https://esad-pyrenees.alwaysdata.net) si l’identifiant du compte est *esad-pyrenees*. Le processus ci-dessous utilise un compte gratuit sur Alwaysdata.
+
+</div>
+
+</details>
+
 
 ## Démarrer
 

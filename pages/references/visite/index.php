@@ -1,12 +1,21 @@
-  <?php
-    include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
-    $Parsedown = new Parsedown();
+<?php
+  $title = "Visite rapide au cœur du web";
+  $description = "";
+  $section="references";
+  $subsection="visite";
+  $mdfile = "./visite.md";
+  
+  // includes
+  include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+  include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+  include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
+  include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
-    $title = "Références – Visite rapide au cœur du web";
-    $section="references";
-    $subsection="visite";
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
+  // nav snippet
+  if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
+
+  // markdown!
+  $Parsedown = new ParsedownExtra();
   ?>
 
   <style type="text/css">
@@ -25,11 +34,11 @@
 
 
   <main class="pane active" id="content">
-      <?= $Parsedown->text( file_get_contents('./visite.md') ); ?>
-      <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
-    </main>
+    <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+    <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
+  </main>
     
-    <script>
+  <script>
     var colornames = "Tomato LimeGreen DodgerBlue GreenYellow LightSalmon OrangeRed Chartreuse DarkOrange DarkSeaGreen DeepPink FireBrick HotPink MediumOrchid Olive Orchid Peru  Salmon SeaGreen SkyBlue SlateBlue Purple";
     var colors = colornames.split(" ");
 
@@ -40,8 +49,6 @@
     var as = document.querySelectorAll('main a');
     as.forEach(colorize);
     
-    </script>
+  </script>
 
-  <?php
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>
