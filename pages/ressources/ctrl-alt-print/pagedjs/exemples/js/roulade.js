@@ -36,6 +36,7 @@ function do_roulade(){
   let sheet_margin = 6; /* todo : read property from main css */
   let sheet_width = 420; /* todo : read property from main css */
   let sheet_height = 297; /* todo : read property from main css */
+  
 
   var newSize = `
     @media print {
@@ -44,11 +45,12 @@ function do_roulade(){
         margin: ${sheet_margin}mm;
       }
       .pagedjs_pages {
-        width: auto;
+        width: var(--pagedjs-width);
         display: grid !important;
         grid-template-columns: repeat(4, 1fr);
+        align-content: center;
+        
         grid-gap: 0;
-        gap: 0;
         transform: none !important;
         height: 100% !important;
         min-height: 100%;
