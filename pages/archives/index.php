@@ -55,7 +55,7 @@ if ($params) {
   $upname = basename($up);
   echo "<li><a href='../'/>← $upname</a></li><li><br></li>";
 }
-
+rsort($results);
 foreach ($results as $dir) {
     echo "<li><a href='". $dir['path'] . "'>".$dir['name']."</a></li>";
 }
