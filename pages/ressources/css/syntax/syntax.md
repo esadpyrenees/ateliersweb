@@ -1,4 +1,31 @@
+
 # Syntaxe
+
+## Appliquer du style
+Il existe trois façons d’ajouter un style CSS au contenu HTML :
+
+1. Les **styles en ligne**, tels que, dans le `<body>` du code HTML:
+```
+<h2 style="color: green;">Mon titre </h2>
+```
+Cela fonctionne mais doit être répliqué pour tous les éléments avec cette propriété (tous les h2 doivent être édités) et rend votre code HTML illisible.
+
+2. **CSS interne**, dans le `<head>` du code HTML:
+```
+<style>
+     h2 { color: green; }
+</style>
+```
+
+    C’est mieux parce que l’on n’a pas à se répéter, mais cela restreint le style à une seule page. Il est préférable de n’utiliser qu’une seule feuille de style pour toutes les pages d’un site. Toute mise à jour est ainsi répliquée sur toutes les pages, et on conserve une homogénéité sur l’ensemble du site.
+
+3. **CSS externe** : un fichier CSS dédié contenant tous les styles. On lie toutes les pages HTML du site à un seul fichier CSS dans le `<head>` des pages.
+```
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+```
+Un seul fichier CSS est généralement suffisant pour l’ensemble d’un site web. Plusieurs fichiers ne sont utiles que dans le cas où le fichier principal devient trop long ou complexe, ou dans le cas d’ajouts liés à l’intégration de plugins javascript ou à l’utilisation de librairies CSS.
+
+## qui { quoi: comment; }
 
 Le but de CSS est de définir la mise en page et le style de vos éléments HTML. La syntaxe est très simple:
 ```

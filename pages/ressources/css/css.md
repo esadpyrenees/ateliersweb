@@ -1,31 +1,27 @@
 # CSS
 
-Le langage CSS (Cascading Styles Sheets, ou feuilles de styles en cascade) est un moyen de styler et de présenter le HTML. Alors que le HTML s’attache à la signification et à la structuration du contenu, CSS permet de décrire l’affichage, la présentation visuelle, du contenu.
+Le langage CSS (Cascading Styles Sheets, ou feuilles de styles en cascade) est dédié à la mise en forme graphique des documents HTML. Alors que le HTML s’attache à la signification et à la structuration du contenu, CSS permet de décrire l’affichage, la présentation visuelle, du contenu.
 
-## Appliquer du style
-Il existe trois façons d’ajouter un style CSS au contenu HTML :
+Il est donc le langage le plus proche des préoccupations des designers graphiques et fait ici l’objet d’un important ensemble de ressources :
 
-1. Les **styles en ligne**, tels que, dans le `<body>` du code HTML:
-```
-<h2 style="color: green;">Mon titre </h2>
-```
-Cela fonctionne mais doit être répliqué pour tous les éléments avec cette propriété (tous les h2 doivent être édités) et rend votre code HTML illisible.
+### Débuter
 
-2. **CSS interne**, dans le `<head>` du code HTML:
-```
-<style>
-     h2 { color: green; }
-</style>
-```
+Lire les articles consacrés à la [syntaxe](syntax), aux [sélecteurs CSS](selectors), aux  notions [d’héritage et de cascade](inheritance), aux [unités](units), au “[modèle de boîtes](box)” et aux [propriétés d’arrière-plan](background) : ~ 30 minutes de lecture attentive.
 
-    C’est mieux parce que l’on n’a pas à se répéter, mais cela restreint le style à une seule page. Il est préférable de n’utiliser qu’une seule feuille de style pour toutes les pages d’un site. Toute mise à jour est ainsi répliquée sur toutes les pages, et on conserve une homogénéité sur l’ensemble du site.
+### Texte et typographie
 
-3. **CSS externe** : un fichier CSS dédié contenant tous les styles. On lie toutes les pages HTML du site à un seul fichier CSS dans le `<head>` des pages.
-```
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-```
-Un seul fichier CSS est généralement suffisant pour l’ensemble d’un site web. Plusieurs fichiers ne sont utiles que dans le cas où le fichier principal devient trop long ou complexe, ou dans le cas d’ajouts liés à l’intégration de plugins javascript ou à l’utilisation de librairies CSS.
+La mise en forme du texte est un aspect central du webdesign – comme du design graphique en général. Commencer par une introduction aux [grands principes de la gestion typographique](text). Poursuivre par les pages dédiées à la [typographie à l’écran](../typo/), à [l’utilisation de webfonts](../typo/macromicro/), ou aux questions de [macro & micro typographie](../typo/macromicro/).
 
+### Mise en page
+
+Au delà des questions de mise en forme d’éléments isolés, CSS permet de déterminer les relations globales entre les éléments d’un document : leur mise en page. Dans le contexte du web, la structuration d’une page obéit à des logiques fluides, adaptatives : “*responsives*”.
+
+Comment faire un choix parmi [les différentes logiques de mise en page](layout) ?    
+Comment [adapter votre mise en page](../rwd) aux différentes tailles d’écran ?
+
+### Web to print
+
+L’approche visant à produire des documents imprimés avec HTML et CSS, fait l’objet d’une section dédiée : [CTRL + Alt + print](../ctrl-alt-print/)
 
 [→ syntaxe](syntax/){.bigbutton}
 

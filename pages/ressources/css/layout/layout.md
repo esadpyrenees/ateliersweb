@@ -2,6 +2,17 @@
 
 Au cours du temps, et particulièrement depuis l’avènement de CSS et de la navigation mobile, les principes et les outils de mise en page ont beaucoup évolué sur le Web. Plusieurs outils et techniques nous permettent aujour’hui de concevoir des mises en page pour le web.
 
+Le web est un média *fluide* dans lequel la taille de l’écran, la variabilité des contenus, le temps et l’interactivité ont des impacts sur la présence des éléments d’une page. Cela impose une pensée de la mise en page comme un système dynamique. Le terme “responsive” (ou adaptatif) rassemble les approches nécessaires à la conception de telles mise en pages.
+
+## Comment choisir ?
+
+**La mise en page consiste en la mise en relation des éléments graphiques présents sur une surface et en la gestion de l’espace entre ces éléments.**
+
+Pour déterminer quelles solutions techniques doivent être adoptées en réponse à une intention de mise en page, il est souhaitable de déterminer prioritairement les grands principes, puis d’affiner progressivement les logiques en fonction des relations souhaitées entre les éléments.
+
+[→ Exemple pas à pas](step-by-step){.bigbutton}
+
+
 
 ## Flexbox
 
@@ -23,7 +34,7 @@ Il est idéal pour construire des barres de navigation, pour centrer un élémen
 <circle cx="334" cy="40" r="4" fill="black"/>
 </svg>
 
-Consulter la [**documentation sommaire**](../../flexbox/) et voir quelques exemples avec flexbox dans [la section dédiée](../../../exemples/#flex).
+Consulter la [**documentation sommaire**](../flexbox/) et voir quelques exemples avec flexbox dans [la section dédiée](../../../exemples/#flex).
 
 ## Grid
 
@@ -120,6 +131,3 @@ Learn what's now possible in graphic design on the web — layout, CSS Grid, and
 
 Quelques exemples de mise en page sont disponibles dans [la section dédiée](../../../exemples/#layout)
 
-—
-
-<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io) et [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>

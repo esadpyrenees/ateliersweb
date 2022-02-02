@@ -1,6 +1,7 @@
 # Texte
 
-#### Les ressources liées à la mise en forme du texte sur ce site sont (très/trop/pas encore) assez nombreuses. {.blink}
+#### Les ressources liées à la mise en forme du texte sont nombreuses. {.blink}
+
 Ci-dessous, quelques bases spécifiquement liées à CSS, qui seront volontiers complétées par un recours aux pages dédiées à la [Typographie à l’écran](../../typo/), et notamment aux questions de [Macro & micro typo](../../typo/macromicro/).
 
 ## Famille de caractères

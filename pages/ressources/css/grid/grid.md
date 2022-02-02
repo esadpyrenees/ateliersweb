@@ -103,7 +103,7 @@ Les enfants directs de ce conteneur deviennent alors des `grid-items` et pourron
 
 Les éléments d’une grille peuvent être excplicitement affectés à une cellule.
 
-```
+```html
 <body>
   <nav>nav</nav>
   <section>section</section>
@@ -111,7 +111,7 @@ Les éléments d’une grille peuvent être excplicitement affectés à une cell
   <aside>aside</aside>
 </body>
 ```
-```
+```css
 body {
     display: grid; /* crée une grille */
     grid-template-columns: 150px 500px; /* crée deux colonnes */
