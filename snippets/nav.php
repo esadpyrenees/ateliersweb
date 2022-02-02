@@ -84,7 +84,8 @@
     <li class="<?= $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/figures/">Figures</a></li>
     <li class="<?= $subsection == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/lectures/">Lectures</a></li>
     <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
-    <li class="<?= $subsection == 'assets' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
+    <li class="<?= $subsection == 'libre' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
+    <li class="<?= $subsection == 'folklore' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/folklore/">Folklore</a></li>
   </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
