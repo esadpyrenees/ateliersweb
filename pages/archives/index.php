@@ -28,6 +28,7 @@ $archivesdir = '../../archives';
 $currentdir = $archivesdir . $params;
 $results = array();
 
+// Does the dir has an index.html|php|htm file 
 function hasIndex($dir){
   foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
     return basename($dir) . '/' . basename($file);
@@ -35,6 +36,7 @@ function hasIndex($dir){
   return false;
 }
 
+// Does the dir has an index.md file 
 function hasMDIndex($dir){
   foreach(glob($dir.'/index.md',GLOB_BRACE) as $file){
     return $file;
@@ -42,6 +44,7 @@ function hasMDIndex($dir){
   return false;
 }
 
+// browse currentdir, looking for subdirs or index
 $dir = new DirectoryIterator($currentdir);
 foreach ($dir as $fileinfo) {
   if ($fileinfo->isDir() && !$fileinfo->isDot()) {
@@ -66,19 +69,23 @@ if ($params) {
   $upname = basename($up);
   echo "<li><a href='../'/>← $upname</a></li><li><br></li>";
 }
-rsort($results);
 
+// display md contents if any
 $mdindex = hasMDIndex($currentdir);
 if($mdindex){
   echo $Parsedown->text( file_get_contents( $mdindex ) );
 }
+
+// sort dir results
+rsort($results);
 foreach ($results as $dir) {
     echo "<li><a href='". $dir['path'] . "'>".$dir['name']."</a></li>";
 }
 echo "</ul>";
 ?>
-</nav></main><?php
-   include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
-  ?> 
+</nav></main>
+<?php
+  include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
+?> 
 
   
