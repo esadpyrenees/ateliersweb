@@ -1,6 +1,6 @@
 # Lectures
 
-Une sélection d’articles et de sources pour une pensée critique des médias et des technologies numériques.
+Une sélection d’articles et de sources pour une pensée critique des médias et des technologies numériques – établie parmi les actualités du 01/10/2021.
 
 ### Très long
 * [Ré-imaginer l’internet : pour des médias sociaux publics](https://www.internetactu.net/2021/05/20/re-imaginer-linternet-pour-des-medias-sociaux-publics/)    
