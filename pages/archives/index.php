@@ -1,8 +1,12 @@
   <?php 
     $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
     $section="archives";
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
-    include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
+    // markdown!
+    $Parsedown = new ParsedownExtra();
   ?> 
 
   <main class="pane active" id="content">
@@ -31,21 +35,28 @@ function hasIndex($dir){
   return false;
 }
 
+function hasMDIndex($dir){
+  foreach(glob($dir.'/index.md',GLOB_BRACE) as $file){
+    return $file;
+  }
+  return false;
+}
+
 $dir = new DirectoryIterator($currentdir);
 foreach ($dir as $fileinfo) {
-    if ($fileinfo->isDir() && !$fileinfo->isDot()) {
-      $index = hasIndex($fileinfo->getPathname());      
-      $path = $fileinfo->getFilename() . '/';
+  if ($fileinfo->isDir() && !$fileinfo->isDot()) {
+    $index = hasIndex($fileinfo->getPathname());      
+    $path = $fileinfo->getFilename() . '/';
 
-      if ($index != false ) $path = $index;
-      
-        $dirArray = array(
-          'path'=>$path, 
-          'name'=>basename($dir)
-        );
+    if ($index != false ) $path = $index;
     
-        $results[] = $dirArray;
-    }
+    $dirArray = array(
+      'path'=>$path, 
+      'name'=>basename($dir)
+    );
+
+    $results[] = $dirArray;
+  }
 }
 
 
@@ -56,6 +67,11 @@ if ($params) {
   echo "<li><a href='../'/>← $upname</a></li><li><br></li>";
 }
 rsort($results);
+
+$mdindex = hasMDIndex($currentdir);
+if($mdindex){
+  echo $Parsedown->text( file_get_contents( $mdindex ) );
+}
 foreach ($results as $dir) {
     echo "<li><a href='". $dir['path'] . "'>".$dir['name']."</a></li>";
 }
