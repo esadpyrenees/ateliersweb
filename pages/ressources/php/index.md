@@ -249,8 +249,7 @@ Le format de balisage [markdown](https://daringfireball.net/projects/markdown/sy
 
 PHP, grâce aux librairies [Parsedown](https://parsedown.org/) et [ParsedownExtra](https://github.com/erusev/parsedown-extra/), permet de traiter des fichiers texte formattés en markdown pour les convertir en HTML.
 
-L’extension markdown-extra Une note [^manote] de bas de page permet d’ajouter des attributs (class, id, lang…) aux titres, liens et images, de créer des tableaux, des notes de bas de page et des abréviations.
+L’extension markdown-extra permet d’ajouter des attributs (class, id, lang…) aux titres, liens et images, de créer des tableaux, des notes de bas de page et des abréviations.
 
-[^manote]: Ceci est le contenu de la note
 
 Voir l’[exemple](exemples/markdown/), ou [téléchargez-le](php-exemple-markdown.zip).
