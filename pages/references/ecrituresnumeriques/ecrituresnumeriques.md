@@ -12,4 +12,4 @@ La notion d’écriture est à envisager sous son acception la plus globale, en 
 
 [**Benjamin Hoguet**](http://www.benhoguet.com/), invité en workshop à l’école en 2016 a publié sur son site quelques articles introductifs à ces questions, notamment [Qu’est-ce que la narration interactive ?](http://www.benhoguet.com/quest-ce-que-la-narration-interactive/), [Le mobile dans les nouvelles écritures](http://www.benhoguet.com/le-mobile-dans-les-nouvelles-ecritures/), [La richesse de la fiction interactive](http://www.benhoguet.com/lincroyable-richesse-de-la-fiction-interactive/), etc. [Abonnez-vous à sa newsletter !](https://mailchi.mp/d1b8bd7a7295/nouvellesnarrations)
 
-Dans le contexte du projet HyperText Super-héro sont abordés [des références](http://localhost/web/pages/projets/htsh/#refs) et des [outils utiles](http://localhost/web/pages/projets/htsh/#tools).
+Dans le contexte du projet HyperText Super-héro sont abordés [des références](http://localhost/web/pages/projets/htsh/#references) et des [outils utiles](http://localhost/web/pages/projets/htsh/#outils).
