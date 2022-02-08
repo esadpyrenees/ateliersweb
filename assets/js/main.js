@@ -71,7 +71,6 @@ if(ramdam){
             // qui permette de garder le span à l’intérieur de <div id='ramdam'>
             var new_left = Math.round(Math.random() * (ramdam_bcr.width - span_bcr.width)) - original_left;
             span.style.left = new_left + "px";
-            console.log(original_left, new_left);
             span.style.transition =  'left 200ms ease-out';
             // rend visible et anime les lettres sequentiellement
             var s = setTimeout(function(){
