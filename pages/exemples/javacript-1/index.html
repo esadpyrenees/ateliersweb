@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction js</title>
+        <link href='//fonts.googleapis.com/css?family=Playfair+Display:700,700italic' rel='stylesheet' type='text/css'>
+        <style type="text/css" media="screen">                        
+            body {
+                font-family: 'Playfair Display', serif;
+                text-transform: uppercase;
+                color: #000;    
+                text-align: center;
+                margin: 50px
+            }
+            a { 
+                text-decoration: none; 
+                color:#000; 
+                font-style: italic;
+                border-top: 3px double #000;
+                padding-top: 1em;
+                margin-top: 1em;
+                }
+            p { font-size: 40px; margin: 0; line-height: 1}
+            div { margin:2em 0 0}
+            .sweet { font-style: italic; color:#D00; }
+        </style>
+              
+    </head>
+    <body>
+        
+        <p>Un</p>
+        <p id="cible">Deux</p>
+        <p>Trois</p>
+        <p>Quatre</p>
+        <p>Cinq</p>
+          
+
+        <div>
+            <button id="italicize">Click</buton>
+        </div>
+    
+        <!-- la version initiale de cet exemple utilise jQuery, une bibliothèque javascript désormais inutile -->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+            // création d’une variable, dans laquelle on stocke une chaine de caractères
+            var mavariable = "Six";
+            // création d’une variable, dans laquelle on stocke l’élément qu’on voudra modifier au click
+            var cible = document.querySelector("#cible");
+
+            // lors de l’événement « click » sur l’élément qui a l’id « italicize »
+            // on exéciute une fonction qui change le texte de l’élément qui a l’id « cible »
+            // et lui ajoute une classe « sweet », dont les propriétés sont définies dans la css
+            document.querySelector("#italicize").onclick = () => {
+                cible.textContent = mavariable;
+                cible.classList.add("sweet");
+            }
+            
+        </script>        
+    </body>
+</html>

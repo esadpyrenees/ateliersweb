@@ -1,1 +1,0 @@
-title=Intro jQuery II&tags=js, interactive

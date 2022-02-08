@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Introduction à jQuery</title>
+        <title>Introduction à JavaScript</title>
         <link href='//fonts.googleapis.com/css?family=Playfair+Display:700,700italic' rel='stylesheet' type='text/css'>
         <style type="text/css" media="screen">                        
             body {
@@ -12,10 +12,15 @@
                 text-align: center;
                 margin: 50px
             }
-            a { 
+            a, button { 
                 text-decoration: none; 
                 color:#000; 
+                font: inherit;
+                text-transform: uppercase;
                 font-style: italic;
+                border: none;
+                background: none;
+                padding: 0;
                 border-top: 3px double #000;
                 padding-top: 1em;
                 margin-top: 1em;
@@ -42,20 +47,21 @@
           
 
         <div>
-            <a id="clickme" href="#">Click</a>
+            <button id="clickme">Click</button>
         </div>
     
-        <!-- 
-            Chargement des scripts en fin de page, 
-            dont la bibliothèque jQuery (//jquery.com), chargée ici depuis les serveurs de google,
-            afin d’accélérer le chargement du contenu 
-            et de pouvoir agir sur l’ensemble des éléments (tags) du document -->
+        <!-- la version initiale de cet exemple utilise jQuery, une bibliothèque javascript désormais inutile -->
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
         <script type="text/javascript">
-            // création d’un tableau, dans lequel on stocke plusieurs chaines de caractères
-            var montableau = [
+
+            // création d’une variable dont la valeur évoluera à chaque click de l’utilisateur
+            // et attribution d’une valeur initiale de 0
+            var n = 0;
+
+            // création d’une liste (un array), dans lequel on stocke plusieurs chaines de caractères
+            var texts = [
                 "Six",
                 "Sept",
                 "Huit",
@@ -63,30 +69,30 @@
                 "Dix"
             ];
 
-            // avec jquery, on stocke dans une variable « paragraphs » tous les 
-            // élements « p » du document
-            var paragraphs = $('p');
+            // on stocke dans une variable « paragraphs » tous les élements « p » du document
+            var paragraphs = document.querySelectorAll('p');
 
-            // création d’une variable et attribution de la valeur 0
-            var n = 0;
+            // on pourra naviguer” dans la liste de textes et dans les paragraphes grâce au nombre n
+
+            // on stocke une référence au bouton clickme
+            var clickme = document.querySelector("#clickme");
 
             // lors de l’événement « click » sur l’élément qui a l’id « clickme »
             // on crée une fonction qui attribue au n-ième paragraphe la valeur stockée dans 
-            // le tableau « montableau » à la position n
+            // le tableau « texts » à la position n
                 
-            $("#clickme").click(function(){
+            clickme.onclick = () => {
 
                 // affiche des informations dans la console (outils de développement)
-                console.log(n, paragraphs.get(n), montableau[n]);
+                console.log(n, paragraphs[n], texts[n]);
 
-                var cible = paragraphs.get(n);
-                $(cible).text(montableau[n]);
-                $(cible).addClass("sweet");
-
-                
+                var cible = paragraphs[n];
+                cible.textContent = texts[n];
+                cible.classList.add("sweet");
 
                 // on incrémente (augmente de 1) la valeur de la variable n
-                // afin que le click suivant modifie le texte du paragraphe suivant avec la valeur suivante de montableau
+                // afin que le click suivant modifie le texte du paragraphe suivant 
+                // avec la valeur de l’élément suivant dans “texts”
                 n++;
                 // cette notation est équivalente à :
                 // n = n +1;
@@ -94,11 +100,15 @@
                 // n += 1;
 
                 // pour finir…
-                if(n>montableau.length){
-                    $("section").html("J’apprends<br>à compter<br>avec<br>javascript<br>&$%£!").addClass('the-end');   
-                    $(this).hide();
+                if(n >= texts.length){
+                    // on change le contenu HTML de la section
+                    document.querySelector("section").innerHTML = "J’apprends<br>à compter<br>avec<br>javascript<br>&$%£!";
+                    // on modifie sa class
+                    document.querySelector("section").classList.add('the-end');   
+                    // on supprime le bouton
+                    clickme.parentElement.removeChild(clickme);
                 }
-            });
+            };
             
         </script>        
     </body>

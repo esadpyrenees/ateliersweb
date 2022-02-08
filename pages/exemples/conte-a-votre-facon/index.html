@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Dialogue interactif</title>
+    <style type="text/css">
+      html, body{ height: 100%;}
+      body{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3em;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        line-height: 1.5;
+        font-family: sans-serif;
+        margin: 0;
+      }
+      article {
+        display: none;
+        max-width: 30em;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .visible {
+        display: block
+      }
+
+      h1 {
+        font-size: 1em;
+        margin: .5em 0;
+        font-weight: normal;
+        font-size: calc(2vw + 1em);
+        line-height: 1;
+      }
+      span {
+        border: 1px solid;
+        height: 4em;
+        width: 4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 2em;
+      }
+
+      a {
+        color: currentColor
+      }
+
+      a:hover {
+        color:limegreen;
+      }
+      footer{
+        font-size: .65em;
+        color: #666;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .affichertout {
+        grid-template-rows: auto;
+        display: block;
+      }
+      .affichertout article {
+        margin: 2em auto;
+        text-align: left;
+        display: block;
+        padding-left: 2em;
+      }
+      .affichertout h1 {
+        font-size: 1em;
+        margin-left: -2em;
+        line-height: 1.5;
+      }
+      .affichertout span {
+        width: auto;
+        height: auto;
+        border: none;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <article id="article-1" class="visible">
+      <span>1</span>
+      <h1>Désirez-vous connaître l’histoire des trois alertes petits pois ?</h1>
+      Si oui, <a href="#article-4">passez à 4</a>.<br>
+      Si non, <a href="#article-2">passez à 2</a>.
+    </article>
+    <article id="article-2">
+      <span>2</span>
+      <h1>Préférez-vous celle des trois minces grands échalas ?</h1>
+      Si oui, <a href="#article-16">passez à 16</a>.<br>
+      Si non, <a href="#article-3">passez à 3</a>.
+    </article>
+    <article id="article-3">
+      <span>3</span>
+      <h1>Préférez-vous celle des trois moyens médiocres arbustes ?</h1>
+      Si oui, <a href="#article-17">passez à 17</a>.<br>
+      Si non, <a href="#article-21">passez à 21</a>.
+    </article>
+    <article id="article-4">
+      <span>4</span>
+      <h1>Il y avait une fois trois petits pois vêtus de vert qui dormaient gentiment dans leur cosse. Leur visage bien rond respirait par les trous de leurs narines et l’on entendait leur ronflement doux et harmonieux.</h1>
+      Si vous préférez une autre description, <a href="#article-9">passez à 9</a>.<br>
+      Si celle-ci vous convient, <a href="#article-5">passez à 5</a>.
+    </article>
+    <article id="article-5">
+      <span>5</span>
+      <h1>Ils ne rêvaient pas. Ces petits êtres en effet ne rêvent jamais.</h1>
+      Si vous préférez qu’ils rêvent <a href="#article-6">passez à 6</a>.<br>
+      Si non, <a href="#article-7">passez à 7</a>.
+    </article>
+    <article id="article-6">
+      <span>6</span>
+      <h1>Ils rêvaient. Ces petits êtres en effet rêvent toujours et leurs nuits sécrètent des songes charmants.</h1>
+      Si vous désirez connaître ces songes, <a href="#article-11">passez à 11</a>.<br>
+      Si vous n’y tenez pas, vous <a href="#article-7">passez à 7</a>.
+    </article>
+    <article id="article-7">
+      <span>7</span>
+      <h1>Leurs pieds mignons trempaient dans de chaudes chaussettes et ils portaient au lit des gants de velours noir.</h1>
+      Si vous préférez des gants d’une autre couleur, <a href="#article-8">passez à 8</a>.<br>
+      Si cette couleur vous convient, <a href="#article-10">passez à 10</a>.
+    </article>
+    <article id="article-8">
+      <span>8</span>
+      <h1>Ils portaient au lit des gants de velours bleu.</h1>
+      Si vous préférez des gants d’une autre couleur, <a href="#article-7">passez à 7</a>.<br>
+      Si cette couleur vous convient, <a href="#article-10">passez à 10</a>.
+    </article>
+    <article id="article-9">
+      <span>9</span>
+      <h1>Il y avait une fois trois petits pois qui roulaient leur bosse sur les grands chemins. Le soir venu, fatigués et las, ils s’endormirent très rapidement.</h1>
+      Si vous désirez connaître la suite, <a href="#article-5">passez à 5</a>.<br>
+      Si non, <a href="#article-21">passez à 21</a>.
+    </article>
+    <article id="article-10">
+      <span>10</span>
+      <h1>Tous les trois faisaient le même rêve, ils s’aimaient en effet tendrement et, en bons fiers trumeaux, songeaient toujours semblablement.</h1>
+      Si vous désirez connaître leur rêve, <a href="#article-11">passez à 11</a>.<br>
+      Si non, <a href="#article-12">passez à 12</a>.
+    </article>
+    <article id="article-11">
+      <span>11</span>
+      <h1>Ils rêvaient qu’ils allaient chercher leur soupe à la cantine populaire et qu’en ouvrant leur gamelle, ils découvraient que c’était de la soupe d’ers. D’horreur, ils s’éveillent.</h1>
+      Si vous voulez savoir pourquoi ils s’éveillent d’horreur, consulter le Larousse au mot « ers » et n’en parlons plus.<br>
+      Si vous jugez inutile d’approfondir la question, <a href="#article-12">passez à 12</a>.
+    </article>
+    <article id="article-12">
+      <span>12</span>
+      <h1>Opopoï ! S’écrient-ils en ouvrant les yeux. Opopoï ! Quel songe avons-nous enfanté là ? Mauvais présage dit le premier. Oui-da dit le second, c’est bien vrai, me voilà triste. Ne vous troublez pas ainsi, dit le troisième qui était le plus futé, il ne s’agit pas de s’émouvoir, mais de comprendre, bref, je m’en vais vous analyser ça.</h1>
+      Si vous désirez connaître tout de suite l’interprétation de ce songe, <a href="#article-15">passez à 15</a>.<br>
+      Si vous souhaitez au contraire connaître les réactions des deux autres, <a href="#article-13">passez à 13</a>.
+    </article>
+    <article id="article-13">
+      <span>13</span>
+      <h1>Tu nous la bailles belle, dit le premier. Depuis quand sais-tu analyser les songes ? Oui, depuis quand, ajouta le second ?</h1>
+      Si vous désirez aussi savoir depuis quand, <a href="#article-14">passez à 14</a>.<br>
+      Si non, <a href="#article-14">passez à 14</a> tout de même car vous ne le saurez pas plus.
+    </article>
+    <article id="article-14">
+      <span>14</span>
+      <h1>Depuis quand ? s’écria le troisième. Est-ce que je sais moi ! Le fait est que je pratique la chose. Vous allez voir !</h1>
+      Si vous voulez aussi voir, <a href="#article-15">passez à 15</a>.<br>
+      Si non, <a href="#article-15">passez également à 15</a>, car vous ne verrez rien.
+    </article>
+    <article id="article-15">
+      <span>15</span>
+      <h1>Eh bien ! voyons, dirent ses frères. Votre ironie ne me plaît pas, répliqua l’autre, et vous ne saurez rien. D’ailleurs au cours de cette conversation d’un ton assez vif, votre sentiment d’horreur ne s’est-il pas estompé ? effacé même ? Alors à quoi bon remuer le bourbier de votre inconscient de papilionacées ? Allons plutôt nous laver à la fontaine et saluer ce gai matin dans l’hygiène et la sainte euphorie ! Aussitôt dit, aussitôt fait : les voilà qui se glissent hors de leur cosse, se laissent doucement rouler sur le sol et puis au petit trot gagnent joyeusement le théâtre de leurs ablutions.</h1>
+      Si vous désirez savoir ce qui se passe sur le théâtre de leurs ablutions, <a href="#article-16">passez à 16</a>.<br>
+      Si vous ne le désirez pas, vous <a href="#article-21">passez à 21</a>.
+    </article>
+    <article id="article-16">
+      <span>16</span>
+      <h1>Trois grands échalas les regardaient faire.</h1>
+      Si les trois grands échalas vous déplaisent, <a href="#article-21">passez à 21</a>.<br>
+      S’ils vous conviennent, <a href="#article-18">passez à 18</a>.
+    </article>
+    <article id="article-17">
+      <span>17</span>
+      <h1>Trois moyens médiocres arbustes les regardaient faire.</h1>
+      Si les trois moyens médiocres arbustes vous déplaisent, <a href="#article-21">passez à 21</a>.<br>
+      S’ils vous conviennent, <a href="#article-18">passez à 18</a>.
+    </article>
+    <article id="article-18">
+      <span>18</span>
+      <h1>Se voyant ainsi zyeutés, les trois alertes petits pois qui étaient fort pudiques s’ensauvèrent.</h1>
+      Si vous désirez savoir ce qu’ils firent ensuite, <a href="#article-19">passez à 19</a>.<br>
+      Si vous ne le désirez pas, vous <a href="#article-21">passez à 21</a>.
+    </article>
+    <article id="article-19">
+      <span>19</span>
+      <h1>Ils coururent bien fort pour regagner leur cosse et, refermant celle-ci derrière eux, s’y endormirent de nouveau.</h1>
+      Si vous désirez connaître la suite, <a href="#article-20">passez à 20</a>.<br>
+      Si vous ne le désirez pas, vous <a href="#article-21">passez à 21</a>.
+    </article>
+    <article id="article-20">
+      <span>20</span>
+      <h1>Il n’y a pas de suite, le conte est terminé.</h1>
+      [ NdÉ. Vous pouvez éventuellement <a href="#article-1">recommencer</a> ]<br>
+      [ NdÉ. Vous pouvez aussi <a href="#tout">tout afficher</a> ]
+    </article>
+    <article id="article-21">
+      <span>21</span>
+      <h1>Dans ce cas, le conte est également terminé.</h1>
+      [ NdÉ. Vous pouvez éventuellement <a href="#article-1">recommencer</a> ]<br>
+      [ NdÉ. Vous pouvez aussi <a href="#tout">tout afficher</a> ]
+    </article>
+
+    <footer>
+      Réinterprétation hypertextuelle d’<i>Un conte à votre façon</i>, Raymond Queneau, 1967.<br>
+      <a href="info.html">En savoir plus</a>
+    </footer>
+
+
+
+    <script type="text/javascript">
+
+      // tous les liens
+      var links = document.querySelectorAll('article a');
+
+      // pour chaque lien
+      links.forEach(function (link, index) {
+
+        // au click
+        link.addEventListener('click', function (evenement) {
+          // on empêche le comportement par défaut du lien
+          evenement.preventDefault();
+
+          // on sélectionne l’élément actuellement visible
+          var elementvisible = document.querySelector('.visible');
+          // on le masque
+          elementvisible.classList.remove('visible');
+
+          // on “lit” l’attribut href du lien cliqué
+          var href = link.getAttribute('href');
+          
+          if(href=="#tout"){
+            // si jamais le href vaut “#tout” (cf. article 20 ou 21)
+            // on affiche tous les articles
+            document.querySelectorAll('article').forEach(article => {
+              article.classList.add("visible");
+            })
+            // on ajuste l’affichage du body (la grille)
+            document.body.classList.add("affichertout");
+          } else {
+            // on sélectionne l’article à afficher
+            var article = document.querySelector( href );
+            // on l’affiche
+            article.classList.add('visible');
+          }
+
+        })
+      });
+
+    </script>
+  </body>
+
+</html>

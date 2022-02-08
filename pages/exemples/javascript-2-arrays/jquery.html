@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction à jQuery</title>
+        <link href='//fonts.googleapis.com/css?family=Playfair+Display:700,700italic' rel='stylesheet' type='text/css'>
+        <style type="text/css" media="screen">                        
+            body {
+                font-family: 'Playfair Display', serif;
+                text-transform: uppercase;
+                color: #000;    
+                text-align: center;
+                margin: 50px
+            }
+            a { 
+                text-decoration: none; 
+                color:#000; 
+                font-style: italic;
+                border-top: 3px double #000;
+                padding-top: 1em;
+                margin-top: 1em;
+                }
+            section { font-size: 40px; line-height: 1}
+            p { margin: 0; }
+            div { margin:2em 0 0}
+            .sweet { font-style: italic; color:#D00; }
+            .the-end { font-style: italic; text-transform: none}
+        </style>
+              
+    </head>
+    <body>
+        
+        <section>
+            
+            <p>Un</p>
+            <p>Deux</p>
+            <p>Trois</p>
+            <p>Quatre</p>
+            <p>Cinq</p>
+
+        </section>
+          
+
+        <div>
+            <button id="clickme">Click</button>
+        </div>
+    
+        <!-- 
+            Chargement des scripts en fin de page, 
+            dont la bibliothèque jQuery (//jquery.com), chargée ici depuis les serveurs de google,
+            afin d’accélérer le chargement du contenu 
+            et de pouvoir agir sur l’ensemble des éléments (tags) du document -->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+            // création d’un tableau, dans lequel on stocke plusieurs chaines de caractères
+            var montableau = [
+                "Six",
+                "Sept",
+                "Huit",
+                "Neuf",
+                "Dix"
+            ];
+
+            // avec jquery, on stocke dans une variable « paragraphs » tous les 
+            // élements « p » du document
+            var paragraphs = $('p');
+
+            // création d’une variable et attribution de la valeur 0
+            var n = 0;
+
+            // lors de l’événement « click » sur l’élément qui a l’id « clickme »
+            // on crée une fonction qui attribue au n-ième paragraphe la valeur stockée dans 
+            // le tableau « montableau » à la position n
+                
+            $("#clickme").click(function(){
+
+                // affiche des informations dans la console (outils de développement)
+                console.log(n, paragraphs.get(n), montableau[n]);
+
+                var cible = paragraphs.get(n);
+                $(cible).text(montableau[n]);
+                $(cible).addClass("sweet");
+
+                
+
+                // on incrémente (augmente de 1) la valeur de la variable n
+                // afin que le click suivant modifie le texte du paragraphe suivant avec la valeur suivante de montableau
+                n++;
+                // cette notation est équivalente à :
+                // n = n +1;
+                // ou à :
+                // n += 1;
+
+                // pour finir…
+                if(n>montableau.length){
+                    $("section").html("J’apprends<br>à compter<br>avec<br>javascript<br>&$%£!").addClass('the-end');   
+                    $(this).hide();
+                }
+            });
+            
+        </script>        
+    </body>
+</html>

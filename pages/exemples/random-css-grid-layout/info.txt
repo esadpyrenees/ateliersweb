@@ -1,1 +1,1 @@
-title=Grid layout aléatoire avec contrainte&tags=js,random,css,grid
+title=Grid layout aléatoire avec contrainte&tags=js,random,css,grid,layout
