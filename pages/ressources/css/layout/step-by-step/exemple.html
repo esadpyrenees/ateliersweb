@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple CSS pas à pas</title>
+  <style>
+    #header {
+      display:flex;
+      justify-content: space-between; 
+      /* largeur maximale + centrage */
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    /* ci-dessous, une media-query qui permet d’organiser les éléments sur une colonne, */
+    /* et non plus sur une ligne, si le viewport est moins large que 600px */
+    @media (max-width:600px){
+      #header { flex-direction: column; align-items: center; }
+    }
+
+    #splash {
+      position: relative;
+      height: 50vh; /* la moitié de la hauteur de l’écran, par exemple */
+    }
+    #splash img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; /* afin que l’image recouvre le splash */
+    }
+    #splash figcaption {
+      position: absolute;
+      bottom: 20px; 
+      /* la figcaption recouvre la totalité de la largeur de l’image */
+      right: 0;  
+      width: 100%;
+    }
+    #splash figcaption p{
+      /* largeur max + centrage */
+      margin: 0 auto;  
+      max-width: 1000px;  
+      /* Le texte du paragraphe est aligné à droite.*/
+      text-align: right;
+    }
+
+    #grid {
+      display: grid;
+      grid-gap: 40px;
+      /* deux colonnes */
+      grid-template-columns: 1fr 1fr;
+      /* largeur maximale + centrage */
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    /* ci-dessous, une media-query qui affecte une seule colonne */
+    /* à la grille si le viewport est moins large que 600px */
+    @media (max-width:600px){
+      #grid { grid-template-columns: 1fr; }
+    }
+
+    article figure {
+      height: 250px;
+    }
+    article figure img {
+      height: 100%;
+      width: 100%; 
+      object-fit: cover;
+    }
+    article header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #footer {
+      padding:2em;
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width:600px){
+      #footer { flex-direction: column }
+    }
+
+    /* Mise en forme complémentaire rapide */
+    * { margin:0; font-size: 1em;}
+    a { color: currentColor;}
+    #header { padding: 2em; }
+    #header nav a {margin: .25em 1em;}
+    #splash { margin-bottom: 2em; }
+    #grid header { margin: 1em 0;}
+    #footer { margin-top: 2em; background: #ddd;}
+    #footer a{ margin: .25em 1em;}
+    @media (max-width:1040px){
+      #splash figcaption,
+      #grid { padding: 0 2em;}
+    }
+  </style>
+</head>
+<body>
+
+  <header id="header">
+    <a href="index.html">logo</a>
+    <nav>
+      <a href="page.html">page</a>
+      <a href="page.html">page</a>
+      <a href="page.html">page</a>
+      <a href="page.html">page</a>
+    </nav>
+  </header>
+
+  <figure id="splash">
+    <img src="fichier.png" alt="Une image">
+    <figcaption>
+      <p>
+        Le titre superposé.
+      </p>
+    </figcaption>
+  </figure>
+
+  <section id="grid">
+    <article>
+      <figure>
+        <img src="fichier.png" alt="*">
+      </figure>  
+      <header>
+        <h1>Titre</h1>
+        <p>date</p>
+      </header>
+      <p>
+        Texte
+      </p>
+    </article>
+    <article>
+      <figure>
+        <img src="fichier.png" alt="*">
+      </figure>  
+      <header>
+        <h1>Titre</h1>
+        <p>date</p>
+      </header>
+      <p>
+        Texte
+      </p>
+    </article>
+    <article>
+      <figure>
+        <img src="fichier.png" alt="*">
+      </figure>  
+      <header>
+        <h1>Titre</h1>
+        <p>date</p>
+      </header>
+      <p>
+        Texte
+      </p>
+    </article>
+    <article>
+      …
+    </article>
+  </section>
+
+
+
+  <footer id="footer">
+    <a href="#">lien</a>
+    <a href="#">lien</a>
+    <a href="#">lien</a>
+  </footer>
+  
+</body>
+</html>

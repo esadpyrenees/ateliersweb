@@ -12,8 +12,10 @@ Il diffère de [Flexbox](../flexbox) principalement par le fait qu’il est déd
 
 *   [Gridbyexample.com](https://gridbyexample.com/examples/), les grilles, par l’exemple…
 *   *Visual cheat sheet*, [toutes les propriétés, illustrées](http://grid.malven.co/)
-*   [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual guide*
-*   [Grid experiments](https://codepen.io/search/pens?q=grid+experiment) sur Codepen
+*   [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual 
+guide*
+*   [☞ Layoutland](https://www.youtube.com/layoutland), les vidéos éclairantes de Jen Simmons
+*   [_Grid experiments_](https://codepen.io/search/pens?q=grid+experiment) sur Codepen
 *   [Un guide interactif](https://fjolt.com/article/a-guide-to-css-grid) pour CSS Grid. 
 
 ## Exemples

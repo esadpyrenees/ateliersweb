@@ -6,9 +6,11 @@ Le mot-clé `position` en CSS est un faux-ami. Sa valeur permet de définir le c
 
 Par défaut (tant qu’on ne l’a pas modifiée), la `position` d’un élément est `static`.
 
-    #static {
-        position:static;
-    }
+```css
+#static {
+    position:static;
+}
+```
 
 On dit d’un élément auquel est affecté une `position` autre que `static` qu’il est _positionné_.
 
@@ -17,14 +19,14 @@ On dit d’un élément auquel est affecté une `position` autre que `static` qu
 La position `fixed` permet de définir la position d’un élément par rapprort au _viewport_, l’espace visible de la fenêtre du navigateur. Il permet d’utiliser les propriétés `top`, `right`, `bottom` ou `left`. Voici le code qui correspond au carré noir en bas de page :
 
 ```css
-    #fixed {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 20px;
-        height:20px;
-        background:black;
-    }
+#fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 20px;
+    height:20px;
+    background:black;
+}
 ```
 
 Bien que particulièrement utile, cette propriété peut être gênante sur mobiles (si l’élément `fixed` est trop grand).
@@ -36,18 +38,20 @@ Avec la position `sticky` l'élément sera naturellement soumis au scroll du doc
 
 
 
-    .sticky {
-        position: sticky;
-        top: 0;
-    }
+```css
+.sticky {
+    position: sticky;
+    top: 0;
+}
+```
 <div class="sticky"></div>
 
 ### Relative
 
 La valeur `relative` est un outil très puissant pour la mise en page. Elle permet plusieurs comportements :  
 
-* Sans autre règle, la position relative semble être strictement identique au positionnement `static`.
-* La position de l’élément peut être modifiée par les propriétés `top`, `right`, `bottom` ou `left` **relativement** à sa position d’origine.
+Sans autre règle, la position relative semble être strictement identique au positionnement `static`.
+La position de l’élément peut être modifiée par les propriétés `top`, `right`, `bottom` ou `left` **relativement** à sa position d’origine.
 
 <div style="padding-bottom:25px">
 
@@ -67,63 +71,38 @@ La valeur `relative` est un outil très puissant pour la mise en page. Elle perm
 
 </div>
 
-Cette modification du positionnement préserve l’impact initial de l’élément sur ses éléments parents et frères. Ainsi, le `<div class="el-2">` est affecté par la taille **initiale** de l'élément `<div class="el-1">` après lequel il est placé.
-
-<div class="el clearfix" style="overflow:auto">
-
-<div class="el " style="position:relative; left:70px; width:300px; float:left;">
-
-    .el-1 {
-            position:relative;
-            left:70px;
-            width:300px;
-            float:left;
-        }
-
-</div>
-
-<div class="el " style="width:300px; float:left;">
-
-    .el-2 {
-            width:300px;
-            float:left;
-        }
-
-</div>
-
-</div>
-
-• La position `relative` créee également un nouveau référenciel de positionnement pour les éléments positionnés en `absolute` :
+La position `relative` est particulièrement utile pour créer un nouveau _référenciel de positionnement_ pour les éléments positionnés en `absolute` :
 
 ### Absolute
 
 La position `absolute` permet de positionner un élément en supprimant l’impact qu’il a sur ses autres éléments parents et frères. L’élément positionné par le code CSS suivant se trouve tout en haut de la page.
 
-    #absolute {
-        position:absolute;
-        top: 20px;
-        right: 20px;
-        width: 20px;
-        height:20px;
-        background:black;
-    }
-
+```css
+#absolute {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height:20px;
+    background:black;
+}
+```
 Cette position s’établit en effet _par rapport au document_ ou au premier élément parent dont la position est relative.
 
 <div class="el box" style="position:relative">
     <div style="position:absolute; top: 20px; right: 20px; width: 20px; height:20px; background:FireBrick;"></div>
     <pre><code>
-    .box {
-        position:relative
-    }
-    #absolute-2 {
-        position:absolute;
-        top: 20px;
-        right: 20px;
-        width: 20px;
-        height:20px;
-        background:FireBrick;
-    }
+.box {
+    position:relative
+}
+#absolute-2 {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height:20px;
+    background:FireBrick;
+}
     </code></pre>
 </div>
 

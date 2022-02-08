@@ -1,8 +1,10 @@
 # Reset
 
+**tl;dr: La feuille de style ci-dessous devrait être intégrée dans tout projet web. ** Pourquoi ? Afin d’homogéniser l’affichage selon les navigateurs, et d’instaurer de meilleurs comportements par défaut.
+
 Dans les premières années de la diffusion de CSS, et jusqu’à un temps relativement récent, les différents navigateurs proposaient des implémentations et des styles par défaut différents. 
 
-Cela a amené la création de feuilles de styles “Reset”, dédiées à la réinitialisation des styles afin de mettre en cohérence le rendu dans les différents navigateurs. En 2022, les incohérences ont très largement réduit, mais l’avantage amené par ces feuilles de styles stantard reste important.
+Cela a amené la création de feuilles de styles “reset”, dédiées à la réinitialisation des styles afin de mettre en cohérence le rendu dans les différents navigateurs. En 2022, les incohérences ont très largement réduit, mais l’avantage amené par ces feuilles de styles stantard reste important.
 
 De nombreuses approches existent :     
 * [reset.css](https://meyerweb.com/eric/tools/css/reset/reset.css) d’Eric Meyer, supprime les styles par défaut des navigateurs.   
@@ -22,7 +24,7 @@ html { box-sizing: border-box; }
 html, body { height: 100%; }
 
 /* Hauteur de ligne et amélioration du rendu typographique */
-body { line-height: 1.5; -webkit-font-smoothing: antialiased; }
+body { line-height: 1.45; -webkit-font-smoothing: antialiased; }
 
 /* Amélioration des comportement par défaut des médias */
 img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; }
@@ -43,7 +45,7 @@ iframe { border: 0; }
 Version compressée sur une seule ligne : 
 
 ```css
-html { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; } html, body { height: 100%; } body { line-height: 1.5; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; } h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+html { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; } html, body { height: 100%; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; } h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
 ```
 
 

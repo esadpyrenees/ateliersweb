@@ -12,6 +12,11 @@ Lire les articles consacrés à la [syntaxe](syntax), aux [sélecteurs CSS](sele
 
 La mise en forme du texte est un aspect central du webdesign – comme du design graphique en général. Commencer par une introduction aux [grands principes de la gestion typographique](text). Poursuivre par les pages dédiées à la [typographie à l’écran](../typo/), à [l’utilisation de webfonts](../typo/macromicro/), ou aux questions de [macro & micro typographie](../typo/macromicro/).
 
+## ✋
+> <big> Avant de passer à la suite, il devient souhaitable de préciser quelques trucs et astuces utiles:</big>
+
+Découvrir l’intérêt d’une feuille de style [_reset_](reset). N’utiliser qu’[une seule feuille de style](#) par site (surtout pas une par page). Apprendre à utiliser [les outils de développement du navigateur](https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools).
+
 ### Mise en page
 
 Au delà des questions de mise en forme d’éléments isolés, CSS permet de déterminer les relations globales entre les éléments d’un document : leur mise en page. Dans le contexte du web, la structuration d’une page obéit à des logiques fluides, adaptatives : “*responsives*”.

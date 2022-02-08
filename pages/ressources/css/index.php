@@ -4,7 +4,6 @@
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";
-    $subsubsection="vocabulary";
     $mdfile = "./css.md";
 
     // includes
@@ -21,7 +20,7 @@
 
 ?>
 
-    <main class="pane active" id="content">
+    <main class="pane active typeset" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>

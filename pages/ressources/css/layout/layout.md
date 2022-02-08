@@ -104,7 +104,21 @@ Consulter la [**documentation sommaire**](../../css/positions/) et voir quelques
 
 
 
-## Old school & future-proof
+
+## Exemples de mise en page
+
+Des exemples de mise en page, utilisant `grid`, `flex` ou `position` sont disponibles dans [la section dédiée](../../../exemples/#layout).
+
+
+
+## Old school
+
+Avant l’avènement de flex et grid, d’autres techniques de mise en page étaient utilisées. 
+<details>
+
+<summary>Voir les archives</summary>
+
+<div  markdown="1">
 
 
 ### Tableaux, lignes et cellules
@@ -119,15 +133,6 @@ Les propriétés CSS `float:left|right` et `display:inline-block` ont ensuite pe
 
 Voir l’[archive de la documentation sur `float` et `inline-block`](../floats/).
 
-## Ressources
+</div>
 
-#### Layoutland
-Learn what's now possible in graphic design on the web — layout, CSS Grid, and more. A series for designers and web developers created by Jen Simmons, Mozilla Designer and Developer Advocate.
-
-[☞ https://www.youtube.com/layoutland](https://www.youtube.com/layoutland)
-
-
-## Exemples
-
-Quelques exemples de mise en page sont disponibles dans [la section dédiée](../../../exemples/#layout)
-
+</details>
