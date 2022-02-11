@@ -179,7 +179,7 @@ ni la “qualité” ni la quantité de code ne sont des critères d’évaluati
 * [Otherly](https://www.instagram.com/otherlyseries/), un compte Instagram qui présente 7 documentaires courts sur des parcours de femme, personnes non-binaires et queer. 
 * Sur Twitter, [une histoire dont tu es le héros/l'héroïne](https://twitter.com/Super_Marabout/status/1238805359558623232) par [Mårābøüt](https://twitter.com/Super_Marabout).
 * [3ème droite](https://twitter.com/3emeDroite/status/910050115989229568), un thriller sur Twitter, par @F_descraques.
-
+* [60 secondes](https://www.facebook.com/60secondes/), une série produite par Arte. 73 vidéos d’une minute diffusées sur Facebook en 2011, racontant la vie mouvementée de Fantille.
 
 ## Exemples
 
