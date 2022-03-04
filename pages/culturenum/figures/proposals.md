@@ -234,6 +234,7 @@ Mirage
 [Information Is Beautiful](https://informationisbeautiful.net/)
 [Corp. Lab](https://www.corp-lab.com/)
 [Voilà: Francis Gagnon](https://chezvoila.com/fr/)
+[NYT interactive](https://twitter.com/NYTInteractive)
 
 #### Typo 
 [Emigre & Zuzana Licko](https://www.emigre.com)
