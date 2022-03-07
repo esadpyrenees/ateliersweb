@@ -128,7 +128,7 @@ S’engouffrant à la suite des pionniers de l’hébergement web personnel (Geo
 
 Tumblr[^gif] ou MySpace furent des cas particuliers, ouvrant aux auteurs des blogs un accès au code source HTML et au style CSS des pages, permettant encore à une certaine expressivité formelle d’avoir lieu.
 
-[^gif]:![Cory Arcangel, Super Mario Clouds (2002).](images/2014-july-30-net-art-history-3.webp) Lire [A Brief History of Animated GIF Art](https://news.artnet.com/art-world/a-brief-history-of-animated-gif-art-part-one-69060)
+[^gif]:![Cory Arcangel, Super Mario Clouds (2002).](images/2014-july-30-net-art-history-3.webp) Lire [A Brief History of Animated GIF Art](https://news.artnet.com/art-world/a-brief-history-of-animated-gif-art-part-three-88928)
 
 En 2004, l’ouverture de *The Facebook*, installant le règne des plateformes centralisées que nous connaissons aujourd’hui, dans lesquelles l’expression individuelle est devenue ultra-sociale : l’intérêt des plateformes est dans la captation de l’attention et dans le maintien permanent des interactions. Les cris dans la forêt, les bouteilles à la mer, les grafitis invisibles adressés à des inconnu·es qu’étaient les pages personelles des années 90 et 2000 ont largement été supplantées par les publications dans des jardins clos, où les messages sont produits au milieu d’une agora permanente où ils participent au vacarme constant des conversations.[^lonely]
 
@@ -188,10 +188,11 @@ _(à compléter)_
 * [Art ASCII et Typewriter art](https://masmoulin.blog/2021/02/01/nouvelles-formes-de-lart-7-21-art-ascii-et-typewriter-art-billet-n-425/)
 * [Du mal du pays aux nostalgies numériques](https://kniemeyernet.files.wordpress.com/2018/04/10763-26913-1-pb.pdf), réflexions sur les liens entre nostalgie, nouvelles technologies et médias, 2018, Katharina Niemeyer
 * [The web we lost](http://dashes.com/2012/12/13/the_web_we_lost/), par Anil Dash
-* [Folklore de la zone mondiale](https://www.youtube.com/watch?v=UvCOTZ4qUl8)
+* le vrai [Folklore de la zone mondiale](https://www.youtube.com/watch?v=UvCOTZ4qUl8)
 * [xpub.nl](https://xpub.nl/) et [project.xpub.nl](https://project.xpub.nl/) est le Master en art et en design, mention _Experimental Publishing_ du Piet Zwart Institute.
 * [Grand Custer](https://grantcuster.com/) traîne en bas de cette liste
 * [CATALOG OF INTERNET ARTIST CLUBS](https://sites.rhizome.org/surfclubs/)
+* [A Brief History of Animated GIF Art](https://news.artnet.com/art-world/a-brief-history-of-animated-gif-art-part-one-69060) + [part 2](https://news.artnet.com/art-world/a-brief-history-of-animated-gif-art-part-two-78532) + [part 3](https://news.artnet.com/art-world/a-brief-history-of-animated-gif-art-part-three-88928)
 
 
 ![---](images/rainbow.gif)
