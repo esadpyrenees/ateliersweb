@@ -93,6 +93,12 @@ Cette période est explorée par Olia Lialina dans le projet [One Terabyte of Ki
 
 Olia Lialina ([@GIFmodel](https://twitter.com/gifmodel)), artiste pionnière des cultures numériques et observatrice attentive de leurs racines a publié en 2005 un article important analyique important, [A vernacular web](http://art.teleportacia.org/observation/vernacular/), dans lequel elle observe et relève les _gimmicks_ et motifs visuels récurrents dans le web amateur, riche et foutraque des années 90. De nombreux articles et de nombreux projets de Lialina mériteraient d’être cités ici. [Perpetual Calendar ](https://haveagood.today/) s'appuie sur une précieuse tradition du folklore numérique qui consiste à commencer une journée sur son réseau social en se souhaitant bonne journée sous la forme d'une image, souvent animée et vraisemblablement scintillante.
 
+<figure>
+<img src="images/cameron.png" alt="Capture d’écran de www.cameronsworld.net">
+<figcaption>
+<a href="http://www.cameronsworld.net">www.cameronsworld.net</a>, hommage de Cameron Askin à l’esthétique Geocities.
+</figcaption>
+</figure>
 
 ## Flash
 À la fin des années 90 a émergé la technologie Flash, développée par Macromedia, puis par Adobe à partir de 2005. Flash fut un ensemble de technologies orientées vers le web (à la fois un outil d’édition et un _plugin_ pour les navigateurs), qui a permis à des développeurs, et surtout à des designers non versés dans les choses du code de dépasser très largement les limites que posaient les complexités techniques du webdesign à cette époque[^flash].  
@@ -120,7 +126,9 @@ Le web des années 2000 fut également le temps d’une évolution majeure de se
 
 S’engouffrant à la suite des pionniers de l’hébergement web personnel (Geocities, Tripod, Mygale, évoqués plus tôt), des services web (tels que Blogger, LiveJournal ou Tumblr), et des outils de gestion de contenus (Wordpress, ou en France Dotclear et SPIP) fournirent aux auteurs de contenus à la fois des systèmes d’écriture et des _templates_, gabarits de pages préformatés qui permettaient aux auteurs d’atteindre une qualité graphique minimum (lisibilité, utilisabilité), en se concentrant sur la production de contenus et d’interactions sociales (commentaires).
 
-Tumblr ou MySpace furent des cas particuliers, ouvrant aux auteurs des blogs un accès au code source HTML et au style CSS des pages, permettant encore à une certaine expressivité formelle d’avoir lieu.
+Tumblr[^gif] ou MySpace furent des cas particuliers, ouvrant aux auteurs des blogs un accès au code source HTML et au style CSS des pages, permettant encore à une certaine expressivité formelle d’avoir lieu.
+
+[^gif]:![Cory Arcangel, Super Mario Clouds (2002).](images/2014-july-30-net-art-history-3.webp) Lire [A Brief History of Animated GIF Art](https://news.artnet.com/art-world/a-brief-history-of-animated-gif-art-part-one-69060)
 
 En 2004, l’ouverture de *The Facebook*, installant le règne des plateformes centralisées que nous connaissons aujourd’hui, dans lesquelles l’expression individuelle est devenue ultra-sociale : l’intérêt des plateformes est dans la captation de l’attention et dans le maintien permanent des interactions. Les cris dans la forêt, les bouteilles à la mer, les grafitis invisibles adressés à des inconnu·es qu’étaient les pages personelles des années 90 et 2000 ont largement été supplantées par les publications dans des jardins clos, où les messages sont produits au milieu d’une agora permanente où ils participent au vacarme constant des conversations.[^lonely]
 
