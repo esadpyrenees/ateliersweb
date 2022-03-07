@@ -89,7 +89,7 @@ Arvin’s Home Page, extrait par Olia Lialina – One Terabyte of Kilobyte Age
 Fermé en 2009, après son rachat par Yahoo, Geocities[^geo] reste un moment fondamental dans l’éclosion d’un web vernaculaire, aux spécificités graphiques singulières et affirmées. D’une manière similaire, mais spectaculairement plus vaste que ce qu’avait permis l’arrivée de la reprographie dans les années 70 / 80 pour la culture des fanzines, le web devenait un média dans lequel chacun·e pouvait publier librement, tant au niveau du contenu des messages que dans leurs formes.
 
 [^geo]:![This page no longer exists](images/9f5d680442de24c0036ecf5448baa5c05a9b7d4a.png)
-Cette période est explorée par Olia Lialina dans le projet [One Terabyte of Kilobyte Age](https://blog.geocities.institute/) et dans son livre [_Digital Folklore_](Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf) (pdf). Voir sur [Strabic](http://strabic.fr/Digital-Folklore-le-livre) une recension de l’ouvrage par Ingi Brown et Charles Beauté.
+Cette période est explorée par Olia Lialina dans le projet [One Terabyte of Kilobyte Age](https://blog.geocities.institute/) et dans son livre [_Digital Folklore_](Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf) (pdf). Voir sur [Strabic](http://strabic.fr/Digital-Folklore-le-livre) une recension de l’ouvrage par Ingi Brown et Charles Beauté ou [Le Web, c’est folk LOL](https://www.liberation.fr/ecrans/2010/02/04/le-web-c-est-folk-lol_957338/) par Marie Lechner.
 
 Olia Lialina ([@GIFmodel](https://twitter.com/gifmodel)), artiste pionnière des cultures numériques et observatrice attentive de leurs racines a publié en 2005 un article important analyique important, [A vernacular web](http://art.teleportacia.org/observation/vernacular/), dans lequel elle observe et relève les _gimmicks_ et motifs visuels récurrents dans le web amateur, riche et foutraque des années 90. De nombreux articles et de nombreux projets de Lialina mériteraient d’être cités ici. [Perpetual Calendar ](https://haveagood.today/) s'appuie sur une précieuse tradition du folklore numérique qui consiste à commencer une journée sur son réseau social en se souhaitant bonne journée sous la forme d'une image, souvent animée et vraisemblablement scintillante.
 
@@ -168,6 +168,7 @@ Avec elle, de très nombreux créateurs, auteurs, artistes ou designers exploren
 _(à compléter)_
 
 * [Digital Folklore: To Computer Users, with Love and Respect](https://digitalfolklore.org/), Dragan Espenschied , Olia Lialina 
+* [Olia Lialina, Net Artist](https://www.lespressesdureel.com/ouvrage.php?id=8156&menu=0), 
 * Galand, Sandrine et Joëlle Gauthier (éd.). 2012. [Esthétiques numériques vintage](https://nt2.uqam.ca/fr/cahiers-virtuels/esthetiques-numeriques-vintage). Cahiers virtuels du Laboratoire NT2, n° 6.
 * [Fred Forest](https://fr.wikipedia.org/wiki/Fred_Forest)
 * [Le Générateur poïétique](https://fr.wikipedia.org/wiki/Le_G%C3%A9n%C3%A9rateur_po%C3%AF%C3%A9tique#cite_ref-1)
