@@ -8,6 +8,12 @@
 
     $params = explode('/', $_GET["params"]);
     
+    $text_str = $_GET["text"];
+    if(isset($text_str)){
+        $text_str = str_replace("– ", "\n", $text_str);
+    }
+    
+    
     $section = isset($params[0]) ? $params[0] : "";
     $subsection = isset($params[1]) ? $params[1] : "";
     
@@ -18,17 +24,19 @@
     $fontbold = $fonts_path  . "/Ecole-Bold.otf";
     $fontregular = $fonts_path  . '/' . "Ecole-Regular.otf";
 
-    $request_uri = $_SERVER['REQUEST_URI'];
+    // $request_uri = $_SERVER['REQUEST_URI'];
+    // split query string to get clean filename :
+    $request_uri = explode("?", $_SERVER['REQUEST_URI'])[0];
     $final_file_path = '.' . str_replace("web/", "", $request_uri);
     $final_file_dir = dirname($final_file_path);
     if (!is_dir($final_file_dir)) {
-            mkdir($final_file_dir, 0777, true);
+        mkdir($final_file_dir, 0777, true);
     }
     
     $key  = 'ogpi_'. md5($section. '-' . $subsection) . '.png';
     $mediaroot = realpath(dirname(__FILE__) . "/medias/");
     $thumb = $final_file_path;
-    
+        
     // redirige vers le fichier s’il existe
     if (file_exists($thumb)) {
         serveImage($thumb);
@@ -109,12 +117,17 @@
     } else {
         
         $cache = $mediaroot .'/ogp/'. $key . '.cache.png';
+        
+        if(isset($text_str)){
+            $text = rawurldecode($text_str);
+        } else {
+            $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ));
+        }
 
-        $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ));
         // sur-titre blanc
-        $ogi = $convert . ' -size 750x380  -background white -gravity NorthWest -fill black -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD Pyrénées → ateliers web"  ' . $thumb;
+        $ogi = $convert . ' -size 750x380  -background white -gravity NorthWest -fill black -font ' . $fontregular . ' -pointsize 30 label:"ÉSAD Pyrénées → ateliers web"  ' . $thumb;
         // titre blanc
-        $title = $convert . ' -size 760x400  -background white -fill "' . $color . '" -font ' . $fontbold . ' -pointsize 80 caption:"' . $text . '"   ' . $cache;
+        $title = $convert . ' -size 760x400  -background white -fill "' . $color . '" -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '"   ' . $cache;
         // titre et sur-titre ensemble
         $paste = $convert . " -gravity Center -geometry +0+70 -compose Multiply -colorspace RGB -extent 800x418 " . $thumb . " " . $cache . "  -composite  " . $thumb;
         

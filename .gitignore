@@ -3,3 +3,4 @@ archives/*
 zip/
 #medias/*
 #!medias/ogp/.gitkeep
+medias/*

@@ -21,8 +21,9 @@
     echo "        <meta property='og:image' content='$host/web/medias/$ogp_url'>\n";
     echo "        <meta name='twitter:description' content='$host/web/medias/$ogp_url'>\n";
     } else {
-      echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png'>\n";    
-      echo "        <meta property='twitter:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png'>\n";    
+      $text = rawurlencode($title);
+      echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png?text=$text'>\n";    
+      echo "        <meta property='twitter:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . "/ogp.png?text=$text'>\n";    
     }
     if(isset($canonical_url)){
       echo '<link rel="canonical" href="'. htmlspecialchars($canonical_url) .'" >';
