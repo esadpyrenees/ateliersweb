@@ -62,23 +62,24 @@
         $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
         $dirthumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
 
-        // récupère le titre de l’exemple
         if (file_exists($readme)) {
-            parse_str( file_get_contents($readme) );
-            $title_line = isset($title) ? trim($title) : "";
+            parse_str( file_get_contents($readme), $data );
+            $title_line = isset($data['title']) ? trim($data['title']) : "";
         } 
-        $text = addslashes(ucfirst($section) . "\n" . (isset($title_line)  ? "→ " . ucfirst("$title_line") : "" ));
+
+        $text = addslashes(ucfirst($section) . "\n" . (isset($title_line)  ? "→ " . ucfirst($title_line) : "" ));
 
         // récupère la vignette de l’exemple
+        $cthumb = $mediaroot .'/ogp/'. $key . '.cthumb.png';
+        $tomato = $mediaroot .'/ogp/'. $key . '.tomato.png';
+        $rotten = $mediaroot .'/ogp/'. $key . '.rotten.png';
         if (file_exists($dirthumb)) {
-            $cthumb = $mediaroot .'/ogp/'. $key . '.cthumb.png';
-            $tomato = $mediaroot .'/ogp/'. $key . '.tomato.png';
-            $rotten = $mediaroot .'/ogp/'. $key . '.rotten.png';
+            
             // resize, dither et colorisation de la vignette
-            $resizethumb = $convert  . " -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors ' . $color . ',white -ordered-dither h4x4a -colorspace Gray " . $dirthumb . " " . $cthumb;
+            $resizethumb = $convert  . ' -resize 800x418^ -gravity center -extent 800x418 -colors 8  +level-colors "#333333",white -ordered-dither h4x4a -colorspace Gray ' . $dirthumb . ' ' . $cthumb;
             exec ($resizethumb);
             // arrière-plan tomato
-            $background = $convert . ' -size 800x418 -background "' . $color . '" xc:"' . $color . '" -compose Dst   -flatten ' . $tomato;
+            $background = $convert . ' -size 800x418 -background "' . $color . '" xc:"' . $color . '" -compose Dst  -flatten ' . $tomato;
             exec ($background);
             // composition de la vignette ditherisée sur tomato
             $paste_on_tomato = $convert  . " -gravity center -compose Multiply  -extent 800x418  " . $tomato . " " . $cthumb. "  -composite  " . $rotten;
@@ -91,27 +92,35 @@
 
         // sur-titre blanc
         $white = $mediaroot .'/ogp/'. $key . '.white.png';
-        $ogi = $convert . ' -size 750x380  -background black -gravity NorthWest -fill white -font ' . $fontregular . ' -pointsize 30  label:"ÉSAD Pyrénées → ateliers web"  ' . $white;
+        $esad_title = $mediaroot .'/ogp/'. $key . '.esad_title.png';
+        // $ogi = $convert . ' -size 750x380  -background black -gravity NorthWest -fill white -font ' . $fontregular . ' -pointsize 30  label:"ÉSAD Pyrénées → ateliers web"  ' . $white;
+        $esad = $convert . ' -size 760x40 -background black -fill white -font ' . $fontregular . ' -pointsize 30 caption:"ÉSAD Pyrénées → ateliers web" ' . $esad_title;
         
         // titre blanc
         $whitetitle = $mediaroot .'/ogp/'. $key . '.whitetitle.png';
-        $title = $convert . ' -size 800x418  -background black -fill white -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '"   ' . $whitetitle;
+        $title = $convert . ' -size 800x418 -background black -fill white -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '" ' . $whitetitle;
         
-        // titre et sur-titre ensemble
-        $paste = $convert . " -gravity Center -geometry +0+70 -compose Screen -extent 800x418 " . $white . " " . $whitetitle . "  -composite  " . $white;
+        // // titre et sur-titre ensemble
+        // $paste = $convert . " -compose Screen -gravity Center -geometry +0+70 -compose Screen  " . $rotten . " " . $t . "  -composite  " . $rotten;
         
-        // titre + sur-titre sur arrièreplan tomato
-        $dblpaste = $convert . " -compose Screen  " . $rotten . " " . $white . "  -composite  " . $thumb;
+        // // titre + sur-titre sur arrièreplan tomato
+        // $paste = $convert . " -gravity NorthWest -geometry +20+10 -compose Screen -colorspace RGB " . $rotten . " " . $esad . " -composite  " . $thumb;
+        $tada = $mediaroot .'/ogp/'. $key . '.tada.png';
+        $dblpaste = $convert . " -size 800x418 -gravity NorthWest -geometry +20+80 -compose Screen " . $rotten . " " . $whitetitle . " -composite  " . $tada;
+        $paste = $convert . " -gravity NorthWest -geometry +20+20  -compose Screen " . $tada . " " . $esad_title . " -composite  " . $thumb;
+        // $dblpaste = $convert . " -compose Screen -gravity Center -extent 800x418 " . $rotten . " " . $whitetitle . "  -composite  " . $thumb;
+        
         
         // exécution
-        exec ($ogi);
+        // exec ($ogi);
         exec ($title);
-        exec ($paste);
+        exec ($esad);
         exec ($dblpaste);
+        exec ($paste);
 
         // nettoyage
-        exec ("rm -f " . $whitetitle);
-        exec ("rm -f " . $white);
+        // exec ("rm -f " . $whitetitle);
+        // exec ("rm -f " . $white);
         exec ("rm -f " . $tomato);
         exec ("rm -f " . $rotten);
         exec ("rm -f " . $cthumb);
