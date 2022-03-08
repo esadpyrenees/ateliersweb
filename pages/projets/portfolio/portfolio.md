@@ -24,7 +24,7 @@ git clone https://github.com/jbidoret/portfolio/tree/newmedias.git
 <small>MAMP ou XAMPP permettent d’installer sur un mac ou un pc un “serveur de développement” qui reproduit les conditions et la structure logicielle d’un “vrai” serveur web. En démarrant l’application, on lance plusieurs programmes (Apache, PHP, MySQL) qui permettent de “servir” des sites web localement (http://localhost).</small>
 
 * Un hébergeur : [Alwaysdata](https://alwaysdata.com/) ou [OVH](https://ovh.com) ;    
-<small>NB: les étudiants de l’ÉSAD Pyrénées peuvent créer un compte Alwaysdata gratuit à partir d’[ici](https://alws.link/gyB4xU46). De nombreux hébergeurs existent, commerciaux ou associatifs. Alwaysdata fournit un très bon service, mais est comparativement plus cher que d’autres (OVH, Gandi, 1&1, Amen…).</small>
+<small>NB: les étudiants de l’ÉSAD Pyrénées peuvent bénéficier d’un compte Alwaysdata gratuit augmenté à 200 Mo en [me contactant](mailto:julien.bidoret@esad-pyrenees.fr). De nombreux hébergeurs existent, commerciaux ou associatifs. Alwaysdata fournit un très bon service, mais est comparativement plus cher que d’autres (OVH, Gandi, 1&1, Amen…).</small>
 * Un client FTP ([Cyberduck](https://cyberduck.io/), [FileZilla](https://filezilla-project.org/)) ;    
 <small>Un client FTP est un logiciel qui permet de se connecter de manière sécurisée à un (vrai) serveur web pour y déposer les fichiers d’un site, afin de le publier en ligne.</small>
 * Un éditeur de code : [VS Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/) ;
