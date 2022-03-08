@@ -354,10 +354,10 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
     margin-top: .25em;
 }
 .sn-note .caption::before { content:  "↑ ";}
-}
+
 @media (max-width:1250px) {
     .sn-note{display:none}
-    .sn-toggle:checked + .sn-note{display:block;width:100%;float:left;clear:both;margin:1em 0;top:0}
+    .sn-toggle:checked + .sn-note{display:block; width:100%;float:none;clear:both;margin:1em 0;top:0}
     label[for^="sn-"]{color:#ff6347;cursor:pointer;font-weight:700}
 }
 
@@ -573,7 +573,8 @@ ul.list{
         margin: 0;
     }
     nav li, nav h3, nav ul {
-        display: inline-block;
+        display: inline;
+        line-height: 1.5;
     }
     .pane.active { display: block; }
     .active ~ .active { transform:none}
@@ -648,11 +649,14 @@ ul.list{
     top:-.15em;
     line-height: 1em;
 }
-
+.home .visite {
+    margin-bottom: 1em;
+}
 @media only screen and (max-width: 45em) {
 
     .pane.home {width: 100% !important;}
-    .home a {
+    
+    .homelinks a {
         position: static !important;
         display: inline-block;
         margin: 0 .25em .25em 0;
