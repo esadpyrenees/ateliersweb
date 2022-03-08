@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Cultures numériques – folklore de la zone mondiale";
+    $title = "Cultures numériques – Folklore de la zone mondiale";
     $section="culturenum";
     $subsection="folklore";
     $mdfile = "./index.md";
