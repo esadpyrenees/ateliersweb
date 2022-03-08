@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Javascript";
+    $title = "Ressources → Javascript";
     $section="ressources";
     $subsection="js";
     $nav = "/web/snippets/ressources/js.php";

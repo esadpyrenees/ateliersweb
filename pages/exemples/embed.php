@@ -56,7 +56,7 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
                 }
             }
             if (file_exists($thumb)) {
-                $thumb = "$localhost/web/medias/exemples/$dir/ogp.png";
+                $thumb = "$localhost/web/medias/exemples/$dir/ogp.png?text=$title";
                 echo "        <meta property='og:image' content='$thumb'>\n";
                 echo "        <meta name='twitter:image' content='$thumb'>\n";
             }

@@ -1,13 +1,12 @@
 <?php
     // config
-    $title = "Javascript";
+    $title = "Ressources → Javascript  → Fork";
     $section="ressources";
     $subsection="js";
     $subsubsection = "fork";
     $nav = "/web/snippets/ressources/js.php";
     $mdfile = "./fork.md";
 
-    $ogp_url = "ressources/js/fork/ogp.png";
     $custom_css = "fork.css";
 
     // includes

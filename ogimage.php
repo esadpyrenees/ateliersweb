@@ -11,6 +11,7 @@
     $text_str = $_GET["text"];
     if(isset($text_str)){
         $text_str = str_replace("– ", "\n", $text_str);
+        $text_str = str_replace("→ ", "\n→ ", $text_str);
     }
     
     
@@ -24,17 +25,19 @@
     $fontbold = $fonts_path  . "/Ecole-Bold.otf";
     $fontregular = $fonts_path  . '/' . "Ecole-Regular.otf";
 
+    $mediaroot = realpath(dirname(__FILE__) . "/medias/");
+
     // $request_uri = $_SERVER['REQUEST_URI'];
     // split query string to get clean filename :
     $request_uri = explode("?", $_SERVER['REQUEST_URI'])[0];
-    $final_file_path = '.' . str_replace("web/", "", $request_uri);
+    $final_file_path = $mediaroot . str_replace("web/medias/", "", $request_uri);
     $final_file_dir = dirname($final_file_path);
     if (!is_dir($final_file_dir)) {
         mkdir($final_file_dir, 0777, true);
     }
     
     $key  = 'ogpi_'. md5($section. '-' . $subsection) . '.png';
-    $mediaroot = realpath(dirname(__FILE__) . "/medias/");
+    
     $thumb = $final_file_path;
         
     // redirige vers le fichier s’il existe
@@ -88,11 +91,11 @@
 
         // sur-titre blanc
         $white = $mediaroot .'/ogp/'. $key . '.white.png';
-        $ogi = $convert . ' -size 750x380  -background black -gravity NorthWest -fill white -font ' . $fontregular . ' -pointsize 40  label:"ÉSAD Pyrénées → ateliers web"  ' . $white;
+        $ogi = $convert . ' -size 750x380  -background black -gravity NorthWest -fill white -font ' . $fontregular . ' -pointsize 30  label:"ÉSAD Pyrénées → ateliers web"  ' . $white;
         
         // titre blanc
         $whitetitle = $mediaroot .'/ogp/'. $key . '.whitetitle.png';
-        $title = $convert . ' -size 760x400  -background black -fill white -font ' . $fontbold . ' -pointsize 82 caption:"' . $text . '"   ' . $whitetitle;
+        $title = $convert . ' -size 800x418  -background black -fill white -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '"   ' . $whitetitle;
         
         // titre et sur-titre ensemble
         $paste = $convert . " -gravity Center -geometry +0+70 -compose Screen -extent 800x418 " . $white . " " . $whitetitle . "  -composite  " . $white;
@@ -117,34 +120,41 @@
     } else {
         
         $cache = $mediaroot .'/ogp/'. $key . '.cache.png';
+        $t = $mediaroot .'/ogp/'. $key . '.t.png';
         
         if(isset($text_str)){
             $text = rawurldecode($text_str);
         } else {
             $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ));
         }
-
+        
         // sur-titre blanc
-        $ogi = $convert . ' -size 750x380  -background white -gravity NorthWest -fill black -font ' . $fontregular . ' -pointsize 30 label:"ÉSAD Pyrénées → ateliers web"  ' . $thumb;
+        $ogi = $convert . ' -size 800x418 xc:' . $color . ' ' . $thumb;
+        //
+        $tt = $convert . ' -size 800x40 -background white -fill black -gravity SouthWest  -font ' . $fontregular . ' -pointsize 30 label:"ÉSAD Pyrénées → ateliers web"  ' . $t;
         // titre blanc
-        $title = $convert . ' -size 760x400  -background white -fill "' . $color . '" -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '"   ' . $cache;
+        $title = $convert . ' -size 800x418 -background black -fill white -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '"   ' . $cache;
         // titre et sur-titre ensemble
-        $paste = $convert . " -gravity Center -geometry +0+70 -compose Multiply -colorspace RGB -extent 800x418 " . $thumb . " " . $cache . "  -composite  " . $thumb;
+        $paste = $convert . " -gravity Center -geometry +20+80 -compose Screen -colorspace RGB  " . $thumb . " " . $cache . " -composite  " . $thumb;
+        $paste2 = $convert . " -gravity NorthWest -geometry +20+10 -compose Multiply -colorspace RGB  " . $thumb . " " . $t . " -composite  " . $thumb;
         
         // exécution
         exec ($ogi);
+        exec ($tt);
         exec ($title);
         exec ($paste);
+        exec ($paste2);
 
         // nettoyage
         exec ("rm -f " . $cache);
+        exec ("rm -f " . $t);
     }
 
     
     if (file_exists($thumb)) {
         serveImage($thumb);
     } else {
-        die('ERROR: Image generation failed : /web/media/ogp/'. $key);
+        die('ERROR: Image generation failed : /web/medias/ogp/'. $key);
     }
 
     // serve image
