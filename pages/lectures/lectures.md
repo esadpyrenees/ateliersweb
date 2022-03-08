@@ -13,6 +13,8 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 * #### Culture numérique
 Dominique Cardon, Les Presses de Sciences Po, 2019. [↗](http://www.pressesdesciencespo.fr/fr/book/?GCOI=27246100540390)
 
+* #### Digital Folklore
+Olia Lialina & Dragan Espenschied dans son livre [](Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf) 
 
 * #### Technique & design graphique – Outils, médias, savoirs
 Anthony Masure, Bruno Bachimont, Fabrice Sabatier, Indra Kupferschmid, Jean-Noël Lafargue, Kévin Donnot, Loup Cellard, Max Bonhomme, Nicolas Thély, Vivien Philizot, B42, 2019 [↗](https://editions-b42.com/produit/technique-design-graphique/)
@@ -53,14 +55,23 @@ Laurent Chemla, Denoël, [↗](http://www.confessions-voleur.net/)
 * #### Back office
 Sous la direction de Kévin Donnot, Élise Gay et Anthony Masure, B42 [↗](https://editions-b42.com/revues/back-office/)
 
-* #### Vacarme
+* #### Tèque
+Tèque s’intéresse à la vie des technologies et à nos vies avec elles [↗](https://revue-teque.fr/)
+
+* #### Design Arts Médias
+Une revue universitaire qui explore les frictions entre design, arts et médias [↗](https://journal.dampress.org/)
+
+* #### Sciences du Design
+Revue de recherche en design (Stéphane Vial, Jocelyne Le Bœuf)  [↗](https://sciences-du-design.org/)
+
+* #### Vacarme †
 Entre art et politique, entre savants et militants [↗](https://vacarme.org/)
 
 * #### Panthère Première
 Revue indépendante de critique sociale [↗](https://pantherepremiere.org/)
 
-* #### Nichons-nous dans l'Internet
-Nichons-nous dans l'Internet † fut une revue en papier intégralement consacrée à Internet [↗](http://nichonsnousdanslinternet.fr/)
+* #### Nichons-nous dans l'Internet †
+Nichons-nous dans l'Internet fut une revue en papier intégralement consacrée à Internet [↗](http://nichonsnousdanslinternet.fr/)
 
 * #### Sens public
 Revue interdisciplinaire de recherche : numérique, analyse philosophique et politique des mutations contemporaines des espaces publics [↗](https://sens-public.org)
@@ -119,7 +130,7 @@ Une série d’entretiens avec des auteurs et autrices qui pensent la société 
 Une série d’entretiens pour mieux comprendre les pratiques et usages du numérique qui modifient nos comportements au quotidien. [↗](https://moocdigital.paris/propos)
 </div>
 
-## Sites indispensables {#sites}
+## Lectures en ligne {#sites}
 
 <div class="gridlist" markdown="1">
 
