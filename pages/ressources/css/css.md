@@ -15,7 +15,7 @@ La mise en forme du texte est un aspect central du webdesign – comme du design
 ## ✋
 > <big> Avant de passer à la suite, il devient souhaitable de préciser quelques trucs et astuces utiles:</big>
 
-Découvrir l’intérêt d’une feuille de style [_reset_](reset). N’utiliser qu’[une seule feuille de style](#) par site (surtout pas une par page). Apprendre à utiliser [les outils de développement du navigateur](https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools).
+Découvrir l’intérêt d’une [feuille de style d’initialisation ](reset). N’utiliser qu’[une seule feuille de style](#) par site (surtout pas une par page). Apprendre à utiliser [les outils de développement du navigateur](https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools).
 
 ### Mise en page
 
