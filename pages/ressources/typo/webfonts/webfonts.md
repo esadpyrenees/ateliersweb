@@ -17,7 +17,7 @@ Chaque graisse (y compris les italiques) doit faire l’objet d’une déclarati
 }
 @font-face {
     font-family: 'MyWebFont';
-    font-weight: 400; /* Graisse : regulat */
+    font-weight: 400; /* Graisse : regular */
     font-style: italic; /* Style : italique */
     src: url('fonts/webfont-italic.woff') format('woff');
 }
@@ -41,7 +41,7 @@ p {
 ```
 ### Compatibilité
 
-Pour intégrer une police de caractères dans une page web, un seul fichier ne suffit pas pour assurer la compatibilité avec tous les navigateurs, bien qu’aujourd’hui, le support des formats woff (Web Open Font Format) et woff2 tende à se généraliser sur [les navigateurs modernes](https://caniuse.com/#search=woff).
+Pour intégrer une police de caractères dans une page web, un seul fichier ne suffit pas pour assurer la compatibilité avec tous les navigateurs, bien qu’aujourd’hui, le support des formats woff (Web Open Font Format) et woff2 se soit généralisé sur [les navigateurs modernes](https://caniuse.com/#search=woff).
 
 Pour une meilleure compatibilité, une syntaxe plus complète peut être saisie (et de nombreux fichiers doivent être présents):
 ```
@@ -67,7 +67,7 @@ Pour une meilleure compatibilité, une syntaxe plus complète peut être saisie 
 
 ### Services
 
-Le service [webfonts](http://www.google.com/webfonts/) de Google permet d’intégrer une police fournie par google en faisant simplement un lien avec la feuille de style qui la contient. <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web.</span> Il sera préférable de télécharger les polices, de les convertir en woff/woff2 (voir ci-dessous), de les inclure dans un fichier CSS, en les hébergeant soi-même. [^Google]
+Le service [webfonts](http://www.google.com/webfonts/) de Google permet d’intégrer une police fournie par google en faisant simplement un lien avec la feuille de style qui la contient. <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web.</span>[^Google] Il sera préférable de télécharger les polices, de les convertir en woff/woff2 (voir ci-dessous), de les inclure dans un fichier CSS, en les hébergeant soi-même. Alternativement, le service [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) permet de télécharger facilement les fichiers. 
 [^Google]:Un tribunal allemand a condamné (01/2022) l’exploitant d’un site Web pour avoir transféré l’adresse IP d’un utilisateur à Google via le service Google Fonts, sans consentement préalable, en vertu du RGPD.
 *[RGPD]: Règlement général sur la protection des données
 
