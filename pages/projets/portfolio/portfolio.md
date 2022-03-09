@@ -4,8 +4,9 @@
 
 Ce projet propose de découvrir les bases de l’utilisation de systèmes de gestion de contenus appliquées à la création d’un portfolio simple. Le projet est basé sur le CMS \[CMS: Content management system (système de gestion de contenu)\] open-source (mais non gratuit) [Kirby](https://getkirby.com/).
 
-Les différentes version du code source du projet sont téléchargeables ici:
-[↗ github.com/jbidoret](https://github.com/jbidoret/portfolio/) {.bigbutton}
+Les différentes version du code source du projet sont [accessibles sur GitHub](https://github.com/jbidoret/portfolio/) ou téléchargeables ci-dessous :
+
+[↗ github.com/jbidoret/portfolio](https://github.com/jbidoret/portfolio/archive/refs/heads/master.zip) {.bigbutton}
 
 Pour les plus aventureux·ses, il est aussi possible d’utiliser **git**. Soit en ligne de commande (dans un terminal), soit via une application ([Github Desktop](https://desktop.github.com/) ou [Sourcetree](https://www.sourcetreeapp.com/)). 
 ```
@@ -24,7 +25,7 @@ git clone https://github.com/jbidoret/portfolio/tree/newmedias.git
 <small>MAMP ou XAMPP permettent d’installer sur un mac ou un pc un “serveur de développement” qui reproduit les conditions et la structure logicielle d’un “vrai” serveur web. En démarrant l’application, on lance plusieurs programmes (Apache, PHP, MySQL) qui permettent de “servir” des sites web localement (http://localhost).</small>
 
 * Un hébergeur : [Alwaysdata](https://alwaysdata.com/) ou [OVH](https://ovh.com) ;    
-<small>NB: les étudiants de l’ÉSAD Pyrénées peuvent bénéficier d’un compte Alwaysdata gratuit augmenté à 200 Mo en [me contactant](mailto:julien.bidoret@esad-pyrenees.fr). De nombreux hébergeurs existent, commerciaux ou associatifs. Alwaysdata fournit un très bon service, mais est comparativement plus cher que d’autres (OVH, Gandi, 1&1, Amen…).</small>
+<small>NB: les étudiants de l’ÉSAD Pyrénées peuvent bénéficier d’un compte Alwaysdata gratuit augmenté à 200 Mo en [me contactant](mailto:julien.bidoret@esad-pyrenees.fr). De nombreux hébergeurs existent, commerciaux ou associatifs. Alwaysdata fournit un très bon service, mais est comparativement légèrement plus cher que d’autres (OVH, Gandi, 1&1, Amen…).</small>
 * Un client FTP ([Cyberduck](https://cyberduck.io/), [FileZilla](https://filezilla-project.org/)) ;    
 <small>Un client FTP est un logiciel qui permet de se connecter de manière sécurisée à un (vrai) serveur web pour y déposer les fichiers d’un site, afin de le publier en ligne.</small>
 * Un éditeur de code : [VS Code](https://code.visualstudio.com/) ou [Atom](https://atom.io/) ;
@@ -50,3 +51,4 @@ Vous pourrez ensuite :
 
 * Une sélection de portfolios par en ligne [Stéphane Elbaz sur are.na](https://www.are.na/stephane-elbaz/portfolio--12).
 * Le filtre “portfolio” sur [hoverstat.es](https://www.hoverstat.es/archive/)
+* Les portfolio générés à partir de [Cargo.site](https://cargo.site)

@@ -1,6 +1,7 @@
 <?php
     // config
-    $title = "Projets: Portfolio";
+    $title = "Projets – Portfolio avec Kirby";
+    $description = "Les grands principes de l’utilisation de systèmes de gestion de contenus appliquées à la création d’un portfolio";
     $section="projets";
     $subsection="portfolio";
     $subsubsection="intro";

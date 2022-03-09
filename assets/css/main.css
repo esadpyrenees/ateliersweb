@@ -252,10 +252,11 @@ td code {
 h5.filename {
     margin: 0;
     background-color: #272822;
-    padding: .5em ;
     color: #ccc;
     border-bottom: 1px solid #75715e;
     font-weight: normal;
+    margin: 0 -40px;
+    padding: 0.5em 40px !important;
 }   
 h5.filename + pre {
     margin-top: 0;

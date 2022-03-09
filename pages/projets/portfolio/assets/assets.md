@@ -78,7 +78,7 @@ On peut alors cibler des éléments depuis la feuille de style grâce aux [séle
 
 ```css
 [data-template="project"] h1 { font-size:4em; }
-[data-id="projets/mon-super-projet"] { background: tomato; }
+[data-id="mon-super-projet"] { background: tomato; }
 ```
 
 ### Panel et mise en page

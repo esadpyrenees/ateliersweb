@@ -56,6 +56,8 @@ Il existe une notation raccourcie pour faire appel à la méthode `echo` :
 ?>
 ```
 
+Pour aller plus loin avec PHP (pas forcément en contexte Kirby), parcourir [l’introduction à PHP](../../../ressources/php/).
+
 ## PHP & Kirby {#kirby}
 
 Dans le contexte des templates de Kirby, seules quelques bases de PHP sont nécessaires.
