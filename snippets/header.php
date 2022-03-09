@@ -22,8 +22,8 @@
     echo "        <meta name='twitter:description' content='$host/web/medias/$ogp_url'>\n";
     } else {
       $text = rawurlencode($title);
-      echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text'>\n";    
-      echo "        <meta property='twitter:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text'>\n";    
+      echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text" . (isset($version) ? '&version=' . $version : "") . "' >\n";    
+      echo "        <meta property='twitter:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text" . (isset($version) ? '&version=' . $version : "") . "' >\n";    
     }
     if(isset($canonical_url)){
       echo '<link rel="canonical" href="'. htmlspecialchars($canonical_url) .'" >';
