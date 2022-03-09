@@ -167,6 +167,7 @@ ni la “qualité” ni la quantité de code ne sont des critères d’évaluati
 * Le [Désordre](http://desordre.net/) ! Un projet d’écriture, de photographie, d’images et de sens mené par Philippe de Jonckherre.
 * [Magasin général](http://magasin-general.fr/), compagnon webdocumentaire du livre de David Dufresne, avec Antonin Lhôte + upian
 * Les [antilivres](https://www.antilivre.org/#manifeste) d’abrüpt
+* [otherti.me](https://otherti.me/), un projet de Raphaël Bastide
 
 ### Jeux scène alternative itch.io
 * [A Desktop Love Story](https://alienmelon.itch.io/lovestory), jeu basé sur le système de fichiers de votre ordinateur, une histoire d’amour entre deux fichiers. Voir aussi [Foldscape](https://porpentine.itch.io/foldscape).
