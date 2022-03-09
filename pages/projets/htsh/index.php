@@ -8,6 +8,7 @@
     $mdfile = "./index.md";
     // $date = "today";
     $nav = "/web/snippets/projets/htsh.php";
+    $version = "1.0.1";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
