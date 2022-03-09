@@ -7,7 +7,7 @@
     $subsubsection="intro";
     $nav = "/web/snippets/projets/portfolio.php"; // specific subnav
     $mdfile = "./portfolio.md";
-    $version = "1.0.1";
+    $version = "1.0.2";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
