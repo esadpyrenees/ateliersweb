@@ -1,13 +1,13 @@
 <?php
     // config
-    $title = "Projets – Portfolio avec Kirby";
+    $title = "Projets → Portfolio avec Kirby";
     $description = "Les grands principes de l’utilisation de systèmes de gestion de contenus appliquées à la création d’un portfolio";
     $section="projets";
     $subsection="portfolio";
     $subsubsection="intro";
     $nav = "/web/snippets/projets/portfolio.php"; // specific subnav
     $mdfile = "./portfolio.md";
-    $version = "1.0.2";
+    $version = "1.0.3";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
