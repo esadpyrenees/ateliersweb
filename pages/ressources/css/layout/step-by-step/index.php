@@ -1,6 +1,7 @@
 <?php
     // config
     $title = "Ressources CSS – Mise en page pas à pas";
+    $description = "Pas à pas à travers la succession de décisions induites par la réalisation d’une mise en page web conventionnelle";
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";
