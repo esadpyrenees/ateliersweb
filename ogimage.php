@@ -17,6 +17,7 @@
     
     $section = isset($params[0]) ? $params[0] : "";
     $subsection = isset($params[1]) ? $params[1] : "";
+    $subsubsection = isset($params[2]) ? $params[2] : "";
     
 
     // attention, chemins en dur !
@@ -36,7 +37,7 @@
         mkdir($final_file_dir, 0777, true);
     }
     
-    $key  = 'ogpi_'. md5($section. '-' . $subsection) . '.png';
+    $key  = 'ogpi_'. md5($section. '-' . $subsection . ($subsubsection != "" ? '-' . $subsubsection : "")) . '.png';
     
     $thumb = $final_file_path;
         
@@ -134,7 +135,7 @@
         if(isset($text_str)){
             $text = rawurldecode($text_str);
         } else {
-            $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ));
+            $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ) . ($subsubsection != "" ? "→ " . ucfirst("$subsubsection") : "" ));
         }
         
         // sur-titre blanc
