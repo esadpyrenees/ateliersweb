@@ -1,10 +1,11 @@
 <?php
     // config
-    $title = "ÉSAD·Pyrénées — Ateliers web — Projets";
+    $title = "Ateliers web — À propos";
     $section="about";
     // $subsection="PAGE";
     // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
     $mdfile = "./about.md";
+    $description = "Le site réunit des ressources et références liées aux enseignements en webdesign, cultures numériques et écritures numériques de Julien Bidoret à l’ÉSAD Pyrénées.";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
