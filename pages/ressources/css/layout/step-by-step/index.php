@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Ressources – CSS";
+    $title = "Ressources CSS – Mise en page pas à pas";
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";
