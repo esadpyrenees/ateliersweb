@@ -10,6 +10,7 @@
     
     $text_str = $_GET["text"];
     if(isset($text_str)){
+        $text_str = rawurldecode($text_str);
         $text_str = str_replace("– ", "\n", $text_str);
         $text_str = str_replace("→ ", "\n→ ", $text_str);
     }
@@ -133,7 +134,7 @@
         $t = $mediaroot .'/ogp/'. $key . '.t.png';
         
         if(isset($text_str)){
-            $text = rawurldecode($text_str);
+            $text = $text_str;
         } else {
             $text = addslashes(ucfirst($section) . "\n" . ($subsection != "" ? "→ " . ucfirst("$subsection") : "" ) . ($subsubsection != "" ? "→ " . ucfirst("$subsubsection") : "" ));
         }
