@@ -2,7 +2,7 @@
   include($_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php');
   $Parsedown = new Parsedown();
 
-  $title = "Projets: Pecha Kucha";
+  $title = "Projets → Pecha Kucha";
   $section="projets";
   $subsection="pechakucha";
   include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
