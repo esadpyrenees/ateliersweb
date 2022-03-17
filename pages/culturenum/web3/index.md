@@ -2,9 +2,8 @@
 
 Disclaimer !
 
-
-## Petites annonces
-* [Décolonialiser le numérique](https://www.reseaucritiquesdeveloppementdurable.fr/decolonialiser-le-numerique-debats-autour-des-espaces-critiques-des-ecologies-du-numerique/)
+Petites annonces[^decoloniser]. 
+[^decoloniser]: [Décolonialiser le numérique](https://www.reseaucritiquesdeveloppementdurable.fr/decolonialiser-le-numerique-debats-autour-des-espaces-critiques-des-ecologies-du-numerique/)
   Une journée d’étude consacrée à l’étude des enjeux des écologies du numérique, appuyée sur un regard “décolonial” (qui tient compte de la complexité des rapports de force hérités du colonialisme, ainsi que des approches explorées hors de l’Occident et des systèmes politiques, économiques et sociaux qu’il a imposé).
 
 ### La blockchain
@@ -30,17 +29,18 @@ Les chaînes de blocs furent longtemps principalement connues comme étant la ba
 
 ### Les NFT
 
-Depuis le début de l’année 2021, les NFT – _Non fungible token_, ou jeton non fongible – ont acquis une popularité grandissante, notamment au travers de la médiatisation de ventes d’œuvres d’art numérique, atteignant des prix considérables. Leur émergence populaire date de 2017 et du jeu en ligne [CryptoKitties](https://fr.wikipedia.org/wiki/CryptoKitties) permettant d’échanger (vendre et acheter) des chats virtuels…
+Depuis le début de l’année 2021, les NFT – _Non fungible token_, ou jeton non fongible – ont acquis une popularité grandissante, notamment au travers de la médiatisation de ventes d’œuvres d’art numérique, atteignant des prix considérables. Leur émergence populaire date de 2017 et du jeu en ligne [CryptoKitties](https://fr.wikipedia.org/wiki/CryptoKitties) permettant d’échanger (vendre et acheter) des chats virtuels.
 
 > UN NFT est un certificat numérique, le plus souvent un acte de propriété, consigné dans un registre numérique public et décentralisé, attaché à une entité numérique ou tangible.
-> Un NFT est éputé infalsifiable, du fait de son inscription dans une chaîne de blocs.
+> Un NFT est réputé infalsifiable, du fait de son inscription dans une chaîne de blocs.
 
 Par essence, un “objet” numérique peut être copié à l’infini, sans qu’il existe de possibilité de distinguer l’original d’une copie. On qualifie la “propriété” numérique du terme “[non rival](https://fr.wikipedia.org/wiki/Rivalit%C3%A9_(%C3%A9conomie))”. Les NFT sont une manière de créer “artificiellement” de la rareté numérique. 
 
 > <big>Dans notre monde, tout ce que l’esprit humain est capable de créer peut être reproduit et diffusé à l’infini sans que cela ne coûte rien.</big>
 
-— Déclaration d’in­dépendance du cyberespace,  John Perry Barlow
+— John Perry Barlow[^barlow]
 
+[^barlow]:[Déclaration d'indépendance du cyberespace](http://editions-hache.com/essais/barlow/barlow2.html), 8 fév 1996
 
 La “non-fongibilité” d’un NFT traduit le caractère non interchangeable du certificat. Là ou un euro est équivalent à n’importe quel autre euro –ils ont la même valeur–, un NFT est unique et identifiable.
 
@@ -54,21 +54,21 @@ Les NFT promettent plusieurs choses :
   Le NFT de cette image ("CryptoPunk #5822" : ![cryptopunk](images/punk5822.png)) s'est [vendu](https://journalducoin.com/nft/cryptopunks-23-millions-dollars-nft-punk-peau-bleue/) à 8000 Ξ (23.7 millions d'euros) en février 2022. 
 
 L’avènement des NFT a produit des clivages et des clash assez formidables parmi la communauté des “artistes numériques”.
-[Memo Akten](https://memo.tv), [estime](https://memoakten.medium.com/the-unreasonable-ecological-cost-of-cryptoart-2221d3eb2053) que la création d'un NFT sur Ethereum nécessite plus de 340 kWh d'énergie, soit 211 eqCO<sub>2</sub>. [Kyle McDonald](https://twitter.com/kcimc) publie une estimation en temp-réel des émissions de la chaîne Ethereum. Cette problématique écologique fut la première raison des clivages entre artistes, et du refus de certaines de participer à cet univers, avant que de nombreuses autres problématiques soient également soulevées.
+[Memo Akten](https://memo.tv), [estimait](https://memoakten.medium.com/the-unreasonable-ecological-cost-of-cryptoart-2221d3eb2053) que la création d'un NFT sur la chaîne Ethereum nécessite plus de 340 kWh d'énergie, soit 211 eqCO<sub>2</sub>. [Kyle McDonald](https://twitter.com/kcimc) publie une estimation en temp-réel des émissions de la chaîne Ethereum. Cette problématique écologique fut la première raison des clivages entre artistes, et du refus de certaines de participer à cet univers, avant que de nombreuses autres problématiques soient également soulevées, notamment la centralité de la dimension monétaire ; le caractère principalement marchand des NFTs.
 
 #### Défauts
 
  De très nombreux acteurs des mondes numériques questionnent et critiquent la logique à l’œuvre derrière les NFTs (ou à minima, derrière certaines blockchains). 
 
-Des problémes écologiques[^fly]. Les chaînes de blocs sont réputées extrêmement voraces en énergie. La « preuve de travail » (_proof of work_, *PoW*), à la base de nombreuses technologies blockchain, est un système dans lequel s’affrontent des “mineurs” qui ont pour charge de calculer l’intégrité des blocs. Ce calcul est extrêmement coûteux en énergie et en matériel. Les communautés autour des blockchains ont tâché de trouver des solutions plus vertueuses ([preuve de sécurité](https://fr.wikipedia.org/wiki/Preuve_de_s%C3%A9curit%C3%A9), [preuve d’histoire](https://cryptoweek.fr/preuve-dhistoire-poh-un-guide-pour-les-debutants), preuve d'enjeu – notamment dans le cas de la chaîne [Tezos](https://fr.wikipedia.org/wiki/Tezos)), sans toutefois réussir à solutionner efficacement le problème énergétique.
+Des problèmes écologiques[^fly]. Les chaînes de blocs sont réputées extrêmement voraces en énergie. La « preuve de travail » (_proof of work_, *PoW*), à la base de nombreuses technologies blockchain, est un système dans lequel s’affrontent des “mineurs” qui ont pour charge de calculer l’intégrité des blocs. Ce calcul est extrêmement coûteux en énergie et en matériel. Les communautés autour des blockchains ont tâché de trouver des solutions plus vertueuses ([preuve de sécurité](https://fr.wikipedia.org/wiki/Preuve_de_s%C3%A9curit%C3%A9), [preuve d’histoire](https://cryptoweek.fr/preuve-dhistoire-poh-un-guide-pour-les-debutants), preuve d'enjeu – notamment dans le cas de la chaîne [Tezos](https://fr.wikipedia.org/wiki/Tezos)), sans toutefois réussir à complètement solutionner le problème énergétique.
 
 [^fly]: Le [Bitcoin](https://www.theguardian.com/technology/2018/jan/17/bitcoin-electricity-usage-huge-climate-cryptocurrency) consomme autant d’énergie qu’un million de vols transatlantiques par an (en 2019…).
 
 Des problèmes philosophiques, techniques et conceptuels[^sebsauvage2] : 
-* Un NFT n’est pas l’œuvre mais un “pointeur” vers l’œuvre. En achetant un NFT, on n’achète pas l’œuvre ; on paye l’enregsitrement dans un regsitre de l'information: « L'URL https://example.com/image5.jpg est associée à l'utilisateur TOTO. ». Ce “pointeur” est réputé stable, immuable, mais l’URL ne l’est pas. Le fichier référencé peut changer au bon vouloir du gestionnaire du domaine (la majorité des NFT sont des URLs).
-* (Tout comme la notion de [monnaie](https://www.youtube.com/watch?v=CMos6Yj1-ZI)) La “propriété” garantie par le NFT est une affaire de consensus, de contrat social. Le consensus sur la réalité de la propriété n’existe qu’au sein de la chaîne – et pas ailleurs. Contrairement à la plupart des monnaies importantes, gérées par des états ou des banques centrales, les cryptomonnaies et les NFTs sont très éclatées (il existe ± 8000 blockchains).
+* Un NFT n’est pas l’œuvre mais un “pointeur” vers l’œuvre. En achetant un NFT, on n’achète pas l’œuvre ; on paye l’enregistrement dans un registre de l'information: « L'URL https://example.com/image5.jpg est associée à l'utilisateur TOTO. ». Ce “pointeur” est réputé stable, immuable, mais l’URL ne l’est pas. Le fichier référencé peut changer au bon vouloir du gestionnaire du domaine (la majorité des NFT sont des URLs).
+* (Tout comme la notion de [monnaie](https://www.youtube.com/watch?v=CMos6Yj1-ZI)) La “propriété” garantie par le NFT est une affaire de consensus, de contrat social. Le consensus sur la réalité de la propriété n’existe qu’au sein de la chaîne – et pas ailleurs. Contrairement à la plupart des monnaies importantes, gérées par des états ou des banques centrales, les cryptomonnaies et les NFTs sont très éclatées (il existe ± 8000 blockchains). Comme l'argent, le NFT est « une [illusion partagée](https://www.bortzmeyer.org/nft.html) ».
 * Si les NFTs produisent des mécanismes d’échanges et de financement de productions artistiques valables, ils sont surtout le marqueur d’une transformation artificielle d’une ressource illimitée (un fichier numérique, copiable à l’infini) en un object rare et spéculatif. Les NFT signalent un nouvel avènement d’un _internet de la transaction_, principalement monétaire.
-* La décentralisation que revendiquent les blockchains et les NFTs n’est que de façade. En effet, s’il est techniquement possible de vendre et d’acheter soi-même des NFTs, l’immense majorité des transactions a mieu sur des plateformes centralisées ([Opensea](https://opensea.io/), [Rarible](https://rarible.com/), [SuperRare](https://superrare.com/), etc.)
+* La décentralisation que revendiquent les blockchains et les NFTs n’est que de façade. En effet, s’il est techniquement possible de vendre et d’acheter soi-même des NFTs, l’immense majorité des transactions a lieu sur des plateformes centralisées ([Opensea](https://opensea.io/), [Rarible](https://rarible.com/), [SuperRare](https://superrare.com/), etc.) dont la pérennité est très relative. 
 
 [^sebsauvage2]: À nouveau basé sur _[Le(s) problème(s) avec les NFT](https://sebsauvage.net/wiki/doku.php?id=nft)_ de sebsauvage.net. Lire aussi une [approche plus technique](https://www.bortzmeyer.org/nft.html) de Stéphane Bortzmeyer.
 
@@ -81,8 +81,8 @@ Quelques exemples aléatoires : [Albertine Meunier](https://albertinemeunier.net
 [Laurence Allard](https://twitter.com/laurenceallard), sémiologue et maître de conférences en sciences de la communication, signale la dimension expérimentale et réflexive que peut permettre d’explorer l’usage des NFT. Écouter _[NFT, cryptoart, et Samouraï virtuel](https://www.youtube.com/watch?v=fpdr8QNVtNE)_.
 
 #### Petit lexique
-* Les _smart contracts_ : des NFT complexes, répandus notamment dans la chaîne Ethereum, qui peuvent être programmés.
-* Les _DAO_ : des organisations décentralisées, qui peuvent décider collectivement de la “gouvernance” des œuvres ou objets numériques.
+* Les _smart contracts_ : des programmes, enregistrés dans une chaîne de blocs, répandus notamment dans la chaîne Ethereum, qui peuvent déclencher des actions (transferts d’actifs, notamment) de manière automatisée lorsque certaines conditions sont atteintes.
+* Les _DAO_ : des organisations autonomes décentralisées, qui peuvent décider collectivement de la “gouvernance” des œuvres ou objets numériques et dont les règles de fonctionnement sont transparentes et immuables, car inscrites dans une blockchain. On qualifie leur fonctionnement de “démocratique” (plus souvent : majoritaire).
 * _Cryptoart_ : L’ensemble divers des productions artistiques ayant recours aux logiques de blockchain ou de NFTs.
 
 ### Le Web3
@@ -96,11 +96,11 @@ La “notion” de Web3 se signale par un haut niveau de ~~bullshit~~ désinvolt
 
 [^web3isgoinggreat]: Source : [web3isgoinggreat.com](https://web3isgoinggreat.com/what)
 
-Selon ses partisans, le Web3 est le “futur de l’internet”. Il sera décentralisé et basé sur la blockchain. Les données ne seront pas contrôlées par les "Big Tech", elles seront incensurables et égalitaires. Ce qui s’avère déjà partiellement, et donc totalement, faux. La décentralisation est un principe fondateur d’Internet et n'est pas quelque chose qui est seulement (ou mieux) atteint via les blockchains. 
+Selon ses partisans, le Web3 est le “futur de l’internet”. Il sera décentralisé et basé sur la blockchain. Les données ne seront pas contrôlées par les “Big Tech”, elles seront incensurables et égalitaires. Ce qui s’avère déjà partiellement, et donc totalement, faux. La décentralisation est un principe fondateur d’Internet et n'est pas quelque chose qui est seulement (ou mieux) atteint via les blockchains. 
 
 Le(s) “Metavers”, ~~vendus~~ promis par ~~Facebook~~ Meta, mériteraient une réflexion spécifique, qui dépasse le cadre de cette introduction.
 
-L’appropriation du terme “Web” par le “Web3” est également criticable. Le Web, système de publication d’informations ouvert et libre fondé sur l’hypertextualité, bien que déjà largement mis à mal par le “Web 2.0” n’a que peu à voir avec l’univers de transactions financières que promeuvent les partisans de l’écosystème Web3 / NFT. 
+L’appropriation du terme “Web” par le “Web3” est également critiquable. Le Web, système de publication d’informations ouvert et libre fondé sur l’hypertextualité, bien que déjà largement mis à mal par le “Web 2.0” n’a que peu à voir avec l’univers de transactions financières que promeuvent les partisans de l’écosystème Web3 / NFT. 
 
 Des réactions salutaires ont donc éclos. [Make Free Stuff](https://mxb.dev/blog/make-free-stuff/), par Max Böck ou [From the Philosophy of the Open to the Ideology of the User-Friendly](https://loriemerson.net/2013/02/02/from-the-philosophy-of-the-open-to-the-ideology-of-the-user-friendly-2/) de Lori Emerson ne sont que deux exemples choisis parmi cent autres [^TBL]. 
 
@@ -140,11 +140,11 @@ Ce panorama des « manières dont les écosystèmes numériques mobilisent les 
 
 Quelques moments-clés de lecture :
 
-* la première [déclaration de guerre](https://gigaom.com/2012/11/14/when-armies-become-media-israel-live-blogs-and-tweets-an-attack-on-hamas/) sur Twitter (Israel live-blogs and tweets an attack on Hamas, 2012)
-* La guerre des images, Zelinski et [son discours](https://www.youtube.com/watch?v=p-zilnPtZ2M) de 9 minutes au lendemain de l'annonce de l'entrée des troupes russes. 
-* Wikipédia, guerre d’édition et documentation encyclopédique en temps réel.
+* La première [déclaration de guerre](https://gigaom.com/2012/11/14/when-armies-become-media-israel-live-blogs-and-tweets-an-attack-on-hamas/) sur Twitter (_Israel live-blogs and tweets an attack on Hamas_, 2012)
+* La guerre des images, Zelinsky et [son discours](https://www.youtube.com/watch?v=p-zilnPtZ2M) de 9 minutes au lendemain de l'annonce de l'entrée des troupes russes, sest tweets et vidéos
+* Wikipédia, guerre d’édition et documentation encyclopédique en temps réel
 * Babélisation des expertises ([@versac](https://twitter.com/versac/status/1497150905115947031))
-* Décor des affiliations (drapeaux)
+* Décor des affiliations (drapeaux FB)
 * Anonymous vs [Telecomix](http://web.archive.org/web/20160308010311/http://datalove.me/)
 * Algorithmes et recommandations
 * Tutos Molotov
@@ -155,14 +155,14 @@ Quelques moments-clés de lecture :
 * Les câbles, l'infrastructure
 * Telegram et les espaces inter-individuels
 * La première victime d'une guerre, c'est la vérité (Kipling).
-* TikTok, remédiations et musicalité
+* TikTok, remédiations et musicalités
 * Guerre des signes ([La Haye](https://www.affordance.info/.a/6a00d8341c622e53ef0282e148dff7200b-pi)) 
 * Tuer Vladimir Poutine ? + réaction russe aux annonces de FB/Meta
 * Facebook tue des gens (Rohingyas, Ouïghours…)
 
 Ailleurs, à nouveau:
-* Zelinksy [DeepFake](https://twitter.com/MikaelThalen/status/1504123674516885507)
-* [In the future, everyone will post their 15 seconds of war footage](https://twitter.com/Klingebeil/status/1504124221861027845), influenceur·ses guerrièr·es
+* Volodimir _Fake_ Zelinksy [DeepFake](https://twitter.com/MikaelThalen/status/1504123674516885507)
+* _[In the future, everyone will post their 15 seconds of war footage](https://twitter.com/Klingebeil/status/1504124221861027845)_, influenceur·ses guerrièr·es
 
 
 ## Médiatisation en campagne
@@ -196,7 +196,7 @@ Youtube, Twitch, Twitter (spaces), etc.
 
 
 
-#### Ressources en ligne
+## Ressources en ligne
 
 [→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_web3?lang=fr){.bigbutton}
 
