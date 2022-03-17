@@ -1,10 +1,10 @@
 <?php
     // config
-    $title = "Cultures numériques →  Web3 ?";
+    $title = "Cultures numériques →  Web3, Ukraine et présidentielles";
     $section="culturenum";
     $subsection="web3";
     $mdfile = "./index.md";
-    $description = "";
+    $description = "Blockchains, NFTs et Web3 + traitement médiatique de la guerre en Ukraine et de la campagne présidentielle";
     // $date = "today";
 
     // includes
