@@ -2,6 +2,8 @@
 
 Disclaimer !
 
+Tout discours est _situé_, énoncé depuis un point de vue qu’il est préférable de connaître (ou d’examiner) quand une information est reçue. Les éléments recueillis ci-dessous ne manquent pas à cette règle et ne prétendent à nulle objectivité. Ils sont en outre
+
 Petites annonces[^decoloniser]. 
 [^decoloniser]: [Décolonialiser le numérique](https://www.reseaucritiquesdeveloppementdurable.fr/decolonialiser-le-numerique-debats-autour-des-espaces-critiques-des-ecologies-du-numerique/)
   Une journée d’étude consacrée à l’étude des enjeux des écologies du numérique, appuyée sur un regard “décolonial” (qui tient compte de la complexité des rapports de force hérités du colonialisme, ainsi que des approches explorées hors de l’Occident et des systèmes politiques, économiques et sociaux qu’il a imposé).
@@ -85,6 +87,7 @@ Quelques exemples aléatoires : [Albertine Meunier](https://albertinemeunier.net
 * Les _DAO_ : des organisations autonomes décentralisées, qui peuvent décider collectivement de la “gouvernance” des œuvres ou objets numériques et dont les règles de fonctionnement sont transparentes et immuables, car inscrites dans une blockchain. On qualifie leur fonctionnement de “démocratique” (plus souvent : majoritaire).
 * _Cryptoart_ : L’ensemble divers des productions artistiques ayant recours aux logiques de blockchain ou de NFTs.
 
+* _Wallet_
 ### Le Web3
 
 Le ~~buzzword~~ terme _Web3_ est advenu en tant que suite à celui de _Web 2.0_, cette période du web ayant émergé dans les années 2000, qui consacrait l’un des espoirs clés de la fondation du web : sa démocratisation. La période était née dans la liberté de l’expression individuelle des blogs, mais allait progressivement consacrer le règne des plateformes hypercentralisées que nous connaissons aujourd’hui ; réseaux sociaux, devenus médias sociaux.
@@ -113,7 +116,7 @@ Des réactions salutaires ont donc éclos. [Make Free Stuff](https://mxb.dev/blo
 
 ### Capitalisme tardif
 
-Le capitalisme tardif, _late-stage capitalism_, désigne, dans certaines théories marxistes, la période actuelle du capitalisme. Le terme implique (espère ?) la finalité prochaine de ce régime économique et social[^latestage]. 
+Le capitalisme tardif, _late-stage capitalism_, désigne, dans certaines théories marxistes, la période actuelle du capitalisme. Le terme implique (espère ?) la fin prochaine de ce régime économique et social[^latestage]. 
 Ce terme et cette période, au delà du débat qu’elle ouvre en économie ou en philosophie [^sennet], est également explorée par [Humans of late capitalism](https://humansoflatecapitalism.tumblr.com/), un ensemble de comptes présents sur de nombreux réseaux sociaux [^knowyourmeme] ([facebook](https://www.facebook.com/Humans-Of-Late-Capitalism-686984161471404/), [twitter](https://twitter.com/neighbours_wifi), [instagram](https://www.instagram.com/HumansOfLate/), [reddit](https://www.reddit.com/r/LateStageCapitalism/)…), qui publie des images, généralement non légendées, témoignant du caractère fondamentalement dystopique de l’époque que nous vivons. Images incongrues, effrayantes, ironiques ou cinglantes, elles mettent en lumière les failles d’un monde où le consumérisme, la financiarisation, la technologie ou encore les travers des pouvoirs politiques et économiques confinent à l’absurde. Elles dessinent les marges, les aberrations et les fissures du capitalisme tardif. Voir l’article de Jay Hathaway sur [The Daily Dot](https://www.dailydot.com/unclick/humans-of-late-capitalism-twitter/)
 
 [^knowyourmeme]: Voir [knowyourmeme](https://knowyourmeme.com/memes/cultures/late-capitalism) ou [urbandictionary](https://www.urbandictionary.com/define.php?term=late%20capitalism).
@@ -140,43 +143,48 @@ Ce panorama des « manières dont les écosystèmes numériques mobilisent les 
 
 Quelques moments-clés de lecture :
 
-* La première [déclaration de guerre](https://gigaom.com/2012/11/14/when-armies-become-media-israel-live-blogs-and-tweets-an-attack-on-hamas/) sur Twitter (_Israel live-blogs and tweets an attack on Hamas_, 2012)
-* La guerre des images, Zelinsky et [son discours](https://www.youtube.com/watch?v=p-zilnPtZ2M) de 9 minutes au lendemain de l'annonce de l'entrée des troupes russes, sest tweets et vidéos
-* Wikipédia, guerre d’édition et documentation encyclopédique en temps réel
+* La première [déclaration de guerre](https://gigaom.com/2012/11/14/when-armies-become-media-israel-live-blogs-and-tweets-an-attack-on-hamas/) sur Twitter (_Israel live-blogs and tweets an attack on Hamas_, 2012) ; 
+* La guerre des images, Zelinsky et [son discours](https://www.youtube.com/watch?v=p-zilnPtZ2M) de 9 minutes au lendemain de l'annonce de l'entrée des troupes russes, ses selfies, tweets et vidéos ; 
+* [Wikipédia](https://twitter.com/bibliofab66/status/1496785203502600192), guerre d’édition et documentation encyclopédique en temps réel
 * Babélisation des expertises ([@versac](https://twitter.com/versac/status/1497150905115947031))
-* Décor des affiliations (drapeaux FB)
-* Anonymous vs [Telecomix](http://web.archive.org/web/20160308010311/http://datalove.me/)
+* Décor des affiliations (drapeaux sur FB, Twitter)
+* [Anonymous](https://twitter.com/bluetouff/status/1497166030736666645) vs [Telecomix](http://web.archive.org/web/20160308010311/http://datalove.me/). Lisez [reflets.info](https://reflets.info/).
 * Algorithmes et recommandations
-* Tutos Molotov
+* Tutos Molotov et [conduite de tank](https://twitter.com/UkrainiaUpdates/status/1498448553525616640) (vidéo de 2020)
 * Interdiction des médias – et réciproquement
 * Étiquettage des journalistes (Twitter)
 * Avis-clients (TripAdvisor, Google Maps…)
 * Low tech : radiodiffusion à haute fréquence / ondes courtes
 * Les câbles, l'infrastructure
 * Telegram et les espaces inter-individuels
-* La première victime d'une guerre, c'est la vérité (Kipling).
+* La première victime d'une guerre, c'est la vérité (Rudyard Kipling).
 * TikTok, remédiations et musicalités
 * Guerre des signes ([La Haye](https://www.affordance.info/.a/6a00d8341c622e53ef0282e148dff7200b-pi)) 
 * Tuer Vladimir Poutine ? + réaction russe aux annonces de FB/Meta
 * Facebook tue des gens (Rohingyas, Ouïghours…)
 
-Ailleurs, à nouveau:
-* Volodimir _Fake_ Zelinksy [DeepFake](https://twitter.com/MikaelThalen/status/1504123674516885507)
-* _[In the future, everyone will post their 15 seconds of war footage](https://twitter.com/Klingebeil/status/1504124221861027845)_, influenceur·ses guerrièr·es
+Ailleurs :
+* Volodimir _[Fake](https://twitter.com/MikaelThalen/status/1504123674516885507)_ Zelinksy. Voir [reface.ai](https://hey.reface.ai/).
+* _[In the future, everyone will post their 15 seconds of war footage](https://twitter.com/Klingebeil/status/1504124221861027845)_, influenceur·ses guerrièr·es.
+* Sur Twitter, suivre [Olivier Tesquet](https://twitter.com/oliviertesquet), [Samuel Gontier](https://twitter.com/SamGontier) ou [Nassira El Moaddem](https://twitter.com/NassiraELM).
+
+***
 
 
 ## Médiatisation en campagne
 
 En ces temps de campagne électorale, et sans nécessairement militer pour un·e candidat·e ou un·e autre, il est souhaitable qu’un regard analytique, critique et distancié soit porté sur les modalités de médiatisation des paroles publiques dans les écosystèmes numériques.
 
-#### Contextes légaux
-CSA, CNIL, temps de parole, exposition médiatique, diversité des points de vue.
+#### Contexte règlementaire
+
+L’Arcom (ex-CSA) a pour mission de faire respecter un équilibre du temps de parole (principe d'équité puis s’égalité) des candidat·es et de leurs représentant·es dans l’espace audiovisuel. La démultiplication des supports, au delà des chaînes de radio et de télévision et le relai variable de leurs contenus tel qu’opéré par les médias numériques rend le décompte produit par le CSA/Arcom particulièrement complexe (et largement inopérant). D’autre part, on constate que le décompte des expositions médiatiques ne tient pas compte de nombreux acteurs complémentaires (éditorialistes, journalistes), aux positions politiques très situées. L’accès à une diversité des points de vue et un pluralisme de l’expression politique ne peuvent donc plus être garantis que par un effort des auditeurs et spectateurs ; effort parfois bien difficile à produire.
 
 #### Iconographie
-Le traitement photographique des hommes et femmes politiques ou militant·es.
-[Soazig de la Moissonnière](https://www.instagram.com/soazigdelamoissonniere/) est la photographe officielle de l’Élysée. Une récente série d’images, s’inscrivant dans la pure continuité des [représentations](https://imagesociale.fr/4724) protocolaires du spectacle présidentiel, fait [rigoler](https://twitter.com/Francois_Ruffin/status/1504143843981148160) les médias étrangers.
+La représentation photographique des hommes et femmes politiques ou militant·es signale avec force les différences de traitement dont ils et elles font l’objet.
 
-Lire sur le site d’_Arrêt sur images_ la chronique d’[André Gunthert](https://imagesociale.fr) sur « [Ruffin dans Libé : la caricature photo, mode d'emploi](https://www.arretsurimages.net/chroniques/le-regard-oblique/ruffin-dans-libe-la-caricature-photo-mode-demploi) » dans laquelle
+[Soazig de la Moissonnière](https://www.instagram.com/soazigdelamoissonniere/) est la photographe officielle de l’Élysée. Une récente série d’images, s’inscrivant dans la pure continuité des [représentations](https://imagesociale.fr/4724) protocolaires du spectacle présidentiel, fait rigoler [François Ruffin](https://twitter.com/Francois_Ruffin/status/1504143843981148160) et les [médias étrangers](https://www.courrierinternational.com/article/vu-de-letranger-avec-son-sweat-capuche-macron-le-communicant-pousse-le-bouchon-un-peu-loin).
+
+Voir sur le site d’_Arrêt sur images_ la chronique d’[André Gunthert](https://imagesociale.fr) sur « [Ruffin dans Libé : la caricature photo, mode d'emploi](https://www.arretsurimages.net/chroniques/le-regard-oblique/ruffin-dans-libe-la-caricature-photo-mode-demploi) » dans laquelle il nous invite à regarder les effets de la caricature photographique, à travers les sourires, grimaces, etc. et dans quelle mesure la photographie perd souvent sa dimension documentaire au profit d’une éditorialisation masquée.
 
 #### Propriétés des écosystèmes médiatiques
 En novembre 2021, le Sénat a créé la commission d'enquête « [Concentration des médias en France](https://www.senat.fr/commission/enquete/2021_concentration_des_medias_en_france.html) » « afin de mettre en lumière les processus ayant permis ou pouvant aboutir à une concentration dans les médias en France, et d’évaluer l’impact de cette concentration sur la démocratie », à la demande du groupe Socialiste, Écologiste et Républicain.
@@ -185,19 +193,73 @@ Consulter la carte [Médias français, qui possède quoi](https://www.monde-dipl
 
 #### Espaces critiques des médias
 [Acrimed](https://www.acrimed.org/) (Action-Critique-Médias) « cherche à mettre en commun savoirs professionnels, théoriques et militants au service d’une critique indépendante, radicale et intransigeante des médias, des journalismes et des journalistes ».
-Également : [Arrêt sur images](https://www.arretsurimages.net/), [Les mots sont importants](https://lmsi.net/), [Fonds pour une presse libre](https://fondspresselibre.org/), [Reporters sans frontières](https://rsf.org/)
+
+Également : [Arrêt sur images](https://www.arretsurimages.net/), [Les mots sont importants](https://lmsi.net/), [Fonds pour une presse libre](https://fondspresselibre.org/), [Reporters sans frontières](https://rsf.org/)…
 
 #### Médias indépendants, d’enquête, d’analyse ou de reportage 
-[Mediapart](http://mediapart.fr/), [LeMédia](https://www.lemediatv.fr/), [Blast](https://www.blast-info.fr/), [AOC](https://aoc.media/), [Brief.me](https://www.brief.me/), [Basta](https://www.bastamag.net/), [StreetPress](https://www.streetpress.com/) et +
+[Mediapart](http://mediapart.fr/), [LeMédia](https://www.lemediatv.fr/), [Blast](https://www.blast-info.fr/), [AOC](https://aoc.media/), [Brief.me](https://www.brief.me/), [Basta](https://www.bastamag.net/), [StreetPress](https://www.streetpress.com/), [Disclose](https://disclose.ngo)…
 
-#### Médias conversationnels numériques 
-Youtube, Twitch, Twitter (spaces), etc.
 
 
 
 
 ## Ressources en ligne
 
+### Contenu du pad (notes et références connexes et complémentaires)
+
+#### NFT WTF ? 
+
+[Les blockchains peuvent-elles être vertes ?](https://fr.beincrypto.com/marches/67162/nft-blockchains-vertes-nft-ecologiques-prochaine-grande-tendance/)
+
+[Beeple](https://www.bewaremag.com/beeple/)
+    
+[Pourquoi il faut (sérieusement) s’intéresser à Fortnite](https://signauxfaibles.co/2018/12/26/pourquoi-il-faut-serieusement-sinteresser-a-fortnite/)
+
+Audio : [Sommes-nous vraiment en train de fabriquer des “crétins digitaux" ?](https://www.franceinter.fr/emissions/le-code-a-change/sommes-nous-vraiment-en-train-de-fabriquer-des-cretins-digitaux), (Le code a changé)
+
+Film : [Her](https://en.wikipedia.org/wiki/Her_(film))
+    
+Film : [Pierre Carles - Pas vu, pas pris ](https://archive.org/details/PierreCarles-PasVuPasPris)
+    
+Film : [Les nouveaux chiens de garde](https://www.dailymotion.com/video/xpj5bo)
+
+[Singulariser le multiple : les NFT artistiques entre spéculation et redistribution](https://www.anthonymasure.com/articles/2021-11-singulariser-multiple-nft-artistiques)
+
+[C’est quoi, les NFT? Une spécialiste explique (Laurence Allard)](https://www.lavoixdunord.fr/1139643/article/2022-02-10/c-est-quoi-les-nft-une-specialiste-explique)
+
+Audio : [NFT, cryptoart, et Samouraï virtuel avec Laurence Allard](https://www.youtube.com/watch?v=fpdr8QNVtNE)
+
+[NFT : encore plus stupide](https://p4bl0.net/post/2022/01/NFT-%3A-encore-plus-d%C3%A9bile)
+
+[NFT : l'original et l'acopie](https://www.affordance.info/mon_weblog/2021/03/nft-loriginal-et-lacopie.html)
+ 
+[B.I.M. / Blockchain In Media](https://bim.esadorleans.fr/) est un programme de recherche, issu de l’unité de recherche ECOLAB de l’ESAD Orléans, dont le champ d’investigation consiste à penser le design du temps à partir du design de la blockchain.
+
+[The Unreasonable Ecological Cost of #CryptoArt (Part 1)](https://memoakten.medium.com/the-unreasonable-ecological-cost-of-cryptoart-2221d3eb2053)
+
+[Le(s) problème(s) avec les NFT](https://sebsauvage.net/wiki/doku.php?id=nft)
+
+[“Web3” — A Reading List](https://seanvoisen.notion.site/seanvoisen/Web3-A-Reading-List-a338692c36b54b28975e07916c502a77)
+
+Video (en) : [Line Goes Up – The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)
+
+[The NFT Ecosystem Is a Complete Disaster](https://www.vice.com/en/article/xgdvnd/the-nft-ecosystem-is-a-complete-disaster)
+
+[Web 1.0, Web 2.0 and Web 3.0 with their difference](https://www.geeksforgeeks.org/web-1-0-web-2-0-and-web-3-0-with-their-difference/)
+
+[Web 3.0 vs. the metaverse: What’s the difference? ](https://www.freethink.com/technology/web-3-vs-metaverse)
+
+[Que reste-t-il de la propriété dans l’environnement numérique? ](https://blogs.mediapart.fr/revue-deliberee/blog/070920/que-reste-t-il-de-la-propriete-dans-l-environnement-numerique)
+
+Vidéo : [A quoi ça ressemble l’Internet russe ?](https://www.instagram.com/reel/CbJ-cFxDFFt/?utm_medium=share_sheet)
+
+[Guerre en Ukraine : les Anonymous attaquent la Russie](https://www.futura-sciences.com/alternative/amp/actualite/97012/)
+
+[Guerre en Ukraine : pourquoi Volodymyr Zelensky gagne la bataille de la communication](https://www.lejdd.fr/International/guerre-en-ukraine-pourquoi-volodymyr-zelensky-gagne-pour-linstant-la-bataille-de-la-communication-4098783.amp)
+
+Vidéo : [Concentration des médias : un danger pour la démocratie ?](https://www.arte.tv/fr/videos/107824-000-A/concentration-des-medias-un-danger-pour-la-democratie/)
+
+[Quand les propriétaires de médias pèsent sur les élections](https://www.acrimed.org/Quand-les-proprietaires-de-medias-pesent-sur-les)
+
+
 [→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_web3?lang=fr){.bigbutton}
-
-
