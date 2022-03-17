@@ -2,7 +2,7 @@
 
 Disclaimer !
 
-Tout discours est _situé_, énoncé depuis un point de vue qu’il est préférable de connaître (ou d’examiner) quand une information est reçue. Les éléments recueillis ci-dessous ne manquent pas à cette règle et ne prétendent à nulle objectivité. Ils sont en outre émis depuis une position de non-spécialiste, dont l’intérêt pour ces sujets est soumis à une exposition médiatique elle aussi orientée idéologiquement.
+Tout discours est _situé_, énoncé depuis une position et un point de vue qu’il est préférable de connaître (ou d’examiner) quand une information est reçue. Les éléments recueillis ci-dessous ne manquent pas à cette règle et ne prétendent à nulle objectivité. Ils sont en outre émis depuis une position de non-spécialiste, dont l’intérêt pour ces sujets est soumis à une exposition médiatique elle aussi orientée idéologiquement.
 
 
 ### La blockchain
