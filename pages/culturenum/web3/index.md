@@ -75,7 +75,9 @@ Des problèmes philosophiques, techniques et conceptuels[^sebsauvage2] :
 
 De nombreux artistes parfaitement respectables ont embrassé le phénomène NFT, notamment parmi celles et ceux ayant centré leurs pratiques dans le champ numérique. Soudainement s’ouvrait une extension du marché de l’art à des artistes qui avait jusqu’alors difficilement accès à la vente d’œuvres. 
 
-Quelques exemples aléatoires : [Albertine Meunier](https://albertinemeunier.net/nft-collection), [Leander Herzog](https://teia.art/Leander_Herzog), [Mario Klingemann](https://showtime.io/Quasimondo). En France, [Mark Webster](https://teia.art/markwebster), [Julien Gachadoat](https://twitter.com/v3ga).
+Quelques exemples aléatoires[^artistes] : [Albertine Meunier](https://albertinemeunier.net/nft-collection), [Leander Herzog](https://teia.art/Leander_Herzog), [Mario Klingemann](https://showtime.io/Quasimondo). En France, [Mark Webster](https://teia.art/markwebster), [Julien Gachadoat](https://twitter.com/v3ga).
+
+[^artistes]: À compléter dans [le pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_web3?lang=fr) ?
 
 [Laurence Allard](https://twitter.com/laurenceallard), sémiologue et maître de conférences en sciences de la communication, signale la dimension expérimentale et réflexive que peut permettre d’explorer l’usage des NFT. Écouter _[NFT, cryptoart, et Samouraï virtuel](https://www.youtube.com/watch?v=fpdr8QNVtNE)_.
 
@@ -83,8 +85,8 @@ Quelques exemples aléatoires : [Albertine Meunier](https://albertinemeunier.net
 * Les _smart contracts_ : des programmes, enregistrés dans une chaîne de blocs, répandus notamment dans la chaîne Ethereum, qui peuvent déclencher des actions (transferts d’actifs, notamment) de manière automatisée lorsque certaines conditions sont atteintes.
 * Les _DAO_ : des organisations autonomes décentralisées, qui peuvent décider collectivement de la “gouvernance” des œuvres ou objets numériques et dont les règles de fonctionnement sont transparentes et immuables, car inscrites dans une blockchain. On qualifie leur fonctionnement de “démocratique” (plus souvent : majoritaire).
 * _Cryptoart_ : L’ensemble divers des productions artistiques ayant recours aux logiques de blockchain ou de NFTs.
+* _Wallet_ : Un “portefeuille” électronique, dédié au stockage sécurisé des NFTs, ou plus précisément, au stockage  des informations sur l’emplacement d’un NFT dans la blockchain.
 
-* _Wallet_
 ### Le Web3
 
 Le ~~buzzword~~ terme _Web3_ est advenu en tant que suite à celui de _Web 2.0_, cette période du web ayant émergé dans les années 2000, qui consacrait l’un des espoirs clés de la fondation du web : sa démocratisation. La période était née dans la liberté de l’expression individuelle des blogs, mais allait progressivement consacrer le règne des plateformes hypercentralisées que nous connaissons aujourd’hui ; réseaux sociaux, devenus médias sociaux.
