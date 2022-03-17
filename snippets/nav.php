@@ -86,6 +86,7 @@
     <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
     <li class="<?= $subsection == 'libre' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
     <li class="<?= $subsection == 'folklore' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/folklore/">Folklore</a></li>
+    <li class="<?= $subsection == 'web3' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/web3/">Web3 ?</a></li>
   </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
