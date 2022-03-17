@@ -4,6 +4,7 @@ Disclaimer !
 
 Tout discours est _situé_, énoncé depuis une position et un point de vue qu’il est préférable de connaître (ou d’examiner) quand une information est reçue. Les éléments recueillis ci-dessous ne manquent pas à cette règle et ne prétendent à nulle objectivité. Ils sont en outre émis depuis une position de non-spécialiste, dont l’intérêt pour ces sujets est soumis à une exposition médiatique elle aussi orientée idéologiquement.
 
+Au delà d’une introduction aux questions des blockchains, des NFTs ou du Web3, l’actualité nous propose de nous attacher à deux autres thématiques à l‘actualité brûlante, le traitement de la [guerre en Ukraine](#ukraine) par les écosystèmes numériques et les questions de [médiatisations numériques](#campagne) en campagne présidentielle.
 
 ### La blockchain
 
@@ -134,7 +135,7 @@ Les NFT sont l’un des derniers développements d’une dimension fondamentale 
 
 ***
 
-## Ukraine, guerres
+## Ukraine, une guerre médiatisée {#ukraine}
 
 Ce temps de réflexion s’appuie largement sur les articles publiés ces derniers jours par Olivier Ertzscheid dans son blog, [affordance.info](https://www.affordance.info/) : le 28 février 2022, "[Ukraine. Para Bellum Numericum. Chronique du versant numérique d'une guerre au 21ème siècle](https://www.affordance.info/mon_weblog/2022/02/guerre-ukraine-numerique.html)", le 3 mars 2022, "[Ukraine. Para Bellum Numericum](https://www.affordance.info/mon_weblog/2022/03/ukraine-guerre-numerique-suite.html)", le 8 Mars 2022, "[La guerre sur TikTok : une tragédie musicale](https://www.affordance.info/mon_weblog/2022/03/tiktok-war-tragedie-musicale.html)", le 11 Mars 2022 "[Il faut tuer Vladimir Poutine](https://www.affordance.info/mon_weblog/2022/03/il-faut-tuer-vladimir-poutine.html)", et le 13 Mars 2022 "[Les consoles de nos consolations](https://www.affordance.info/mon_weblog/2022/03/console-ukraine-numerique-episode-5.html)". O. Ertzscheid s’y explore « les enjeux et déclinaisons numériques, parfois poignantes, parfois anecdotiques, parfois vitales, du conflit en cours en Ukraine suite à l'invasion Russe ».
 
@@ -170,7 +171,7 @@ Ailleurs :
 ***
 
 
-## Médiatisation en campagne
+## Médiatisation en campagne {#campagne}
 
 En ces temps de campagne électorale, et sans nécessairement militer pour un·e candidat·e ou un·e autre, il est souhaitable qu’un regard analytique, critique et distancié soit porté sur les modalités de médiatisation des paroles publiques dans les écosystèmes numériques.
 
