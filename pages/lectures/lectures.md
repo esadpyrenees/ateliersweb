@@ -46,6 +46,9 @@ Kenneth Goldsmith, éditions Jean Boîte, 2018
 * #### Confessions d’un voleur – Internet : La liberté confisquée
 Laurent Chemla, Denoël, [↗](http://www.confessions-voleur.net/)
 
+* #### Graphic design in the post-digital age
+Une enquête sur des pratiques nourries par code créatif, HEAD + Onomatopée, [↗](https://www.postdigitalgraphicdesign.com/)
+
 </div>
 
 ## Revues {#revues}
