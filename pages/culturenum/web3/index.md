@@ -4,9 +4,6 @@ Disclaimer !
 
 Tout discours est _situé_, énoncé depuis un point de vue qu’il est préférable de connaître (ou d’examiner) quand une information est reçue. Les éléments recueillis ci-dessous ne manquent pas à cette règle et ne prétendent à nulle objectivité. Ils sont en outre
 
-Petites annonces[^decoloniser]. 
-[^decoloniser]: [Décolonialiser le numérique](https://www.reseaucritiquesdeveloppementdurable.fr/decolonialiser-le-numerique-debats-autour-des-espaces-critiques-des-ecologies-du-numerique/)
-  Une journée d’étude consacrée à l’étude des enjeux des écologies du numérique, appuyée sur un regard “décolonial” (qui tient compte de la complexité des rapports de force hérités du colonialisme, ainsi que des approches explorées hors de l’Occident et des systèmes politiques, économiques et sociaux qu’il a imposé).
 
 ### La blockchain
 
