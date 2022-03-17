@@ -10,6 +10,9 @@ Un livre de référence est [Profession Graphiste Indépendant](http://www.profe
 ### Réalités économiques – en vidéo
 Un cycle de conférence organisé par le Signe / Centre national du graphisme. Voir les interventions de l’Atelier Téméraire : [« Pour des réseaux de solidarité »](https://www.youtube.com/watch?v=-7gJDM-ackc), Frank Adebiaye : [« Vers une comptabilité de création »](https://www.youtube.com/watch?v=_o9XaL2FmOY), Grégory Jerôme : [« Petit vadémécum des graphistes »](https://www.youtube.com/watch?v=ZyF8VfSeVh0) et Élodie Boyer des éditions Non Standard [« Le plaisir et l'argent »](https://www.youtube.com/watch?v=zGx0_2Q0YHo).
 
+### Artistes-auteurs : MDA-AGESSA, URSSAF, mais enfin, j'y comprends que dalle!
+Un [groupe Facebook](https://www.facebook.com/groups/1753584858218893/?multi_permalinks=3225551727688858) dédié aux questions/réponses sur le régime des artistes-auteurs. 
+
 ### IRL 
 L’association Pola, à Bordeaux, propose à ses adhérents [une offre de services pour les artistes (et graphistes)](https://pola.fr/ressources-pro/), notamment grâce à une permanence juridique, des ateliers et accompagnements de projets.
 
