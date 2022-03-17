@@ -166,7 +166,7 @@ Quelques moments-clés de lecture :
 Ailleurs :
 * Volodimir _[Fake](https://twitter.com/MikaelThalen/status/1504123674516885507)_ Zelinksy. Voir [reface.ai](https://hey.reface.ai/).
 * _[In the future, everyone will post their 15 seconds of war footage](https://twitter.com/Klingebeil/status/1504124221861027845)_, influenceur·ses guerrièr·es.
-* Sur Twitter, suivre [Olivier Tesquet](https://twitter.com/oliviertesquet), [Samuel Gontier](https://twitter.com/SamGontier) ou [Nassira El Moaddem](https://twitter.com/NassiraELM).
+* Sur Twitter, suivre [Olivier Tesquet](https://twitter.com/oliviertesquet), [Samuel Gontier](https://twitter.com/SamGontier) ou [Nassira El Moaddem](https://twitter.com/NassiraELM) (voire même [Sébastien Fontenelle](https://twitter.com/vivelefeu/)).
 
 ***
 
