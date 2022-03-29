@@ -3,12 +3,11 @@
 
 ## Définition
 
-Un logiciel est considéré comme libre s’il confère à son utilisateur quatre libertés :
-
-0. la liberté d’exécuter le programme, pour tous les usages ;
-1. la liberté d’étudier le fonctionnement du programme et de l’adapter à ses besoins ;
-2. la liberté de redistribuer des copies du programme (ce qui implique la possibilité aussi bien de donner que de vendre des copies) ;
-3. la liberté d’améliorer le programme et de distribuer ces améliorations au public, pour en faire profiter toute la communauté.
+Un logiciel est considéré comme « libre » s’il confère à son utilisateur quatre libertés fondamentales[^quatre].
+[^quatre]: 0. la liberté d’exécuter le programme, pour tous les usages ;
+1. la liberté d’étudier son fonctionnement et de l’adapter à ses besoins ;
+2. la liberté de redistribuer des copies ;
+3. la liberté d’améliorer le programme et de distribuer ces améliorations.
 
 Cette définition programmatique, si elle s’applique au champ du logiciel, peut être largement ouverte vers les pratiques de l’art et du design, comme cette introduction se propose de le montrer.
 
@@ -47,8 +46,8 @@ Pour Illich, un outil convivial est <q>« générateur d’efficience sans dégr
 
 Dans les années 70, la côte ouest des États-unis voit naître la contre-culture hippie. Le rapport à la technique des acteurs de cette période fut un évènement fondateur du monde que nous connaissons aujourd’hui. Norbert Wiener (père de la cybernétique), Marshall McLuhan ou Richard Buckminster Fuller, furent des intellectuels importants de cette période, qui mettaient la technologie au cœur de la transformation culturelle et psychologique de la société. 
 
-> <big>I like think ( and    
-the sooner the better! )    
+> <big>I like to think (and    
+the sooner the better!)    
 of a cybernetic meadow    
 where mammals and computers    
 live together in mutually    
