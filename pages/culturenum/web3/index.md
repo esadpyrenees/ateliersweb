@@ -117,7 +117,7 @@ Des réactions salutaires ont donc éclos. [Make Free Stuff](https://mxb.dev/blo
 ### Capitalisme tardif
 
 Le capitalisme tardif, _late-stage capitalism_, désigne, dans certaines théories marxistes, la période actuelle du capitalisme. Le terme implique (espère ?) la fin prochaine de ce régime économique et social[^latestage]. 
-Ce terme et cette période, au delà du débat qu’elle ouvre en économie ou en philosophie [^sennet], est également explorée par [Humans of late capitalism](https://humansoflatecapitalism.tumblr.com/), un ensemble de comptes présents sur de nombreux réseaux sociaux [^knowyourmeme] ([facebook](https://www.facebook.com/Humans-Of-Late-Capitalism-686984161471404/), [twitter](https://twitter.com/neighbours_wifi), [instagram](https://www.instagram.com/HumansOfLate/), [reddit](https://www.reddit.com/r/LateStageCapitalism/)…), qui publie des images, généralement non légendées, témoignant du caractère fondamentalement dystopique de l’époque que nous vivons. Images incongrues, effrayantes, ironiques ou cinglantes, elles mettent en lumière les failles d’un monde où le consumérisme, la financiarisation, la technologie ou encore les travers des pouvoirs politiques et économiques confinent à l’absurde. Elles dessinent les marges, les aberrations et les fissures du capitalisme tardif. Voir l’article de Jay Hathaway sur [The Daily Dot](https://www.dailydot.com/unclick/humans-of-late-capitalism-twitter/)
+Ce terme et cette période, au delà du débat qu’elle ouvre en économie ou en philosophie [^sennet], est également explorée par [Humans of late capitalism](https://humansoflatecapitalism.tumblr.com/), un ensemble de comptes présents sur de nombreux réseaux sociaux [^knowyourmeme] ([facebook](https://www.facebook.com/Humans-Of-Late-Capitalism-686984161471404/), [twitter](https://twitter.com/neighbours_wifi), [instagram](https://www.instagram.com/HumansOfLate/), [reddit](https://www.reddit.com/r/LateStageCapitalism/)…), qui publie des images, généralement non légendées, témoignant du caractère fondamentalement dystopique de l’époque que nous vivons. Images incongrues, effrayantes, ironiques ou cinglantes, elles mettent en lumière les failles d’un monde où le consumérisme, la financiarisation, la technologie ou encore les travers des pouvoirs politiques et économiques confinent à l’absurde. Elles dessinent les marges, les aberrations et les fissures du capitalisme tardif. Voir l’article de Jay Hathaway sur [The Daily Dot](https://www.dailydot.com/unclick/humans-of-late-capitalism-twitter/).
 
 [^knowyourmeme]: Voir [knowyourmeme](https://knowyourmeme.com/memes/cultures/late-capitalism) ou [urbandictionary](https://www.urbandictionary.com/define.php?term=late%20capitalism).
 
@@ -135,9 +135,11 @@ Les NFT sont l’un des derniers développements d’une dimension fondamentale 
 
 ***
 
+
+
 ## Ukraine, une guerre médiatisée {#ukraine}
 
-Ce temps de réflexion s’appuie largement sur les articles publiés ces derniers jours par Olivier Ertzscheid dans son blog, [affordance.info](https://www.affordance.info/) : le 28 février 2022, "[Ukraine. Para Bellum Numericum. Chronique du versant numérique d'une guerre au 21ème siècle](https://www.affordance.info/mon_weblog/2022/02/guerre-ukraine-numerique.html)", le 3 mars 2022, "[Ukraine. Para Bellum Numericum](https://www.affordance.info/mon_weblog/2022/03/ukraine-guerre-numerique-suite.html)", le 8 Mars 2022, "[La guerre sur TikTok : une tragédie musicale](https://www.affordance.info/mon_weblog/2022/03/tiktok-war-tragedie-musicale.html)", le 11 Mars 2022 "[Il faut tuer Vladimir Poutine](https://www.affordance.info/mon_weblog/2022/03/il-faut-tuer-vladimir-poutine.html)", et le 13 Mars 2022 "[Les consoles de nos consolations](https://www.affordance.info/mon_weblog/2022/03/console-ukraine-numerique-episode-5.html)". O. Ertzscheid s’y explore « les enjeux et déclinaisons numériques, parfois poignantes, parfois anecdotiques, parfois vitales, du conflit en cours en Ukraine suite à l'invasion Russe ».
+Ce temps de réflexion s’appuie largement sur les articles publiés ces derniers jours par Olivier Ertzscheid dans son blog, [affordance.info](https://www.affordance.info/) : le 28 février 2022, "[Ukraine. Para Bellum Numericum. Chronique du versant numérique d'une guerre au 21ème siècle](https://www.affordance.info/mon_weblog/2022/02/guerre-ukraine-numerique.html)", le 3 mars 2022, "[Ukraine. Para Bellum Numericum](https://www.affordance.info/mon_weblog/2022/03/ukraine-guerre-numerique-suite.html)", le 8 Mars 2022, "[La guerre sur TikTok : une tragédie musicale](https://www.affordance.info/mon_weblog/2022/03/tiktok-war-tragedie-musicale.html)", le 11 Mars 2022 "[Il faut tuer Vladimir Poutine](https://www.affordance.info/mon_weblog/2022/03/il-faut-tuer-vladimir-poutine.html)", et le 13 Mars 2022 "[Les consoles de nos consolations](https://www.affordance.info/mon_weblog/2022/03/console-ukraine-numerique-episode-5.html)". Ertzscheid s’y explore « les enjeux et déclinaisons numériques, parfois poignantes, parfois anecdotiques, parfois vitales, du conflit en cours en Ukraine suite à l'invasion Russe ». (D’autres éclairages ont suivi.)
 
 Ce panorama des « manières dont les écosystèmes numériques mobilisent les espaces médiatiques et les terrains opérationnels depuis l’invasion russe en Ukraine » est une lecture longue mais éclairante pour saisir ce qui se joue dans nos écrans, se superpose à la tragédie des morts violentes, des bombardements, des viols, des exils et de toutes les détresses qui naissent toujours des guerres.
 
@@ -207,59 +209,42 @@ Consulter la carte [Médias français, qui possède quoi](https://www.monde-dipl
 
 ### Contenu du pad (notes et références connexes et complémentaires)
 
+#### Suite aux discussions pendant le cours 
+* [Les blockchains peuvent-elles être vertes ?](https://fr.beincrypto.com/marches/67162/nft-blockchains-vertes-nft-ecologiques-prochaine-grande-tendance/)
+* [Beeple](https://www.bewaremag.com/beeple/)
+* [Pourquoi il faut (sérieusement) s’intéresser à Fortnite](https://signauxfaibles.co/2018/12/26/pourquoi-il-faut-serieusement-sinteresser-a-fortnite/)
+* Audio : [Sommes-nous vraiment en train de fabriquer des “crétins digitaux" ?](https://www.franceinter.fr/emissions/le-code-a-change/sommes-nous-vraiment-en-train-de-fabriquer-des-cretins-digitaux), (Le code a changé)
+* Film : [Her](https://en.wikipedia.org/wiki/Her_(film))
+* Film : [Pierre Carles - Pas vu, pas pris ](https://archive.org/details/PierreCarles-PasVuPasPris)
+* Film : [Les nouveaux chiens de garde](https://www.dailymotion.com/video/xpj5bo)
+
+
 #### NFT WTF ? 
 
-[Les blockchains peuvent-elles être vertes ?](https://fr.beincrypto.com/marches/67162/nft-blockchains-vertes-nft-ecologiques-prochaine-grande-tendance/)
+* [Singulariser le multiple : les NFT artistiques entre spéculation et redistribution](https://www.anthonymasure.com/articles/2021-11-singulariser-multiple-nft-artistiques), Anthony Masure
+* [C’est quoi, les NFT? Une spécialiste explique](https://www.lavoixdunord.fr/1139643/article/2022-02-10/c-est-quoi-les-nft-une-specialiste-explique), Laurence Allard
+* Audio : [NFT, cryptoart, et Samouraï virtuel](https://www.youtube.com/watch?v=fpdr8QNVtNE), Laurence Allard
+* [NFT : encore plus stupide](https://p4bl0.net/post/2022/01/NFT-%3A-encore-plus-d%C3%A9bile), P4blo
+* [NFT : l'original et l'acopie](https://www.affordance.info/mon_weblog/2021/03/nft-loriginal-et-lacopie.html), Olivier Ertzscheid
+* [B.I.M. / Blockchain In Media](https://bim.esadorleans.fr/) est un programme de recherche, issu de l’unité de recherche ECOLAB de l’ESAD Orléans, dont le champ d’investigation consiste à penser le design du temps à partir du design de la blockchain.
+* [The Unreasonable Ecological Cost of #CryptoArt (Part 1)](https://memoakten.medium.com/the-unreasonable-ecological-cost-of-cryptoart-2221d3eb2053), Memo Akten
+* [Le(s) problème(s) avec les NFT](https://sebsauvage.net/wiki/doku.php?id=nft), Seb Sauvage
+* [“Web3” — A Reading List](https://seanvoisen.notion.site/seanvoisen/Web3-A-Reading-List-a338692c36b54b28975e07916c502a77)
+* Video (en) : [Line Goes Up – The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)
+* [The NFT Ecosystem Is a Complete Disaster](https://www.vice.com/en/article/xgdvnd/the-nft-ecosystem-is-a-complete-disaster)
+* [Web 1.0, Web 2.0 and Web 3.0 with their difference](https://www.geeksforgeeks.org/web-1-0-web-2-0-and-web-3-0-with-their-difference/)
+* [Web 3.0 vs. the metaverse: What’s the difference? ](https://www.freethink.com/technology/web-3-vs-metaverse)
+* [Que reste-t-il de la propriété dans l’environnement numérique? ](https://blogs.mediapart.fr/revue-deliberee/blog/070920/que-reste-t-il-de-la-propriete-dans-l-environnement-numerique)
+* [Why do all NFTs look the same? Notes on the aes­thet­ics of spec­u­la­tion](https://www.maxkohler.com/posts/why-do-all-nfts-look-the-same/), Max Kohler
 
-[Beeple](https://www.bewaremag.com/beeple/)
-    
-[Pourquoi il faut (sérieusement) s’intéresser à Fortnite](https://signauxfaibles.co/2018/12/26/pourquoi-il-faut-serieusement-sinteresser-a-fortnite/)
+#### Ukraine
+* Vidéo : [A quoi ça ressemble l’Internet russe ?](https://www.instagram.com/reel/CbJ-cFxDFFt/?utm_medium=share_sheet)
+* [Guerre en Ukraine : les Anonymous attaquent la Russie](https://www.futura-sciences.com/alternative/amp/actualite/97012/)
+* [Guerre en Ukraine : pourquoi Volodymyr Zelensky gagne la bataille de la communication](https://www.lejdd.fr/International/guerre-en-ukraine-pourquoi-volodymyr-zelensky-gagne-pour-linstant-la-bataille-de-la-communication-4098783.amp)
 
-Audio : [Sommes-nous vraiment en train de fabriquer des “crétins digitaux" ?](https://www.franceinter.fr/emissions/le-code-a-change/sommes-nous-vraiment-en-train-de-fabriquer-des-cretins-digitaux), (Le code a changé)
-
-Film : [Her](https://en.wikipedia.org/wiki/Her_(film))
-    
-Film : [Pierre Carles - Pas vu, pas pris ](https://archive.org/details/PierreCarles-PasVuPasPris)
-    
-Film : [Les nouveaux chiens de garde](https://www.dailymotion.com/video/xpj5bo)
-
-[Singulariser le multiple : les NFT artistiques entre spéculation et redistribution](https://www.anthonymasure.com/articles/2021-11-singulariser-multiple-nft-artistiques)
-
-[C’est quoi, les NFT? Une spécialiste explique (Laurence Allard)](https://www.lavoixdunord.fr/1139643/article/2022-02-10/c-est-quoi-les-nft-une-specialiste-explique)
-
-Audio : [NFT, cryptoart, et Samouraï virtuel avec Laurence Allard](https://www.youtube.com/watch?v=fpdr8QNVtNE)
-
-[NFT : encore plus stupide](https://p4bl0.net/post/2022/01/NFT-%3A-encore-plus-d%C3%A9bile)
-
-[NFT : l'original et l'acopie](https://www.affordance.info/mon_weblog/2021/03/nft-loriginal-et-lacopie.html)
- 
-[B.I.M. / Blockchain In Media](https://bim.esadorleans.fr/) est un programme de recherche, issu de l’unité de recherche ECOLAB de l’ESAD Orléans, dont le champ d’investigation consiste à penser le design du temps à partir du design de la blockchain.
-
-[The Unreasonable Ecological Cost of #CryptoArt (Part 1)](https://memoakten.medium.com/the-unreasonable-ecological-cost-of-cryptoart-2221d3eb2053)
-
-[Le(s) problème(s) avec les NFT](https://sebsauvage.net/wiki/doku.php?id=nft)
-
-[“Web3” — A Reading List](https://seanvoisen.notion.site/seanvoisen/Web3-A-Reading-List-a338692c36b54b28975e07916c502a77)
-
-Video (en) : [Line Goes Up – The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)
-
-[The NFT Ecosystem Is a Complete Disaster](https://www.vice.com/en/article/xgdvnd/the-nft-ecosystem-is-a-complete-disaster)
-
-[Web 1.0, Web 2.0 and Web 3.0 with their difference](https://www.geeksforgeeks.org/web-1-0-web-2-0-and-web-3-0-with-their-difference/)
-
-[Web 3.0 vs. the metaverse: What’s the difference? ](https://www.freethink.com/technology/web-3-vs-metaverse)
-
-[Que reste-t-il de la propriété dans l’environnement numérique? ](https://blogs.mediapart.fr/revue-deliberee/blog/070920/que-reste-t-il-de-la-propriete-dans-l-environnement-numerique)
-
-Vidéo : [A quoi ça ressemble l’Internet russe ?](https://www.instagram.com/reel/CbJ-cFxDFFt/?utm_medium=share_sheet)
-
-[Guerre en Ukraine : les Anonymous attaquent la Russie](https://www.futura-sciences.com/alternative/amp/actualite/97012/)
-
-[Guerre en Ukraine : pourquoi Volodymyr Zelensky gagne la bataille de la communication](https://www.lejdd.fr/International/guerre-en-ukraine-pourquoi-volodymyr-zelensky-gagne-pour-linstant-la-bataille-de-la-communication-4098783.amp)
-
-Vidéo : [Concentration des médias : un danger pour la démocratie ?](https://www.arte.tv/fr/videos/107824-000-A/concentration-des-medias-un-danger-pour-la-democratie/)
-
-[Quand les propriétaires de médias pèsent sur les élections](https://www.acrimed.org/Quand-les-proprietaires-de-medias-pesent-sur-les)
+#### Campagne
+* Vidéo : [Concentration des médias : un danger pour la démocratie ?](https://www.arte.tv/fr/videos/107824-000-A/concentration-des-medias-un-danger-pour-la-democratie/)
+* [Quand les propriétaires de médias pèsent sur les élections](https://www.acrimed.org/Quand-les-proprietaires-de-medias-pesent-sur-les)
 
 
 [→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_web3?lang=fr){.bigbutton}
