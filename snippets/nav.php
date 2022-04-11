@@ -76,6 +76,7 @@
         <li class="<?php echo $subsection == 'micromedia' ? 'opened' : '' ?>"><a href="/web/pages/projets/micromedia/">Micromedia</a></li>
         <li class="<?php echo $subsection == 'memoirevive' ? 'opened' : '' ?>"><a href="/web/pages/projets/memoirevive/">Mémoire vive</a></li>
         <li class="<?php echo $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/projets/figures/">Figures</a></li>
+        <li class="<?php echo $subsection == 'lasn' ? 'opened' : '' ?>"><a href="/web/pages/projets/lasn/">Local Area Social Network</a></li>
     </ul>
 </nav>
 <nav class="pane subnav <?php echo $section == 'culturenum' ? 'active' : '' ?>"  id="culturenum">
