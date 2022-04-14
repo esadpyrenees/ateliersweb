@@ -2,11 +2,12 @@
 
 Trois jours de temps-fort qui s’attachent à expérimenter la possibilité d’une ré-appropriation des espaces de publication en ligne, hors des plateformes, en circuit court, adressé à celles et ceux que l’omniprésence des médias sociaux numériques enthousiasme, intrigue ou effraie et qui souhaitent explorer d’autres logiques de publication, tant du point de vue de leur forme que de leur contexte d’apparition ou de leur mode de création.
 
-Qui suis-je ? Julien Bidoret, designer et développeur web, enseignant en webdesign et en Écritures numériques dans le pôle Nouveaux médias de l’ÉSAD Pyrénées. 
-
-Que fais-je ? [Bel Ordinaire](https://belordinaire.agglo-pau.fr/), [accès)s(](https://acces-s.org/), [Ypsilon](http://www.ypsilonediteur.com/), [Wildproject](https://wildproject.org/), [TimeLure](https://chronologie.delure.org/), [PrePostPrint](https://prepostprint.org/), [Radical webdesign](https://radicalweb.design/).
-
-Dans quel état ? [accentgrave.net](https://accentgrave.net), [maisondeseditions.fr](https://maisondeseditions.fr), [twitter.com/julienbidoret](https://twitter.com/julienbidoret), [post.lurk.org](https://post.lurk.org/julienbidoret).
+<details>
+<summary>
+/ Julien Bidoret
+</summary>
+<p markdown=1>[Designer et développeur web](https://accentgrave.net), enseignant en [webdesign et en Écritures numériques](https://ateliers.esad-pyrenees.fr) dans le [pôle Nouveaux médias de l’ÉSAD Pyrénées](https://nm.esad-pyrenees.fr). [Bel Ordinaire](https://belordinaire.agglo-pau.fr/), [accès)s(](https://acces-s.org/), [Ypsilon](http://www.ypsilonediteur.com/), [Wildproject](https://wildproject.org/), [TimeLure](https://chronologie.delure.org/), [PrePostPrint](https://prepostprint.org/), [Radical webdesign](https://radicalweb.design/). [accentgrave.net](https://accentgrave.net), [maisondeseditions.fr](https://maisondeseditions.fr), [@julienbidoret](https://twitter.com/julienbidoret), [@julienbidoret@post.lurk.org](https://post.lurk.org/julienbidoret).</p>
+</details>
 
 ## Web zéro
 > <big>In today’s highly commercialized web of multinational corporations, proprietary applications, read-only devices, search algorithms, Content Management Systems, WYSIWYG editors, and digital publishers, it becomes an increasingly radical act to hand-code and self-publish experimental web art and writing projects. </big>
@@ -20,311 +21,572 @@ Le web est un ensemble d’espaces de publications de médias reliés. Textes, i
 
 Le projet de ces trois jours est de créer des liens, d’explorer des espaces d’échange et de partage de connaissances, d’expériences et d’informations sans les assujettir aux modalités de contrôle de l’expression que produisent les plateformes algorithmiques.
 
-<svg width="573pt" height="404pt" viewBox="0.00 0.00 573.35 404.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 400)">
+<figure>
+<svg width="666pt" height="476pt" viewBox="0.00 0.00 666.00 476.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472)">
 <title>%0</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-400 569.3456,-400 569.3456,4 -4,4"/>
-<!-- Olivia -->
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-472 662,-472 662,4 -4,4"/>
+<!-- faq -->
 <g id="node1" class="node">
-<title>Olivia</title>
-<ellipse fill="none" stroke="#000000" cx="176" cy="-378" rx="35.3489" ry="18"/>
-<text text-anchor="middle" x="176" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">Olivia</text>
+<title>faq</title>
+<ellipse fill="none" stroke="#000000" cx="173" cy="-450" rx="27" ry="18"/>
+<text text-anchor="middle" x="173" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#000000">faq</text>
 </g>
-<!-- Camille -->
+<!-- réponses -->
 <g id="node2" class="node">
-<title>Camille</title>
-<ellipse fill="none" stroke="#000000" cx="117" cy="-18" rx="41.7269" ry="18"/>
-<text text-anchor="middle" x="117" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">Camille</text>
+<title>réponses</title>
+<ellipse fill="none" stroke="#000000" cx="78" cy="-162" rx="45.4734" ry="18"/>
+<text text-anchor="middle" x="78" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">réponses</text>
 </g>
-<!-- Olivia&#45;&gt;Camille -->
+<!-- faq&#45;&gt;réponses -->
 <g id="edge1" class="edge">
-<title>Olivia-&gt;Camille</title>
-<path fill="none" stroke="#000000" d="M144.7031,-369.2819C93.9375,-351.7518 0,-307.5036 0,-234 0,-234 0,-234 0,-162 0,-108.9922 47.4159,-63.0089 82.0304,-38.0137"/>
-<polygon fill="#000000" stroke="#000000" points="84.3008,-40.6983 90.5183,-32.1196 80.3081,-34.9486 84.3008,-40.6983"/>
+<title>faq-&gt;réponses</title>
+<path fill="none" stroke="#000000" d="M157.2057,-434.7711C135.7526,-401.8006 104.3668,-321.1992 83,-252 76.6264,-231.3581 70.6253,-207.6758 68.9311,-189.7869"/>
+<polygon fill="#000000" stroke="#000000" points="72.4245,-189.5606 68.464,-179.7338 65.432,-189.8856 72.4245,-189.5606"/>
 </g>
-<!-- Olivia&#45;&gt;Camille -->
-<g id="edge8" class="edge">
-<title>Olivia-&gt;Camille</title>
-<path fill="none" stroke="#000000" d="M148.3457,-366.4833C102.8716,-347.3014 18,-303.8667 18,-234 18,-234 18,-234 18,-162 18,-111.1553 61.625,-66.7735 91.112,-41.1775"/>
-<polygon fill="#000000" stroke="#000000" points="93.654,-43.6103 99.0059,-34.4665 89.12,-38.2771 93.654,-43.6103"/>
-</g>
-<!-- Celine -->
-<g id="node3" class="node">
-<title>Celine</title>
-<ellipse fill="none" stroke="#000000" cx="176" cy="-234" rx="36.4936" ry="18"/>
-<text text-anchor="middle" x="176" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">Celine</text>
-</g>
-<!-- Olivia&#45;&gt;Celine -->
-<g id="edge12" class="edge">
-<title>Olivia-&gt;Celine</title>
-<path fill="none" stroke="#000000" d="M171.3562,-360.0535C168.8728,-335.5852 168.5855,-291.4896 170.4943,-262.4799"/>
-<polygon fill="#000000" stroke="#000000" points="174.0103,-262.4238 171.3333,-252.1727 167.0334,-261.8557 174.0103,-262.4238"/>
-</g>
-<!-- Sarah -->
-<g id="node5" class="node">
-<title>Sarah</title>
-<ellipse fill="none" stroke="#000000" cx="373" cy="-306" rx="33.043" ry="18"/>
-<text text-anchor="middle" x="373" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">Sarah</text>
-</g>
-<!-- Olivia&#45;&gt;Sarah -->
-<g id="edge4" class="edge">
-<title>Olivia-&gt;Sarah</title>
-<path fill="none" stroke="#000000" d="M204.6455,-367.5306C239.2254,-354.8923 297.47,-333.6049 335.5735,-319.6787"/>
-<polygon fill="#000000" stroke="#000000" points="337.0838,-322.8532 345.2747,-316.1331 334.6808,-316.2786 337.0838,-322.8532"/>
-</g>
-<!-- Brice -->
-<g id="node8" class="node">
-<title>Brice</title>
-<ellipse fill="none" stroke="#000000" cx="286" cy="-162" rx="31.8973" ry="18"/>
-<text text-anchor="middle" x="286" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">Brice</text>
-</g>
-<!-- Olivia&#45;&gt;Brice -->
-<g id="edge31" class="edge">
-<title>Olivia-&gt;Brice</title>
-<path fill="none" stroke="#000000" d="M181.2434,-359.9555C197.2842,-321.5234 242.9317,-231.5032 268.5608,-187.3405"/>
-<polygon fill="#000000" stroke="#000000" points="271.6246,-189.0357 273.7081,-178.6477 265.6013,-185.4691 271.6246,-189.0357"/>
-</g>
-<!-- Lou -->
-<g id="node9" class="node">
-<title>Lou</title>
-<ellipse fill="none" stroke="#000000" cx="173" cy="-90" rx="27" ry="18"/>
-<text text-anchor="middle" x="173" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">Lou</text>
-</g>
-<!-- Olivia&#45;&gt;Lou -->
-<g id="edge15" class="edge">
-<title>Olivia-&gt;Lou</title>
-<path fill="none" stroke="#000000" d="M162.2806,-361.1294C138.1456,-322.0497 95.014,-222.6517 122,-144 126.5013,-130.8808 135.6359,-118.4937 145.0943,-108.9009"/>
-<polygon fill="#000000" stroke="#000000" points="147.7358,-111.2235 152.6667,-101.846 142.9642,-106.1017 147.7358,-111.2235"/>
-</g>
-<!-- Olivia&#45;&gt;Lou -->
-<g id="edge26" class="edge">
-<title>Olivia-&gt;Lou</title>
-<path fill="none" stroke="#000000" d="M171.0996,-359.945C155.2942,-320.0737 113.2825,-221.8691 140,-144 143.5847,-133.5524 150.1077,-123.5691 156.5297,-115.0915"/>
-<polygon fill="#000000" stroke="#000000" points="159.3485,-117.1695 162.8053,-107.1544 153.8576,-112.8279 159.3485,-117.1695"/>
-</g>
-<!-- Elias -->
-<g id="node11" class="node">
-<title>Elias</title>
-<ellipse fill="none" stroke="#000000" cx="535" cy="-162" rx="30.1919" ry="18"/>
-<text text-anchor="middle" x="535" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">Elias</text>
-</g>
-<!-- Olivia&#45;&gt;Elias -->
-<g id="edge20" class="edge">
-<title>Olivia-&gt;Elias</title>
-<path fill="none" stroke="#000000" d="M210.8658,-374.7765C261.4332,-369.2013 357.3465,-355.2096 433,-324 487.359,-301.5751 515.9279,-303.6695 544,-252 554.3732,-232.907 550.9029,-208.1593 545.5239,-189.4483"/>
-<polygon fill="#000000" stroke="#000000" points="548.8003,-188.2032 542.415,-179.7487 542.1343,-190.3398 548.8003,-188.2032"/>
-</g>
-<!-- Celine&#45;&gt;Olivia -->
-<g id="edge27" class="edge">
-<title>Celine-&gt;Olivia</title>
-<path fill="none" stroke="#000000" d="M180.6667,-252.1727C183.1365,-276.7613 183.4103,-320.8705 181.4881,-349.7871"/>
-<polygon fill="#000000" stroke="#000000" points="177.9753,-349.8002 180.6438,-360.0535 184.9517,-350.374 177.9753,-349.8002"/>
-</g>
-<!-- Celine&#45;&gt;Camille -->
-<g id="edge16" class="edge">
-<title>Celine-&gt;Camille</title>
-<path fill="none" stroke="#000000" d="M157.9592,-217.8336C148.1956,-207.9447 136.9456,-194.4447 131,-180 112.9476,-136.1416 112.5602,-80.076 114.4267,-46.7158"/>
-<polygon fill="#000000" stroke="#000000" points="117.9466,-46.5351 115.1238,-36.3233 110.9623,-46.0666 117.9466,-46.5351"/>
-</g>
-<!-- Celine&#45;&gt;Celine -->
-<g id="edge13" class="edge">
-<title>Celine-&gt;Celine</title>
-<path fill="none" stroke="#000000" d="M201.6724,-246.7584C216.4704,-249.3622 230.246,-245.1094 230.246,-234 230.246,-225.4944 222.171,-221.008 211.7445,-220.5407"/>
-<polygon fill="#000000" stroke="#000000" points="211.4053,-217.0558 201.6724,-221.2416 211.8912,-224.0389 211.4053,-217.0558"/>
-</g>
-<!-- Matteo -->
-<g id="node4" class="node">
-<title>Matteo</title>
-<ellipse fill="none" stroke="#000000" cx="256" cy="-90" rx="38.2799" ry="18"/>
-<text text-anchor="middle" x="256" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">Matteo</text>
-</g>
-<!-- Celine&#45;&gt;Matteo -->
-<g id="edge2" class="edge">
-<title>Celine-&gt;Matteo</title>
-<path fill="none" stroke="#000000" d="M186.1523,-216.5468C192.2545,-205.9992 200.1415,-192.2657 207,-180 218.7949,-158.9062 231.8695,-134.8567 241.5444,-116.928"/>
-<polygon fill="#000000" stroke="#000000" points="244.8785,-118.1187 246.5399,-107.6549 238.7159,-114.7987 244.8785,-118.1187"/>
-</g>
-<!-- Elen -->
-<g id="node7" class="node">
-<title>Elen</title>
-<ellipse fill="none" stroke="#000000" cx="169" cy="-162" rx="28.9715" ry="18"/>
-<text text-anchor="middle" x="169" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">Elen</text>
-</g>
-<!-- Celine&#45;&gt;Elen -->
-<g id="edge5" class="edge">
-<title>Celine-&gt;Elen</title>
-<path fill="none" stroke="#000000" d="M162.6613,-216.937C160.0809,-208.598 158.6067,-198.3638 158.5072,-188.9982"/>
-<polygon fill="#000000" stroke="#000000" points="162.0063,-189.0979 158.9933,-178.9405 155.0145,-188.7599 162.0063,-189.0979"/>
-</g>
-<!-- Celine&#45;&gt;Elen -->
-<g id="edge9" class="edge">
-<title>Celine-&gt;Elen</title>
-<path fill="none" stroke="#000000" d="M174.2336,-215.8314C173.485,-208.131 172.5947,-198.9743 171.7627,-190.4166"/>
-<polygon fill="#000000" stroke="#000000" points="175.2415,-190.0276 170.7902,-180.4133 168.2744,-190.7051 175.2415,-190.0276"/>
-</g>
-<!-- Celine&#45;&gt;Elen -->
-<g id="edge21" class="edge">
-<title>Celine-&gt;Elen</title>
-<path fill="none" stroke="#000000" d="M186.062,-216.5708C186.9957,-208.013 186.4008,-197.5272 184.562,-188.0424"/>
-<polygon fill="#000000" stroke="#000000" points="187.9384,-187.1174 182.0919,-178.2817 181.1523,-188.8348 187.9384,-187.1174"/>
-</g>
-<!-- Celine&#45;&gt;Brice -->
-<g id="edge32" class="edge">
-<title>Celine-&gt;Brice</title>
-<path fill="none" stroke="#000000" d="M197.9958,-219.6028C214.6986,-208.67 237.8457,-193.5192 256.2088,-181.4997"/>
-<polygon fill="#000000" stroke="#000000" points="258.3397,-184.2881 264.7899,-175.883 254.506,-178.4312 258.3397,-184.2881"/>
-</g>
-<!-- Sarah&#45;&gt;Camille -->
-<g id="edge6" class="edge">
-<title>Sarah-&gt;Camille</title>
-<path fill="none" stroke="#000000" d="M369.529,-287.8771C366.1748,-242.7856 362.3642,-125.3474 294,-72 257.4113,-43.4484 206.2087,-29.9871 168.1969,-23.6437"/>
-<polygon fill="#000000" stroke="#000000" points="168.2672,-20.1127 157.8485,-22.0367 167.1929,-27.0298 168.2672,-20.1127"/>
-</g>
-<!-- Sarah&#45;&gt;Camille -->
+<!-- faq&#45;&gt;réponses -->
 <g id="edge33" class="edge">
-<title>Sarah-&gt;Camille</title>
-<path fill="none" stroke="#000000" d="M378.3106,-288.2065C384.193,-243.3602 380.5314,-125.4779 312,-72 270.8572,-39.8946 211.236,-26.8698 168.6586,-21.5905"/>
-<polygon fill="#000000" stroke="#000000" points="168.8254,-18.087 158.4943,-20.4362 168.0355,-25.0423 168.8254,-18.087"/>
+<title>faq-&gt;réponses</title>
+<path fill="none" stroke="#000000" d="M165.9547,-432.45C152.3312,-398.1428 121.8812,-319.6265 101,-252 94.6362,-231.3901 88.6439,-207.749 84.372,-189.8699"/>
+<polygon fill="#000000" stroke="#000000" points="87.7645,-189.0069 82.0657,-180.0753 80.9509,-190.6113 87.7645,-189.0069"/>
 </g>
-<!-- Sarah&#45;&gt;Celine -->
-<g id="edge10" class="edge">
-<title>Sarah-&gt;Celine</title>
-<path fill="none" stroke="#000000" d="M345.1925,-295.8369C311.2137,-283.4182 253.5134,-262.3298 215.0817,-248.2837"/>
-<polygon fill="#000000" stroke="#000000" points="215.8649,-244.8435 205.271,-244.698 213.4619,-251.4182 215.8649,-244.8435"/>
-</g>
-<!-- Sarah&#45;&gt;Sarah -->
-<g id="edge28" class="edge">
-<title>Sarah-&gt;Sarah</title>
-<path fill="none" stroke="#000000" d="M396.6174,-318.6563C410.7347,-321.4688 424.0215,-317.25 424.0215,-306 424.0215,-297.5625 416.5477,-293.0801 406.855,-292.5527"/>
-<polygon fill="#000000" stroke="#000000" points="406.318,-289.0837 396.6174,-293.3438 406.8573,-296.0629 406.318,-289.0837"/>
-</g>
-<!-- Lelio -->
-<g id="node6" class="node">
-<title>Lelio</title>
-<ellipse fill="none" stroke="#000000" cx="322" cy="-18" rx="31.3371" ry="18"/>
-<text text-anchor="middle" x="322" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">Lelio</text>
-</g>
-<!-- Sarah&#45;&gt;Lelio -->
-<g id="edge3" class="edge">
-<title>Sarah-&gt;Lelio</title>
-<path fill="none" stroke="#000000" d="M382.5438,-288.5848C387.6418,-278.2797 393.3918,-264.7797 396,-252 411.9976,-173.6158 432.245,-143.3183 396,-72 387.5864,-55.4447 371.4528,-42.7575 356.3921,-33.8538"/>
-<polygon fill="#000000" stroke="#000000" points="357.6783,-30.566 347.232,-28.7983 354.2959,-36.6946 357.6783,-30.566"/>
-</g>
-<!-- Sarah&#45;&gt;Brice -->
-<g id="edge14" class="edge">
-<title>Sarah-&gt;Brice</title>
-<path fill="none" stroke="#000000" d="M362.5058,-288.6302C347.417,-263.6557 319.4752,-217.4072 301.8588,-188.2491"/>
-<polygon fill="#000000" stroke="#000000" points="304.6984,-186.1806 296.5315,-179.4314 298.7069,-189.8005 304.6984,-186.1806"/>
-</g>
-<!-- Lucie -->
-<g id="node10" class="node">
-<title>Lucie</title>
-<ellipse fill="none" stroke="#000000" cx="481" cy="-234" rx="33.043" ry="18"/>
-<text text-anchor="middle" x="481" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">Lucie</text>
-</g>
-<!-- Sarah&#45;&gt;Lucie -->
-<g id="edge17" class="edge">
-<title>Sarah-&gt;Lucie</title>
-<path fill="none" stroke="#000000" d="M394.0799,-291.9468C410.4337,-281.0442 433.3015,-265.799 451.4769,-253.6821"/>
-<polygon fill="#000000" stroke="#000000" points="453.5942,-256.477 459.9733,-248.0178 449.7113,-250.6527 453.5942,-256.477"/>
-</g>
-<!-- Sarah&#45;&gt;Elias -->
-<g id="edge22" class="edge">
-<title>Sarah-&gt;Elias</title>
-<path fill="none" stroke="#000000" d="M403.6443,-298.9465C442.9125,-289.2662 507.7492,-270.9019 523,-252 536.8638,-234.8171 539.1494,-209.4958 538.3761,-190.085"/>
-<polygon fill="#000000" stroke="#000000" points="541.8605,-189.7363 537.6859,-179.9986 534.8768,-190.2142 541.8605,-189.7363"/>
-</g>
-<!-- Elen&#45;&gt;Lou -->
-<g id="edge25" class="edge">
-<title>Elen-&gt;Lou</title>
-<path fill="none" stroke="#000000" d="M170.0094,-143.8314C170.4372,-136.131 170.9459,-126.9743 171.4213,-118.4166"/>
-<polygon fill="#000000" stroke="#000000" points="174.9169,-118.592 171.977,-108.4133 167.9276,-118.2037 174.9169,-118.592"/>
-</g>
-<!-- Brice&#45;&gt;Olivia -->
-<g id="edge34" class="edge">
-<title>Brice-&gt;Olivia</title>
-<path fill="none" stroke="#000000" d="M280.8695,-179.7737C264.9735,-217.95 219.3727,-307.9114 193.6451,-352.3045"/>
-<polygon fill="#000000" stroke="#000000" points="190.5506,-350.6614 188.4745,-361.0508 196.5764,-354.2237 190.5506,-350.6614"/>
-</g>
-<!-- Brice&#45;&gt;Matteo -->
-<g id="edge7" class="edge">
-<title>Brice-&gt;Matteo</title>
-<path fill="none" stroke="#000000" d="M278.5843,-144.2022C275.1948,-136.0675 271.1042,-126.2501 267.3409,-117.2181"/>
-<polygon fill="#000000" stroke="#000000" points="270.5114,-115.7271 263.4344,-107.8425 264.0498,-118.4195 270.5114,-115.7271"/>
-</g>
-<!-- Brice&#45;&gt;Lelio -->
-<g id="edge29" class="edge">
-<title>Brice-&gt;Lelio</title>
-<path fill="none" stroke="#000000" d="M292.106,-144.1267C295.558,-133.6689 299.808,-120.1689 303,-108 308.3939,-87.4364 313.3159,-63.9219 316.7982,-46.0864"/>
-<polygon fill="#000000" stroke="#000000" points="320.2768,-46.5303 318.7232,-36.0499 313.4021,-45.2116 320.2768,-46.5303"/>
-</g>
-<!-- Brice&#45;&gt;Brice -->
-<g id="edge11" class="edge">
-<title>Brice-&gt;Brice</title>
-<path fill="none" stroke="#000000" d="M308.8615,-174.6027C322.7781,-177.5212 335.9486,-173.3203 335.9486,-162 335.9486,-153.5098 328.5402,-149.0242 318.9649,-148.5433"/>
-<polygon fill="#000000" stroke="#000000" points="318.5312,-145.0674 308.8615,-149.3973 319.1208,-152.0425 318.5312,-145.0674"/>
-</g>
-<!-- Brice&#45;&gt;Lou -->
-<g id="edge18" class="edge">
-<title>Brice-&gt;Lou</title>
-<path fill="none" stroke="#000000" d="M259.7127,-151.5306C239.7473,-141.1603 213.4449,-124.9667 194.6871,-111.7949"/>
-<polygon fill="#000000" stroke="#000000" points="196.5517,-108.8241 186.3978,-105.7993 192.4492,-114.4959 196.5517,-108.8241"/>
-</g>
-<!-- Brice&#45;&gt;Lou -->
-<g id="edge23" class="edge">
-<title>Brice-&gt;Lou</title>
-<path fill="none" stroke="#000000" d="M264.7456,-148.4574C246.7826,-137.0119 220.9058,-120.5241 201.2104,-107.9748"/>
-<polygon fill="#000000" stroke="#000000" points="202.9611,-104.9402 192.6468,-102.5183 199.1996,-110.8437 202.9611,-104.9402"/>
-</g>
-<!-- Lou&#45;&gt;Camille -->
-<g id="edge24" class="edge">
-<title>Lou-&gt;Camille</title>
-<path fill="none" stroke="#000000" d="M160.2927,-73.6621C153.3345,-64.7157 144.5586,-53.4325 136.7302,-43.3674"/>
-<polygon fill="#000000" stroke="#000000" points="139.3401,-41.022 130.4379,-35.2773 133.8146,-45.3196 139.3401,-41.022"/>
-</g>
-<!-- Lou&#45;&gt;Lelio -->
-<g id="edge19" class="edge">
-<title>Lou-&gt;Lelio</title>
-<path fill="none" stroke="#000000" d="M191.1533,-76.3847C194.1,-74.8974 197.1123,-73.4118 200,-72 228.4534,-58.0894 261.1118,-42.526 285.6359,-31.6943"/>
-<polygon fill="#000000" stroke="#000000" points="287.1692,-34.8442 294.9432,-27.6459 284.377,-28.4252 287.1692,-34.8442"/>
-</g>
-<!-- Lou&#45;&gt;Lelio -->
-<g id="edge30" class="edge">
-<title>Lou-&gt;Lelio</title>
-<path fill="none" stroke="#000000" d="M197.4948,-81.8742C204.3057,-78.761 211.4712,-75.1918 218,-72 242.9007,-59.8263 271.022,-46.3867 291.8708,-35.9605"/>
-<polygon fill="#000000" stroke="#000000" points="293.5539,-39.0315 300.9005,-31.3975 290.3968,-32.7839 293.5539,-39.0315"/>
-</g>
-<!-- Lou&#45;&gt;Brice -->
-<g id="edge35" class="edge">
-<title>Lou-&gt;Brice</title>
-<path fill="none" stroke="#000000" d="M196.4827,-99.03C216.539,-109.1938 244.1276,-126.0789 263.745,-139.807"/>
-<polygon fill="#000000" stroke="#000000" points="261.7192,-142.6612 271.8802,-145.6621 265.8084,-136.9797 261.7192,-142.6612"/>
-</g>
-<!-- Lucie&#45;&gt;Lelio -->
+<!-- faq&#45;&gt;réponses -->
 <g id="edge39" class="edge">
-<title>Lucie-&gt;Lelio</title>
-<path fill="none" stroke="#000000" d="M480.4186,-215.9773C478.4594,-183.5051 470.0226,-114.5983 434,-72 415.2563,-49.8348 385.3008,-36.0558 361.084,-27.9686"/>
-<polygon fill="#000000" stroke="#000000" points="362.0348,-24.5987 351.4455,-24.943 359.9382,-31.2774 362.0348,-24.5987"/>
+<title>faq-&gt;réponses</title>
+<path fill="none" stroke="#000000" d="M176.0889,-431.9145C170.0167,-397.3315 139.7733,-319.277 119,-252 112.4161,-230.6774 106.2299,-206.1104 99.0924,-188.0362"/>
+<polygon fill="#000000" stroke="#000000" points="102.234,-186.4848 95.0206,-178.7248 95.8204,-189.2894 102.234,-186.4848"/>
 </g>
-<!-- Lucie&#45;&gt;Brice -->
-<g id="edge37" class="edge">
-<title>Lucie-&gt;Brice</title>
-<path fill="none" stroke="#000000" d="M453.4748,-223.8369C419.1664,-211.1691 360.4259,-189.4803 322.4193,-175.4471"/>
-<polygon fill="#000000" stroke="#000000" points="323.3525,-172.0608 312.7592,-171.8803 320.9279,-178.6275 323.3525,-172.0608"/>
+<!-- adresses -->
+<g id="node3" class="node">
+<title>adresses</title>
+<ellipse fill="none" stroke="#000000" cx="235" cy="-378" rx="43.4144" ry="18"/>
+<text text-anchor="middle" x="235" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">adresses</text>
 </g>
-<!-- Lucie&#45;&gt;Elias -->
+<!-- faq&#45;&gt;adresses -->
+<g id="edge6" class="edge">
+<title>faq-&gt;adresses</title>
+<path fill="none" stroke="#000000" d="M176.7404,-431.8314C183.1723,-422.1769 193.24,-410.2334 203.4559,-400.0511"/>
+<polygon fill="#000000" stroke="#000000" points="206.0322,-402.4312 210.871,-393.0059 201.2106,-397.3565 206.0322,-402.4312"/>
+</g>
+<!-- sons -->
+<g id="node5" class="node">
+<title>sons</title>
+<ellipse fill="none" stroke="#000000" cx="212" cy="-234" rx="28.4107" ry="18"/>
+<text text-anchor="middle" x="212" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">sons</text>
+</g>
+<!-- faq&#45;&gt;sons -->
+<g id="edge30" class="edge">
+<title>faq-&gt;sons</title>
+<path fill="none" stroke="#000000" d="M174.3851,-431.985C175.9311,-413.7546 178.7831,-384.7979 183,-360 188.821,-325.7688 198.1957,-286.9013 204.7041,-261.4988"/>
+<polygon fill="#000000" stroke="#000000" points="208.0935,-262.3715 207.2143,-251.8132 201.3174,-260.6154 208.0935,-262.3715"/>
+</g>
+<!-- alt_text -->
+<g id="node7" class="node">
+<title>alt_text</title>
+<ellipse fill="none" stroke="#000000" cx="517" cy="-90" rx="40.0031" ry="18"/>
+<text text-anchor="middle" x="517" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">alt_text</text>
+</g>
+<!-- faq&#45;&gt;alt_text -->
+<g id="edge21" class="edge">
+<title>faq-&gt;alt_text</title>
+<path fill="none" stroke="#000000" d="M200.1149,-447.9023C302.2532,-439.2691 658,-402.2884 658,-306 658,-306 658,-306 658,-234 658,-174.6349 596.0646,-130.7069 554.2911,-107.8303"/>
+<polygon fill="#000000" stroke="#000000" points="555.6686,-104.599 545.1946,-103.0034 552.3875,-110.7824 555.6686,-104.599"/>
+</g>
+<!-- couleurs -->
+<g id="node9" class="node">
+<title>couleurs</title>
+<ellipse fill="none" stroke="#000000" cx="517" cy="-162" rx="44.0002" ry="18"/>
+<text text-anchor="middle" x="517" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">couleurs</text>
+</g>
+<!-- faq&#45;&gt;couleurs -->
+<g id="edge11" class="edge">
+<title>faq-&gt;couleurs</title>
+<path fill="none" stroke="#000000" d="M198.9925,-444.995C255.2273,-433.0257 389.9611,-398.0634 475,-324 503.1069,-299.5207 508.0875,-287.9302 518,-252 522.2552,-236.5762 518.1481,-231.9993 518,-216 517.9239,-207.7856 517.7828,-198.8691 517.6301,-190.6933"/>
+<polygon fill="#000000" stroke="#000000" points="521.1255,-190.4215 517.4271,-180.4932 514.1269,-190.5609 521.1255,-190.4215"/>
+</g>
+<!-- questions -->
+<g id="node10" class="node">
+<title>questions</title>
+<ellipse fill="none" stroke="#000000" cx="78" cy="-90" rx="47.5312" ry="18"/>
+<text text-anchor="middle" x="78" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">questions</text>
+</g>
+<!-- faq&#45;&gt;questions -->
+<g id="edge26" class="edge">
+<title>faq-&gt;questions</title>
+<path fill="none" stroke="#000000" d="M148.2133,-442.3481C100.3773,-425.866 0,-382.202 0,-306 0,-306 0,-306 0,-234 0,-192.6022 3.3226,-179.8639 24,-144 30.5705,-132.6038 40.1594,-121.9298 49.44,-113.1301"/>
+<polygon fill="#000000" stroke="#000000" points="52.0258,-115.5104 57.0902,-106.2044 47.3278,-110.321 52.0258,-115.5104"/>
+</g>
+<!-- formes -->
+<g id="node6" class="node">
+<title>formes</title>
+<ellipse fill="none" stroke="#000000" cx="244" cy="-90" rx="37.6986" ry="18"/>
+<text text-anchor="middle" x="244" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">formes</text>
+</g>
+<!-- réponses&#45;&gt;formes -->
+<g id="edge15" class="edge">
+<title>réponses-&gt;formes</title>
+<path fill="none" stroke="#000000" d="M108.8343,-148.6261C136.3804,-136.6784 176.8181,-119.1391 206.2832,-106.3591"/>
+<polygon fill="#000000" stroke="#000000" points="208.0391,-109.4126 215.8205,-102.2224 205.2536,-102.9907 208.0391,-109.4126"/>
+</g>
+<!-- réponses&#45;&gt;questions -->
+<g id="edge17" class="edge">
+<title>réponses-&gt;questions</title>
+<path fill="none" stroke="#000000" d="M72.0476,-143.8314C71.2856,-136.0125 71.0696,-126.6923 71.3995,-118.0221"/>
+<polygon fill="#000000" stroke="#000000" points="74.9004,-118.1239 72.0727,-107.9134 67.9159,-117.6587 74.9004,-118.1239"/>
+</g>
+<!-- adresses&#45;&gt;faq -->
+<g id="edge18" class="edge">
+<title>adresses-&gt;faq</title>
+<path fill="none" stroke="#000000" d="M220.2725,-395.1029C212.1742,-404.5074 202.0082,-416.313 193.1806,-426.5644"/>
+<polygon fill="#000000" stroke="#000000" points="190.3261,-424.5155 186.4531,-434.3771 195.6305,-429.0832 190.3261,-424.5155"/>
+</g>
+<!-- adresses&#45;&gt;faq -->
+<g id="edge34" class="edge">
+<title>adresses-&gt;faq</title>
+<path fill="none" stroke="#000000" d="M231.2925,-396.1193C224.1821,-406.8042 212.6038,-420.3059 201.2969,-431.1205"/>
+<polygon fill="#000000" stroke="#000000" points="198.638,-428.8062 193.5707,-438.1107 203.3343,-433.9971 198.638,-428.8062"/>
+</g>
+<!-- adresses&#45;&gt;réponses -->
+<g id="edge2" class="edge">
+<title>adresses-&gt;réponses</title>
+<path fill="none" stroke="#000000" d="M214.0136,-362.1651C201.4987,-352.0885 185.8021,-338.2831 174,-324 138.3675,-280.8771 107.4799,-223.0265 90.9132,-189.4014"/>
+<polygon fill="#000000" stroke="#000000" points="93.9549,-187.6528 86.4351,-180.1894 87.6594,-190.7133 93.9549,-187.6528"/>
+</g>
+<!-- adresses&#45;&gt;adresses -->
+<g id="edge31" class="edge">
+<title>adresses-&gt;adresses</title>
+<path fill="none" stroke="#000000" d="M265.2322,-390.943C281.4405,-393.1425 296.2067,-388.8281 296.2067,-378 296.2067,-369.5405 287.1941,-365.0568 275.5224,-364.5487"/>
+<polygon fill="#000000" stroke="#000000" points="275.0474,-361.0678 265.2322,-365.057 275.3928,-368.0593 275.0474,-361.0678"/>
+</g>
+<!-- partage_d’écran -->
+<g id="node4" class="node">
+<title>partage_d’écran</title>
+<ellipse fill="none" stroke="#000000" cx="350" cy="-306" rx="77.8411" ry="18"/>
+<text text-anchor="middle" x="350" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">partage_d’écran</text>
+</g>
+<!-- adresses&#45;&gt;partage_d’écran -->
+<g id="edge7" class="edge">
+<title>adresses-&gt;partage_d’écran</title>
+<path fill="none" stroke="#000000" d="M259.1078,-362.9064C275.0692,-352.9132 296.284,-339.6309 314.2032,-328.4119"/>
+<polygon fill="#000000" stroke="#000000" points="316.0791,-331.3669 322.6976,-323.0937 312.3644,-325.4338 316.0791,-331.3669"/>
+</g>
+<!-- adresses&#45;&gt;couleurs -->
+<g id="edge22" class="edge">
+<title>adresses-&gt;couleurs</title>
+<path fill="none" stroke="#000000" d="M274.5022,-370.2667C323.8432,-360.7509 404.2775,-343.4462 428,-324 470.5023,-289.1594 492.2996,-226.1281 504.7099,-189.8124"/>
+<polygon fill="#000000" stroke="#000000" points="508.1792,-190.4864 508.1215,-179.8917 501.5597,-188.21 508.1792,-190.4864"/>
+</g>
+<!-- adresses&#45;&gt;couleurs -->
+<g id="edge27" class="edge">
+<title>adresses-&gt;couleurs</title>
+<path fill="none" stroke="#000000" d="M276.1315,-372.1739C330.1347,-363.1975 420.593,-344.827 446,-324 488.3919,-289.2499 510.1862,-226.4553 516.8876,-190.0959"/>
+<polygon fill="#000000" stroke="#000000" points="520.3554,-190.5732 518.4362,-180.1537 513.4388,-189.4958 520.3554,-190.5732"/>
+</g>
+<!-- adresses&#45;&gt;questions -->
+<g id="edge40" class="edge">
+<title>adresses-&gt;questions</title>
+<path fill="none" stroke="#000000" d="M226.0828,-360.2255C214.0235,-335.9795 192.0627,-291.0798 175,-252 154.3272,-204.6516 160.4065,-187.1545 132,-144 124.7103,-132.9256 114.8759,-122.2634 105.5972,-113.3811"/>
+<polygon fill="#000000" stroke="#000000" points="107.7235,-110.5806 98.0019,-106.3686 102.975,-115.7238 107.7235,-110.5806"/>
+</g>
+<!-- partage_d’écran&#45;&gt;sons -->
+<g id="edge3" class="edge">
+<title>partage_d’écran-&gt;sons</title>
+<path fill="none" stroke="#000000" d="M313.6533,-290.0209C290.7746,-278.7612 261.7786,-263.6701 240.5422,-251.9879"/>
+<polygon fill="#000000" stroke="#000000" points="242.1091,-248.8544 231.6692,-247.0491 238.7046,-254.9708 242.1091,-248.8544"/>
+</g>
+<!-- partage_d’écran&#45;&gt;sons -->
+<g id="edge19" class="edge">
+<title>partage_d’écran-&gt;sons</title>
+<path fill="none" stroke="#000000" d="M323.1358,-288.937C300.6695,-276.5285 268.7321,-259.9239 244.7759,-248.2287"/>
+<polygon fill="#000000" stroke="#000000" points="246.2263,-245.0424 235.6985,-243.8521 243.1861,-251.3478 246.2263,-245.0424"/>
+</g>
+<!-- partage_d’écran&#45;&gt;formes -->
+<g id="edge8" class="edge">
+<title>partage_d’écran-&gt;formes</title>
+<path fill="none" stroke="#000000" d="M325.033,-288.6462C314.7613,-278.5758 303.7392,-265.2868 296,-252 270.4084,-208.0637 251.9998,-151.4431 245.0557,-118.0949"/>
+<polygon fill="#000000" stroke="#000000" points="248.4729,-117.3257 243.2094,-108.1308 241.59,-118.6012 248.4729,-117.3257"/>
+</g>
+<!-- partage_d’écran&#45;&gt;formes -->
+<g id="edge28" class="edge">
+<title>partage_d’écran-&gt;formes</title>
+<path fill="none" stroke="#000000" d="M340.1044,-287.6775C332.0648,-277.7321 321.4935,-264.865 314,-252 288.092,-207.5205 269.5457,-150.0411 257.4123,-116.8687"/>
+<polygon fill="#000000" stroke="#000000" points="260.6462,-115.5246 253.8516,-107.3955 254.0938,-117.9875 260.6462,-115.5246"/>
+</g>
+<!-- partage_d’écran&#45;&gt;alt_text -->
+<g id="edge23" class="edge">
+<title>partage_d’écran-&gt;alt_text</title>
+<path fill="none" stroke="#000000" d="M366.0034,-287.9677C374.8778,-277.6851 385.9208,-264.4098 395,-252 428.6327,-206.0295 428.5265,-188.5654 464,-144 472.5209,-133.2952 482.8815,-122.3622 492.1743,-113.1587"/>
+<polygon fill="#000000" stroke="#000000" points="494.6149,-115.6675 499.3425,-106.1859 489.734,-110.6498 494.6149,-115.6675"/>
+</g>
+<!-- partage_d’écran&#45;&gt;couleurs -->
+<g id="edge32" class="edge">
+<title>partage_d’écran-&gt;couleurs</title>
+<path fill="none" stroke="#000000" d="M370.0307,-288.4485C384.2644,-278.4205 403.2306,-265.2356 419,-252 443.9635,-231.0475 469.8741,-204.1647 489.0057,-185.2556"/>
+<polygon fill="#000000" stroke="#000000" points="491.5413,-187.6714 496.248,-178.1794 486.6494,-182.6646 491.5413,-187.6714"/>
+</g>
+<!-- partage_d’écran&#45;&gt;couleurs -->
+<g id="edge35" class="edge">
+<title>partage_d’écran-&gt;couleurs</title>
+<path fill="none" stroke="#000000" d="M383.9887,-289.6365C400.742,-279.4752 420.5999,-265.7651 437,-252 460.899,-231.9409 485.6661,-206.4466 501.4507,-187.7169"/>
+<polygon fill="#000000" stroke="#000000" points="504.2292,-189.8479 507.8362,-179.8859 498.8041,-185.4242 504.2292,-189.8479"/>
+</g>
+<!-- réseau -->
+<g id="node11" class="node">
+<title>réseau</title>
+<ellipse fill="none" stroke="#000000" cx="350" cy="-234" rx="36.2223" ry="18"/>
+<text text-anchor="middle" x="350" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">réseau</text>
+</g>
+<!-- partage_d’écran&#45;&gt;réseau -->
+<g id="edge41" class="edge">
+<title>partage_d’écran-&gt;réseau</title>
+<path fill="none" stroke="#000000" d="M350,-287.8314C350,-280.131 350,-270.9743 350,-262.4166"/>
+<polygon fill="#000000" stroke="#000000" points="353.5001,-262.4132 350,-252.4133 346.5001,-262.4133 353.5001,-262.4132"/>
+</g>
+<!-- sons&#45;&gt;réponses -->
+<g id="edge29" class="edge">
+<title>sons-&gt;réponses</title>
+<path fill="none" stroke="#000000" d="M190.1724,-222.2717C169.6552,-211.2476 138.5595,-194.5395 114.3079,-181.5087"/>
+<polygon fill="#000000" stroke="#000000" points="115.8501,-178.3642 105.3846,-176.7141 112.5369,-184.5304 115.8501,-178.3642"/>
+</g>
+<!-- sons&#45;&gt;adresses -->
+<g id="edge20" class="edge">
+<title>sons-&gt;adresses</title>
+<path fill="none" stroke="#000000" d="M210.2359,-252.1727C211.6998,-276.8697 218.5246,-321.2595 225.0921,-350.1684"/>
+<polygon fill="#000000" stroke="#000000" points="221.7312,-351.1602 227.4897,-360.0535 228.5339,-349.5102 221.7312,-351.1602"/>
+</g>
+<!-- sons&#45;&gt;adresses -->
+<g id="edge24" class="edge">
+<title>sons-&gt;adresses</title>
+<path fill="none" stroke="#000000" d="M219.4298,-251.6392C225.8321,-276.0135 233.2022,-320.2775 235.9466,-349.4106"/>
+<polygon fill="#000000" stroke="#000000" points="232.4873,-350.0673 236.7602,-359.7623 239.4658,-349.5188 232.4873,-350.0673"/>
+</g>
+<!-- sons&#45;&gt;formes -->
+<g id="edge4" class="edge">
+<title>sons-&gt;formes</title>
+<path fill="none" stroke="#000000" d="M212.2134,-215.7904C212.8012,-197.4085 214.7558,-168.3364 221,-144 223.3552,-134.8207 227.0346,-125.1842 230.7653,-116.634"/>
+<polygon fill="#000000" stroke="#000000" points="233.9552,-118.0744 234.9312,-107.5246 227.5893,-115.1631 233.9552,-118.0744"/>
+</g>
+<!-- sons&#45;&gt;alt_text -->
 <g id="edge36" class="edge">
-<title>Lucie-&gt;Elias</title>
-<path fill="none" stroke="#000000" d="M488.4326,-216.2022C494.5811,-206.7389 503.2472,-194.9982 511.5167,-184.8661"/>
-<polygon fill="#000000" stroke="#000000" points="514.2427,-187.0626 518.0079,-177.1594 508.8887,-182.5531 514.2427,-187.0626"/>
+<title>sons-&gt;alt_text</title>
+<path fill="none" stroke="#000000" d="M229.9497,-219.7655C255.0946,-200.3918 302.8085,-165.6596 348,-144 388.0698,-124.7952 436.6455,-110.0871 471.4166,-100.9063"/>
+<polygon fill="#000000" stroke="#000000" points="472.4853,-104.2451 481.2886,-98.3501 470.7305,-97.4686 472.4853,-104.2451"/>
 </g>
-<!-- Elias&#45;&gt;Lucie -->
+<!-- sons&#45;&gt;couleurs -->
+<g id="edge9" class="edge">
+<title>sons-&gt;couleurs</title>
+<path fill="none" stroke="#000000" d="M238.5332,-227.7364C289.9848,-215.5905 403.964,-188.6839 469.0243,-173.3254"/>
+<polygon fill="#000000" stroke="#000000" points="470.1007,-176.6676 479.029,-170.9636 468.4924,-169.8548 470.1007,-176.6676"/>
+</g>
+<!-- social -->
+<g id="node8" class="node">
+<title>social</title>
+<ellipse fill="none" stroke="#000000" cx="329" cy="-18" rx="33.6228" ry="18"/>
+<text text-anchor="middle" x="329" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">social</text>
+</g>
+<!-- formes&#45;&gt;social -->
+<g id="edge16" class="edge">
+<title>formes-&gt;social</title>
+<path fill="none" stroke="#000000" d="M262.8643,-74.0209C274.6912,-64.0028 290.0987,-50.9517 303.0666,-39.9671"/>
+<polygon fill="#000000" stroke="#000000" points="305.4036,-42.5744 310.7719,-33.4403 300.8792,-37.2331 305.4036,-42.5744"/>
+</g>
+<!-- alt_text&#45;&gt;adresses -->
+<g id="edge10" class="edge">
+<title>alt_text-&gt;adresses</title>
+<path fill="none" stroke="#000000" d="M532.3519,-106.7036C542.6152,-116.206 554.9364,-129.1654 561,-144 567.0538,-158.8105 565.5996,-164.6754 561,-180 538.9585,-253.4363 529.0868,-280.4251 466,-324 436.8278,-344.1496 344.5443,-360.8768 285.7383,-370.1453"/>
+<polygon fill="#000000" stroke="#000000" points="284.8722,-366.7378 275.5289,-371.7332 285.9481,-373.6547 284.8722,-366.7378"/>
+</g>
+<!-- alt_text&#45;&gt;adresses -->
+<g id="edge25" class="edge">
+<title>alt_text-&gt;adresses</title>
+<path fill="none" stroke="#000000" d="M543.9163,-103.3583C557.4908,-113.0476 572.1908,-127.3415 579,-144 585.0538,-158.8105 583.5996,-164.6754 579,-180 556.9585,-253.4363 547.0868,-280.4251 484,-324 452.9594,-345.4402 350.4645,-363.0054 286.961,-371.8333"/>
+<polygon fill="#000000" stroke="#000000" points="286.1731,-368.4082 276.7368,-373.2256 287.1177,-375.3442 286.1731,-368.4082"/>
+</g>
+<!-- alt_text&#45;&gt;alt_text -->
+<g id="edge37" class="edge">
+<title>alt_text-&gt;alt_text</title>
+<path fill="none" stroke="#000000" d="M545.05,-102.854C560.6428,-105.2534 575.0015,-100.9688 575.0015,-90 575.0015,-81.5164 566.412,-77.0312 555.3056,-76.5444"/>
+<polygon fill="#000000" stroke="#000000" points="554.8279,-73.0663 545.05,-77.146 555.2378,-80.0543 554.8279,-73.0663"/>
+</g>
+<!-- alt_text&#45;&gt;social -->
+<g id="edge5" class="edge">
+<title>alt_text-&gt;social</title>
+<path fill="none" stroke="#000000" d="M486.3761,-78.2717C453.4697,-65.6692 401.1677,-45.6387 365.9874,-32.1654"/>
+<polygon fill="#000000" stroke="#000000" points="367.1395,-28.8588 356.5492,-28.5507 364.636,-35.3958 367.1395,-28.8588"/>
+</g>
+<!-- couleurs&#45;&gt;alt_text -->
+<g id="edge14" class="edge">
+<title>couleurs-&gt;alt_text</title>
+<path fill="none" stroke="#000000" d="M517,-143.8314C517,-136.131 517,-126.9743 517,-118.4166"/>
+<polygon fill="#000000" stroke="#000000" points="520.5001,-118.4132 517,-108.4133 513.5001,-118.4133 520.5001,-118.4132"/>
+</g>
+<!-- questions&#45;&gt;réponses -->
+<g id="edge12" class="edge">
+<title>questions-&gt;réponses</title>
+<path fill="none" stroke="#000000" d="M83.9273,-107.9134C84.7012,-115.6993 84.9291,-125.01 84.6111,-133.6941"/>
+<polygon fill="#000000" stroke="#000000" points="81.1082,-133.6254 83.9524,-143.8314 88.0935,-134.0794 81.1082,-133.6254"/>
+</g>
+<!-- réseau&#45;&gt;social -->
 <g id="edge38" class="edge">
-<title>Elias-&gt;Lucie</title>
-<path fill="none" stroke="#000000" d="M527.6853,-179.6161C521.6208,-188.9706 513.0625,-200.5886 504.8517,-210.6818"/>
-<polygon fill="#000000" stroke="#000000" points="502.1416,-208.4666 498.3956,-218.3771 507.5043,-212.9657 502.1416,-208.4666"/>
+<title>réseau-&gt;social</title>
+<path fill="none" stroke="#000000" d="M348.2457,-215.9555C344.5861,-178.3144 336.1154,-91.1867 331.7343,-46.1246"/>
+<polygon fill="#000000" stroke="#000000" points="335.2154,-45.7594 330.7641,-36.1451 328.2483,-46.4369 335.2154,-45.7594"/>
+</g>
+<!-- local -->
+<g id="node12" class="node">
+<title>local</title>
+<ellipse fill="none" stroke="#000000" cx="387" cy="-162" rx="29.6127" ry="18"/>
+<text text-anchor="middle" x="387" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">local</text>
+</g>
+<!-- réseau&#45;&gt;local -->
+<g id="edge13" class="edge">
+<title>réseau-&gt;local</title>
+<path fill="none" stroke="#000000" d="M359.1461,-216.2022C363.4344,-207.8574 368.6327,-197.7417 373.3718,-188.5197"/>
+<polygon fill="#000000" stroke="#000000" points="376.6291,-189.8387 378.0868,-179.3446 370.4031,-186.6391 376.6291,-189.8387"/>
 </g>
 </g>
 </svg>
+<figcaption>Hello <a href="http://pads.ustensile.be/">ustensile</a>!</figcaption>
+</figure>
+
+## Archive du pad (14/04/2022)
+
+### Participant·es
+
+Olivia D., Celine F., Sarah F., Brice G., Lou M., Elen M., Lucie V., Lelio B., Matteo L., Camille P., Elias P., Julien B.
+
+
+## URLs 
+
+### Lelio aka beepbeepboopboop
+[beepbeepboopboop.neocities.org](https://beepbeepboopboop.neocities.org/)    
+[question.html](https://beepbeepboopboop.neocities.org/question.html)    
+[reponse.html](https://beepbeepboopboop.neocities.org/reponse.html)    
+[faq.html](https://beepbeepboopboop.neocities.org/faq.html)    
+[cafe.html](https://beepbeepboopboop.neocities.org/cafe.html)    
+[partage.html](https://beepbeepboopboop.neocities.org/partage.html)    
+[grille.html](https://beepbeepboopboop.neocities.org/grille.html)
+
+### Camiliero
+[camiliero.neocities.org/](https://camiliero.neocities.org/)   
+[toilette_esad.html](https://camiliero.neocities.org/toilette_esad.html)   
+[lesautressites.html](https://camiliero.neocities.org/lesautressites.html)   
+[faq.html](https://camiliero.neocities.org/faq.html)   
+[beginning.html](https://camiliero.neocities.org/beginning.html)   
+[question.html](https://camiliero.neocities.org/question.html)   
+[reponse.html](https://camiliero.neocities.org/reponse.html)
+
+### Kusaik
+https://kusaik.neocities.org/    
+[questioncamiliero.html](https://kusaik.neocities.org/questioncamiliero.html)    
+[reponseoli.html](https://kusaik.neocities.org/reponseoli.html)    
+[faq.html](https://kusaik.neocities.org/faq.html)    
+[son.html](https://kusaik.neocities.org/son.html)    
+[kinghasbulla.html](https://kusaik.neocities.org/kinghasbulla.html)    
+[memory.html](https://kusaik.neocities.org/memory.html)    
+
+### Oli
+https://oli.neocities.org    
+[bonjourkusaik.html](https://oli.neocities.org/bonjourkusaik.html)    
+[questionpourkusaik.html](https://oli.neocities.org/questionpourkusaik.html)    
+[bowling.html](https://oli.neocities.org/bowling.html)    
+[comediesmusicales.html](https://oli.neocities.org/comediesmusicales.html)    
+[faq.html](https://oli.neocities.org/faq.html)    
+[house.html](https://oli.neocities.org/house.html)    
+[reponse.html](https://oli.neocities.org/reponse.html)    
+[violet.html](https://oli.neocities.org/violet.html)    
+
+### Noé
+https://pissenlit.neocities.org/    
+[audio.html](https://pissenlit.neocities.org/audio.html)    
+[ecoliere.html](https://pissenlit.neocities.org/ecoliere.html)    
+[FAQ.html](https://pissenlit.neocities.org/FAQ.html)    
+[frame.html](https://pissenlit.neocities.org/frame.html)    
+[pourquoipissenlit.html](https://pissenlit.neocities.org/pourquoipissenlit.html)    
+
+### Elen
+https://croutillons.neocities.org/    
+[FAQ.html](https://croutillons.neocities.org/FAQ.html)    
+[question.html](https://croutillons.neocities.org/question.html)    
+[tetes.html](https://croutillons.neocities.org/tetes.html)    
+[spaceman.html](https://croutillons.neocities.org/spaceman.html)    
+[poule.html](https://croutillons.neocities.org/poule.html)    
+
+### Lulu
+https://luluu.neocities.org/    
+[reponsesadresses.html](https://luluu.neocities.org/reponsesadresses.html)    
+[FAQ.html](https://luluu.neocities.org/FAQ.html)    
+[partage-ecran.html](https://luluu.neocities.org/partage-ecran.html)    
+[description.html](https://luluu.neocities.org/description.html)    
+
+### Mattéo aka lafoliedetchoupi
+https://lafoliedetchoupi.neocities.org/    
+[temps%20fort%20code/index.html](https://lafoliedetchoupi.neocities.org/temps%20fort%20code/index.html)    
+[faq.html](https://lafoliedetchoupi.neocities.org/faq.html)    
+[question.html](https://lafoliedetchoupi.neocities.org/question.html)    
+[partageecran.html](https://lafoliedetchoupi.neocities.org/partageecran.html)    
+
+### Lou
+https://loupy.neocities.org    
+[faq.html](https://loupy.neocities.org/faq.html)    
+[questionadresees-2.html](https://loupy.neocities.org/questionadresees-2.html)    
+[ouverture-1.html](https://loupy.neocities.org/ouverture-1.html)    
+[descriptions.html](https://loupy.neocities.org/descriptions.html)    
+
+### Local (social) area network
+https://localareanetwork.neocities.org/    
+[question.html](https://localareanetwork.neocities.org/question.html)    
+[reponse.html](https://localareanetwork.neocities.org/reponse.html)    
+[partager.html](https://localareanetwork.neocities.org/partager.html)    
+[alt.html](https://localareanetwork.neocities.org/alt.html)    
+
+
+### Comptes Neocities
+
+https://pissenlit.neocities.org/   
+https://croutillons.neocities.org/   
+https://camiliero.neocities.org/   
+https://soupauchou.neocities.org/   
+https://oli.neocities.org   
+https://luluu.neocities.org/   
+https://beepbeepboopboop.neocities.org/   
+https://projarts.neocities.org/   
+https://lafoliedetchoupi.neocities.org   
+https://loupy.neocities.org   
+https://kusaik.neocities.org/   
+https://localareanetwork.neocities.org/   
+
+
+
+***
+
+## Archive progressive
+
+### Questions fréquentes
+
+"pourquoi je regarde plus t'choupi ?"
+"Est-ce que j'ai sauvegardé ?"
+Est-ce que je travaille sur la dissertation 1, 2 ou 3 ? Sur le projet en sculpture ou design ? aled
+Vais-je manger de la soupe aux choux ce soir?
+est-ce que j'ai fermé la porte ?
+pourquoi Macron?
+Pourquoi le gluten?  ;-;  
+comment on décrit une couleur à macron ?
+Comment on décrit une couleur à un aveugle ?
+Combien de jours reste-t-il avant le week-end ?
+qu'est ce qye je vais faire ces vacances?
+qu'est ce que j'écris comme question sur le doc ?
+
+
+
+### Questions/réponses FAQ
+
+Posez(-vous?) une question
+
+https://camiliero.neocities.org/faq.html
+https://beepbeepboopboop.neocities.org/faq.html
+https://localareanetwork.neocities.org/faq.html
+https://oli.neocities.org/faq.html
+https://loupy.neocities.org/faq.html
+https://kusaik.neocities.org/faq.html
+https://luluu.neocities.org/FAQ.html
+https://croutillons.neocities.org/FAQ.html
+https://lafoliedetchoupi.neocities.org/faq.html
+https://pissenlit.neocities.org/FAQ.html
+
+
+### Partage d’écran
+
+Partager la scène
+
+https://pissenlit.neocities.org/ => https://pissenlit.neocities.org/frame.html  
+https://croutillons.neocities.org/ => https://croutillons.neocities.org/tetes.html  
+https://camiliero.neocities.org/ =>https://camiliero.neocities.org/lesautressites.html  
+https://oli.neocities.org => https://oli.neocities.org/violet.html  
+https://beepbeepboopboop.neocities.org => https://beepbeepboopboop.neocities.org/partage.html  
+https://lafoliedetchoupi.neocities.org  
+https://loupy.neocities.org https://loupy.neocities.org/ouverture-1.html  
+https://kusaik.neocities.org/ => https://kusaik.neocities.org/partage.html  
+https://localareanetwork.neocities.org/partager.html <= oli  
+
+
+### Questions directes
+
+Toi ? — au hasard
+
+https://pissenlit.neocities.org/ => https://croutillons.neocities.org => https://croutillons.neocities.org/question.html   
+https://croutillons.neocities.org/ => https://lafoliedetchoupi.neocities.org   
+https://camiliero.neocities.org/question.html => https://beepbeepboopboop.neocities.org/reponse.html   
+https://oli.neocities.org/bonjourkusaik.html => https://kusaik.neocities.org   
+https://luluu.neocities.org/ => https://localareanetwork.neocities.org/reponse.html   
+https://beepbeepboopboop.neocities.org/question.html =>rep:https://luluu.neocities.org/reponsesadresses.html    
+https://lafoliedetchoupi.neocities.org =>:https://loupy.neocities.org/questionadresees-2.html   
+https://loupy.neocities.org => https://pissenlit.neocities.org https://pissenlit.neocities.org/pourquoipissenlit.html    
+https://kusaik.neocities.org/ =>https://camiliero.neocities.org/reponse.html   
+https://localareanetwork.neocities.org/question.html => https://oli.neocities.org/reponse.html   
+   
+@luluu oui bonjour j'ai du retard voila ma question : https://beepbeepboopboop.neocities.org/question.html rep:https://luluu.neocities.org/reponsesadresses.html 
+@croutillons, que penses tu des gens qui mange du gluten? ton seum sur une echelle de 1 à 10?
+@pissenlit  pourquoi pissenlit?
+@lafoliedetchoupi : quel est ton animal marin prefere et pourquoi?
+@kusaik que penses-tu des gens qui portent des bermudas ? : https://oli.neocities.org/bonjourkusaik.html (lien pour la question)https://kusaik.neocities.org/reponseoli.html ( la réponse) c'est stylé les bermudas, stoppez la haine injustifiée.
+@localareanetwork: est ce que vous aimez les olives sur la pizza?
+@camiliero  : les ballerines, c'est frais ou pas ?https://kusaik.neocities.org/questioncamiliero.html (la question)https://camiliero.neocities.org/reponse.html (la réponse. au début je croyais que tu parlais des ballerines les gens avec des tutus)
+@loupy  j'ai un exercice sur la troisième loi de Kepler je galère un peu, est-ce que tu peux m'aider à résoudre : 
+(2*3,14/T)²*a°3= K 
+Où : 
+T est la période
+a est le demi-grand axe
+k est une constante
+K = G*M
+Où 
+G est la contante gravitationelle
+M0 est la masse du soleil 
+on en déduit donc : T² = (4*3,14²/GM)a°3 ?reponse:https://loupy.neocities.org/questionadresees-2.html
+@beepbeepboopboop : https://camiliero.neocities.org/question.html (la question)
+@oli: https://localareanetwork.neocities.org/question.html
+
+
+### Alt text
+    <script src="https://localareanetwork.neocities.org/imgalt.js"></script>
+</head>
+
+### Exemples rapides sur CodePen
+
+https://codepen.io/esadpyrenees/pen/YzYjJOj?editors=1100
+https://codepen.io/esadpyrenees/pen/zYpLyYe
+https://codepen.io/esadpyrenees/pen/vYpaqVY  (incrustation d’iframe)
+https://codepen.io/esadpyrenees/pen/RwxYQgQ (grille d’images)
+https://codepen.io/esadpyrenees/pen/OJzoQwr?editors=1100 (marine/manu)
+
+### Liens en vrac
+
+https://loupy.neocities.org/ouverture-1.html
+https://lafoliedetchoupi.neocities.org/question.html
+https://aesthetics.fandom.com/wiki/List_of_Aesthetics
+
+drive pour les sons de couleurs : https://drive.google.com/drive/folders/12uQJIPHO0LXlILIBdADzPhl5VTvydOng?usp=sharing
+https://lafoliedetchoupi.neocities.org/partageecran.html
+
+SITE AUDIO
+https://beepbeepboopboop.neocities.org/cafe.html
+https://pissenlit.neocities.org/audio.html
+https://loupy.neocities.org/ouverture-1.html
+https://croutillons.neocities.org/spaceman.html
+https://lafoliedetchoupi.neocities.org/partageecran.html
+https://kusaik.neocities.org/son.html (bien fort le son svp)
+https://camiliero.neocities.org/
+https://luluu.neocities.org/partage-ecran.html
+
+GALLERIE:
+https://kusaik.neocities.org/kinghasbulla.html
+https://camiliero.neocities.org/toilette_esad.html
+https://beepbeepboopboop.neocities.org/grille.html
+
+
+
+
+
+
 
 [→ accéder au pad](https://semestriel.framapad.org/p/localareasocialnetwork?lang=fr){.bigbutton}
