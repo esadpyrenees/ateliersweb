@@ -1,5 +1,10 @@
 #  Local Area Social Network
 
+## Mise à jour post workshop {.edit}
+Ce temps-fort, mené avec 8 étudiant·es de 1<sup>re</sup> année pour qui il fut une découverte des approches du web fait-main, a utilisé les services de [neocities.org](https://neocities.org). Les résultats du temps-fort sont visibles en ligne depuis [localareanetwork](https://localareanetwork.neocities.org/) ou [localareasocialnetwork](https://localareasocialnetwork.neocities.org/).
+
+## Introduction
+
 Trois jours de temps-fort qui s’attachent à expérimenter la possibilité d’une ré-appropriation des espaces de publication en ligne, hors des plateformes, en circuit court, adressé à celles et ceux que l’omniprésence des médias sociaux numériques enthousiasme, intrigue ou effraie et qui souhaitent explorer d’autres logiques de publication, tant du point de vue de leur forme que de leur contexte d’apparition ou de leur mode de création.
 
 <details>
@@ -348,6 +353,16 @@ Le projet de ces trois jours est de créer des liens, d’explorer des espaces d
 </svg>
 <figcaption>Hello <a href="http://pads.ustensile.be/">ustensile</a>!</figcaption>
 </figure>
+
+## Onglets ouverts
+
+https://fr.wikipedia.org/wiki/Webring
+http://www.desordre.net/
+https://otherti.me/
+https://www.newrafael.com/
+https://indieweb.org/
+https://www.leanderherzog.ch/
+
 
 ## Archive du pad (14/04/2022)
 
