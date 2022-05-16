@@ -6,6 +6,7 @@
     $mdfile = "./index.md";
     $description = "Trois jours de temps-fort qui s’attachent à expérimenter la possibilité d’une réappropriation des espaces de publication en ligne, hors des plateformes, en circuit court.";
     // $date = "today";
+    $ogp_url = "ogp-lasn.png";
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
