@@ -18,8 +18,8 @@
     echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
     echo "        <meta property='og:locale' content='fr'>\n";
     if(isset($ogp_url)){
-    echo "        <meta property='og:image' content='$host/web/medias/$ogp_url'>\n";
-    echo "        <meta name='twitter:description' content='$host/web/medias/$ogp_url'>\n";
+    echo "        <meta property='og:image' content='$localurl$ogp_url'>\n";
+    echo "        <meta name='twitter:description' content='$localurl$ogp_url'>\n";
     } else {
       $text = rawurlencode($title);
       echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text" . (isset($version) ? '&version=' . $version : "") . "' >\n";    
