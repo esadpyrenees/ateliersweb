@@ -9,7 +9,7 @@
       }
     }
 
-    // return false;
+    return false;
     // old (glob) : 
     // foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
     //   return basename($dir) . '/' . basename($file);
