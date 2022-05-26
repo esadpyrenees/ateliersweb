@@ -5,7 +5,7 @@
     $fs = array_diff( scandir($dir), array(".", "..") );
     foreach($fs as $f){
       if(in_array($f, ["index.html", "index.php", "index.htm"])){
-        return basename($dir) . '/' . basename($f);
+        return basename($f);
       }
     }
 
@@ -71,7 +71,7 @@ foreach ($dir as $fileinfo) {
       
     $path = $fileinfo->getFilename() . '/';
 
-    if ($index != false ) $path = $index;
+    if ($index != false ) $path = basename($dir) . '/' .$index;
 
     
     $dirArray = array(
