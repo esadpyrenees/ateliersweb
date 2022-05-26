@@ -1,13 +1,47 @@
-  <?php 
-    $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
-    $section="archives";
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
-    // markdown!
-    $Parsedown = new ParsedownExtra();
-  ?> 
+<?php 
+  // Does the dir has an index.html|php|htm file 
+  function hasIndex($dir){
+    foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
+      return basename($dir) . '/' . basename($file);
+    }
+    return false;
+  }
+
+  // Does the dir has an index.md file 
+  function hasMDIndex($dir){
+    foreach(glob($dir.'/index.md',GLOB_BRACE) as $file){
+      return $file;
+    }
+    return false;
+  }
+
+  $params = '';
+  if (isset($_GET['params'])) {
+    $params = '/' . $_GET['params'];
+  }
+
+  // $result = array();
+
+  $archivesdir = '../../archives';
+  $currentdir = $archivesdir . $params;
+  
+  // if current dir has index
+  $dir = new DirectoryIterator($currentdir);
+
+  if($index = hasIndex($dir->getPathname())){
+    header("Location: $index");
+    exit();
+  }
+
+  $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
+  $section="archives";
+  include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+  include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+  include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
+  include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
+  // markdown!
+  $Parsedown = new ParsedownExtra();
+?> 
 
   <main class="pane active" id="content">
     <nav>
@@ -17,41 +51,20 @@
 
   <?php
 
-$params = '';
-if (isset($_GET['params'])) {
-  $params = '/' . $_GET['params'];
-}
 
-// $result = array();
-
-$archivesdir = '../../archives';
-$currentdir = $archivesdir . $params;
 $results = array();
 
-// Does the dir has an index.html|php|htm file 
-function hasIndex($dir){
-  foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
-    return basename($dir) . '/' . basename($file);
-  }
-  return false;
-}
 
-// Does the dir has an index.md file 
-function hasMDIndex($dir){
-  foreach(glob($dir.'/index.md',GLOB_BRACE) as $file){
-    return $file;
-  }
-  return false;
-}
 
 // browse currentdir, looking for subdirs or index
-$dir = new DirectoryIterator($currentdir);
 foreach ($dir as $fileinfo) {
   if ($fileinfo->isDir() && !$fileinfo->isDot()) {
-    $index = hasIndex($fileinfo->getPathname());      
+    $index = hasIndex($fileinfo->getPathname());  
+      
     $path = $fileinfo->getFilename() . '/';
 
     if ($index != false ) $path = $index;
+
     
     $dirArray = array(
       'path'=>$path, 
