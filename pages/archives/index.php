@@ -35,10 +35,10 @@
   // if current dir has index
   $dir = new DirectoryIterator($currentdir);
 
-  // if($index = hasIndex($currentdir)){
-  //   var_dump($index);
-  //   // header("Location: $index");
-  // }
+  if($index = hasIndex($currentdir)){
+    // var_dump($index);
+    header("Location: $index");
+  }
 
   $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
   $section="archives";
