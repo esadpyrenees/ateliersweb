@@ -1,10 +1,19 @@
 <?php 
   // Does the dir has an index.html|php|htm file 
   function hasIndex($dir){
-    foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
-      return basename($dir) . '/' . basename($file);
+
+    $fs = array_diff( scandir($dir), array(".", "..") );
+    foreach($fs as $f){
+      if(in_array($f, ["index.html", "index.php", "index.htm"])){
+        return basename($dir) . '/' . basename($f);
+      }
     }
+
     return false;
+    // old (glob) : 
+    // foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
+    //   return basename($dir) . '/' . basename($file);
+    // }
   }
 
   // Does the dir has an index.md file 
@@ -20,18 +29,16 @@
     $params = '/' . $_GET['params'];
   }
 
-  // $result = array();
-
   $archivesdir = '../../archives';
   $currentdir = $archivesdir . $params;
   
   // if current dir has index
   $dir = new DirectoryIterator($currentdir);
 
-  if($index = hasIndex($dir->getPathname())){
-    header("Location: $index");
-    exit();
-  }
+  // if($index = hasIndex($currentdir)){
+  //   var_dump($index);
+  //   // header("Location: $index");
+  // }
 
   $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
   $section="archives";
