@@ -36,7 +36,7 @@
   $dir = new DirectoryIterator($currentdir);
 
   if($index = hasIndex($currentdir)){
-    // var_dump($index);
+    var_dump($index);
     header("Location: $index");
   }
 
