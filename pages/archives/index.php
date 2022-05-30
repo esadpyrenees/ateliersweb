@@ -52,7 +52,7 @@
 ?> 
 
   <main class="pane active" id="content">
-    <nav>
+    <nav class="archives-nav">
       L’importation des archives est en cours ☺<br><br>
 
       <?php
@@ -62,42 +62,40 @@
         foreach ($dir as $fileinfo) {
           if ($fileinfo->isDir() && !$fileinfo->isDot()) {
             $index = hasIndex($fileinfo->getPathname());  
-              
             $path = $fileinfo->getFilename() . '/';
-
             if ($index != false ) {
               $path = basename($dir) . '/' .$index;
             }
-            
             $dirArray = array(
               'path'=>$path, 
               'name'=>basename($dir)
             );
-
             $results[] = $dirArray;
           }
         }
-
 
         echo "<ul>";
         if ($params) {
           $up = dirname($currentdir);
           $upname = basename($up);
-          echo "<li><a href='../'/>← $upname</a></li><li><br></li>";
+          echo "<li><a href='../'/>← $upname</a></li>";
         }
 
         // display md contents if any
         $mdindex = hasMDIndex($currentdir);
         if($mdindex){
+          echo "</ul>";
           echo $Parsedown->text( file_get_contents( $mdindex ) );
-        }
+        } else {
 
-        // sort dir results
-        rsort($results);
-        foreach ($results as $dir) {
-            echo "<li><a href='". $dir['path'] . "'>".$dir['name']."</a></li>";
+          // sort dir results
+          rsort($results);
+          echo "</ul><ul>";
+          foreach ($results as $dir) {
+              echo "<li><a href='". $dir['path'] . "'>".$dir['name']."</a></li> ";
+          }
+          echo "</ul>";
         }
-        echo "</ul>";
       ?>
     </nav>
   </main>
