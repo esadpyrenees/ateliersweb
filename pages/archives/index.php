@@ -71,7 +71,7 @@
               'name'=>basename($dir)
             );
             $results[] = $dirArray;
-          } elseif (!$fileinfo->isDot()){
+          } elseif (strpos($fileinfo, 'html') !== false && !$fileinfo->isDot()){
             $path = $fileinfo->getFilename();
             $dirArray = array(
               'path'=>$path, 
