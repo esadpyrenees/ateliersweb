@@ -68,7 +68,7 @@
             }
             $dirArray = array(
               'path'=>$path, 
-              'name'=>basename($dir)
+              'name'=>basename($dir). '/'
             );
             $results[] = $dirArray;
           } elseif (strpos($fileinfo, 'html') !== false && !$fileinfo->isDot()){
