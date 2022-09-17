@@ -1,6 +1,7 @@
 # Design éthique, éco-design, low-techs
 > Real world, bullshit ? or die();
 
+— Mai 2021
 
 Il y a un Zeitgeist, un « esprit du temps », qui traverse les étudiant·es dans les écoles d’art. Chaque année, des mémoires, projets de recherche ou de diplômes arpentent irrégulièrement les questions de la responsabilité sociale, politique ou écologique du design. 
 
@@ -91,7 +92,7 @@ Cet intérêt de designers pour les questions écologiques ne masque-t-il pas un
 L’appétit de certain·es designers pour ces thématiques ressemble parfois à une logique de niche, dans laquelle l’affichage importe plus que la réalité. Fruits bio importés par avion, [sites web non polluants](https://www.vw.ca/carbonneutralnet/en/) pour vendre des voitures…
 
 Si le [Pôle design des services numériques](https://design.numerique.gouv.fr/) du gouvernement affirme s’attacher à concevoir « _des services publics numériques accessibles, inclusifs et humains_ » (qui est contre ?), leurs équipes s’organisent en « commandos », se lancent des « défis » et cherchent à proposer des services plus « désirables ». Ce langage, baigné dans les logiques néo-managériales du moment, semble parfaitement à même de transformer les citoyens en usagers et les services publics en _user experience_ finement marketée. On peut se demander si la remarquable et nécessaire intention initialement affirmée ne risque pas de produire un déplorable _branding_ politique[^polo].
-[^polo]: Écrivant ces mots, je n’ai qu’un souhait : que ce projet de designers intégrés à l’action publique se perpétue, se développe et réussisse effectivement à améliorer la vie des citoyens et leurs usages des services numériques de l’État. 
+[^polo]: Écrivant ces mots, je n’ai qu’un souhait : que ce projet de designers intégrés à l’action publique se perpétue, se développe et réussisse effectivement à améliorer la vie des citoyens et leurs usages des services numériques de l’État. \[edit 05/2022: écouter le [témoignage d’Anne-Sophie Tranchet](https://mixitconf.org/2022/designer-pour-le-service-public)\]
 
 La finesse et l’acuité du regard critique des designers, la justesse de leur positionnement dans cet écart aporétique consubstantiel à leur activité, la cohérence de leurs pratiques au regard de leurs idées sont à développer et à encourager. Les documents suivants sont donc proposées comme pistes de réflexion pour approfondir ces questions, en tâchant d’y analyser la sincérité des engagements comme la cohérence des propositions.
 
