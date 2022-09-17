@@ -5,3 +5,6 @@ zip/
 #!medias/ogp/.gitkeep
 medias/*
 !medias/ogp/*
+
+pages/exemples/drag-add/dossier/
+pages/exemples/listdir/dossier/
