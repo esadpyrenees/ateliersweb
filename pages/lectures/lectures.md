@@ -119,6 +119,12 @@ Carré, Petit, Utile : Le programme radio (toulousain) des gens du numérique pa
 * #### Paléofutur
 Un pdcast rétrofuturiste de la Radio Télévision Suisse [↗](https://www.rts.ch/la-1ere/programmes/paleofutur/podcast/)
 
+* #### Lettres mobiles
+Anton Moglia propose un podcast à la rencontre des artisans de la lettre et de la typographie [↗](https://maous.fr/podcast/)
+
+* #### Du fond de l’œil
+Quelques chroniques (historio-)graphiques radiophoniques [↗](https://dufonddeloeil.tumblr.com/)
+
 </div>
 
 
