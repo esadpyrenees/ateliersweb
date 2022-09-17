@@ -3,8 +3,8 @@ archives/*
 zip/
 #medias/*
 #!medias/ogp/.gitkeep
-medias/*
-!medias/ogp/*
+# medias/*
+# !medias/ogp/*
 
 pages/exemples/drag-add/dossier/
 pages/exemples/listdir/dossier/
