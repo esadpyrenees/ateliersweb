@@ -93,7 +93,7 @@ Quelques exemples aléatoires[^artistes] : [Albertine Meunier](https://albertine
 Le ~~buzzword~~ terme _Web3_ est advenu en tant que suite à celui de _Web 2.0_, cette période du web ayant émergé dans les années 2000, qui consacrait l’un des espoirs clés de la fondation du web : sa démocratisation. La période était née dans la liberté de l’expression individuelle des blogs, mais allait progressivement consacrer le règne des plateformes hypercentralisées que nous connaissons aujourd’hui ; réseaux sociaux, devenus médias sociaux.
 
 > <big> Web3 is Bullshit </big>[^bullshit]
-[^bullshit]: Lire l’[article](https://www.stephendiehl.com/blog/web3-bullshit.html) de Stephen Diehl.
+[^bullshit]: Lire l’[article](https://www.stephendiehl.com/blog/web3-bullshit.html) de Stephen Diehl et [The web doesn’t have version numbers](https://hidde.blog/the-web-doesnt-have-version-numbers/).
 
 La “notion” de Web3 se signale par un haut niveau de ~~bullshit~~ désinvolture. Si l’on peut trouver une quantité phénoménale d’articles, de communiqués de presse, de threads de cryptobros sur Twitter ou de capital-risqueurs qui vantent les vertus du Web3, il est bien plus complexe d’en trouver une définition qui ne soit pas si pleine de _buzzwords_ qu'elle n’en devienne vide de sens[^web3isgoinggreat].
 
