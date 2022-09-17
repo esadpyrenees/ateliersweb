@@ -9,13 +9,13 @@
     $params = explode('/', $_GET["params"]);
     
     $text_str = $_GET["text"];
+    
     if(isset($text_str)){
         $text_str = rawurldecode($text_str);
         $text_str = str_replace("– ", "\n", $text_str);
         $text_str = str_replace("→ ", "\n→ ", $text_str);
     }
-    
-    
+
     $section = isset($params[0]) ? $params[0] : "";
     $subsection = isset($params[1]) ? $params[1] : "";
     $subsubsection = isset($params[2]) ? $params[2] : "";
@@ -54,7 +54,7 @@
     $color = $colors[array_rand($colors, 1)];
     
     // chemin vers convert
-    $convert = $_SERVER["HTTP_HOST"] == "localhost" ? '/usr/local/bin/convert' : '/usr/bin/convert';    
+    $convert = $_SERVER["HTTP_HOST"] == "localhost" ? '/usr/bin/convert' : '/usr/bin/convert';    
     
 
     // cas des exemples
@@ -146,8 +146,8 @@
         // titre blanc
         $title = $convert . ' -size 800x418 -background black -fill white -font ' . $fontbold . ' -pointsize 60 caption:"' . $text . '"   ' . $cache;
         // titre et sur-titre ensemble
-        $paste = $convert . " -gravity Center -geometry +20+80 -compose Screen -colorspace RGB  " . $thumb . " " . $cache . " -composite  " . $thumb;
-        $paste2 = $convert . " -gravity NorthWest -geometry +20+10 -compose Multiply -colorspace RGB  " . $thumb . " " . $t . " -composite  " . $thumb;
+        $paste = $convert . " -gravity Center -geometry +20+80 -compose Screen  " . $thumb . " " . $cache . " -composite  " . $thumb;
+        $paste2 = $convert . " -gravity NorthWest -geometry +20+10 -compose Multiply  " . $thumb . " " . $t . " -composite  " . $thumb;
         
         // exécution
         exec ($ogi);
