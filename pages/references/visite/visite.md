@@ -1,8 +1,8 @@
-/# Une visite du web 
+# Une visite du web 
 
 #### 09/2022
 
-Une visite de rentrée parmi les onglets de l’été. [ContraChrome](https://contrachrome.com/) est une BD de Leah Elliott, étonnante et pertinente relecture de la BD promotionelle de Scott McCloud pour [Google Chrome](https://www.google.com/googlebooks/chrome/).
+Une visite de rentrée parmi les onglets de l’été. [ContraChrome](https://contrachrome.com/) est une BD de Leah Elliott, étonnante et pertinente relecture de la [BD promotionelle](https://www.google.com/googlebooks/chrome/) de Scott McCloud pour Google Chrome. Aux Éditions 205, [Éloïsa Perez](http://www.eloisaperez.fr/) a publié [La salle de classe, un objet graphique?](https://www.editions205.fr/collections/milieux/products/la-salle-de-classe-un-objet-graphique).
 
 #### 03/2022
 Les coiffeurs sont des blagueurs, [faudra tif’hair](https://tif.hair/). [Graphic Design in the Post-Digital Age](https://www.postdigitalgraphicdesign.com/) (Le design graphique à l'ère post-numérique) examine les défis et les opportunités liés à l'essor du code créatif au sein d'une communauté croissante de designers qui choisissent de fabriquer leurs propres outils de design.
