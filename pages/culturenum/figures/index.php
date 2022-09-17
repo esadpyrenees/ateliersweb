@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Cultures numériques – figures";
+    $title = "Cultures numériques → Figures";
     $section="culturenum";
     $subsection="figures";
     $mdfile = "./index.md";

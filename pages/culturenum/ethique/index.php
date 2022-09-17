@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Cultures numériques – design éthique";
+    $title = "Cultures numériques → Design éthique";
     $section="culturenum";
     $subsection="ethique";
     $mdfile = "./ethique.md";
