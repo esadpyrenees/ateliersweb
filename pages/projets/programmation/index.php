@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets: programmation";
+    $title = "Projets → Programmation";
     $section="projets";
     $subsection="programmation";
     // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
