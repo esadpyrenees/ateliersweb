@@ -96,6 +96,15 @@ nav.pane{
     margin-bottom: .5em;
 } */
 
+.nav-help-manicule {
+font-weight: bold;
+}
+
+.nav-help-mobile {display: none;}
+@media (max-width:40em){
+    .nav-help-mobile {display: unset;}
+    .nav-help-desktop {display: none;}
+}
 #content{
     position: absolute;
     padding: 2rem 2rem 6rem;
