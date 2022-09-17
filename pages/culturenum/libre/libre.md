@@ -4,10 +4,10 @@
 ## Définition
 
 Un logiciel est considéré comme « libre » s’il confère à son utilisateur quatre libertés fondamentales[^quatre].
-[^quatre]: 0. la liberté d’exécuter le programme, pour tous les usages ;
-1. la liberté d’étudier son fonctionnement et de l’adapter à ses besoins ;
-2. la liberté de redistribuer des copies ;
-3. la liberté d’améliorer le programme et de distribuer ces améliorations.
+[^quatre]: 0. la liberté d’utiliser le programme pour n’importe quel usage ;
+1. la liberté d’étudier son fonctionnement ;
+2. la liberté de l’adapter à ses besoins ;
+3. la liberté de modifier le programme et de partager ces modifications.
 
 Cette définition programmatique, si elle s’applique au champ du logiciel, peut être largement ouverte vers les pratiques de l’art et du design, comme cette introduction se propose de le montrer.
 
