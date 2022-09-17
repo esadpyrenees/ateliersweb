@@ -204,6 +204,8 @@ La [section exemples](../../exemples/) du site propose de nombreux éléments li
 
 ## Arborescences hypertextuelles
 
+[Onebook, many readings](https://samizdat.co/cyoa/), une analyse sous la forme de visualisation de données de « livres dont vous êtes le héros » (_Choose Your Own Adventure_).
+
 Extraits de [Standard Patterns in Choice-Based Games](https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/)
 
 ![timecaveb](images/timecaveb.png)
