@@ -10,7 +10,7 @@ Open Source Publishing est un collectif de designers travaillant à Bruxelles qu
 L’Atelier des chercheurs est un collectif de designers engagés depuis 2013 dans la création d’outils libres et modulaires pour transformer les manières d'apprendre et de travailler. Il est aujourd’huicomposé de Sarah Garcin, Pauline Gourlet et Louis Eveillard.
 
 ### Mais aussi…
-Le collectif bruxellois [Luuse](http://luuse.io/). Le collectif [Bonjour monde](http://bonjourmonde.net/) (recherche des procédés alternatifs dans le champ de la création graphique). Le [Groupe CCC](http://groupeccc.com/), fondé par Alice Gavin et Valentin Bigel. Le studio [Figures libres](http://figureslibres.cc/). Le site d’[Antoine Fauchié](https://quaternum.net/), doctorant à l’Université de Montréal (recherche et articles sur les écritures et les livres numériques). [Loraine Furter](https://www.lorainefurter.net/fr), édition hybride (publications papier et numériques), recherche en design graphique les projets féministes intersectionnels. [La Villa Hermosa](http://www.lavillahermosa.com/) est un autre atelier de design graphique bruxellois.
+Le collectif bruxellois [Luuse](http://luuse.io/). Le collectif [Bonjour monde](http://bonjourmonde.net/) (recherche des procédés alternatifs dans le champ de la création graphique). Le [Groupe CCC](http://groupeccc.com/), fondé par Alice Gavin et Valentin Bigel. Le studio [Figures libres](http://figureslibres.cc/). Le site d’[Antoine Fauchié](https://quaternum.net/), doctorant à l’Université de Montréal (recherche et articles sur les écritures et les livres numériques). [Loraine Furter](https://www.lorainefurter.net/fr), édition hybride (publications papier et numériques), recherche en design graphique les projets féministes intersectionnels. [La Villa Hermosa](http://www.lavillahermosa.com/), un autre atelier de design graphique bruxellois. Jon Caserta’s [web-to-print projects](http://johncaserta.com/webtoprint.html). 
 
 ### Et tant d’autres !
 La liste esquissée ici est nécessairement partielle. Elle pourra venir se compléter dans le futur. *[Stay tuned](/web/pages/about/)!*
@@ -20,6 +20,9 @@ La liste esquissée ici est nécessairement partielle. Elle pourra venir se comp
 * La [Villa Chiragan](https://villachiragan.saintraymond.toulouse.fr/) est un projet mené par Julie Blanc et Antoine Fauchié pour le musée Saint-Raymond de Toulouse qui a donné lieu à la création d’un site web et un catalogue imprimable. Lire l’[étude de cas](https://julie-blanc.fr/projects/villa-chiragan/) sur le site de Julie Blanc ou accéder à la [version imprimable du catalogue](https://villachiragan.saintraymond.toulouse.fr/impression) (attention, ~200 Mo).
 *   [Hybrid Publishing Back To The Future Publishing Theses at the KABK](https://i.liketightpants.net/and/hybrid-publishing-back-to-the-future-publishing-theses-at-the-kabk), projet d’Eric Schrijver à la KABK / *Royal Academy of Art* de la Haie. Mémoires de fin d’étude sous forme de publication hybride (web / print).
 *   [L’atlas critique d’Internet](http://internet-atlas.net/), travail de recherche théorique et graphique initié et développé par Louise Drulhe dont l’impression se conçoit sous la forme d’un objet “responsif”, naturellement adaptable à [tous les formats d’impression](http://internet-atlas.net/order/).
+* [On publishing](https://onpublishing.page/). 
+* [Library of the printed web](https://libraryoftheprintedweb.tumblr.com/).
+*  [Print Wikipedia](https://fr.wikipedia.org/wiki/Print_Wikipedia).
 * **Plus de projets sur la page [Selection](https://prepostprint.org/seclection/) de PrePostPrint.org**.
 
 
