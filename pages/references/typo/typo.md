@@ -30,6 +30,8 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 *   [Typekit](http://typekit.com/) (devenu [Adobe fonts](https://fonts.adobe.com/))
 *   [Monotype](http://fonts.com)
 *   [Myfonts](http://myfonts.com)
+*   [Village](http://vllg.com/)
+*   [I love typography](https://fonts.ilovetypography.com/)
 </div>
 
 ### Quelques indépendants à connaître
@@ -39,8 +41,7 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 *   [futurefonts.xyz](https://www.futurefonts.xyz/)
 *   [David Jonathan Ross](https://djr.com/)
 *   [Font of the Month Club](https://fontofthemonth.club/)
-*   [Village](http://vllg.com/)
-*   [Binnenland](http://www.binnenland.ch)
+*   [Klim Type foundry](https://klim.co.nz/)
 *   [Colophon Foundry](http://www.colophon-foundry.org)
 *   [Commercial Type](http://commercialtype.com)
 *   [Fontbureau](http://www.fontbureau.com)
@@ -50,15 +51,45 @@ La plupart des fonderies de caractères a aujourd’hui pris le virage de la typ
 *   [Lineto](http://lineto.com)
 *   [Optimo](http://www.optimo.ch)
 *   [Ourtype](http://ourtype.be)
-*   [205 TF](https://www.205.tf)
-*   [Smeltery](http://smeltery.net)
 *   [Typotheque](http://www.typotheque.com)
 *   [Underware](http://www.underware.nl)
-*   [Benoît Bodhuin](https://www.bb-bureau.fr/)
 *   [Grilli Type](https://www.grillitype.com/)
 *   [Production Type](https://www.productiontype.com/)
-*   [Lucasdescroix](http://www.lucasdescroix.fr/)
+*   [Lucas Descroix](http://www.lucasdescroix.fr/)
+*   [Letteror](https://letterror.com/)
 </div>
+
+
+### Les fonderies françaises
+
+Liste établie et maintenue par [Émilie Rigaud](https://aisforfonts.com/fonderies-typographiques-francaises)
+
+<div class="gridlist" markdown="1">
+
+* [205TF](https://www.205.tf)
+* [A is for fonts](https://aisforfonts.com)
+* [AinsiFont](https://www.ainsifont.com)
+* [Alfab](https://www.alfab.tf)
+* [Apex](https://www.apextypefoundry.com)
+* [Benoît Bodhuin, BB Bureau](https://www.bb-bureau.fr)
+* [Black[Foundry]](https://black-foundry.com)
+* [Blaze Type](https://blazetype.eu)
+* [Bureau Brut](https://bureaubrut.com/product-category/fonts/)
+* [Lift Type](https://www.lift-type.fr/fr/accueil/)
+* [Long Type](https://www.long-type.com)
+* [Octotypo](http://octotypo.com)
+* [Pépite](https://www.pepite-collectif.com/fonderie/)
+* [Pizza Typefaces](https://typefaces.pizza/fr)
+* [Police studio](https://www.policestudio.fr/shop?#home)
+* [Production Type](https://www.productiontype.com)
+* [SMeltery](http://www.smeltery.net/fr/)
+* [Tunera](http://www.tunera.xyz)
+* [Typofonderie](https://typofonderie.com)
+* [Typographies.fr](http://www.typographies.fr)
+* [Velvetyne](https://velvetyne.fr)
+* [VJ-type](https://vj-type.com)
+</div>
+
 ## Twitter
 
 <div class="gridlist" markdown="1">
@@ -112,6 +143,7 @@ Une newsletter consacrée à exposer des exemples et des bonnes pratiques dans l
 L’actualité des sorties typographiques vue par Noemi Stauffer. [Abonnement](http://newsletter.freshfonts.io/).
 
 </div>
+
 ## Blogs 
 
 <div class="gridlist" markdown="1">
