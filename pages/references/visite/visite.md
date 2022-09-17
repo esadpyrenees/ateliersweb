@@ -1,7 +1,13 @@
-# Une visite du web 
+/# Une visite du web 
+
+#### 09/2022
+
+Une visite de rentrée parmi les onglets de l’été. [ContraChrome](https://contrachrome.com/) est une BD de Leah Elliott, étonnante et pertinente relecture de la BD promotionelle de Scott McCloud pour [Google Chrome](https://www.google.com/googlebooks/chrome/).
 
 #### 03/2022
 Les coiffeurs sont des blagueurs, [faudra tif’hair](https://tif.hair/). [Graphic Design in the Post-Digital Age](https://www.postdigitalgraphicdesign.com/) (Le design graphique à l'ère post-numérique) examine les défis et les opportunités liés à l'essor du code créatif au sein d'une communauté croissante de designers qui choisissent de fabriquer leurs propres outils de design.
+Un [exercice](https://docs.google.com/forms/d/e/1FAIpQLSeciqPxBVMm329P0pK-QwKy_PcTl1N6PawofythkrTQGqeXUQ/viewform) de détection de _fakenews_.
+
 
 #### 02/2022
 Pour [En finir avec L'ART INVISIBLE de Scott McCloud](https://www.youtube.com/watch?v=hebOaRs9VgU), en vidéo par Bédémancie ou en texte par [L.L. de Mars](https://www.du9.org/dossier/a-propos-de-lart-invisible-de-scott-mccloud/). Écouter [Blueprints for a Blackout](https://www.mixcloud.com/andy-moor/), le podcast d’Andy Moor sur Echobox Radio. La revue Ballast publie [Déborder le désespoir](https://www.revue-ballast.fr/deborder-le-desespoir/), d’Arnaud Maïsetti mais surtout [QUE FAIRE ?](https://www.revue-ballast.fr/que-faire/), une série importante autour de l’élection présidentielle. [Chataigne](https://benjamin.kuperberg.fr/chataigne/) est un chef d'orchestre logiciel, une machine modulaire pour les arts numériques. 
