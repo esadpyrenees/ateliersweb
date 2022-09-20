@@ -1,4 +1,5 @@
 archives/*
+archives/**/*
 !archives/*.md
 !archives/**/*.md
 .DS_Store
