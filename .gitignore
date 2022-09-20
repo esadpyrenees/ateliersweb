@@ -1,4 +1,5 @@
 archives/*
+!archives/*.md
 .DS_Store
 zip/
 #medias/*
