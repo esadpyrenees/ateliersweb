@@ -121,8 +121,9 @@
         exec ($paste);
 
         // nettoyage
-        // exec ("rm -f " . $whitetitle);
-        // exec ("rm -f " . $white);
+        exec ("rm -f " . $whitetitle);
+        exec ("rm -f " . $white);
+        exec ("rm -f " . $tada);
         exec ("rm -f " . $tomato);
         exec ("rm -f " . $rotten);
         exec ("rm -f " . $cthumb);
