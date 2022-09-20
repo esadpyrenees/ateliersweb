@@ -1,0 +1,32 @@
+
+.scrollables a{
+  border:none;
+}
+.scrollables img {
+  display: block;
+  height: calc(400px - 3em);  
+}
+
+.scrollables figure { 
+  width: calc((400px - 3em) / 0.581875994);
+  margin: 2rem 0 3rem 2rem;
+  position: relative;
+}
+/* carousel height */
+.scrollables {
+  background:#222;
+  margin: 0 -2rem;
+  padding-left: 2rem;
+}
+
+.scrollables figcaption { 
+  position:absolute;
+  font-size:.75em; 
+  color:#777;
+  bottom:-2.5em;
+  padding: 1em 0 0 0;
+  text-align:center;
+  width:100%;
+}
+.scrollables p + p { margin-top: .5em;}
+
