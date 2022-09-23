@@ -53,8 +53,8 @@
 
   <main class="pane active" id="content">
     <nav class="archives-nav">
-      L’importation des archives est en cours ☺<br><br>
-
+      <!-- L’archivisme est un exercice délicat ☺<br><br> -->
+      <p>☺</p>
       <?php
         $results = array();
         
