@@ -6,5 +6,7 @@
     <li><a href="#podcasts">Podcasts</a></li>
     <li><a href="#videos">Vidéos</a></li>
     <li><a href="#sites">Sites</a></li>
+    <li><a href="#editeurs">Éditeurs</a></li>
+    <li><a href="#online">En ligne</a></li>
   </ul>
 </nav>

@@ -34,9 +34,6 @@ Stéphane Bortzmeyer, C&F éditions, [↗](https://cyberstructure.fr/)
 * #### L'appétit des géants, Pouvoir des algorithmes, ambitions des plateformes, 
 Olivier Ertzscheid, C&F éditions
 
-* #### Le Design des choses à l’heure du numérique 
-Jean-Louis Frechin, Fyp éditions
-
 * #### Anoptikon : une exploration de l’internet invisible, Échapper à la main de Darwin 
 Olivier Auber, Fyp éditions
 
@@ -67,9 +64,6 @@ Une revue universitaire qui explore les frictions entre design, arts et médias 
 * #### Sciences du Design
 Revue de recherche en design (Stéphane Vial, Jocelyne Le Bœuf)  [↗](https://sciences-du-design.org/)
 
-* #### Vacarme †
-Entre art et politique, entre savants et militants [↗](https://vacarme.org/)
-
 * #### Panthère Première
 Revue indépendante de critique sociale [↗](https://pantherepremiere.org/)
 
@@ -98,7 +92,7 @@ Conseils sur la typographie sur le web (design & technique) + infos sur l'évolu
 * #### UX / UI
 La lettre d’Erik D. Kennedy contient d’intéressants *uses-cases*, – analytiques et pratiques – liés au design d’interface  [↗](https://learnui.design/)
 
-* #### Règle 30 · Il n’y a pas de femmes sur Internet
+* #### Règle 30 : Il n’y a pas de femmes sur Internet
 Une newsletter écrite par Lucie Ronfaut pour Numerama [↗](https://www.numerama.com/newsletter-regle30-il-ny-a-pas-de-femmes-sur-internet/)
 	
 * #### Arobase
@@ -124,6 +118,12 @@ Anton Moglia propose un podcast à la rencontre des artisans de la lettre et de 
 
 * #### Du fond de l’œil
 Quelques chroniques (historio-)graphiques radiophoniques [↗](https://dufonddeloeil.tumblr.com/)
+
+* #### Dessin dessein
+Enjeux sociaux, économiques et écologiques du design, par Laure Choquer [↗](https://soundcloud.com/user-804925852)
+
+* #### HTML Energy
+En anglais (transcrit), Laurel Schwhulst à la rencontre d’artisans du web [↗](http://html.energy/)
 
 </div>
 
@@ -157,5 +157,94 @@ Blog consacré à l’innovation dans les techniques, les services et les usages
 
 * #### A list apart
 Fondé en 1997, *A list apart* explore (en anglais) les enjeux du design, du développement, et du sens du contenu web, avec une attention particulière portée aux standards du  web. [↗](https://alistapart.com/)
+
+</div>
+
+
+## Éditeurs (~ art, zines & design) {#editeurs}
+
+<div class="gridlist" markdown="1">
+
+*   [Actual Source](http://actualsource.org/collections)
+*   [Antenne Books](http://antennebooks.com/)
+*   [Art Paper Editions](http://www.artpapereditions.org/)
+*   [B42](http://editions-b42.com/)
+*   [Book Works](https://bookworks.org.uk/)
+*   [Browns Editions](http://brownseditions.com/)
+*   [Catalogue Library](http://cataloguelibrary.co.uk/)
+*   [Cooperative Editions](http://co-ed.us/)
+*   [Counter-Print](http://counter-print.co.uk/)
+*   [Dilecta](https://volumes.lu/publishers/dilecta)
+*   [Do You Read Me ?!](https://doyoureadme.de/)
+*   [Draw Down](http://draw-down.com/)
+*   [Éditions 205](https://volumes.lu/publishers/editions-205)
+*   [Éditions du livre](https://volumes.lu/publishers/editions-du-livre)
+*   [Éditions Patrick Frey](http://editionpatrickfrey.com/)
+*   [Éditions Non Standard](https://volumes.lu/publishers/editions-non-standard)
+*   [Empire Books](http://www.e-m-p-i-r-e.eu/)
+*   [Four corners books](https://volumes.lu/publishers/four-corners-books)
+*   [Jungle Books](https://www.jungle-books.com/)
+*   [Kiosk](http://shop.k-i-o-s-k.com/)
+*   [Lars Müller Publishers](https://www.lars-mueller-publishers.com/)
+*   [L’Échappée](https://volumes.lu/publishers/lechappee)
+*   [Lodret Vandret](http://lodretvandret.com/category/publications/)
+*   [Look Back And Laugh](http://lbalbooks.tictail.com/)
+*   [Manuella éditions](https://volumes.lu/publishers/manuella-editions)
+*   [Mottobooks](http://www.mottodistribution.com/shop/)
+*   [Nai010](https://volumes.lu/publishers/nai010)
+*   [Nieves](https://volumes.lu/publishers/nieves)
+*   [One stroke](https://volumes.lu/publishers/one-stroke)
+*   [Onomatopee](https://volumes.lu/publishers/onomatopee)
+*   [Open editions](https://volumes.lu/publishers/open-editions)
+*   [Pool Publishing](http://p-oo-l.com/)
+*   [Print Matter](https://www.printedmatter.org/)
+*   [Punch](http://p-u-n-c-h.ro/)
+*   [Roma Publications](https://www.romapublications.org/)
+*   [RVB Books](https://volumes.lu/publishers/rvb-books)
+*   [Shabazz Projects](http://shabazzprojects.com/)
+*   [Slanted](https://www.slanted.de/shop)
+*   [Slow Youth](http://slowyouth.info/)
+*   [Spector Books](https://volumes.lu/publishers/spector-books)
+*   [Spheres](https://volumes.lu/publishers/spheres-publication)
+*   [Standards Manual](http://standardsmanual.com/)
+*   [Stolen Books](http://stolenbooks.pt/)
+*   [Tombolo Presses](https://volumes.lu/publishers/tombolo-presses)
+*   [The Everyday Press](http://theeverydaypress.net/)
+*   [Txtbooks](http://www.txtbooks.us/)
+*   [Unit Editions](http://uniteditions.com/shop)
+*   [Visual editions](https://volumes.lu/publishers/visual-editions)
+*   [Yard Press](http://www.yardpress.it/)
+*   [Ypsilon](https://volumes.lu/publishers/ypsilon)
+
+</div>
+
+
+
+## Perdre du temps en ligne {#online}
+
+<div class="gridlist" markdown="1">
+
+*   [Another Graphic](https://anothergraphic.org/)
+*   [Brutalist Websites](http://brutalistwebsites.com/)
+*   [Delectable](http://www.ecogex.com/delectable)
+*   [Design Things](http://designthings.info/)
+*   [Graphic Design Readings](http://readings.design/)
+*   [Fonts in Use](https://fontsinuse.com/)
+*   [Hallointer.net](http://hallointer.net/)
+*   [Hover States](https://hoverstat.es/)
+*   [The Moving Poster](http://www.themovingposter.com/)
+*   [The Responsive](http://the-responsive.com/)
+*   [Trend List](http://trendlist.org/)
+*   [Are.na](https://are.na)
+*   [Graphic design Herstory](https://twitter.com/GHerstory)
+*   [People’s graphic design](https://twitter.com/PeoplesGDArc)
+*   [Tombolo](https://www.t-o-m-b-o-l-o.eu/)
+*   [Another Graphic](https://anothergraphic.org/)
+*   [Indexgrafik](http://indexgrafik.fr/)
+*   [Design reviewed](https://designreviewed.com/)
+*   [Eye on design](https://eyeondesign.aiga.org/)
+*   [Letteform Archive](https://letterformarchive.org/)
+*   [Design is History](http://www.designishistory.com/)
+*   [Font Review Journal](https://fontreviewjournal.com/)
 
 </div>
