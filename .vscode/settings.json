@@ -5,7 +5,15 @@
 //   "editor.wordWrap": "bounded",
 //   "editor.wordWrapColumn": 80,
 //   "editor.wordWrapColumn": 80,
-//   "workbench.colorTheme": "Atom One Light",
-//   "editor.scrollbar.vertical": "hidden"
+//   // "workbench.colorTheme": "Atom One Light",
+//   "editor.scrollbar.vertical": "hidden",
+//   "spellright.language": [
+//     "fr"
+//   ],
+//   "spellright.documentTypes": [
+//     "markdown",
+//     "latex",
+//     "plaintext"
+//   ]
 // }
 
