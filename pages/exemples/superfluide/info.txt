@@ -1,1 +1,1 @@
-title=SVG superfluide&tags=svg,css
+title=SVG superfluide&tags=svg,css,rwd
