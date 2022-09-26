@@ -6,6 +6,45 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 
 #### *work in progress / en travaux * {.edit}
 
+
+
+## ~~Perdre~~ Prendre son temps en ligne {#online}
+
+<div class="gridlist" markdown="1">
+
+*   [Tombolo](https://www.t-o-m-b-o-l-o.eu/), revue de savoirs et de regards graphiques en ligne, initiée par officeabc et Thierry Chancogne.
+*   [Indexgrafik](http://indexgrafik.fr/), de nombreux articles de référence sur le graphisme et les graphistes, par Augustin Manaranche.
+
+*   [Graphic Design Readings](http://readings.design/), une sélection d’écrits sur le design (EN).
+*   [Trend List](http://trendlist.org/), les tendances du design graphique, documentées depuis 2011.
+*   [Are.na](https://are.na), un outil de curation, de collection et de partage social.
+
+*   [Graphic design Herstory](https://twitter.com/GHerstory), le compte twitter de l’histoire du design graphique au féminin.
+*   [People’s graphic design archive](https://twitter.com/PeoplesGDArc), le compte twitter d’un design graphique à la fois populaire et savant (biais états-unien prononcé).
+
+*   [Design reviewed](https://designreviewed.com/), la collection de design _print_ de Matt Lamond (EN).
+*   [Eye on design](https://eyeondesign.aiga.org/), le blog de l’_American Institute of Graphic Arts_, regards et analyses sur le design (biais états-unien prononcé) (EN).
+*   [Design observer](https://designobserver.com/), des regards sur le design (biais états-unien prononcé) (EN).
+*   [Eye magazine](https://www.eyemagazine.com/), le site de la revue de design graphique et culture visuelle Eye, fondée par Rick Poynor (EN).
+*   [Design is History](http://www.designishistory.com/), le vieux site de Dominic Flask, plein d‘infos importantes sur l’histoire du design (EN).
+
+*   [Font Review Journal](https://fontreviewjournal.com/), regards sur des caractères typographiques singuliers (EN).
+*   [Letteform Archive](https://letterformarchive.org/), le site d’un “centre d’art” dédié au graphisme et à la lettre à San Francisco. [Importante archive](https://oa.letterformarchive.org/) en ligne.
+*   [Fonts in Use](https://fontsinuse.com/), la typographie dans le _wild_, les caractères tels qu’ils sont réellement utilisés par les graphistes.
+*   [Another Graphic](https://anothergraphic.org/), curation de formes graphiques basée sur le traitement typographique.
+
+*   [Hover States](https://hoverstat.es/), la « maison du webdesign alternatif ».
+*   [The Responsive](http://the-responsive.com/), sélection de sites web, sélectionnés pour leur prise en charge du design « _responsive_ ».
+*   [Brutalist Websites](http://brutalistwebsites.com/), le webdesign alternatif, un peu plus raide et radical qu’Hoverstat.es.
+*   [Hallointer.net](http://hallointer.net/), une plateforme pour l’internet contemporain (… – 2015)
+*   [Delectable](http://www.ecogex.com/delectable), Delectable is dead, but still alive in the past.
+*   [The Moving Poster](http://www.themovingposter.com/), une sélection d’affiches animées, web, vidéo ou motion.
+
+*   [Design Things](http://designthings.info/), une liste Notion de choses liées au design.
+*   [Last but not Liste](http://lastbutnotliste.com/), une longue et vieille liste, par Thierry Chancogne.
+
+</div>
+
 ## Livres {#livres}
 
 <div class="gridlist" markdown="1">
@@ -75,6 +114,11 @@ Revue interdisciplinaire de recherche : numérique, analyse philosophique et pol
 
 * #### Multitudes
 Revue politique, artistique et philosophique trimestrielle [↗](https://www.multitudes.net/)
+
+* #### Revue Faire
+Revue de critique et d’analyse du design graphique proposée par Empire et le studio Syndicat [↗](https://revue-faire.eu/fr/)
+
+
 </div>
 
 
@@ -142,7 +186,7 @@ Une série d’entretiens avec des auteurs et autrices qui pensent la société 
 Une série d’entretiens pour mieux comprendre les pratiques et usages du numérique qui modifient nos comportements au quotidien. [↗](https://moocdigital.paris/propos)
 </div>
 
-## Lectures en ligne (cultures numériques) {#sites}
+## Cultures numériques {#culturesnum}
 
 <div class="gridlist" markdown="1">
 
@@ -184,7 +228,7 @@ Fondé en 1997, *A list apart* explore (en anglais) les enjeux du design, du dé
 *   [Éditions du livre](https://volumes.lu/publishers/editions-du-livre)
 *   [Éditions Patrick Frey](http://editionpatrickfrey.com/)
 *   [Éditions Non Standard](https://volumes.lu/publishers/editions-non-standard)
-*   [Empire Books](http://www.e-m-p-i-r-e.eu/)
+*   [Empire](http://www.e-m-p-i-r-e.eu/)
 *   [Four corners books](https://volumes.lu/publishers/four-corners-books)
 *   [Jungle Books](https://www.jungle-books.com/)
 *   [Kiosk](http://shop.k-i-o-s-k.com/)
@@ -218,36 +262,5 @@ Fondé en 1997, *A list apart* explore (en anglais) les enjeux du design, du dé
 *   [Visual editions](https://volumes.lu/publishers/visual-editions)
 *   [Yard Press](http://www.yardpress.it/)
 *   [Ypsilon](https://volumes.lu/publishers/ypsilon)
-
-</div>
-
-
-
-## ~~Perdre~~ Prendre son temps en ligne {#online}
-
-<div class="gridlist" markdown="1">
-
-*   [Another Graphic](https://anothergraphic.org/)
-*   [Brutalist Websites](http://brutalistwebsites.com/)
-*   [Delectable](http://www.ecogex.com/delectable)
-*   [Design Things](http://designthings.info/)
-*   [Graphic Design Readings](http://readings.design/)
-*   [Fonts in Use](https://fontsinuse.com/)
-*   [Hallointer.net](http://hallointer.net/)
-*   [Hover States](https://hoverstat.es/)
-*   [The Moving Poster](http://www.themovingposter.com/)
-*   [The Responsive](http://the-responsive.com/)
-*   [Trend List](http://trendlist.org/)
-*   [Are.na](https://are.na)
-*   [Graphic design Herstory](https://twitter.com/GHerstory)
-*   [People’s graphic design](https://twitter.com/PeoplesGDArc)
-*   [Tombolo](https://www.t-o-m-b-o-l-o.eu/)
-*   [Another Graphic](https://anothergraphic.org/)
-*   [Indexgrafik](http://indexgrafik.fr/)
-*   [Design reviewed](https://designreviewed.com/)
-*   [Eye on design](https://eyeondesign.aiga.org/)
-*   [Letteform Archive](https://letterformarchive.org/)
-*   [Design is History](http://www.designishistory.com/)
-*   [Font Review Journal](https://fontreviewjournal.com/)
 
 </div>
