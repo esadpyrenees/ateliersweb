@@ -139,7 +139,7 @@ Une série d’entretiens avec des auteurs et autrices qui pensent la société 
 Une série d’entretiens pour mieux comprendre les pratiques et usages du numérique qui modifient nos comportements au quotidien. [↗](https://moocdigital.paris/propos)
 </div>
 
-## Lectures en ligne {#sites}
+## Lectures en ligne (cultures numériques) {#sites}
 
 <div class="gridlist" markdown="1">
 
@@ -220,7 +220,7 @@ Fondé en 1997, *A list apart* explore (en anglais) les enjeux du design, du dé
 
 
 
-## Perdre du temps en ligne {#online}
+## ~~Perdre~~ Prendre son temps en ligne {#online}
 
 <div class="gridlist" markdown="1">
 
