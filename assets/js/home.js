@@ -71,7 +71,7 @@ var links = [
   ["HTML / CSS", "/web/pages/references/htmlcss/", "references"],
   ["Typographie", "/web/pages/references/typo/", "references"],
   ["Écritures numériques", "/web/pages/references/ecrituresnumeriques/", "references"],
-  ["Webdoc", "/web/pages/references/webdocumentaire/", "references"],
+  ["Webdoc", "/web/pages/references/ecrituresnumeriques/#webdocumentaire", "references"],
   ["Visite", "/web/pages/references/visite/", "references"],
   ["Histoire", "/web/pages/references/histoire/", "references"],
   ["Go pro !", "/web/pages/references/gopro/", "references"],

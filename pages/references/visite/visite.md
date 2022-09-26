@@ -3,9 +3,36 @@
 #### 09/2022
 
 Une visite de rentrée parmi les onglets de l’été. [ContraChrome](https://contrachrome.com/) est une BD de Leah Elliott, étonnante et pertinente relecture de la [BD promotionelle](https://www.google.com/googlebooks/chrome/) de Scott McCloud pour Google Chrome. Aux Éditions 205, [Éloïsa Perez](http://www.eloisaperez.fr/) a publié [La salle de classe, un objet graphique?](https://www.editions205.fr/collections/milieux/products/la-salle-de-classe-un-objet-graphique). Depuis les premiers temps électroniques, les espaces d’échanges numériques ont été le lieu d’intenses discussions de typographes et [d’orthotypographes](http://www.orthotypographie.fr/). À Pau, une [pétition](https://www.change.org/p/arr%C3%AAtez-le-massacre-des-arbres-sur-pau-et-l-agglo-%C3%A9coutez-les-habitants) circule pour les arbres ; ailleurs, [une autre](https://www.change.org/p/des-arts-num%C3%A9riques-au-m%C3%A9tavers-sur-la-disparition-du-dicr%C3%A9am) s’inquiète de voir Jean-Michel Jarre et le Métavers au centre des financements publics des arts numériques.
-[Combien de semaines](https://www.failflow.com/die) vous reste-t-il à vivre ? [Cüirtopia](https://www.cuirtopia.xyz/about) est un projet de cartographie qui réimagine la façon dont sont répertoriés, représentés et documentés les espaces _queer_ dans les Caraïbes. Ploum nous raconte [L’histoire d’un bit](https://ploum.net/lhistoire-dun-bit/), nous parle [De l’importance de comprendre ce qu’est un logiciel](https://ploum.net/de-limportance-de-comprendre-ce-quest-un-logiciel/) et nou sraconte [L’histoire du logiciel : entre collaboration et confiscation des libertés](https://ploum.net/lhistoire-du-logiciel-entre-collaboration-et-confiscation-des-libertes/), trois articles aisés à lire et particulièrement utiles pour développer notre litéracie numérique.
-[Brutalita](https://brutalita.com/) est un chouette outil de dessin de caractères modulaires dans le navigateur. 
-Gauthier Roussilhe réfléchit à l'empreinte environnementale de systèmes numériques ; son [cours sur les limites et les risques](https://gauthierroussilhe.com/book/sciencespo/) de la numérisation est disponible en ligne.
+[Combien de semaines](https://www.failflow.com/die) vous reste-t-il à vivre ? [Cüirtopia](https://www.cuirtopia.xyz/about) est un projet de cartographie qui réimagine la façon dont sont répertoriés, représentés et documentés les espaces _queer_ dans les Caraïbes. Ploum nous raconte [L’histoire d’un bit](https://ploum.net/lhistoire-dun-bit/), nous parle [De l’importance de comprendre ce qu’est un logiciel](https://ploum.net/de-limportance-de-comprendre-ce-quest-un-logiciel/) et nou sraconte [L’histoire du logiciel : entre collaboration et confiscation des libertés](https://ploum.net/lhistoire-du-logiciel-entre-collaboration-et-confiscation-des-libertes/), trois articles aisés à lire et particulièrement utiles pour développer notre litéracie numérique. [Brutalita](https://brutalita.com/) est un chouette outil de dessin de caractères modulaires dans le navigateur, [Glyph Drawing Club](https://glyphdrawing.club/) aussi. Gauthier Roussilhe réfléchit à l'empreinte environnementale de systèmes numériques ; son [cours sur les limites et les risques](https://gauthierroussilhe.com/book/sciencespo/) de la numérisation est disponible en ligne. Jean-Noël Lafargue tient [le dernier des blogs](https://hyperbate.fr/dernier/). Dépêchez-vous, après celui-là, c’est fini.
+
+Découvrir : 
+https://are.na
+https://twitter.com/GHerstory, An exploration of women’s contribution to the history of visual communication curated by Laura Ottina, graphic design professor and historian in Florence.
+https://twitter.com/PeoplesGDArc, A virtual archive built by everyone, about everyone, for everyone.
+https://www.t-o-m-b-o-l-o.eu/
+
+Trendy
+https://anothergraphic.org/
+
+Classics : 
+http://indexgrafik.fr/
+https://designreviewed.com/
+https://eyeondesign.aiga.org/
+https://letterformarchive.org/
+http://www.designishistory.com/
+https://fontreviewjournal.com/
+
+Éditeurs
+https://www.counter-print.co.uk/
+https://www.uniteditions.com/
+https://editions-b42.com/
+http://www.zeug.fr/
+
+
+
+Critiquer, analyser, penser le design :
+https://newdesigncongress.org/en/
+
 
 #### 03/2022
 Les coiffeurs sont des blagueurs, [faudra tif’hair](https://tif.hair/). [Graphic Design in the Post-Digital Age](https://www.postdigitalgraphicdesign.com/) (Le design graphique à l'ère post-numérique) examine les défis et les opportunités liés à l'essor du code créatif au sein d'une communauté croissante de designers qui choisissent de fabriquer leurs propres outils de design.
