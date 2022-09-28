@@ -1,6 +1,7 @@
 <?php
     // config
-    $title = "Projets: micromedia";
+    $title = "Projets → Micromedia";
+    $description = "Proposition de production médiatique autonome, autoproduite et autopubliée, du web au print";
     $section="projets";
     $subsection="micromedia";
     $mdfile = "./micromedia.md";
