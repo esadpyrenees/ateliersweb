@@ -8,26 +8,35 @@
 
 ## Contexte
 
-_\#FacebookDown_. Pendant six heures, le lundi 4 octobre 2021, une erreur de configuration sur les serveurs DNS de Facebook a entraîné l’inaccessibilité des services opérés par l’entreprise. Plus de WhatsApp, de Messenger, d’Instagram, ni de …Facebook[^panne].
+Le jeudi 15 septembre 2022, Adobe annonce l’acquisition de _Figma_ – un éditeur d’images vectorielles et un outil de prototypage d’interface – pour la somme de 20 milliards de dollars. De manière similaire au rachat de Whats’app par Facebook en 2009, un géant des industries numériques s’approprie à la fois un concurrent, une communauté et une “vision”. Adobe préempte un outil qui aurait pu à terme lui faire de l’ombre, mais surtout une logique industrielle (connectée, collaborative, _web native_) qui en dit long sur les modalités envisagées par la firme de son contrôle du travail “créatif” dans les années à venir. [^figma]
 
-_\#FacebookWhistleBlower_. Dimanche 3 octobre 2021, Frances Haugen, dans l’émission 60 Minutes sur CBS, accuse publiquement Facebook de choisir « le profit plutôt que la sûreté » de ses utilisateurs. La lanceuse d’alerte à l’origine d’une fuite de documents internes témoignait mardi 5 octobre devant le Sénat états-unien, signalant combien Facebook et ses services étaient en « faillite morale », en produisant de la « division \[sociale\], en déstabilisant les démocraties et en faisant en sorte que les jeunes (filles et femmes notamment) se sentent mal dans leur corps.»[^gizmodo]
+[^figma]: Lire [l’article](https://www.theguardian.com/commentisfree/2022/sep/24/adobe-cant-photoshop-out-the-fact-its-20bn-figma-deal-is-a-naked-land-grabhttps://www.theguardian.com/commentisfree/2022/sep/24/adobe-cant-photoshop-out-the-fact-its-20bn-figma-deal-is-a-naked-land-grab) de John Naughton dans les colonnes du Guardian.
 
-_\#FacebookFiles_. Le 13 septembre 2021, les _leaks_ transmis par Frances Haugen – alors anonyme – au [Wall Street Journal](https://www.wsj.com/articles/facebook-files-xcheck-zuckerberg-elite-rules-11631541353?mod=djemalertNEWS) révélaient le fonctionnement d’un des mécanisme de Facebook, _XCheck_, qui permet à certains comptes de la plateforme d’échapper aux règles de modération et d’usage censées s’appliquer pour tous, les [CGU](https://www.facebook.com/terms/). Pour certain·es, les règles s’imposent ; à d’autres, toute latitude est donnée pour enfreindre ces règles.[^fb]
+Au cours de l’été, _Jean-Michel Jarre_, animateur de son et lumière à grand spectacle, est nommé à la tête d’une institution nationale dédiée au financement des arts numériques, appelée par le gouvernement à remplacer le DICRéAM : un fonds « dédié à la création immersive et au Métavers ». Cette annonce témoigne d’une volonté de soumission de l’art à sa dimension spectaculaire, d’une vision de la culture réduite à sa dimension industrielle et de l’allégeance désastreuse aux lubies consternantes de Marc Zuckerberg.[^chatonsky]
 
-_\#PropagandaWars_. Le mardi 5 octobre, Arte diffusait le documentaire _Propagande, les nouveaux manipulateurs_, d’Alexandra Jousset et Philippe Lagnier, metttant en lumière combien les réseaux sociaux, grâce à leur complaisance envers les _fake news_, permettent \[notamment\] aux nationalismes populistes de propager la haine en ligne et d’en récolter des profits politiques.[^arte]
+*[DICRéAM]: Dispositif pour la Création Artistique Multimédia et Numérique.
 
-Facebook, tout comme Twitter, Youtube, Snapchat, Linkedin ou TikTok ont comme principale perspective un profit financier dont le moyen réside dans les usages de leurs utilisateurs et utilisatrices, dans les contenus qu’ils et elles y produisent et dans les relations (commentaires, *likes*, *clashs*, partages, etc.) qu’ils et elles y nouent.
+[^chatonsky]: Lire et signer le texte et la [pétition](https://www.change.org/p/des-arts-num%C3%A9riques-au-m%C3%A9tavers-sur-la-disparition-du-dicr%C3%A9am) initiée par Grégory Chatonsky
 
-[^panne]: Lire [_Que fait-on quand Facebook est en panne ?_](https://www.affordance.info/mon_weblog/2021/10/coup-de-la-facebook-panne.html).
-[^gizmodo]: Lire [_9 Horrifying Facts From the Facebook Whistleblower's New 60 Minutes Interview_](https://gizmodo.com/9-horrifying-facts-from-the-facebook-whistleblowers-new-1847791184).
-[^fb]: Lire [_Facebook se délite en modérant ses "élites"._](https://www.affordance.info/mon_weblog/2021/09/facebook-vip-xcheck.html).
-[^arte]: Regarder [_Propagande, les nouveaux manipulateurs_](https://www.arte.tv/fr/videos/098157-000-A/propagande-les-nouveaux-manipulateurs/)
+En septembre 2022, Altice, multinationale de médias du milliardaire Patrick Drahi, intente un procès au journal d'investigation en ligne et d'information‑hacking [Reflets](https://reflets.info), dans l’objectif de lui interdire la publication et l’éditorialisation d’informations dérobées par un groupe de hackers.[^reflets] _In fine_, sous le prétexte du secret des affaires, cette attaque interdirait à tout média de diffuser des informations issues de fuites, de “_leaks_”, de lanceurs d’alerte, dont on sait depuis longtemps (révélations sanitaires, environnementales, [Edward Snowden](https://fr.wikipedia.org/wiki/Edward_Snowden), _War leaks_[^collateral] ou _Panama Papers_) qu’elles sont devenues indispensables à la vie en démocratie.
+[^collateral]: Notamment, la vidéo du [raid aérien du 12 juillet 2007 à Bagdad](https://fr.wikipedia.org/wiki/Raid_a%C3%A9rien_du_12_juillet_2007_%C3%A0_Bagdad)
+[^reflets]: [Soutenir Reflets](https://www.okpal.com/reflets/) :)
 
+En septembre encore, [Le Ravi](https://www.leravi.org/), mensuel associatif marseillais d’enquête et de satire, dépose son bilan, les poches vides et la trésorerie grevée par la disparition des subventions à la presse indépendate en PACA. Promulguée lors de l’été, la supression de la redevance (contribuant largement au financement de la télé et de la radio publique), fragilise un audiovisuel public déjà exsangue. Editis, groupe appartenant au milliardaire d’extrême droite Vincent Bolloré (Vivendi, Canal+, CNews, Havas, Gameloft…), bloque la parution prévue fin septembre d’un livre humoristique coécrit par le chroniqueur Guillaume Meurice. Si l’on n’a pas trop à s’en faire pour l’humoriste, la pression chaque jour plus visible que produit la concentration des espaces éditoriaux et médiatiques dans les mains d’empires financiers et industriels témoigne d’une volonté de contrôle chaque jour accru de l’expression et de l’information libres. 
 
+Dans le champ de la confidentialité des données privées, Facebook s’est à nouveau illustré pendant l’été, fournissant à une cour du Nebraska des messages “privés” qui prouveraient l’avortement d’une adolescente hors du délai légal – et ce malgré les affectations de façade de Zuck après la cassation de l’arrêt Roe v. Wade par la Cour suprème états-unienne. Par ailleurs sur Facebook et Instagram, une grande campagne de  nettoyage de contenus informatifs autour des questions d’avortement s’est mise en route.[^fb]
+
+[^fb]: Lire sur [Salon.com](https://www.salon.com/2022/07/02/facebook-swift-to-respond-to-roe-fallout-with-abortion-censorship/)
+
+Google, qui lit tous vos e-mails, a désactivé l’ensemble des comptes d’un père de famille après qu’il a envoyé à son médecin des photos du sexe de son fils à des fins d’examen, en se basant sur une analyse algoritmique des images, cataloguant définitivement l’homme comme pédocriminel.[^frama]
+
+[^frama]: Lire en version BD sur le [Framablog](https://framablog.org/2022/09/09/google-lespion-le-plus-con-du-monde/)
+
+Chaque jour se font plus impérieux les enjeux de la réappropriation des espaces médiatiques, plus nécessaire la circulation libre d’une information indépendante, plus critique la question du contrôle des données personnelles par les individus. Ce projet se propose d’explorer des modalités d’une production médiatique autonome, autoproduite et autopubliée via ce fascinant outil d’émancipation qu’est (que peut être) le web.
 
 ## Ré-enchanter
 En 2009, Benjamin Bayard, fondateur de la Quadrature du Net, pas avare de formules-choc, proposait que si « l’imprimerie a permis au peuple de lire, Internet va lui permettre d’écrire ».
-En 2021, cette hypothèse est largement mise à mal par les centres commerciaux que sont devenues les plateformes qui concentrent nos publications en ligne, captent notre attention et exploitent notre addiction à l’univers technologique et informationnel dans lequel nous baignons. [^BB]
+Depuis lors, cette hypothèse est largement mise à mal par les centres commerciaux que sont devenues les plateformes qui concentrent nos publications en ligne, captent notre attention et exploitent notre addiction à l’univers technologique et informationnel dans lequel nous baignons. [^BB]
 
 [^BB]: Regarder la conférence de B. Bayard _Internet libre, ou Minitel 2.0 ?_ sur [Youtube](https://www.youtube.com/watch?v=AoRGoQ76PK8) ou (mieux ;) sur [PeerTube](https://peertube.social/videos/watch/9a8642c0-62f0-4060-95e4-088de9c5db00).
 
@@ -42,11 +51,11 @@ Si les internets et le web ont inscrit au cœur de leurs fondations techniques, 
 
 Dans les temps de la jeunesse du web, avant l’avènement des plateformes, les internautes n’avaient pas de “comptes” mais des “pages”. Fondée en 1994, [GeoCities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities) était un service d’hébergement gratuit, formant une communauté de sites web organisée en “villes”. Dans Geocities, chaque utilisateur structurait son espace et son contenu, en était à la fois auteur et architecte. En 2013, sur les cendres refroidies de cette première Tour de Babel du web, est créé [Neocities](https://neocities.org/) avec comme projet de « rendre le web fun à nouveau ».
 
-Laurel Schwulst, dans un article fondateur de 2018, _My website is a shifting house next to a river of knowledge. What could yours be?_[^laurel], proposait qu’un site web puisse être une chambre, une maison, un jardin, un bateau, un nuage, une étagère, une plante, une flaque d’eau ; qu’il puisse avoir sa propre temporalité, sa saisonalité ; qu’il puisse être habité et ouvrir ses portes vers d’autres habitats. 
+Laurel Schwulst, dans un article fondateur de 2018, _My website is a shifting house next to a river of knowledge. What could yours be?_[^laurel], proposait qu’un site web puisse être une chambre, une maison, un jardin, un bateau, un nuage, une étagère, une plante, une flaque d’eau ; qu’il puisse avoir sa propre temporalité, sa saisonalité ; qu’il puisse être habité et ouvrir ses portes vers d’autres habitats. 
 
 > <big> “A website, or anything interactive, is inherently unfinished. It’s imperfect—maybe sometimes it even has a few bugs. But that’s the beauty of it. Websites are living, temporal spaces.”</big>
 
-[^laurel]: Lire [en ligne](https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/) ou en [pdf](laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be.pdf)
+[^laurel]: Lire [en ligne](https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/) ou en [pdf](laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be.pdf), ou en lire l’éhonté paraphrasage sur [Radical Webdesign](https://radicalweb.design/fr/notes/rencontres-de-lure).
 
 
 ## Micromédia ?
@@ -81,22 +90,24 @@ L’approche peut être documentaire ou fictionnelle, centrée sur vous, votre e
 ### Calendrier
 | Date | Programme  |
 | --- | --- |
-| 07/10 | Lancement du projet + Typographie à l’écran |
-| 08/10 | RWD, du mobile à l’écran |
-| 14/10 | _Suivi & travail individuel/collectif_ |
-| 21/10 | RWD, du mobile à l’écran |
-| 22/10 | _Suivi & travail individuel/collectif_ |
-| 22/10 – 28/10 | → Notes d’intention (par e-mail et) en ligne |
-| 28/10 | RWD, de l’écran au papier  |
-| 18/11 | → Open publishing fest (évènement web2print) |
-| 19/11 | _Suivi & travail individuel/collectif_ |
-| 25/11 | Prototypage : introduction à Figma |
+| 29/09 | Lancement du projet |
+| 06/10 | Typographie à l’écran |
+| 07/10 | RWD, du mobile à l’écran |
+| 13/10 | Pas de cours |
+| 20/10 | RWD, du mobile à l’écran |
+| 21/10 | _Suivi & travail individuel/collectif_ |
+| 27/10 | _Suivi & travail individuel/collectif_ |
+| 27/10 – 02/11 | → Notes d’intention (par e-mail et) en ligne |
+| 10/11 | RWD, de l’écran au papier  |
+| 17/11 | RWD, de l’écran au papier |
+| 18/11 | _Suivi & travail individuel/collectif_ |
+| 24/11 | ✔ Design d’interface : introduction à Penpot |
+| 01/12 | _Suivi & travail individuel/collectif_ |
 | 02/12 | _Suivi & travail individuel/collectif_ |
-| 03/12 | _Suivi & travail individuel/collectif_ |
-| 09/12 | RWD, de l’écran au papier |
-| 06/01 | _Suivi & travail individuel/collectif_ |
-| 13/01 | _Suivi & travail individuel/collectif_ |
-| 14/01 | _Suivi & travail individuel/collectif_ |
-| 15/01 | → Publication en ligne et envoi (par e-mail ou) en ligne des documents connexes |
+| 08/12 | RWD, de l’écran au papier |
+| 15/12 | _Suivi & travail individuel/collectif_ |
+| 16/12 | _Suivi & travail individuel/collectif_ |
+| 05/01 | _Suivi & travail individuel/collectif_ |
+| 06/01 | → Publication en ligne et envoi (par e-mail ou) en ligne des documents connexes |
 
 *[RWD]: Responsive Web Design
