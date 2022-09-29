@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "SECTION – Titre";
+    $title = "SECTION → Titre";
     $description = "";
     $section="SECTION";
     $subsection="SUBSECTION";
