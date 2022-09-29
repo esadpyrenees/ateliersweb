@@ -32,7 +32,7 @@ Google, qui lit tous vos e-mails, a désactivé l’ensemble des comptes d’un 
 
 [^frama]: Lire en version BD sur le [Framablog](https://framablog.org/2022/09/09/google-lespion-le-plus-con-du-monde/)
 
-Chaque jour se font plus impérieux les enjeux de la réappropriation des espaces médiatiques, plus nécessaire la circulation libre d’une information indépendante, plus critique la question du contrôle des données personnelles par les individus. Ce projet se propose d’explorer des modalités d’une production médiatique autonome, autoproduite et autopubliée via ce fascinant outil d’émancipation qu’est (que peut être) le web.
+Chaque jour se font plus impérieux les enjeux de la réappropriation des espaces médiatiques, plus nécessaire la circulation libre d’une information indépendante, plus critique la question du contrôle des données personnelles par les individus. Ce projet se propose d’explorer des modalités d’une production médiatique autonome, autoproduite et autopubliée via ce fascinant outil d’émancipation qu’est (que _peut_ être) le web.
 
 ## Ré-enchanter
 En 2009, Benjamin Bayard, fondateur de la Quadrature du Net, pas avare de formules-choc, proposait que si « l’imprimerie a permis au peuple de lire, Internet va lui permettre d’écrire ».
@@ -72,10 +72,14 @@ Si Macromédia fut l’éditeur du plugin Flash, qui offrit à la fois au web ce
 * Vous pouvez parler en votre nom propre, de manière anonyme, en créant un avatar, un hétéronyme, laisser la parole à un moineau ou à votre chat.
 * Vous pouvez travailler seul·e ou en collectif (max. 3 !). NB: Les attentes liées à un travail en groupe seront proportionelles à la taille du groupe ; chacun·e des membres devra intervenir sur l’ensemble des dimensions (forme et fond, structure et développement) bien que les singularités de chacun·e puissent amener une certaine répartition des rôles.
 
-### Media queries
+### Micromedia queries
 
 L’accès au site via un mobile, un écran, et _jusqu’à sa version imprimée_ seront des enjeux centraux de votre production. Les modalités techniques en seront envisagées tout au long du semestre.
-La complémentarité des espaces et des formes de diffusion et de consultation gagnera à être envisagée, questionnée et investie.
+La complémentarité des espaces et des formes de diffusion et de consultation est un enjeu majeur du projet. Elle doit être questionnée et investie avec précision.
+
+La prise en compte de la relation écran / imprimé, notamment, peut être pensée de multiples manières : l’impression peut produire un document qui soit comparable à la version écran _ou_ complémentaire. Les logiques du _web 2 print_[^web2print] permettent à la fois l’impression d’un document par le visiteur lui-même (« impression à la demande ») ou l’appropriation par le⋅a designer d’un outil et d’un contexte permettant de concevoir dans un même geste (à partir des mêmes sources, des mêmes logiques, d’un même _système de design_) des documents multi-supports.
+
+[^web2print]: Les [approches alternatives de production d’objets imprimés](../../ressources/ctrl-alt-print/) seront évoquées lors de séances dédiées.
 
 ### Contenus 
 
@@ -83,9 +87,10 @@ Reportage photo sur la vie de votre quartier, interviews de passants dans la rue
 L’approche peut être documentaire ou fictionnelle, centrée sur vous, votre environnement ou sur le monde, mais elle gagnera à offir une expérience sensible, singulière et individuelle.
 
 ### Livrables
-* Un site web, codé à la main, nativement pensé et construit dans le navigateur, duquel existera une forme imprimée.
+* Un site web, codé à la main, nativement pensé et construit dans le navigateur, à partir duquel sera produite une forme imprimée.
 * Aucune maquette statique n’est requise – bien que leur réalisation, tout comme celle de _wireframes_ puissent aider certain·es à conceptualiser et préciser le projet.
-* L’évolution du projet dans le temps du semestre ~~pourra~~ devra être documentée.
+* L’évolution du projet dans le temps du semestre devra être documentée.
+
 
 ### Calendrier
 | Date | Programme  |
@@ -108,6 +113,6 @@ L’approche peut être documentaire ou fictionnelle, centrée sur vous, votre e
 | 15/12 | _Suivi & travail individuel/collectif_ |
 | 16/12 | _Suivi & travail individuel/collectif_ |
 | 05/01 | _Suivi & travail individuel/collectif_ |
-| 06/01 | → Publication en ligne et envoi (par e-mail ou) en ligne des documents connexes |
+| 06/01 | → Publication en ligne du prototype et des documents connexes |
 
 *[RWD]: Responsive Web Design
