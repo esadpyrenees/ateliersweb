@@ -8,18 +8,15 @@ Des exemples d’interactions simples, à hybrider et continuer à faire dévier
 
 [→ fork ! ](fork){.bigbutton}
 
+Quelques fonctions d’usage courant pour l’interaction entre HTML et Javascript 
+
+[→ DOM ! ](dom.php){.bigbutton}
+
+
 ### Pré-requis
 
 * Une connaissance de base du [HTML](../html) et du [CSS](../css) est requise. 
 
-
-
-### Ressources en ligne  {#ressources-js}
-
-* **[htmldom.dev](https://htmldom.dev/)** : exemples pratiques ayant trait à la manipulation du DOM en javascript. 
-* **[javascript.info](https://javascript.info/)** : une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain”. 
-* **[eloquentjavascript](https://eloquentjavascript.net/)** : un livre sous licence CC, sous-titré “<i>a modern introuction to programming</i>”.
-* Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 
 
 ## Introduction {#introduction}
 
@@ -401,7 +398,7 @@ const paragraphe = document.querySelector("#paragraphecible");
 paragraphe.appendChild(bouton);
 ```
 
-Le site [plainjs.com](https://plainjs.com/javascript/) donne des exemples pour de très nombreuses opérations simples qu’on peut souhaiter effectuer en javascript dans une page web.
+D’autres commandes communes sont explicitées dans **[la page dédiée au DOM](dom.php)**.
 
 ## Aléatoire
 
@@ -490,3 +487,13 @@ Au cours de sa vie, Javascript a été implémenté de manières très différen
 La librairie jQuery, créé en 2008 a révolutionné l’usage de javascript en donnant accès à une manière unifiée d’écrire du js, et en faisant naître un immense écosystème de *plugins* permettant à de nombreux webdesigners d’ajouter des fonctionnalités interactives à leurs pages sans difficultés techniques. 
 
 Le Javascript natif (ou *vanilla*) est en 2021 suffisamment stable, robuste et supporté par la majeure partie des navigateurs pour pouvoir la plupart du temps se dispenser du recours à cette librairie. Néanmoins, la rapide documentation rédigée ici [reste accessible](jquery.php).
+
+
+
+
+### Ressources sur Javascript  {#ressources-js}
+
+* **[htmldom.dev](https://htmldom.dev/)** : exemples pratiques ayant trait à la manipulation du DOM en javascript. 
+* **[javascript.info](https://javascript.info/)** : une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain”. 
+* **[eloquentjavascript](https://eloquentjavascript.net/)** : un livre sous licence CC, sous-titré “<i>a modern introuction to programming</i>”.
+* Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 

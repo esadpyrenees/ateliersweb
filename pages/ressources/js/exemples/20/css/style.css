@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+/* emohis (scrip 1) */
+.emojis {
+  margin: 2em;
+  text-align: center;
+}
+.slant {
+  display: inline-block;
+  transform: skewX(-18deg);
+}
+.backslant {
+  display: inline-block;
+  transform: skewX(18deg);
+}
+
+
+/* script 2 (liste d’étudiants) */
+.hidden { display: none; padding: 3em; font-size: 2em; gap: 1em;}
+.visible {  display: flex; }
+input{
+  display: block;
+  width: 100%;
+}
+.results {font-size: 2em; padding: 3em;}
+
+
+/* script 3 (chats */
+img {
+  position: absolute;
+}

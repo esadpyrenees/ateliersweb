@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD·Pyrénées — Ateliers web — Références";
+    $title = "Références HTML CSS";
     $section = "references";
     $subsection = "htmlcss";
     $mdfile = "./references.md";

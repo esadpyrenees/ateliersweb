@@ -9,9 +9,10 @@
     <li><a href="/web/pages/ressources/js/#fonctions">Fonctions</a></li>
     <li><a href="/web/pages/ressources/js/#dom">DOM</a></li>
     <li><a href="/web/pages/ressources/js/#random">Aléatoire</a></li>
-    <li><a href="/web/pages/ressources/js/#jquery">jQuery</a></li>  
+    <!-- <li><a href="/web/pages/ressources/js/#jquery">jQuery</a></li>   -->
   </ul>
   <ul>
     <li class="<?= $subsubsection == 'fork' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/fork/">Fork</a> </li>
+    <li class="<?= $subsubsection == 'dom' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/dom.php">Dom</a> </li>
   </ul>
 </nav>
