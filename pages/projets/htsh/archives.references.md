@@ -10,6 +10,7 @@
 * Son https://www.franceculture.fr/emissions/creation-air 
 * Son https://www.arteradio.com/
 * Karrik – the Game http://karrik-game.velvetyne.fr/ (une narration non-linéaire éditée par VTF)
+* [Wikipedia: The Text Adventure](https://kevan.org/wikitext/) (une fiction inetarctive sur Wikipédia)
 
 ### Expérience utilisateur
 * Immersion http://phallaina.nouvelles-ecritures.francetv.fr/ 

@@ -15,6 +15,14 @@ Tutoriel interactif, composé de vidéos et d’exercices alternés : [Khan Aca
 FreeCodeCamp offre – sur inscription gratuite – l’accès à une certification, notamment en [Responsive Web Design](https://www.freecodecamp.org/learn), avec un cours interactif de 300 heures ; ) (en anglais).
 
 
+### Ressources sur Javascript  {#ressources-js}
+
+* **[htmldom.dev](https://htmldom.dev/)** : exemples pratiques ayant trait à la manipulation du DOM en javascript. 
+* **[javascript.info](https://javascript.info/)** : une introduction très complète (et donc un peu longue, en anglais) au javascript “contemporain”. 
+* **[eloquentjavascript](https://eloquentjavascript.net/)** : un livre sous licence CC, sous-titré “<i>a modern introuction to programming</i>”.
+* Le site Mozilla developper network est une ressource extrêmement complète sur javascript : **[Mozilla developper network](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)** 
+* Le site [plainjs.com](https://plainjs.com/javascript/) donne des exemples pour de très nombreuses opérations simples qu’on peut souhaiter effectuer en javascript dans une page web.
+
 ## Sites de référence
 
 #### Mozilla Developper Network

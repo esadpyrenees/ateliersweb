@@ -1,10 +1,10 @@
 <?php
     // config
-    $title = "Ressources → Javascript";
+    $title = "Ressources → Javascript DOM";
     $section="ressources";
     $subsection="js";
     $nav = "/web/snippets/ressources/js.php";
-    $mdfile = "./index.md";
+    $mdfile = "./dom.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
@@ -20,7 +20,11 @@
 
 ?>
     <style>
-        .bigbutton {margin-top:0}
+        .bigbutton {margin-top:0.5em}
+        main h4 {font-weight: normal; cursor:pointer; margin: 0;}
+        main h4:hover {color: tomato}
+        h4 + pre { display:none}
+        h4.visible + pre { display:block}
     </style>
     <main class="pane active" id="content">
         <section>
@@ -30,6 +34,18 @@
 
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
+
+    <script>
+        const h4s = document.querySelectorAll("h4");
+        h4s.forEach( h4 => {
+            h4.onclick= () => {
+                let visible = document.querySelector("h4.visible");
+                if(visible) visible.classList.remove('visible');
+                const code = h4.nextElementSibling;
+                h4.classList.toggle("visible");
+            }
+        });
+    </script>
 
   <?php 
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
