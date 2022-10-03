@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const setFavicon = function (url) {
+            // Récupère le favicon actuel
+            const favicon = document.querySelector('link[rel="icon"]');
+            if (favicon) {
+                // Change son URL
+                favicon.href = url;
+            } else {
+                // S’il n’y a pas de favicon, crée un nouveau `link`
+                const link = document.createElement('link');
+                link.rel = 'icon';
+                link.href = url;
+                document.head.appendChild(link);
+            }
+        };
+
+        const emojiFavicon = function (emoji) {
+            // Crée un `canvas`
+            const canvas = document.createElement('canvas');
+            canvas.height = 64;
+            canvas.width = 64;
+
+            // Insère le texte dans le `canvas`
+            const context = canvas.getContext('2d');
+            context.font = '56px serif';
+            context.fillText(emoji, 0, 56);
+
+            // Transforme le canvas en 'URL'
+            const url = canvas.toDataURL();
+
+            // Met à jour le favicon
+            setFavicon(url);
+        };
+
+        const emojis = ["😀","😁","😂","🤣","😃","😄","😅","😆","😉","😊","😋","😎","😍","🥰","😘","😗","😙","😚","🙂","🤗","🤩","🤔","🤨","😐","😑","😶","🙄","😏","😣","😥","😮","🤐","😯","😪","😫","😴","😌","😛","😜","😝","🤤","😒","😓","😔","😕","🙃","🤑","😲","🙁","😖","🥵","😞","😟","🥶","🥴","😤","😢","😭","😦","😧","🥳","😨","😩","🤯","😬","😰","😱","😳","🤪","😵","😡","🥺","😠","🤬","😷","🤒","🤕","🤢","🤮","🤧","😇","🤠","🤥","🤫","🤭","🧐","🤓","😈","👿","🤡","👹","👺","💀","☠️","👻","👽","👾","🤖","💩","🙊"]
+
+        // Chaque demi-seconde (500ms)
+        let i = 0;
+        setInterval(() => {
+            i = i < emojis.length ? i : 0;
+            emojiFavicon(emojis[i]);
+            i++;
+        }, 500);
+        
+    </script>
+
+</body>
+
+</html>
