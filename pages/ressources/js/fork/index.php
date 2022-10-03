@@ -1,6 +1,7 @@
 <?php
     // config
-    $title = "Ressources → Javascript  → Fork";
+    $title = "Ressources → Javascript → Fork";
+    $description = "Javascript : exemples interactifs simples à détourner.";
     $section="ressources";
     $subsection="js";
     $subsubsection = "fork";

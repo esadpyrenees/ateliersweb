@@ -10,7 +10,7 @@ Des exemples d’interactions simples, à hybrider et continuer à faire dévier
 
 Quelques fonctions d’usage courant pour l’interaction entre HTML et Javascript 
 
-[→ DOM ! ](dom.php){.bigbutton}
+[→ DOM ! ](dom){.bigbutton}
 
 
 ### Pré-requis
@@ -398,7 +398,8 @@ const paragraphe = document.querySelector("#paragraphecible");
 paragraphe.appendChild(bouton);
 ```
 
-D’autres commandes communes sont explicitées dans **[la page dédiée au DOM](dom.php)**.
+D’autres commandes communes sont explicitées dans **[la page dédiée au DOM](dom)**.
+Voir les exemples [17](exemples/17/), [18](exemples/18/) et [19](exemples/19/)
 
 ## Aléatoire
 
@@ -442,7 +443,7 @@ Math.round(rand(-250, 500));
 // retourne 323 (par exemple)
 ```
 
-## Contrainte
+### Contrainte
 
 Une fois établie cette possibilité d’un nombre “purement” aléatoire, il est possible de contraindre son utilisation:
 ```js
@@ -486,7 +487,7 @@ Au cours de sa vie, Javascript a été implémenté de manières très différen
 
 La librairie jQuery, créé en 2008 a révolutionné l’usage de javascript en donnant accès à une manière unifiée d’écrire du js, et en faisant naître un immense écosystème de *plugins* permettant à de nombreux webdesigners d’ajouter des fonctionnalités interactives à leurs pages sans difficultés techniques. 
 
-Le Javascript natif (ou *vanilla*) est en 2021 suffisamment stable, robuste et supporté par la majeure partie des navigateurs pour pouvoir la plupart du temps se dispenser du recours à cette librairie. Néanmoins, la rapide documentation rédigée ici [reste accessible](jquery.php).
+Le Javascript natif (ou *vanilla*) est aujourd’hui suffisamment stable, robuste et supporté par la majeure partie des navigateurs pour pouvoir la plupart du temps se dispenser du recours à cette librairie. Néanmoins, la rapide documentation rédigée ici [reste accessible](jquery.php).
 
 
 

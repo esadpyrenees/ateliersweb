@@ -1,8 +1,10 @@
 <?php
     // config
-    $title = "Ressources → Javascript DOM";
+    $title = "Ressources → Javascript → DOM";
+    $description = "Exemples d’interactions courantes entre Javascript et le DOM.";
     $section="ressources";
     $subsection="js";
+    $subsubsection="dom";
     $nav = "/web/snippets/ressources/js.php";
     $mdfile = "./dom.md";
 
@@ -25,10 +27,11 @@
         main h4:hover {color: tomato}
         h4 + pre { display:none}
         h4.visible + pre { display:block}
+        h4.visible::before { content:"↓ "}
     </style>
     <main class="pane active" id="content">
         <section>
-            <div id="randomramdam" >RANDOM/RAMDAM</div>                
+            <div id="randomramdam" >DOM+</div>                
         </section>
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
 

@@ -1,5 +1,5 @@
 
-Cet exercice propose de découvrir javascript par l’appropriation d’exemples interactifs [simples\*](#note), qui impliquent à la fois HTML, CSS (modification de styles, ajout/suppression de `class`) et JavaScript (sélection d’éléments, association d’évènements – click, mouseover, mouseout –, manipulation du [DOM](../#dom)).
+Cet exercice propose de découvrir javascript par l’appropriation d’exemples interactifs [simples\*](#note), qui impliquent à la fois HTML, CSS (modification de styles, ajout/suppression de `class`) et JavaScript (sélection d’éléments, association d’évènements – click, mouseover, mouseout –, manipulation du [DOM](../dom/)).
 
 ☞ Explorer les expériences en commençant par les versions 1 (elles se complexifient progressivement), puis essayez de vous approprier les techniques employées pour en faire votre propre version (sur le plan graphique autant qu’au niveau de l’interaction).
 
