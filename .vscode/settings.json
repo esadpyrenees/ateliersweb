@@ -1,19 +1,19 @@
-{
-  "editor.fontSize": 18,
-  "editor.fontFamily": "fira sans",
-  "editor.fontWeight": "light",
-  "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 80,
-  "workbench.colorTheme": "Ayu Light",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.lineNumbers": "off",
-  "spellright.language": [
-    "fr"
-  ],
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext"
-  ]
-}
+// {
+//   "editor.fontSize": 18,
+//   "editor.fontFamily": "fira sans",
+//   "editor.fontWeight": "light",
+//   "editor.wordWrap": "bounded",
+//   "editor.wordWrapColumn": 80,
+//   "workbench.colorTheme": "Ayu Light",
+//   "editor.scrollbar.vertical": "hidden",
+//   "editor.lineNumbers": "off",
+//   "spellright.language": [
+//     "fr"
+//   ],
+//   "spellright.documentTypes": [
+//     "markdown",
+//     "latex",
+//     "plaintext"
+//   ]
+// }
 
