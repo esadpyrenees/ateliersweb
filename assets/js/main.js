@@ -55,21 +55,21 @@ if(ramdam){
         ramdam.appendChild(span);
         if(letters[i]=='/') ramdam.appendChild( document.createElement('br') );
         // mesure la position naturelle de chaque lettre et l’enregitre dans un attribut pour pouvoir la retrouver plus tard
-        var left = span.getBoundingClientRect().left
-        span.dataset.originalLeft = left;
+        var left = span.offsetLeft;
+        span.dataset.originalLeft = Math.floor(left);
     };
 
     // function qui "met en désordre" les lettres
     ramdamize = function(container){
         var spans = ramdam.querySelectorAll('span');
-        var ramdam_bcr = ramdam.getBoundingClientRect();
+        var ramdam_width = ramdam.getBoundingClientRect().width;
         spans.forEach((span) => {
             // récupère la valeur left naturelle
             var original_left = parseInt(span.dataset.originalLeft);
-            var span_bcr = span.getBoundingClientRect();            
+            var span_width = span.getBoundingClientRect().width;            
             // crée une valeur left aléatoire
             // qui permette de garder le span à l’intérieur de <div id='ramdam'>
-            var new_left = Math.round(Math.random() * (ramdam_bcr.width - span_bcr.width)) - original_left;
+            var new_left = Math.floor( Math.random() * (ramdam_width - span_width ) - original_left) ;
             span.style.left = new_left + "px";
             span.style.transition =  'left 200ms ease-out';
             // rend visible et anime les lettres sequentiellement
