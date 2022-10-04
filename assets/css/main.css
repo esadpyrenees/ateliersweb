@@ -89,6 +89,7 @@ nav button {
 .active ~ .active ~ .active ~ .active ~ #content { width: calc(100% - 3rem - 16rem); }
 nav.pane{
     max-width: 10rem;
+    user-select: none;
 }
 
 /* nav li {
