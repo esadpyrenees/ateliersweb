@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Ressources → Python";
     $section="ressources";
     $subsection="python";
     $nav = "/web/snippets/ressources/python.php"; // specific subnav
