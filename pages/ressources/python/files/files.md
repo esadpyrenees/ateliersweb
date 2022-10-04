@@ -6,7 +6,7 @@ import os, shutil
 from pathlib import Path
 ```
 
-Lire et écrire des données dans des fichiers à l'aide de Python est assez simple. Pour ce faire, il faut ouvrir les fichiers dans le mode approprié – lecture : `r`, ou écriture : `w`).
+Lire et écrire des données dans des fichiers à l’aide de Python est assez simple. Pour ce faire, il faut ouvrir les fichiers dans le mode approprié – lecture : `r`, ou écriture : `w`).
 ```py
 # Lire
 with open('data.txt', 'r') as f:
@@ -103,7 +103,7 @@ with open('une/nouvelle/data.txt') as f:
 
 
 ## Lire ligne à ligne et colonne par colonne le contenu d’un fichier CSV
-Un fichier CSV (pour _Comma Separated Values_, valeurs séparées par des virgules, ou des points-virgules) peut être crée depuis un éditeur de texte, Libre Office Calc, MS Excel ou Google Sheets.
+Un fichier CSV (pour _Comma Separated Values_, valeurs séparées par des virgules, ou des points-virgules) peut être créé depuis un éditeur de texte, Libre Office Calc, MS Excel ou Google Sheets.
 ##### designers.csv {.filename}
 ```txt
 name;occupation;country

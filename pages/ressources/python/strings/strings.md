@@ -57,7 +57,7 @@ print(words)
 
 ### Formatter une chaîne
 
-Pour intégrer des valeurs variables à une chaîne de caractères fixe, on peut utiliser `format`, avec un seul paramètre : 
+Pour intégrer des valeurs variables à une chaîne de caractères fixe, on peut utiliser `format`, avec un seul paramètre : 
 
 ```python
 num = hypotheses.count("politique")
@@ -66,13 +66,13 @@ print( "Le texte Hypothèses de travail du collectif Formes Vives contient {} fo
 # Le texte Hypothèses de travail du collectif Formes Vives contient 20 fois le mot « politique »
 ```
 
-Utiliser `format` avec plusieurs paramètres : 
+Utiliser `format` avec plusieurs paramètres : 
 
 ```python
 print("Hello, my name is {} and I am {} years old!".format("John", 18))
 # Hello, my name is John and I am 18 years old!
 ```
-Utiliser `format` avec des paramètres nommés : 
+Utiliser `format` avec des paramètres nommés : 
 
 ```python
 print("Hello, my name is {name} and I am {age} years old!".format(age=18, name="John"))

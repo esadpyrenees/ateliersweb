@@ -1,7 +1,7 @@
 # Les listes en Python 
     
 
-## Création d'une liste
+## Création d’une liste
 ```python
 beatles = ["John", "Paul", "George", "Ringo"]
 
@@ -18,7 +18,7 @@ print( len(beatles) )
 # affiche 4
 ```
 
-### Transformation d'une chaîne de caractères en liste
+### Transformation d’une chaîne de caractères en liste
 
 La fonction `split` : 
 ```python
@@ -87,8 +87,7 @@ print(words[-1]) # Le dernier élément
 ```
 
 ### Sélectionner une plage (un sous-ensemble)
-En Python, le « découpage de liste » (_slicing_) est une pratique courante. Pour accéder à une plage d'éléments dans une liste, on peut utiliser les deux points `:`.
-Avec cet opérateur, on peut spécifier où commencer le découpage, où le terminer, et spécifier le « pas ». 
+En Python, le « découpage de liste » (_slicing_) est une pratique courante. Pour accéder à une plage d'éléments dans une liste, on peut utiliser les deux points `:`. Avec cet opérateur, on peut spécifier où commencer le découpage, où le terminer, et spécifier le « pas ». 
 
 ```python
 print(words[1:5]) # les mots de la position 1 (inclusif) à 5 (exclusif)
@@ -120,7 +119,7 @@ for word, index in enumerate(words) :
 ```
 
 ### Filtrer une liste
-Utiliser une boucle `for` + une instruction `if` :
+Utiliser une boucle `for` et une instruction `if` :
 ```python
 words_longs = []
 for word in words :
@@ -139,7 +138,7 @@ print(words_longs)
 ```
 
 ## Assembler deux listes
-Utiliser l’opérateur "+" (ne modifie pas les listes ):
+Utiliser l’opérateur « + » (ne modifie pas les listes ):
 ```python
 english_words = "Design is the organization of materials and processes".split()
 words_and_english_words = english_words + words
