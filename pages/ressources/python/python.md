@@ -1,18 +1,27 @@
 # Python
     
-[Python for Designers](http://pythonfordesigners.com) est une introduction à Python pour les designers, produite par Roberto Arista, qui utilise Drawbot (pour Mac OSX seulement…).
+[Python for Designers](http://pythonfordesigners.com) est une introduction à Python pour les designers, produite par Roberto Arista, qui utilise Drawbot (Mac OS seulement).
 
-[Drawbot](http://www.drawbot.com/) est un outil open source pour MacOS développé par [Just van Rossum](https://twitter.com/justvanrossum), [Erik van Blokland](http://letterror.com/) et [Frederik Berlaen](https://typemytype.com) dédié à l’utilisation de Python dans l’objectif de production de graphiques 2D fixes ou animés. C’est un outil particulièrement adapté à l’expérimentation avec les fontes variables.
+[Drawbot](http://www.drawbot.com/) est un outil open source pour MacOS développé par [Just van Rossum](https://twitter.com/justvanrossum), [Erik van Blokland](http://letterror.com/) et [Frederik Berlaen](https://typemytype.com) dédié à l’utilisation de Python dans l’objectif de production de graphiques 2D fixes ou animés. C’est un outil particulièrement adapté à l’expérimentation avec la typographie, et notamment avec les fontes variables. [Drawbot Skia](https://github.com/justvanrossum/drawbot-skia), en cours de développement, est une tentative de porter Drawbot pour Windows et Linux.
 
-[Flat](https://xxyxyz.org/flat/) et [Even](https://xxyxyz.org/even/) sont deux outils open source (et *cross-platform*) développés par Juraj Sukop permettant de manipuler des formes vectorielles et du texte en Python.
+[Flat](https://xxyxyz.org/flat/) et [Even](https://xxyxyz.org/even/) sont deux outils open source (et *cross-platform*) permettant de manipuler des formes vectorielles et du texte en Python.
     
-La documentation ci-dessous est une traduction française, légèrement modifiée de l’[introduction à Python de Drawbot](https://www.drawbot.com/content/courseware.html).
+La documentation ci-dessous est une traduction française, progressivement modifiée, de l’[introduction à Python de Drawbot](https://www.drawbot.com/content/courseware.html).
 
 ### Snippets
 
-Le code des exemples ci-dessous est exécutable depuis la ligne de commande ou dans Drawbot.
+Le code des exemples ci-dessous est exécutable depuis la ligne de commande (ou dans Drawbot).
+Il est également possible (souhaitable) de copier/coller le contenu des snippets dans un fichier `test.py` et de demander à Puython d’exécuter ce fichier en saisissant `python test.py` depuis la ligne de commande.
 
-Les exemples sont [téléchargeables](examples.zip). Dans le dossier décompressé, exécutez `python test.py` depuis la ligne de commande.
+## Types de données {#types}
+
+Python permet de manipuler différents types de données :
+* des nombres : `int`, `float`
+* des « booléens » : `bool` (vrai ou faux)
+* du texte : `str`
+* des collections or­données de données : `list`, `tuple`
+* des collections non or­données `set`, `dict`
+* l’absence de données `None`
 
 ## Nombres et maths {#numbers}
 
@@ -31,34 +40,28 @@ print(12.5)  # Ceci est un nombre décimal ou flottant (float)
 print("Aditions")
 print(12 + 13)  # Donne un entier
 print(12 + 0.5)  # Donne un flottant
-print(0.5 + 12)  # :)
 
 print("Soustractions")
 print(12 - 8)
-print(12 - 25)
 
 print("Multiplications")
 print(12 * 8)
-print(12 * -25)
 
 print("Divisions")
 print(12 / 2)
-print(11 / 2)
 print(11 // 2) # Division entière
 print(11 % 2)  # Modulo (le “reste” de la division)
 
 print("Puissances")
-print(2 ** 8)
-print(10 ** 2)
-print(2 ** 0.5)
-
+print(2 ** 8) # « 2 puissance 8 », 256 (2 × 2 × 2 × 2 × 2 × 2 × 2 × 2)
+  
 print("Une erreur:")
 print(1 / 0) # On ne peut pas diviser par zéro…
 ```
 
 ## Chaînes de caractères {#strings}
 
-Les “chaînes” contiennent du texte, une séquence de lettres successives.
+Les “chaînes” contiennent du texte, une séquence de lettres successives. En Python 3, les chaînes de caractères sont encodées en utf-8, on peut donc utiliser accents, diacritiques et caractères non latins.
 
 ```py
 print('Ceci est une "chaîne de caractères"')
@@ -74,13 +77,7 @@ print(a + " " + b)
 
 print("Dix " * 10)
 
-print("Les caractères non-ascii devraient fonctionner :")
 print("Åbenrå © Ђ ק")
-print("Et maintenant, une erreur :")
-print("many " * 10.0)
-# la multiplication de chaînes de caractères 
-# exige un nombre entier ; un flottant qui se trouverait  
-# être un nombre entier ne fonctionne pas
 ```
 
 ## Variables {#variables}
@@ -88,28 +85,20 @@ print("many " * 10.0)
 Les variables sont similaires à des boîtes de rangement, elles doivent avoir un nom et contenir quelque chose. 
 
 ```py
-a = 12
-b = 15
-c = a * b
-CAP = "une chaîne"
-
-print(c)
-
-print(CAP)
+num_a = 12
+num_b = 15
+num_c = a * b
+string = "une chaîne"
 
 # le nom des variables  ne peut pas commencer par un chiffre
 # 1a = 12
-
 # mais ils peuvent en contenir (ailleurs qu’au début)
 a1 = 12
-
 # Les titrets bas, ou underscores sont permis:
 _a = 12
 a_ = 13
-
 # En Python, tout est un objet. On peut “re-lier” le nom 'a' à un nouvel objet :
 a = a + 12
-
 # Le nom des variables est sensible à la casse
 # Ainsi,
 x = 12
@@ -117,10 +106,6 @@ x = 12
 X = 13
 print(x)
 print(X)
-
-y = 102
-# Ceci produit donc une erreur
-print(Y)
 ```
 
 ## Listes  {#lists}
@@ -133,6 +118,7 @@ alist = [1, -2, "abcdefg", 4, 50]
 print(alist)
 alist.append(1234)
 print(alist)
+# affiche [1, -2, 'abcdefg', 4, 50, 1234]
 
 # Récupérer un élément d’une liste:
 print(alist[0])  # le premier élément
@@ -142,79 +128,35 @@ print(alist[1])  # le second
 print(alist[-1])  # le dernier élément
 print(alist[-2])  # l’avant-dernier
 
-print("nested lists:")
+# Listes imbriquées 
 print([1, 2, 3, ["a", "b", "c"]])
 print([1, 2, 3, ["a", ["deeper"]]])
-
-# Attention : assigner une liste à un autre nom de variable 
-# n’en crée pas une copie. On crée seulement une autre référence au même objet
-anotherlist = alist
-anotherlist.append(-9999)
-print(anotherlist)
-print(alist)
-acopy = list(alist)
-acopy.append(9999)
-print(acopy)
-print(alist)
-
-# Les chaînes sont aussi des séquences qui peuvent être parcourues comme des listes
-astring = "abcdefg"
-print(astring[2])
-print(astring[-1])  # depuis la fin
-
-print("Récupérer des “tranches” ('slices') d’une liste")
-print(alist)
-print(alist[2:5])
-
-# `range` est une fonction native qui permet de créer des listes à partir de nombres 
-print(range(10))  # de 0 à 10 (n’inclue pas 10!)
-print(range(5, 10))  # de 5 à 10 (n’inclue pas 10!)
-print(range(1, 19, 3)) # de 1 à 19, par pas de 3
-
 ```
+[Aller plus loin avec les listes](lists).
 
 ## Boucles {#loops}
-Les boucles sont utilisées pour passer d'une liste à l'autre et examiner chacun des éléments. Les boucles sont un moyen puissant et rapide de travailler avec de nombreux éléments.
+Les boucles sont utilisées pour passer d’une liste à l’autre et examiner chacun des éléments. Les boucles sont un moyen puissant et rapide de travailler avec de nombreux éléments.
 
 ``` py
-print("Bouclons autour de cette liste :")
-alist = [1, -2, "abcdefg", 4, 50]
-print(alist)
 for item in alist:
     # ceci est le corps ('body') de la boucle
     print(item)
     # D’autres lignes peuvent suivre à la condition de les indenter de manière cohérente.
     # En Python, les espaces en début de ligne sont signifiants
     
-print("Parcourir une suite de nombres")
+# Parcourir une suite de nombres
 for item in range(10):
     print(item)
 
-print("Parcourir une suite de nombres, en faisant des 'maths'")
+# Parcourir une suite de nombres, en faisant des 'maths'
 for i in range(10):
     print(i, i * 0.5)
 
-print("Boucles imbriquées")
+# Boucles imbriquées
 for x in range(1, 5):  # outer loop
     print("---")
     for y in range(x, x + 5):  # inner loop
         print(x, y, x * y)
-
-print("Trois boucles imbriquées")
-for x in range(2):
-    for y in range(2):
-        for z in range(2):
-            print(x, y, z)
-
-print("Trois boucles imbriquées avec un compteur")
-count = 1
-for x in range(2):
-    for y in range(2):
-        for z in range(2):
-            print(x, y, z, count)
-            count = count + 1
-            # alternativement à 'count = count + 1', on peut écrire :
-            # count += 1
 ```            
 
 ## Fonctions {#functions}
@@ -228,9 +170,6 @@ def myfunction():
 
 # Exécuter la fonction:
 myfunction()
-
-# Une erreur commune : oublier de l’exécuter
-myfunction   # les parenthèses manquent…
 
 # Déclarer une fonction qui demande un 'argument' (ou 'paramètre')
 def mysecondfunction(x, y):
@@ -252,87 +191,56 @@ print(thereturnedvalue)
 # 'result' était un nom local au sein de la fonction 'add2number', il n’est donc pas visible à l’extérieur.
 # La ligne suivante causerait une erreur :
 # print(result)
-
-def anotherfunc(x, y):
-    # calling add2numbers function:
-    return add2numbers(x, y)
-
-print(anotherfunc(1, 2))
 ```
-## Conditions
+## Comparaisons et conditions {#conditions}
 
 Parfois, un programme doit répondre à des valeurs ou à des situations particulières. Par exemple, « si une variable vaut 4, alors faire ceci. Si ce n’est pas le cas, continuer ». 
-
-
+### Comparaison
+Une comparaison entre deux valeurs renvoie toujours un « booléen » (True ou False).
 ```py
-# comparisons
-
-# let's define some variables
+# Comparaisons
 a = 12
 b = 20
-print(a, b)
 
-print("Est-ce que a et b sont égaux ?")
+# Est-ce que a et b sont égaux ?
 print(a == b)
-
-print("Est-ce que a et b sont différents ? ")
+# Est-ce que a et b sont différents ? 
 print(a != b)
-
-print("Est-ce que a est supérieur à b ?")
+# Est-ce que a est supérieur à b ?
 print(a > b)
-
-print("Est-ce que a est inférieur à b ?")
+# Est-ce que a est inférieur à b ?
 print(a < b)
-
-print("Est-ce que a est supérieur ou égal à b ?")
+# Est-ce que a est supérieur ou égal à b ?
 print(a >= b)
-
-print("Est-ce que a est inférieur ou égal à b ?")
+# Est-ce que a est inférieur ou égal à b ?
 print(a <= b)
-
+# Le résultat est une valeur 'booléenne' 
 result = a < b
-print("Le résultat est :")
 print(result)
+# affiche : 
+# True
+```
 
-print("Ce résultat est une valeur 'booléenne'")
-print("La valeur True :")
-print(True)
-print("La valeur False :")
-print(False)
-
+### Conditions
+Si, ou si et sinon (`if`, `elif`, `else`) permettent d’évaluer des conditions (sous la forme de booléens) pour prendre des décisions :
+```py
+# Conditions
 if a < b:
     print("a est inférieur à b")
 
-if a > b:
+# Si / sinon
+if a < b:
+    print("a est inférieur à b")
+else:
     print("a est supérieur à b")
 
-print("if/else")
-if a < b:
-    print("A")
-else:
-    print("B")
-
-print("if/elif/else")
+# Si, ou si, sinon 
 if a > b:
-    print("A")
+    print("a est inférieur à b")
 elif a == 12:
-    print("B")
+    print("a vaut douze")
 else:
-    print("C")
-
-print("if/elif/elif/.../else")
-if a > b:
-    print("A")
-elif a == 10:
-    print("B 10")
-elif a == 11:
-    print("B 11")
-elif a == 12:
-    print("B 12")
-elif a == 13:
-    print("B 13")
-else:
-    print("C")
+    print("a est supérieur à b et ne vaut pas douze")
 
 # Logique booléenne
 if a > 15 and b > 15:
@@ -345,33 +253,20 @@ if a > 15 or b > 15:
 else:
     print("Ni a ni b n’est supérieur à 15")
 
-print("Un résultat :")
 print(a > 15 or b > 15)
-
-# On peut inverser une valeur booléene
-print("Pas vrai")
-print(not True)
-print("Pas  False")
-print(not False)
-print("Pas pas False")
-print(not not False)
-print("Pas pas pas False :)")
-print(not not not False)
+# affiche :
+# True
 
 # On peut grouper les sous-expressions en utilisant des parenthèses:
 if (a > b and b == 13) or b == 25:
     print("...")
 if a > b and (b == 13 or b == 25):
     print("...")
-
-# On peut imbriquer les parenthèses:
-#if a > b and (b == 13 or (b == 25 and a == 12)):
-#   ...
 ```
 
 ## Aléatoire {#random}
 
-On peut faire plein de trucs avec les nombres aléatoires
+On peut faire plein de trucs chouettes avec les nombres aléatoires.
 
 ``` py
 from random import random, randint
