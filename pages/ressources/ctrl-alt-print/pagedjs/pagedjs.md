@@ -138,13 +138,52 @@ Voir [exemple 04](exemples/titrecourant.html).
 
 ## Aller plus loin {#more}
 
+
+<div class="scrollables" >
+
+
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.22.51.png" alt="*">
+    <figcaption><a href="exemples/interactive.html">interactif</a></figcaption>
+</figure>
+
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.19.07.png" alt="*">
+    <figcaption><a href="exemples/doublepage.html">Double-page d’image</a></figcaption>
+</figure>
+
+
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.20.14.png" alt="*">
+    <figcaption><a href="exemples/jsafter.html">JS après</a></figcaption>
+</figure>
+
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.19.25.png" alt="*">
+    <figcaption><a href="exemples/jsbefore.html">JS avant</a></figcaption>
+</figure>
+
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.18.23.png" alt="*">
+    <figcaption><a href="exemples/toc.html">Table des matières</a></figcaption>
+</figure>
+
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.18.41.png" alt="*">
+    <figcaption><a href="exemples/footnotes.html">Notes de bas de page</a></figcaption>
+</figure>
+<figure>
+    <img src="img/capture-d-ecran-2022-10-05-a-14.20.45.png" alt="*">
+    <figcaption><a href="exemples/imposition.html">impression en livret</a></figcaption>
+</figure>
+</div>
+
 Ces principes de base permettent de mettre en pages un contenu relativement rapidement. Mais de nombreuses possibilités graphiques peuvent encore être explorées, chacune demandant une approche spécifique. Ci-dessous viendront s’ajouter des liens vers des résolutions concrètes, des exemples plus complexes ou des problèmes courants.
 
 Pour comprendre, [téléchargez les examples](pagedjs-exemples.zip) et examinez leur code source.
 
 * Générer une [table des matières](exemples/toc.html)
 * Gérer des [notes de bas de page](exemples/footnotes.html)
-* Gérer des ~~[notes de marge](exemples/marginnotes.html)~~ ou ~~[de côté](exemples/sidenotes.html)~~
 * Double-page avec [une seule image](exemples/doublepage.html)
 * Exécuter du javascript [avant](exemples/jsbefore.html) ou [après](exemples/jsafter.html) l’action de Paged.js
 * Imposer le document pour une [impression directe en livret](exemples/imposition.html)

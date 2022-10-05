@@ -79,29 +79,37 @@ Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de
 
 ## Exemples pratiques
 
-Voir les exemples dans la [section des exemples](/web/pages/exemples/#htmltoprint) du site des ateliers Web, ou dans la page dédiée à [Paged.js](pagedjs/#more).
+Voir les exemples dans la [section dédiée](/web/pages/exemples/#htmltoprint) du site des ateliers Web, ou dans la page consacrée à [Paged.js](pagedjs/#more).
 
 
-## Pourquoi ?
+## Pourquoi ?
+
+Pourquoi s’engager dans les processus web to print / les approches alternatives de production d’objets imprimés 
 
 > « Les technologies du web offrent un environnement de publication ouvert et décentralisé. Les documents web sont ainsi éditables en différents endroits et temporalités par une variété de personnes et d'outils, rompant avec la logique linéaire de l'ère Gutenberg. ¶ Dans cet espace, la notion de flux est centrale: le flux des données, allant de la conversion de documents "bruts" vers la production de multiples formats; le flux des formes produites, conditionné par la struture du HTML et la logique de «cascade» des feuilles de style; ou encore le flux des personnes et les nouveaux moyens de collaboration qui leurs sont offerts par le net. ¶ Si cet espace offre de nouvelles possibilités, cela ne va pas sans poser de questions. Comment penser un design alors sans le subordonner au contenu? Comment publier sur différents formats sans nier la spécificité des différents supports? Comment tester et combiner différentes pistes de mise en page? Comment se partager les taches tout en permettant à tous d'avoir une vue d'ensemble sur l'objet produit ? »  — [OLA](http://ola4.outilslibresalternatifs.org/#00-ola)
 
-### Adobe
+### Dominer ses outils, ne pas être dominé⋅e par eux
+
+Les outils de la création graphique sont aujourd’hui concentrés dans les mains de grandes firmes (notamment Adobe et Apple) dont les décisions sont liées à leur mode d’existance _en tant que_ grandes firmes (capitalistes). Leur mode de facturation (la location de l'outil de travail), leur pratique éhontée de l’obsolescence programmée et du contrôle de leurs utilisateurs, l’absence d’interopérabilité de leurs outils en font des écosystèmes fermés, des prisons dorées, dans lesquelles les designers graphiques sont souvent contraint⋅es d’évoluer, et dont ils et elles deviennent dépendants.
 
 Si des alternatives libres ([Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.fr/), [Scribus](https://www.scribus.net/)) ou commerciales ([Affinity](https://affinity.serif.com/)) existent ou émergent, Adobe a établi une puissante hégémonie sur l’écosystème logiciel de la création graphique. Ce qui n’est pas sans poser quelques problèmes:
 
-*   formatage de l'expérience esthétique
-*   location de l'outil de travail
-*   dépendance au logiciel
 *   création et pratiques conditionnées
 *   Surconception
 *   Non adapté aux médias interactifs
 
-☞ En 2020, les dépenses marketing de la firme s’élèvent à 3 591 millions de dollars.
+☞ En 2020, les dépenses marketing de la firme s’élèvent à 3,591 milliards de dollars. En 2022, Adobe rachète Figma pour 20 milliards de dollars.
 
-### 4 libertés du logiciel libre (Richard Stallman)
+### Embrasser la fluidité
 
-*   liberté d’utiliser le logiciel, pour quelque usage que ce soit — liberté 0
-*   liberté d’étudier le fonctionnement du programme, et de l’adapter à vos propres besoins — liberté 1
-*   liberté de redistribuer des copies à tout le monde — liberté 2
-*   liberté d’améliorer le programme et de publier vos améliorations — liberté 3
+Les contenus d’un ouvrage imprimé doivent être définis et figés en amont de l’intervention d’un⋅e designer. Une fois cette intervention débutée, le travail de mise en œuvre de la mise en pages ne peut que difficilement être partagé par plusieurs acteur⋅ices. Internet et le web sont des espaces conçus pour l’échange dînformations, il sont donc beaucoup naturellement en adéquation avec les logiques collaboratives. 
+
+Certains outils numériques (git, etherpad) ont fondé leur approche sur cette capacité des espaces numériques au temps réel, à l’échange et au partage. Le contenu peut alors être conçu et développé _en même temps_ que la mise en page, la réalisation d’illustrations photographiques ou dessinées.
+
+Les perspectives du _single source publishing_ permettent également à un même contenu de se déployer sur différents médias : web, print, e-pub, PDF.
+
+### Explorer de nouvelles formes
+
+L’homogénéité des outils dominants de la chaîne graphique produit un formatage de l'expérience esthétique. Le conditionnement dans lesquels ces outils nous enferment semble difficilement perceptible tellement leur complexité fonctionnelle est étendue, mais de très nombreuses décisions sont prises avant que le premier geste graphique ait été esquissé.
+
+La logique profondément _responsive_ du web, les capacités de CSS à se décliner selon les médias, les possibilités du code informatique dans le traitement de données (en [JavaScript](../js), mais aussi en [Python](../python/), en [PHP](../php/), ou via des librairies comme [p5.js](../canvas/) ou [paper.js](../canvas/)) démultiplient les possibilités dans lesquelles les outils habituels nous maintiennent.
