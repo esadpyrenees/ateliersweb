@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'WonderType';
+  src: url('WonderType-Regular.woff2') format('woff2'),
+      url('WonderType-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url('GimletSansVariable[ital,opsz,wght].woff2') format("woff2"),
+       url('GimletSansVariable[ital,opsz,wght].woff') format("woff");
+  font-family: 'Gimlet Sans Variable Web';
+  font-weight: 300 900;
+  }
+
+body {
+  font-family: "Gimlet Sans Variable Web", sans-serif;
+  font-weight: 500;
+  color: white;
+  margin: 4vw;
+  background: black;
+}
+a { color: tomato;}
+
+[data-gif] {
+  /* color: tomato; */
+  cursor: context-menu;
+  position: relative;
+  font-family: 'WonderType';
+}
+[data-gif]:hover { color: tomato;}
+[data-gif=""] {
+  color: inherit;
+  cursor: default;
+}
+.gif {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* mix-blend-mode: multiply; */
+}
+.gif:hover {z-index: 1;}
+.loading {
+  animation: loading 150ms ease-out 0ms infinite alternate;
+}
+@keyframes loading {
+  0% { color: tomato;}
+  100% { color: blue}
+}
+p {max-width: 40em;}
+main p {
+  margin: 0; 
+  font-size: 4vw;
+  line-height: 1.1;
+}
+main p + p {
+  text-indent: 2em;
+}
