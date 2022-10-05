@@ -94,10 +94,6 @@ Les outils de la création graphique sont aujourd’hui concentrés dans les mai
 
 Si des alternatives libres ([Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.fr/), [Scribus](https://www.scribus.net/)) ou commerciales ([Affinity](https://affinity.serif.com/)) existent ou émergent, Adobe a établi une puissante hégémonie sur l’écosystème logiciel de la création graphique. Ce qui n’est pas sans poser quelques problèmes:
 
-*   création et pratiques conditionnées
-*   Surconception
-*   Non adapté aux médias interactifs
-
 ☞ En 2020, les dépenses marketing de la firme s’élèvent à 3,591 milliards de dollars. En 2022, Adobe rachète Figma pour 20 milliards de dollars.
 
 ### Embrasser la fluidité
