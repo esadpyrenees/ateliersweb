@@ -1,6 +1,7 @@
 <?php
     // config
-    $title = "Ressources Typographie Caractères";
+    $title = "Ressources → Typographie → Caractères spéciaux";
+    $description="Une page pour rappeler quelques caractères typographiques utiles (espaces, ponctuation) et aider à leur saisie.";
     $section="ressources";
     $subsection="typo";
     $subsubsection="chars";
