@@ -1,11 +1,14 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Ressources Typographie Caractères";
     $section="ressources";
     $subsection="typo";
+    $subsubsection="chars";
     $nav = "/web/snippets/ressources/type.php";
     $subsubsection="caracteres";
     $mdfile = "./caracteres.md";
+    $custom_css="spaces.css";
+    $custom_js="copy.js";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

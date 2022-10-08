@@ -1,0 +1,43 @@
+
+/* ========================= Button ========================= */
+button{
+    background: #eee;
+    display: inline-block;
+    box-shadow: none;
+    border-radius: .5rem;
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: currentColor;
+    -webkit-appearance: button;
+    font-family: inherit;
+    margin: .25em 0;
+    border: none;
+    padding: .35em .5em .3em;
+}
+@keyframes copied {
+    0% {background: tomato;}
+    20%{background: limegreen;}
+    100%{background: limegreen;}
+}
+button:hover {
+    background: tomato;
+}
+
+button.copied{
+    animation: copied 1000ms ease-out 0ms 1;
+}
+button strong {background: tomato;}
+
+.utils {
+    display: flex;
+    flex-wrap: wrap;
+    gap:.5rem;;
+}
+.utils button {
+    font-size: 2em;
+    display: block;
+    margin: 0;
+}

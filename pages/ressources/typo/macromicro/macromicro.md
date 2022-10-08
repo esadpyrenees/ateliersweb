@@ -178,9 +178,10 @@ p {
 
 # Microtypographie
 
+
 ##### Mise à jour en cours {.blink}
 
-[Espaces unicode et navigateurs web](https://fvsch.com/espaces-unicode/)
+[Espaces unicode et navigateurs web](https://fvsch.com/espaces-unicode/) mais aussi [](https://kirillbelyaev.com/s/)
 
 Le [Petit guide typographique à l’usage de l’internet](http://www.uzine.net/article1802.html) d’Uzine.net
 
