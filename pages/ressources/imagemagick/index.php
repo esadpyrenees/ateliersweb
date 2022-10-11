@@ -1,7 +1,7 @@
 <?php
     // config
-    $title = "Ressources → Image Magick";
-    $description = "";
+    $title = "Ressources → ImageMagick";
+    $description = "ImageMagick est un outil libre, en ligne de commande, dédiés à la manipulation des images.";
     $section="ressources";
     $subsection="imagemagick";
     $mdfile = "./imagemagick.md";

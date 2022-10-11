@@ -1,6 +1,6 @@
 # Image Magick
 
-ImageMagick est une ensemble d’outils (libres et open-sources) en ligne de commande dédiés à la manipulation des images. 
+ImageMagick est un ensemble d’outils (libres et open-sources) en ligne de commande dédiés à la manipulation des images. 
 
 Imagemagick fournit un certain nombre d’outils, notamment :
 
