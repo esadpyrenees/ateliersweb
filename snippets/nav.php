@@ -28,6 +28,7 @@
         <li class="<?php echo $subsection == 'canvas' ? 'opened' : '' ?>"><a href="/web/pages/ressources/canvas/">Canvas</a></li>
         <li class="<?php echo $subsection == 'ctrlaltprint' ? 'opened' : '' ?>"><a href="/web/pages/ressources/ctrl-alt-print/">CTRL Alt print</a></li>
         <li class="<?php echo $subsection == 'kirby' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Kirby</a></li>
+        <li class="<?php echo $subsection == 'imagemagick' ? 'opened' : '' ?>"><a href="/web/pages/ressources/imagemagick/">ImageMagick</a></li>
     </ul>
 </nav>
 
@@ -88,6 +89,7 @@
     <li class="<?= $subsection == 'libre' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
     <li class="<?= $subsection == 'folklore' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/folklore/">Folklore</a></li>
     <li class="<?= $subsection == 'web3' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/web3/">Web3 ?</a></li>
+    <li class="<?= $subsection == 'aiaiaie' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/aiaiaie/">AI AI Aïe</a></li>
   </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
