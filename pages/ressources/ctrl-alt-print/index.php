@@ -29,7 +29,7 @@
 
 </style>
     
-    <main class="pane active" id="content">
+    <main class="pane active typeset" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>

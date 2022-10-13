@@ -88,6 +88,13 @@ Pourquoi s’engager dans les processus web to print / les approches alternative
 
 > « Les technologies du web offrent un environnement de publication ouvert et décentralisé. Les documents web sont ainsi éditables en différents endroits et temporalités par une variété de personnes et d'outils, rompant avec la logique linéaire de l'ère Gutenberg. ¶ Dans cet espace, la notion de flux est centrale: le flux des données, allant de la conversion de documents "bruts" vers la production de multiples formats; le flux des formes produites, conditionné par la struture du HTML et la logique de «cascade» des feuilles de style; ou encore le flux des personnes et les nouveaux moyens de collaboration qui leurs sont offerts par le net. ¶ Si cet espace offre de nouvelles possibilités, cela ne va pas sans poser de questions. Comment penser un design alors sans le subordonner au contenu? Comment publier sur différents formats sans nier la spécificité des différents supports? Comment tester et combiner différentes pistes de mise en page? Comment se partager les taches tout en permettant à tous d'avoir une vue d'ensemble sur l'objet produit ? »  — [OLA](http://ola4.outilslibresalternatifs.org/#00-ola)
 
+### Parce que c’est amusant
+Les pratiques du _web to print_ ont pour essence celles du _hacking_, entendu comme un ensemble de pratiques comprenant : « le partage des connaissances, le refus de l’autorité et la promotion de la décentralisation, le perfectionnisme, la primauté de la pratique (_hands-on imperative_), et le jeu, l’amusement comme première et principale motivation. »[^hacking],
+
+[^hacking]:  Lire « l’éthique des hackers », Steven Levy, _in_ Hackers: Heroes of the Computer Revolution.
+
+Le jeu et l’amusement, la satisfaction que procure le détournement d’un outil ou d’une technique, la joie procurée par les chemins buissonniers, la liberté reconquise sur les injonctions,  l’_encapacitation_ que procure l’expérience de l’autonomie… toutes ces dimensions sont au cœur des approches proposées par les logiques alternatives de production d’objets imprimés.
+
 ### Dominer ses outils, ne pas être dominé⋅e par eux
 
 Les outils de la création graphique sont aujourd’hui concentrés dans les mains de grandes firmes (notamment Adobe et Apple) dont les décisions sont liées à leur mode d’existance _en tant que_ grandes firmes (capitalistes). Leur mode de facturation (la location de l'outil de travail), leur pratique éhontée de l’obsolescence programmée et du contrôle de leurs utilisateurs, l’absence d’interopérabilité de leurs outils en font des écosystèmes fermés, des prisons dorées, dans lesquelles les designers graphiques sont souvent contraint⋅es d’évoluer, et dont ils et elles deviennent dépendants.
@@ -109,3 +116,6 @@ Les perspectives du _single source publishing_ permettent également à un même
 L’homogénéité des outils dominants de la chaîne graphique produit un formatage de l'expérience esthétique. Le conditionnement dans lesquels ces outils nous enferment semble difficilement perceptible tellement leur complexité fonctionnelle est étendue, mais de très nombreuses décisions sont prises avant que le premier geste graphique ait été esquissé.
 
 La logique profondément _responsive_ du web, les capacités de CSS à se décliner selon les médias, les possibilités du code informatique dans le traitement de données (en [JavaScript](../js), mais aussi en [Python](../python/), en [PHP](../php/), ou via des librairies comme [p5.js](../canvas/) ou [paper.js](../canvas/)) démultiplient les possibilités dans lesquelles les outils habituels nous maintiennent.
+
+> <big>« Quel que soit le code hacké, quelle que soit sa forme, langage programmatique ou poétique, mathématique ou musical, nous créons la possibilité de mettre au monde des formes nouvelles. Pas toujours de grandes choses, pas même de bonnes choses, mais de nouvelles choses. »</big>    
+— McKenzie Wark, A Hacker Manifesto
