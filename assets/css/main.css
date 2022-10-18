@@ -182,11 +182,9 @@ nav li {
 
 main h1 { font-size: 1.4rem; margin-top: 1em; padding-top: 2rem;}
 main > h1:first-of-type { margin-top: 0; padding-top: 0; }
-main h2 { font-size: 1.2rem}
-main h3 { font-size: 1.2rem; border-left: 10px solid black; padding-left: 1em; margin:2em 0 .5em }
-main h4 { font-size: 1rem; margin:2em 0 .5em }
 
 main h2 {
+    line-height: 1.2; 
     display: block;
     margin-top: 2em;
     font-size: 2em;
@@ -195,6 +193,9 @@ main h2 {
 }
 main h2 + p { margin: 0em 0 .5em }
 main h1 + h2 { margin-top: 1em; }
+
+main h3 { line-height: 1.2; font-size: 1.2rem; border-left: 10px solid black; padding-left: 1em; margin:2em 0 .5em }
+main h4 { font-size: 1rem; margin:2em 0 .5em }
 
 main h3 + p,
 main h4 + p { margin-top: 0}
