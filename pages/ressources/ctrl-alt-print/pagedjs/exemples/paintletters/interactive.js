@@ -41,7 +41,7 @@ function doP5(pages){
         if(settings.mode == "draw"){ 
 
           // select blasted spans
-          let blasts = pb.querySelectorAll('[class^=blast]');
+          let blasts = pb.querySelectorAll('.blast-char');
           // select page area 
           const parentarea = pb.querySelector(".pagedjs_area");
           // compute offset between canvas and page area
@@ -90,7 +90,9 @@ function doSplit(pages){
   pages.forEach(page => {
     let textnodes = [];
 
-    $(".pagedjs_page_content").blast({ delimiter: 'character'} );
+    $(".pagedjs_page_content").blast({ delimiter: 'word', customClass: "blast-word"} );
+
+    $(".blast-word").blast({ delimiter: 'character', customClass: "blast-char"} );
     
   });
 }

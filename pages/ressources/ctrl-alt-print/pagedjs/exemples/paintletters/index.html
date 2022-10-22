@@ -3,6 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <title>CTRL Alt print</title>
+
+    <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web – Paint letters'>
+    <meta property='twitter:title' content='ÉSAD Pyrénées – Ateliers web – Paint letters'>
+    <meta property='og:description' content='Un hook paged.js pour peindre et déformer chaque lettre d’un livre'>
+    <meta property='og:url' content='https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/paintletters/index.html'>
+    <meta property='og:type' content='website'>
+    <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>
+    <meta property='og:locale' content='fr'>
+    <meta property='og:image' content='https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/paintletters/ogp.png' >
+    <meta property='twitter:image' content='https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/paintletters/ogp.png' >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ateliers_web">
+    <meta name="twitter:creator" content="@julienbidoret">
+
+    <meta name="author" content="Julien Bidoret">
+
     <link rel="stylesheet" type="text/css" href="pagedjs-interface.css" />
     <link rel="stylesheet" type="text/css" href="typography.css" />
     <link rel="stylesheet" type="text/css" href="interface.css" />
@@ -37,7 +53,6 @@
         -ms-user-select: none;      
         user-select: none;
         color: black;
-        /* mix-blend-mode: difference; */
       }
       .p5Canvas {
         position: absolute;
@@ -47,7 +62,6 @@
         object-fit: cover;
         top: 0;
         left: 0;
-        /* opacity: 0; */
         height: calc(var(--pagedjs-pagebox-height) + var(--pagedjs-bleed-top) + var(--pagedjs-bleed-bottom)); 
         width: calc(var(--pagedjs-pagebox-width) + var(--sidebleed));
       }
@@ -58,8 +72,11 @@
         --sidebleed: calc(var(--pagedjs-bleed-right) + var(--pagedjs-bleed-left));
       }
       
-      span {
-        /* display: inline-block; */
+      .blast-char {
+        display: inline-block;
+      }
+      .blast-word {
+        white-space: nowrap;
       }
       
 
@@ -86,7 +103,6 @@
   </head>
   <body>
 
-    <!-- <input type="color" name="color" id="color"> -->
     
     <header class="couverture">
       <h1>CTRL Alt print — PPP Demo</h1>
@@ -146,7 +162,8 @@
         Voluptatum, nisi. Dignissimos, omnis dolor. Doloremque at corporis incidunt facere.
         Culpa ipsum quaerat recusandae ad! Nihil cum tenetur odio porro!
         Doloribus odit labore repudiandae. Fugiat vero natus aliquam distinctio explicabo.
-        Est deleniti ad ullam ab nihil vero perferendis ea sit.</p><p>Lorem ipsum dolor sit amet consectetur <b>adipisicing</b> elit. Culpa, optio.
+        Est deleniti ad ullam ab nihil vero perferendis ea sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur <b>adipisicing</b> elit. Culpa, optio.
         Nemo et quam dignissimos aut voluptas similique, voluptatem neque alias?
         Deleniti provident nihil nemo ipsam iusto officia, quaerat corporis perspiciatis.
         Asperiores est sequi consequatur doloribus. Nemo, numquam? Aut, quas similique.
@@ -188,14 +205,19 @@
         Est deleniti ad ullam ab nihil vero perferendis ea sit.</p>
     </div>
     
+    <!-- Zepto and Blast to spilt text in words anc chars -->
     <script src="zepto.min.js"></script>    
     <script src="blast.js"></script>
+    <!-- paged.js -->
     <script src="paged.polyfill.js"></script>
+    <!-- P5 to draw canvas -->
     <script src="p5.min.js"></script>
+    <!-- interface for tools -->
     <script src="interface.js"></script>
+    <!-- interactive : p5 and blast instanciation  (doSplit and doP5)-->
     <script src="interactive.js"></script>
-    <script>
-      
+    <!-- GO ! -->
+    <script>      
       class MyHandler extends Paged.Handler {
         constructor(chunker, polisher, caller) {
           super(chunker, polisher, caller);
