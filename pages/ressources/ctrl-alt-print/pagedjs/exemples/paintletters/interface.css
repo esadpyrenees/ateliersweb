@@ -1,0 +1,26 @@
+
+/* INTERFACE ------------------------------------------------------------------- */
+
+/* paged js interface and screen view css */
+@import "interface/interface.css";
+
+/* uncomment to see the baseline : */
+/* @import "interface/baseline.css"; */
+
+@import "interface/tools.css";
+
+.modal {
+  background: white;
+  display: flex;
+  position: fixed;
+  top:0; right:0; bottom:0; left:0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+}
+.modal p {
+  max-width: 25ch;
+  text-align: center;
+  margin-bottom: 1em;
+}

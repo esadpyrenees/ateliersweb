@@ -190,6 +190,7 @@ Pour comprendre, [téléchargez les examples](pagedjs-exemples.zip) et examinez 
 * Éxécuter Paged.js [à la demande](exemples/ondemand.html)
 * [Recharger le document à la même page](exemples/reloadinplace.html) en cas de modification css/html
 * Rendre interactive [chaque page](exemples/interactive.html) d’un livre
+* [Peindre les lettres](exemples/paintletters/index.html) d’un livre
 
 
 On peut aussi parcourir les exemples de Julien Taquet sur [gitlab.pagedmedia.org](https://gitlab.pagedmedia.org/julientaq/book-of-cook/) ou sur [codepen.io/julientaq](https://codepen.io/julientaq/), les [experiments](https://gitlab.pagedmedia.org/tools/experiments) sur le gitlab de PagedMedia, ou les [démos](https://gitlab.com/prepostprint/demos) de Raphaël Bastide / PrePostPrint.

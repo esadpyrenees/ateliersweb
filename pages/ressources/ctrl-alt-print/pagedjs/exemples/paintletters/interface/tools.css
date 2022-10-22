@@ -1,0 +1,100 @@
+
+.tools {
+  position: fixed;
+  top: 0;
+  left: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  z-index: 10;
+  z-index: 3000;
+}
+.tools > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.tools button, .tools [class*="-container"] {
+  --icon-size:40px;
+  font-family: 'Karrik';
+  text-transform: uppercase;
+  box-sizing: content-box;
+  border:2.5px solid;
+  height: var(--icon-size);
+  padding:0 1em 0 calc(var(--icon-size) - 5px);
+  display: flex;
+  align-items: center;
+  background-color:  white ;
+  background-image:url(icons.svg);
+  background-repeat:  no-repeat;
+  background-size: var(--icon-size) auto;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  border-radius: 2em;
+}
+.tools [class$="-container"] {
+  padding-left: calc(var(--icon-size));
+}
+.tools button span {
+  max-width: 0;
+  box-sizing: border-box;
+  transition: all 250ms;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.tools button:hover span {
+  padding-left: .75em;
+  max-width: 100%;
+}
+.tools .inline-tools {
+  display: flex;
+  gap: 10px;
+}
+.tools .input-with-label {
+  background: white;
+  padding-left: 1em;
+}
+.tools .input-with-label label {
+  background: none;
+  padding-right: 1em;
+}
+
+.hidden {
+  display: none !important;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,.8);
+  z-index: 30;
+  position: fixed;
+}
+.tools .help {
+  text-transform: none;
+  padding-left: 1em;
+}
+.button-text{background-position: 5px 0;}
+.button-snap{background-position: 5px calc(var(--icon-size) * -1);}
+.button-capture{background-position: 5px calc(var(--icon-size) * -2);}
+.button-print{background-position: 5px calc(var(--icon-size) * -3);}
+.button-apply,
+.button-apply-md,
+.button-apply-css{background-position: 5px calc(var(--icon-size) * -4);}
+.button-cancel,
+.button-cancel-md,
+.button-cancel-css{background-position: 5px calc(var(--icon-size) * -5);}
+.button-css{background-position: 5px calc(var(--icon-size) * -6);}
+.button-imposition{background-position: 5px calc(var(--icon-size) * -7);}
+.button-delete {background-position: 5px calc(var(--icon-size) * -8);}
+.input-contrast-container {background-position: 5px calc(var(--icon-size) * -9);}
+.input-brightness-container {background-position: 5px calc(var(--icon-size) * -10);}
+
+.input-size-container {background-position: 5px calc(var(--icon-size) * -11);}
+.button-settings{background-position: 5px calc(var(--icon-size) * -12);}
+
