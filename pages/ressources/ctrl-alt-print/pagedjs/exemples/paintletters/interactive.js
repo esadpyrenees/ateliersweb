@@ -67,6 +67,7 @@ function doP5(pages){
                 let rotation = settings.disturbance * Math.random() - settings.disturbance/2;
                 let scale = Math.random() * settings.disturbance / 50 + 1;
                 b.style.transform = `rotate(${rotation}deg) scale(${scale})`;
+                b.style.display = "inline-block";
               }
               
             } 
