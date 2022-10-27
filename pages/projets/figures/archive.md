@@ -2,6 +2,30 @@ nudité sur facebook
 
 
 
+## 2021 - 2022
+Ada Lovelace
+Norbert Wiener
+Grace Hopper
+Vera Molnár
+Muriel Cooper
+Douglas Engelbart
+Ted Nelson
+Stewart Brand
+Donna Haraway
+John Perry Barlow
+Richard Stallman
+Susan Kare
+Tim Berners-Lee
+Brewster Kahle
+Lev Manovich
+Lawrence Lessig
+Kenneth Goldsmith
+Julian Assange
+James Bridle
+Edward Snowden
+Aaron Swartz, 
+
+
 
 
 Matthew Carter
