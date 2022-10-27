@@ -1,4 +1,4 @@
-# Mise en ligne
+# Mise en ligne {#ftp}
 
 Il existe aujourd’hui de nombreuses manières de mettre en ligne un site web, afin qu’il soit accessible au plus grand nombre (et notamment à vos enseignants).
 
@@ -8,7 +8,7 @@ La plus ancienne et robuste est d’utiliser un logiciel FTP (*File Transfer Pro
 
 Le protocole FTP permet de transférer des fichiers situés sur votre disque dur vers un serveur web, afin qu’ils deviennent accessibles à l’ensemble des internautes qui en connaissent l’adresse (URL).
 
-## Pré-requis
+## Pré-requis {#pre-requis}
 
 ### Un hébergeur
 
@@ -46,7 +46,7 @@ Sur l’offre gratuite d’Alwaysdata, le domaine est *alwaysdata.net* et le sou
 </details>
 
 
-## Démarrer
+## Démarrer {#demarrer}
 
 Un site web est composé de nombreux fichiers : contenu textuel, code, feuilles de styles, contenus média, etc. organisés en dossiers et sous-dossiers. Relire [HTML/Bien démarrer](../html/start/)
 
@@ -74,7 +74,7 @@ Pour déposer des fichiers sur votre espace dans le serveur d’Alwaysdata, il v
 
 ## Clients FTP
 
-### Cyberduck
+### Cyberduck {#cyberduck}
 
 Cyberduck est un client FTP libre et gratuit qui vous permet de vous connecter à votre serveur pour y déposer et manipuler des fichiers.
 Il est téléchargeable ici : https://cyberduck.io
@@ -98,7 +98,7 @@ Si vous avez saisi les bonnes informations de connexion, la fenêtre de Cyberduc
 ![Cyberduck](images/cy-4.png)
 
 
-### Filezilla
+### Filezilla {#filezilla}
 
 Filezilla est un logiciel *open source* plus ancien que Cyberduck et doté d’une interface un peu plus complexe.
 
@@ -119,7 +119,7 @@ Contrairement à Cyberduck qui nécessite l’utilisation du Finder ou de l’ex
 
 
 
-## Mise en ligne
+## Mise en ligne {#structure}
 
 Par défaut, l’utilisateur FTP d’Alwaysdata a accès à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). 
 
@@ -210,7 +210,7 @@ La structure de votre FTP deviendra donc :
 Une fois que les fichiers ont été transférés via le protocole FTP, on peut y accéder dans un navigateur web en HTTP en saisissant l’URL :    
 http://votre-compte.alwaysdata.net.
 
-## Erreurs fréquentes
+## Erreurs fréquentes {#faq}
 
 #### Ouverture de session échouée. 530 Login or password incorrect. 
 Vous vous êtes trompé·e dans une des informations de connexion (nom de serveur hôte FTP, nom d’utilisateur ou mot de passe). Vous pouvez les vérifier dans [l’interface d’administration](https://admin.alwaysdata.com/ftp/) de votre compte sur Alwaysdata, et éventuellement réinitialiser le mot de passe.

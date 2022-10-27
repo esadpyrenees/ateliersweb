@@ -3,9 +3,9 @@
     $title = "Ressources → FTP";
     $section="ressources";
     $subsection="ftp";
-    $subsubsection="ftp";
+    $subsubsection="alternatives";
     $nav = "/web/snippets/ressources/ftp.php";
-    $mdfile = "./ftp.md";
+    $mdfile = "./alternatives.md";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
