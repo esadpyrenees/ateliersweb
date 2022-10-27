@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CTRL Alt print</title>
+
+    <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web – Paint letters'>
+    <meta property='twitter:title' content='ÉSAD Pyrénées – Ateliers web – Paint letters'>
+    <meta property='og:description' content='Un hook paged.js pour peindre et déformer chaque lettre d’un livre'>
+    <meta property='og:url' content='https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/paintletters/index.html'>
+    <meta property='og:type' content='website'>
+    <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>
+    <meta property='og:locale' content='fr'>
+    <meta property='og:image' content='https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/paintletters/ogp.png?v2' >
+    <meta property='twitter:image' content='https://ateliers.esad-pyrenees.fr/web/pages/ressources/ctrl-alt-print/pagedjs/exemples/paintletters/ogp.png?v2' >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ateliers_web">
+    <meta name="twitter:creator" content="@julienbidoret">
+
+    <meta name="author" content="Julien Bidoret">
+
+    <link rel="stylesheet" type="text/css" href="pagedjs-interface.css" />
+    <link rel="stylesheet" type="text/css" href="typography.css" />
+    <link rel="stylesheet" type="text/css" href="interface.css" />
+    <style>
+      @font-face {
+        font-family: "Authentic Sans";
+        src: url("AUTHENTICSans-150.woff2") format("woff2");
+        font-weight: bold;
+      }
+
+      @font-face {
+        font-family: "Authentic Sans";
+        src: url("AUTHENTICSans-Condensed-90.woff2") format("woff2");
+        font-weight: normal;
+      }
+
+      *, *::after, *::before { box-sizing: border-box; }
+      
+      body {
+        font-family: "Authentic Sans";
+        line-height: 1.5;
+      }
+      h1, h2, h3 { font-size: 1em; }
+      a { color: currentColor;}
+
+    </style>
+    <style media="print">
+      @page {
+        size: 297mm 420mm;
+        margin: 10mm ;  
+      }
+
+      .text{
+        -webkit-user-select: none;  
+        -moz-user-select: none;    
+        -ms-user-select: none;      
+        user-select: none;
+        color: black;
+      }
+      .p5Canvas {
+        position: absolute;
+        page-break-after: page;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        height: calc(var(--pagedjs-pagebox-height) + var(--pagedjs-bleed-top) + var(--pagedjs-bleed-bottom)); 
+        width: calc(var(--pagedjs-pagebox-width) + var(--sidebleed));
+      }
+
+      header, section {
+        columns: 4;
+        column-gap: 4mm;
+        font-size: 10.25pt;
+      }
+      .para { margin: 0;}
+      .para::before { content: ""; display: inline-block; width: 2em;}
+      .para:first-child::before {display: none;}
+      .parapad {
+        padding-left: 2em;
+      }
+      .parapad::before {display: none;}
+      h3 {
+        font-size: 1em; font-weight: normal; margin: 0;       
+        break-after: avoid;
+      }
+      h3:first-child { margin-top: 0;}
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        margin-top: 1.5em;
+      }
+      h1 {
+        text-transform: uppercase;
+        text-align-last: justify;
+        position: relative;
+        margin-bottom: 1.5em;
+      }
+      h1 span, h2 span {
+        padding: 0 .5em;
+        background: white;
+        position: relative;
+      }
+      h1 span:first-child {padding-left: 0;}
+      h1 span:last-child {padding-right: 0;}
+      h1:before, h2:before {
+        border: 1px solid;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: .5em;
+      }
+      section  + section {
+        margin-top: 1em;
+      }
+
+    </style>
+    <style data-pagedjs-inserted-styles="true">
+      .overlay,
+      .tools { position: fixed; }
+      @media print {
+        #cursor,
+        .tools { display: none !important;}
+      }
+
+      #cursor {
+        width: calc((var(--size, 60) * 1px) / 2);
+        height: calc((var(--size, 60) * 1px) / 2);
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        position: fixed;
+        z-index: 200;
+        border-radius: 50%;
+        border: 3px solid var(--color, red);
+      }
+      .pagedjs_first_page,
+      .pagedjs_right_page {
+        margin: 0 auto !important;
+        left: 0 !important;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    
+    <div class="text">
+      <h1 id="varias-code-of-conduct"><span>Varia’s</span> <span>Code</span> <span>of</span> <span>Conduct</span></h1>
+
+      <h2 id="about-this-document"><span>About &nbsp;&nbsp; this &nbsp;&nbsp; document</span></h2>
+      <section>
+        <p class="para">The code of conduct is a set of guidelines that help establish shared values and ensure that behaviour that may harm participants is avoided.</p>
+        <p class="para">This document equally applies to Varia's members, visitors and contributors, including organizers of events in the space. The document also applies to users and contributors to Varia's on-line channels. When the word "we" is used in this document, it applies to all of the above.</p>
+        <p class="para">We acknowledge that we come from different backgrounds and all have certain biases and privileges. Therefore, this Code of Conduct cannot account for all the ways that people might feel excluded, unsafe or uncomfortable. We commit to open dialogues, and as such this Code of Conduct is never finished and should change whenever needed. We amend this document over time so it reflects the priorities and sensitivities of Varia as it changes. It is a collective responsibility for all of us to enact the behaviour described in this document, and bring it to the physical and digital space of Varia. </p>        
+      </section>
+      <h2 id="why-a-code-of-conduct"><span>Why &nbsp;&nbsp; a &nbsp;&nbsp; Code &nbsp;&nbsp; of &nbsp;&nbsp; Conduct?</span></h2>
+      <section>      
+        <p class="para">Varia is a complex collective-space. We are a multi-lingual, multi-cultural, multi-disciplinary group. At Varia we mostly speak English and Dutch. We recognize that most members and visitors are not native speakers of these languages. We also recognize that there are multiple ways of speaking and interacting (words, gestures, acts, etc.), depending on cultural backgrounds, educations and practices. As such, we recognize that situations might arise where misunderstandings or conflicts happen. We strive to overcome these misunderstandings through a commitment to open dialogue: we prefer to assume good faith, and ask members, participants or visitors to express their concerns directly to each other when possible. When this is not an option, this Code of Coduct can be consulted for further actions.</p>
+        <p class="para">Varia is a learning environment. It accommodates a whole range of practices. Working together means bridging gaps: between different practices, levels of technical expertise, personal preferences and political or ethical orientations. We strive to create an environment for participants with different ranges of experience, while allowing complex topics to be discussed.</p>
+        <p class="para">We want Varia to be a space where all members can develop their practices in a collective setting and people feel safe and comfortable to participate, to express themselves, to learn and to work together. The vulnerable nature of collective work means that uncomfortable situations will occur. These situations ask for mutual respect and care. We hope that everyone participating in Varia is respectful, feels able to be vulnerable and exercises care. In the interest of making an inclusive environment, we will not tolerate harassment, exclusion or any other harmful behaviour.</p>
+      </section>
+      <h2 id="expected-behaviour"><span>Expected &nbsp;&nbsp; behaviour</span></h2>
+      <section>
+        <p class="para">We expect each other to ...</p>
+        <div class="rule">
+          <h3>be considerate</h3>
+          <p class="para parapad">of each other, the space we enter, the people at Varia and the practices it houses.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>be open and generous</h3>
+          <p class="para parapad">while trying not to make assumptions about others. This can include assumptions about identity, knowledge, experiences or preferred pronouns. Be generous with our time and our abilities, when we are able to. Help others, but ask first. There are many ways to contribute to a collective practice, which may differ from our individual ways.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>be respectful</h3>
+          <p class="para parapad">of different viewpoints and experiences. Respect physical and emotional boundaries. Be respectful of each others' limited time and energy. Take each other and each other's practices seriously. Acknowledge that this might lead to disagreement. However, disagreement is no excuse for poor manners.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>be responsible</h3>
+          <p class="para parapad">for the promises we make, meaning that we follow up on our commitments. We take responsibility for the good things we do, but also for the bad ones. We listen to and act upon respectful feedback. We correct ourselves when necessary, keeping in mind that the impact of our words and actions on other people doesn't always match our intent.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>be dedicated</h3>
+          <p class="para parapad">which means not letting the group happen to us, but making the group together. We participate in the group with self-respect and don't exhaust ourselves. This might mean saying how we feel, setting boundaries, being clear about our expectations. Nobody is expected to be perfect in this community. Asking questions early avoids problems later. Those who are asked should be responsive and helpful.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>be empathetic,</h3>
+          <p class="para parapad">by actively listening to others and not dominating discussions. We give each other the chance to improve and let each other step up into positions of responsibility. We make room for others. We are aware of each other's feelings, provide support where necessary, and know when to step back. One's idea of caring may differ from how others want to be cared for. We ask to make sure that our actions are wanted.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>foster an inclusive environment</h3>
+          <p class="para parapad">by trying to create opportunities for others to express views, share skills and make other contributions. Being together is something we actively work on and requires negotiation. We recognize that not everyone has the same opportunities, therefore we must be sensitive to the context we operate in. There are implicit hierarchies that we can challenge, and we should strive to do so. When we organize something (projects, events, etc.), we think about how we can consider degrees of privilege, account for the needs of others, promote an activist stance and support other voices.
+          </p>
+        </div>
+      </section>
+      <h2 id="unacceptable-behaviour"><span>Unacceptable &nbsp;&nbsp; behaviour</span></h2>
+      <section>
+        <div class="rule">
+          <h3>No structural or personal discrimination,</h3>
+          <p class="para parapad">attitudes or comments promoting or reinforcing the oppression of any groups or people based on gender, gender identity and expression, race, ethnicity, nationality, sexuality, sexual orientation, religion, disability, mental illness, neurodiversity, personal appearance, physical appearance, body size, age, or class. Do not claim “reverse-isms”, for example “reverse racism”.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>No harrassment,</h3>
+          <p class="para parapad">neither public nor private. Also no deliberate intimidation, stalking, following, harassing photography or recording, disruption of events, aggressive, slanderous, derogatory, or threatening comments online or in person and unwanted physical or electronic contact or sexual attention. No posting or disseminating libel, slander, or other disinformation.<br><br>
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>No violation of privacy,</h3>
+          <p class="para parapad">namely publishing others’ private information, such as a physical or electronic address, without explicit permission. Do not take or publish photos or recordings of others after their request to not do so. Delete recordings if asked.
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>No unwelcome sexual conduct,</h3>
+          <p class="para parapad">including unwanted sexual language, imagery, actions, attention or advances.<br><br>
+          </p>
+        </div>
+
+        <div class="rule">
+          <h3>No destructive behaviour,</h3>
+          <p class="para parapad">or any other conduct which could reasonably be considered inappropriate. This includes (but is not exclusive to) depictions of violence without content warnings, consistently and purposely derailing or disrupting conversations, or other behaviour that persistently disrupts the ability of others to engage in the group or space.
+          </p>
+        </div>
+      </section>
+      <h2 id="intervention-procedure"><span>Intervention &nbsp;&nbsp; procedure</span></h2>
+      <section>
+        <h3><strong>Immediate intervention</strong><br>(help is needed now!)</h3>
+        <p class="para">If you are feeling unsafe, you can immediately contact the Varia members who are tasked with making sure the code of conduct is respected. These contact people are members of Varia who will do their best to help, or to find the correct assistance if relevant/necessary.</p>
+        <div class="rule">
+              Lídia Pereira -- <a href="mailto:lidia@majesticmoo.se">lidia@majesticmoo.se</a> <br>
+              Thomas Walskaar -- <a href="mailto:thomas@walskaar.com">thomas@walskaar.com</a>
+        </div>
+        <p class="para">For example, something happened during a still-ongoing event and needs to be acted upon right away. Action is taken immediately when this violation of the code of conduct is reported. This could involve removing an attendee from an event. </p>
+      </section>
+      <section>
+        <h3 id="intervention-procedure"><strong>Non-immediate intervention</strong><br>(a situation that requires more time)</h3>
+        <p class="para">Other violations need to be considered and consulted upon with more people or in a more measured way. For example: If you experience an ongoing pattern of harrassment; if you witness structurally unacceptable behaviour; if somebody keeps "accidentally" using discriminatory language, after being asked to stop. </p>
+        <p class="para">If you feel comfortable or able, discuss the issues with the involved parties before consulting a mediator. We prefer to constructively resolve disagreements together and work to right the wrong, when it is possible and safe to do so. However, if the problems still persist, those who are responsible for enforcing the code of conduct can help you deal with these kinds of problems. Contact the members listed above. Information will be handled with sensitivity.</p>
+
+        <p class="para">
+        Last updated: Tue 19 January 2021
+        </p>
+      </section>
+    </div>
+    
+    <!-- Zepto and Blast to spilt text in words anc chars -->
+    <script src="zepto.min.js"></script>    
+    <script src="blast.js"></script>
+    <!-- paged.js -->
+    <script src="paged.polyfill.js"></script>
+    <!-- P5 to draw canvas -->
+    <script src="p5.min.js"></script>
+    <!-- interface for tools -->
+    <script src="interface.js"></script>
+    <!-- interactive : p5 and blast instanciation  (doSplit and doP5)-->
+    <script src="interactive.js"></script>
+    <!-- GO ! -->
+    <script>      
+      class Before extends Paged.Handler {
+        constructor(chunker, polisher, caller) {
+          super(chunker, polisher, caller);
+        }
+        beforeParsed(content){
+          doSplit(content);
+        }
+      }
+      Paged.registerHandlers(Before);
+      class After extends Paged.Handler {
+        constructor(chunker, polisher, caller) {
+          super(chunker, polisher, caller);
+        }
+        afterPreview(pages){
+          doP5(pages);
+        }
+      }
+      Paged.registerHandlers(After);
+      </script>
+  </body>
+</html>
+
