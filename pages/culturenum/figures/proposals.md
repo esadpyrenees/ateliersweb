@@ -13,7 +13,6 @@ Upian,
 Collectif BAM,
 g.u.i.
 
-
 # Digital design pionniers
 Jonathan Barnbrook
 Rudy VanderLans + Zuzana Licko 
@@ -205,6 +204,7 @@ Mirage
 [Andreas Gysin](https://ertdfgcvb.xyz/)
 [Lab 212](https://www.lab212.org/)
 [Leander Herzog](https://leanderherzog.ch/)
+[Hundred rabbits](https://100r.co/)
 
 #### Motion
 [Dirk Koy](https://dirkkoy.com/)
