@@ -14,5 +14,6 @@
   <ul>
     <li class="<?= $subsubsection == 'fork' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/fork/">Fork</a> </li>
     <li class="<?= $subsubsection == 'dom' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/dom/">Dom+</a> </li>
+    <li class="<?= $subsubsection == 'exemples' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/exemples/">Exemples</a> </li>
   </ul>
 </nav>
