@@ -2,6 +2,10 @@
 
 Le mot-clé `position` en CSS est un faux-ami. Sa valeur permet de définir le comportement de mise en page d’un élément au sein de la page et sa relation aux éléments qui l’entourent (éléments parents, enfants et frères (_siblings_).
 
+
+↪ Accéder au [playground](https://codepen.io/esadpyrenees/pen/xxzGdBw) sur Codepen.
+
+
 ### Static
 
 Par défaut (tant qu’on ne l’a pas modifiée), la `position` d’un élément est `static`.

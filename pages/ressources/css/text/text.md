@@ -32,11 +32,11 @@ Comme on souhaite généralement qu’une page Web ait une apparence similaire s
 ```
 body { font-family: Helvetica, Arial, sans-serif; }
 ```
-La page Web utilisera Helvetica à condition qu’elle soit installée sur l’ordinateur de l’utilisateur. Si la police Arial n’est pas disponible sur l’ordinateur de l’utilisateur, elle utilisera Arial, ou encore la police sans empattement par défaut du navigateur.
+La page Web utilisera Helvetica à condition qu’elle soit installée sur l’ordinateur de l’utilisateur. Si Helvetica n’est pas disponible sur l’ordinateur de l’utilisateur, elle utilisera Arial, ou encore la police sans empattement par défaut du navigateur.
 
 Jusqu’à la fin des années 2000, il était délicat d’intégrer à un site web d’autres familles que les polices considérées comme “sûres” (car installées sur la plupart des systèmes d’exploitation : Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana).
 
-On peut désormais aller beaucoup plus loin dans les choix typographiques pour le web, en utilisant les règles `@font-face`, [décrites en détail sur la page dédiée](../../typo/webfonts/).
+On peut désormais aller beaucoup plus loin dans les choix typographiques pour le web, en utilisant les règles `@font-face`, [**décrites en détail sur la page dédiée**](../../typo/webfonts/).
 
 
 ## Propriétés du texte
