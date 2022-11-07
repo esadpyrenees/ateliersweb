@@ -141,6 +141,10 @@ Une newsletter écrite par Lucie Ronfaut pour Numerama [↗](https://www.numeram
 	
 * #### Arobase
 Chaque semaine, une rencontre avec celles et ceux qui font internet, plus des choses à lire, voir et écouter, par Alexandre Lechenet (ex Nichons-nous dans l’Internet). [↗](https://arobase.substack.com/)
+
+* #### La Survivance
+Critique, commentaires d’images, décryptage, par François Chevret, graphiste, Lursien et professeur à l’EPSAA d’Ivry-sur- Seine. [↗](https://tentation-du-regard.fr/)
+
 </div>
 
 
