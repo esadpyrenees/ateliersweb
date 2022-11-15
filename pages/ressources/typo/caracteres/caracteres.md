@@ -1,9 +1,11 @@
 # Caractères spéciaux
 
+⚡ Cliquer sur les boutons pour copier leur valeur dans le presse-papier.
+
 ## Apostrophe courbe et guillemets
 | Nom | Entité | HTML | CSS | Unicode | Commentaire |
 |---|---|---|---|---|---|
-| <button> <strong>’</strong> </button> | <button>&<span>rsquo;</span></button> | <button>&<span>#8217</span></button> | <button>\2019</button> | <button>U+2019</button> | Apostrophe courbe |
+| <button> <strong>’</strong> </button> | <button>&<span>rsquo;</span></button> | <button>&<span>#8217;</span></button> | <button>\2019</button> | <button>U+2019</button> | Apostrophe courbe |
 | <button> <strong>«</strong> </button> | <button>&<span>laquo;</span></button> | <button>&<span>#171;</span></button> | <button>\00AB</button> | <button>U+00AB</button> | Guillemet français ouvrant |
 | <button> <strong>»</strong> </button> | <button>&<span>raquo;</span></button> | <button>&<span>#187;</span></button> | <button>\00BB</button> | <button>U+00BB</button> | Guillemet français fermant |
 | <button> <strong>“</strong> </button> | <button>&<span>ldquo;</span></button> | <button>&<span>#8220;</span></button> | <button>\201C</button> | <button>U+201C</button> | Guillemet anglais ouvrant |
