@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Afficher des images au scroll</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .images { width: 50vw;}
+      .text { margin-left: 50vw;}
+      #image4 { top:2em; left: 2em; width: 40% }
+      #image3 { bottom:2em; right: 2em; width: 70% }
+      #image1 { top:0; left: 0; width: 100%; height:100%; object-fit:cover; mix-blend-mode:screen }
+      #image2 { top:50%; left: 2em; transform: translate(0, -50%); width:50% }
+    </style>
+  </head>
+  <body>
+    <section class="images">
+      <img id="image1" src="10.jpg" alt="" />
+      <img id="image2" src="28.jpg" alt="" />
+      <img id="image3" src="30.jpg" alt="" />
+      <img id="image4" src="58.jpg" alt="" />
+      <img id="image5" src="80.jpg" alt="" />
+    </section>
+    <section class="text">
+      <p><mark>Dans cette variation du <a href="index.html">premier exemple</a>, chaque image bénéficie d’un positionnement et d’un traitement spécifique.</mark></p>
+      <p>
+        Dans le HTML, une section <code>.images</code> contient des images qui
+        disposent chacune d’un <code>id</code>. Au sein du texte sont intégrés
+        des éléments <code>span</code> dont l’attribut <code>rel</code> permet
+        de les “lier” à l’<code>id</code> d’une image.
+      </p>
+      <p>
+        En CSS, la section <code>.images</code> est positionnée de manière fixe.
+        La section <code>.text</code> est décalée de la même dimension que la
+        largeur de <code>.images</code>. <span rel="#image4"></span> Les images
+        de la section <code>.images</code> sont masquées par défaut, mais une
+        class <code>.visible</code> va permettre de les afficher.
+      </p>
+      <p>
+        En javascript, on observe la visibilité des <code>span</code> dans le
+        viewport, et s’ils sont visibles (= qu’ils <em>intersectent</em> la zone
+        du viewport), on ajoute la class <code>.visible</code> à l’image à
+        laquelle ils sont liés.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia nobis
+        magnam quod totam voluptatibus culpa quibusdam quo numquam quas ea,
+        aperiam, saepe porro natus sequi facilis eos. Magni, nulla odit!
+      </p>
+      <p>
+        Aperiam, molestiae possimus aliquam fugiat iusto officia sapiente! Velit
+        magni fugit mollitia numquam officiis beatae in eius est, hic nulla
+        earum, ex inventore odit! Sed inventore in eos? Aut, excepturi.
+        <span rel="#image3"></span>
+      </p>
+      <p>
+        In dignissimos qui odio alias dolor id magni quasi animi quam molestias
+        vel, ex tempora sint dolorem eligendi velit ab consequuntur suscipit
+        unde commodi dolore asperiores! Eaque enim culpa ratione?
+      </p>
+      <p>
+        Voluptates a sequi aliquid recusandae ullam voluptatem possimus
+        consectetur libero aliquam, itaque ipsam culpa voluptatibus est corrupti
+        iure reiciendis explicabo nihil adipisci, maxime repellendus expedita
+        labore officia! Neque, ex voluptate.<span rel="#image1"></span>
+      </p>
+      <p>
+        Earum enim temporibus rerum sit. Doloribus nemo alias culpa totam, eaque
+        cupiditate blanditiis quasi facere, consectetur sit natus similique
+        ducimus tempore corrupti vel voluptates reiciendis. Iure ullam
+        laudantium illum veniam! 
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia nobis
+        magnam quod totam voluptatibus culpa quibusdam quo numquam quas ea,
+        aperiam, saepe porro natus sequi facilis eos. <span rel="#image5"></span>Magni, nulla odit!
+        Aperiam, molestiae possimus aliquam fugiat iusto officia sapiente! Velit
+        magni fugit mollitia numquam officiis beatae in eius est, hic nulla
+        earum, ex inventore odit! Sed inventore in eos? Aut, excepturi.
+      </p>
+      <p>
+        In dignissimos qui odio alias dolor id magni quasi animi quam molestias
+        vel, ex tempora sint dolorem eligendi velit ab consequuntur suscipit
+        unde commodi dolore asperiores! Eaque enim culpa ratione? Voluptates a
+        sequi aliquid recusandae ullam voluptatem possimus consectetur libero
+        aliquam, itaque ipsam culpa voluptatibus est corrupti iure reiciendis
+        explicabo nihil adipisci, maxime repellendus expedita labore officia!
+        Neque, ex voluptate. <span rel="#image2"></span>
+      </p>
+      <p>
+        Earum enim temporibus rerum sit. Doloribus nemo alias culpa totam, eaque
+        cupiditate blanditiis quasi facere, consectetur sit natus similique
+        ducimus tempore corrupti vel voluptates reiciendis. Iure ullam
+        laudantium illum veniam!
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
