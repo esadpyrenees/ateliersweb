@@ -24,23 +24,26 @@
     <section class="text">
       <p><mark>Dans cette variation du <a href="index.html">premier exemple</a>, chaque image bénéficie d’un positionnement et d’un traitement spécifique.</mark></p>
       <p>
-        Dans le HTML, une section <code>.images</code> contient des images qui
-        disposent chacune d’un <code>id</code>. Au sein du texte sont intégrés
-        des éléments <code>span</code> dont l’attribut <code>rel</code> permet
-        de les “lier” à l’<code>id</code> d’une image.
+        Dans le HTML, une section <code class="css">.images</code> contient des images qui
+        disposent chacune d’un <code class="html">id</code>. Au sein du texte sont intégrés
+        des éléments <code class="html">span</code> dont l’attribut <code class="html">rel</code> permet
+        de les “lier” à l’<code class="html">id</code> d’une image.
       </p>
       <p>
-        En CSS, la section <code>.images</code> est positionnée de manière fixe.
-        La section <code>.text</code> est décalée de la même dimension que la
-        largeur de <code>.images</code>. <span rel="#image4"></span> Les images
-        de la section <code>.images</code> sont masquées par défaut, mais une
-        class <code>.visible</code> va permettre de les afficher.
+        En CSS, la section <code class="css">.images</code> est positionnée de manière fixe.
+        La section <code class="css">.text</code> est décalée de la même dimension que la
+        largeur de <code class="css">.images</code>. <span rel="#image4"></span> Les images
+        de la section <code class="css">.images</code> sont masquées par défaut, mais une
+        class <code class="css">.visible</code> va permettre de les afficher.
       </p>
       <p>
-        En javascript, on observe la visibilité des <code>span</code> dans le
+        En javascript, on observe la visibilité des <code class="html">span</code> dans le
         viewport, et s’ils sont visibles (= qu’ils <em>intersectent</em> la zone
-        du viewport), on ajoute la class <code>.visible</code> à l’image à
+        du viewport), on ajoute la class <code class="css">.visible</code> à l’image à
         laquelle ils sont liés.
+      </p>
+      <p>
+        Dans cet exemple, les <code class="html">span</code> sont rendus var des blocs noirs, mais il est évidemment possible de les laisser vides et sans styles.
       </p>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia nobis

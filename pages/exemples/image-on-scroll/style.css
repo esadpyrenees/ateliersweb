@@ -44,6 +44,8 @@ span[rel]{ width:3em; background: #000; height: .7em; ;display: inline-block;}
 p { margin: 0; }
 p + p { text-indent: 2em; }
 code { font-family: inherit; color: #666;}
-code::before {content: "[";}
-code::after {content: "]";}
+code.html::before {content: "[";}
+code.html::after {content: "]";}
+code.css::before {content: "{";}
+code.css::after {content: "}";}
 a {text-decoration: wavy underline; color: inherit; text-decoration-thickness: .05em;}
