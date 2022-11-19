@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Le terme de roulade est emprunté à Benoît Guillaume https://benoitguillaume.org/ -->
+  <title>Roulade</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- chaque page du livret est contenue dans chacun de ces 8 <div> -->
+  <main>
+    <div class="page page-1">1</div>
+    <div class="page page-2">2</div>
+    <div class="page page-3">3</div>
+    <div class="page page-4">4</div>
+    <div class="page page-5">5</div>
+    <div class="page page-6">6</div>
+    <div class="page page-7">7</div>
+    <div class="page page-8">8</div>
+  </main>
+
+  <!-- les boutons (masqués à l’impression) -->
+  <nav>
+    <button id="dolayout">Roulade !</button>
+    <button id="doprint">Imprimer !</button>
+  </nav>
+
+  <!-- les actions pour les boutons -->
+  <script>
+    document.querySelector("#dolayout").onclick = () => {
+      // passe en mode preview (imposition et rotation des pages)
+      document.body.classList.toggle('printpreview');
+    }
+    document.querySelector("#doprint").onclick = () => {
+      // print !
+      window.print();
+    }
+  </script>
+</body>
+</html>

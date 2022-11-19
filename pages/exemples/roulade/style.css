@@ -1,0 +1,96 @@
+
+html, body { height: 100%; }
+* {box-sizing: border-box;}
+
+body {
+  /* la variable unit permet d’alterner entre différentes unités selon le média, screen ou print  */
+  --unit: calc( 100vh / 297 * 2.5);
+  --width: 297;
+  --height: 210;
+  margin: 0;
+  /* positionne le <main> au centre du body */
+  display: grid; 
+  place-items: center;
+}
+  
+main { 
+  display: flex; /* met les pages les unes à côté des autres */
+  margin: 0 50px;
+}
+
+.page {
+  width: calc(var(--width) * var(--unit) / 4); /* 4 pages par feuille */
+  height: calc(var(--height) * var(--unit) / 2); 
+  border: 1px solid black;
+}
+.page:not(.page-8){ border-right: none }
+
+nav {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  gap: 1em;
+}
+#doprint { display: none; }
+
+/* ----------------------------------------------------------------- PRINT PREVIEW */
+
+body.printpreview {
+  --unit: .25vmin;
+}
+.printpreview main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: calc(var(--height) * var(--unit));
+  width: calc(var(--width) * var(--unit));
+  margin: 0;
+}
+
+.printpreview #doprint { display: block; }
+.printpreview #dolayout { display: none; }
+
+/* rotation des pages 1, 2, 3 et 8 */
+.printpreview .page-1,
+.printpreview .page-2,
+.printpreview .page-3,
+.printpreview .page-8 {
+  transform: rotate(180deg);
+}
+/* ré-ordonnement des pages 1, 2 et 8 */
+.printpreview .page-1 { grid-column: 3; grid-row: 1; }
+.printpreview .page-2 { grid-column: 2; grid-row: 1; }
+.printpreview .page-8 { grid-column: 4; grid-row: 1; }
+
+.printpreview .page { border: 1px solid black }
+
+/* ----------------------------------------------------------------- PRINT ! */
+
+@media print {
+  @page {
+    size: A4 landscape;
+  }
+  /* en contexte d’impression, on transforme l’unité en millimètres */
+  /* 1mm pour un A4, 2mm pour un A3 :) */
+  body.printpreview {
+    --unit: 1mm;
+    margin: 0;
+  }
+  main { margin: 0; }
+  nav { display: none; }
+  .printpreview .page {
+    border: none;
+  }
+}
+
+
+/* ----------------------------------------------------------------- DÉMO */
+
+/* Pour placer les chiffres en gros au centre de chaque page, juste pour la démo… */
+
+  .page { display: grid; place-items: center; font-size: calc(8 * var(--unit)); font-family: "Courier", "Courier New", monospace; font-weight: bold;}
+  .page-1 {
+    background-image: url(cover.svg);
+    background-size: cover;
+    color: rgba(0,0,0,0);
+  }
