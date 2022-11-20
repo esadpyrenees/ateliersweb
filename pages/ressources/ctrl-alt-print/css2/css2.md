@@ -12,7 +12,7 @@ Actuellement, en contexte *web to print*, il est préférable d’utiliser [Ungo
 
 Intégrer une feuille de style dont les règles ne seront appliquées qu’à l’impression :
 ```html
-<link media="print" href="print.css">
+<link  rel="stylesheet" href="print.css" media="print">
 ```
 *Ou bien* déterminer une `media-query` print dans le fichier CSS :
 ```css

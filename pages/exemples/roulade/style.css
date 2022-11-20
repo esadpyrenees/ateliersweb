@@ -14,12 +14,12 @@ body {
 }
   
 main { 
-  display: flex; /* met les pages les unes à côté des autres */
+  display: flex; /* met les pages les unes à côté des autres en contexte screen */
   margin: 0 50px;
 }
 
 .page {
-  width: calc(var(--width) * var(--unit) / 4); /* 4 pages par feuille */
+  width: calc(var(--width) * var(--unit) / 4); /* 4 pages par largeur de feuille */
   height: calc(var(--height) * var(--unit) / 2); 
   border: 1px solid black;
 }
@@ -94,3 +94,15 @@ body.printpreview {
     background-size: cover;
     color: rgba(0,0,0,0);
   }
+
+
+  /* ----------------------------------------------------------------- TYPO */
+  
+  /* 
+    Pour conserver un comportement cohérent entre les différents contextes (screen, printpreview, screen),
+    les dimensions des élements et les corps de textes doivent être définis grâce à des unites relatives:
+    - soit en % (ou dans des contextes fluides (CSS grid, flex…)
+    - soit en utilisant la variable --unit et calc() ; par exemple : 
+      h1 { font-size: calc(var(--unit) * 4); }  
+  */
+
