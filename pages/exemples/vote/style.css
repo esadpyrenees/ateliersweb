@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: grid;
+  place-content: center;
+  font-size: calc(1em + 1.5vw);
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='68' viewport='0 0 100 100' style='fill:black;font-size:40px;'><text y='50%'>❤️</text></svg>") 20 20, auto;
+}
+p, article {
+  max-width: 23em;
+  margin: 0 0 .5em;
+}
+button {
+  font: inherit;
+  border-radius: .25em;
+  padding: .15em .25em .1em;
+  margin: 0 .5em .5em 0;
+  cursor: inherit;
+}

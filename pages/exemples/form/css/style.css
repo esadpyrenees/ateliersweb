@@ -1,0 +1,28 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 50px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: calc(1em + 2vw);
+}
+
+#form p {  margin-bottom: 1em; }
+#form label { display: block; text-align: left; margin-bottom: .25em;}
+#form input, #form select, #form button { font: inherit; width: 100%; border: 3px solid #ddd; padding: .35em .5em .1em; border-radius: .25em; }
+#form input[type=range]{ cursor: ew-resize; }
+#form button { width: auto;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li { display: inline;}
+li::after { content: ", ";}
+li:last-child::after { content: ".";}
+
+.form ul { display: none; }
+.results #form { display: none; }

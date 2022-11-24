@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#form {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form p { margin: 0;}
+#form p:not(:last-child) { margin-bottom: 1em; }
+#form label { display: block; text-align: center;}
+#form input, #form select, #form button { font: inherit; width: 100%; border: 1px solid #ddd; padding: .25em .5em; }
+#form input[type=range]{ cursor: ew-resize; }
