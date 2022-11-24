@@ -16,7 +16,7 @@
   require_once "Spyc.php";
 
   // 0 — body classname (affiche-t-on le formulaire ou les résultats ?)
-  if($_GET["results"]){
+  if($_GET["results"]=="ok"){
     $bodyclassname = "results";
   } else {
     $bodyclassname = "form";
@@ -49,7 +49,7 @@
     file_put_contents($filename, spyc_dump($data), FILE_APPEND | LOCK_EX);
     
     // on redirige la page pour éviter lea duplication du post si l’utilisateur actualise la page
-    header("location:index.php?results");
+    header("location:index.php?results=ok");
   } 
 
   // 2 – display
