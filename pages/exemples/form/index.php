@@ -22,7 +22,6 @@
     $bodyclassname = "form";
   }
   
-  $message = "nomessage";
   // 1 – form : processing
   // Si le formulaire a été soumis :
   if (!empty($_POST)){
@@ -76,7 +75,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="<?= $bodyclassname  ?>">
-  <?= $message ?>
+
   <!-- le formulaire -->
   <form action="index.php" id="form" method="post">
     <p>
