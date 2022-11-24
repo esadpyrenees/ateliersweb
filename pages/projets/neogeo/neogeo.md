@@ -3,7 +3,7 @@
 
 ## Le choix des ~~armes~~ outils
 
-> We fastened a pencil to a brick and experimented. Figure 2 shows the results, compared with typewriting and ordinary pencil writing. With the brick pencil, we are slower and less precise. If we want to hurry the writing, we have to make it larger. Also, writing the passage twice with the brick-pencil tires the untrained hand and arm.[^doug]
+> We fastened a pencil to a brick and experimented. Figure 2 shows the results, compared with typewriting and ordinary pencil writing. With the brick pencil, we are slower and less precise. If we want to hurry the writing, we have to make it larger. Also, writing the passage twice with the brick-pencil tires the untrained hand and arm. [^doug]
 
 [^doug]: Nous avons fixé un crayon à une brique et avons fait des expériences. La figure 2 montre les résultats, comparés à l’écriture dactylographique et à l’écriture au crayon ordinaire. Avec le crayon-brique, nous sommes moins rapides et précis. Si nous voulons accélérer, nous devons écrire plus grand. De surcroît, le fait d’écrire deux fois le passage avec la brique-crayon fatigue la main et le bras non entraînés. — [source](https://gordonbrander.com/pattern/brick-pencil/)
 
@@ -29,8 +29,6 @@ Cet usage de CSS est devenu [un exercide de style](https://css-art.com/), poussa
    
 
 
-
-<div class="gridlist" markdown="1">
 
 * [![where-fears-hi.de](cssimages/wherefearshide.png)](https://where-fears-hi.de/)
 Pour where-fears-hi.de, Raphaël Batide a dessiné des [créatures monstrueuses](https://where-fears-hi.de/).
@@ -68,7 +66,7 @@ Kim Asendorf, [CSS Compositions](https://kimasendorf.com/css-compositions/), 201
 * [![Ikko Tanaka](cssimages/ikkotanaka.png)](https://codepen.io/yuanchuan/full/MQEeJo)
 [Réinterprétation CSS](https://codepen.io/yuanchuan/full/MQEeJo), d’images issues des posters modernistes japonais d’Ikko Tanaka.
 
-</div>
+
 
 ## Outils
 
@@ -111,7 +109,7 @@ Les dégradés linéaires ou radiaux peuvent être répétés pour générer des
 
 **[Exemples](https://codepen.io/esadpyrenees/pen/LYrzzRJ)**
 
-Le site [magicpatterns.design](https://www.magicpattern.design/tools/css-backgrounds) ou [Léa Vérou](https://projects.verou.me/css3patterns/) proposent un certain nombre de motifs basés sur ces possibilités.
+Le site [magicpatterns.design](https://www.magicpattern.design/tools/css-backgrounds), celui de [Temani Aff](https://css-pattern.com/) ou de [Léa Vérou](https://projects.verou.me/css3patterns/) proposent un certain nombre de motifs basés sur ces possibilités.
 
 ### Multiple backgrounds
 Un élément peut avoir plusieurs arrières-plans. Les propriétés de dégradés doivent être séparées par des virgules. Les exemples ci-dessous n’utilisent que les dégradés précédemment évoqués mais on peut également utiliser des images (png, jpg, svg, gif) multiples en tant qu’arrières-plans.
