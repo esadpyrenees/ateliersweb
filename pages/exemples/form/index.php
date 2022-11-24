@@ -16,7 +16,7 @@
   require_once "Spyc.php";
 
   // 0 — body classname (affiche-t-on le formulaire ou les résultats ?)
-  if($_GET["submission"]=="done"){
+  if($_GET["results"]){
     $bodyclassname = "results";
   } else {
     $bodyclassname = "form";
@@ -37,21 +37,20 @@
       }
     };
 
-    // on envoie un e-mail
-    ini_set( 'display_errors', 1 );
-    error_reporting( E_ALL );
-    $from = "julien@accentgrave.net";
-    $to = "julien@accentgrave.net";
-    $subject = "Nouvelle couleur sur le site";
-    $message = $data["name"] . " a signalé sa couleur préférée : " . $data["color"] . ".";
-    $headers = "From:" . $from;
-    mail($to,$subject,$message, $headers);
+    // Pour envoyer un e-mail d’alerter, décommenter et configurer les lignes ci-dessous:
+    
+    // $from = "you@yourdomain.com"; // <- votre adresse mail
+    // $to = "you@yourdomain.com"; // <- l’adresse mail destinataire
+    // $subject = "Nouvelle couleur sur le site";
+    // $message = $data["name"] . " a signalé sa couleur préférée : " . $data["color"] . ".";
+    // $headers = "From:" . $from;
+    // mail($to,$subject,$message, $headers);
 
     // on écrit le contenu YAML dans le fichier
     file_put_contents($filename, spyc_dump($data), FILE_APPEND | LOCK_EX);
     
     // on redirige la page pour éviter lea duplication du post si l’utilisateur actualise la page
-    header("location:index.php?submission=done");
+    header("location:index.php?results");
   } 
 
   // 2 – display
