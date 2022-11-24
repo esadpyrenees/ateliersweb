@@ -22,7 +22,7 @@
     $bodyclassname = "form";
   }
   
-
+  $message = "nomessage";
   // 1 – form : processing
   // Si le formulaire a été soumis :
   if (!empty($_POST)){
@@ -35,17 +35,21 @@
       if (array_key_exists($key, $_POST )) {
         $data[$key] = cleanData($_POST[$key]);
       }
-    }
-    // on écrit le contenu YAML dans le fichier
-    file_put_contents($filename, spyc_dump($data), FILE_APPEND | LOCK_EX);
+    };
 
     // on envoie un e-mail
-    $message = $data["name"] . " a signalé sa couleur préférée (" . $data["color"] . ")";
-    $headers = 'From: julienbidoret@gmail.com' . "\r\n" .
-     'Reply-To: julienbidoret@gmail.com' . "\r\n" .
-     'X-Mailer: PHP/' . phpversion();
-    mail('julienbidoret@gmail.com', 'Nouvelle soumission sur le site', $message, $headers);
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = "julien@accentgrave.net";
+    $to = "julien@accentgrave.net";
+    $subject = "Nouvelle couleur sur le site";
+    $message = $data["name"] . " a signalé sa couleur préférée : " . $data["color"] . ".";
+    $headers = "From:" . $from;
+    mail($to,$subject,$message, $headers);
 
+    // on écrit le contenu YAML dans le fichier
+    file_put_contents($filename, spyc_dump($data), FILE_APPEND | LOCK_EX);
+    
     // on redirige la page pour éviter lea duplication du post si l’utilisateur actualise la page
     header("location:index.php?submission=done");
   } 
@@ -73,7 +77,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="<?= $bodyclassname  ?>">
-  
+  <?= $message ?>
   <!-- le formulaire -->
   <form action="index.php" id="form" method="post">
     <p>
