@@ -158,6 +158,9 @@
     <p>
         Au delà de ceux qui sont présents dans cette page, <a href="../../../exemples/#flex">des exemples basiques </a> sont disponibles dans la section dédéiée.
     </p>
+    <p>
+      😍 Josh Comeau a publié <a href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/">un guide interactif à Flexbox [en]</a> qui explore et introduit avec brio les possibilités et subtilités de ce module de mise en page.
+    </p>
 
 
 
