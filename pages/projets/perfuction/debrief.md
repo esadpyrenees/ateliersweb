@@ -34,7 +34,7 @@ Comment choisir une famille de caractères typographiques : https://ateliers.esa
 
 Comment intégrer une police (ses variantes, graisses, styles) dans une page web : https://ateliers.esad-pyrenees.fr/web/pages/ressources/typo/webfonts/
 
-On a rapidement évoqué les fontes _variables_ : https://ateliers.esad-pyrenees.fr/web/pages/ressources/typo/variables/ (cf. [Chee](https://v-fonts.com/fonts/cheee-variable)).
+On a rapidement évoqué les fontes _variables_ : https://ateliers.esad-pyrenees.fr/web/pages/ressources/typo/variables/ (cf. [Chee](https://v-fonts.com/fonts/cheee-variable)). Voir aussi la hack typographique de Wikipedia par Rpahaël Bastide et Jérémie Landes : https://fungal.page/ (tpo accessible sur Velvetyne).
 
 ### Exemples en ligne 
 https://ateliers.esad-pyrenees.fr/web/pages/exemples/#positions    
