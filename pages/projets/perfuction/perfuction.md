@@ -31,9 +31,6 @@ Pour positionner le texte dans l’espace, on peut utiliser [l’ensemble des m�
 * #### On the Internet, nobody knows you're a dog
 — Peter Steiner
 
-* #### Less is more
-— Ludwig Mies Van Der Rohe
-
 * #### Code is law
 — Lawrence Lessig
 
@@ -58,8 +55,14 @@ Pour positionner le texte dans l’espace, on peut utiliser [l’ensemble des m�
 * #### To save the world, we’re going to have to stop working
 — David Graeber
 
+* #### Less is more
+— Ludwig Mies Van Der Rohe
+
 * #### Less is a bore
 — Robert Venturi
+
+* #### Less is less
+— Change is good
 
 * #### Neue Dinge mussten aus dem gemacht werden Fragmente
 — Kurt Schwitters
