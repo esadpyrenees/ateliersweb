@@ -47,6 +47,7 @@
         <li><button href="#" data-filter=".interactive">Interactivité</button></li>
         <li><button href="#" data-filter=".variable">Variable fonts</button></li>
         <li><button href="#" data-filter=".htmltoprint">Html2Print</button></li>
+        <li><button href="#" data-filter=".php">PHP</button></li>
     </ul>
 </nav>
 

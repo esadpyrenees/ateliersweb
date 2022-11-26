@@ -355,6 +355,7 @@ details summary {
 .gridlist li { list-style-type: none; padding: 0; margin: 0;}
 .gridlist p { margin: 0;}
 .gridlist p + p { margin-top: .5em;}
+/* examples grid */
 .grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -414,6 +415,7 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
     border: none;
     display: block;
     position: relative;
+    order: var(--order);
 }
 .exemple .download{
     position: absolute;
