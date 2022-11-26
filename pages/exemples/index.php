@@ -1,6 +1,7 @@
   <?php
 
-    $title = "ÉSAD·Pyrénées — Ateliers web — Exemples";
+    require_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Spyc.php';
+    $title = "Exemples";
     $section="exemples";
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
@@ -45,7 +46,19 @@
         if (is_dir($dir)){
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
             $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
+            $yml = "$dir/info.yml";  
+            if(!file_exists($yml)){
+                  
+                $ymldata = [];
+                $ymldata["tags"] = $tags;
+                $ymldata["title"] = $title;
+                $ymldata["date"] = strftime("%Y%M%d", filemtime($dir));
+                file_put_contents($yml, spyc_dump($ymldata), LOCK_EX);
+
+            }
             if (file_exists($readme)) {
+  
+
                 parse_str( file_get_contents($readme), $result );
                 $tags = $result["tags"];
                 $title = $result["title"];
@@ -59,8 +72,8 @@
                 }
                 echo  "<div class='exemple $my_tags'>";
             }
-            echo "<a class='download' download href='backup.php?dir=$exemple'>zip!</a>";
-            echo "<a href='$exemple/'>";
+            // echo "<a class='download' download href='backup.php?dir=$exemple'>zip!</a>";
+            // echo "<a href='$exemple/'>";
             echo "<span><strong>";
             if( isset($tags) ){
                 foreach (explode(',', $tags) as $tag) {
@@ -73,8 +86,8 @@
                 echo "<img src='$exemple/thumb.png' loading='lazy'>";
             }
             echo "</span>";
-            echo "<h2>$title</h2>";
-            echo "</a></div>\n\n";
+            echo "<h2>$title " .  strftime("%Y%M%d", filemtime($dir)) . "</h2>";
+            echo "</div>\n\n";
         }
     }
     ?>
