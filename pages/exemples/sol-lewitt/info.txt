@@ -1,1 +1,0 @@
-title=Sol LeWitt&tags=css,rwd

@@ -1,1 +1,0 @@
-title=SVG zoomable avec leaflet&tags=js,map,interactive

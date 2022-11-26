@@ -1,1 +1,0 @@
-title=Image centrée au survol&tags=css,flex

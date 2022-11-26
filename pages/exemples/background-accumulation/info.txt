@@ -1,1 +1,0 @@
-title=Accumulation d’arrière-plans&tags=css,js,interactive

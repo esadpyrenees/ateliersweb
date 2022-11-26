@@ -1,1 +1,0 @@
-title=Vidéo pleine page responsive&tags=css,video,rwd

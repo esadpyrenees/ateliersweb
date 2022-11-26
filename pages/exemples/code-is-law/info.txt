@@ -1,1 +1,0 @@
-title=Livret Bindery&tags=js,css,htmltoprint,layout

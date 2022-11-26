@@ -1,1 +1,0 @@
-title=Clone au survol&tags=js,jquery

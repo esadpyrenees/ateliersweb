@@ -1,1 +1,0 @@
-title=Diaporama simple&tags=css,js,interactive

@@ -1,1 +1,0 @@
-title=Filtrer une liste avec isotope&tags=js,interactive

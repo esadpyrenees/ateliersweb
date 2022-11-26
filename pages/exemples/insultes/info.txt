@@ -1,1 +1,0 @@
-title=Générateur d’insultes&tags=js,random

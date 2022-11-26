@@ -1,1 +1,0 @@
-title=Clip text gradient&tags=css

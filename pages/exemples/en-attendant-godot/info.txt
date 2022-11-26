@@ -1,1 +1,0 @@
-title=Dialogue (En attendant Godot)&tags=js,interactive

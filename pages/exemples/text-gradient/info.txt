@@ -1,1 +1,0 @@
-title=Texte en dégradé&tags=css,typo

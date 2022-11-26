@@ -1,1 +1,0 @@
-title=Mise en page avec intro animée&tags=css,layout

@@ -1,1 +1,0 @@
-title=Transition entre états&tags=js,typo,variable,transitions

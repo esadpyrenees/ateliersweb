@@ -1,1 +1,0 @@
-title=Mises en pages communes&tags=css,rwd,layout,grid,flex

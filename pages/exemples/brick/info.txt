@@ -1,1 +1,0 @@
-title=Drag and draw avec canvas&tags=js,canvas,paperjs,interactive
