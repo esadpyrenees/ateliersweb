@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrer des éléments</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- 
+    Chaque bouton de la navigation a un attribut "data-category" 
+    qui doit correspondre à la "class" des éléments à filtrer
+  -->
+  <nav>
+    <button style="--c:white" data-category="color" class="active">All</button> 
+    <button style="--c:red" data-category="red">Red</button> 
+    <button style="--c:orange" data-category="orange">Orange</button> 
+    <button style="--c:yellow" data-category="yellow">Yellow</button> 
+    <button style="--c:green" data-category="green">Green</button> 
+    <button style="--c:cyan" data-category="cyan">Cyan</button> 
+    <button style="--c:blue" data-category="blue">Blue</button> 
+    <button style="--c:purple" data-category="purple">Purple</button> 
+    <button style="--c:pink" data-category="pink">Pink</button> 
+    <button style="--c:white" data-category="white">White</button> 
+    <button style="--c:gray" data-category="gray">Gray</button> 
+    <button style="--c:brown" data-category="brown">Brown</button> 
+  </nav>
+
+  <main>
+      
+    <div class="color red" style="--c:lightsalmon">light&shy;salmon</div>
+    <div class="color red" style="--c:salmon">salmon</div>
+    <div class="color red" style="--c:darksalmon">dark&shy;salmon</div>
+    <div class="color red" style="--c:lightcoral">light&shy;coral</div>
+    <div class="color red" style="--c:indianred">indian&shy;red</div>
+    <div class="color red" style="--c:crimson">crimson</div>
+    <div class="color red" style="--c:firebrick">fire&shy;brick</div>
+    <div class="color red" style="--c:red">red</div>
+    <div class="color red" style="--c:darkred">dark&shy;red</div>
+
+    <div class="color orange red" style="--c:coral">coral</div>
+    <div class="color orange red" style="--c:tomato">tomato</div>
+    <div class="color orange" style="--c:orangered">orange&shy;red</div>
+    <div class="color orange yellow" style="--c:gold">gold</div>
+    <div class="color orange" style="--c:orange">orange</div>
+    <div class="color orange" style="--c:darkorange">dark&shy;orange</div>
+
+    <div class="color yellow" style="--c:lightyellow">light&shy;yellow</div>
+    <div class="color yellow" style="--c:lemonchiffon">lemon&shy;chiffon</div>
+    <div class="color yellow" style="--c:lightgoldenrodyellow">light&shy;golden&shy;rod</div>
+    <div class="color yellow" style="--c:papayawhip">papaya&shy;whip</div>
+    <div class="color yellow" style="--c:moccasin">moccasin</div>
+    <div class="color yellow" style="--c:peachpuff">peach&shy;puff</div>
+    <div class="color yellow" style="--c:palegoldenrod">pale&shy;golden&shy;rod</div>
+    <div class="color yellow" style="--c:khaki">khaki</div>
+    <div class="color yellow" style="--c:darkkhaki">dark&shy;khaki</div>
+    <div class="color yellow" style="--c:yellow">yellow</div>
+
+    <div class="color green" style="--c:lawngreen">lawn&shy;green</div>
+    <div class="color green" style="--c:chartreuse">chartreuse</div>
+    <div class="color green" style="--c:limegreen">lime&shy;green</div>
+    <div class="color green" style="--c:lime">lime</div>
+    <div class="color green" style="--c:forestgreen">forest&shy;green</div>
+    <div class="color green" style="--c:green">green</div>
+    <div class="color green" style="--c:darkgreen">dark&shy;green</div>
+    <div class="color yellow green" style="--c:greenyellow">green&shy;yellow</div>
+    <div class="color yellow green" style="--c:yellowgreen">yellow&shy;green</div>
+    <div class="color green" style="--c:springgreen">spring&shy;green</div>
+    <div class="color green" style="--c:mediumspringgreen">medium&shy;spring</div>
+    <div class="color green" style="--c:lightgreen">light&shy;green</div>
+    <div class="color green" style="--c:palegreen">pale&shy;green</div>
+    <div class="color green" style="--c:darkseagreen">dark&shy;sea&shy;green</div>
+    <div class="color green" style="--c:mediumseagreen">medium&shy;sea&shy;green</div>
+    <div class="color green" style="--c:seagreen">sea&shy;green</div>
+    <div class="color green" style="--c:olive">olive</div>
+    <div class="color green" style="--c:darkolivegreen">dark&shy;olive&shy;green</div>
+    <div class="color green" style="--c:olivedrab">olive&shy;drab</div>
+
+    <div class="color cyan" style="--c:lightcyan">light&shy;cyan</div>
+    <div class="color cyan" style="--c:cyan">cyan</div>
+    <div class="color cyan" style="--c:aqua">aqua</div>
+    <div class="color cyan" style="--c:aquamarine">aqua&shy;marine</div>
+    <div class="color cyan" style="--c:mediumaquamarine">medium&shy;aqua&shy;marine</div>
+    <div class="color cyan" style="--c:paleturquoise">pale&shy;turquoise</div>
+    <div class="color cyan" style="--c:turquoise">turquoise</div>
+    <div class="color cyan" style="--c:mediumturquoise">medium&shy;turquoise</div>
+    <div class="color cyan" style="--c:darkturquoise">dark&shy;turquoise</div>
+    <div class="color cyan" style="--c:lightseagreen">light&shy;sea&shy;green</div>
+    <div class="color cyan" style="--c:cadetblue">cadet&shy;blue</div>
+    <div class="color cyan" style="--c:darkcyan">dark&shy;cyan</div>
+    <div class="color cyan" style="--c:teal">teal</div>
+
+    <div class="color blue" style="--c:powderblue">powder&shy;blue</div>
+    <div class="color blue" style="--c:lightblue">light&shy;blue</div>
+    <div class="color blue" style="--c:lightskyblue">light&shy;sky&shy;blue</div>
+    <div class="color blue" style="--c:skyblue">sky&shy;blue</div>
+    <div class="color blue" style="--c:deepskyblue">deep&shy;sky&shy;blue</div>
+    <div class="color blue" style="--c:lightsteelblue">light&shy;steel&shy;blue</div>
+    <div class="color blue" style="--c:dodgerblue">dodger&shy;blue</div>
+    <div class="color blue" style="--c:cornflowerblue">corn&shy;flower&shy;blue</div>
+    <div class="color blue" style="--c:steelblue">steel&shy;blue</div>
+    <div class="color blue" style="--c:royalblue">royal&shy;blue</div>
+    <div class="color blue" style="--c:blue">blue</div>
+    <div class="color blue" style="--c:mediumblue">medium&shy;blue</div>
+    <div class="color blue" style="--c:darkblue">dark&shy;blue</div>
+    <div class="color blue" style="--c:navy">navy</div>
+    <div class="color blue" style="--c:midnightblue">midnight&shy;blue</div>
+    <div class="color blue purple" style="--c:mediumslateblue">medium&shy;slate&shy;blue</div>
+    <div class="color blue" style="--c:slateblue">slate&shy;blue</div>
+    <div class="color blue" style="--c:darkslateblue">dark&shy;slate&shy;blue</div>
+
+    <div class="color purple" style="--c:lavender">lavender</div>
+    <div class="color purple" style="--c:thistle">thistle</div>
+    <div class="color purple" style="--c:plum">plum</div>
+    <div class="color purple" style="--c:violet">violet</div>
+    <div class="color purple" style="--c:orchid">orchid</div>
+    <div class="color purple" style="--c:fuchsia">fuchsia</div>
+    <div class="color purple" style="--c:magenta">magenta</div>
+    <div class="color purple" style="--c:mediumorchid">medium&shy;orchid</div>
+    <div class="color purple" style="--c:mediumpurple">medium&shy;purple</div>
+    <div class="color purple" style="--c:blueviolet">blue&shy;violet</div>
+    <div class="color purple" style="--c:darkviolet">dark&shy;violet</div>
+    <div class="color purple" style="--c:darkorchid">dark&shy;orchid</div>
+    <div class="color purple" style="--c:darkmagenta">dark&shy;magenta</div>
+    <div class="color purple" style="--c:purple">purple</div>
+    <div class="color purple" style="--c:indigo">indigo</div>
+
+    <div class="color pink" style="--c:pink">pink</div>
+    <div class="color pink" style="--c:lightpink">light&shy;pink</div>
+    <div class="color pink" style="--c:hotpink">hot&shy;pink</div>
+    <div class="color pink" style="--c:deeppink">deep&shy;pink</div>
+    <div class="color pink" style="--c:palevioletred">pale&shy;violet&shy;red</div>
+    <div class="color pink" style="--c:mediumvioletred">medium&shy;violet&shy;red</div>
+
+    <div class="color white" style="--c:white">white</div>
+    <div class="color white" style="--c:snow">snow</div>
+    <div class="color white" style="--c:honeydew">honey&shy;dew</div>
+    <div class="color white" style="--c:mintcream">mint&shy;cream</div>
+    <div class="color white" style="--c:azure">azure</div>
+    <div class="color white" style="--c:aliceblue">alice&shy;blue</div>
+    <div class="color white" style="--c:ghostwhite">ghost&shy;white</div>
+    <div class="color white" style="--c:whitesmoke">white&shy;smoke</div>
+    <div class="color white" style="--c:seashell">sea&shy;shell</div>
+    <div class="color white" style="--c:beige">beige</div>
+    <div class="color white" style="--c:oldlace">old&shy;lace</div>
+    <div class="color white" style="--c:floralwhite">floral&shy;white</div>
+    <div class="color white" style="--c:ivory">ivory</div>
+    <div class="color white" style="--c:antiquewhite">antique&shy;white</div>
+    <div class="color white" style="--c:linen">linen</div>
+    <div class="color white" style="--c:lavenderblush">lavender&shy;blush</div>
+    <div class="color white pink" style="--c:mistyrose">misty&shy;rose</div>
+
+    <div class="color gray" style="--c:gainsboro">gains&shy;boro</div>
+    <div class="color gray" style="--c:lightgray">light&shy;gray</div>
+    <div class="color gray" style="--c:silver">silver</div>
+    <div class="color gray" style="--c:darkgray">dark&shy;gray</div>
+    <div class="color gray" style="--c:gray">gray</div>
+    <div class="color gray" style="--c:dimgray">dimg&shy;ray</div>
+    <div class="color gray" style="--c:lightslategray">light&shy;slate&shy;gray</div>
+    <div class="color gray" style="--c:slategray">slate&shy;gray</div>
+    <div class="color gray green" style="--c:darkslategray">dark&shy;slate&shy;gray</div>
+
+    <div class="color brown" style="--c:cornsilk">corn&shy;silk</div>
+    <div class="color brown" style="--c:blanchedalmond">blanched&shy;almond</div>
+    <div class="color brown" style="--c:bisque">bisque</div>
+    <div class="color brown" style="--c:navajowhite">navajo&shy;white</div>
+    <div class="color brown" style="--c:wheat">wheat</div>
+    <div class="color brown" style="--c:burlywood">burly&shy;wood</div>
+    <div class="color brown" style="--c:tan">tan</div>
+    <div class="color brown pink" style="--c:rosybrown">rosy&shy;brown</div>
+    <div class="color brown" style="--c:sandybrown">sandy&shy;brown</div>
+    <div class="color brown yellow" style="--c:goldenrod">golden&shy;rod</div>
+    <div class="color brown" style="--c:peru">peru</div>
+    <div class="color brown orange" style="--c:chocolate">chocolate</div>
+    <div class="color brown" style="--c:saddlebrown">saddleb&shy;rown</div>
+    <div class="color brown" style="--c:sienna">sienna</div>
+    <div class="color brown" style="--c:brown">brown</div>
+    <div class="color brown" style="--c:maroon">maroon</div>
+  </main>
+  
+</body>
+</html>

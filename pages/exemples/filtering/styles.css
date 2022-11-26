@@ -1,0 +1,52 @@
+
+/* styles utiles pour le filtrage */
+.hidden {
+  display: none;
+}
+
+/* styles visuels */
+
+body {
+  margin: 2em;
+  display: flex;
+  gap: 2em;
+  background: #000;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+nav {
+  display: flex;
+  flex-direction:column;
+  gap: .5em;
+  min-width: 6em;
+  position: sticky;
+  top: 2em;
+}
+main {
+  flex: 1;
+  display: grid;
+  gap: .5em 1em;
+  grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+  font-size: 2em;
+}
+.color{
+  color: var(--c);
+  hyphens: auto;
+  line-height: 1;
+}
+
+button{
+  background: #000;
+  border-radius: .25em;
+  border: 3px solid;
+  color: white;
+  text-align: left;
+  align-self: flex-start
+}
+button:hover,
+.active {
+  color: var(--c)
+}
+.active::before {
+  content: "✔ "
+}
