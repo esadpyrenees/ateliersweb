@@ -46,22 +46,27 @@
         if (is_dir($dir)){
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
             $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
-            $yml = "$dir/info.yml";  
-            if(!file_exists($yml)){
-                  
-                $ymldata = [];
-                $ymldata["tags"] = $tags;
-                $ymldata["title"] = $title;
-                $ymldata["date"] = strftime("%Y%M%d", filemtime($dir));
-                file_put_contents($yml, spyc_dump($ymldata), LOCK_EX);
-
-            }
             if (file_exists($readme)) {
-  
+
 
                 parse_str( file_get_contents($readme), $result );
                 $tags = $result["tags"];
                 $title = $result["title"];
+
+                
+                $yml = "$dir/info.yml";  
+                // unlink($yml);
+
+                    
+                    $ymldata = [];
+                    $ymldata["tags"] = $tags;
+                    $ymldata["title"] = $title;
+                    // $ymldata["date"] = strftime("%Y%M%d", filemtime($dir));
+                    file_put_contents($yml, spyc_dump($ymldata), LOCK_EX);
+
+                    if(!file_exists($yml)){
+                    }
+                
 
                 $my_tags = "";
                 if( isset($tags) ){
