@@ -40,7 +40,7 @@ function endsWith($haystack, $needle){
 
 // helper is_not_forbidden
 function is_not_forbidden($filename){
-    $forbidden = array('info.txt', 'thumb.png');
+    $forbidden = array('info.txt', 'thumb.png', 'info.yml');
     if (in_array($filename, $forbidden)) {
         return false;
     } elseif (endsWith($filename, '.zip')) {
