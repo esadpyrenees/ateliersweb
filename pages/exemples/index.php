@@ -1,7 +1,7 @@
 <?php
 
 require_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Spyc.php';
-$title = "ÉSAD·Pyrénées — Ateliers web — Exemples";
+$title = "Exemples";
 $section="exemples";
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
