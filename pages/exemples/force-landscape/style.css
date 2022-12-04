@@ -1,0 +1,53 @@
+
+@media screen and (orientation: portrait) {
+
+  
+  
+  html{
+    padding: 2em;
+    box-sizing: border-box;
+  }
+
+  /* version avec une image: */
+  html::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: url("rotate.svg") no-repeat center;
+    background-size: contain;
+  }
+
+  /* version texte : */
+  /* html::after{
+    content: "Affichage horizontal requis !";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: orange;
+  } */
+ 
+  body{display: none !important}
+
+}
+
+
+/* styles de la démo */
+
+html, body {
+  height: 100%;
+}
+body {
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
