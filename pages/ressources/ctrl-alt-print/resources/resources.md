@@ -4,7 +4,7 @@
 PrePostPrint cultive un intérêt pour les procédés de création graphique et les systèmes de publication libres considérés comme « alternatifs » ou « non conventionnels », particulièrement s'ils sont conçus avec les technologies du web. Cette initiative a pour vocation première d'interroger, partager, confronter et encourager ces pratiques naissantes et faciliter l'accès aux projets et outils existants. À L’initiative de  [Sarah Garcin](https://sarahgarcin.com), [Raphaël Bastide](https://raphaelbastide.com) et [Julie Blanc](https://julie-blanc.fr).
 
 ### [Open Source Publishing](http://osp.kitchen/)
-Open Source Publishing est un collectif de designers travaillant à Bruxelles qui ont comme particularité de ne produire leurs livres, sites web, posters, outils, etc. qu’uniquement à partir de logiciels libres ou open source. Ils sont parmi les précurseurs des approches html2print ([voir la conférence de Pierre Huyghebaert et Eric Schrijver](https://vimeo.com/50827775) à l’ÉSA Pyrénées en 2012).
+Open Source Publishing est un collectif de designers travaillant à Bruxelles qui ont comme particularité de ne produire leurs livres, sites web, posters, outils, etc. qu’uniquement à partir de logiciels libres ou open source. Ils sont parmi les précurseurs des approches « html2print » ([voir la conférence de Pierre Huyghebaert et Eric Schrijver](https://vimeo.com/50827775) à l’ÉSA Pyrénées en 2012).
 
 ### [L’Atelier des chercheurs](https://latelier-des-chercheurs.fr/)
 L’Atelier des chercheurs est un collectif de designers engagés depuis 2013 dans la création d’outils libres et modulaires pour transformer les manières d'apprendre et de travailler. Il est aujourd’huicomposé de Sarah Garcin, Pauline Gourlet et Louis Eveillard.

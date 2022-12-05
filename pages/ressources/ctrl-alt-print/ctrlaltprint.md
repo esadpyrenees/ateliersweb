@@ -79,7 +79,7 @@ Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de
 
 ## Exemples pratiques
 
-Voir les exemples dans la [section dédiée](/web/pages/exemples/#htmltoprint) du site des ateliers Web, ou dans la page consacrée à [Paged.js](pagedjs/#more).
+Voir les exemples dans la [section dédiée](/web/pages/exemples/#webtoprint) du site des ateliers Web, ou dans la page consacrée à [Paged.js](pagedjs/#more).
 
 
 ## Pourquoi ?
