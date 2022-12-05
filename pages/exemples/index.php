@@ -3,6 +3,8 @@
 require_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Spyc.php';
 $title = "Exemples";
 $section="exemples";
+$description = "Exemples HTML, CSS, JavaScript, PHP, web to print et plus des ateliers web de l’ÉSAD Pyrénées.";
+
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
 
