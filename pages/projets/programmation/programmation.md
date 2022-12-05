@@ -12,10 +12,10 @@ Pourquoi pas [À tant rêver du Roi](http://atrdr.net/) ? [Résonances](http://e
 
 ## Ressources
 
-[Ressources HTML to print](../../ressources/html2print/), Pourquoi et comment créer des documents imprimés avec les technologies du web.
+[Ressources HTML to print](../../ressources/ctrl-alt-print/), Pourquoi et comment créer des documents imprimés avec les technologies du web.
 
 ## Exemples
 
 Voir un exemple d’affiches génératives pour la journée d’études [médias ~ médiations](http://nm.esad-pyrenees.fr/medias-mediations/) ou pour les [workshops 2019](http://workshops.esad-pyrenees.fr/) de l’ÉSAD.
 
-Voir les [exemples html2print](../../exemples/#htmltoprint) dans la section dédiée.
+Voir les [exemples webtoprint](../../exemples/#webtoprint) dans la section dédiée.

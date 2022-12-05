@@ -145,7 +145,7 @@ Quelques ressources sur la [micro et macro typographie](../../ressources/typo/ma
 
 Depuis [sa version 2](http://www.yoyodesign.org/doc/w3c/css2/cover.html), en 1998, le langage CSS permet de spécifier des propriétés dédiées (⇒ donner une forme spécifique) aux documents web imprimés. Si les fabricants de navigateurs n’en ont pas fait une grande priorité dans leurs développements, des designers ont investi cet espace et en ont fait un champ d’expérimentation, d’exploration et de production. 
 
-La section [html2print](../../ressources/html2print/) offre une introduction à ces pratiques et référence des outils, inititatives et exemples de projets.
+La section [webtoprint](../../ressources/ctrl-alt-print/) offre une introduction à ces pratiques et référence des outils, inititatives et exemples de projets.
 
 Parmi ces outils, la librairie [Paged.js](https://pagedjs.org/) est l’une des initiatives les plus abouties et prometteuses. Basée sur les standards CSS Print définis par le W3C, elle permet de mettre en page des documents paginés (= des livres, des magazines, des fanzines), de les imprimer ou d’en générer des pdf depuis le navigateur.
 
