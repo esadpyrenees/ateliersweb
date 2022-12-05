@@ -1,0 +1,119 @@
+/* Reset CSS */
+/* https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+html { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; } html, body { height: 100%; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; } h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+/* marges systématisées */
+:root { --spacing: 1em }
+
+/* affichage initial en grille */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  display: grid;
+  margin: 0;
+  padding: var(--spacing);
+  gap: var(--spacing);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: start;
+}
+
+/* styles typo minimaux… */
+h1, h2 { font-weight: bold; margin-bottom: 1em; }
+a { color: currentColor; }
+
+/* positionnement du bouton */
+.recto { position: relative; }
+.recto nav { position: absolute; right: 0; top: 0;}
+
+/* marge pour les sections du verso */
+.verso > * {
+  margin-top: 1em;
+}
+
+/* affichage des titres au survol */
+.grid h1 {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#0000, #000);
+  margin: 0;
+  color: white;
+  padding: var(--spacing);
+  display: flex;
+  align-items: end;
+  opacity: 0;
+  transition: all 250ms;
+  pointer-events: none;
+}
+.grid .recette { cursor: pointer;}
+.grid .recette:hover h1 { opacity: 1 }
+
+/* metadata : flex */
+.metadata {
+  display: flex;
+  gap:var(--spacing);
+  text-align: center;
+  justify-content: space-between;
+}
+.metadata img {
+  display: block;
+  width: 40px;
+  margin: auto;
+}
+
+/* grille de 2 colonnes */
+.stuff-and-ingredients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.stuff-and-ingredients h2 {
+  grid-column: span 2;
+}
+.stuff-and-ingredients ul {
+  list-style-position: inside;
+}
+/* la recette ouverte occupe toute la largeur de la grille */
+.open {
+  padding: var(--spacing);
+  margin: 0 calc(-1 * var(--spacing));
+  background: #eee;
+  grid-column: 1 / -1;
+}
+
+/* à l’écran, on masque les infos des recettes (sauf l’image) */
+@media screen {
+  h1, .verso, nav { display: none;}
+  .open h1, .open .verso, .open nav { display: block;}
+}
+
+/* à l’impression */
+@media print {
+  @page {
+    size: 148mm 210mm;
+    margin: 1cm;
+  }
+  /* on masque toutes les recettes sauf celle qui est ouverte */
+  .recette { display: none;}
+  .open { 
+    padding: 0;
+    margin: 0;
+    background: none;
+    display: block; 
+    font-size: 9pt;
+  }
+  /* on masque les boutons et le header*/
+  header, nav { display: none; }
+
+  /* mise en page recto */
+  .recto {
+    width: 100vw; height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    page-break-after:always;
+    page-break-before: always;
+  }
+  /* affichage des liens */
+  a::after{
+    content: "[ " attr(href) " ]";
+  }
+}
