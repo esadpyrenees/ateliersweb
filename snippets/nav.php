@@ -46,7 +46,7 @@
         <li><button href="#" data-filter=".typo">Typographie</button></li>
         <li><button href="#" data-filter=".interactive">Interactivité</button></li>
         <li><button href="#" data-filter=".variable">Variable fonts</button></li>
-        <li><button href="#" data-filter=".htmltoprint">Html2Print</button></li>
+        <li><button href="#" data-filter=".webtoprint">WebToPrint</button></li>
         <li><button href="#" data-filter=".php">PHP</button></li>
     </ul>
 </nav>

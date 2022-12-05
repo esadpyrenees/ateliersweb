@@ -1,5 +1,6 @@
 <?php
-
+    require_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Spyc.php';
+    
     // WARNING : *really* dirty code
     // obéissant aux principes :
     // « un tiens vaut mieux que deux tu l’auras »
@@ -61,11 +62,11 @@
     if($section == "exemples"){
         // on cherche le dossier de l’exemple
         $dir = dirname(__FILE__) . '/pages/exemples/' . $subsection;
-        $readme = $dir . DIRECTORY_SEPARATOR . 'info.txt';
+        $readme = $dir . DIRECTORY_SEPARATOR . 'info.yml';
         $dirthumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
 
         if (file_exists($readme)) {
-            parse_str( file_get_contents($readme), $data );
+            $data = Spyc::YAMLLoad($readme);  
             $title_line = isset($data['title']) ? trim($data['title']) : "";
         } 
 
