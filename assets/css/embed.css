@@ -21,6 +21,6 @@ body{
     padding: .25em .5em;
     display: block;
 }
-#embednav a span { display:none}
-#embednav a:hover span { display:inline}
+/* #embednav a span { display:none}
+#embednav a:hover span { display:inline} */
 iframe { border:0; }
