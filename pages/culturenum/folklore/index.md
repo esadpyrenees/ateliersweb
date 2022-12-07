@@ -173,7 +173,7 @@ Avec elle, de très nombreux créateurs, auteurs, artistes ou designers exploren
 
 ### Bibliographie indicative 
 
-_(à compléter)_
+_(très partielle)_
 
 * [Digital Folklore: To Computer Users, with Love and Respect](https://digitalfolklore.org/), Dragan Espenschied , Olia Lialina 
 * [Olia Lialina, Net Artist](https://www.lespressesdureel.com/ouvrage.php?id=8156&menu=0), 
