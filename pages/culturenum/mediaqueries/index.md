@@ -91,7 +91,9 @@ La décentralisation du réseau, son adossement à un logiciel libre et son prot
 
 Sans algorithme, sans publicité, de nombreuses fonctionnalités sont conçues pour favoriser l’inclusivité (description textuelle des images, avertissements pour contenus sensibles) ou la _privacy_. De nombreux usages présents aujourd’hui (présentation personnelle, logiques de recommandations publiques, messages de bienvenue) en font un espace social à la fois plus hétérogène que celui de Twitter et des grands réseaux, mais également plus cohérent et bienveillant. 
 
-De nombreuses questions se posent quand au futur du fonctionnement du service. La modération, notamment, est une tâche parfois complexe dédiée  aux administrateurs de l’instance. La notoriété grandissante de l’outil pose également des problèmes liés aux “grosses instances”. Mais la mise en œuvre de systèmes d’échanges humains décentralisés appuyés sur les logiques du libre, constitue enfin une alternative désirable aux architectures toxiques des grands réseaux. 
+De nombreuses questions se posent quand au futur du fonctionnement du service. La modération, notamment, est une tâche parfois complexe dédiée  aux administrateurs de l’instance. La notoriété grandissante de l’outil pose également des problèmes liés aux “grosses instances”. Mais la mise en œuvre de systèmes d’échanges humains décentralisés appuyés sur les logiques du libre, constitue enfin une alternative désirable aux architectures toxiques des grands réseaux dont Aaron Swartz rêvait [^rss].
+
+[^rss]: Il était prévu que le sujet des flux RSS soit abordé ici, mais le temps manque.
 
 ## BFM, CNEWS, C8, Boloré…
 
