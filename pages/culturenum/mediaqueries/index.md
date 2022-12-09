@@ -4,9 +4,7 @@ Il sera question de Twitter et de Fédivers, d’Elon Musk et d’Aaron Swartz, 
 
 Nous tâcherons d’aborder les questions de l’accès à l’information, des modalités de sa diffusion et des enjeux que portent les alternatives — tant du point de vue des _réseaux_ (sociaux) que des _médias_ qu’ils sont presque tous devenus. 
 
-⚠️ Il sera pas mal question de la notion d’attention. Aussi, merci de respecter le cadre attentionnel de ce cours, quitte à vous y ennuyer, et ne pas vous connecter sur vos réseaux sociaux — sauf quand je vous y inviterai…
-
-[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_mediaqueries?lang=fr){.bigbutton}
+⚠️ Il sera question de la notion d’attention. Aussi, merci de respecter le cadre attentionnel de ce cours, quitte à vous y ennuyer, et ne pas vous connecter sur vos réseaux sociaux — sauf quand je vous y inviterai…
 
 
 ## Twitter
@@ -19,19 +17,15 @@ En chiffres : 396 millions d’utilisateurs en 2022, dont 206 accèdent à la p
 
 ## Elon Musk
 
-<figure>
-<img src="images/63b086143851c426.jpg" alt="Hedy Lamarr">
-<figcaption>
-“Why is a gas pump telling me this. there is no escape” — <a href="https://yiff.life/@sky/109411475140930442">@sky@yiff.life</a>.
-</figcaption>
-</figure>
+![](images/63b086143851c426.jpg)
+  “Why is a gas pump telling me this. there is no escape” — [@sky@yiff.life](https://yiff.life/@sky/109411475140930442).
 
 « Le 14 avril, Elon Musk  propose de racheter l’entièreté de Twitter pour 44 milliards de dollars. Il déclare vouloir racheter l’entreprise au nom du principe de liberté d’expression. Il déclare également vouloir davantage de transparence au niveau de l’algorithme en rendant public le code source et “vaincre les robots de spam et authentifier tous les humains”. »[^wp]
-L’ouverture du code source de l’algorithme n’est évidemment pas au programme…
+L’ouverture du code source de l’algorithme n’est évidemment pas au programme… Le reste des déclarations d’intention va également se confronter à des limites certaines.
 
-Ce rachat s’inscrit dans la bruyante histoire des rachats d’entreprises technologiques, opérés soit pour s’approprier une technologie ou une audience ou pour détruire ou absorber un concurrent. « Google fit l’acquisition de Youtube pour 1,65 milliards de dollars en 2005. En 2021 et pour 20 milliards Microsoft rachetait la société “Nuance”, spécialisée dans l’intelligence artificielle conversationnelle. En 2016, Microsoft encore, sortait 26 milliards de dollars pour racheter LinkedIn. En 2014 Facebook rachetait WhatsApp pour 22 milliards de dollars,  […] et en 2012 le même Facebook rachetait Instagram pour 1 milliard de dollars[^aff]. » Plus proches de nous, en septembre 2022, Adobe annonçait l’acquisition de Figma – un éditeur d’images vectorielles et un outil de prototypage d’interface – pour la somme de 20 milliards de dollars.
+Ce rachat s’inscrit dans la longue histoire des rachats d’entreprises technologiques, opérés soit pour s’approprier une technologie ou une audience ou pour détruire ou absorber un concurrent. « Google fit l’acquisition de Youtube pour 1,65 milliards de dollars en 2005. En 2021 et pour 20 milliards Microsoft rachetait la société “Nuance”, spécialisée dans l’intelligence artificielle conversationnelle. En 2016, Microsoft encore, sortait 26 milliards de dollars pour racheter LinkedIn. En 2014 Facebook rachetait WhatsApp pour 22 milliards de dollars,  […] et en 2012 le même Facebook rachetait Instagram pour 1 milliard de dollars[^aff]. » Plus proches de nous, en septembre 2022, Adobe annonçait l’acquisition de Figma – un éditeur d’images vectorielles et un outil de prototypage d’interface – pour la somme de 20 milliards de dollars.
 
-Depuis le rachat par Musk : licenciements massif (la moitié du personnel, la majorité des sous-traitants, toute la branche “modération”), exode (puis retour partiel ces derniers jours) des annonceurs, problèmes techniques, cafouillages sur la certification (8$/mois), #TwitterFiles, augmentation de 200 % des tweets racistes, de 60 % des posts antisémites ou homophobes, réouvertures de comptes notoirement fascistes. Et exode partiel vers d’autres lieux (le Fédivers, Tumblr, Linkedin…).
+Depuis le rachat par Musk : licenciements massif (la moitié du personnel, la majorité des sous-traitants, toute la branche “modération”), exode des annonceurs (malgré un retour partiel ces derniers jours), problèmes techniques, cafouillages sur la certification (8$/mois), #TwitterFiles, augmentation de 200 % des tweets racistes, de 60 % des posts antisémites ou homophobes, réouvertures de comptes notoirement fascistes. Et exode partiel vers d’autres lieux (le Fédivers, Tumblr, Linkedin…).
 
 [^wp]: -> [Wikipédia](https://fr.wikipedia.org/wiki/Twitter#Rachat_en_2022)
 [^aff]: Olivier Ertzscheid, [_L’oiseau, le milliardaire et le précipice_](https://affordance.framasoft.org/2022/08/cest-pas-elon-qui-prend-twitter/)
@@ -43,13 +37,13 @@ Depuis le rachat par Musk : licenciements massif (la moitié du personnel, la m
 
 Depuis SixDegrees.com, considéré comme le premier réseau social, en 1997 et MSN (1999), les réseaux sociaux numériques atteignent le grand public entre 2002 (Friendster et MySpace) et 2004 (Facebook). Leurs succèdent ou s’y ajoutent Twitter, YouTube, Soundcloud, Bandcamp, Tumblr, Twitch,  Flickr, Instagram, Pinterest, Linkedin, SnapChat, TikTok, mais aussi forums, blogs, wikis ou simples sites de médias ouverts aux commentaires. World of Warcraft, Fortnite ou SecondLife peuvent aussi être considérés comme des réseaux sociaux.
 
-Des relations sociales entre les utilisateurs de ces services s’y nouent, des communautés s’y tissent, des échanges interpersonnels ou collectifs s’y produisent. La période s’est retrouvée nommée web 2.0, âge de l’avènement de la dimension massivement sociale de nos échanges numériques, de la transformation d’un univers de documents en un univers de personnes.
+Des relations sociales entre les utilisateurs de ces services s’y nouent, des communautés s’y tissent, des échanges interpersonnels ou collectifs s’y produisent. La période s’est retrouvée nommée web 2.0, âge de l’avènement de la dimension massivement sociale de nos échanges numériques, de la transformation d’un univers de documents en un univers de personnes (voire, de la transformation des personnes en documents).
 
 ### Médias <- -> réseaux ?
 
 Pourquoi parler de médias (sociaux) plutôt que de réseaux (sociaux) ? 
 
-Dans leur immense majorité, ces services nous montrent des contenus soumis à et filtrés par des logiques algorithmiques. Cette éditorialisation de l’accès à l’information, rendue nécessaire (?) par l’immensité du flux informationnel, est surtout et primordialement motivée par l’enjeu majeur des éditeurs de ces services : monétiser la présence et l’activité des utilisateurs.
+Dans leur immense majorité, ces services nous montrent des contenus soumis à et filtrés par des __logiques algorithmiques__. Cette éditorialisation de l’accès à l’information, rendue nécessaire (?) par l’immensité du flux informationnel, est surtout et primordialement motivée par l’enjeu majeur des éditeurs de ces services : monétiser la présence et l’activité des utilisateurs.
 
 Le marché, la capacité de transformer en valeur financière les utilisateurs et leurs interactions, est le seul guide de conduite de ces services. Ils ne deviendraient “moraux” que si l’immoralité devait réduire leurs parts de marché à court ou moyen terme. Leurs déclarations de bonne volonté, leurs serments de vertu, sont systématiquement mis à mal et battus en brèche par l’exposé des innombrables [scandales](https://dayssincelastfacebookscandal.com/) dont elles ont fait l’objet.
 
@@ -72,6 +66,7 @@ Pour atteindre leurs objectifs, sur certaines plateformes, les contenus les plus
 Ré-éclairé par la fuite de nombreux utilisateurs ([#TwitterMigration](https://twitter.com/hashtag/TwitterMigration)), Mastodon est un réseau social décentralisé, logiciel libre, partie prenante de ce qu’on nomme le Fédivers (pour _Federated Universe_). Il s’oppose aux réseaux/médias centralisés au fonctionnement opaque, soumis au contrôle arbitraire et à la surveillance.
 
 ![](images/networks.png)
+  _On Distributed Communication Networks_, Paul Baran
 
 Le _Fediverse_ forme un réseau décentralisé de serveurs, qui hébergent des services libres de médias sociaux et qui utilisent des protocoles communs pour communiquer entre eux.
 
@@ -93,7 +88,7 @@ Sans algorithme, sans publicité, de nombreuses fonctionnalités sont conçues p
 
 De nombreuses questions se posent quand au futur du fonctionnement du service. La modération, notamment, est une tâche parfois complexe dédiée  aux administrateurs de l’instance. La notoriété grandissante de l’outil pose également des problèmes liés aux “grosses instances”. Mais la mise en œuvre de systèmes d’échanges humains décentralisés appuyés sur les logiques du libre, constitue enfin une alternative désirable aux architectures toxiques des grands réseaux dont Aaron Swartz rêvait [^rss].
 
-[^rss]: Il était prévu que le sujet des flux RSS soit abordé ici, mais le temps manque.
+[^rss]: Il était prévu que le parcours d’Aaron Swartz, sa contribution à la création du standard RSS et sa pensée d’un numérique ouvert soit abordé ici, mais le temps manque.
 
 ## BFM, CNEWS, C8, Boloré…
 
@@ -101,9 +96,9 @@ Le projet [Micromédia](../../projets/micromedia/) est introduit chaque année s
 
 En 2022, en France, quelques grands patrons détiennent l’essentiel des titres de presse et des médias télévisuels, et sont en situation de quasi-monopole dans le secteur de l’édition. L’importance majeure (en audience) des chaînes d’info en continu, des émissions de télé-poubelle et leur assujettissement aux logiques (à la fois économiques et politiques) de leurs patrons impose un “agenda” médiatique qui définit largement les normes du traitement de l’information.
 
-Les [procès-baillons](https://www.okpal.com/reflets/#/) et les [attaques](https://www.arretsurimages.net/chroniques/initiales-ds/fogiel-et-bfmtv-attaquent-samuel-gontier-acte-1-et-2) que [subissent les médias indépendants](https://www.mediapart.fr/journal/france/011222/affaire-perdriau-les-coulisses-d-une-censure) des médias traditionnels se juxtaposent avec les logiques algorithmiques toxiques dans le champ numérique pour dessiner un environnement médiatique pour le moins problématique.
+Les [procès-baillons](https://www.okpal.com/reflets/#/) et les [attaques](https://www.arretsurimages.net/chroniques/initiales-ds/fogiel-et-bfmtv-attaquent-samuel-gontier-acte-1-et-2) que [subissent les médias indépendants](https://www.mediapart.fr/journal/france/011222/affaire-perdriau-les-coulisses-d-une-censure), la deliquescence de nombreux médias traditionnels se juxtaposent avec les logiques algorithmiques toxiques dans le champ numérique pour dessiner un environnement médiatique global pour le moins problématique.
 
-Chaque jour se font plus impérieux les enjeux de la réappropriation des espaces médiatiques, plus nécessaire la circulation libre d’une information indépendante, plus critique la question du contrôle des données personnelles par les individus. 
+Chaque jour se font plus impérieux les enjeux de la réappropriation de ces espaces médiatiques, plus nécessaire la circulation libre d’une information indépendante, plus critique la question de la maîtrise des données personnelles par les individus. 
 
 La conjonction de la crise de Twitter et de l’émergence de Mastodon offre la possibilité d’une faille dans l’écosystème médiatique et social numérique qu’il serait dommage de négliger ou de s’abstenir d’expérimenter.  
 
@@ -137,9 +132,3 @@ Voir [Media Crash - Qui a tué le débat public ](https://www.mediapart.fr/studi
 
 ### Médias indépendants, d’enquête, d’analyse ou de reportage 
 [Mediapart](http://mediapart.fr/), [LeMédia](https://www.lemediatv.fr/), [Blast](https://www.blast-info.fr/), [AOC](https://aoc.media/), [Brief.me](https://www.brief.me/), [Basta](https://www.bastamag.net/), [StreetPress](https://www.streetpress.com/), [Disclose](https://disclose.ngo), [Médor](https://medor.coop/)…
-
-## Pad
-
-Cliquez sur le lien ci-dessous pour contribuer au pad, poser des questions, mettre en liens textes, ressources et références pour partager la parole et nourrir le débat ↓
-
-[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_mediaqueries?lang=fr){.bigbutton}
