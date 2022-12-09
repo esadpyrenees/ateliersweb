@@ -4,8 +4,6 @@ Il sera question de Twitter et de Fédivers, d’Elon Musk et d’Aaron Swartz, 
 
 Nous tâcherons d’aborder les questions de l’accès à l’information, des modalités de sa diffusion et des enjeux que portent les alternatives — tant du point de vue des _réseaux_ (sociaux) que des _médias_ qu’ils sont presque tous devenus. 
 
-⚠️ Il sera question de la notion d’attention. Aussi, merci de respecter le cadre attentionnel de ce cours, quitte à vous y ennuyer, et ne pas vous connecter sur vos réseaux sociaux — sauf quand je vous y inviterai…
-
 
 ## Twitter
 
