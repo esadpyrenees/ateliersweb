@@ -33,7 +33,9 @@ Depuis le rachat par Musk : licenciements massif (la moitié du personnel, la m
 > « Un réseau social est un ensemble d’identités sociales, telles que des individus ou encore des organisations, reliées entre elles par des liens créés lors d’interactions sociales[^rs]. »
 [^rs]: -> [Wiktionnaire](https://fr.wiktionary.org/wiki/r%C3%A9seau_social)
 
-Depuis SixDegrees.com, considéré comme le premier réseau social, en 1997 et MSN (1999), les réseaux sociaux numériques atteignent le grand public entre 2002 (Friendster et MySpace) et 2004 (Facebook). Leurs succèdent ou s’y ajoutent Twitter, YouTube, Soundcloud, Bandcamp, Tumblr, Twitch,  Flickr, Instagram, Pinterest, Linkedin, SnapChat, TikTok, mais aussi forums, blogs, wikis ou simples sites de médias ouverts aux commentaires. World of Warcraft, Fortnite ou SecondLife peuvent aussi être considérés comme des réseaux sociaux.
+Depuis SixDegrees.com, considéré comme le premier réseau social, en 1997 et MSN (1999), les réseaux sociaux numériques atteignent le grand public entre 2002 (Friendster et MySpace) et 2004 (Facebook). Leurs succèdent ou s’y ajoutent Twitter, YouTube, Soundcloud, Bandcamp, Tumblr, Twitch,  Flickr, Instagram, Pinterest, Linkedin, SnapChat, TikTok, mais aussi forums, blogs, wikis ou simples sites de médias ouverts aux commentaires. World of Warcraft, Fortnite[^fornite] ou SecondLife peuvent aussi être considérés comme des réseaux sociaux.
+
+[^fornite]: Lire [Pourquoi il faut sérieusement s’intéresser à Fortnite](https://signauxfaibles.co/2018/12/26/pourquoi-il-faut-serieusement-sinteresser-a-fortnite/)
 
 Des relations sociales entre les utilisateurs de ces services s’y nouent, des communautés s’y tissent, des échanges interpersonnels ou collectifs s’y produisent. La période s’est retrouvée nommée web 2.0, âge de l’avènement de la dimension massivement sociale de nos échanges numériques, de la transformation d’un univers de documents en un univers de personnes (voire, de la transformation des personnes en documents).
 
