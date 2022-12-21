@@ -3,6 +3,7 @@
     $title = "Outils";
     $section="outils";
     $mdfile = "./outils.md";
+    $nav = "/web/snippets/tools/tools.php";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

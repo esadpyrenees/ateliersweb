@@ -1,0 +1,19 @@
+.details {
+  display: none;
+  scroll-margin-top: 2rem;
+}
+.details.open {
+  display: block;
+}
+.bigbutton { margin-top: 0;}
+.bigbutton:hover,
+.activeconfig, .activeconfig:hover,
+.bigbutton.activebtn {
+  background: limegreen;
+}
+.bigbutton:active {
+  background: rgb(33, 168, 33);
+}
+
+.config { display: none;}
+.config.open { display: block;} 

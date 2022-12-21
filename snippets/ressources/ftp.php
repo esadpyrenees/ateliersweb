@@ -5,8 +5,7 @@
         <ul class="contextsub">
             <li><a href="#pre-requis">Pré-requis</a></li>
             <li><a href="#demarrer">Démarrer</a></li>
-            <li><a href="#cyberduck">Cyberduck</a></li>
-            <li><a href="#filezilla">Filezilla</a></li>
+            <li><a href="#clients">Logiciels FTP</a></li>
             <li><a href="#structure">Structure</a></li>
             <li><a href="#faq">FAQ</a></li>
         </ul>
