@@ -1,12 +1,23 @@
 <?php 
+
+  $params = '';
+  if (isset($_GET['params'])) {
+    $params = '/' . $_GET['params'];
+  }
+
+  // $archivesdir = '../../archives';
+  $archivesdir = $_SERVER["DOCUMENT_ROOT"] . "/web/archives";
+
   // Does the dir has an index.html|php|htm file 
   function hasIndex($dir){
-    
-    $fs = array_diff( scandir($dir), array(".", "..") );
+    $archivesdir = $_SERVER["DOCUMENT_ROOT"] . "/web/archives" . "/" . $dir;
+    $s = scandir( $dir);
+    $fs = array_diff( $s, array(".", "..") );
     foreach($fs as $f){
       if(in_array($f, ["index.html", "index.php", "index.htm"])){
-        return basename($f);
-      }
+        
+        return $f;
+      } 
     }
 
     return false;
@@ -24,22 +35,17 @@
     return false;
   }
 
-  $params = '';
-  if (isset($_GET['params'])) {
-    $params = '/' . $_GET['params'];
-  }
-
-  $archivesdir = '../../archives';
   $currentdir = $archivesdir . $params;
   
   $index = hasIndex($currentdir);
   if($index){
-    // var_dump($index);
     header("Location: $index");
   } 
   
+
   // if current dir has index
-  $dir = new DirectoryIterator($currentdir);
+  // $dirs = new DirectoryIterator($currentdir);
+  // var_dump( $dirs);
 
   $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
   $section="archives";
@@ -59,16 +65,16 @@
         $results = array();
         
         // browse currentdir, looking for subdirs or index
-        foreach ($dir as $fileinfo) {
+        foreach (new DirectoryIterator($currentdir) as $fileinfo) {
+
           if ($fileinfo->isDir() && !$fileinfo->isDot()) {
-            $index = hasIndex($fileinfo->getPathname());  
             $path = $fileinfo->getFilename() . '/';
             if ($index != false ) {
-              $path = basename($dir) . '/' .$index;
+              $path = $fileinfo . '/' .$index;
             }
             $dirArray = array(
               'path'=>$path, 
-              'name'=>basename($dir). '/'
+              'name'=>basename($fileinfo). '/'
             );
             $results[] = $dirArray;
           } elseif (strpos($fileinfo, 'html') !== false && !$fileinfo->isDot()){
