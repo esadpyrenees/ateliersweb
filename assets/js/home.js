@@ -99,22 +99,22 @@ var links = [
   ["Puck Ferpection", "/web/pages/projets/perfuction/", "projets"],
   ["Portfolio", "/web/pages/projets/portfolio/", "projets"],
   ["Kirby", "/web/pages/projets/portfolio/kirby", "projets"],
-  ["Blueprints", "/web/pages/projets/portfolio/blueprints", "projets"],
-  ["Données", "/web/pages/projets/portfolio/blueprints/#modele-de-donnees", "projets"],
-  ["Scénario 1", "/web/pages/projets/portfolio/blueprints/scenario-1", "projets"],
-  ["Scénario 2", "/web/pages/projets/portfolio/blueprints/scenario-2", "projets"],
-  ["Champs", "/web/pages/projets/portfolio/blueprints/#champs", "projets"],
-  ["Interface", "/web/pages/projets/portfolio/blueprints/#interface-dadministration", "projets"],
-  ["Templates", "/web/pages/projets/portfolio/templates", "projets"],
-  ["Bases", "/web/pages/projets/portfolio/templates/#php", "projets"],
-  ["PHP & Kirby", "/web/pages/projets/portfolio/templates/#kirby", "projets"],
-  ["Snippets", "/web/pages/projets/portfolio/templates/#snippets", "projets"],
+  // ["Blueprints", "/web/pages/projets/portfolio/blueprints", "projets"],
+  // ["Données", "/web/pages/projets/portfolio/blueprints/#modele-de-donnees", "projets"],
+  // ["Scénario 1", "/web/pages/projets/portfolio/blueprints/scenario-1", "projets"],
+  // ["Scénario 2", "/web/pages/projets/portfolio/blueprints/scenario-2", "projets"],
+  // ["Champs", "/web/pages/projets/portfolio/blueprints/#champs", "projets"],
+  // ["Interface", "/web/pages/projets/portfolio/blueprints/#interface-dadministration", "projets"],
+  // ["Templates", "/web/pages/projets/portfolio/templates", "projets"],
+  // ["Bases", "/web/pages/projets/portfolio/templates/#php", "projets"],
+  //["PHP & Kirby", "/web/pages/projets/portfolio/templates/#kirby", "projets"],
+  //["Snippets", "/web/pages/projets/portfolio/templates/#snippets", "projets"],
   ["Figures", "/web/pages/projets/figures/", "projets"],
   ["Local Area Social Network", "/web/pages/projets/lasn/", "projets"],
   ["Mémoire vive", "/web/pages/projets/memoirevive/", "projets"],
-  ["CSS / JS", "/web/pages/projets/portfolio/assets/", "projets"],
+  // ["CSS / JS", "/web/pages/projets/portfolio/assets/", "projets"],
   ["Cultures numériques", "/web/pages/culturenum/", "culturenum"],
-  ["Cultures", "/web/pages/culturenum/", "culturenum"],
+  ["Cultures numériques", "/web/pages/culturenum/", "culturenum"],
   ["Design éthique", "/web/pages/culturenum/ethique/", "culturenum"],
   ["Design libre", "/web/pages/culturenum/libre/", "culturenum"],
   ["Folklore", "/web/pages/culturenum/folklore/", "culturenum"],
@@ -133,7 +133,7 @@ var links = [
   ["Typographie", "/web/pages/exemples/#typo", "exemples"],
   ["Interactivité", "/web/pages/exemples/#interactive", "exemples"],
   ["Variable fonts", "/web/pages/exemples/#variable", "exemples"],
-  ["Html2Print", "/web/pages/exemples/#htmltoprint", "exemples"],
+  ["Webtoprint", "/web/pages/exemples/#webtoprint", "exemples"],
   ["Livres", "/web/pages/lectures/#livres", "lectures"],
   ["Revues", "/web/pages/lectures/#revues", "lectures"],
   ["Newsletters", "/web/pages/lectures/#newsletters", "lectures"],
@@ -155,18 +155,21 @@ function createLink (idx) {
     el.textContent = text;
     el.className = el.dataset.category = cat;
 
-
     el.id = "el-" + idx;
     pane.appendChild(el);
 
     el.addEventListener('mouseover', function(e){
       pane.classList.add(e.target.dataset.category);
       pane.classList.add('hover');
+      clearInterval(s);
+      s = null;
+
     })
 
     el.addEventListener('mouseout', function(e){    
       pane.classList.remove(e.target.dataset.category);
       pane.classList.remove('hover');
+      s = setInterval(souk, 12000);
     });  
 
     anchors.push(el);
@@ -220,7 +223,7 @@ function souk(){
 }
 
 // 
-init();
+// init();
 
 // resize
 window.addEventListener('resize', function(){
