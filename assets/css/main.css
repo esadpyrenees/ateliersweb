@@ -308,14 +308,14 @@ details summary {
 @keyframes edit {
     0%{ color: inherit; }
     50%{ color: inherit; }
-    100%{ color: lightcoral; }
+    100%{ color: tomato; }
 }
 
 
 .new::after{
     content: "NEW";
     font-size: .75em;
-    background: lightcoral;
+    background: tomato;
     padding: 0.1em .25em;
     line-height: 1;
     color:white;
@@ -336,7 +336,7 @@ details summary {
 @keyframes blink {
     0%{ color: inherit; }
     80%{ color: inherit; }
-    100%{ color: red; }
+    100%{ color: tomato; }
 }
 
 .clearfix:after {
@@ -409,7 +409,7 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
 
 
 
-/* probably very old stuff */
+/* examples */
 
 .exemples .exemple{
     border: none;
@@ -557,7 +557,8 @@ ul.list{
     border: none;
     border-radius: .25em;
     text-transform: uppercase;
-    margin-top: 2em
+    margin-top: 2em;
+    font-family: inherit;
 }
 .bigbutton:hover{
     background: tomato;
@@ -619,78 +620,6 @@ ul.list{
     .active ~ .active ~ #content,
     .active ~ .active ~ .active ~ #content,
     .active ~ .active ~ .active ~ .active ~ #content { width: 100%}
-}
-.pane.home { 
-    display: flex; 
-    align-items: stretch;
-    left: 12em !important;
-    padding-bottom: 2rem !important;
-    position: relative;
-    border-left: none;
-    width: calc(100% - 12rem) !important;
-    flex-direction: column;
-}
-.homelinks a {
-    position: absolute;
-    border: 4px solid #000;
-    background: #fff;
-    line-height: 1;
-    padding: .25em;
-    opacity: 0;
-    transition: all 250ms ease-out;
-}
-
-.homelinks {
-    flex: 1;
-    position: relative;
-}
-
-.homelinks.ressources .ressources { border-color: tomato; color: tomato;}
-.homelinks .ressources:hover { color: #fff; border-color: tomato; background: tomato; z-index: 1;}
-
-.homelinks.references .references { border-color: DeepSkyBlue; color: DeepSkyBlue;}
-.homelinks .references:hover { color: #fff; border-color: DeepSkyBlue; background: DeepSkyBlue; z-index: 1;}
-
-.homelinks.lectures .lectures { border-color: blueviolet; color: blueviolet;}
-.homelinks .lectures:hover { color: #fff; border-color: blueviolet; background: blueviolet; z-index: 1;}
-
-.homelinks.exemples .exemples { border-color: DarkSeaGreen; color: DarkSeaGreen;}
-.homelinks .exemples:hover { color: #fff; border-color: DarkSeaGreen; background: DarkSeaGreen; z-index: 1;}
-
-.homelinks.projets .projets { border-color: DeepPink; color: DeepPink;}
-.homelinks .projets:hover { color: #fff; border-color: DeepPink; background: DeepPink; z-index: 1;}
-
-.homelinks.culturenum .culturenum { border-color: yellowgreen; color: yellowgreen;}
-.homelinks .culturenum:hover { color: #fff; border-color: yellowgreen; background: yellowgreen; z-index: 1;}
-
-.homelinks.done a { opacity: 1; }
-.homelinks a:hover { z-index: 2; }
-.lastlinks {
-    margin: -.2em 0 1em;
-}
-.lastlinks span {
-    background: tomato;
-    color:white;
-    font-size: .65em;
-    text-transform: uppercase;
-    padding: .15em .25em .1em;
-    border-radius: 3px;
-    position: relative;
-    top:-.15em;
-    line-height: 1em;
-}
-.home .visite {
-    margin-bottom: 1em;
-}
-@media only screen and (max-width: 45em) {
-
-    .pane.home {width: 100% !important;}
-    
-    .homelinks a {
-        position: static !important;
-        display: inline-block;
-        margin: 0 .25em .25em 0;
-    }
 }
 
 @media only screen and (max-width: 40em) {
