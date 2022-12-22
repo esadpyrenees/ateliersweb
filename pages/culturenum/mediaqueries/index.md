@@ -51,9 +51,11 @@ On connait les enjeux du ciblage comportemental, du capitalisme de surveillance[
 
 Cette individualisation formidable des contenus affichés s’allie à l’immense capacité de croisement des données que procurent aux plateformes leur gigantesque quantité d’utilisateur⋅ices. Soumises aux logiques publicitaires (qu’il s’agisse d’affichage direct ou de revente de données), les plateformes ont progressivement mis en place des logiques algorithmiques pour capter l’attention de leurs utilisateurs et favoriser leur “engagement”.
 
-Pour atteindre leurs objectifs, sur certaines plateformes, les contenus les plus clivants sont favorisés, générant des clashs à l’infini. Sur d’autres, on met tout en œuvre pour un _dumb scrolling_ infini. Ailleurs, les contenus viraux s’enchaînent.
+Pour atteindre leurs objectifs, sur certaines plateformes, les contenus les plus clivants sont favorisés, générant des clashs à l’infini et agissant violemment sur l’opinion publique[^yt]. Sur d’autres, on met tout en œuvre pour un _dumb scrolling_ infini. Ailleurs, les contenus viraux s’enchaînent.
 
 > <big>« Il n’y a pas d’algorithmes, seulement la décision de quelqu’un d’autre[^geants] »</big>
+
+[^yt]: Lire la série [_Comment YouTube influence les élections ?_](https://www.810.fr/article-categories/numerique-et-democratie) de 810.fr, et notamment sa conclusion, _Comment les algorithmes nous radicalisent_.
 
 [^geants]: Olivier Ertzscheid, _L’appétit des géants. Pouvoir des algorithmes, ambitions des plateformes_, [C&F éditions](https://cfeditions.com/geants/)
 
