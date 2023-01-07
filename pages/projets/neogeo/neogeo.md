@@ -20,7 +20,7 @@ Les outils avec lesquels nous agissons sur le monde ont une influence sur nos ac
 
 La première vocation du langage CSS n’est évidemment pas d’être un outil de dessin, mais en tordant le langage, en le _hackant_, on peut produire des formes, des couleurs, des ombres, des dégradés, des motifs, bref, dessiner et peindre. 
 
-Parmi les pratiques de dessin avec CSS, certains usages sont vituoses, reproduisant [la Joconde](https://css-art.com/mona-lisa/ ), copiant [les peintres flamants](https://css-art.com/pure-css-lace/) ou [ré-explorant la peinture du XII<sup>e</sup>](https://diana-adrianne.com/purecss-francine/) [^francine]. D’autres explorent le champ typographique, dessinant [des lettres](https://refringo.glitch.me/specimen.html), des [alphabets](http://desandro.github.io/curtis-css-typeface/), voire [des systèmes typographiques complets](https://www.loremipsum.ro/fonts/golden-age/). 
+Parmi les pratiques de dessin avec CSS, certains usages sont virtuoses, reproduisant [la Joconde](https://css-art.com/mona-lisa/ ), copiant [les peintres flamands](https://css-art.com/pure-css-lace/) ou [ré-explorant la peinture du XII<sup>e</sup>](https://diana-adrianne.com/purecss-francine/) [^francine]. D’autres explorent le champ typographique, dessinant [des lettres](https://refringo.glitch.me/specimen.html), des [alphabets](http://desandro.github.io/curtis-css-typeface/), voire [des systèmes typographiques complets](https://www.loremipsum.ro/fonts/golden-age/). 
 
 Cet usage de CSS est devenu [un exercide de style](https://css-art.com/), poussant la contrainte jusqu’à utiliser [un seul élément HTML](https://a.singlediv.com/), donnant lieu à [un nombre considérable](https://codepen.io/tag/css-art) de démos plus ou moins créatives.
 
