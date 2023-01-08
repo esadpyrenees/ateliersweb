@@ -11,7 +11,7 @@ Lorsqu’on écrit du code HTML, on écrit du texte. Le premier et principal con
 
 Les paragraphes `<p>` sont les éléments HTML les plus utilisés, car ils agissent en tant qu’éléments de niveau bloc par défaut et sont rapides à écrire.
 
-```
+```html
 <p>
   95% de l’information sur le web est constitué d’écrit. Il est tout à fait logique de dire qu’un designer web devrait recevoir une bonne formation dans la discipline principale de la mise en forme de l’information écrite, en d’autres termes, la typographie (Olivier Reichenstein).
 </p>
@@ -33,7 +33,7 @@ Les listes HTML nécessitent une structure spécifique:
 
 Ce sont les types de listes les plus couramment utilisés. Elles servent à regrouper une liste d’éléments individuels, sans ordre particulier.
 
-```
+```html
 <p>Liste de courses :</p>
 <ul>
   <li>Lait </li>
@@ -56,7 +56,7 @@ Les éléments de la liste sont affichés (par défaut) avec des puces.
 #### Listes ordonnées
 
 Les listes ordonnées sont utilisées lorsque l’ordre de ses éléments est important.
-```
+```html
 <ol>
   <li>Première étape </li>
   <li>Deuxième étape </li>
@@ -73,7 +73,7 @@ Les listes ordonnées sont (par défaut) automatiquement numérotées par le nav
 ### Bloc de citation
 
 Les blocs de citation sont utilisés pour identifier une citation.
-```
+```html
 <p>Tim Berners-Lee a déclaré: </p>
 <blockquote>
   « Le web est plus une invention sociale que technologique. Je l’ai conçu pour qu’il ait un effet social – aider les gens à travailler ensemble – et non comme un jouet technologique. »
@@ -98,7 +98,7 @@ Si les paragraphes et les listes visent à identifier des blocs de texte, il est
 ### Strong
 
 Pour les mots importants, on utilise la balise `<strong>`:
-```
+```html
 <p>
   C’est <strong> important </strong> !
 </p>
@@ -112,7 +112,7 @@ Par défaut, les éléments `<strong>` sont affichés en gras. ⚠️ Attention,
 ### Accentuation
 
 Pour appuyer un mot au sein du texte,on utilise la balise `<em>`:
-```
+```html
 <p>
   Ceci est <em>parfaitement</em> clair.
 </p>
@@ -122,7 +122,7 @@ Ceci est <em>parfaitement</em> clair.
 Par défaut, les éléments `<em>` sont affichés en italique. ⚠️ Attention, `<em>` ne doit pas être utilisé uniquement pour mettre du texte en italique, mais pour donner au texte plus d’importance (avec l’aide de CSS, on pourra préférer changer sa couleur plutôt que son style).
 
 N.B. : Lorsque le **sens** l’exige, on peut utiliser la balise `<i>`, par exemple pour l’inclusion d’un terme en langue étrangère :
-```
+```html
 <p>
   Archimède s’écria : <i>Eurêka !</i>
 </p>
@@ -134,7 +134,7 @@ Des abréviations telles que W3C ou ÉSAD peuvent utiliser l’élément `<abbr>
 
 On ajoute généralement un attribut `title` pour spécifier la description de l’abréviation, qui apparaît au survol de l’élément.
 
-```
+```html
 <p>
   J’étudie à l’<abbr title="École supérieure d’art et de design">ÉSAD</abbr> des Pyrénées.
 </p>
@@ -146,7 +146,7 @@ On ajoute généralement un attribut `title` pour spécifier la description de l
 ### Citations en ligne
 
 L’élément `<blockquote>` est un élément de niveau bloc. Il a une version en ligne, pour les citations intégrées à une phrase :
-```
+```html
 <p>
   J’ai dit <q>“Bonjour monde”</q> et je suis parti.
 </p>
@@ -155,7 +155,7 @@ J’ai dit <q>“Bonjour monde”</q> et je suis parti.
 
 ### Non-sémantique
 Lorsque l’on balise un élément de contenu qui n’a pas de signification particulière (par exemple, pour ajouter une couleur ou une graisse à un mot pour une raison autre que l’emphase), on peut utiliser l’élément `<span>`.
-```
+```html
 <p>
   Ceci est un <span>élément</span> singulier.
 </p>
@@ -172,7 +172,7 @@ La partie “HyperText” de HTML définit le type de ces liens : liens hyperte
 En HTML, les liens sont des éléments en ligne écrits avec la balise `<a>` (pour *anchor*, ancre).
 
 L’attribut `href` (référence hypertexte) est utilisé pour définir la cible du lien (à laquelle on accède lorsqu’on clique).
-```
+```html
 <p>
   Pour vous perdre, naviguez dans le <a href="https://desordre.net">Désordre</a>.
 </p>
@@ -211,7 +211,7 @@ Exemple : le dossier “mon-site” contient deux fichiers HTML (`home.html` et 
             * projet2.html
 
 Dans `accueil.html`, on peut écrire :
-```
+```html
 <p>
     Regardez mes projets :
 </p>
@@ -241,7 +241,7 @@ Cette URL peut être segmentée en 3 parties:
 Cette URL absolue est autonome : peu importe où l’on affiche le lien, il contient toutes les informations nécessaires pour trouver le bon fichier, dans le bon domaine, avec le bon protocole.
 
 On utilise généralement des URL absolues quand on veut produire un lien vers un autre site Web. La page `contact.html` pourra ainsi contenir un lien vers le site de l’ÉSAD :
-```
+```html
 <p>
   J’étudie à l’<a href="https://esad-pyrenees.fr/">ÉSAD Pyrénées</a>.
 </p>
@@ -277,7 +277,7 @@ L’attribut `src` définit l’emplacement de l’image. Comme pour les liens, 
     * accueil.html
     * logo.png
 
-```
+```html
 <h1><img src="logo.png" alt="Logo de mon super site"></h1>
 <p>
     Bienvenue sur mon site !
@@ -301,7 +301,7 @@ La balise `<canvas>` ajoute la possibilité de créer des animations avec du cod
 
 Les `<iframe>` sont un type de média particulier : ils constituent essentiellement une fenêtre vers une autre page Web. Ils sont aussi appelés *embed*.
 On les rencontre notamment si l’on veut intégrer une vidéo provenant d’un service externe (Youtube, Vimeo) :
-```
+```html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yfskVxCn_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
@@ -323,7 +323,7 @@ Il existe certains éléments HTML structurels que l’on peut utiliser comme co
 ### En-tête : `<header>`
 
 Le `<header>` est généralement le premier élément HTML du code. Il s’agit d’une introduction à la page Web, pouvant contenir le logo, un slogan et des liens de navigation.
-```
+```html
 <header>
     <h1><img src="logo.png" alt="Logo de mon super site"></h1>
     <p>
@@ -341,7 +341,7 @@ Le `<header>` est généralement le premier élément HTML du code. Il s’agit 
 ### Pied de page : `<footer>`
 
 Le pied de page est généralement le dernier élément d’une page, où les liens de navigation principaux sont répétés et les liens secondaires ajoutés.
-```
+```html
 <footer>
     <p>Mon super site © 2019</p>
     <nav>
@@ -379,7 +379,7 @@ Leurs différences sémantiques sont minces. `<section>` est utile pour découpe
 
 L’élément `<figure>` est généralement utilisé pour englober des images, illustrations, diagrammes, ou même des *snippets* de code. Il peut être utilisé en conjonction avec l’élément `<figcaption>` pour signaler la légende.
 
-```
+```html
 <figure>
     <img src="cat.jpg" alt="Une photo de mon chat">
     <figcaption>Mon chat est noir.</figcaption>
@@ -411,7 +411,7 @@ Pour répondre à ces besoins, HTML fournit des contrôles de formulaire interac
 * boutons de soumission
 
 Ces contrôles utilisent différentes balises HTML, mais la plupart d’entre eux utilisent la balise `<input>`. Comme il s’agit d’un élément à fermeture automatique, le type d’entrée est défini par son attribut type:
-```
+```html
 <!-- Entrée de texte -->
 <input type="text">
 <!-- Case à cocher -->
@@ -478,7 +478,7 @@ Les entrées de texte peuvent afficher un texte de substitution, qui disparaîtr
 ### Les `<label>`
 
 Étant donné que les éléments de formulaire ne sont pas très descriptifs, ils sont généralement précédés d’une étiquette, un `<label>`.
-```
+```html
 <label for="your-email"> Email </label>
 <input type="email" id="your-email">
 ```
@@ -490,7 +490,7 @@ Bien que les attributs `placeholder` puissent fournir des indications sur le con
 Les cases à cocher sont des contrôles de formulaire n’ayant que deux états: cochée ou décochée. Ils permettent à l’utilisateur de dire "Oui" ou "Non" à quelque chose.
 
 Comme il peut être difficile de cliquer sur une petite case à cocher, il est recommandé d’envelopper  la case à cocher et sa description d’un `<label>`.
-```
+```html
 <label>
   <input type="checkbox"> Je suis d’accord
 </label>
@@ -504,7 +504,7 @@ Comme il peut être difficile de cliquer sur une petite case à cocher, il est r
 On peut présenter à l’utilisateur une liste d’options à choisir en utilisant des boutons radio.
 
 Pour que ce contrôle de formulaire fonctionne, le code HTML doit regrouper une liste de boutons radio. Ceci est réalisé en utilisant la même valeur pour l’attribut `name`:
-```
+```html
 <p>État civil </p>
 <label>
     <input type="radio" name="status" value="single"> Célibataire
@@ -538,7 +538,7 @@ Etant donné que tous les boutons radio utilisent la même valeur pour leur attr
 ### Menus déroulants : `<select>`
 
 Si le nombre d’options à choisir est trop important, on peut utiliser les menus déroulants `<select>`. Ils fonctionnent comme des boutons radio. Seule leur mise en page est différente.
-```
+```html
 <select>
   <option>Janvier </option>
   <option>Février </option>

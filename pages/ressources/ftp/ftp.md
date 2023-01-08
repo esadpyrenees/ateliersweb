@@ -21,16 +21,7 @@ Il est intéressant de disposer de son propre espace chez un hébergeur. Le coû
 </div>
 
 ### *OU BIEN ! * un accès au serveur de l’ÉSAD
-Si vous ne disposez pas de votre propre hébergement, un espace de publication collectif est disponible pour les étudiant⋅es de l’ÉSAD Pyrénées, visible depuis le menu [**archives**](../../archives). Les indentifiants vous ont sans doute été transmis par e-mail (dans le cas contraire, [me contacter](mailto:julien.bidoret@esad-pyrenees.fr))
-
-<div class="blink">
-    <p>
-        👇 Cliquez sur un des boutons ci-dessous pour adapter le contenu de cette page à l’hébergement sur les serveurs d’Alwaysdata  ou  sur le serveur de l’ÉSAD:
-    </p>
-</div>
-
-<button id="alwaysdata" class="bigbutton button-config" >Hébergement Alwaysdata ?</button>
-<button id="esad" class="bigbutton button-config" >Hébergement ÉSAD ?</button>
+Si vous ne disposez pas de votre propre hébergement, un espace de publication collectif est disponible pour les étudiant⋅es de l’ÉSAD Pyrénées, visible depuis le menu [**archives**](../../../archives). Les indentifiants vous ont sans doute été transmis par e-mail (dans le cas contraire, [me contacter](mailto:julien.bidoret@esad-pyrenees.fr)).
 
 ### Un client (logiciel) FTP
 
@@ -68,7 +59,10 @@ Sur l’offre gratuite d’Alwaysdata, le domaine est *alwaysdata.net* et le sou
 
 Un site web est composé de nombreux fichiers : contenu textuel, code, feuilles de styles, contenus média, etc. organisés en dossiers et sous-dossiers. Relire [HTML/Bien démarrer](../html/start/)
 
-<p class="" markdown="0" style="background:tomato; color:white; padding:1em; font-size:1.5em"> Accents, espaces, capitales doivent être proscrits dans les noms des fichiers et dossiers. La page d’accueil de chaque dossier doit se nommer <code style="background:rgba(0,0,0,.4)">index.html</code></p>
+<p class="" markdown="0" style="background:tomato; color:white; padding:1em; font-size:1.5em">Éviter les accents, espaces, capitales dans les noms des fichiers et dossiers. </p>
+
+
+<p class="" markdown="0" style="background:tomato; color:white; padding:1em; font-size:1.5em">La page d’accueil de chaque dossier doit se nommer <code style="background:rgba(0,0,0,.4)">index.html</code></p>
 
 Par exemple:
 
@@ -85,6 +79,15 @@ Par exemple:
 ### Récupérer les identifiants et mot de passe de connexion
 
 
+<div class="blink">
+    <p>
+        👇 Cliquez sur un des boutons ci-dessous pour adapter le contenu de cette page à l’hébergement sur les serveurs d’Alwaysdata  ou  sur le serveur de l’ÉSAD:
+    </p>
+</div>
+
+<button id="esad" class="bigbutton button-config activeconfig" >Hébergement ÉSAD ?</button>
+<button id="alwaysdata" class="bigbutton button-config" >Hébergement Alwaysdata ?</button>
+
 <div class="esad open config" markdown="1">
 
 Si vous ne disposez pas d’un hébergement perso, les identifiants de connexion au serveur de l’ÉSAD vous ont été transmis par e-mail.
@@ -93,8 +96,8 @@ Attention, la connexion au serveur FTP de l’ÉSAD se fait grâce au mode SFTP
 
 1. L’**hôte SFTP** (ou **serveur**) : ftp.esad-pyrenees.fr
 2. Le **port** : \[XXXX\]
-2. Le **nom d’utilisateur** : \[votrecompte\]
-3. Le **mot de passe** : \[votr3m0tdep4sse\!]
+2. Le **nom d’utilisateur** : \[lecompteutilisateur\]
+3. Le **mot de passe** : \[L3m0tdep4sse\!]
 
 </div>
 
@@ -184,7 +187,7 @@ Si vous ne disposez pas d’un hébergement perso, le serveur de l’ésad conti
 
 <div class="config alwaysdata" markdown="1">
 
-Sinon, sur Alwaysdata, par défaut, l’utilisateur FTP à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). 
+Sur Alwaysdata, par défaut, l’utilisateur FTP à la “racine” de l’espace disque (qui contient les dossiers ` admin ` et ` www `). 
 
 Par défaut également, **le serveur affiche au visiteur le contenu du dossier `www`**[^info].
 
@@ -201,19 +204,21 @@ Un fichier `index.html` y est placé par défaut et correspond à la page d’ac
 
 </div>
 
+### Créer une page d’accueil personnalisée
+
 
 On crée alors un fichier html très simple (la CSS peut même y être intégrée), contentant quelques liens vers les dossiers des projets, voire même les fichiers de présentation (notes d’intention, maquettes, storyboard ou wireframes).
 
-Dans cet exemple, on postule deux projets, `webdesign` et `cultures_num` qui contiennent chacun quelques fichiers :
+Dans cet exemple, on postule deux projets, `projet-1` et `projet-2` qui contiennent chacun quelques fichiers :
 
 <pre markdown="0">
 <span class="icon-file-empty"></span> index.html ← page d’accueil personnalisée
-<span class="icon-folder-open"></span> webdesign
+<span class="icon-folder-open"></span> projet-1
     <span class="icon-file-empty"></span> index.html
     <span class="icon-file-empty"></span> note.pdf
     <span class="icon-file-empty"></span> storyboard.pdf
     <span class="icon-file-empty"></span> maquettes.pdf
-<span class="icon-folder-open"></span> cultures_num
+<span class="icon-folder-open"></span> projet-2
     <span class="icon-file-empty"></span> index.html
     <span class="icon-file-empty"></span> note.pdf
 </pre>
@@ -236,14 +241,14 @@ Dans cet exemple, on postule deux projets, `webdesign` et `cultures_num` qui con
             ÉSAD Pyrénées 
         </p>
         <p>
-            <a href="webdesign/index.html">→ webdesign</a><br>
-            <a href="webdesign/note.pdf">↪ note d’intention</a><br>
-            <a href="webdesign/storyboard.pdf">↪ storyboard</a><br>
-            <a href="webdesign/maquettes.pdf">↪ maquettes</a>
+            <a href="projet-1/index.html">→ projet 1</a><br>
+            <a href="projet-1/note.pdf">↪ note d’intention</a><br>
+            <a href="projet-1/storyboard.pdf">↪ storyboard</a><br>
+            <a href="projet-1/maquettes.pdf">↪ maquettes</a>
         </p>
         <p>
-            <a href="cultures_num/index.html">→ cultures numériques</a><br>
-            <a href="cultures_num/note.pdf">↪ note d’intention</a>
+            <a href="projet-2/index.html">→ projet 2</a><br>
+            <a href="projet-2/note.pdf">↪ note d’intention</a>
         </p>        
     </body>
 </html>
@@ -260,12 +265,12 @@ La structure de votre FTP deviendra donc :
     <span class="icon-folder-open"></span> [votre-promo]
         <span class="icon-folder-open"></span> [votre-nom]
             <span class="icon-file-empty"></span> index.html
-            <span class="icon-folder-open"></span> webdesign
+            <span class="icon-folder-open"></span> projet-1
                 <span class="icon-folder-open"></span> css
                 <span class="icon-folder-open"></span> img
                 <span class="icon-file-empty"></span> index.html
                 <span class="icon-file-empty"></span> …
-            <span class="icon-folder-open"></span> cultures_num
+            <span class="icon-folder-open"></span> projet-2
                 <span class="icon-folder-open"></span> css
                 <span class="icon-folder-open"></span> img
                 <span class="icon-file-empty"></span> index.html
@@ -292,12 +297,12 @@ La structure de votre FTP deviendra donc :
     <span class="icon-folder-open"></span> admin
     <span class="icon-folder-open"></span> www
         <span class="icon-file-empty"></span> index.html
-        <span class="icon-folder-open"></span> webdesign
+        <span class="icon-folder-open"></span> projet-1
             <span class="icon-folder-open"></span> css
             <span class="icon-folder-open"></span> img
             <span class="icon-file-empty"></span> index.html
             <span class="icon-file-empty"></span> …
-        <span class="icon-folder-open"></span> cultures_num
+        <span class="icon-folder-open"></span> projet-2
             <span class="icon-folder-open"></span> css
             <span class="icon-folder-open"></span> img
             <span class="icon-file-empty"></span> index.html

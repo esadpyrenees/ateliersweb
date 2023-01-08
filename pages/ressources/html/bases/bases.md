@@ -12,7 +12,7 @@ L’aller-retour étant permanent entre les deux outils, il est **indispensable*
 
 `cmd+s`, `cmd+tab`, `cmd+r` sur MacOS, ou `ctrl+s`, `alt+tab`, `F5` pour Windows/Linux
 
-Pour créer un document HTML, il suffit de créer un fichier texte (cmd/ctrl + N) et de l’enregistrer sous le nom `cequevousvoulez.html`.
+Pour créer un document HTML, il suffit de créer un fichier texte (cmd/ctrl + N) et de l’enregistrer sous le nom `cequevousvoulez.html`. Ou mieux: `index.html` (il deviendra ainsi la page d’accueil par défaut de votre projet de site web).
 
 
 ## Tags, attributs et élements
@@ -31,7 +31,7 @@ L’objectif du balisage HTML est de créer des limites aux éléments (ici comm
 
 Voici un paragraphe encodé en HTML :
 
-```
+```html
 <p>Jack, vous dactylographiez bien mieux que votre ami Wolf</p>
 ```
 Dont le résultat interprété par le navigateur est  :
@@ -46,7 +46,7 @@ Les attributs sont des informations complémentaires liées à un élément HTML
 
 Par exemple, l’attribut `href` est utilisé pour définir la cible d’un lien (balise `<a>`) :
 
-```
+```html
 <a href="https://ateliers.esad-pyrenees.fr/">Ce site est génial</a>
 ```
 Qui se traduit en : « [Ce site est génial](https://ateliers.esad-pyrenees.fr/) »
@@ -54,7 +54,7 @@ Qui se traduit en : « [Ce site est génial](https://ateliers.esad-pyrenees.fr
 Les attributs sont normalisés (on ne peut pas écrire ce que l’on veut). Les plus courants sont `class`, `id`, `href`, `src` ; ils seront abordés progressivement dans la suite de ce document et dans la section [CSS](../css/).
 
 Ils sont parfois indispensables à certaines balises. Par exemple pour insérer une image :
-```
+```html
 <img src="img/logo.png" alt="Logo">
 ```
 On notera ici que la balise `<img>` est une balise “auto-fermante” (de même que les balises `<br>` ou `<input>`).
@@ -64,7 +64,7 @@ On notera ici que la balise `<img>` est une balise “auto-fermante” (de même
 ## Commentaires
 
 On peut écrire dans le code source d’une page Web des portions de texte qui ne seront pas interprétés par le navigateur : les commentaires. Ils permettent de documenter le code afin de pouvoir le relire plus tard plus aisément, ou de supprimer temporairement un élément.
-```
+```html
 <!-- Cette phrase sera ignorée par le navigateur -->
 <p>Hello World!</p>
 ```
@@ -110,7 +110,7 @@ Il existe également des éléments qui ne sont ni *block*, ni *inline* :
 Un document HTML est comme un arbre généalogique, on y trouve des parents, des frères et soeurs, des enfants, des ancêtres et des descendants.
 
 Cela vient de la capacité à imbriquer des éléments HTML les uns dans les autres.
-```
+```html
 <p>
     Le vieux juge <strong>Alex Ferguson</strong> dit : 
     <q>« Buvez du whisky, fumez du chanvre, goûtez l’élixir de la jeune époque »</q>
@@ -131,7 +131,7 @@ Dans ce cas:
 On imbrique les éléments HTML pour structurer le contenu.
 ⚠️ Attention néanmoins à l’ordre des imbrications : il convient de penser les éléments comme des boîtes, ou des poupées russes ; on ne peut pas refermer la plus grande avant d’avoir refermé une plus petite à l’intérieur.
 
-```
+```html
 <article>
   <h1>Pangrammes célèbres</h1>
   <p>
@@ -241,14 +241,14 @@ Il y a environ 100 éléments HTML sémantiques parmi lesquels choisir. La liste
 
 En lisant ce code HTML correctement balisé, on peut facilement comprendre la signification de chaque élément HTML.
 
-```
+```html
 <article>
     <header>
         <h1>Le titre principal de la page</h1>
         <h2>Un sous-titre</h2>
     </header>
     <p>
-        Du texte avec des mots <em>appuyés</em> et des mots <strong>important</strong>.
+        Du texte avec des mots <em>appuyés</em> et des mots <strong>importants</strong>.
     </p>
     <p>
         Un autre paragraphe.
@@ -278,7 +278,7 @@ En lisant ce code HTML correctement balisé, on peut facilement comprendre la si
 En HTML, l’espacement n’importe (presque) pas : les espaces, les tabulations ou les sauts de ligne à l’intérieur du code source ne sont pas affichés par le navigateur.
 De multiples espaces, tabulation ou sauts de ligne ne sont rendus que par une seule espace.
 
-```
+```html
 <blockquote>
     Tout su
         tout blanc
@@ -311,7 +311,7 @@ Résultat interprété par le navigateur :
 </blockquote>
 
 Pour forcer un saut de ligne on utilise la balise `<br>`
-```
+```html
 <p>Bien fait, <br> mal fait, <br> pas fait <br>— Robert Filiou, Principe d’équivalence</p>
 ```
 Ce qui donne :
@@ -319,7 +319,7 @@ Ce qui donne :
 <p>Bien fait, <br> mal fait, <br> pas fait <br>— Robert Filiou, Principe d’équivalence</p>
 
 Pour forcer une espace mot, on utilise l’espace insécable, qui peut s’encoder en HTML avec `&nbsp;` ou être saisie directement dans le texte (sur MacOS : `alt + espace`).
-```
+```html
 <p>E s &nbsp; p &nbsp;&nbsp; a &nbsp;&nbsp;&nbsp; c &nbsp;&nbsp;&nbsp;&nbsp; e</p>
 ```
 Ce qui donne :
@@ -330,7 +330,7 @@ Ce qui donne :
 Plus un document HTML est complexe et contient de balises imbriquées, plus il est compliqué de se repérer à l’intérieur s’il n’est pas correctement “indenté” (l’indentation est l’espace généré en début de ligne par la succession de séries d’espaces ou de tabulations).
 
 Même si les deux codes sont équivalents, il est largement préférable (voire tout à fait **indispensable**) d’écrire :
-```
+```html
 <article>
     <p>
         Ce code est écrit sur
@@ -344,7 +344,7 @@ Même si les deux codes sont équivalents, il est largement préférable (voire 
 
 Plutôt que :
 
-```
+```html
 <article><p>Ce code est écrit sur
     <strong>plusieurs</strong>
         lignes, mais sera néanmoins affiché sur <em>une
@@ -394,14 +394,14 @@ La première information à fournir est le type de document HTML que nous écriv
 
 Pour indiquer au navigateur que le document HTML est écrit en HTML 5, la première ligne du document doit être :
 
-```
+```html
 <!DOCTYPE html>
 ```
 
 ### L’élément `<html>`
 
 À part la ligne `doctype`, tout votre document HTML doit être placé dans un élément `<html>`:
-```
+```html
 <!DOCTYPE html>
 <html>
    <!-- Le reste de votre code HTML est ici -->
@@ -416,7 +416,7 @@ Le `<html>` est l’ancêtre de tous les éléments HTML.
 De la même manière que les attributs portent des informations supplémentaires pour un élément HTML, l’élément <head> contient des informations supplémentaires pour l’ensemble de la page Web.
 
 Par exemple, le titre de la page (affiché dans l’onglet) se trouve dans la balise `<head>`:
-```
+```html
 <head>
    <title>Mon magnifique site</title>
 <head>
@@ -435,7 +435,7 @@ Si `<head>` ne contient que des métadonnées qui ne sont affichées nulle part 
 
 En combinant toutes ces exigences, nous pouvons écrire un document HTML simple et valide:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>

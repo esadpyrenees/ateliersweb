@@ -6,10 +6,10 @@ Internet est un gigantesque réseau d’ordinateurs. Il constitue le support phy
 
 Les ordinateurs connectés à Internet communiquent dans différentes langues, appelées protocoles, pour échanger des courriels, des fichiers, des messages de discussion…
 
-L’un de ces protocoles s’appelle HTTP (pour Hyper Text Transfer Protocol). Le Web est la partie d’Internet où les pages Web sont partagées via ce protocole. Vous pouvez savoir que vous naviguez sur le Web si l’URL du document consulté commence par **http://** ou **https://**.
+L’un de ces protocoles s’appelle HTTP (pour Hyper Text Transfer Protocol). Le Web est la partie d’Internet où des documents (les pages Web) sont échangés via ce protocole. Vous pouvez savoir que vous naviguez sur le Web si l’URL du document consulté commence par **http://** ou **https://**.
 
 
-## Pages Web
+## Page web
 
 Une page Web est un document écrit en HTML partagé sur le Web.
 
@@ -23,9 +23,9 @@ Pour accéder à une page Web, on peut soit :
 Une autre forme à l’introduction ci-dessous peut se trouver ici : [Around the world in 80ms](http://alexmic.net/around-the-world-in-80ms/)
 
 
-## Site Internet
+## Sites web
 
-Un site Web est simplement un ensemble de pages Web situées sur un même domaine.
+Un site est simplement un ensemble de pages Web situées sur un même domaine.
 
 * Web **https://**
     * Site **ateliers.esad-pyrenees.fr**
@@ -97,4 +97,4 @@ Et voilà…
 
 —
 
-<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io), sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) et à Antoine Arnaud / [iloth.net](https://iloth.net/2016/10/ce-quil-se-passe-quand-on-ouvre-une-page-web/).</small>
+<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io), sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) et d’Antoine Arnaud / [iloth.net](https://iloth.net/2016/10/ce-quil-se-passe-quand-on-ouvre-une-page-web/).</small>
