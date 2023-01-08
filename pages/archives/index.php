@@ -63,7 +63,8 @@
       <p>☺</p>
       <?php
         $results = array();
-        
+        $cool_extensions = Array('jpg','png','pdf','gif', 'html');
+
         // browse currentdir, looking for subdirs or index
         foreach (new DirectoryIterator($currentdir) as $fileinfo) {
 
@@ -77,7 +78,7 @@
               'name'=>basename($fileinfo). '/'
             );
             $results[] = $dirArray;
-          } elseif (strpos($fileinfo, 'html') !== false && !$fileinfo->isDot()){
+          } elseif(in_array($fileinfo->getExtension(), $cool_extensions) && !$fileinfo->isDot())  {
             $path = $fileinfo->getFilename();
             $dirArray = array(
               'path'=>$path, 
