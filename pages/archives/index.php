@@ -63,7 +63,7 @@
       <p>☺</p>
       <?php
         $results = array();
-        $cool_extensions = Array('jpg','png','pdf','gif', 'html');
+        $cool_extensions = Array('jpg','png','pdf','gif', 'html', 'zip');
 
         // browse currentdir, looking for subdirs or index
         foreach (new DirectoryIterator($currentdir) as $fileinfo) {
