@@ -223,9 +223,15 @@ function souk(){
 }
 
 // 
-// init();
+init();
 
 // resize
 window.addEventListener('resize', function(){
   createStyles();
-})
+});
+
+const lttrs = document.querySelectorAll('.u span');
+const alignments = ["start", "end", "center"];
+lttrs.forEach(letter => {
+  letter.style.justifySelf = alignments[ Math.floor( Math.random() * alignments.length ) ];
+});

@@ -118,3 +118,17 @@
 @keyframes rotate {
   100% {transform: rotate(360deg);}
 }
+
+
+.u {
+  font-size: calc(1rem + 6vw);
+  line-height: calc(20vh);
+  max-width: none;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -.275em;
+  gap: .5em;
+}
