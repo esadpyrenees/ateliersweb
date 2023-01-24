@@ -22,11 +22,12 @@
 ?>
 <style>
     main h4 {
-        margin:1em 0;
-        font-weight:normal
+        margin:.5em 0;
+        font-weight:normal;
+
     }
     main h4::before {
-        font-size:2em;
+        font-size:1.5em;
         position:relative;
         top:.15em
     }
@@ -42,6 +43,18 @@
     main h4:nth-of-type(10)::before { content: "😏 " }
     main h4:nth-of-type(11)::before { content: "😜 " }
     main h4:nth-of-type(12)::before { content: "😱 " }
+    main h2, main pre {
+        clear: both;
+    }
+    img {
+        width: 200px;
+        float: left;
+        margin: 0 1em .25em 0;
+        border:1px solid #ddd
+    }
+    li {
+        list-style-position: inside
+    }
 </style>
 
     <main class="pane active" id="content">
