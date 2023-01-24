@@ -10,16 +10,15 @@
 
   // Does the dir has an index.html|php|htm file 
   function hasIndex($dir){
+    
     $archivesdir = $_SERVER["DOCUMENT_ROOT"] . "/web/archives" . "/" . $dir;
     $s = scandir( $dir);
     $fs = array_diff( $s, array(".", "..") );
     foreach($fs as $f){
-      if(in_array($f, ["index.html", "index.php", "index.htm"])){
-        
+      if(in_array($f, ["index.html", "index.php", "index.htm"])){        
         return $f;
       } 
     }
-
     return false;
     // old (glob) : 
     // foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
