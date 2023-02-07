@@ -1,5 +1,5 @@
 
-  <div id="strike" style="position:fixed; background:black; inset:0; display:flex; justify-content:center; align-items:center; color:white">
+  <div id="strike" style="position:fixed; background:black; inset:0; display:flex; justify-content:center; align-items:center; color:white; padding:1em">
     <p>
     Contre la destruction de notre modèle social.<br>
     Contre l’augmentation croissante des inégalités.<br>
