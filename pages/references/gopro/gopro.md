@@ -39,6 +39,7 @@ Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](gu
 * [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;
 * [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
 * [Le CAAP](http://caap.asso.fr) - Comité des artistes-auteurs plasticiens.
+* [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail. 
 
 ### Formation continue 
 [L’AFDAS](https://www.afdas.com/) est l’organisme gestionnaire du fonds de formation des artistes-auteurs.
