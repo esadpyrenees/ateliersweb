@@ -1,12 +1,15 @@
 <nav class="pane subnav <?php echo $section == 'outils' ? 'active' : '' ?>"  id="outils">
     <ul>
-        <li class="<?php echo $subsection == 'htmlcss' ? 'opened' : '' ?>"><a href="/web/pages/references/htmlcss/">HTML / CSS</a></li>
-        <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/references/typo/">Typographie</a></li>
-        <!-- <li class="<?php echo $subsection == 'foundries' ? 'opened' : '' ?>"><a href="/web/pages/references/foundries/">Fonderies</a></li> -->
-        <li class="<?php echo $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/references/ecrituresnumeriques/">Écritures numériques</a></li>
-        <!-- <li class="<?php echo $subsection == 'webdocumentaire' ? 'opened' : '' ?>"><a href="/web/pages/references/webdocumentaire/">Webdoc</a></li> -->
-        <li class="<?php echo $subsection == 'visite' ? 'opened' : '' ?>"><a href="/web/pages/references/visite/">Visite</a></li>        
-        <li class="<?php echo $subsection == 'histoire' ? 'opened' : '' ?>"><a href="/web/pages/references/histoire/">Histoire</a></li>
-        <li class="<?php echo $subsection == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/references/gopro/">Go pro !</a></li>
+    <li><a href="#editeurs-de-code">Éditeurs </a></li>
+<li><a href="#design-dinterface">Interface</a></li>
+<li><a href="#serveurs-web-de-developpement">Serveurs </a></li>
+<li><a href="#outils-generatifs">Génératifs</a></li>
+<li><a href="#image-and-video">Image & video</a></li>
+<li><a href="#gestionnaires-de-contenus-web">Gestionnaires de contenus</a></li>
+<li><a href="#hebergement-et-noms-de-domaine">Hébergement</a></li>
+<li><a href="#prise-de-note">Notes</a></li>
+<li><a href="#marque-pages-veille">Veille</a></li>
+<li><a href="#travailler-collectivement">Collaboratif</a></li>
+<li><a href="#traduire">Traduire</a></li>
     </ul>
 </nav>
