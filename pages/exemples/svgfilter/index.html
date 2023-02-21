@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtre SVG sur texte</title>
+  <style>
+
+   
+    /* Le svg présent dans la page est invisible (il ne contient ni tracé ni forme) */
+    .svg { position: fixed; z-index: -1; }
+    /* L’élément main est “filtré” grâce au filtre SVG */
+    main { filter: url(#svgfilter); }
+
+    /* styles de la démo */
+    * {
+      margin: 0;
+      font-size: 1em;
+    }
+    body {
+      color: #31275f;
+      background-color: springgreen;
+      font-family: sans-serif;      
+    }
+
+    main {
+      text-transform: uppercase;
+      margin: 2em;
+      font-weight: bold;
+    }
+    header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1em;
+      margin-bottom: 2em;
+    }
+    footer { 
+      margin: 2em 0;
+      padding-top: 1em;
+      border-top: 2px solid ;
+    }
+    .text { font-size: clamp(2em, 3vw, 4em); }
+    h1 { border-bottom: 2px solid; }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <h1>CAP AU PIRE</h1>
+      <h2>SAMUEL BECKETT</h2>
+      <p>Traduit de l’anglais par Edith Fournier</p>
+    </header>
+    
+    <p class="text">
+      D’abord le corps. Non. D’abord le lieu. Non. D’abord les deux. Tantôt
+      l’un ou l’autre. Tantôt l’autre ou l’un. Dégoûté de l’un essayer l’autre.
+      Dégoûté de l’autre retour au dégoût de l’un. Encore et encore. Tant mal
+      que pis encore. Jusqu’au dégoût des deux. Vomir et partir. Là où ni l’un ni
+      l’autre. Jusqu’au dégoût de là. Vomir et revenir. Le corps encore. Où nul.
+      Le lieu encore. Où nul. Essayer encore. Rater encore. Rater mieux encore.
+      Ou mieux plus mal. Rater plus mal encore. Encore plus mal encore. Jusqu’à
+      être dégoûté pour de bon. Vomir pour de bon. Partir pour de bon. Là où ni
+      l’un ni l’autre pour de bon. Une bonne fois pour toutes pour de bon.
+    </p>
+
+    <footer>
+      <p><i>Worstward Ho</i>, écrit en 1982, a été publié en 1983 par Calder, Londres et Grove Press, New York.</p>
+      <p>Il a été publié en France en 1991 par Les Éditions de Minuit</p>
+    </footer>
+  </main>
+
+  <!-- Le filtre est constitué de plusieurs couches de filtrage qui interagissent les unes avec les autres -->
+  <!-- Voir https://yoksel.github.io/svg-filters/#/ -->
+  <svg class="svg">
+    <defs>
+      <filter id="svgfilter">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="turbulence" seed="12345"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="turbulence" in="blur" scale="50" xChannelSelector="R" yChannelSelector="R" result="displaced"></feDisplacementMap>
+      </filter>
+    </defs>
+  </svg>
+
+
+</body>
+
+</html>
