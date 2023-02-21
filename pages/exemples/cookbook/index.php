@@ -40,6 +40,7 @@
         <h2>Livre de recettes</h2>
         <p>Les recettes, structurées selon format YAML, sont stockées dans un dossier dédié et réunies grâce à un script PHP.</p>
         <p>Elles sont mise en forme en CSS, et peuvent être “ouvertes” et imprimées via javascript.</p>
+        <p>⚠️ Cet exemple sommaire est dédié à l’exportation de PDF A5, uniquement depuis Chromium / Chrome.</p>
     </header>
 
     <?php foreach($recettes as $recette):?>

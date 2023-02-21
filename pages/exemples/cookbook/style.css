@@ -25,8 +25,8 @@ a { color: currentColor; }
 .recto nav { position: absolute; right: 0; top: 0;}
 
 /* marge pour les sections du verso */
-.verso > * {
-  margin-top: 1em;
+.verso > :not(:last-child) {
+  margin-bottom: 1em;
 }
 
 /* affichage des titres au survol */
@@ -88,8 +88,11 @@ a { color: currentColor; }
 @media print {
   @page {
     size: 148mm 210mm;
-    margin: 1cm;
+    margin: 0;
   }
+  /* réinitialisation du body */
+  html, body { height: auto; }
+  body { margin: 0; padding: 0; display: block;}
   /* on masque toutes les recettes sauf celle qui est ouverte */
   .recette { display: none;}
   .open { 
@@ -102,15 +105,19 @@ a { color: currentColor; }
   /* on masque les boutons et le header*/
   header, nav { display: none; }
 
+  /* “marges” internes des pages */
+  .recto, .verso {
+    padding: 1cm;
+  }
   /* mise en page recto */
   .recto {
-    width: 100vw; height: 100vh;
+    width: 100vw; 
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     page-break-after:always;
-    page-break-before: always;
   }
   /* affichage des liens */
   a::after{
