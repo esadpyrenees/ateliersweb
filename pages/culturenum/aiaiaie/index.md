@@ -10,9 +10,12 @@ Un temps de réflexion, de questionnement collectif et de débat autour de quelq
 
 ## Démarrage
 
-Chez OpenAi, en utilisant le modèle GPT3, je demande à l’outil « Rédiger le syllabus d’un cours sur l’émergence des outils propulsés par l’intelligence artificielle ». La réponse est :
+Chez OpenAi, en utilisant le modèle GPT3, je demande à l’outil « Rédiger le syllabus d’un cours sur l’émergence des outils propulsés par l’intelligence artificielle »[^aiii]. La réponse est :
 
 > <big> “This course will explore the emergence of tools powered by artificial intelligence. We will discuss the history of AI, its current state, and its future potential. We will also examine AI applications in a variety of domains such as finance, healthcare, transportation, and manufacturing.”</big>
+
+[^aiii]: ![Everyone: Al art will make designers obsolete/ Al accepting the job: a set of AI generated handshakes with way too many fingers](images/c3f1064cb509e252.png)
+
 
 Par pur esprit de contradiction, on ne va pas tout à fait faire ça… mais presque.
 
