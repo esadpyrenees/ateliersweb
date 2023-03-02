@@ -3,7 +3,8 @@
     --p-width: 650px; 
     --sn-width: 250px;
     --sn-margin: 50px;
-    --family: 'Ecole', sans-serif
+    --family: 'Ecole', sans-serif;
+    --headerwidth: 3rem;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -22,7 +23,7 @@ body {
     display: flex;
     /* width: calc(100vw + 6rem); */
     overflow-x: hidden;
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 0;
 }
 h1, h2, h3 {
     color: black
@@ -142,7 +143,7 @@ img {
     background: black;
     color: white;
     padding: .5em 2rem;
-    height: 3rem;
+    height: var(--headerwidth);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -585,7 +586,7 @@ ul.list{
         display: none;
         position: static;
         top: 0;
-        left: 3rem;
+        left: var(--headerwidth);
         width: auto;
     }
     #content{

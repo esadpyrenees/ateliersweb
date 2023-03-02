@@ -4,7 +4,7 @@
     Contre la destruction de notre modèle social.<br>
     Contre l’augmentation croissante des inégalités.<br>
     Contre la stigmatisation systématique des plus fragiles.<br>
-    Ce site est en grève.<br><br>
+    Contre le <i>Cloud</i> et son monde, ce site est en grève.<br><br>
     <a href="#rejoignons-les-luttes" >✊</a>
     </p>
   </div> -->
@@ -16,13 +16,13 @@
   <?php endif ?>
 
   <script>
-    // function strike(e){
-    //   e.preventDefault()
-    //   let alarme = document.querySelector('#alarme');
-    //   alarme.parentElement.removeChild(alarme);
-    // }
-    // let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
-    // raisedfist.onclick = strike;
+    function strike(e){
+      e.preventDefault()
+      let alarme = document.querySelector('#alarme');
+      alarme.parentElement.removeChild(alarme);
+    }
+    let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
+    raisedfist.onclick = strike;
     // raisedfist.click();
 
   </script>
