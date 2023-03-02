@@ -16,14 +16,14 @@
   <?php endif ?>
 
   <script>
-    function strike(e){
-      e.preventDefault()
-      let alarme = document.querySelector('#alarme');
-      alarme.parentElement.removeChild(alarme);
-    }
-    let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
-    raisedfist.onclick = strike;
-    // raisedfist.click();
+    // function strike(e){
+    //   e.preventDefault()
+    //   let alarme = document.querySelector('#alarme');
+    //   alarme.parentElement.removeChild(alarme);
+    // }
+    // let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
+    // raisedfist.onclick = strike;
+    // // raisedfist.click();
 
   </script>
 

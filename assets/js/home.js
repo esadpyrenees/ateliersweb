@@ -223,7 +223,7 @@ function souk(){
 }
 
 // 
-init();
+// init();
 
 // resize
 window.addEventListener('resize', function(){
