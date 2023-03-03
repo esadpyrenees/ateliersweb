@@ -19,18 +19,6 @@
 
 </div>
 
-### Outils de dessin / retouche
-
-<div class="gridlist" markdown="1">
-
-* [**Photopea**](https://www.photopea.com/), webapp ; “clone” de Photoshop dans le navigateur
-* [**Affinity**](http://affinity.serif.com/), une suite alternative à Adobe (MacOS, Windows)
-* [**Gimp**](https://www.gimp.org/), outil libre de retouche d’image (alternative à Photoshop)
-* [**Krita**](https://krita.org/), outil de « peinture » numérique, libre
-*   ✔ [**Inkscape**](https://inkscape.org/), outil libre de dessin vectoriel (alternative à Illustrator)
-
-</div>
-
 ### Serveurs web de développement
 
 <div class="gridlist" markdown="1">
@@ -64,6 +52,17 @@
 
 </div>
 
+##### Outils de dessin / retouche
+
+<div class="gridlist" markdown="1">
+
+* [**Photopea**](https://www.photopea.com/), webapp ; “clone” de Photoshop dans le navigateur
+* [**Affinity**](http://affinity.serif.com/), une suite alternative à Adobe (MacOS, Windows)
+* [**Gimp**](https://www.gimp.org/), outil libre de retouche d’image (alternative à Photoshop)
+* [**Krita**](https://krita.org/), outil de « peinture » numérique, libre
+*   ✔ [**Inkscape**](https://inkscape.org/), outil libre de dessin vectoriel (alternative à Illustrator)
+
+</div>
 ### Gestionnaires de contenus web
 
 <div class="gridlist" markdown="1">
@@ -76,7 +75,7 @@
 
 </div>
 
-#### Générateurs de sites statiques
+##### Générateurs de sites statiques
 
 <div class="gridlist" markdown="1">
 
@@ -87,7 +86,7 @@
 
 </div>
 
-### Services web de publication
+##### Services web de publication
 
 <div class="gridlist" markdown="1">
 
@@ -99,7 +98,7 @@
 
 </div>
 
-#### Services minimalistes
+##### Services minimalistes
 
 <div class="gridlist" markdown="1">
 
