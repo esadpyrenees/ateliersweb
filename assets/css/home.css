@@ -138,5 +138,8 @@
   line-height: 1.2;
   --p-width:none
 }
+.bigbuttonstrike:hover {
+  background: rgb(223, 68, 219);
+}
 .strike p { margin: 0; }
 .strike p + p { text-indent: 2em; }
