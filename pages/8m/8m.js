@@ -1,7 +1,7 @@
 var urls = ["ANTIFA-INFRA.svg",
 "BOLT.svg",
 "CLOUD-NO-THANKS.svg",
-
+"sticker_WhatCloudGoWrong_96dpi.png",
 "agile.gif",
 "almost.gif",
 "antifa.gif",

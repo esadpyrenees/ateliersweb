@@ -29,10 +29,10 @@
     #sticker {
         position: fixed;
         bottom:3em;
-        left:6em;
+        right:3em;
         transform:rotate(-9deg);
-        width: 19vw;
-        max-width: 32vw;
+        width: 350px;
+        max-width: 25vw;
     }
 </style>
 
