@@ -41,11 +41,27 @@
   }
   .strike p { margin: 0; }
   .strike p + p { text-indent: 2em; }
+  #esadsenlutte {
+    border:none
+  }
+  #esadsenlutte img   {
+    position: fixed;
+    height:calc(100vh - 6em);
+    top:3em;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow: -8px 8px 8px tomato;
+    z-index: 9999;
+  }
   </style>
   <section class="pane home" id="content">
     <article class="homelinks">
 
     </article>
+
+    <a href="https://ecolesartdesignenlutte.fr/" id="esadsenlutte">
+    <img id="esadsenlutte" src="/web/assets/img/afaaa835-cb23-4f50-adbd-d4a20baa59a4.jpeg" alt="Mobilisation nationale — lundi 13/03 — écoles art, design archi en lutte — https://ecolesartdesignenlutte.fr/">
+    </a>
 
     <article class="strike"><p style="margin:0">
       <a href="pages/culturenum/8m">
