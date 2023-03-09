@@ -24,7 +24,6 @@
     // let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
     // raisedfist.onclick = strike;
     // // raisedfist.click();
-
   </script>
 
 </body>

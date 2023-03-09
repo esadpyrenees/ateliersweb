@@ -93,6 +93,8 @@
     <li class="<?= $subsection == 'web3' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/web3/">Web3 ?</a></li>
     <li class="<?= $subsection == 'aiaiaie' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/aiaiaie/">AI AI Aïe</a></li>
     <li class="<?= $subsection == 'mediaqueries' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/mediaqueries/">Media queries</a></li>
+    <li class="<?= $subsection == '8m' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/8m/">8m</a></li>
+    <li class="<?= $subsection == 'kiss' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/kiss/">KISS</a></li>
   </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->

@@ -22,9 +22,9 @@ Adolf Loos
 Ludwig Mies van der Rohe
 Franck Stella, Donald Judd, Carl André
 
-facilité d'utilisation
-convivialité
-
+Facilité d'utilisation / ergonomie
+Convivialité
+Affordance
 
 ### Variantes
 

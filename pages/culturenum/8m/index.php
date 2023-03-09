@@ -1,14 +1,17 @@
 <?php
     // config
-    $title = " Grève Internationale Trans★Féministe — Décroissance Numérique";
-    $section="8m";
+
+    $title = "Grève Internationale Trans★Féministe — Décroissance Numérique";
+    $section="culturenum";
+    $subsection="8m";
     $mdfile = "./8m.md";
+    // $date = "today";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
     include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
-    // include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
     // nav snippet
     if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;

@@ -29,6 +29,7 @@ RewriteRule ^archives/$  pages/archives/index.php [L]
 
 # Specials
 RewriteRule pages/ressources/html2print(.*)  pages/ressources/ctrl-alt-print$1 [R,L]
+RewriteRule pages/8m(.*) pages/culturenum/8m$1 [R,L]
 
 # home
 RewriteRule ^$  pages/home.php [L]

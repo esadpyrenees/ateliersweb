@@ -8,7 +8,7 @@
 3.  Envisager une iconographie
 4.  Les mettre en page sous une forme web
 5.  Penser à une “couverture”, à la navigation…
-6.  Penser à l’objet
+6.  Penser à l’objet résultant ; son format, 
 6.  Utiliser les outils *web to print* pour l’imprimer (en générer un PDF)
 
 \* Les livres :

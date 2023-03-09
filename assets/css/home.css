@@ -132,14 +132,3 @@
   margin-top: -.275em;
   gap: .5em;
 }
-
-.strike {
-  font-size: clamp(1.5em, 3.25vw, 3em);
-  line-height: 1.2;
-  --p-width:none
-}
-.bigbuttonstrike:hover {
-  background: rgb(223, 68, 219);
-}
-.strike p { margin: 0; }
-.strike p + p { text-indent: 2em; }
