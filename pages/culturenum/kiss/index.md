@@ -1,6 +1,6 @@
 # KISS
 
-_Keep it simple, stupid_. De la simplicité et de ses vertus, mais aussi de ses potentiels dangers, dans le champ du design graphique et du webdesign.
+_Keep it simple, stupid_. De la simplicité et de ses vertus, mais aussi de ses potentielles limites, dans le champ du design graphique et du webdesign.
 
 
 <figure>
@@ -181,7 +181,7 @@ _Learning from Las Vegas_ est un ouvrage majeur de la critique des approches mod
 
 ![](images-s/Robert-Venturi-in-LV-.jpg)
   Robert Venturi à Las Vegas — [Source](http://indexgrafik.fr/learning-from-las-vegas-et-controverse/)
-  
+
 Ses auteur⋅ices, Robert Venturi, Denise Scott Brown et Steven Izenour s’y attachent à mettre en lumière l’intérêt formel et culturel de l’architecture vernaculaire, des signes et des décorations qui illuminent nos villes. Ils y critiquent la stérilisation esthétique que le modernisme, en particulier dans ses acceptions les moins subtiles, produit dans nos imaginaires. Ils proposent aux architectes –mais aussi aux designers– d’observer et d’analyser toutes les formes culturelles, y compris les plus naïves/embarassantes/ridicules, et d’en nourrir leurs productions.
 
 ## Minimal graphic (& web) design
@@ -317,3 +317,8 @@ Disparition de l’émotion ou de l’intuition
 
 > <big>Everything should be made as simple as possible, but not simpler.</big>    
   – Albert Einstein, ou Winston Churchill ?
+
+***
+
+
+[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_kiss?lang=fr){.bigbutton}
