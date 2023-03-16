@@ -6,6 +6,8 @@
     $mdfile = "./index.md";
     $description = "De la simplicité dans le design";
     $date = "15/02/2023";
+    $custom_js = "slideshowfromHTML.js";
+    $custom_css = "slideshowfromHTML.css";
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

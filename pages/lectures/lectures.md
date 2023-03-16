@@ -14,6 +14,7 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 
 *   [Tombolo](https://www.t-o-m-b-o-l-o.eu/), revue de savoirs et de regards graphiques en ligne, initiée par officeabc et Thierry Chancogne.
 *   [Indexgrafik](http://indexgrafik.fr/), de nombreux articles de référence sur le graphisme et les graphistes, par Augustin Manaranche.
+*   [Histoire du design graphique](https://www.grapheine.com/blog/histoire-du-graphisme) chez Graphéine, de nombreux articles fouillés.
 
 *   [Graphic Design Readings](http://readings.design/), une sélection d’écrits sur le design (EN).
 *   [Trend List](http://trendlist.org/), les tendances du design graphique, documentées depuis 2011.
@@ -176,6 +177,10 @@ En anglais (transcrit), Laurel Schwhulst à la rencontre d’artisans du web [�
 * #### Approche
 Approche propose une série de rencontres radiophoniques avec des graphistes  [↗](http://approche-graphismes.fr/)
 
+* #### *Duuu 
+\*Duuu est une webradio dédiée à la création contemporain (notamment en design graphique) [↗](https://duuuradio.fr/recherche?categories=graphisme)
+
+https://duuuradio.fr/
 </div>
 
 

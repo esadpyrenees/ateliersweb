@@ -1,0 +1,77 @@
+#slbtn {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  border: none;
+  background: #333;
+  font-size: 2em;
+  padding: .15em .4em .1em;
+  border-radius: .25rem;
+}
+
+#slideshow {
+  position: fixed;
+  z-index: 200;
+  inset: 0;
+  background: #000;
+  color: white;
+  padding: 3em;
+}
+
+
+.slide { position:absolute; top:0; left:0; right:0; bottom:0; display:none; }
+.slide {
+	text-align:left;
+	font-size:2vw;
+	background:#000;
+	padding: 40px;
+	line-height: 1.4;
+  --p-width: 32em;
+}
+.slide.visible{ 
+  display:flex; 
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  flex-direction: column;
+}
+
+.slide > * {
+  color: white;
+  max-width: none;
+  margin: 0;
+}
+
+.slide a { color: white; }
+.slide p { margin: 0; max-width: var(--p-width);}
+
+/* Taille par défaut des images et vidéos */
+.slide img { max-height:calc(100% - 1.85em); object-fit:contain; display:block }
+.slide video {height:100%; display:block }
+.slide .yt {
+  width: 100%;
+}
+.slide-figure figure {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+}
+.slide-figure  figcaption {
+  font-size: .75em;
+  padding-top: 1em;
+}
+
+/* Images “fullscreen” */
+.slide .cover { width:100%; height:100%; object-fit:cover; }
+
+/* Taille du texte */
+.slide .smalltext{ font-size:2vw; line-height:1.4}
+.slide big{ font-size:8vw; line-height:1.1}
+.slide .hugetext{ font-size:16vw; line-height:1}
+
+.slide blockquote:has(big) p{ max-width: none;}
+
+/* intégration youtube, vimeo, etc. */
+
+.slide .embedded { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; width:calc(100% - 80px); margin:0 auto }
+.slide .embedded iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
