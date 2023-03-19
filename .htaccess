@@ -1,3 +1,5 @@
+Header always unset X-Frame-Options
+Header set Content-Security-Policy "frame-ancestors 'self' http://localhost"
 
 RewriteEngine On
 
