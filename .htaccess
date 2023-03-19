@@ -31,6 +31,11 @@ RewriteRule ^archives/$  pages/archives/index.php [L]
 RewriteRule pages/ressources/html2print(.*)  pages/ressources/ctrl-alt-print$1 [R,L]
 RewriteRule pages/8m(.*) pages/culturenum/8m$1 [R,L]
 
+# Iframes
+# Header set Content-Security-Policy "frame-ancestors 'self' https://slides.accentgrave.net"
+
+Header always append X-Frame-Options ALLOW-FROM localhost
+
 # home
 RewriteRule ^$  pages/home.php [L]
 RewriteRule ^pages/$  pages/home.php [L]
