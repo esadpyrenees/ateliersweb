@@ -5,9 +5,9 @@
     $subsection="kiss";
     $mdfile = "./index.md";
     $description = "De la simplicité dans le design";
-    $date = "15/02/2023";
-    $custom_js = "slideshowfromHTML.js";
-    $custom_css = "slideshowfromHTML.css";
+    $date = "16/03/2023";
+    $custom_js = "/web/assets/slideshowfromHTML/script.js";
+    $custom_css = "/web/assets/slideshowfromHTML/style.css";
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

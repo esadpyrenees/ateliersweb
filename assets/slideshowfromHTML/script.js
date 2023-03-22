@@ -1,10 +1,3 @@
-var slbtn = document.createElement("button");
-slbtn.textContent = "👀";
-slbtn.id="slbtn";
-document.body.appendChild(slbtn);
-slbtn.onclick = () => {
-  initSlideshow(false);
-}
 
 let idx = 0;
 var is_init = false;
@@ -12,6 +5,18 @@ var slides = [];
 var content = document.querySelector('#content');
 var nodes = [...content.children];
 var prevslide = null;
+
+
+
+var slbtn = document.createElement("button");
+slbtn.textContent = "👀";
+slbtn.id="slbtn";
+slbtn.title = "Afficher l’article en diaporama";
+content.insertAdjacentElement('beforebegin', slbtn)
+slbtn.onclick = () => {
+  initSlideshow(false);
+}
+
 
 function initSlideshow(myidx){
   if(is_init) return;
@@ -81,8 +86,8 @@ document.body.onkeydown = function(e){
 // rafraichissement de page
 if(window.location.hash) {
   var myidx = window.location.hash.replace("#slide-", '');
-  console.log("hash = " + myidx);
-  initSlideshow(myidx);
+  var el = document.querySelector(hash);
+  if(el) initSlideshow(myidx);
 }
 
 

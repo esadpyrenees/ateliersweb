@@ -1,6 +1,13 @@
 # KISS
 
+
 _Keep it simple, stupid_. De la simplicité et de ses vertus, mais aussi de ses potentielles limites, dans le champ du design graphique et du webdesign.
+
+
+### Work in progress {.edit}
+
+Cette proposition de réflexion est un travail en cours. Son champ référentiel est encore à peine esquissé et les perspectives d’explorations gagneront à largement se développer.
+
 
 
 <figure>

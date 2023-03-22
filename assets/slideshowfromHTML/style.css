@@ -1,12 +1,14 @@
 #slbtn {
   position: absolute;
   right: 2rem;
-  top: 2rem;
+  /* top: 2rem; */
   border: none;
   background: #333;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: .15em .4em .1em;
   border-radius: .25rem;
+  z-index: 2;
+  transform: translateY(2rem);
 }
 
 #slideshow {
