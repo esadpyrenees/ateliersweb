@@ -52,10 +52,13 @@
   <link rel="stylesheet" href="/web/assets/css/main.css?yep">
   <link rel="stylesheet" href="/web/assets/fonts/fonts.css">
   <link rel="stylesheet" href="/web/assets/highlight/styles/agate.min.css">
- 
-  <?php if(isset($custom_css)): ?>
-    <link rel="stylesheet" href="<?= $custom_css ?>">
-  <?php endif ?>
+
+  <?php if(isset($custom_css)) {
+    $csss = explode(',', $custom_css) ;
+    foreach( $csss as $css ) {
+      echo "<link rel='stylesheet' href='$css'>";
+    }
+  }?>
 
   <script src="/web/assets/highlight/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
