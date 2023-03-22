@@ -5,7 +5,7 @@
     Contre l’augmentation croissante des inégalités.<br>
     Contre la stigmatisation systématique des plus fragiles.<br>
     Contre la négation de la valeur de l’art et de la culture.<br>    
-    Contre le <i>Cloud</i> et son monde, ce site est en grève.<br>
+    Contre le <i>cloud</i> et son monde, ce site est en grève.<br>
     </p>
     <p>
     <a href="#rejoignons-les-luttes" style="font-size:xx-large">✊</a>
@@ -29,7 +29,7 @@
     }
     let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
     raisedfist.onclick = strike;
-    raisedfist.click();
+    // raisedfist.click();
   </script>
 
 </body>
