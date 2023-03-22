@@ -699,6 +699,7 @@ ul.list{
     color:white; 
     padding:1em;
     flex-direction: column;
+    z-index: 2;
 }
 @media (max-width:850px) {
     #alarme br { display: none;}
