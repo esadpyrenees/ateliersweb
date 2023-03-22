@@ -686,3 +686,21 @@ ul.list{
 }
 #debug p { margin: 0;}
 
+
+
+/* specials */
+#alarme {
+    position:fixed; 
+    background:black; 
+    inset:0; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    color:white; 
+    padding:1em;
+    flex-direction: column;
+}
+@media (max-width:850px) {
+    #alarme br { display: none;}
+    #alarme {}
+}
