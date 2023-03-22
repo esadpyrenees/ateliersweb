@@ -28,6 +28,7 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 *   [Design observer](https://designobserver.com/), des regards sur le design (biais états-unien prononcé) (EN).
 *   [Eye magazine](https://www.eyemagazine.com/), le site de la revue de design graphique et culture visuelle Eye, fondée par Rick Poynor (EN).
 *   [Design is History](http://www.designishistory.com/), le vieux site de Dominic Flask, plein d‘infos importantes sur l’histoire du design (EN).
+*   [Designers journal](http://www.designersjournal.net/)
 
 *   [Font Review Journal](https://fontreviewjournal.com/), regards sur des caractères typographiques singuliers (EN).
 *   [Letteform Archive](https://letterformarchive.org/), le site d’un “centre d’art” dédié au graphisme et à la lettre à San Francisco. [Importante archive](https://oa.letterformarchive.org/) en ligne.
