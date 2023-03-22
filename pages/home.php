@@ -14,7 +14,6 @@
   <style>
 
   .strike {
-    /* font-size: clamp(1.5em, 3.25vw, 3em); */
     line-height: 1.2;
     --p-width:none;
     position: fixed;
@@ -30,6 +29,14 @@
     align-items: center;
     justify-content:center;
     box-shadow: -8px 8px 8px purple;
+  }
+  @media (max-width:850px) {
+    .strike {
+      top: auto;
+      bottom:  1rem;
+      right: 1rem;
+      font-size: .65em;
+    }
   }
   .strike p {
     display: inline;
