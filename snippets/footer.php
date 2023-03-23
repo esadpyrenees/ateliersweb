@@ -8,7 +8,10 @@
     Contre le <i>cloud</i> et son monde, ce site est en grève.<br>
     </p>
     <p>
-    <a href="#rejoignons-les-luttes" style="font-size:xx-large">✊</a>
+      <small>Mais comme il est assez pénible de cliquer trop souvent sur ✊, une seule fois suffira désormais…</small>
+    </p>
+    <p>
+    <a href="#rejoignons-les-luttes" tabindex="1" style="font-size:xx-large">✊</a>
     </p>
   </div>
   <script src="/web/assets/js/vendor/modernizr-3.6.0.min.js"></script>
@@ -26,10 +29,15 @@
       e.preventDefault()
       let alarme = document.querySelector('#alarme');
       alarme.parentElement.removeChild(alarme);
+      localStorage.setItem('striked', 'vivelefeu');
     }
     let raisedfist = document.querySelector('a[href="#rejoignons-les-luttes"]');
     raisedfist.onclick = strike;
-    // raisedfist.click();
+    var striked = localStorage.getItem('striked');
+    if(striked == "vivelefeu"){
+      raisedfist.click();
+    }
+    
   </script>
 
 </body>
