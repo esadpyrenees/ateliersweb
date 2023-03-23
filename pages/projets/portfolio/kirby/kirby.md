@@ -64,9 +64,11 @@ Kirby possède une documentation précise et extensive : un [guide de démarrage
 
 Pour aller plus loin dans la découverte des principes de fonctionnement de Kirby, [lire *Kirby in a nutshell*](https://getkirby.com/docs/cookbook/setup/kirby-in-a-nutshell)
 
+Gilles Vauvarin _aka_ [pixenjoy](https://mamot.fr/@pixenjoy) publie en français sur son blog [une série de tutoriels avancés](https://pixenjoy.com/notes) sur Kirby.
+
 ## Notabene {#notabene}
 
-En 2020, de nouvelles manières de concevoir et de développer des sites ont le vent en poupe. L’ère des gros moteurs de gestion de contenu (Drupal, Joomla, Typo3 ou même Wordpress) s’essoufle peu à peu.
+En 2020 (et encore davantage en 2023), de nouvelles manières de concevoir et de développer des sites ont le vent en poupe. L’ère des gros moteurs de gestion de contenu (Drupal, Joomla, Typo3 ou même Wordpress) s’essoufle peu à peu.
 
 Ces moteurs ont comme principal défaut de demander beaucoup de ressources aux serveurs et sont soumis à de fréquents et nombreux problèmes de sécurité. 
 
