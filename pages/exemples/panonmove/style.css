@@ -1,0 +1,22 @@
+html, body { height: 100%; margin: 0;}
+body { overflow: hidden; }
+main {
+  position: absolute;
+  width:300vw;
+  height: 300vh;
+  margin: 0; 
+  padding: 0;
+  background-image: radial-gradient(#036080 5%, deepskyblue 5%);
+  background-size: 40px 40px;
+  transform: translate(var(--x,0), var(--y,0));
+  will-change: transform;
+}
+span {
+  position: absolute;
+  font-size: 14vw;
+}
+span:nth-child(1){top:1em; left:1em}
+span:nth-child(2){bottom:1em; left:1em}
+span:nth-child(3){top:1em; right:1em}
+span:nth-child(4){bottom:1em; right:1em}
+span:nth-child(5){top:50%; left:50%; transform:translate(-50%, -50%)}
