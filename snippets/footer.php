@@ -8,13 +8,9 @@
     Contre le <i>cloud</i> et son monde, ce site est en grève.<br>
     </p>
     <p>
-      <small>Mais comme il est assez pénible de cliquer trop souvent sur ✊, une seule fois suffira désormais…</small>
-    </p>
-    <p>
-    <a href="#rejoignons-les-luttes" tabindex="1" style="font-size:xx-large">✊</a>
+    <a href="#rejoignons-les-luttes" tabindex="1" style="font-size:xx-large; padding-bottom:.25em">✊</a>
     </p>
   </div>
-  <script src="/web/assets/js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="/web/assets/js/notes.js"></script>
   <script src="/web/assets/js/main.js"></script>
   <?php if(isset($custom_js)) {
