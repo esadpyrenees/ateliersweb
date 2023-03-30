@@ -21,27 +21,12 @@ Cette proposition de réflexion est un travail en cours. Son champ référentiel
 
 Le mot d’ordre aurait été inventée dans les années 60 par Clarence Johnson, alors ingénieur en chef de Lockheed, entreprise états-unienne du secteur de l’aéronautique et de l’aérospatiale. La version originale ne comportait pas de virgule et s’écrivait "keep it simple stupid".
 
-#### Variations
-
-> Keep it simple, stupid : « laisse-le simple, stupide » ;   
-  Keep it stupid simple : « laisse-le stupidement simple » ;    
-  Keep it simple, silly : « laisse-le simple, idiot » ;   
-  Keep it small and simple : « laisse-le simple et bref » ;   
-  Keep it sweet and simple : « laisse-le simple et agréable » ;   
-  Keep it simple and straightforward : « laisse-le simple et direct » ;   
-  Keep it short and simple : « laisse-le simple et court » ;   
-  Keep it simple and smart : « laisse-le simple et intelligent » ;   
-  Keep it strictly simple : « laisse-le strictement simple » ;   
-  Keep it speckless and sane : « laisse-le sain et impeccable » ;   
-  Keep it super-simple : « laisse-le super-simple » ;   
-  Keep it sober and significant : « laisse-le sobre et explicite » ;   
-  Keep it short and sweet : « laisse-le court et sympa ».   
 
 Il rejoint une longue lignée de mantras dédiés à nous engager vers la simplicité, attribués tant à [Guillaume d’Ockham](https://fr.wikipedia.org/wiki/Rasoir_d%27Ockham) qu’à [Albert Einstein](https://quoteinvestigator.com/2011/05/13/einstein-simple/), Aristote, Ludwig Mies van der Rohe ou Marie Kondō.
 
 ## Simplicité ←→ complexité
 
-Un parcours bref des dialectiques historiques entre simplicité et complexité, dépouillement et ornement, minimalisme et maximalisme (etc.) dans l’histoire de l’architecture, avant d’en venir aux questions du design.
+Pour démarrer, un parcours bref des dialectiques historiques entre simplicité et complexité, dépouillement et ornement, minimalisme et maximalisme (etc.) dans l’histoire de l’architecture, avant d’en venir aux questions du design.
 
 L’art roman résonne souvent avec un à priori de simlicté formelle. L’austérité monastique des XI<sup>e</sup> et XII<sup>e</sup> siècles a produit de merveilleux ouvrages, mais n’était pas en reste de controverses. 
 
@@ -52,6 +37,10 @@ L’art roman résonne souvent avec un à priori de simlicté formelle. L’aust
   Abbaye de Cluny, palais du pape Gélase — [Source](https://commons.wikimedia.org/wiki/File:Cluny_abbey_palais_gelase_facade_upper_windows.JPG)
 
 À Citeaux, par exemple, on tenait les Clunisiens pour des fanfarons dévergondés, et l’on considérait la démesure et la grandiloquence de leur abbaye comme outrageuse (j’exagère à peine). 
+
+![Abbaye de Cîteaux](images-s/abbaye-citeaux-visite-1.jpg)
+  Abbaye de Cîteaux — [Source](https://aufilduthym.fr/escapade-cote-or-hospice-beaune-citeau/)
+
 
 ![Abbaye de Fontenay](images-s/fontenay.jpg)
   Abbaye de Fontenay — [Source](https://commons.wikimedia.org/wiki/File:Abbaye_Fontenay_eglise_facade.jpg)
@@ -106,13 +95,96 @@ Au milieu du XIXe siècle, l’architecture Victorienne mélange le tout, avant 
   Plugin City, Peter Cook, Archigram — [Source](https://lepaveblog.wordpress.com/2018/01/22/archigram/)
 
 ![ESAD en grève](images-s/IMG_20200207_131430.jpg)
-  ESAD Pyrénées, art-déco RVB en grève, 2020
+  ESAD Pyrénées, art-déco RVB (en grève), 2020
+
+
+## Modernimse
+
+Après ce voyage en dilettante dans les révolutions et contre-révolutions architecturales, portons le regard vers le design graphique (_graphische Gestaltung_ en allemand, il n’est pas encore dénommé ainsi en français : on parle au mieux d’arts appliqués, de maquettes, de réclame ; pour désigner la discipline, le terme _graphisme_ apparaît dans les années 20) au tournant du XX<sup>e</sup> siècle.  
+
+### Ornement et crime
+
+Dès 1908, l’architecte viennois Adolf Loos écrivait _Ornement et crime_ dans lequel il postule que l’ornementation n’est rien de moins qu’un crime économique, moral et culturel. Basé sur une idéologie parfois [problématique](https://www.telerama.fr/scenes/mais-au-fait,-pourquoi-lornement-est-un-crime,n5733166.php), ré-éditée en 1920 par un Le Corbusier viriliste, cette condamnation définitive de l’ornement (de l’_arabesque_) rejoint de manière embarassante un ensemble de discours sur la pureté morale enraciné dans un substrat culturel germanique et protestant, parfois bien rigoriste.
+
+Loos établit néanmoins un cadre de pensée qui va influencer de très nombreux architectes, designers industriels, artistes et graphistes et notamment les acteur⋅ices, artistes et enseignant⋅es du Bauhaus ou le mouvement néerlandais _De Stijl_.
+
+
+### Bauhaus & friends
+
+
+Fondée à Weimar en 1919 par l’architecte Walter Gropius, l’école du Bauhaus a été un lieu central et majeur de la convergence des pratiques de création artistiques, architecturales, graphiques ou industrielles dans un ensemble de principes relativement unifiés autour des logiques modernistes, agissant autant dans la formes des productions que dans leurs dimensions sociales, politiques ou économiques. 
+
+![Bauhaus, Dessau, Walter Gropius](images-s/bauhaus-dessau-oliver-lins-01-bw.jpg)
+  Bauhaus, Dessau, Walter Gropius, 1925–1926 — [Source](https://oliverlins.com/stories/bauhaus-dessau/)
+
+![Chaises ZigZag, Gerrit Rietveld](images-s/zigzag.webp)
+  Chaises ZigZag, Gerrit Rietveld, 1934
+
+Les explorations artistiques et architecturales de la période _De Stijl_ ou du Bauhaus ont abondamment irrigué les productions du champ du design graphique, notamment via les pionniers du style international, Josef Müller-Brockmann, Max Miedinger, Armin Hofmann ou Emil Ruder. 
+
+![Theo Ballmer, 1928.](images-s/ballmer.jpg)
+  Theo Ballmer, affiches, 1928.
+
+![Josef Müller-Brockmann ](images-s/jmb-1.webp)
+  Josef Müller-Brockmann, 1953 & 1958 — [Source](https://www.flickr.com/photos/blankaposters/sets/72157605199393277/)
+
+![Josef Müller-Brockmann ](images-s/jmb-2.webp)
+  Josef Müller-Brockmann, 1959 & 1968 — [Source](https://www.flickr.com/photos/blankaposters/sets/72157605199393277/)
+
+Pionnier du Style (typographique) international, Müller-Brockmann est présenté avec enthousiasme par Vincent Perrottet[^vp] à l’occasion d’une exposition à Chaumont, _Fer à gauche toute_ :
+
+<div class="yt"><iframe width="560" height="315"  frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x5lxw6"  allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
+
+[^vp]: Lire également [l’article de Graphéine](https://www.grapheine.com/divers/graphic-designer-muller-brockmann) qui lui est consacré, et parcourir une [galerie sur Flickr](https://www.flickr.com/photos/blankaposters/sets/72157605199393277/with/2522085899/).
+
+> <big>Lorsque le problème d'information est résolu sur un plan pratique, objectif et esthétique, le langage de la forme fera éclater sa compréhension traditionnelle, pour devenir un langage universel.  </big>  
+  — Josef Müller-Brockmann
+
+Parallèlement, après et avant la star internationale Müller-Brockmann, de nombreux graphistes affiliés aux approches modernistes gagnent à être connu⋅es : les suisses, allemands et néerlandais, Piet Zwart (né en 1885), Jan Tschichold (1902), Max Bill (1908), Emil Ruder (1914), Wim Crouwel (1928), Adrian Frutiger (1928), Karl Gerstner (1930), Jost Hochuli (1933) ou Wolfgang Weingart (1941), mais aussi des italiens [^archivo], [Franco Grignani](https://www.grapheine.com/histoire-du-graphisme/graphic-designer-franco-grignani) (1908), Carlo Vivarelli (1919), [AG Fronzoni](http://www.designculture.it/profile/ag-fronzoni.html) (1923) ou [Massimo Vignelli](http://www.designculture.it/interview/massimo-vignelli.html) (1931) et même des français[^chaminade] !
+
+![](images-s/W1siZiIsIjIxMTcwNyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg)
+  Armin Hofmann — [Source](https://www.moma.org/artists/2697)
+
+![](images-s/W1siZiIsIjIyMTY3OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg)
+  Armin Hofmann — [Source](https://www.moma.org/artists/2697)
+
+![](images-s/Adrian-frutiger-univers-00.jpg)
+  Adrian Frutiger, Univers — [Source](https://indexgrafik.fr/adrian-frutiger/)
+
+![](images-s/07-89.jpg)
+  Adrian Frutiger, Univers — [Source](https://indexgrafik.fr/adrian-frutiger/)
+
+![](images-s/wimcrouwel.webp)
+  Wim Crouwel, 1957 & 1967 — [Source](http://www.designculture.it/profile/ag-fronzoni.html)
+
+![](images-s/fronzoni.webp)
+  AG Fronzoni, 1966 & 1979 — [Source](http://www.designculture.it/profile/ag-fronzoni.html)
+
+[^archivo]: Visiter de toute urgence l’[Archivio Grafica Italiana](http://www.archiviograficaitaliana.com/project/31/arteescienza)
+
+[^chaminade]: Patrice (Fabien) Chaminade, ancien enseignant de l’ÉSAD Pyrénées a longuement enquêté sur l’aparition du modernisme en France. En attendant une édition rétrospective, une [interview](https://www.radiocampusparis.org/grphsm-4-design-graphique-dans-lentre-deux-guerres/) est accessible en ligne. 
+
+Outre-Atlantique, notamment du fait des influences liées au déplacement du Bauhaus à Chicago, a émergé un langage graphique spécifique, au service de la société de consommation en pleine expansion. 
+
+![](images-s/lustig.webp)
+  Alvin Lustig, 1951 & 1950 — [Source](http://indexgrafik.fr/alvin-lustig/)
+
+![](images-s/ibm.webp)
+  Paul Rand, logo d’IBM, version Eye–Bee–M — [Source](https://www.logohistories.com/p/ibm)
+
+![](images-s/paul-rand-ibm-charte-800x492-1.jpg)
+  Paul Rand, 1956–1991, charte graphique d’IBM — [Source](https://www.grapheine.com/histoire-du-graphisme/le-minimalisme-lesthetisme-de-la-sobriete)
+
+![](images-s/vignelli.webp)
+  Massimo Vignelli, logotypes de Knoll, 1966 & American Airlines, 1967 — [Source](http://www.archiviograficaitaliana.com/)
 
 ## Art minimal
 
-Sans envisager de parcourir dans l’histoire de l’art le même chemin dilettante qui vient de traverser 10 siècles d’architecture, quelques grands noms divent néanmoins être cités, tant ils ont concourru à façonner notre regard contemporain sur ces questions. Leur influence ou leur extension dans le champ du design est majeure.
+Sans envisager de parcourir dans l’histoire de l’art le même chemin dilettante qui vient de traverser 10 siècles d’architecture, quelques grands noms doivent néanmoins être cités, tant ils ont concourru à façonner notre regard contemporain sur ces questions. Leur influence ou leur extension dans le champ du design contemporain est majeure.
 
-L’art minimal est un courant apparu au début des années 1960 aux États-Unis. Il s’oppose au lyrisme de l’expressionnisme abstrait et à la tendance figurative, narrative et ironique du pop art. Héritier du modernisme et du Bauhaus, il procède par soustraction, par réduction et par la convocation du moins possible de moyens. Au delà des enjeux formels, ces artistes (Frank Stella, Carl Andre, Dan Flavin, Donald Judd, Sol LeWitt ou Robert Morris) rejettent l’« illusion » pour déterminer des structures, des lieux. Ils tendent à limiter au maximum leur intervention, usant notamment de matériaux préfabriqués, faisant valoir leur pure matérialité et la présence transcendée de leur fonction. Un langage visuel appuyé sur la forme pure, non siignifiante, non symbolique.
+L’art minimal est un courant apparu au début des années 1960 aux États-Unis. Il s’oppose au lyrisme de l’expressionnisme abstrait et à la tendance figurative, narrative et ironique du pop art. Héritier du modernisme et du Bauhaus, il procède par soustraction, par réduction et par la convocation du _moins possible_ de moyens. 
+
+Au delà des enjeux formels, ces artistes (Frank Stella, Carl Andre, Dan Flavin, Donald Judd, Sol LeWitt ou Robert Morris) rejettent l’« illusion » pour déterminer des structures, des lieux. Ils tendent à limiter au maximum leur intervention, usant notamment de matériaux préfabriqués, faisant valoir leur pure matérialité et la présence transcendée de leur fonction. Un langage visuel appuyé sur la forme pure, non siignifiante, non symbolique.
 
 ![](images-s/carlandre.jpg)
   Equivalent VIII, Carl Andre — [Source](https://www.tate.org.uk/art/artworks/andre-equivalent-viii-t01534)
@@ -138,11 +210,13 @@ L’art minimal est un courant apparu au début des années 1960 aux États-Unis
 ![](images-s/sol-lewitt-pompidou-metz-1342985369_org.jpg)
   Sol Lewitt, Wall drawing — [Source](http://kennylingeetak.blogspot.com/2014/06/sol-lewitt.html)
 
-Ces œuvres plastiques minimales trouvent leurs contreparties dans le champ musical et sonore ([Steve Reich](https://www.youtube.com/watch?v=qwtGIBS7m6c), [Philip](https://www.youtube.com/watch?v=6Stu7h7Qup8) [Glass](https://ubu.com/film/wilson_einstein_chatelet.html), Terry Riley, La Monte Young…) mais aussi dans la littérature (Raymond Carver).
+Ces œuvres plastiques minimales trouvent leurs contreparties dans le champ musical et sonore ([Steve Reich](https://www.youtube.com/watch?v=qwtGIBS7m6c), [Philip](https://www.youtube.com/watch?v=6Stu7h7Qup8) [Glass](https://ubu.com/film/wilson_einstein_chatelet.html), Terry Riley, La Monte Young…) mais aussi dans la littérature (Raymond Carver), et bien évidemment dans le design et la conception industrielle.
 
-## Manifestes, principes & punchlines
 
-Le minimalisme, tout comme sa contestation, sont propices à l’énonciation de grandes tirades sentencieuses, de manifestes définitifs et absolus, de préceptes de coaching _feng shui_ et de punchlines dignes d’être tatouées sur le torse.
+
+## – = + ?
+
+Le minimalisme, tout comme sa contestation, sont propices à l’énonciation de grandes tirades sentencieuses, de manifestes définitifs et absolus, de préceptes de coaching _feng shui_ et de punchlines dignes d’être tatouées en caractères gothiques.
 
 > <big>Less is more</big>  
 — Ludwig Mies van der Rohe
@@ -174,66 +248,8 @@ Dieter Rams est un designer allemand associé aux produits hifi et électro-mén
 
 [^dieter]: Largement diffusés, ces _Ten principles for good design_ font partie d’une [immense collection](https://principles.adactio.com/) de « principes de design », réunie par Jeremy Keith. 
 
-## Ornement et crime
 
-En 1908, l’architecte viennois Adolf Loos écrit _Ornement et crime_ dans lequel il postule que l’ornementation n’est rien de moins qu’un crime économique, moral et culturel. Basé sur une idéologie parfois [problématique](https://www.telerama.fr/scenes/mais-au-fait,-pourquoi-lornement-est-un-crime,n5733166.php), ré-éditée en 1920 par un Le Corbusier viriliste, cette condamnation définitive de l’ornement (de l’_arabesque_) rejoint de manière embarassante un ensemble de discours sur la pureté morale enraciné dans un substrat culturel germanique et protestant, parfois bien rigoriste.
-
-Loos établit néanmoins un cadre de pensée qui va influencer de très nombreux architectes, designers industriels, artistes et graphistes. 
-
-### L’Enseignement de Las Vegas
-
-
-_Learning from Las Vegas_ est un ouvrage majeur de la critique des approches modernistes, ouvrant la voie au post-modernisme. 
-
-
-![](images-s/Robert-Venturi-in-LV-.jpg)
-  Robert Venturi à Las Vegas — [Source](http://indexgrafik.fr/learning-from-las-vegas-et-controverse/)
-
-Ses auteur⋅ices, Robert Venturi, Denise Scott Brown et Steven Izenour s’y attachent à mettre en lumière l’intérêt formel et culturel de l’architecture vernaculaire, des signes et des décorations qui illuminent nos villes. Ils y critiquent la stérilisation esthétique que le modernisme, en particulier dans ses acceptions les moins subtiles, produit dans nos imaginaires. Ils proposent aux architectes –mais aussi aux designers– d’observer et d’analyser toutes les formes culturelles, y compris les plus naïves/embarassantes/ridicules, et d’en nourrir leurs productions.
-
-## Minimal graphic (& web) design
-
-Les explorations artistiques et architecturales de la période De Stijl ou du Bauhaus ont abondamment irrigué les productions du champ du design graphique, notamment via les pionniers du style international, Josef Müller Brockmann, Max Miedinger, Armin Hofmann ou Emil Ruder. 
-
-![](images-s/mueller-brockmann-poster-musica.jpg)
-  Josef Müller Brockmann — [Source](https://www.grapheine.com/divers/graphic-designer-muller-brockmann)
-
-![](images-s/MULLER-BROCKMANN-musical-poster-geometric.webp)
-  Josef Müller Brockmann — [Source](https://www.grapheine.com/divers/graphic-designer-muller-brockmann)
-
-![](images-s/MULLER-BROCKMANN-music-geometric-poster.webp)
-  Josef Müller Brockmann — [Source](https://www.grapheine.com/divers/graphic-designer-muller-brockmann)
-
-Pionnier du Style (typographique) international, Müller Brockmann est présenté avec enthousiasme par Vincent Perrottet à l’occasion d’une exposition à Chaumont, _Fer à gauche toute_ :
-
-<div class="yt"><iframe width="560" height="315"  frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x5lxw6"  allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
-
-Lire également [l’article de Graphéine](https://www.grapheine.com/divers/graphic-designer-muller-brockmann) qui lui est consacré.
-
-> Lorsque le problème d'information est résolu sur un plan pratique, objectif et esthétique, le langage de la forme fera éclater sa compréhension traditionnelle, pour devenir un langage universel.  
-  — Josef Müller Brockmann
-
-
-![](images-s/W1siZiIsIjIxMTcwNyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg)
-  Armin Hofmann — [Source](https://www.moma.org/artists/2697)
-
-![](images-s/W1siZiIsIjIyMTY3OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg)
-  Armin Hofmann — [Source](https://www.moma.org/artists/2697)
-
-Outre-Atlantique, notamment du fait des influences liées au déplacement du Bauhaus à Chicago, a émergé un langage graphique spécifique, au service de la société de consommation en pleine expansion. 
-
-![](images-s/eye-bee-m-paul-rand.jpg)
-  Paul Rand, logo d’IBM — [Source](https://www.grapheine.com/histoire-du-graphisme/le-minimalisme-lesthetisme-de-la-sobriete)
-
-![](images-s/paul-rand-ibm-charte-800x492-1.jpg)
-  Paul Rand, charte graphique d’IBM — [Source](https://www.grapheine.com/histoire-du-graphisme/le-minimalisme-lesthetisme-de-la-sobriete)
-
-![](images-s/Adrian-frutiger-univers-00.jpg)
-  Adrian Frutiger, Univers — [Source](https://indexgrafik.fr/adrian-frutiger/)
-
-![](images-s/07-89.jpg)
-  Adrian Frutiger, Univers — [Source](https://indexgrafik.fr/adrian-frutiger/)
-
+## Aujourd’hui
 
 L’époque contemporaine puise largement ses inspirations dans les travaux de ces pionniers suisses, allemands ou [néerlandais](https://www.dutchgraphicroots.nl/). De jeunes (ou déjà plus si jeunes) studios ont pris la relève et déploient en les revitalisant les approches sensibles explorées par leurs aînés.
 
@@ -279,9 +295,9 @@ Sous ce terme, le designer Pascal Deville, rassemble sans hiérarchie un ensembl
 
 ### Sobriété, frugalité, éco-conceptions et greenwashing
 
-La crise climatique, la prise de conscience progressive de l’urgence écologique et l’évolution de l’opinion publique comme des marchés ont enfin établi les enjeux écologiques de l’activité des designers comme des questions majeures. 50 ans après _Design pour un monde réel_ de Victor Papanek[^Papanek], le design se verdit, s’allège, se low-technicise, s’éthicise et parfois se greenwashe. 
+La crise climatique, la prise de conscience progressive de l’urgence écologique et l’évolution de l’opinion publique comme des marchés ont enfin établi les enjeux écologiques de l’activité des designers comme des questions majeures. 50 ans après _Design pour un monde réel_ de Victor Papanek[^Papanek], le design se verdit, s’allège, se _low-technicise_, s’_éthicise_ et parfois se _greenwashe_. 
 
-Les initiatives se multiplient : [Web 0](https://web0.small-web.org/), [Small web](https://ar.al/2020/08/07/what-is-the-small-web/), [Slow web](https://www.slowweb.io/fr/) ou _low tech web_. Précurseur dans le champ du web, le site du (link: https://solar.lowtechmagazine.com/ text: Low tech magazine) est hébergé sur un serveur alimenté par un panneau solaire. Son fonctionnement souhaite demander le minimum de ressources au serveur, mais aussi en bande passante et en « modernité » de l’appareil qui visite le site. 
+Les initiatives se multiplient : [Web 0](https://web0.small-web.org/), [Small web](https://ar.al/2020/08/07/what-is-the-small-web/), [Slow web](https://www.slowweb.io/fr/) ou _low tech web_. Précurseur dans le champ du web, le site du [Low tech magazine](https://solar.lowtechmagazine.com) est hébergé sur un serveur alimenté par un panneau solaire. Son fonctionnement souhaite demander le minimum de ressources au serveur, mais aussi en bande passante et en « modernité » de l’appareil qui visite le site. 
 
 [This is a motherfucking website](http://motherfuckingwebsite.com/), les [1MB Club](https://1mb.club/), [10 KB Club](https://10kbclub.com/), [512KB Club](https://512kb.club/), [250kb Club](https://250kb.club/), et de nombreux autres cherchent galement à réduire le poids de leurs pages, afin de lutter contre le [_bloated mess_](https://1mb.club/about) qu’est devenu Internet.
 
@@ -325,7 +341,36 @@ Disparition de l’émotion ou de l’intuition
 > <big>Everything should be made as simple as possible, but not simpler.</big>    
   – Albert Einstein, ou Winston Churchill ?
 
+
+***
+
+[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_kiss?lang=fr){.bigbutton}
+
+
 ***
 
 
-[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_kiss?lang=fr){.bigbutton}
+#### L’Enseignement de Las Vegas
+
+_Learning from Las Vegas_ est un ouvrage majeur de la critique des approches modernistes, ouvrant la voie au post-modernisme. 
+
+![](images-s/Robert-Venturi-in-LV-.jpg)
+  Robert Venturi à Las Vegas — [Source](http://indexgrafik.fr/learning-from-las-vegas-et-controverse/)
+
+Ses auteur⋅ices, Robert Venturi, Denise Scott Brown et Steven Izenour s’y attachent à mettre en lumière l’intérêt formel et culturel de l’architecture vernaculaire, des signes et des décorations qui illuminent nos villes. Ils y critiquent la stérilisation esthétique que le modernisme, en particulier dans ses acceptions les moins subtiles, produit dans nos imaginaires. Ils proposent aux architectes –mais aussi aux designers– d’observer et d’analyser toutes les formes culturelles, y compris les plus naïves/embarassantes/ridicules, et d’en nourrir leurs productions.
+
+#### Variations sur le thème
+
+> _Keep it simple, stupid_ (laisse-le simple, stupide)   
+  _Keep it stupid simple_ (laisse-le stupidement simple)   
+  _Keep it simple, silly_ (laisse-le simple, idiot)   
+  _Keep it small and simple_ (laisse-le simple et bref)   
+  _Keep it sweet and simple_ (laisse-le simple et agréable)   
+  _Keep it simple and straightforward_ (laisse-le simple et direct)   
+  _Keep it short and simple_ (laisse-le simple et court)   
+  _Keep it simple and smart_ (laisse-le simple et intelligent)   
+  _Keep it strictly simple_ (laisse-le strictement simple)   
+  _Keep it speckless and sane_ (laisse-le sain et impeccable)   
+  _Keep it super-simple_ (laisse-le super-simple)   
+  _Keep it sober and significant_ (laisse-le sobre et explicite)   
+  _Keep it short and sweet_ (laisse-le court et sympa)
