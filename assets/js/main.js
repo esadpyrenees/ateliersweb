@@ -23,7 +23,7 @@
 // prend uniquement le premier paramètre : split('&')[0]
 var srch = window.location.search.substring(1).split('&')[0];
 
-// hash management (visite d’une page qui contient un ?hash)
+// hash management (visite d’une page qui contient un ?searchforhash)
 if(srch != ""){
     var hash = "#" + srch;
     if($(hash).length){
@@ -121,9 +121,16 @@ function slugify(string) {
 // headings ids
 var headings = document.querySelectorAll('main h1, main h2, main h3');
 headings.forEach(function(heading){
+    var slug = heading.getAttribute('id') || slugify(heading.textContent);
     if(!heading.getAttribute('id')){
-        heading.setAttribute('id', slugify(heading.textContent));
+        heading.setAttribute('id', slug);
     }
+    var hashref = document.createElement('a');
+    hashref.textContent = "#";
+    hashref.className = "hashref";
+    hashref.href = "#" + slug;
+    heading.appendChild(hashref);
+    
 })
 
 
