@@ -1,0 +1,111 @@
+/* Reset CSS */
+/* https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+html { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; } html, body { height: 100%; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; } h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+/* marges systématisées */
+:root { --spacing: 1em }
+
+
+
+@font-face {
+  font-family: "Compagnon";
+  src: url("fonts/compagnon-medium-webfont.woff2") format("woff2"),
+       url("fonts/compagnon-medium-webfont.woff") format("woff");
+  font-weight: bold;
+ }
+ 
+ @font-face {
+  font-family: "Compagnon";
+  src: url("fonts/compagnon-roman-webfont.woff2") format("woff2"),
+       url("fonts/compagnon-roman-webfont.woff") format("woff");
+ }
+ 
+
+/* affichage initial en grille */
+body {
+  font-family: "Compagnon", serif;
+  margin: 0;
+  padding: var(--spacing);  
+}
+header {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 0 2em;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+header p { display: flex; gap: .5em;}
+header button {
+  padding: 0 .45em;
+  border-radius: 50%;
+  border:1px solid #bbb;
+  background: none;
+}
+
+main {
+  display: grid;
+  gap: var(--spacing);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  align-items: center;
+}
+
+/* styles démo… */
+h1, h2 { font-weight: bold; margin-bottom: 1em; }
+a { color: currentColor; }
+
+article { 
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 { 
+  max-width: 12em;
+  text-align: center;
+  margin-top: 1em;
+  font-weight: normal;
+}
+.shape {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms;
+  padding: 1.75em;
+  position: relative;
+}
+.shape::before,
+.shape::after {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 1em;
+  height: 1em;
+  background: radial-gradient(rgba(0,0,0,.2) 0%, rgba(0,0,0,.2) 30%, white 30.1%, white 100%);
+  border-radius: 50%;
+}
+.shape::after {
+  left: auto;
+  right: 15%;
+}
+
+/* speech baloon */
+svg {
+  width: 50%;
+  left: 16%;
+  position: relative;
+  margin-bottom: .5em;
+}
+svg path {
+  fill:none;stroke:#000;
+  stroke-width:.264583px;
+  stroke-linecap:round;stroke-linejoin:round;
+  stroke-width: .5px;
+}

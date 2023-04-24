@@ -1,0 +1,47 @@
+
+html, body { height: 100%; margin: 0;}
+
+.pile {
+    height: 100%;
+    /* pour centrer les images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img { 
+    display: block;
+    max-width: 100%; 
+    mix-blend-mode: multiply; 
+    object-fit: cover; 
+    /* hauteur / largeur qui tient compte de la rotation */
+    width: 100%; 
+    height: 100%;
+}
+
+figure { 
+    margin: 0;
+    /* les images sont positionnés en absolu */
+    position:absolute; 
+    cursor: pointer; 
+    /* obscurcissement… */
+    /* filter: contrast(.7) brightness(.7); */
+    background-color: hsl(var(--color, 100), 100%, 50%);
+}
+
+img:last-child { 
+    /* …sauf pour l’image en haut de la pile  */
+    /* filter: contrast(1) brightness(1); */
+}
+
+
+a {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 1em;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 6.5em;
+    text-decoration: none;
+}

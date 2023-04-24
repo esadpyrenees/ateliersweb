@@ -67,7 +67,7 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
         ?>
         <script>document.getElementsByTagName('html')[0].className = 'js'</script>
         <style media="all">
-            html,body{height:100%}body{display:flex;margin:0;flex-direction:column}#embednav{height:2em;font-family:'Ecole',sans-serif;background:#000;display:flex;justify-content:space-between; align-items:center;}#embednav a{color:#fff;font-size:.85em;text-transform:uppercase;text-decoration:none;border:none;padding:0 .5em }#embednav a span{color:#666}#embednav a:hover span{color:#FFF}iframe{border:0;height:calc(100vh - 2em)}
+            html,body{height:100%}body{display:flex;margin:0;flex-direction:column}#embednav{height:2em;font-family:'Ecole',sans-serif;background:#000;display:flex;justify-content:space-between; align-items:center;}#embednav a{color:#fff;font-size:.85em;text-transform:uppercase;text-decoration:none;border:none;padding:0 .5em }#embednav a span{color:#666}#embednav a:hover span{color:#FFF}iframe{border:0;height:calc(100vh - 2em)} @media (max-width:800px) { #embednav a[href^="../#"] { display:none}} @media (max-width:600px) { #embednav a span{ display:none} }
             @media print {#embednav {display: none; }}
         </style>
     </head>

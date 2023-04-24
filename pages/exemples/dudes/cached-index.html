@@ -1,0 +1,3241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spot selector wizard</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <!-- 
+        La description verbale des formes et des couleurs s’inspire du travail de Vasilis Van Gemert : https://vasilis.nl/random/
+        Les noms des couleurs et le code qui les associent à une teinte viennent de Chirag Mehta : https://chir.ag/projects/ntc/
+        Le code qui a permis de générer les “dudes” est accessible dans le dossier "python"
+    -->
+</head>
+<body class="grid">
+
+    <!-- formulaire de filtrage (voir js/script.js) -->
+    <header>        
+        <p>
+            <label for="hue">Teinte</label>
+            <input type="range" name="hue" id="hue" min="0" max="360">
+            <button type="reset" data-input="hue">×</button>
+        </p>
+        <p>
+            <label for="shape">Formes:</label>
+            <label for="all"><input type="radio" name="shape" value="all" id="all" checked> toutes</label>
+            <label for="ellipse"><input type="radio" name="shape" value="ellipse" id="ellipse"> ellipses</label>
+            <label for="rectangle"><input type="radio" name="shape" value="rectangle" id="rectangle"> rectangles</label>
+        </p>
+        <p>
+            <label for="hue">Taille</label>
+            <input type="range" name="size" id="size" min="1850" max="38809">
+            <button type="reset" data-input="size">×</button>
+        </p>        
+    </header>
+
+    <!-- liste de tous les dudes -->
+    <main>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-0.yml"        
+            data-hue="148" 
+            data-size="11036"
+            data-shape="ellipse"
+            data-brightness="69" 
+            data-saturation="27" >
+            <div 
+                class="shape" 
+                style="color: #9BC5AF; width:89px; height:124px; font-size:18px; background:hsl(148deg 27% 69%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Shadow Green, I’m a very unsaturated green small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-1.yml"        
+            data-hue="98" 
+            data-size="8649"
+            data-shape="rectangle"
+            data-brightness="79" 
+            data-saturation="64" >
+            <div 
+                class="shape" 
+                style="color: #C0ECA7; width:93px; height:93px; font-size:16px; background:hsl(98deg 64% 79%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Tea Green, I’m a rather unsaturated light lime tiny square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-10.yml"        
+            data-hue="281" 
+            data-size="13455"
+            data-shape="ellipse"
+            data-brightness="91" 
+            data-saturation="68" >
+            <div 
+                class="shape" 
+                style="color: #EED8F8; width:69px; height:195px; font-size:22px; background:hsl(281deg 68% 91%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Moon Raker, I’m a rather saturated light purple small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-100.yml"        
+            data-hue="306" 
+            data-size="7056"
+            data-shape="ellipse"
+            data-brightness="94" 
+            data-saturation="60" >
+            <div 
+                class="shape" 
+                style="color: #F9E7F7; width:84px; height:84px; font-size:14px; background:hsl(306deg 60% 94%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Fantasy, I’m a rather unsaturated light magenta tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-101.yml"        
+            data-hue="38" 
+            data-size="2601"
+            data-shape="ellipse"
+            data-brightness="81" 
+            data-saturation="65" >
+            <div 
+                class="shape" 
+                style="color: #EED7AF; width:51px; height:51px; font-size:8px; background:hsl(38deg 65% 81%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Chamois, I’m a rather unsaturated light orange tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-102.yml"        
+            data-hue="352" 
+            data-size="10800"
+            data-shape="rectangle"
+            data-brightness="85" 
+            data-saturation="83" >
+            <div 
+                class="shape" 
+                style="color: #F8B9C1; width:60px; height:180px; font-size:20px; background:hsl(352deg 83% 85%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Mandys Pink, I’m a rather saturated light pink small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-103.yml"        
+            data-hue="312" 
+            data-size="16200"
+            data-shape="ellipse"
+            data-brightness="24" 
+            data-saturation="0" >
+            <div 
+                class="shape" 
+                style="color: #3D3D3D; width:200px; height:81px; font-size:23px; background:hsl(312deg 0% 24%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Mine Shaft, I’m an almost grey very dark pink small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-104.yml"        
+            data-hue="132" 
+            data-size="12078"
+            data-shape="rectangle"
+            data-brightness="52" 
+            data-saturation="71" >
+            <div 
+                class="shape" 
+                style="color: #2EDC50; width:66px; height:183px; font-size:21px; background:hsl(132deg 71% 52%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Malachite, I’m a rather saturated green small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-105.yml"        
+            data-hue="164" 
+            data-size="31706"
+            data-shape="rectangle"
+            data-brightness="48" 
+            data-saturation="76" >
+            <div 
+                class="shape" 
+                style="color: #1DD7A6; width:166px; height:191px; font-size:30px; background:hsl(164deg 76% 48%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Java, I’m a rather saturated dark green large rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-106.yml"        
+            data-hue="149" 
+            data-size="6888"
+            data-shape="rectangle"
+            data-brightness="78" 
+            data-saturation="20" >
+            <div 
+                class="shape" 
+                style="color: #BCD2C7; width:84px; height:82px; font-size:14px; background:hsl(149deg 20% 78%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Gum Leaf, I’m a very unsaturated light green tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-107.yml"        
+            data-hue="248" 
+            data-size="13200"
+            data-shape="rectangle"
+            data-brightness="86" 
+            data-saturation="83" >
+            <div 
+                class="shape" 
+                style="color: #C6BEF9; width:150px; height:88px; font-size:20px; background:hsl(248deg 83% 86%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Perfume, I’m a rather saturated light blue small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-108.yml"        
+            data-hue="23" 
+            data-size="21904"
+            data-shape="ellipse"
+            data-brightness="45" 
+            data-saturation="54" >
+            <div 
+                class="shape" 
+                style="color: #B16435; width:148px; height:148px; font-size:25px; background:hsl(23deg 54% 45%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Copper, I’m a rather unsaturated dark orange medium disc.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-109.yml"        
+            data-hue="228" 
+            data-size="13924"
+            data-shape="rectangle"
+            data-brightness="51" 
+            data-saturation="83" >
+            <div 
+                class="shape" 
+                style="color: #1A44EA; width:118px; height:118px; font-size:20px; background:hsl(228deg 83% 51%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Denim, I’m a rather saturated blue small square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-11.yml"        
+            data-hue="76" 
+            data-size="21240"
+            data-shape="ellipse"
+            data-brightness="97" 
+            data-saturation="41" >
+            <div 
+                class="shape" 
+                style="color: #F9FAF4; width:180px; height:118px; font-size:25px; background:hsl(76deg 41% 97%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Spring Wood, I’m an unsaturated near white medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-110.yml"        
+            data-hue="52" 
+            data-size="24649"
+            data-shape="ellipse"
+            data-brightness="15" 
+            data-saturation="86" >
+            <div 
+                class="shape" 
+                style="color: #473E05; width:157px; height:157px; font-size:26px; background:hsl(52deg 86% 15%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Deep Bronze, I’m a saturated very dark yellow medium disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-111.yml"        
+            data-hue="125" 
+            data-size="32041"
+            data-shape="ellipse"
+            data-brightness="54" 
+            data-saturation="82" >
+            <div 
+                class="shape" 
+                style="color: #2AEA3A; width:179px; height:179px; font-size:30px; background:hsl(125deg 82% 54%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Malachite, I’m a rather saturated green large disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-112.yml"        
+            data-hue="326" 
+            data-size="26364"
+            data-shape="rectangle"
+            data-brightness="52" 
+            data-saturation="88" >
+            <div 
+                class="shape" 
+                style="color: #F01993; width:156px; height:169px; font-size:27px; background:hsl(326deg 88% 52%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Coral Red, I’m a saturated pink medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-113.yml"        
+            data-hue="301" 
+            data-size="11025"
+            data-shape="rectangle"
+            data-brightness="47" 
+            data-saturation="72" >
+            <div 
+                class="shape" 
+                style="color: #CE22CB; width:105px; height:105px; font-size:18px; background:hsl(301deg 72% 47%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Roman, I’m a rather saturated dark magenta small square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-114.yml"        
+            data-hue="349" 
+            data-size="5329"
+            data-shape="ellipse"
+            data-brightness="86" 
+            data-saturation="36" >
+            <div 
+                class="shape" 
+                style="color: #E8CED3; width:73px; height:73px; font-size:12px; background:hsl(349deg 36% 86%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Oyster Pink, I’m an unsaturated light pink tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-115.yml"        
+            data-hue="61" 
+            data-size="10201"
+            data-shape="rectangle"
+            data-brightness="94" 
+            data-saturation="61" >
+            <div 
+                class="shape" 
+                style="color: #F9F9E6; width:101px; height:101px; font-size:17px; background:hsl(61deg 61% 94%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rum Swizzle, I’m a rather unsaturated light lime small square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-116.yml"        
+            data-hue="276" 
+            data-size="7107"
+            data-shape="rectangle"
+            data-brightness="71" 
+            data-saturation="35" >
+            <div 
+                class="shape" 
+                style="color: #BA9BCF; width:103px; height:69px; font-size:14px; background:hsl(276deg 35% 71%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is East Side, I’m an unsaturated purple tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-117.yml"        
+            data-hue="83" 
+            data-size="27974"
+            data-shape="rectangle"
+            data-brightness="65" 
+            data-saturation="81" >
+            <div 
+                class="shape" 
+                style="color: #B7EE5D; width:197px; height:142px; font-size:28px; background:hsl(83deg 81% 65%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Sulu, I’m a rather saturated lime medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-118.yml"        
+            data-hue="201" 
+            data-size="20055"
+            data-shape="ellipse"
+            data-brightness="20" 
+            data-saturation="73" >
+            <div 
+                class="shape" 
+                style="color: #0E3E58; width:105px; height:191px; font-size:25px; background:hsl(201deg 73% 20%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Eden, I’m a rather saturated very dark blue medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-119.yml"        
+            data-hue="179" 
+            data-size="26312"
+            data-shape="rectangle"
+            data-brightness="92" 
+            data-saturation="68" >
+            <div 
+                class="shape" 
+                style="color: #DDF8F8; width:143px; height:184px; font-size:27px; background:hsl(179deg 68% 92%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Polar, I’m a rather saturated light cyan medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-12.yml"        
+            data-hue="308" 
+            data-size="6138"
+            data-shape="ellipse"
+            data-brightness="99" 
+            data-saturation="81" >
+            <div 
+                class="shape" 
+                style="color: #FFFAFE; width:99px; height:62px; font-size:13px; background:hsl(308deg 81% 99%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Chablis, I’m a rather saturated near white tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-120.yml"        
+            data-hue="225" 
+            data-size="30276"
+            data-shape="ellipse"
+            data-brightness="25" 
+            data-saturation="97" >
+            <div 
+                class="shape" 
+                style="color: #02217E; width:174px; height:174px; font-size:29px; background:hsl(225deg 97% 25%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Resolution Blue, I’m a saturated dark blue large disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-121.yml"        
+            data-hue="72" 
+            data-size="4100"
+            data-shape="ellipse"
+            data-brightness="47" 
+            data-saturation="33" >
+            <div 
+                class="shape" 
+                style="color: #909F50; width:41px; height:100px; font-size:12px; background:hsl(72deg 33% 47%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Chelsea Cucumber, I’m a very unsaturated dark lime tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-122.yml"        
+            data-hue="284" 
+            data-size="3249"
+            data-shape="rectangle"
+            data-brightness="98" 
+            data-saturation="46" >
+            <div 
+                class="shape" 
+                style="color: #FBF8FC; width:57px; height:57px; font-size:10px; background:hsl(284deg 46% 98%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Whisper, I’m an unsaturated near white tiny square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-123.yml"        
+            data-hue="277" 
+            data-size="30276"
+            data-shape="rectangle"
+            data-brightness="71" 
+            data-saturation="58" >
+            <div 
+                class="shape" 
+                style="color: #BF8AE0; width:174px; height:174px; font-size:29px; background:hsl(277deg 58% 71%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Lavender, I’m a rather unsaturated purple large square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-124.yml"        
+            data-hue="297" 
+            data-size="14678"
+            data-shape="ellipse"
+            data-brightness="64" 
+            data-saturation="45" >
+            <div 
+                class="shape" 
+                style="color: #C87ACD; width:82px; height:179px; font-size:22px; background:hsl(297deg 45% 64%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Fuchsia Pink, I’m an unsaturated magenta small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-125.yml"        
+            data-hue="196" 
+            data-size="18048"
+            data-shape="ellipse"
+            data-brightness="16" 
+            data-saturation="69" >
+            <div 
+                class="shape" 
+                style="color: #0D3645; width:188px; height:96px; font-size:24px; background:hsl(196deg 69% 16%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Elephant, I’m a rather saturated very dark blue small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-126.yml"        
+            data-hue="7" 
+            data-size="22052"
+            data-shape="rectangle"
+            data-brightness="75" 
+            data-saturation="59" >
+            <div 
+                class="shape" 
+                style="color: #E5A29A; width:148px; height:149px; font-size:25px; background:hsl(7deg 59% 75%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Tonys Pink, I’m a rather unsaturated light red medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-127.yml"        
+            data-hue="349" 
+            data-size="9408"
+            data-shape="rectangle"
+            data-brightness="83" 
+            data-saturation="34" >
+            <div 
+                class="shape" 
+                style="color: #E2C5CA; width:196px; height:48px; font-size:20px; background:hsl(349deg 34% 83%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Dust Storm, I’m an unsaturated light pink tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-128.yml"        
+            data-hue="57" 
+            data-size="18720"
+            data-shape="ellipse"
+            data-brightness="5" 
+            data-saturation="58" >
+            <div 
+                class="shape" 
+                style="color: #141305; width:120px; height:156px; font-size:23px; background:hsl(57deg 58% 5%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Green Waterloo, I’m a rather unsaturated near black small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-129.yml"        
+            data-hue="246" 
+            data-size="7744"
+            data-shape="ellipse"
+            data-brightness="7" 
+            data-saturation="91" >
+            <div 
+                class="shape" 
+                style="color: #050222; width:88px; height:88px; font-size:15px; background:hsl(246deg 91% 7%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black Rock, I’m a saturated near black tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-13.yml"        
+            data-hue="109" 
+            data-size="3249"
+            data-shape="rectangle"
+            data-brightness="37" 
+            data-saturation="7" >
+            <div 
+                class="shape" 
+                style="color: #5A6558; width:57px; height:57px; font-size:10px; background:hsl(109deg 7% 37%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Finlandia, I’m an almost grey dark green tiny square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-130.yml"        
+            data-hue="357" 
+            data-size="14790"
+            data-shape="rectangle"
+            data-brightness="62" 
+            data-saturation="45" >
+            <div 
+                class="shape" 
+                style="color: #CA7277; width:85px; height:174px; font-size:22px; background:hsl(357deg 45% 62%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Contessa, I’m an unsaturated pink small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-131.yml"        
+            data-hue="292" 
+            data-size="6955"
+            data-shape="rectangle"
+            data-brightness="27" 
+            data-saturation="43" >
+            <div 
+                class="shape" 
+                style="color: #5B2762; width:65px; height:107px; font-size:14px; background:hsl(292deg 43% 27%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Bossanova, I’m an unsaturated dark magenta tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-132.yml"        
+            data-hue="59" 
+            data-size="10721"
+            data-shape="rectangle"
+            data-brightness="80" 
+            data-saturation="35" >
+            <div 
+                class="shape" 
+                style="color: #DEDDBA; width:71px; height:151px; font-size:18px; background:hsl(59deg 35% 80%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Beryl Green, I’m an unsaturated light yellow small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-133.yml"        
+            data-hue="249" 
+            data-size="38416"
+            data-shape="rectangle"
+            data-brightness="14" 
+            data-saturation="44" >
+            <div 
+                class="shape" 
+                style="color: #191433; width:196px; height:196px; font-size:33px; background:hsl(249deg 44% 14%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Ebony, I’m an unsaturated very dark blue large square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-134.yml"        
+            data-hue="174" 
+            data-size="11881"
+            data-shape="ellipse"
+            data-brightness="19" 
+            data-saturation="99" >
+            <div 
+                class="shape" 
+                style="color: #006057; width:109px; height:109px; font-size:18px; background:hsl(174deg 99% 19%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Blue Stone, I’m a saturated very dark cyan small disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-135.yml"        
+            data-hue="27" 
+            data-size="12408"
+            data-shape="rectangle"
+            data-brightness="46" 
+            data-saturation="87" >
+            <div 
+                class="shape" 
+                style="color: #DB6B0F; width:188px; height:66px; font-size:21px; background:hsl(27deg 87% 46%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Christine, I’m a saturated dark orange small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-136.yml"        
+            data-hue="150" 
+            data-size="13774"
+            data-shape="rectangle"
+            data-brightness="17" 
+            data-saturation="46" >
+            <div 
+                class="shape" 
+                style="color: #173F2B; width:194px; height:71px; font-size:22px; background:hsl(150deg 46% 17%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Everglade, I’m an unsaturated very dark green small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-137.yml"        
+            data-hue="86" 
+            data-size="26569"
+            data-shape="rectangle"
+            data-brightness="89" 
+            data-saturation="95" >
+            <div 
+                class="shape" 
+                style="color: #E7FEC8; width:163px; height:163px; font-size:27px; background:hsl(86deg 95% 89%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Chiffon, I’m a saturated light lime medium square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-138.yml"        
+            data-hue="301" 
+            data-size="19404"
+            data-shape="rectangle"
+            data-brightness="61" 
+            data-saturation="8" >
+            <div 
+                class="shape" 
+                style="color: #A494A3; width:198px; height:98px; font-size:25px; background:hsl(301deg 8% 61%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Martini, I’m an almost grey magenta small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-139.yml"        
+            data-hue="319" 
+            data-size="16129"
+            data-shape="rectangle"
+            data-brightness="27" 
+            data-saturation="80" >
+            <div 
+                class="shape" 
+                style="color: #7C0E59; width:127px; height:127px; font-size:21px; background:hsl(319deg 80% 27%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Falu Red, I’m a rather saturated dark pink small square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-14.yml"        
+            data-hue="126" 
+            data-size="27225"
+            data-shape="ellipse"
+            data-brightness="96" 
+            data-saturation="60" >
+            <div 
+                class="shape" 
+                style="color: #EFFBF0; width:165px; height:165px; font-size:28px; background:hsl(126deg 60% 96%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Ottoman, I’m a rather unsaturated near white medium disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-140.yml"        
+            data-hue="226" 
+            data-size="7200"
+            data-shape="ellipse"
+            data-brightness="56" 
+            data-saturation="19" >
+            <div 
+                class="shape" 
+                style="color: #7983A4; width:100px; height:72px; font-size:14px; background:hsl(226deg 19% 56%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Lynch, I’m a very unsaturated blue tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-141.yml"        
+            data-hue="337" 
+            data-size="10545"
+            data-shape="rectangle"
+            data-brightness="97" 
+            data-saturation="100" >
+            <div 
+                class="shape" 
+                style="color: #FFF0F6; width:111px; height:95px; font-size:17px; background:hsl(337deg 100% 97%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Chablis, I’m a very saturated near white small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-142.yml"        
+            data-hue="6" 
+            data-size="13225"
+            data-shape="rectangle"
+            data-brightness="43" 
+            data-saturation="27" >
+            <div 
+                class="shape" 
+                style="color: #8B5650; width:115px; height:115px; font-size:19px; background:hsl(6deg 27% 43%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Au Chico, I’m a very unsaturated dark red small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-143.yml"        
+            data-hue="205" 
+            data-size="9604"
+            data-shape="rectangle"
+            data-brightness="100" 
+            data-saturation="23" >
+            <div 
+                class="shape" 
+                style="color: #FFFFFF; width:98px; height:98px; font-size:16px; background:hsl(205deg 23% 100%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is White, I’m a very unsaturated near white tiny square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-144.yml"        
+            data-hue="117" 
+            data-size="5929"
+            data-shape="rectangle"
+            data-brightness="87" 
+            data-saturation="87" >
+            <div 
+                class="shape" 
+                style="color: #C4FBC1; width:77px; height:77px; font-size:13px; background:hsl(117deg 87% 87%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Gossip, I’m a saturated light green tiny square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-145.yml"        
+            data-hue="45" 
+            data-size="23010"
+            data-shape="rectangle"
+            data-brightness="73" 
+            data-saturation="31" >
+            <div 
+                class="shape" 
+                style="color: #CFC5A5; width:177px; height:130px; font-size:26px; background:hsl(45deg 31% 73%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Chino, I’m a very unsaturated yellow medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-146.yml"        
+            data-hue="239" 
+            data-size="16384"
+            data-shape="ellipse"
+            data-brightness="8" 
+            data-saturation="31" >
+            <div 
+                class="shape" 
+                style="color: #0E0E1B; width:128px; height:128px; font-size:21px; background:hsl(239deg 31% 8%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Vulcan, I’m a very unsaturated near black small disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-147.yml"        
+            data-hue="5" 
+            data-size="12948"
+            data-shape="rectangle"
+            data-brightness="32" 
+            data-saturation="55" >
+            <div 
+                class="shape" 
+                style="color: #7E2C25; width:83px; height:156px; font-size:20px; background:hsl(5deg 55% 32%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Burnt Umber, I’m a rather unsaturated dark red small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-148.yml"        
+            data-hue="259" 
+            data-size="12996"
+            data-shape="rectangle"
+            data-brightness="48" 
+            data-saturation="15" >
+            <div 
+                class="shape" 
+                style="color: #74688D; width:114px; height:114px; font-size:19px; background:hsl(259deg 15% 48%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rum, I’m an almost grey dark blue small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-149.yml"        
+            data-hue="291" 
+            data-size="10816"
+            data-shape="rectangle"
+            data-brightness="18" 
+            data-saturation="70" >
+            <div 
+                class="shape" 
+                style="color: #440E4E; width:104px; height:104px; font-size:17px; background:hsl(291deg 70% 18%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Loulou, I’m a rather saturated very dark magenta small square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-15.yml"        
+            data-hue="1" 
+            data-size="8840"
+            data-shape="ellipse"
+            data-brightness="0" 
+            data-saturation="64" >
+            <div 
+                class="shape" 
+                style="color: #000000; width:130px; height:68px; font-size:16px; background:hsl(1deg 64% 0%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black, I’m a rather unsaturated near black tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-150.yml"        
+            data-hue="57" 
+            data-size="5625"
+            data-shape="rectangle"
+            data-brightness="0" 
+            data-saturation="81" >
+            <div 
+                class="shape" 
+                style="color: #000000; width:75px; height:75px; font-size:12px; background:hsl(57deg 81% 0%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black, I’m a rather saturated near black tiny square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-151.yml"        
+            data-hue="76" 
+            data-size="21025"
+            data-shape="rectangle"
+            data-brightness="76" 
+            data-saturation="58" >
+            <div 
+                class="shape" 
+                style="color: #D2E59E; width:145px; height:145px; font-size:24px; background:hsl(76deg 58% 76%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Caper, I’m a rather unsaturated light lime medium square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-152.yml"        
+            data-hue="229" 
+            data-size="24528"
+            data-shape="ellipse"
+            data-brightness="52" 
+            data-saturation="16" >
+            <div 
+                class="shape" 
+                style="color: #717898; width:168px; height:146px; font-size:26px; background:hsl(229deg 16% 52%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Lynch, I’m an almost grey blue medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-153.yml"        
+            data-hue="140" 
+            data-size="29928"
+            data-shape="ellipse"
+            data-brightness="58" 
+            data-saturation="71" >
+            <div 
+                class="shape" 
+                style="color: #48E07B; width:174px; height:172px; font-size:29px; background:hsl(140deg 71% 58%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Shamrock, I’m a rather saturated green medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-154.yml"        
+            data-hue="247" 
+            data-size="6342"
+            data-shape="ellipse"
+            data-brightness="58" 
+            data-saturation="54" >
+            <div 
+                class="shape" 
+                style="color: #685ACE; width:42px; height:151px; font-size:16px; background:hsl(247deg 54% 58%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Blue Marguerite, I’m a rather unsaturated blue tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-155.yml"        
+            data-hue="45" 
+            data-size="2736"
+            data-shape="rectangle"
+            data-brightness="73" 
+            data-saturation="10" >
+            <div 
+                class="shape" 
+                style="color: #C1BEB3; width:48px; height:57px; font-size:9px; background:hsl(45deg 10% 73%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cotton Seed, I’m an almost grey yellow tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-156.yml"        
+            data-hue="209" 
+            data-size="28561"
+            data-shape="ellipse"
+            data-brightness="88" 
+            data-saturation="10" >
+            <div 
+                class="shape" 
+                style="color: #DDE1E3; width:169px; height:169px; font-size:28px; background:hsl(209deg 10% 88%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Iron, I’m an almost grey light blue medium disc.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-157.yml"        
+            data-hue="346" 
+            data-size="16900"
+            data-shape="rectangle"
+            data-brightness="56" 
+            data-saturation="92" >
+            <div 
+                class="shape" 
+                style="color: #F62858; width:130px; height:130px; font-size:22px; background:hsl(346deg 92% 56%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Coral Red, I’m a saturated pink small square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-158.yml"        
+            data-hue="207" 
+            data-size="21970"
+            data-shape="ellipse"
+            data-brightness="23" 
+            data-saturation="95" >
+            <div 
+                class="shape" 
+                style="color: #034072; width:130px; height:169px; font-size:25px; background:hsl(207deg 95% 23%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Regal Blue, I’m a saturated very dark blue medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-159.yml"        
+            data-hue="241" 
+            data-size="10000"
+            data-shape="rectangle"
+            data-brightness="36" 
+            data-saturation="60" >
+            <div 
+                class="shape" 
+                style="color: #272593; width:100px; height:100px; font-size:17px; background:hsl(241deg 60% 36%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Jacksons Purple, I’m a rather unsaturated dark blue small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-16.yml"        
+            data-hue="255" 
+            data-size="1936"
+            data-shape="rectangle"
+            data-brightness="20" 
+            data-saturation="61" >
+            <div 
+                class="shape" 
+                style="color: #231452; width:44px; height:44px; font-size:7px; background:hsl(255deg 61% 20%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Valhalla, I’m a rather unsaturated very dark blue tiny square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-160.yml"        
+            data-hue="196" 
+            data-size="30625"
+            data-shape="rectangle"
+            data-brightness="99" 
+            data-saturation="68" >
+            <div 
+                class="shape" 
+                style="color: #FBFDFE; width:175px; height:175px; font-size:29px; background:hsl(196deg 68% 99%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Polar, I’m a rather saturated near white large square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-161.yml"        
+            data-hue="220" 
+            data-size="14884"
+            data-shape="ellipse"
+            data-brightness="76" 
+            data-saturation="71" >
+            <div 
+                class="shape" 
+                style="color: #96B3ED; width:122px; height:122px; font-size:20px; background:hsl(220deg 71% 76%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Portage, I’m a rather saturated light blue small disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-162.yml"        
+            data-hue="281" 
+            data-size="17622"
+            data-shape="ellipse"
+            data-brightness="23" 
+            data-saturation="24" >
+            <div 
+                class="shape" 
+                style="color: #402D49; width:198px; height:89px; font-size:24px; background:hsl(281deg 24% 23%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Voodoo, I’m a very unsaturated very dark purple small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-163.yml"        
+            data-hue="334" 
+            data-size="2304"
+            data-shape="rectangle"
+            data-brightness="8" 
+            data-saturation="48" >
+            <div 
+                class="shape" 
+                style="color: #1E0B13; width:48px; height:48px; font-size:8px; background:hsl(334deg 48% 8%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Tamarind, I’m an unsaturated near black tiny square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-164.yml"        
+            data-hue="102" 
+            data-size="12769"
+            data-shape="rectangle"
+            data-brightness="44" 
+            data-saturation="63" >
+            <div 
+                class="shape" 
+                style="color: #54B72A; width:113px; height:113px; font-size:19px; background:hsl(102deg 63% 44%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Apple, I’m a rather unsaturated dark green small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-165.yml"        
+            data-hue="287" 
+            data-size="21316"
+            data-shape="rectangle"
+            data-brightness="34" 
+            data-saturation="100" >
+            <div 
+                class="shape" 
+                style="color: #8800AD; width:146px; height:146px; font-size:24px; background:hsl(287deg 100% 34%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Purple, I’m a very saturated dark purple medium square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-166.yml"        
+            data-hue="245" 
+            data-size="8625"
+            data-shape="ellipse"
+            data-brightness="29" 
+            data-saturation="83" >
+            <div 
+                class="shape" 
+                style="color: #170D87; width:125px; height:69px; font-size:16px; background:hsl(245deg 83% 29%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Ultramarine, I’m a rather saturated dark blue tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-167.yml"        
+            data-hue="34" 
+            data-size="5332"
+            data-shape="rectangle"
+            data-brightness="56" 
+            data-saturation="0" >
+            <div 
+                class="shape" 
+                style="color: #8F8F8F; width:43px; height:124px; font-size:14px; background:hsl(34deg 0% 56%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Gray, I’m an almost grey orange tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-168.yml"        
+            data-hue="138" 
+            data-size="3249"
+            data-shape="rectangle"
+            data-brightness="88" 
+            data-saturation="31" >
+            <div 
+                class="shape" 
+                style="color: #D7EADD; width:57px; height:57px; font-size:10px; background:hsl(138deg 31% 88%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Surf Crest, I’m a very unsaturated light green tiny square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-169.yml"        
+            data-hue="145" 
+            data-size="7502"
+            data-shape="rectangle"
+            data-brightness="1" 
+            data-saturation="75" >
+            <div 
+                class="shape" 
+                style="color: #010402; width:62px; height:121px; font-size:15px; background:hsl(145deg 75% 1%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Midnight Moss, I’m a rather saturated near black tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-17.yml"        
+            data-hue="116" 
+            data-size="7421"
+            data-shape="ellipse"
+            data-brightness="33" 
+            data-saturation="36" >
+            <div 
+                class="shape" 
+                style="color: #3A7236; width:181px; height:41px; font-size:18px; background:hsl(116deg 36% 33%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Killarney, I’m an unsaturated dark green tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-170.yml"        
+            data-hue="237" 
+            data-size="14520"
+            data-shape="rectangle"
+            data-brightness="100" 
+            data-saturation="24" >
+            <div 
+                class="shape" 
+                style="color: #FFFFFF; width:120px; height:121px; font-size:20px; background:hsl(237deg 24% 100%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is White, I’m a very unsaturated near white small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-171.yml"        
+            data-hue="285" 
+            data-size="14560"
+            data-shape="rectangle"
+            data-brightness="63" 
+            data-saturation="38" >
+            <div 
+                class="shape" 
+                style="color: #B37DC5; width:182px; height:80px; font-size:22px; background:hsl(285deg 38% 63%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is East Side, I’m an unsaturated purple small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-172.yml"        
+            data-hue="11" 
+            data-size="17161"
+            data-shape="ellipse"
+            data-brightness="18" 
+            data-saturation="1" >
+            <div 
+                class="shape" 
+                style="color: #2E2E2D; width:131px; height:131px; font-size:22px; background:hsl(11deg 1% 18%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Tuatara, I’m an almost grey very dark red small disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-173.yml"        
+            data-hue="86" 
+            data-size="11700"
+            data-shape="ellipse"
+            data-brightness="72" 
+            data-saturation="97" >
+            <div 
+                class="shape" 
+                style="color: #C1FD72; width:195px; height:60px; font-size:21px; background:hsl(86deg 97% 72%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Mindaro, I’m a saturated lime small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-174.yml"        
+            data-hue="175" 
+            data-size="26896"
+            data-shape="rectangle"
+            data-brightness="71" 
+            data-saturation="17" >
+            <div 
+                class="shape" 
+                style="color: #A8C2C0; width:164px; height:164px; font-size:27px; background:hsl(175deg 17% 71%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Opal, I’m a very unsaturated cyan medium square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-175.yml"        
+            data-hue="138" 
+            data-size="14641"
+            data-shape="ellipse"
+            data-brightness="16" 
+            data-saturation="52" >
+            <div 
+                class="shape" 
+                style="color: #143E20; width:121px; height:121px; font-size:20px; background:hsl(138deg 52% 16%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Bush, I’m a rather unsaturated very dark green small disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-176.yml"        
+            data-hue="192" 
+            data-size="15625"
+            data-shape="ellipse"
+            data-brightness="0" 
+            data-saturation="46" >
+            <div 
+                class="shape" 
+                style="color: #000000; width:125px; height:125px; font-size:21px; background:hsl(192deg 46% 0%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black, I’m an unsaturated near black small disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-177.yml"        
+            data-hue="337" 
+            data-size="8814"
+            data-shape="ellipse"
+            data-brightness="65" 
+            data-saturation="34" >
+            <div 
+                class="shape" 
+                style="color: #C4879F; width:78px; height:113px; font-size:16px; background:hsl(337deg 34% 65%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Oriental Pink, I’m an unsaturated pink tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-178.yml"        
+            data-hue="260" 
+            data-size="22176"
+            data-shape="rectangle"
+            data-brightness="47" 
+            data-saturation="49" >
+            <div 
+                class="shape" 
+                style="color: #643DB3; width:168px; height:132px; font-size:25px; background:hsl(260deg 49% 47%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Royal Purple, I’m an unsaturated dark purple medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-179.yml"        
+            data-hue="2" 
+            data-size="31243"
+            data-shape="ellipse"
+            data-brightness="54" 
+            data-saturation="16" >
+            <div 
+                class="shape" 
+                style="color: #9C7877; width:157px; height:199px; font-size:30px; background:hsl(2deg 16% 54%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Pharlap, I’m an almost grey red large ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-18.yml"        
+            data-hue="14" 
+            data-size="9100"
+            data-shape="rectangle"
+            data-brightness="81" 
+            data-saturation="53" >
+            <div 
+                class="shape" 
+                style="color: #E8C1B5; width:52px; height:175px; font-size:19px; background:hsl(14deg 53% 81%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rose Fog, I’m a rather unsaturated light red tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-180.yml"        
+            data-hue="358" 
+            data-size="6095"
+            data-shape="ellipse"
+            data-brightness="65" 
+            data-saturation="97" >
+            <div 
+                class="shape" 
+                style="color: #FC4F55; width:53px; height:115px; font-size:14px; background:hsl(358deg 97% 65%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Sunset Orange, I’m a saturated pink tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-181.yml"        
+            data-hue="36" 
+            data-size="16092"
+            data-shape="rectangle"
+            data-brightness="44" 
+            data-saturation="90" >
+            <div 
+                class="shape" 
+                style="color: #D5840B; width:108px; height:149px; font-size:21px; background:hsl(36deg 90% 44%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Meteor, I’m a saturated dark orange small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-182.yml"        
+            data-hue="359" 
+            data-size="8100"
+            data-shape="ellipse"
+            data-brightness="72" 
+            data-saturation="2" >
+            <div 
+                class="shape" 
+                style="color: #B9B6B6; width:90px; height:90px; font-size:15px; background:hsl(359deg 2% 72%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Nobel, I’m an almost grey pink tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-183.yml"        
+            data-hue="172" 
+            data-size="18824"
+            data-shape="ellipse"
+            data-brightness="63" 
+            data-saturation="47" >
+            <div 
+                class="shape" 
+                style="color: #74CDC1; width:104px; height:181px; font-size:24px; background:hsl(172deg 47% 63%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Downy, I’m an unsaturated cyan small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-184.yml"        
+            data-hue="124" 
+            data-size="7296"
+            data-shape="rectangle"
+            data-brightness="99" 
+            data-saturation="88" >
+            <div 
+                class="shape" 
+                style="color: #FAFFFB; width:96px; height:76px; font-size:14px; background:hsl(124deg 88% 99%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Hint of Green, I’m a saturated near white tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-185.yml"        
+            data-hue="50" 
+            data-size="3969"
+            data-shape="ellipse"
+            data-brightness="87" 
+            data-saturation="29" >
+            <div 
+                class="shape" 
+                style="color: #E7E4D4; width:63px; height:63px; font-size:10px; background:hsl(50deg 29% 87%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Satin Linen, I’m a very unsaturated light yellow tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-186.yml"        
+            data-hue="322" 
+            data-size="10000"
+            data-shape="rectangle"
+            data-brightness="97" 
+            data-saturation="71" >
+            <div 
+                class="shape" 
+                style="color: #FDF2F9; width:100px; height:100px; font-size:17px; background:hsl(322deg 71% 97%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Provincial Pink, I’m a rather saturated near white small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-187.yml"        
+            data-hue="192" 
+            data-size="21316"
+            data-shape="rectangle"
+            data-brightness="26" 
+            data-saturation="5" >
+            <div 
+                class="shape" 
+                style="color: #3F4446; width:146px; height:146px; font-size:24px; background:hsl(192deg 5% 26%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cape Cod, I’m an almost grey dark blue medium square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-188.yml"        
+            data-hue="178" 
+            data-size="12947"
+            data-shape="ellipse"
+            data-brightness="73" 
+            data-saturation="94" >
+            <div 
+                class="shape" 
+                style="color: #79FBF7; width:107px; height:121px; font-size:19px; background:hsl(178deg 94% 73%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Aquamarine, I’m a saturated cyan small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-189.yml"        
+            data-hue="144" 
+            data-size="25600"
+            data-shape="ellipse"
+            data-brightness="23" 
+            data-saturation="76" >
+            <div 
+                class="shape" 
+                style="color: #0E6732; width:200px; height:128px; font-size:27px; background:hsl(144deg 76% 23%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Jewel, I’m a rather saturated very dark green medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-19.yml"        
+            data-hue="105" 
+            data-size="17992"
+            data-shape="rectangle"
+            data-brightness="82" 
+            data-saturation="44" >
+            <div 
+                class="shape" 
+                style="color: #C7E5BD; width:104px; height:173px; font-size:23px; background:hsl(105deg 44% 82%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Moss Green, I’m an unsaturated light green small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-190.yml"        
+            data-hue="246" 
+            data-size="21609"
+            data-shape="rectangle"
+            data-brightness="92" 
+            data-saturation="52" >
+            <div 
+                class="shape" 
+                style="color: #E2E0F5; width:147px; height:147px; font-size:24px; background:hsl(246deg 52% 92%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Link Water, I’m a rather unsaturated light blue medium square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-191.yml"        
+            data-hue="330" 
+            data-size="13786"
+            data-shape="ellipse"
+            data-brightness="53" 
+            data-saturation="5" >
+            <div 
+                class="shape" 
+                style="color: #8D8187; width:122px; height:113px; font-size:20px; background:hsl(330deg 5% 53%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Hurricane, I’m an almost grey pink small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-192.yml"        
+            data-hue="344" 
+            data-size="22512"
+            data-shape="rectangle"
+            data-brightness="82" 
+            data-saturation="86" >
+            <div 
+                class="shape" 
+                style="color: #F9AABF; width:168px; height:134px; font-size:25px; background:hsl(344deg 86% 82%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rose Bud, I’m a saturated light pink medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-193.yml"        
+            data-hue="228" 
+            data-size="21025"
+            data-shape="ellipse"
+            data-brightness="82" 
+            data-saturation="89" >
+            <div 
+                class="shape" 
+                style="color: #A8B9FA; width:145px; height:145px; font-size:24px; background:hsl(228deg 89% 82%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Sail, I’m a saturated light blue medium disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-194.yml"        
+            data-hue="291" 
+            data-size="13509"
+            data-shape="ellipse"
+            data-brightness="38" 
+            data-saturation="19" >
+            <div 
+                class="shape" 
+                style="color: #6E4E73; width:79px; height:171px; font-size:21px; background:hsl(291deg 19% 38%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Salt Box, I’m a very unsaturated dark magenta small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-195.yml"        
+            data-hue="239" 
+            data-size="17780"
+            data-shape="ellipse"
+            data-brightness="35" 
+            data-saturation="49" >
+            <div 
+                class="shape" 
+                style="color: #2E2F85; width:140px; height:127px; font-size:22px; background:hsl(239deg 49% 35%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Minsk, I’m an unsaturated dark blue small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-196.yml"        
+            data-hue="214" 
+            data-size="2500"
+            data-shape="rectangle"
+            data-brightness="95" 
+            data-saturation="12" >
+            <div 
+                class="shape" 
+                style="color: #F1F2F4; width:50px; height:50px; font-size:8px; background:hsl(214deg 12% 95%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Athens Gray, I’m an almost grey near white tiny square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-197.yml"        
+            data-hue="9" 
+            data-size="14884"
+            data-shape="ellipse"
+            data-brightness="26" 
+            data-saturation="14" >
+            <div 
+                class="shape" 
+                style="color: #4C3C39; width:122px; height:122px; font-size:20px; background:hsl(9deg 14% 26%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rock, I’m an almost grey dark red small disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-198.yml"        
+            data-hue="289" 
+            data-size="6741"
+            data-shape="ellipse"
+            data-brightness="95" 
+            data-saturation="26" >
+            <div 
+                class="shape" 
+                style="color: #F4EFF6; width:107px; height:63px; font-size:14px; background:hsl(289deg 26% 95%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Whisper, I’m a very unsaturated near white tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-199.yml"        
+            data-hue="93" 
+            data-size="12996"
+            data-shape="rectangle"
+            data-brightness="26" 
+            data-saturation="74" >
+            <div 
+                class="shape" 
+                style="color: #3D7311; width:114px; height:114px; font-size:19px; background:hsl(93deg 74% 26%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Bilbao, I’m a rather saturated dark lime small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-2.yml"        
+            data-hue="142" 
+            data-size="1849"
+            data-shape="rectangle"
+            data-brightness="96" 
+            data-saturation="15" >
+            <div 
+                class="shape" 
+                style="color: #F3F6F4; width:43px; height:43px; font-size:7px; background:hsl(142deg 15% 96%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Snow Drift, I’m an almost grey near white tiny square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-20.yml"        
+            data-hue="90" 
+            data-size="14994"
+            data-shape="ellipse"
+            data-brightness="28" 
+            data-saturation="99" >
+            <div 
+                class="shape" 
+                style="color: #478E01; width:153px; height:98px; font-size:21px; background:hsl(90deg 99% 28%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Limeade, I’m a saturated dark lime small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-21.yml"        
+            data-hue="70" 
+            data-size="2808"
+            data-shape="ellipse"
+            data-brightness="17" 
+            data-saturation="33" >
+            <div 
+                class="shape" 
+                style="color: #353A1D; width:52px; height:54px; font-size:9px; background:hsl(70deg 33% 17%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black Olive, I’m a very unsaturated very dark lime tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-22.yml"        
+            data-hue="84" 
+            data-size="23572"
+            data-shape="rectangle"
+            data-brightness="64" 
+            data-saturation="26" >
+            <div 
+                class="shape" 
+                style="color: #A8BB8B; width:142px; height:166px; font-size:26px; background:hsl(84deg 26% 64%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Swamp Green, I’m a very unsaturated lime medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-23.yml"        
+            data-hue="218" 
+            data-size="33120"
+            data-shape="rectangle"
+            data-brightness="99" 
+            data-saturation="73" >
+            <div 
+                class="shape" 
+                style="color: #FBFCFE; width:180px; height:184px; font-size:30px; background:hsl(218deg 73% 99%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Link Water, I’m a rather saturated near white large rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-24.yml"        
+            data-hue="272" 
+            data-size="7744"
+            data-shape="ellipse"
+            data-brightness="7" 
+            data-saturation="28" >
+            <div 
+                class="shape" 
+                style="color: #120D17; width:88px; height:88px; font-size:15px; background:hsl(272deg 28% 7%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cinder, I’m a very unsaturated near black tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-25.yml"        
+            data-hue="153" 
+            data-size="6370"
+            data-shape="rectangle"
+            data-brightness="66" 
+            data-saturation="28" >
+            <div 
+                class="shape" 
+                style="color: #90C1AB; width:98px; height:65px; font-size:14px; background:hsl(153deg 28% 66%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Shadow Green, I’m a very unsaturated green tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-26.yml"        
+            data-hue="220" 
+            data-size="15438"
+            data-shape="rectangle"
+            data-brightness="16" 
+            data-saturation="17" >
+            <div 
+                class="shape" 
+                style="color: #222630; width:186px; height:83px; font-size:22px; background:hsl(220deg 17% 16%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Charade, I’m a very unsaturated very dark blue small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-27.yml"        
+            data-hue="36" 
+            data-size="4624"
+            data-shape="rectangle"
+            data-brightness="17" 
+            data-saturation="47" >
+            <div 
+                class="shape" 
+                style="color: #402F17; width:68px; height:68px; font-size:11px; background:hsl(36deg 47% 17%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Metallic Bronze, I’m an unsaturated very dark orange tiny square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-28.yml"        
+            data-hue="299" 
+            data-size="13452"
+            data-shape="ellipse"
+            data-brightness="59" 
+            data-saturation="64" >
+            <div 
+                class="shape" 
+                style="color: #D754D9; width:76px; height:177px; font-size:21px; background:hsl(299deg 64% 59%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Orchid, I’m a rather unsaturated magenta small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-29.yml"        
+            data-hue="187" 
+            data-size="15876"
+            data-shape="ellipse"
+            data-brightness="8" 
+            data-saturation="42" >
+            <div 
+                class="shape" 
+                style="color: #0C1B1D; width:126px; height:126px; font-size:21px; background:hsl(187deg 42% 8%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Aztec, I’m an unsaturated near black small disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-3.yml"        
+            data-hue="49" 
+            data-size="6889"
+            data-shape="ellipse"
+            data-brightness="3" 
+            data-saturation="26" >
+            <div 
+                class="shape" 
+                style="color: #0A0906; width:83px; height:83px; font-size:14px; background:hsl(49deg 26% 3%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rangoon Green, I’m a very unsaturated near black tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-30.yml"        
+            data-hue="43" 
+            data-size="10201"
+            data-shape="ellipse"
+            data-brightness="80" 
+            data-saturation="2" >
+            <div 
+                class="shape" 
+                style="color: #CDCCCB; width:101px; height:101px; font-size:17px; background:hsl(43deg 2% 80%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cloud, I’m an almost grey light yellow small disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-31.yml"        
+            data-hue="293" 
+            data-size="23283"
+            data-shape="rectangle"
+            data-brightness="59" 
+            data-saturation="87" >
+            <div 
+                class="shape" 
+                style="color: #DC3BF1; width:117px; height:199px; font-size:26px; background:hsl(293deg 87% 59%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Razzle Dazzle Rose, I’m a saturated magenta medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-32.yml"        
+            data-hue="213" 
+            data-size="1935"
+            data-shape="ellipse"
+            data-brightness="22" 
+            data-saturation="21" >
+            <div 
+                class="shape" 
+                style="color: #2C3744; width:45px; height:43px; font-size:7px; background:hsl(213deg 21% 22%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Ebony Clay, I’m a very unsaturated very dark blue tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-33.yml"        
+            data-hue="309" 
+            data-size="38416"
+            data-shape="rectangle"
+            data-brightness="24" 
+            data-saturation="64" >
+            <div 
+                class="shape" 
+                style="color: #641659; width:196px; height:196px; font-size:33px; background:hsl(309deg 64% 24%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Persian Plum, I’m a rather unsaturated very dark magenta large square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-34.yml"        
+            data-hue="159" 
+            data-size="20164"
+            data-shape="ellipse"
+            data-brightness="95" 
+            data-saturation="47" >
+            <div 
+                class="shape" 
+                style="color: #ECF8F4; width:142px; height:142px; font-size:24px; background:hsl(159deg 47% 95%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black Squeeze, I’m an unsaturated near white medium disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-35.yml"        
+            data-hue="77" 
+            data-size="23104"
+            data-shape="ellipse"
+            data-brightness="62" 
+            data-saturation="61" >
+            <div 
+                class="shape" 
+                style="color: #B8D963; width:152px; height:152px; font-size:25px; background:hsl(77deg 61% 62%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Yellow Green, I’m a rather unsaturated lime medium disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-36.yml"        
+            data-hue="315" 
+            data-size="32592"
+            data-shape="rectangle"
+            data-brightness="9" 
+            data-saturation="59" >
+            <div 
+                class="shape" 
+                style="color: #24091E; width:168px; height:194px; font-size:30px; background:hsl(315deg 59% 9%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Coffee Bean, I’m a rather unsaturated near black large rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-37.yml"        
+            data-hue="271" 
+            data-size="6120"
+            data-shape="rectangle"
+            data-brightness="76" 
+            data-saturation="72" >
+            <div 
+                class="shape" 
+                style="color: #C396EE; width:68px; height:90px; font-size:13px; background:hsl(271deg 72% 76%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Biloba Flower, I’m a rather saturated light purple tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-38.yml"        
+            data-hue="128" 
+            data-size="9630"
+            data-shape="rectangle"
+            data-brightness="31" 
+            data-saturation="52" >
+            <div 
+                class="shape" 
+                style="color: #267831; width:107px; height:90px; font-size:16px; background:hsl(128deg 52% 31%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Forest Green, I’m a rather unsaturated dark green tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-39.yml"        
+            data-hue="147" 
+            data-size="9020"
+            data-shape="rectangle"
+            data-brightness="85" 
+            data-saturation="40" >
+            <div 
+                class="shape" 
+                style="color: #C9E8D7; width:55px; height:164px; font-size:18px; background:hsl(147deg 40% 85%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Skeptic, I’m an unsaturated light green tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-4.yml"        
+            data-hue="270" 
+            data-size="6901"
+            data-shape="rectangle"
+            data-brightness="90" 
+            data-saturation="95" >
+            <div 
+                class="shape" 
+                style="color: #E5CDFE; width:103px; height:67px; font-size:14px; background:hsl(270deg 95% 90%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Fog, I’m a saturated light purple tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-40.yml"        
+            data-hue="82" 
+            data-size="5329"
+            data-shape="rectangle"
+            data-brightness="64" 
+            data-saturation="71" >
+            <div 
+                class="shape" 
+                style="color: #B5E462; width:73px; height:73px; font-size:12px; background:hsl(82deg 71% 64%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Conifer, I’m a rather saturated lime tiny square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-41.yml"        
+            data-hue="281" 
+            data-size="19040"
+            data-shape="rectangle"
+            data-brightness="76" 
+            data-saturation="23" >
+            <div 
+                class="shape" 
+                style="color: #C7B4D0; width:112px; height:170px; font-size:24px; background:hsl(281deg 23% 76%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Thistle, I’m a very unsaturated light purple small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-42.yml"        
+            data-hue="259" 
+            data-size="34225"
+            data-shape="rectangle"
+            data-brightness="86" 
+            data-saturation="63" >
+            <div 
+                class="shape" 
+                style="color: #D3C5F2; width:185px; height:185px; font-size:31px; background:hsl(259deg 63% 86%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Moon Raker, I’m a rather unsaturated light blue large square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-43.yml"        
+            data-hue="281" 
+            data-size="25955"
+            data-shape="ellipse"
+            data-brightness="3" 
+            data-saturation="59" >
+            <div 
+                class="shape" 
+                style="color: #09030C; width:145px; height:179px; font-size:27px; background:hsl(281deg 59% 3%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Haiti, I’m a rather unsaturated near black medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-44.yml"        
+            data-hue="106" 
+            data-size="4356"
+            data-shape="ellipse"
+            data-brightness="28" 
+            data-saturation="22" >
+            <div 
+                class="shape" 
+                style="color: #3F5738; width:66px; height:66px; font-size:11px; background:hsl(106deg 22% 28%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Tom Thumb, I’m a very unsaturated dark green tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-45.yml"        
+            data-hue="302" 
+            data-size="10816"
+            data-shape="rectangle"
+            data-brightness="79" 
+            data-saturation="23" >
+            <div 
+                class="shape" 
+                style="color: #D6BDD5; width:104px; height:104px; font-size:17px; background:hsl(302deg 23% 79%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cold Turkey, I’m a very unsaturated light magenta small square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-46.yml"        
+            data-hue="208" 
+            data-size="13970"
+            data-shape="ellipse"
+            data-brightness="96" 
+            data-saturation="72" >
+            <div 
+                class="shape" 
+                style="color: #EDF5FC; width:110px; height:127px; font-size:20px; background:hsl(208deg 72% 96%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Selago, I’m a rather saturated near white small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-47.yml"        
+            data-hue="205" 
+            data-size="9408"
+            data-shape="rectangle"
+            data-brightness="73" 
+            data-saturation="72" >
+            <div 
+                class="shape" 
+                style="color: #89C2EC; width:147px; height:64px; font-size:18px; background:hsl(205deg 72% 73%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Seagull, I’m a rather saturated blue tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-48.yml"        
+            data-hue="123" 
+            data-size="30625"
+            data-shape="rectangle"
+            data-brightness="38" 
+            data-saturation="16" >
+            <div 
+                class="shape" 
+                style="color: #517053; width:175px; height:175px; font-size:29px; background:hsl(123deg 16% 38%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Finlandia, I’m an almost grey dark green large square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-49.yml"        
+            data-hue="97" 
+            data-size="38809"
+            data-shape="ellipse"
+            data-brightness="88" 
+            data-saturation="63" >
+            <div 
+                class="shape" 
+                style="color: #DCF4CD; width:197px; height:197px; font-size:33px; background:hsl(97deg 63% 88%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Tea Green, I’m a rather unsaturated light lime large disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-5.yml"        
+            data-hue="28" 
+            data-size="28900"
+            data-shape="ellipse"
+            data-brightness="0" 
+            data-saturation="34" >
+            <div 
+                class="shape" 
+                style="color: #000000; width:170px; height:170px; font-size:28px; background:hsl(28deg 34% 0%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black, I’m an unsaturated near black medium disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-50.yml"        
+            data-hue="273" 
+            data-size="9805"
+            data-shape="ellipse"
+            data-brightness="17" 
+            data-saturation="30" >
+            <div 
+                class="shape" 
+                style="color: #2D1E38; width:185px; height:53px; font-size:20px; background:hsl(273deg 30% 17%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Bleached Cedar, I’m a very unsaturated very dark purple tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-51.yml"        
+            data-hue="335" 
+            data-size="18721"
+            data-shape="ellipse"
+            data-brightness="31" 
+            data-saturation="38" >
+            <div 
+                class="shape" 
+                style="color: #6D314A; width:97px; height:193px; font-size:24px; background:hsl(335deg 38% 31%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Lotus, I’m an unsaturated dark pink small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-52.yml"        
+            data-hue="159" 
+            data-size="24339"
+            data-shape="ellipse"
+            data-brightness="100" 
+            data-saturation="72" >
+            <div 
+                class="shape" 
+                style="color: #FFFFFF; width:133px; height:183px; font-size:26px; background:hsl(159deg 72% 100%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is White, I’m a rather saturated near white medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-53.yml"        
+            data-hue="206" 
+            data-size="15553"
+            data-shape="ellipse"
+            data-brightness="11" 
+            data-saturation="12" >
+            <div 
+                class="shape" 
+                style="color: #191C1F; width:151px; height:103px; font-size:21px; background:hsl(206deg 12% 11%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Shark, I’m an almost grey very dark blue small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-54.yml"        
+            data-hue="278" 
+            data-size="8646"
+            data-shape="rectangle"
+            data-brightness="93" 
+            data-saturation="62" >
+            <div 
+                class="shape" 
+                style="color: #F0E2F8; width:131px; height:66px; font-size:16px; background:hsl(278deg 62% 93%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is French Lilac, I’m a rather unsaturated light purple tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-55.yml"        
+            data-hue="182" 
+            data-size="30625"
+            data-shape="ellipse"
+            data-brightness="24" 
+            data-saturation="14" >
+            <div 
+                class="shape" 
+                style="color: #354546; width:175px; height:175px; font-size:29px; background:hsl(182deg 14% 24%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Outer Space, I’m an almost grey very dark cyan large disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-56.yml"        
+            data-hue="11" 
+            data-size="37635"
+            data-shape="ellipse"
+            data-brightness="81" 
+            data-saturation="32" >
+            <div 
+                class="shape" 
+                style="color: #DEC5BF; width:195px; height:193px; font-size:32px; background:hsl(11deg 32% 81%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Wafer, I’m a very unsaturated light red large ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-57.yml"        
+            data-hue="319" 
+            data-size="28161"
+            data-shape="ellipse"
+            data-brightness="75" 
+            data-saturation="18" >
+            <div 
+                class="shape" 
+                style="color: #CBB4C3; width:189px; height:149px; font-size:28px; background:hsl(319deg 18% 75%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cold Turkey, I’m a very unsaturated light pink medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-58.yml"        
+            data-hue="112" 
+            data-size="7744"
+            data-shape="rectangle"
+            data-brightness="29" 
+            data-saturation="67" >
+            <div 
+                class="shape" 
+                style="color: #267B18; width:88px; height:88px; font-size:15px; background:hsl(112deg 67% 29%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Bilbao, I’m a rather saturated dark green tiny square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-59.yml"        
+            data-hue="67" 
+            data-size="26535"
+            data-shape="rectangle"
+            data-brightness="22" 
+            data-saturation="88" >
+            <div 
+                class="shape" 
+                style="color: #5E6907; width:183px; height:145px; font-size:27px; background:hsl(67deg 88% 22%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Yukon Gold, I’m a saturated very dark lime medium rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-6.yml"        
+            data-hue="186" 
+            data-size="3157"
+            data-shape="ellipse"
+            data-brightness="98" 
+            data-saturation="44" >
+            <div 
+                class="shape" 
+                style="color: #F8FCFC; width:41px; height:77px; font-size:10px; background:hsl(186deg 44% 98%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black Squeeze, I’m an unsaturated near white tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-60.yml"        
+            data-hue="289" 
+            data-size="31073"
+            data-shape="ellipse"
+            data-brightness="68" 
+            data-saturation="96" >
+            <div 
+                class="shape" 
+                style="color: #DF5FFC; width:193px; height:161px; font-size:30px; background:hsl(289deg 96% 68%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Heliotrope, I’m a saturated purple large ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-61.yml"        
+            data-hue="150" 
+            data-size="18769"
+            data-shape="rectangle"
+            data-brightness="77" 
+            data-saturation="80" >
+            <div 
+                class="shape" 
+                style="color: #95F3C4; width:137px; height:137px; font-size:23px; background:hsl(150deg 80% 77%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Magic Mint, I’m a rather saturated light green small square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-62.yml"        
+            data-hue="102" 
+            data-size="19928"
+            data-shape="ellipse"
+            data-brightness="30" 
+            data-saturation="49" >
+            <div 
+                class="shape" 
+                style="color: #3E7227; width:188px; height:106px; font-size:24px; background:hsl(102deg 49% 30%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Fern Frond, I’m an unsaturated dark green small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-63.yml"        
+            data-hue="246" 
+            data-size="28224"
+            data-shape="rectangle"
+            data-brightness="74" 
+            data-saturation="55" >
+            <div 
+                class="shape" 
+                style="color: #A098E1; width:168px; height:168px; font-size:28px; background:hsl(246deg 55% 74%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Dull Lavender, I’m a rather unsaturated blue medium square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-64.yml"        
+            data-hue="210" 
+            data-size="22201"
+            data-shape="rectangle"
+            data-brightness="18" 
+            data-saturation="0" >
+            <div 
+                class="shape" 
+                style="color: #2E2E2E; width:149px; height:149px; font-size:25px; background:hsl(210deg 0% 18%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Mine Shaft, I’m an almost grey very dark blue medium square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-65.yml"        
+            data-hue="226" 
+            data-size="36481"
+            data-shape="rectangle"
+            data-brightness="82" 
+            data-saturation="15" >
+            <div 
+                class="shape" 
+                style="color: #CACDD8; width:191px; height:191px; font-size:32px; background:hsl(226deg 15% 82%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Ghost, I’m an almost grey light blue large square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-66.yml"        
+            data-hue="102" 
+            data-size="2809"
+            data-shape="rectangle"
+            data-brightness="75" 
+            data-saturation="32" >
+            <div 
+                class="shape" 
+                style="color: #B7D4AB; width:53px; height:53px; font-size:9px; background:hsl(102deg 32% 75%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Sprout, I’m a very unsaturated light green tiny square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-67.yml"        
+            data-hue="287" 
+            data-size="10120"
+            data-shape="ellipse"
+            data-brightness="12" 
+            data-saturation="61" >
+            <div 
+                class="shape" 
+                style="color: #290C31; width:110px; height:92px; font-size:17px; background:hsl(287deg 61% 12%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Valentino, I’m a rather unsaturated very dark purple small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-68.yml"        
+            data-hue="79" 
+            data-size="36481"
+            data-shape="rectangle"
+            data-brightness="12" 
+            data-saturation="40" >
+            <div 
+                class="shape" 
+                style="color: #232B12; width:191px; height:191px; font-size:32px; background:hsl(79deg 40% 12%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Black Olive, I’m an unsaturated very dark lime large square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-69.yml"        
+            data-hue="54" 
+            data-size="11025"
+            data-shape="ellipse"
+            data-brightness="33" 
+            data-saturation="11" >
+            <div 
+                class="shape" 
+                style="color: #5D5C4B; width:105px; height:105px; font-size:18px; background:hsl(54deg 11% 33%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Finch, I’m an almost grey dark yellow small disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-7.yml"        
+            data-hue="87" 
+            data-size="2704"
+            data-shape="ellipse"
+            data-brightness="18" 
+            data-saturation="70" >
+            <div 
+                class="shape" 
+                style="color: #314E0E; width:52px; height:52px; font-size:9px; background:hsl(87deg 70% 18%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Green House, I’m a rather saturated very dark lime tiny disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-70.yml"        
+            data-hue="250" 
+            data-size="31328"
+            data-shape="rectangle"
+            data-brightness="14" 
+            data-saturation="48" >
+            <div 
+                class="shape" 
+                style="color: #181335; width:178px; height:176px; font-size:30px; background:hsl(250deg 48% 14%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Haiti, I’m an unsaturated very dark blue large rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-71.yml"        
+            data-hue="352" 
+            data-size="30394"
+            data-shape="rectangle"
+            data-brightness="61" 
+            data-saturation="62" >
+            <div 
+                class="shape" 
+                style="color: #D95E6E; width:182px; height:167px; font-size:29px; background:hsl(352deg 62% 61%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Roman, I’m a rather unsaturated pink large rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-72.yml"        
+            data-hue="273" 
+            data-size="17940"
+            data-shape="ellipse"
+            data-brightness="71" 
+            data-saturation="88" >
+            <div 
+                class="shape" 
+                style="color: #BC74F6; width:195px; height:92px; font-size:24px; background:hsl(273deg 88% 71%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Heliotrope, I’m a saturated purple small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-73.yml"        
+            data-hue="275" 
+            data-size="14994"
+            data-shape="ellipse"
+            data-brightness="24" 
+            data-saturation="59" >
+            <div 
+                class="shape" 
+                style="color: #431961; width:98px; height:153px; font-size:21px; background:hsl(275deg 59% 24%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Scarlet Gum, I’m a rather unsaturated very dark purple small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-74.yml"        
+            data-hue="314" 
+            data-size="17161"
+            data-shape="rectangle"
+            data-brightness="45" 
+            data-saturation="75" >
+            <div 
+                class="shape" 
+                style="color: #C91DA1; width:131px; height:131px; font-size:22px; background:hsl(314deg 75% 45%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Roman, I’m a rather saturated dark pink small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-75.yml"        
+            data-hue="44" 
+            data-size="33856"
+            data-shape="rectangle"
+            data-brightness="72" 
+            data-saturation="100" >
+            <div 
+                class="shape" 
+                style="color: #FFD970; width:184px; height:184px; font-size:31px; background:hsl(44deg 100% 72%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Kournikova, I’m a very saturated yellow large square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-76.yml"        
+            data-hue="197" 
+            data-size="16236"
+            data-shape="rectangle"
+            data-brightness="67" 
+            data-saturation="43" >
+            <div 
+                class="shape" 
+                style="color: #87BBCF; width:99px; height:164px; font-size:22px; background:hsl(197deg 43% 67%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Half Baked, I’m an unsaturated blue small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-77.yml"        
+            data-hue="19" 
+            data-size="32930"
+            data-shape="rectangle"
+            data-brightness="51" 
+            data-saturation="8" >
+            <div 
+                class="shape" 
+                style="color: #8C7E78; width:178px; height:185px; font-size:30px; background:hsl(19deg 8% 51%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Squirrel, I’m an almost grey red large rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-78.yml"        
+            data-hue="151" 
+            data-size="10464"
+            data-shape="rectangle"
+            data-brightness="46" 
+            data-saturation="73" >
+            <div 
+                class="shape" 
+                style="color: #20CB78; width:109px; height:96px; font-size:17px; background:hsl(151deg 73% 46%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Mountain Meadow, I’m a rather saturated dark green small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-79.yml"        
+            data-hue="37" 
+            data-size="8464"
+            data-shape="rectangle"
+            data-brightness="27" 
+            data-saturation="70" >
+            <div 
+                class="shape" 
+                style="color: #755015; width:92px; height:92px; font-size:15px; background:hsl(37deg 70% 27%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Raw Umber, I’m a rather saturated dark orange tiny square.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-8.yml"        
+            data-hue="45" 
+            data-size="30625"
+            data-shape="ellipse"
+            data-brightness="95" 
+            data-saturation="79" >
+            <div 
+                class="shape" 
+                style="color: #FCF7E8; width:175px; height:175px; font-size:29px; background:hsl(45deg 79% 95%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Citrine White, I’m a rather saturated near white large disc.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-80.yml"        
+            data-hue="124" 
+            data-size="4420"
+            data-shape="rectangle"
+            data-brightness="14" 
+            data-saturation="24" >
+            <div 
+                class="shape" 
+                style="color: #1B2C1C; width:68px; height:65px; font-size:11px; background:hsl(124deg 24% 14%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Green Kelp, I’m a very unsaturated very dark green tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-81.yml"        
+            data-hue="347" 
+            data-size="21904"
+            data-shape="ellipse"
+            data-brightness="92" 
+            data-saturation="51" >
+            <div 
+                class="shape" 
+                style="color: #F5E0E5; width:148px; height:148px; font-size:25px; background:hsl(347deg 51% 92%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Pot Pourri, I’m a rather unsaturated light pink medium disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-82.yml"        
+            data-hue="92" 
+            data-size="15376"
+            data-shape="ellipse"
+            data-brightness="96" 
+            data-saturation="22" >
+            <div 
+                class="shape" 
+                style="color: #F5F7F3; width:124px; height:124px; font-size:21px; background:hsl(92deg 22% 96%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Snow Drift, I’m a very unsaturated near white small disc.            </h1>
+        </article>
+                <article 
+            class="dude disc" 
+            data-file="dudes/data-83.yml"        
+            data-hue="342" 
+            data-size="23716"
+            data-shape="ellipse"
+            data-brightness="60" 
+            data-saturation="44" >
+            <div 
+                class="shape" 
+                style="color: #C66C87; width:154px; height:154px; font-size:26px; background:hsl(342deg 44% 60%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Contessa, I’m an unsaturated pink medium disc.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-84.yml"        
+            data-hue="119" 
+            data-size="12154"
+            data-shape="ellipse"
+            data-brightness="67" 
+            data-saturation="47" >
+            <div 
+                class="shape" 
+                style="color: #85D283; width:103px; height:118px; font-size:18px; background:hsl(119deg 47% 67%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is De York, I’m an unsaturated green small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-85.yml"        
+            data-hue="45" 
+            data-size="11242"
+            data-shape="rectangle"
+            data-brightness="85" 
+            data-saturation="93" >
+            <div 
+                class="shape" 
+                style="color: #FCEBB5; width:146px; height:77px; font-size:19px; background:hsl(45deg 93% 85%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Banana Mania, I’m a saturated light yellow small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-86.yml"        
+            data-hue="158" 
+            data-size="2209"
+            data-shape="rectangle"
+            data-brightness="29" 
+            data-saturation="32" >
+            <div 
+                class="shape" 
+                style="color: #326250; width:47px; height:47px; font-size:8px; background:hsl(158deg 32% 29%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Stromboli, I’m a very unsaturated dark green tiny square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-87.yml"        
+            data-hue="98" 
+            data-size="38809"
+            data-shape="rectangle"
+            data-brightness="96" 
+            data-saturation="72" >
+            <div 
+                class="shape" 
+                style="color: #F3FCED; width:197px; height:197px; font-size:33px; background:hsl(98deg 72% 96%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Feta, I’m a rather saturated near white large square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-88.yml"        
+            data-hue="110" 
+            data-size="19712"
+            data-shape="ellipse"
+            data-brightness="69" 
+            data-saturation="47" >
+            <div 
+                class="shape" 
+                style="color: #97D58B; width:128px; height:154px; font-size:24px; background:hsl(110deg 47% 69%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Feijoa, I’m an unsaturated green small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-89.yml"        
+            data-hue="148" 
+            data-size="4230"
+            data-shape="ellipse"
+            data-brightness="46" 
+            data-saturation="34" >
+            <div 
+                class="shape" 
+                style="color: #4D9D73; width:47px; height:90px; font-size:11px; background:hsl(148deg 34% 46%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Fruit Salad, I’m an unsaturated dark green tiny ellipse.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-9.yml"        
+            data-hue="152" 
+            data-size="17721"
+            data-shape="ellipse"
+            data-brightness="100" 
+            data-saturation="32" >
+            <div 
+                class="shape" 
+                style="color: #FFFFFF; width:179px; height:99px; font-size:23px; background:hsl(152deg 32% 100%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is White, I’m a very unsaturated near white small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-90.yml"        
+            data-hue="151" 
+            data-size="32041"
+            data-shape="rectangle"
+            data-brightness="9" 
+            data-saturation="43" >
+            <div 
+                class="shape" 
+                style="color: #0D2117; width:179px; height:179px; font-size:30px; background:hsl(151deg 43% 9%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Aztec, I’m an unsaturated near black large square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-91.yml"        
+            data-hue="164" 
+            data-size="12600"
+            data-shape="rectangle"
+            data-brightness="62" 
+            data-saturation="55" >
+            <div 
+                class="shape" 
+                style="color: #69D3B7; width:90px; height:140px; font-size:19px; background:hsl(164deg 55% 62%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Downy, I’m a rather unsaturated green small rectangle.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-92.yml"        
+            data-hue="4" 
+            data-size="7172"
+            data-shape="rectangle"
+            data-brightness="51" 
+            data-saturation="17" >
+            <div 
+                class="shape" 
+                style="color: #97706D; width:163px; height:44px; font-size:17px; background:hsl(4deg 17% 51%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Copper Rose, I’m a very unsaturated red tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-93.yml"        
+            data-hue="142" 
+            data-size="19600"
+            data-shape="rectangle"
+            data-brightness="2" 
+            data-saturation="10" >
+            <div 
+                class="shape" 
+                style="color: #050605; width:140px; height:140px; font-size:23px; background:hsl(142deg 10% 2%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Log Cabin, I’m an almost grey near black small square.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-94.yml"        
+            data-hue="326" 
+            data-size="19600"
+            data-shape="rectangle"
+            data-brightness="36" 
+            data-saturation="37" >
+            <div 
+                class="shape" 
+                style="color: #7E3A60; width:140px; height:140px; font-size:23px; background:hsl(326deg 37% 36%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Lotus, I’m an unsaturated dark pink small square.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-95.yml"        
+            data-hue="234" 
+            data-size="18012"
+            data-shape="ellipse"
+            data-brightness="21" 
+            data-saturation="29" >
+            <div 
+                class="shape" 
+                style="color: #262945; width:158px; height:114px; font-size:23px; background:hsl(234deg 29% 21%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Ebony Clay, I’m a very unsaturated very dark blue small ellipse.            </h1>
+        </article>
+                <article 
+            class="dude square" 
+            data-file="dudes/data-96.yml"        
+            data-hue="54" 
+            data-size="38809"
+            data-shape="rectangle"
+            data-brightness="10" 
+            data-saturation="17" >
+            <div 
+                class="shape" 
+                style="color: #1E1D15; width:197px; height:197px; font-size:33px; background:hsl(54deg 17% 10%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Rangoon Green, I’m a very unsaturated near black large square.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-97.yml"        
+            data-hue="250" 
+            data-size="3200"
+            data-shape="rectangle"
+            data-brightness="19" 
+            data-saturation="8" >
+            <div 
+                class="shape" 
+                style="color: #2E2D34; width:64px; height:50px; font-size:10px; background:hsl(250deg 8% 19%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Baltic Sea, I’m an almost grey very dark blue tiny rectangle.            </h1>
+        </article>
+                <article 
+            class="dude ellipse" 
+            data-file="dudes/data-98.yml"        
+            data-hue="148" 
+            data-size="24231"
+            data-shape="ellipse"
+            data-brightness="23" 
+            data-saturation="5" >
+            <div 
+                class="shape" 
+                style="color: #383E3A; width:197px; height:123px; font-size:27px; background:hsl(148deg 5% 23%); border-radius:100%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Cape Cod, I’m an almost grey very dark green medium ellipse.            </h1>
+        </article>
+                <article 
+            class="dude rectangle" 
+            data-file="dudes/data-99.yml"        
+            data-hue="245" 
+            data-size="15162"
+            data-shape="rectangle"
+            data-brightness="47" 
+            data-saturation="81" >
+            <div 
+                class="shape" 
+                style="color: #2717D9; width:133px; height:114px; font-size:21px; background:hsl(245deg 81% 47%); border-radius:0%">
+            </div>
+            <h1>
+                <svg width="196.834" height="22.236" viewBox="0 0 52.079 5.883" xmlns="http://www.w3.org/2000/svg"><path d="M17.547 122.848h29.676l5.432-5.432v5.432h16.971" transform="translate(-17.547 -117.097)"/></svg>
+                My name is Persian Blue, I’m a rather saturated dark blue small rectangle.            </h1>
+        </article>
+            </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

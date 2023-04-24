@@ -45,10 +45,12 @@ clearstatcache();
 // bulid page
 foreach ($exemples_dirs as $exemple){
 
-    $dir = $directory . DIRECTORY_SEPARATOR . $exemple;
+    $dir = $directory . "/" . $exemple;
     if (is_dir($dir)){
-        $readme = $dir . DIRECTORY_SEPARATOR . 'info.yml';
-        $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
+        $readme = $dir . "/info.yml";
+        $webp = $dir . "/thumb.webp";
+        $thumb = $dir . "/thumb.png";
+
         if (file_exists($readme)) {
 
             // read yaml
@@ -77,9 +79,13 @@ foreach ($exemples_dirs as $exemple){
             }
         }
         echo "</strong>";
-        if (file_exists($thumb)) {
+
+        if (file_exists($webp)) {
+            echo "<img src='$exemple/thumb.webp' loading='lazy'>";
+        } else if (file_exists($thumb)) {
             echo "<img src='$exemple/thumb.png' loading='lazy'>";
         }
+        
         echo "</span>";
         echo "<h2>$title</h2>";
         echo "</a></div>\n\n";
