@@ -24,3 +24,6 @@ body{
 /* #embednav a span { display:none}
 #embednav a:hover span { display:inline} */
 iframe { border:0; }
+@media (max-width:600px) {
+    #embednav a span { display:none}
+}
