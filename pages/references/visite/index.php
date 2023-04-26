@@ -39,7 +39,7 @@
   </main>
     
   <script>
-    var colornames = "Tomato LimeGreen DodgerBlue GreenYellow LightSalmon OrangeRed Chartreuse DarkOrange DarkSeaGreen DeepPink FireBrick HotPink MediumOrchid Olive Orchid Peru  Salmon SeaGreen SkyBlue SlateBlue Purple";
+    var colornames = "Tomato LimeGreen DodgerBlue LightSalmon OrangeRed  DarkOrange DarkSeaGreen DeepPink FireBrick HotPink MediumOrchid Olive Orchid Peru  Salmon SeaGreen SkyBlue SlateBlue Purple";
     var colors = colornames.split(" ");
 
     function colorize(element, index, array) {

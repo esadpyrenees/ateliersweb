@@ -1,13 +1,26 @@
 # Une visite du web 
 
-#### 12/2022
+#### 04/2023
 
-Un  _scrollytelling_ dessiné diablement efficace pour comprendre [Pourquoi les super riches sont inévitables](https://pudding.cool/2022/12/yard-sale/) et les intérêts de la redistribution. Mieux que les Avengers, regarder le parcours d’un héros révolutionnaire des temps numériques, [_The Internet's Own Boy_](https://www.youtube.com/watch?v=7ZBe1VFy0gc) sur la vie d’Aaron Swartz. 
+La visite du web a été délaissée depuis bien trop longtemps. Si vous la lisez, dites-le moi, ça m’encouragera.
 
-Accédez librement au [Guide d’Autodéfense Numérique](https://guide.boum.org/)
-[Qu’êtes-vous en train d’attendre ?](https://whatareyouwaitingfor.eu/en/)
+Un  _scrollytelling_ dessiné diablement efficace pour comprendre [Pourquoi les super riches sont inévitables](https://pudding.cool/2022/12/yard-sale/) et les intérêts de la redistribution. Mieux que les Avengers, regarder le parcours d’un héros révolutionnaire des temps numériques, [_The Internet's Own Boy_](https://www.youtube.com/watch?v=7ZBe1VFy0gc) sur la vie d’Aaron Swartz. Accédez librement au [Guide d’Autodéfense Numérique](https://guide.boum.org/). [Qu’êtes-vous en train d’attendre ?](https://whatareyouwaitingfor.eu/en/)
 
-Regardez [The Void](https://networkcultures.org/void/), un nouveau et ancien podcast tv audio vidéo sur networkcultures.org.
+Regardez [The Void](https://networkcultures.org/void/), un podcast tv + audio + vidéo édité par networkcultures.org, en commençant pourquoi pas par des [sites web mémorables](https://networkcultures.org/void/2022/11/07/the-void-04-memorable-websites/) et en poursuivant par [Thérapie pour les développeur⋅euses web](https://networkcultures.org/void/2022/12/05/the-void-06-therapy-for-web-developers/), deux épisodes de la mini-série « _Qu’y a-t-il de plus important que deux femmes parlant de développement web ?_ » de Maisa Imamović et Clara Pasteau.
+
+[in:verse](https://gallery.inverse.website/) est un langage de programmation et un environnement permettant d’explorer les rencontres fécondes de la poésie, des images, des mathématiques et du code. [anon.blue](https://anon.blue/) est un projet mystérieux d’Alexandre G.-Raymond, _aka_ ilesinge, lo-fi-web enthusiast. Du même, [lorem.ndre.gr](https://lorem.ndre.gr/) : libérez les &lt;img&gt; des Lorem Ipsum sauvages qui ont mystérieusement commencé à vous attaquer et à voler vos pixels. [Dix mise en pages](https://web.dev/one-line-layouts/) en –presque– une seule ligne de CSS et la deuxième édition de [the html review](https://thehtml.review/). Quelques outils de dessin SVG : [Flow Lines](https://msurguy.github.io/flow-lines/?dt=0.113&sd=0.115&sw=1&sm=0.25&seed=7082&xf=min%28sin%28x%29%2Cy%29&yf=sqrt%28x*x%20%2B%20y*y%29), [Drawingbot Tools](https://drawingbots.net/knowledge/tools/svg-generator), [HalftonePAL](https://github.com/ehufsted/HalftonePAL) et [Leader Line](https://anseki.github.io/leader-line/).
+
+Sur Monoskop, un wiki pour les arts et les études, une caverne d’Ali Baba des temps post-modernes, on peut trouver le [Hacker Manifesto](https://monoskop.org/images/8/85/Wark_McKenzie_A_Hacker_Manifesto.pdf) de McKenzie Wark, et [ailleurs](https://www.are.na/block/21571694) sa version française. Ne pas confondre avec [_The Hacker Manifesto_](https://fr.wikipedia.org/wiki/Manifeste_du_hacker), « La conscience d'un hacker » de Loyd Blankenship dont l’original est [ici](https://www.arsouyes.org/phrack-trad/phrack07/phrack07_0x03.txt). 
+
+
+[Verde](https://verde.io) est un studio de design londonien fondé par Tudor Prisăcariu. [Bora Bord](https://bora-bord.com/) est le studio de Maud Guerche. Et [Aéro Club ](https://a-e-r-o.club/) celui de [Pierre Tandille](https://lecollecteur.fr/). [*Duuu](https://duuuradio.fr/recherche?categories=graphisme) est une webradio dédiée à la création contemporain (notamment en design graphique).
+
+Pour faire suite aux questions de neutralité et de modernisme, sachez qu’en 2009, Vivien Philizot a publié [Le signe typographique et le mythe de la neutralité](http://www.revue-textimage.com/04_a_la_lettre/philizot1.html) et qu’on trouve en ligne [l’intégralité des revue Avant Garde](http://avantgarde.110west40th.com/) d’Herb Lubalin (le site est de [Mindy Seu](https://mindyseu.com/)). Pour revivre la controverse moderne/post-moderne entre Massimo Vignelli et Emigre (le premier qualifia les seconds de _typographic garbage factory_), on peut commencer par [Wikipedia](https://en.wikipedia.org/wiki/Emigre_Fonts#cite_note-:0-14), poursuivre par l’article de Michael Dooley, [_Critical Conditions: Zuzana Licko, Rudy VanderLans, and the Emigre Spirit_](https://www.emigre.com/Essays/Emigre/CriticalConditionsandtheEmigreSpirit), lire le texte de l’armistice et apprécier le [specimen du Filosofia](https://vignellicenter.tumblr.com/post/655996553054519296/emigre-and-vignelli-make-peace-over-bodoni). Peut-être, conclure par les regrets de Rick Poynor sur [la fin d’Emigre magazine](https://www.designobserver.com/feature/emigre-an-ending/3847).
+
+Concluons avec Wikipédia et le travail passionnant d’Alex Hollender et du studio de design interne sur le [processus de redesign](https://alexhollender.com/wikipedia-2023-redesign) récemment publié (le Wikipedia français en avait eu la primeur, dans une version légèrement différente).
+
+Post scriptum : le mot « zbeul » [devrait bientôt entrer au dictionnaire](https://accentgrave.net/indexof/2c87c2e25885d2bf.jpg).
+
 
 #### 09/2022
 
