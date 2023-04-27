@@ -7,8 +7,9 @@
 
 ## Définition
 
-Un logiciel est considéré comme « libre » s’il confère à son utilisateur quatre libertés fondamentales[^quatre]. 
-[^quatre]: 0. la liberté d’utiliser le programme pour n’importe quel usage ;
+Un logiciel est considéré comme « libre » s’il confère à son utilisateur quatre libertés fondamentales : 
+
+0. la liberté d’utiliser le programme pour n’importe quel usage ;
 1. la liberté d’étudier son fonctionnement ;
 2. la liberté de l’adapter à ses besoins ;
 3. la liberté de modifier le programme et de partager ces modifications.
@@ -17,9 +18,9 @@ Cette définition programmatique, si elle s’applique au champ du logiciel, peu
 
 ## L’importance des outils
 
-Arts & craft, évènement fondateur, n’est pas l’alpha et l’omega de la pensée du design. Néanmoins, revenons-y. William Morris[^1] défendait une vision de ce qu’allait devenir le design en réaction au processus de standardisation qu’était en train de produire l’industrialisation des processus de production. Sa vision était fondée sur une valorisation des logiques artisanales et sur le désir de maîtriser ses outils d’un bout à l’autre de la chaîne de production. 
+Arts & craft, évènement fondateur, n’est pas l’alpha et l’omega de la pensée du design. Néanmoins, revenons-y. William Morris[^1] défendait une vision de ce la production artisanale, qu’on allait bientôt nommer « design », en opposition au processus de standardisation qu’était en train de produire l’industrialisation de la production. Sa vision était fondée sur une valorisation des logiques artisanales et sur le désir de maîtriser ses outils d’un bout à l’autre de la chaîne de production. 
 
-[^1]:![C’est encore moi…](William_Morris_age_53.jpg)
+[^1]:![C’est encore moi…](William_Morris_age_53.jpg) [En savoir plus](https://www.grapheine.com/histoire-du-graphisme/william-morris-le-design-dinterieur-nest-pas-un-luxe)
 
 Morris avait une approche qu’on ne pourrait qualifier de [luddite](https://fr.wikipedia.org/wiki/Luddisme), mais la question qu’il posait du rapport du designer à ses outils techniques a été au cœur de toute l’histoire du design.
 
@@ -34,7 +35,7 @@ Aujourd’hui, à un moment ou à un autre de son processus de création ou de p
 
 Nos outils influencent massivement nos pratiques de designers. Ce qui est possible, atteignable, s’entend dans le cadre défini par les possibilités –vastes, certes, mais limitées– que nous offrent nos outils de production.
 
-Une école d’art et de design (telle que la nôtre) a deux missions qui peuvent sembler paradoxales : à la fois (vous) permettre de prétendre à vivre de votre activité, et donc de maîtriser les outils standards du métier de designer tels qu’ils (vous) seront vraisemblablement demandés par le monde professionnel, mais également (vous) permettre d’inventer de nouvelles formes, de nouveaux usages, en portant un regard critique sur les pratiques et en cherchant de nouveaux espaces de création.
+Une école d’art et de design a deux missions qui peuvent sembler paradoxales : à la fois permettre de vivre d’une activité, et donc d’en maîtriser les outils spécifiques tels qu’ils seront vraisemblablement demandés par le monde professionnel, mais également permettre d’inventer de nouvelles formes, de nouveaux usages, en portant un regard critique sur les pratiques et en explorant de nouveaux espaces de création.
 
 C’est dans cette deuxième hypothèse que se propose de vous emmener cette introduction, en abordant les espaces ouverts depuis de nombreuses années par de nombreux·ses designers.
 
