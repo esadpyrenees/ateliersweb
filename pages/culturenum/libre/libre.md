@@ -1,9 +1,13 @@
 # Graphisme libre, f/l/os design 
 > Outils libres et libre production
 
+> <big>Utiliser un smartphone ou une tablette éduque autant à l’informatique que le fait de prendre un taxi éduque à la mécanique et la thermodynamique. […] Pour comprendre ce qu’est un moteur, il faut pouvoir l’ouvrir. L’observer. Le démonter. Il faut apprendre à conduire sur des engins simplifiés. Il faut en étudier les réactions. Il faut pouvoir discuter avec d’autres, comparer un moteur avec un autre. Pour découvrir l’aérodynamique, il faut avoir le droit de faire des avions de papier. Pas d’en observer sur une vidéo YouTube[^ploum].</big>
+
+[^ploum]: _L’histoire du logiciel : entre collaboration et confiscation des libertés_, par [Ploum](https://ploum.net/lhistoire-du-logiciel-entre-collaboration-et-confiscation-des-libertes/).
+
 ## Définition
 
-Un logiciel est considéré comme « libre » s’il confère à son utilisateur quatre libertés fondamentales[^quatre].
+Un logiciel est considéré comme « libre » s’il confère à son utilisateur quatre libertés fondamentales[^quatre]. 
 [^quatre]: 0. la liberté d’utiliser le programme pour n’importe quel usage ;
 1. la liberté d’étudier son fonctionnement ;
 2. la liberté de l’adapter à ses besoins ;
@@ -72,8 +76,8 @@ Eric Raymond raconte son expérience du logiciel libre dans un livre devenu une 
 
 Avec le libre, le <abbr title="Do It Yourself">DIY</abbr> peut devenir <abbr title="Do It With Others">DIWO</abbr>. La collaboration, le partage et l’amélioration par le dialogue, la participation et les retours d’une communauté d’utilisateurs y sont grandement favorisées.
 
-Torvalds et <abbr title="Richard Matthew Stallman">rms</abbr> sont deux personnalités qu’on oppose régulièrement selon leurs deux conceptions de l’ouverture. Stallman, militant du libre comme éthique, Linus pragmatique adepte du code ouvert et interopérable. Les deux notions sont associées dans l’acronyme f/l/os[^flos].
-[^flos]:*Free / libre / open source* – inclut le mot “libre” pour signaler *"free as in free speech, not free beer"*. 
+Torvalds et <abbr title="Richard Matthew Stallman">rms</abbr> sont deux personnalités qu’on oppose régulièrement selon leurs deux conceptions de l’ouverture. Stallman, militant du libre comme éthique, Linus pragmatique adepte du code ouvert et interopérable. Les deux notions sont associées dans l’acronyme f/loss[^flos].
+[^flos]:*Free/libre Open Source Software* – inclut le mot “libre” pour signaler *"free as in free speech, not free beer"*. 
 
 > <big>« Le succès, c’est l’échec de l’échec. »</big>    
 — Winston Churchill (non…)
@@ -142,7 +146,7 @@ Dans le champ typographique, de nombreux projets se sont également approprié c
 * [Utopie du logiciel libre](http://lepassagerclandestin.fr/fileadmin/assets/catalog/essais/Utopie_logiciel_libre__Broca__Le_passager_clandestin.pdf) de Sebastien Broca (Le Passager Clandestin, 2013)
 * [Richard Stallman et la révolution du logiciel libre](http://framabook.org/richard-stallman-et-la-revolution-du-logiciel-libre/) de Richard M. Stallman, Sam Williams & Christophe Masutti (Eyrolles, 2010), 
 * [Libres enfants du savoir numérique, une anthologie du «Libre»](http://www.cairn.info/libres-enfants-du-savoir-numerique--9782841620432.htm) d’Olivier Blondeau (Éditions de l’Éclat, 2000).
-
+* [L’histoire du logiciel : entre collaboration et confiscation des libertés](https://ploum.net/lhistoire-du-logiciel-entre-collaboration-et-confiscation-des-libertes/), par Ploum, 2022.
 
 ## Outils 
 
