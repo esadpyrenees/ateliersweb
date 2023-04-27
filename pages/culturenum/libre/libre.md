@@ -18,7 +18,7 @@ Cette définition programmatique, si elle s’applique au champ du logiciel, peu
 
 ## L’importance des outils
 
-Arts & craft, évènement fondateur, n’est pas l’alpha et l’omega de la pensée du design. Néanmoins, revenons-y. William Morris[^1] défendait une vision de ce la production artisanale, qu’on allait bientôt nommer « design », en opposition au processus de standardisation qu’était en train de produire l’industrialisation de la production. Sa vision était fondée sur une valorisation des logiques artisanales et sur le désir de maîtriser ses outils d’un bout à l’autre de la chaîne de production. 
+Arts & craft, évènement fondateur, n’est pas l’alpha et l’omega de la pensée du design. Néanmoins, revenons-y. William Morris[^1] défendait une vision de la production artisanale, qu’on allait bientôt nommer « design », en opposition au processus de standardisation qu’était en train de déclencher l’industrialisation de la production. Sa vision était fondée sur une valorisation des savoir-faire artisanaux et sur le désir de maîtriser ses outils d’un bout à l’autre de la chaîne de production. 
 
 [^1]:![C’est encore moi…](William_Morris_age_53.jpg) [En savoir plus](https://www.grapheine.com/histoire-du-graphisme/william-morris-le-design-dinterieur-nest-pas-un-luxe)
 
