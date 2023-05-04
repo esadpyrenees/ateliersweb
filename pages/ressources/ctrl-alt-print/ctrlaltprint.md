@@ -77,9 +77,25 @@ Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de
 </div>
 
 
+<h2><span style="transform: skew(14deg); padding-right: .15em; margin:0 -.1em; display:inline-block">Pre</span><span style="transform: skew(-14deg); display:inline-block; padding-right: .15em;">Post</span><span>Print</span></h2>
+
+<img src="img/ppp.svg" style="width:250px" alt="PrePostPrint logo">
+
+
+
+L’initiative PrePostPrint est dédiée aux procédés de création graphique et systèmes de publication libres, « alternatifs » ou « non conventionnels ». PrePostPrint a été imaginée pour interroger, partager, confronter et encourager ces pratiques naissantes et faciliter l'accès aux projets et outils existants. Elle prend la forme :   
+— d’événements ponctuels organisés collectivement,   
+— d'une [mailing-list](https://lists.domainepublic.net/cgi-bin/mailman/listinfo/prepostprint) ouverte réunissant étudiants, graphistes, enseignants, chercheurs, éditeurs, amateurs…,    
+— d’un [espace de discussion](https://matrix.to/#/#prepostprint-public:matrix.org) ouvert à tou⋅tes    
+— d’un [site web](https://prepostprint.org/contact/), qui réunit ressources, outils, contacts, projets   
+— d’un [compte sur Mastodon](https://post.lurk.org/@prepostprint)   
+— et plus généralement, d’une communauté de pratiques, d’un réseau de personnes désireuses d’échanger, de dialoguer et de valoriser d’autres pratiques du design et de la publication
+
+
 ## Exemples pratiques
 
 Voir les exemples dans la [section dédiée](/web/pages/exemples/#webtoprint) du site des ateliers Web, ou dans la page consacrée à [Paged.js](pagedjs/#more).
+
 
 
 ## Pourquoi ?
