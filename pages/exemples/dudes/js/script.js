@@ -17,13 +17,13 @@ const filters = {
 // controle : teinte
 control_hue.addEventListener('change', () => {
   filters.hue = control_hue.value;
-  do_filter();
+  do_filter(1);
 })
 
 // controle : taille
 control_size.addEventListener('change', () => {
   filters.size = control_size.value;
-  do_filter();
+  do_filter(1);
 })
 
 // controle : forme
@@ -31,7 +31,7 @@ control_size.addEventListener('change', () => {
 controls_shape.forEach(control_shape => {
   control_shape.addEventListener('change', () => {
     filters.shape = control_shape.value;
-    do_filter();
+    do_filter(1);
   })
 });
 
@@ -41,7 +41,7 @@ resets.forEach(reset => {
     let input = reset.parentElement.querySelector('input');
     input.value = "";
     filters[reset.dataset.input] = null;
-    do_filter();
+    do_filter(1);
   }
 });
 
@@ -53,12 +53,13 @@ dudes.forEach(dude => {
     control_size.value = filters.size = dude.dataset.size;
     document.querySelector('#'+dude.dataset.shape).checked = true;
     filters.shape = dude.dataset.shape;
-    do_filter();
+    do_filter(1.5);
   }
 });
 
 // fonction de filtre
-function do_filter(){
+// la valeur de fuzz détermine la proximité de teinte ou de taille
+function do_filter(fuzz){
   dudes.forEach(dude => {
     // tout est bon, à priori
     let is_hue_ok = true,
@@ -66,11 +67,11 @@ function do_filter(){
       is_shape_ok = true;
     // application du filtrage sur la teinte (approx)
     if(filters.hue){
-      is_hue_ok = is_approx(Number(dude.dataset.hue), Number(filters.hue), 30);   
+      is_hue_ok = is_approx(Number(dude.dataset.hue), Number(filters.hue), 30 * fuzz);   
     }
     // application du filtrage sur la taille (approx)
     if(filters.size){
-       is_size_ok = is_approx(Number(dude.dataset.size), Number(filters.size), 4000);   
+       is_size_ok = is_approx(Number(dude.dataset.size), Number(filters.size), 4000 * fuzz);   
     }
     // application du filtrage sur la forme
     if(filters.shape){
