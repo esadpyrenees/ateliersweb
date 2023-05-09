@@ -4,6 +4,13 @@
 
 Un temps de réflexion, de questionnement collectif et de débat autour de quelques enjeux contemporains liés aux “intelligences artificielles” dans le champ de la création visuelle, de l’art et du graphisme.
 
+### Mise à jour {.edit}
+
+Anthony Masure, dans le cadre  du projet de recherche « Design et machine learning : l’automatisation au pouvoir ? » à la HEAD, a publié _[Design sous artifice : la création au risque du machine learning](https://www.anthonymasure.com/essai-design-sous-artifice)_, remarquable essai de synthèse sur les questions évoquées ci-dessous. 
+
+À noter, l’essai est disponible [sous forme de lecture audio](https://player.ausha.co/index.html?showId=9KgmzinjYnXA&display=horizontal&color=%23341ff5&playlist=true&podcastId=ErVJ1cE9J9KN&v=3&playerId=ausha-C5GX).
+
+
 ## Avertissement
 
 ☞ De nombreuses hypothèses reprises, synthétisées ou augmentées dans cette proposition se basent sur l’article et les recherches d’Olivier Ertzscheid, [_Une question de génération. Vers un capitalisme sémiotique_](https://affordance.framasoft.org/2022/10/question-generation-capitalisme-semiotique/) et de réflexions récentes d’[Étienne Mineur](https://etienne.design/). De très nombreuses approximations (le moins possible d’erreurs ?) sont présentes dans ce texte. Tous conseils, corrections, propositions d’améliorations ou d’ajout sont les bienvenus.
