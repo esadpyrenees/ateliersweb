@@ -5,7 +5,6 @@
 
 *  ✔ [**VSCodium**](https://vscodium.com/), alternative libre à VSCode
 *  [**Visual studio Code**](https://code.visualstudio.com/), open source, Microsoft
-*  [**Atom**](http://atom.io), open source, Github (= Microsoft)
 *  [**Sublime Text**](https://www.sublimetext.com/), pas libre, payant 
 
 </div>
@@ -34,8 +33,8 @@
 
 * [**Processing**](http://processing.org/), Java, Python, javascript
 * [**OpenFrameworks**](https://openframeworks.cc/), C++
-* [**Drawbot**](https://drawbot.com/), python, (typographie, fontes variables)
-* [**p5Stamper**](https://p5stamper.com/), javascript, processing
+* [**Drawbot**](https://drawbot.com/), python, (typographie, fontes variables) Mac OSX !
+* [**p5js**](https://p5js.org/), javascript, processing
 * [**Paper.js**](paperjs.org), javascript
 
 </div>
@@ -56,11 +55,11 @@
 
 <div class="gridlist" markdown="1">
 
+*   ✔ [**Inkscape**](https://inkscape.org/), outil libre de dessin vectoriel (alternative à Illustrator)
 * [**Photopea**](https://www.photopea.com/), webapp ; “clone” de Photoshop dans le navigateur
 * [**Affinity**](http://affinity.serif.com/), une suite alternative à Adobe (MacOS, Windows)
 * [**Gimp**](https://www.gimp.org/), outil libre de retouche d’image (alternative à Photoshop)
 * [**Krita**](https://krita.org/), outil de « peinture » numérique, libre
-*   ✔ [**Inkscape**](https://inkscape.org/), outil libre de dessin vectoriel (alternative à Illustrator)
 
 </div>
 ### Gestionnaires de contenus web
@@ -126,8 +125,9 @@
 <div class="gridlist" markdown="1">
 
 * ✔ [**Zettlr**](https://www.zettlr.com/), notes enrichies et liées au format markdown
+* ✔ [**Obsidian**](https://obsidian.md/), notes enrichies et liées au format markdown
 * [**Simplenote**](https://simplenote.com/), notes textuelles, service web gratuit mais pas libre
-* [**Evernote**](https://evernote.com/), notes complexes (texte, images, URLs, médias), pas libre
+* [**Evernote**](https://evernote.com/) / [**Notion**](https://www.notion.so/fr-fr), notes complexes (texte, images, URLs, médias), pas libre
 * [**Turtl**](https://turtlapp.com/), alternative open source à Evernote
 
 </div>
@@ -139,7 +139,6 @@
 * [**are.na**](https://are.na/), bookmarks sociaux en ligne
 * [**Sharlii**](https://github.com/shaarli/Shaarli), gestionnaire de bookmarks libre (auto-hébergé)
 * [**CommaFeed**](https://www.commafeed.com/), agrégateur RSS, libre
-* [**Feedly**](https://feedly.com), agrégateur RSS, pas libre
 
 </div>
 
@@ -147,10 +146,10 @@
 
 <div class="gridlist" markdown="1">
 
-* [**Padlet**](https://padlet.com/), pads graphiques, propriétaire
 * [**Framapad**](https://framapad.org/), pads textuels, libre
 * [**Cryptpad**](https://cryptpad.fr/), pads textuels et suite collaborative, libre
 * [**Nextcloud**](https://nextcloud.com/fr/), auto-hébergement de fichiers partagés
+* [**Padlet**](https://padlet.com/), pads graphiques, propriétaire
 
 </div>
 
