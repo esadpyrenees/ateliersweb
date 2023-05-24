@@ -36,7 +36,7 @@ Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](gu
 *[AFD]: Alliance française des designers
 
 ### Les syndicats et représentants professionnels 
-* [l’Alliance française des designers](http://www.alliance-francaise-des-designers.org/) ;
+* [l’Alliance France design](https://www.alliancefrancedesign.com/) ;
 * [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
 * [Le CAAP](http://caap.asso.fr) - Comité des artistes-auteurs plasticiens.
 * [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail. 
@@ -45,8 +45,9 @@ Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](gu
 [L’AFDAS](https://www.afdas.com/) est l’organisme gestionnaire du fonds de formation des artistes-auteurs.
 
 ### Les bourses, résidences et appels à projets 
-* [Fondation Nationale des Arts Graphiques et Plastiques](http://fnagp.fr) ;
+* [La Fondation des Artistes](https://www.fondationdesartistes.fr/), aide à la production ;
 * Bourse [Brouillon d’un rêve numérique](http://www.scam.fr/Brouillon-dun-reve) de la SCAM ;
-* Appels à projet de la [DRAC Nouvelle Aquitaine]( https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine/Appels-a-projets-et-a-candidatures) ;
-* Dispositif pour la Création Artistique Multimédia et Numérique : [DICRéAM](https://www.cnc.fr/professionnels/aides-et-financements/creation-numerique/dispositif-pour-la-creation-artistique-multimedia-et-numerique-dicream_191324) ;
+* Appels à projet de la [DRAC Nouvelle Aquitaine](https://www.culture.gouv.fr/Regions/DRAC-Nouvelle-Aquitaine) ;
+* [Fonds d’aide à la création immersive](https://www.cnc.fr/professionnels/aides-et-financements/creation-numerique/fonds-daide-a-la-creation-immersive_1725797) ;
 * [Résidences et annonces](https://www.cnap.fr/annonces) du CNAP.
+* [Création en cours](https://www.ateliersmedicis.fr/label/creation-en-cours-679), programme de soutien porté par les Ateliers Médicis, dédié à l’accompagnement de projets en milieu scolaire
