@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  /* hard reset margins */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#container {
+  overflow: hidden;
+  position: fixed;
+  /* center content: */
+  display: grid;
+  place-content: center;
+  /* offset from body by 50px */
+  inset: 50px;
+}
+
+#content {
+  position: absolute;
+  user-select: none;
+  transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1);
+  will-change: transform;
+}
