@@ -245,27 +245,38 @@ function setLineHeight(){
   var blockquote_height = blockquote.getBoundingClientRect().height;
 
   var content = document.querySelector('#content');
-  var content_height = content.getBoundingClientRect().height - 3 * 16;
+  var content_height = content.getBoundingClientRect().height - 2 * 16;
 
   var diff = content_height - blockquote_height;
-  console.log(content_height, " - ", blockquote_height, " = ", diff);
+  // console.log(content_height, " - ", blockquote_height, " = ", diff);
 
   var style = window.getComputedStyle(blockquote);
   var lh = parseFloat(style.lineHeight);
-  var fz = parseFloat(style.fontSize);
 
-  console.log(lh, fz);
+  // console.log(lh);
 
   var linesnumber =  Math.ceil(blockquote_height / lh);
-  console.log(linesnumber);
+  // console.log(linesnumber);
 
   var dlh = Math.floor(lh + ((diff) / linesnumber - 1));
-  console.log(dlh);
+  // console.log(dlh);
   blockquote.style.lineHeight = dlh + "px"
 
 }
 
-setLineHeight()
+const font = new FontFace("Authentic", "url(assets/fonts/AUTHENTICSans-Condensed-130.woff2)");
+document.fonts.add(font);
+
+// Load the font
+font.load();
+
+// Wait until the fonts are all loaded
+document.fonts.ready.then(() => {
+  // Use the font to render text (for example, in a canvas)
+  setLineHeight();
+});
+
+
 
 // resize
 window.addEventListener('resize', function(){

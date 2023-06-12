@@ -12,7 +12,10 @@
 
 ?>
   <style>
-
+    
+    @font-face { font-family: "Authentic"; src: url("assets/fonts/AUTHENTICSans-150.woff2") format('woff2') }
+    @font-face { font-family: "Authentic"; src: url("assets/fonts/AUTHENTICSans-Condensed-60.woff2") format('woff2') }
+    @font-face { font-family: "Authentic"; src: url("assets/fonts/AUTHENTICSans-Condensed-130.woff2") format('woff2') }
   .strike {
     line-height: 1.2;
     --p-width:none;
@@ -65,17 +68,19 @@
     /* font-family: sans-serif; */
     font-style: normal;
     text-transform: uppercase;
-    font-size: min(4vmax, 8vmin);
+    font-size: min(5vmax, 8vmin);
     line-height: 1;
-    letter-spacing: .1em;
+    /* letter-spacing: .1em; */
     text-align:justify;
     max-width: none;
+    font-family: "Authentic";
   }
   blockquote cite {
     font-size: 25%;
-    letter-spacing: 0;
+    letter-spacing: 0.05em;
     display: inline-block;
     line-height: 1;
+    font-style: normal;
   }
   </style>
   <section class="pane home" id="content">
