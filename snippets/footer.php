@@ -1,5 +1,5 @@
 
-  <div id="alarme">
+  <div id="alarme" style="display:none">
     <p>
     Contre la destruction de notre modèle social.<br>
     Contre l’augmentation croissante des inégalités.<br>
