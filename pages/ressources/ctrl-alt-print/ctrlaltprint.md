@@ -2,16 +2,19 @@
 
 Pourquoi et comment créer des documents imprimés avec des outils alternatifs \[ et notamment avec les langages du web \].
 
-Explorées par de nombreux collectifs de graphistes et d’artistes depuis plus d’une dizaine d’années, les “approches alternatives de production d’objets imprimés” rassemblent des logiques de conception qui tentent de s’affranchir de la domination des outils logiciels habituels du design éditorial (Adobe, Microsoft et autres suites bureautiques propriétaires) pour faire l’expérience d’une forme d’autonomie reconquise. Basées sur l’usage de logiciels libres, volontiers expérimentales, ces pratiques ont acquis au fil du temps une maturité qui leur confère aujourd’hui une légitimité jusque dans le champ de l’édition traditionnelle. 
+Explorées par de nombreux collectifs de graphistes et d’artistes depuis plus d’une dizaine d’années, les “approches alternatives de production d’objets imprimés” rassemblent des pratiques de design qui tentent de s’affranchir de la domination des outils logiciels habituels du design éditorial (Adobe, Apple, Microsoft et autres suites bureautiques propriétaires) pour faire l’expérience d’une forme d’autonomie reconquise. Basées sur l’usage de logiciels libres, volontiers expérimentales, ces pratiques ont acquis au fil du temps une maturité qui leur confère aujourd’hui une légitimité jusque dans le champ de l’édition traditionnelle. 
 
-Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de cette dynamique. Elles visent à produire des documents imprimés grâce à l’utilisation des langages du web (HTML, CSS et JavaScript), en s’appuyant sur les capacités de gestion du texte, des images ou des médias des navigateurs, ainsi qu’en bénéficiant des capacités nativement collaboratives et décentralisées du web. 
+Les pratiques du _web to print_, ou _html/CSS to print_, forment un sous-ensemble de cette dynamique. Elles visent à produire des documents imprimés grâce à l’utilisation des langages du web (HTML, CSS et JavaScript), en s’appuyant sur les capacités de gestion du texte, des images ou des médias des navigateurs, ainsi qu’en bénéficiant des capacités nativement collaboratives et décentralisées du web. 
 
 ## En images
 
 
 <div class="scrollables" >
 
-
+<figure>
+    <img src="img/postdigitalgraphicdesign.jpg" alt="*">
+    <figcaption>Johnson/Kingston : <a href="https://postdigitalgraphicdesign.com/">Graphic Design in the Post-Digital Age</a></figcaption>
+</figure>
 <figure>
     <img src="img/controverses-home-4.png" alt="*">
     <figcaption>Sarah Garcin : <a href="https://controverses.org/mode-demploi/">Controverses mode d’emploi</a></figcaption>
@@ -54,11 +57,11 @@ Les pratiques du _web to print_, ou _html to print_, forment un sous-ensemble de
 </figure>
 <figure>
     <img src="img/code-X_01.png" alt="*">
-    <figcaption><a href="http://editions-hyx.com/fr/code-x">Code X</a></figcaption>
+    <figcaption>Julie Blanc, Quentin Juhel : <a href="http://editions-hyx.com/fr/code-x">Code X</a></figcaption>
 </figure>
 <figure>
     <img src="img/web-1.png" alt="*">
-    <figcaption><a href="http://editions-hyx.com/fr/code-x">Code X</a></figcaption>
+    <figcaption>Julie Blanc, Quentin Juhel : <a href="http://editions-hyx.com/fr/code-x">Code X</a></figcaption>
 </figure>
 <figure>
     <img src="img/open-source-pusblishing.png" alt="*">
@@ -115,13 +118,13 @@ Le jeu et l’amusement, la satisfaction que procure le détournement d’un out
 
 Les outils de la création graphique sont aujourd’hui concentrés dans les mains de grandes firmes (notamment Adobe et Apple) dont les décisions sont liées à leur mode d’existance _en tant que_ grandes firmes (capitalistes). Leur mode de facturation (la location de l'outil de travail), leur pratique éhontée de l’obsolescence programmée et du contrôle de leurs utilisateurs, l’absence d’interopérabilité de leurs outils en font des écosystèmes fermés, des prisons dorées, dans lesquelles les designers graphiques sont souvent contraint⋅es d’évoluer, et dont ils et elles deviennent dépendants.
 
-Si des alternatives libres ([Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.fr/), [Scribus](https://www.scribus.net/)) ou commerciales ([Affinity](https://affinity.serif.com/)) existent ou émergent, Adobe a établi une puissante hégémonie sur l’écosystème logiciel de la création graphique. Ce qui n’est pas sans poser quelques problèmes:
+Si des alternatives libres ([Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.fr/), [Scribus](https://www.scribus.net/)) ou commerciales ([Affinity](https://affinity.serif.com/)) existent ou émergent, Adobe a établi une puissante hégémonie sur l’écosystème logiciel de la création graphique. Ce qui n’est pas sans poser quelques questions[^adobe].
 
-☞ En 2020, les dépenses marketing de la firme s’élèvent à 3,591 milliards de dollars. En 2022, Adobe rachète Figma pour 20 milliards de dollars.
+[^adobe]: ☞ En 2020, les dépenses marketing de la firme s’élèvent à 3,591 milliards de dollars. En 2022, Adobe rachète Figma pour 20 milliards de dollars. En 2022, Adobe supprime les nuanciers Pantone de ses applications, entraînant la dispartition de ces couleurs des anciens fichiers. En 2023, Adobe active par défaut l’usage des fichiers stockés dans Creative Cloud à des fins d’entraînement de ses algorithmes de _Machine learning_.
 
 ### Embrasser la fluidité
 
-Les contenus d’un ouvrage imprimé doivent être définis et figés en amont de l’intervention d’un⋅e designer. Une fois cette intervention débutée, le travail de mise en œuvre de la mise en pages ne peut que difficilement être partagé par plusieurs acteur⋅ices. Internet et le web sont des espaces conçus pour l’échange dînformations, il sont donc beaucoup naturellement en adéquation avec les logiques collaboratives. 
+Les contenus d’un ouvrage imprimé doivent être définis et figés en amont de l’intervention d’un⋅e designer. Une fois cette intervention débutée, le travail de mise en œuvre de la mise en pages ne peut que difficilement être partagé par plusieurs acteur⋅ices. Internet et le web sont des espaces conçus pour l’échange d’informations, il sont donc beaucoup naturellement en adéquation avec les logiques collaboratives. 
 
 Certains outils numériques (git, etherpad) ont fondé leur approche sur cette capacité des espaces numériques au temps réel, à l’échange et au partage. Le contenu peut alors être conçu et développé _en même temps_ que la mise en page, la réalisation d’illustrations photographiques ou dessinées.
 
