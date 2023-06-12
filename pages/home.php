@@ -60,9 +60,32 @@
     box-shadow: -8px 8px 8px tomato;
     z-index: 9999;
   }
+  blockquote{
+    margin: 0;
+    /* font-family: sans-serif; */
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: min(4vmax, 8vmin);
+    line-height: 1;
+    letter-spacing: .1em;
+    text-align:justify;
+    max-width: none;
+  }
+  blockquote cite {
+    font-size: 25%;
+    letter-spacing: 0;
+    display: inline-block;
+    line-height: 1;
+  }
   </style>
   <section class="pane home" id="content">
-    <article class="homelinks">
+
+    <blockquote cite="http://luckysoap.com/statements/handmadeweb.html">
+      In today’s highly commercialized web of multinational corporations, proprietary applications, read-only devices, search algorithms, Content Management Systems, WYSIWYG editors, and digital publishers, it becomes an increasingly radical act to hand-code and self-publish experimental web art and writing projects. <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>
+    
+    </blockquote>
+
+    <article class="homelidnks">
 
     </article>
 
@@ -82,7 +105,7 @@
 
     </article>
 
-    <article class="visite">
+    <article class="visite" style="display:none">
       La visite du web, c’est <a href="pages/references/visite" style="display: inline-block;text-decoration: none;padding: .15em 0 .1em .5em ;position: relative;z-index: 0;background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYWxxdWVfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDExOCAzNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTE4IDM0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGQ9Ik0xMTYuMSwxNC45bC0xNC0xNEMxMDEuNSwwLjMsMTAwLjgsMCwxMDAsMHYwbDAsMEgwdjM0aDEwMGwwLDB2MGMwLjgsMCwxLjUtMC4zLDIuMS0wLjlsMTQtMTQKCUMxMTcuMywxOCwxMTcuMywxNiwxMTYuMSwxNC45eiBNMTAwLDMxSDNWM2g5N2wwLDBjMCwwLDAsMCwwLDB2MGgwbDE0LDE0TDEwMCwzMXoiLz4KPC9zdmc+Cg==');background-size: auto;background-size: auto 100%; ">par ici !<span style="width: 1.15em;height: 100%;position: absolute;right: -1em;top: 0;z-index: 1;background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYWxxdWVfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDExOCAzNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTE4IDM0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGQ9Ik0xMTYuMSwxNC45bC0xNC0xNEMxMDEuNSwwLjMsMTAwLjgsMCwxMDAsMHYwbDAsMEgwdjM0aDEwMGwwLDB2MGMwLjgsMCwxLjUtMC4zLDIuMS0wLjlsMTQtMTQKCUMxMTcuMywxOCwxMTcuMywxNiwxMTYuMSwxNC45eiBNMTAwLDMxSDNWM2g5N2wwLDBjMCwwLDAsMCwwLDB2MGgwbDE0LDE0TDEwMCwzMXoiLz4KPC9zdmc+Cg==');background-size: auto 100%;background-position: 100% 0;"></span></a>
     </article>
 
