@@ -225,15 +225,49 @@ function souk(){
 }
 
 // 
-init();
+// init();
 
 // resize
 window.addEventListener('resize', function(){
-  createStyles();
+  // createStyles();
 });
 
 const lttrs = document.querySelectorAll('.u span');
 const alignments = ["start", "end", "center"];
 lttrs.forEach(letter => {
   letter.style.justifySelf = alignments[ Math.floor( Math.random() * alignments.length ) ];
+});
+
+
+// radical
+function setLineHeight(){
+  var blockquote = document.querySelector('blockquote');
+  var blockquote_height = blockquote.getBoundingClientRect().height;
+
+  var content = document.querySelector('#content');
+  var content_height = content.getBoundingClientRect().height - 3 * 16;
+
+  var diff = content_height - blockquote_height;
+  console.log(content_height, " - ", blockquote_height, " = ", diff);
+
+  var style = window.getComputedStyle(blockquote);
+  var lh = parseFloat(style.lineHeight);
+  var fz = parseFloat(style.fontSize);
+
+  console.log(lh, fz);
+
+  var linesnumber =  Math.ceil(blockquote_height / lh);
+  console.log(linesnumber);
+
+  var dlh = Math.floor(lh + ((diff) / linesnumber - 1));
+  console.log(dlh);
+  blockquote.style.lineHeight = dlh + "px"
+
+}
+
+setLineHeight()
+
+// resize
+window.addEventListener('resize', function(){
+  setLineHeight();
 });
