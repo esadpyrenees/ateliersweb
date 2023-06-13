@@ -132,3 +132,92 @@
   margin-top: -.275em;
   gap: .5em;
 }
+
+
+  
+    
+@font-face { font-family: "Authentic"; src: url("../fonts/AUTHENTICSans-Condensed-90.woff2") format('woff2'); font-weight: normal; }
+  .strike {
+    line-height: 1.2;
+    --p-width:none;
+    position: fixed;
+    right:3rem;
+    top: 3rem;
+    background: hotpink;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width:12em;
+    height:12em;
+    border-radius: 50%;
+    align-items: center;
+    justify-content:center;
+    box-shadow: -8px 8px 8px purple;
+  }
+  @media (max-width:850px) {
+    .strike {
+      top: auto;
+      bottom:  1rem;
+      right: 1rem;
+      font-size: .65em;
+    }
+  }
+  .strike p {
+    display: inline;
+    text-align: center;
+  }
+  .strike a { color: white}
+  .bigbuttonstrike:hover {
+    background: rgb(223, 68, 219);
+  }
+  .strike p { margin: 0; }
+  .strike p + p { text-indent: 2em; }
+  #esadsenlutte {
+    border:none
+  }
+  #esadsenlutte img   {
+    position: fixed;
+    height:calc(100vh - 6em);
+    top:3em;
+    left:50%;
+    transform: translateX(-50%);
+    box-shadow: -8px 8px 8px tomato;
+    z-index: 9999;
+  }
+
+/* big JR CARPENTER quote */
+blockquote{
+  margin: 0;
+  /* font-family: sans-serif; */
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: min(5vmax, 8vmin);
+  font-size: max(6vmax, 9vmin);
+  line-height: 1;
+  /* letter-spacing: .1em; */
+  text-align:justify;
+  max-width: none;
+  font-family: "Authentic";
+  color: black;
+}
+blockquote.hidden {
+  visibility: hidden;
+  /* color: red; */
+}
+blockquote cite {
+  font-size: 25%;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  line-height: 1;
+  font-style: normal;
+}
+.rad {
+  font-style: italic;
+}
+blockquote strong {
+  text-decoration: underline;
+  font-weight: normal;
+  text-decoration-color: tomato;
+  text-decoration-thickness: .75em;
+  text-underline-offset: -.75em;
+}

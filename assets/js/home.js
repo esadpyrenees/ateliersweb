@@ -240,45 +240,60 @@ lttrs.forEach(letter => {
 
 
 // radical
-function setLineHeight(){
-  var blockquote = document.querySelector('blockquote');
-  var blockquote_height = blockquote.getBoundingClientRect().height;
 
-  var content = document.querySelector('#content');
-  var content_height = content.getBoundingClientRect().height - 2 * 16;
+function setLineHeight(){
+  
+  blockquote_height = blockquote.getBoundingClientRect().height;
+  content_height = content.getBoundingClientRect().height - 2 * 16;
 
   var diff = content_height - blockquote_height;
-  // console.log(content_height, " - ", blockquote_height, " = ", diff);
-
   var style = window.getComputedStyle(blockquote);
   var lh = parseFloat(style.lineHeight);
 
-  // console.log(lh);
-
   var linesnumber =  Math.ceil(blockquote_height / lh);
-  // console.log(linesnumber);
-
+  
   var dlh = Math.floor(lh + ((diff) / linesnumber - 1));
-  // console.log(dlh);
-  blockquote.style.lineHeight = dlh + "px"
+  blockquote.style.lineHeight = dlh + "px";
+  blockquote.classList.remove('hidden');
 
 }
 
-const font = new FontFace("Authentic", "url(assets/fonts/AUTHENTICSans-Condensed-130.woff2)");
+// radical
+var blockquote = document.querySelector('blockquote');
+var content = document.querySelector('#content');
+var content_height = content.getBoundingClientRect().height - 2 * 16;
+var blockquote_height, raf;
+
+
+function adjustSize(){
+  blockquote_height = blockquote.getBoundingClientRect().height;
+  var style = window.getComputedStyle(blockquote);
+  var fz = parseFloat(style.fontSize);
+  if (blockquote_height > content_height ) {
+    blockquote.style.fontSize = Number(fz - 1) + "px"; 
+    raf =  window.requestAnimationFrame(adjustSize);
+  } else {
+    setLineHeight();
+    window.cancelAnimationFrame(raf);
+  }
+}
+
+const font = new FontFace("Authentic", "url(assets/fonts/AUTHENTICSans-Condensed-90.woff2)");
 document.fonts.add(font);
 
 // Load the font
 font.load();
 
 // Wait until the fonts are all loaded
-document.fonts.ready.then(() => {
-  // Use the font to render text (for example, in a canvas)
-  setLineHeight();
+document.fonts.ready.then(() => {  
+  adjustSize();
 });
-
 
 
 // resize
 window.addEventListener('resize', function(){
-  setLineHeight();
+  content_height = content.getBoundingClientRect().height - 2 * 16;
+  blockquote.classList.add('hidden');
+  blockquote.removeAttribute('style');
+  adjustSize();
 });
