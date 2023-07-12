@@ -150,6 +150,9 @@ Limites Numériques aborde la problématique de l’impact environnemental du nu
 * #### La Survivance
 Critique, commentaires d’images, décryptage, par François Chevret, graphiste, Lursien et professeur à l’EPSAA d’Ivry-sur- Seine. [↗](https://tentation-du-regard.fr/)
 
+* #### Lagniappe 
+Une infolettre irrégulière sur les cultures numériques par Nicolas Nova, enseignant et chercheur en design [↗](https://tinyletter.com/nicolasnova)
+
 </div>
 
 
