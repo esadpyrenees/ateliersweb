@@ -217,7 +217,7 @@ blockquote cite {
 blockquote strong {
   text-decoration: underline;
   font-weight: normal;
-  text-decoration-color: #ff6347;
+  text-decoration-color: black;
   text-decoration-thickness: .75em;
   text-underline-offset: -.75em;
 }
