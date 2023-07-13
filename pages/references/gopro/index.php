@@ -1,11 +1,11 @@
 <?php
     // config
     $title = "Références — Professionnalisation";
+    $description = "Ressources d’auto-défense économique pour graphistes en temps de crise.";
     $section="references";
     $subsection="gopro";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
     $mdfile = "./gopro.md";
-
+    
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
@@ -20,7 +20,7 @@
 
 ?>
 
-    <main class="pane active" id="content">
+    <main class="pane active typeset" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
