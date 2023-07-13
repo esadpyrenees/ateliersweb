@@ -14,6 +14,6 @@ Sauf [mention contraire](/web/pages/exemples/cookie-nav/), le site n’utilise p
 
 Le code complet du site (hasardeux mélange de PHP, markdown, javascript, css et html) est accessible sur [github](https://github.com/esapyrenees/ateliersweb/).
 
-Pour toute question → [mastodon](https://post.lurk.org/@julienbidoret) → [e-mail](mailto:julien.bidoret@esad-pyrenees.fr).
+Pour toute question → <a rel="me" href="https://post.lurk.org/@julienbidoret">mastodon</a> → [e-mail](mailto:julien.bidoret@esad-pyrenees.fr).
 
 Le site a bénéficié des contenus (opensource, libres ou CC) produits par [Louis Éveillard](https://louiseveillard.com/), [Jeremy Thomas](https://jgthms.com/css-in-44-minutes-ebook/), [Julien Taquet](https://pagedjs.org/), [Raphaël Bastide](https://raphaelbastide.com/), [Mozilla Developper Network](https://developer.mozilla.org/fr/), [Oliver James](https://www.internetingishard.com/), [Roberto Arista](https://pythonfordesigners.com/) — et bien d’autres.
