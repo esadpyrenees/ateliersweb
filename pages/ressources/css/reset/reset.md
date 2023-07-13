@@ -12,8 +12,34 @@ De nombreuses approches existent :
 * [sanitize.css](https://github.com/csstools/sanitize.css/blob/main/sanitize.css), poursuit le projet de *normalize.css* en incluant également des comportements par défaut plus forts.
 * [minireset.css](https://github.com/jgthms/minireset.css), plus humble mais plus radical, est à la base de la proposition ci-dessous.
 
+## Proposition minimale
 
-## Proposition
+```css
+/* Réinitialiser le “modèle de boite”, afin que `padding` et `border` soient contenus dans le `width` d’un élément */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Hauteur de ligne et amélioration du rendu typographique */
+body { line-height: 1.45; -webkit-font-smoothing: antialiased; }
+
+/* Amélioration des comportement par défaut des médias */
+img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; }
+
+/* Réinitalisation des propriétés typographiques sur les éléments de formulaire */
+input, button, textarea, select { font: inherit; margin: 0; }
+
+/* suppression des bordures sur les iframes */
+iframe { border: 0; }
+```
+Version compressée sur une seule ligne : 
+
+```css
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+```
+
+## Proposition augmentée
+
+À la proposition minimale, cette deuxième version ajoute notamment une suppression des marges par défaut, et une réinitialisation des styles des titres.
 
 ```css
 /* Réinitialiser le “modèle de boite”, afin que `padding` et `border` soient contenus dans le `width` d’un élément */
