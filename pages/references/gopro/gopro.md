@@ -4,13 +4,27 @@
 > 
 > <cite>— Silvio Lorusso, <a href="https://silviolorusso.com/work/entreprecariat-eng/">Entreprecariat</a></cite>
 
-Les enjeux de la professionnalisation en école d’art sont parcourus par de nombreuses tensions. Les résoudre n’est pas dans les objectifs de la liste de ressources rassemblées ci-dessous. Les différentes approches d’un devenir professionnel souhaitable pour les aspirant⋅es designers et artistes doivent être pensées de manière critique, en tenant compte de leurs inscriptions dans des contextes sociaux, économiques, écologiques, politiques dont la complexité n’est plus à démontrer.
+Les enjeux de la professionnalisation en école d’art sont parcourus par de nombreuses tensions (les résoudre n’est pas dans les objectifs de la liste de ressources rassemblées ci-dessous). Les différentes approches d’un devenir professionnel souhaitable pour les aspirant⋅es designers et artistes doivent être pensées de manière critique, en tenant compte de leurs inscriptions dans des contextes sociaux, économiques, écologiques, politiques dont la complexité n’est plus à démontrer.
+
+
+## ✊ > ☝️
+
+Le monde hostile de l’activité économique des artistes et designers l’est moins quand on ne s’y engage pas seul⋅e. Des structures (syndicats, associations, groupes informels ou plus structurés) existent pour accompagner les étudiant⋅es, les artistes et designers débutant⋅es comme confirmé⋅es. Leurs sites regroupent des ressources bien plus nombreuses et précises que celles listées ci-dessous.
+
+* Le [CAAP](http://caap.asso.fr), Comité des artistes-auteurs plasticiens ;
+* [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail ;
+* Le [SNAPcgt](https://www.snapcgt.org/), Syndicat national des artistes plasticien·nes CGT ou le [Le STAA](https://staa-cnt-so.org/liens-utiles/), Syndicat des Travailleurs Artistes-Auteurs CNT ;
+* L’[Alliance France design](https://www.alliancefrancedesign.com/) ; syndicat des designers
+* La [FRAAP](http://fraap.org), Fédération des réseaux et associations d’artistes plasticiens ;
+* [Le Massicot](https://linktr.ee/lemassicot) est la Fédération syndicale des étudiant·es en écoles de création (en tant qu’étudiant·e aussi, il est utile de se fédérer…).
 
 ## Les statuts 
 Le statut le plus naturel (et avantageux ?) pour les graphistes est celui d’artiste auteur (AA), qui est géré par l’Urssaf (depuis 2019, à la suite de la Maison des Artistes). Pour débuter une activité en tant qu’artiste-auteur, voir le [guide de l’URSSAF](https://www.urssaf.fr/portail/home/espaces-dedies/artistes-auteurs-diffuseurs-comm/vous-etes-artiste-auteur/debuter-votre-activite.html) et le site de la [ Sécurité sociale des artistes auteurs](http://www.secu-artistes-auteurs.fr) (anciennement Maison des artistes).
 
 Le statut d’auto-entrepreneur est moins avantageux à certains égards (droit à la formation moindre, cotisations sociales plus élevées, moindre spécificité), mais aussi plus souple (il permet des activités que ne permet pas le statut d’AA, assez restrictif). Il ne permet pas de facturer de droits d’auteurs.
 Pour démarrer, [c’est ici](https://www.autoentrepreneur.urssaf.fr/portail/accueil/creer-mon-auto-entreprise.html).
+
+Les statuts et modalités d’activité des artistes et designers évoluent à grande vitesse : veillez à accéder aux ressources ci-dessous en tenant compte de leur date de création.
 
 ### Livres + online
 Un livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya. Voir aussi en ligne le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/).
@@ -51,11 +65,7 @@ Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](gu
 *[Cnap]: Centre national des arts plastiques
 *[AFD]: Alliance française des designers
 
-### Les syndicats et représentants professionnels 
-* [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
-* [Le CAAP](http://caap.asso.fr) - Comité des artistes-auteurs plasticiens.
-* [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail ;
-* [l’Alliance France design](https://www.alliancefrancedesign.com/).
+## Autres
 
 ### Formation continue 
 [L’AFDAS](https://www.afdas.com/) est l’organisme gestionnaire du fonds de formation des artistes-auteurs.
