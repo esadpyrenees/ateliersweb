@@ -20,7 +20,7 @@ Un livre de référence est [Profession Graphiste Indépendant](http://www.profe
 À voir sur [la chaîne Youtube](https://www.youtube.com/playlist?list=PLIILQPFtEDHt_U0U96wuaQahOS5JDCdut) du Cnap.
 
 ### Artistes-auteurs : MDA-AGESSA, URSSAF, mais enfin, j'y comprends que dalle!
-Un [groupe Facebook](https://www.facebook.com/groups/1753584858218893/?multi_permalinks=3225551727688858) dédié aux questions/réponses sur le régime des artistes-auteurs. 
+Un [groupe Facebook](https://www.facebook.com/groups/1753584858218893/?multi_permalinks=3225551727688858) (désolé) dédié aux questions/réponses sur le régime des artistes-auteurs. 
 
 ### IRL 
 L’association Pola, à Bordeaux, propose à ses adhérents [une offre de services pour les artistes (et graphistes)](https://pola.fr/ressources-pro/), notamment grâce à une permanence juridique, des ateliers et accompagnements de projets.
@@ -52,10 +52,10 @@ Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](gu
 *[AFD]: Alliance française des designers
 
 ### Les syndicats et représentants professionnels 
-* [l’Alliance France design](https://www.alliancefrancedesign.com/) ;
 * [la FRAAP](http://fraap.org) / Fédération des réseaux et associations d’artistes plasticiens ;
 * [Le CAAP](http://caap.asso.fr) - Comité des artistes-auteurs plasticiens.
-* [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail. 
+* [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail ;
+* [l’Alliance France design](https://www.alliancefrancedesign.com/).
 
 ### Formation continue 
 [L’AFDAS](https://www.afdas.com/) est l’organisme gestionnaire du fonds de formation des artistes-auteurs.
