@@ -7,7 +7,7 @@
 Les enjeux de la professionnalisation en école d’art sont parcourus par de nombreuses tensions (les résoudre n’est pas dans les objectifs de la liste de ressources rassemblées ci-dessous). Les différentes approches d’un devenir professionnel souhaitable pour les aspirant⋅es designers et artistes doivent être pensées de manière critique, en tenant compte de leurs inscriptions dans des contextes sociaux, économiques, écologiques, politiques dont la complexité n’est plus à démontrer.
 
 
-## ✊ > ☝️
+## ✊
 
 Le monde hostile de l’activité économique des artistes et designers l’est moins quand on ne s’y engage pas seul⋅e. Des structures (syndicats, associations, groupes informels ou plus structurés) existent pour accompagner les étudiant⋅es, les artistes et designers débutant⋅es comme confirmé⋅es. Leurs sites regroupent des ressources bien plus nombreuses et précises que celles listées ci-dessous.
 
