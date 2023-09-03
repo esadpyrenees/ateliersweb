@@ -1,4 +1,4 @@
-# Professionalisation
+# Professionnalisation
 
 > <big>Everyone is an entrepreneur. <br>Nobody is safe.</big>
 > 
