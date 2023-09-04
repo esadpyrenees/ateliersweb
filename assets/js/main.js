@@ -121,6 +121,7 @@ function slugify(string) {
 // headings ids
 var headings = document.querySelectorAll('main h1, main h2, main h3');
 headings.forEach(function(heading){
+    if(heading.classList.contains('nohash')) return false;
     var slug = heading.getAttribute('id') || slugify(heading.textContent);
     if(!heading.getAttribute('id')){
         heading.setAttribute('id', slug);
