@@ -1,9 +1,10 @@
 
+
 <header>
-  <h1>
-    <span>Puck</span>
-    <span>Ferpection</span>
-  </h1>
+    <h1 class="nohash">
+        <span>Puck</span>
+        <span>Ferpection</span>
+    </h1>
 </header>
 
 [Feck Perfuction](https://www.feckperfuction.com/) est un livre/projet/mantra de [James Victore](https://www.jamesvictore.com/), graphiste, auteur et *guru* (très) états-unien, amateur de maximes percutantes. Si Maximilien Vox proposait qu’« En typographie, il n'y a qu'un seul degré de bien : la perfection », Victore – héritier d’*Emigre*, du post-modernisme ou de l’expressivité graphique et typographique – professe que « la normalité est un fil de fer barbelé pour l'esprit humain ».
