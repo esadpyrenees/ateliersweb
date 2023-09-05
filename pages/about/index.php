@@ -50,9 +50,14 @@ input[type=submit]{
 
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+
+        <h3>Contacts</h3>
+        <p>
+            Pour toute question, correction, complément ou commentaire : <br>→ <a rel="me" href="https://post.lurk.org/@julienbidoret">@julienbidoret</a> <br>→ <a href="mailto:julien.bidoret@esad-pyrenees.fr">julien.bidoret@esad-pyrenees.fr</a>
+        </p>
         <form action="https://tinyletter.com/ateliersweb" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/ateliersweb', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">         
-            <p><label for="tlemail">Inscrivez-vous à la newsletter pour être tenu·e au courant des actualités du site</label></p>
-            <p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
+            <p><label for="tlemail">Inscrivez-vous à la newsletter pour être tenu·e au courant des actualités du site, une fois par an tout au plus…</label></p>
+            <p><input type="text" style="width:140px; margin-top:.5em" name="email" id="tlemail" /></p>
             <input type="hidden" value="1" name="embed"/>
             <input type="submit" value="Subscribe" />
         </form>

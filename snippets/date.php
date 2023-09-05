@@ -16,5 +16,6 @@
             echo date("d/m/Y", filemtime($file));
         ?>
         – <a href="/web/pages/about/">CC BY-NC</a>
+        – <a href="/web/pages/about/?contact">Corrections, compléments et commentaires bienvenus !</a>
     </small>
 </footer>
