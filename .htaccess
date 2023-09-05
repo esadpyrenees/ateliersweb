@@ -1,5 +1,6 @@
+
 Header always unset X-Frame-Options
-Header set Content-Security-Policy "frame-ancestors 'self' http://localhost"
+Header set Content-Security-Policy "frame-ancestors 'self' http://localhost https://slides.accentgrave.net"
 
 RewriteEngine On
 
@@ -32,6 +33,15 @@ RewriteRule ^archives/$  pages/archives/index.php [L]
 # Specials
 RewriteRule pages/ressources/html2print(.*)  pages/ressources/ctrl-alt-print$1 [R,L]
 RewriteRule pages/8m(.*) pages/culturenum/8m$1 [R,L]
+
+# Redirections
+RewriteRule pages/references/gopro(.*) pages/gopro$1 [R,L]
+RewriteRule pages/references/htmlcss(.*) pages/ressources/html/ailleurs$1 [R,L]
+RewriteRule pages/references/typo(.*) pages/ressources/typo/fonderies$1 [R,L]
+RewriteRule pages/references/ecrituresnumeriques(.*) pages/culturenum/ecrituresnumeriques$1 [R,L]
+RewriteRule pages/references/webdocumentaire(.*) pages/culturenum/ecrituresnumeriques$1 [R,L]
+RewriteRule pages/references/visite(.*) pages/culturenum/visite$1 [R,L]
+RewriteRule pages/references/histoire(.*) pages/culturenum/histoires$1 [R,L]
 
 # Iframes
 # Header set Content-Security-Policy "frame-ancestors 'self' https://slides.accentgrave.net"
