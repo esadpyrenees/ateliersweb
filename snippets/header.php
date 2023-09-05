@@ -11,7 +11,6 @@
     $localurl = $host . $_SERVER['REQUEST_URI'];
     echo "<title>ÉSAD Pyrénées – Ateliers web – $title_line</title>\n\n";
     echo "        <meta property='og:title' content='ÉSAD Pyrénées – Ateliers web – $title_line'>\n";
-    echo "        <meta property='twitter:title' content='ÉSAD Pyrénées – Ateliers web – $title_line'>\n";
     echo "        <meta property='og:description' content='$desc'>\n";
     echo "        <meta property='og:url' content='$localurl'>\n";
     echo "        <meta property='og:type' content='website'>\n";
@@ -19,19 +18,14 @@
     echo "        <meta property='og:locale' content='fr'>\n";
     if(isset($ogp_url)){
     echo "        <meta property='og:image' content='$localurl$ogp_url'>\n";
-    echo "        <meta property='twitter:image' content='$localurl$ogp_url'>\n";    
     } else {
       $text = rawurlencode($title);
       echo "        <meta property='og:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text" . (isset($version) ? '&version=' . $version : "") . "' >\n";    
-      echo "        <meta property='twitter:image' content='$host/web/medias/$section" . (isset($subsection) ? '/' . $subsection : "") . (isset($subsubsection) ? '/' . $subsubsection : "") . "/ogp.png?text=$text" . (isset($version) ? '&version=' . $version : "") . "' >\n";    
     }
     if(isset($canonical_url)){
       echo '<link rel="canonical" href="'. htmlspecialchars($canonical_url) .'" >';
     }   
   ?>
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@ateliers_web">
-  <meta name="twitter:creator" content="@julienbidoret">
 
   <meta name="author" content="Julien Bidoret">
 
