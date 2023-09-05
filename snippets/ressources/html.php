@@ -34,4 +34,7 @@
             </ul>
         </li>
     </ul>
+    <ul>
+        <li class="<?= $subsubsection == 'ailleurs' ? 'opened' : '' ?>"><a href="/web/pages/ressources/html/ailleurs/">Ailleurs sur le web</a></li>
+    </ul>
 </nav>

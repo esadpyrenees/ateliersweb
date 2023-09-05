@@ -22,7 +22,7 @@ Le web est un média dans lequel il est donc capital de séparer le contenu, sa 
 ## Ressources en ligne
 
 Les ressources en ligne pour apprendre le design et le développement web sont *très* nombreuses.
-Voir [ici](../../references/htmlcss/).
+Voir ici : [Ailleurs sur le Web](ailleurs/).
 
 
 ## Outils
