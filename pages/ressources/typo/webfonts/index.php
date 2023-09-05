@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Typographie → webfonts";
     $section="ressources";
     $subsection="typo";
     $nav = "/web/snippets/ressources/type.php";

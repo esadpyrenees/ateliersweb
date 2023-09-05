@@ -10,6 +10,8 @@ La prise en compte conjointe des notions de macro et micro-typographie est essen
 > La macrotypographie désigne l’agencement de l’espace typographique et la mise en page : le format de l’imprimé, la taille et la disposition des colonnes de texte et des illustrations, la hiérarchisation des titres et des légendes.  
 — Le détail en typographie, Jost Hochuli, Éditions B42
 
+Dans le contexte du web, le « format de l’imprimé » n’est pas défini par l’auteur⋅ice ni par le/la designer ; il est fonction de l’utilisateur⋅ice qui accède au contenu depuis son smartphone, ordinateur, télévision, lecteur d’écran, etc. On <del>peut</del> <ins>doit</ins> néanmoins porter la plus grande attention aux autres enjeux.   
+
 
 ## Sélection
 

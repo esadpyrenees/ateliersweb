@@ -167,16 +167,20 @@ On définit:
 ```
 .shadow { text-shadow: 0 2px 5px rgba(0,255,0,0.9) }
 ```
-
-# À l’ombre des jeunes filles en fleurs {.shadow}
+<p class="shadow">À l’ombre des jeunes filles en fleurs </p>
 
 Seules les valeurs x et y sont requises. Le flou par défaut est zéro, tandis que la couleur par défaut est celle du texte.
 
-[→ Aller plus loin : Macro & micro typo](../../typo/macromicro/){.bigbutton}
+## Aller plus loin
 
-Ou continuer sur…
+Poursuivre l’exploration des enjeux typographiques sur le web :
 
-[→ les arrière-plans](../background/){.bigbutton}
+[Macro & micro typo](../../typo/macromicro/){.bigbutton}
+[Les caractères pour le web (webfonts)](../../typo/webfonts/){.bigbutton}
+[Les fontes variables](../../typo/variables/){.bigbutton}
+[Les caractères spéciaux](../../typo/caracteres/){.bigbutton}
+
+
 
 —
 

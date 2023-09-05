@@ -39,31 +39,6 @@ p {
     font-family: 'MyWebFont';
 }
 ```
-### Compatibilité
-
-Pour intégrer une police de caractères dans une page web, un seul fichier ne suffit pas pour assurer la compatibilité avec tous les navigateurs, bien qu’aujourd’hui, le support des formats woff (Web Open Font Format) et woff2 se soit généralisé sur [les navigateurs modernes](https://caniuse.com/#search=woff).
-
-Pour une meilleure compatibilité, une syntaxe plus complète peut être saisie (et de nombreux fichiers doivent être présents):
-```
-@font-face {
-    font-family: 'MyWebFont';
-    font-weight:400; /* Graisse : regular */
-    src: url('fonts/webfont.eot'); /* IE9 */
-    src: url('fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('fonts/webfont.woff') format('woff'), /* Navigateurs modernes */
-        url('fonts/webfont.ttf')  format('truetype'), /* Safari, vieux Android, vieux iOS */
-        url('fonts/webfont.svg#svgFontName') format('svg'); /* Très vieux iOS : ) */
-}
-@font-face {
-    font-family: 'MyWebFont';
-    font-weight:700; /* Graisse : bold */
-    src: url('fonts/webfont-bold.eot');
-    src: url('fonts/webfont-bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/webfont-bold.woff') format('woff'),
-        url('fonts/webfont-bold.ttf')  format('truetype'),
-        url('fonts/webfont-bold.svg#svgBoldFontName') format('svg');
-}            
-```
 
 ### Services
 
@@ -84,3 +59,31 @@ Les fichiers téléchargés (souvent des .otf) devront être convertis pour pouv
 [Transfonter](http://transfonter.org/) ou [Everythingfont](https://everythingfonts.com/) permettent de convertir vos fichiers otf ou ttf en webfonts. Font Squirrel met également à disposition un générateur de [« packs » @font-face](http://www.fontsquirrel.com/fontface/generator), qui vous permet de faire ces conversions.
 
 [Fontrep](http://fontprep.com) est une application Mac dédiée à la transformation de fichiers ttf et otf en webfonts, qui offre de grandes facilités de *subsetting*.
+
+
+
+### Compatibilité
+
+Pour intégrer une police de caractères dans une page web, un seul fichier ne suffit pas pour assurer la compatibilité avec tous les navigateurs, bien qu’aujourd’hui, le support des formats woff (Web Open Font Format) et woff2 se soit généralisé sur [les navigateurs modernes](https://caniuse.com/#search=woff).
+
+Pour une meilleure compatibilité, une syntaxe plus complète peut être saisie (et de nombreux fichiers doivent alors être présents):
+```
+@font-face {
+    font-family: 'MyWebFont';
+    font-weight:400; /* Graisse : regular */
+    src: url('fonts/webfont.eot'); /* IE9 */
+    src: url('fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/webfont.woff') format('woff'), /* Navigateurs modernes */
+        url('fonts/webfont.ttf')  format('truetype'), /* Safari, vieux Android, vieux iOS */
+        url('fonts/webfont.svg#svgFontName') format('svg'); /* Très vieux iOS : ) */
+}
+@font-face {
+    font-family: 'MyWebFont';
+    font-weight:700; /* Graisse : bold */
+    src: url('fonts/webfont-bold.eot');
+    src: url('fonts/webfont-bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/webfont-bold.woff') format('woff'),
+        url('fonts/webfont-bold.ttf')  format('truetype'),
+        url('fonts/webfont-bold.svg#svgBoldFontName') format('svg');
+}            
+```

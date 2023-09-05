@@ -9,4 +9,7 @@
         <li class="<?= $subsubsection == 'variables' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/variables/">Variables</a> </li>
         <li class="<?= $subsubsection == 'caracteres' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/caracteres/">Caractères spéciaux</a> </li>
     </ul>
+    <ul>
+        <li class="<?= $subsubsection == 'fonderies' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/fonderies/">Fonderies et références</a></li>
+    </ul>
 </nav>

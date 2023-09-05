@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Typographie";
     $section = "ressources";
     $subsection = "typo";
     $subsubsection = 'intro';

@@ -10,7 +10,7 @@ Lire les articles consacrés à la [syntaxe](syntax), aux [sélecteurs CSS](sele
 
 ### Texte et typographie
 
-La mise en forme du texte est un aspect central du webdesign – comme du design graphique en général. Commencer par une introduction aux [grands principes de la gestion typographique](text). Poursuivre par les pages dédiées à la [typographie à l’écran](../typo/), à [l’utilisation de webfonts](../typo/macromicro/), ou aux questions de [macro & micro typographie](../typo/macromicro/).
+La mise en forme du texte est un aspect central du webdesign – comme du design graphique en général. Commencer par une introduction aux [grands principes de la gestion typographique](text) en CSS. Poursuivre par les pages dédiées à la [typographie à l’écran](../typo/), à [l’utilisation de webfonts](../typo/macromicro/), ou aux questions de [macro & micro typographie](../typo/macromicro/).
 
 ## ✋
 > <big> Avant de passer à la suite, il devient souhaitable de préciser quelques trucs et astuces utiles:</big>
