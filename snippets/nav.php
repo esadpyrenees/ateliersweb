@@ -2,11 +2,11 @@
   <ul>
     <li class="<?php echo $section == 'ressources' ? 'opened' : '' ?>"><a href="/web/pages/ressources/">Ressources</a></li>
     <li class="<?php echo $section == 'exemples' ? 'opened' : '' ?>"><a href="/web/pages/exemples/">Exemples</a></li>
-    <li class="<?php echo $section == 'references' ? 'opened' : '' ?>"><a href="/web/pages/references/">Références</a></li>
     <li class="<?php echo $section == 'outils' ? 'opened' : '' ?>"><a href="/web/pages/outils/">Outils</a></li>
     <li class="<?php echo $section == 'projets' ? 'opened' : '' ?>"><a href="/web/pages/projets/">Projets</a></li>
     <li class="<?php echo $section == 'culturenum' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Cultures numériques</a></li> 
     <li class="<?php echo $section == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/lectures/">Lectures</a></li>
+    <li class="<?php echo $section == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/gopro/">Go pro</a></li>
     <li class="<?php echo $section == 'archives' ? 'opened' : '' ?>"><a href="/web/archives/">Archives</a></li>
   </ul>
   <span class="<?php echo $section == 'about' ? 'opened' : '' ?>">
@@ -51,18 +51,28 @@
     </ul>
 </nav>
 
-<nav class="pane subnav <?php echo $section == 'references' ? 'active' : '' ?>"  id="references">
+<!-- <nav class="pane subnav <?php echo $section == 'references' ? 'active' : '' ?>"  id="references">
     <ul>
         <li class="<?php echo $subsection == 'htmlcss' ? 'opened' : '' ?>"><a href="/web/pages/references/htmlcss/">HTML / CSS</a></li>
         <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/references/typo/">Typographie</a></li>
-        <!-- <li class="<?php echo $subsection == 'foundries' ? 'opened' : '' ?>"><a href="/web/pages/references/foundries/">Fonderies</a></li> -->
+        <li class="<?php echo $subsection == 'foundries' ? 'opened' : '' ?>"><a href="/web/pages/references/foundries/">Fonderies</a></li> 
         <li class="<?php echo $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/references/ecrituresnumeriques/">Écritures numériques</a></li>
-        <!-- <li class="<?php echo $subsection == 'webdocumentaire' ? 'opened' : '' ?>"><a href="/web/pages/references/webdocumentaire/">Webdoc</a></li> -->
+        <li class="<?php echo $subsection == 'webdocumentaire' ? 'opened' : '' ?>"><a href="/web/pages/references/webdocumentaire/">Webdoc</a></li> 
         <li class="<?php echo $subsection == 'visite' ? 'opened' : '' ?>"><a href="/web/pages/references/visite/">Visite</a></li>        
         <li class="<?php echo $subsection == 'histoire' ? 'opened' : '' ?>"><a href="/web/pages/references/histoire/">Histoire</a></li>
         <li class="<?php echo $subsection == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/references/gopro/">Go pro !</a></li>
     </ul>
-</nav>
+</nav> -->
+
+<nav class="pane subnav <?php echo $section == 'gopro' ? 'active' : '' ?>"  id="gopro">
+    <ul>
+        <li><a href="#syndicats">✊</a></li>
+        <li><a href="#les-statuts">Les statuts</a></li>
+        <li><a href="#economie-critique">Économie critique</a></li>
+        <li><a href="#questions-dargent">Questions d’argent</a></li>
+        <li><a href="#autres">Autres</a></li>
+    </ul>
+</nav> 
 
 <nav class="pane subnav <?php echo $section == 'projets' ? 'active' : '' ?>"  id="projets">
     <ul>
@@ -83,18 +93,27 @@
     </ul>
 </nav>
 <nav class="pane subnav <?php echo $section == 'culturenum' ? 'active' : '' ?>"  id="culturenum">
-  <ul>
-    <li class="<?= $subsection == 'intro' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Introduction</a></li>
-    <li class="<?= $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/figures/">Figures</a></li>
-    <!-- <li class="<?= $subsection == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/lectures/">Lectures</a></li> -->
-    <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
-    <li class="<?= $subsection == 'libre' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
-    <li class="<?= $subsection == 'folklore' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/folklore/">Folklore</a></li>
-    <li class="<?= $subsection == 'web3' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/web3/">Web3 ?</a></li>
-    <li class="<?= $subsection == 'aiaiaie' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/aiaiaie/">AI AI Aïe</a></li>
-    <li class="<?= $subsection == 'mediaqueries' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/mediaqueries/">Media queries</a></li>
-    <li class="<?= $subsection == '8m' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/8m/">8m</a></li>
-    <li class="<?= $subsection == 'kiss' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/kiss/">KISS</a></li>
-  </ul>
+    <ul>
+        <li class="<?= $subsection == 'intro' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Introduction</a></li>
+    </ul>
+    <ul>
+        <li class="<?= $subsection == 'visite' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/visite/">Visite du web</a></li>
+    </ul>
+    <ul>
+        <li class="<?= $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/figures/">Figures</a></li>
+        <li class="<?= $subsection == 'histoires' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/histoires/">Histoires</a></li>
+        <li class="<?= $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ecrituresnumeriques/">Écritures numeriques</a></li>
+    </ul>
+    <ul>
+        <!-- <li class="<?= $subsection == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/lectures/">Lectures</a></li> -->
+        <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
+        <li class="<?= $subsection == 'libre' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
+        <li class="<?= $subsection == 'folklore' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/folklore/">Folklore</a></li>
+        <li class="<?= $subsection == 'web3' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/web3/">Web3 ?</a></li>
+        <li class="<?= $subsection == 'aiaiaie' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/aiaiaie/">AI AI Aïe</a></li>
+        <li class="<?= $subsection == 'mediaqueries' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/mediaqueries/">Media queries</a></li>
+        <li class="<?= $subsection == '8m' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/8m/">8m</a></li>
+        <li class="<?= $subsection == 'kiss' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/kiss/">KISS</a></li>
+    </ul>
 </nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
