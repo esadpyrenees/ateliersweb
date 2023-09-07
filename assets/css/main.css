@@ -283,6 +283,7 @@ pre, code {
     font-family: 'Fira Code';
     font-variant-ligatures: none;
     overflow-x: auto;
+    position: relative;
 }
 pre code { font-size: .85em; }
 li code,
@@ -308,6 +309,38 @@ pre:not([markdown="0"]) {
 }
 pre .hljs {
     padding: 0.5em 40px !important;
+}
+.copybtn {
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+    border: none;
+    border-radius: .25em;
+    padding: .25em .5em .25em .6em;
+    display: none;
+}
+pre:hover .copybtn { display: block; }
+.copybtn.copied::before {
+    content: "Copié !";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: .25em;
+    background: limegreen;
+    color: white;
+    transform: translateX(calc(-100% - .5em));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 .5em;
+    animation: copied 1500ms ease-out 1 forwards;
+}
+@keyframes copied {
+    0% { opacity: 0;}
+    15% {opacity: 1;}
+    85% {opacity: 1;}
+    100% { opacity: 0;}
 }
 details[open] div {
     border: 2px solid;
