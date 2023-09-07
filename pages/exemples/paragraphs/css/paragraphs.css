@@ -1,0 +1,157 @@
+
+
+#default p { 
+    margin: 0 0 1em; 
+    line-height: 1.2;
+}
+
+/* Indentation des paragraphes (sauf sur le premier paragraphe) */
+#indent p { 
+    margin: 0;
+    line-height: 1.5; /* Augmentation de l’interligne */
+}
+
+#indent p + p { 
+    text-indent: 1.5em;
+}
+
+/* Indentation inversée des paragraphes */
+#exdent p { 
+    margin: 0;
+    line-height: 1.5;
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+/* Espace blanc vertical d’une demi ligne */
+#extraleading p { 
+    margin: 0 0 .75em; /* La marge inférieure est précisément égale à la moitié de la hauteur de ligne */
+    line-height: 1.5; /* Augmentation de l’interligne */
+}
+
+/* Ajout d’un élément graphique (un “pied de mouche”, pilcrow) entre deux paragraphes successifs */
+#graphicelement p { 
+    margin: 0;
+    line-height: 1.5; 
+    display: inline; /* changement du mode d’affichage des paragraphes */
+}
+
+#graphicelement p + p::before { /* ::before insère un “pseudo-élément” avant le début de l’élément */
+    font-weight: 700;
+    content: ' ¶ ';
+    margin-left: -.1em;
+}
+
+/* Ajout d’un élément graphique (un filet) entre deux paragraphes successifs */
+#rule p {
+    margin: 0 0 1em; /* la marge inférieure sera occupée par le filet */
+} 
+#rule p + p::before {
+    content: '';
+    display: block;
+    position: relative; /* la position relative permet de décaler l’élément vers le haut */
+    top: -.55em;
+    height: .25em;
+    width: 4em;
+    background: #1a1a11;
+}
+
+/* Lettrine: La première lettre est insérée dans un élément span */
+#drop p { 
+    margin: 0;
+    line-height: 1.5; /* Augmentation de l’interligne */
+}
+
+#drop p + p { 
+    text-indent: 1.5em;
+}
+#drop .firstletter {
+    font-weight: bold;
+    float: left;
+    font-size: 7.5em;
+    line-height: .92;
+    margin: -.05em .04em -.2em -.07em;
+}
+#drop p:first-child::first-line { 
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+/* Alternance de marges  */
+#margin p {
+    margin: 0 0 0 4em;
+    text-align: justify;
+    line-height: 1.5;
+}
+#margin p:nth-child(odd) {
+    margin: 0 4em 0 0;
+}
+
+/* Premier bloc singularisé, blocs suivants indentés  */
+#initial p {
+    line-height: 1.5;
+    margin: 0 0 1em;
+}
+#initial p:before {
+    content: "§ ";
+}
+#initial p + p {
+    padding: 0 0 0 8em;
+}
+#initial p + p:before {
+    content: "• ";
+}
+
+/* styles pour la démo */
+
+* { box-sizing: border-box; }
+@font-face { font-family: "Commit"; font-display: swap; font-style: italic; font-weight: normal; src: url("CommitMono-Italic.woff2") format("woff2");} 
+@font-face { font-family: "Commit"; font-display: swap; font-style: normal; font-weight: normal; src: url("CommitMono-Regular.woff2") format("woff2");} 
+@font-face { font-family: "Commit"; font-display: swap; font-style: italic; font-weight: bold; src: url("CommitMono-BoldItalic.woff2") format("woff2");} 
+@font-face { font-family: "Commit"; font-display: swap; font-style: normal; font-weight: bold; src: url("CommitMono-Bold.woff2") format("woff2");}
+
+body {
+    --margin: 1.5em;
+    --colwidth: 12em;
+    font-family: "Commit";
+    margin: var(--margin);
+    background-color: #1e90ff;
+    color: #0a0a04;
+    font-size: 1.25em;
+    line-height: 1.3;
+}
+a {
+    color: currentColor;
+}
+header {
+    margin-bottom: 3em;
+    scroll-margin-top:3em;
+}
+nav {
+    position: fixed;
+    width: var(--colwidth);
+    top: var(--margin);
+}
+nav a:hover,
+.active {
+    color: white;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+main {
+    margin-left: var(--colwidth);
+    max-width: 40em;
+}
+
+article {
+    margin-bottom: 3em;
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+    scroll-margin-top:3em;
+    font-size: .7em;
+}

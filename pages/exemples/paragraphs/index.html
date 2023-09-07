@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Le design : une attitude, pas une profession</title>
+        <meta name="description" content="Extrait du texte de László Moholy-Nagy, qui invite à envisager le design comme une attitude attachée à un contexte.">
+        <link id="stylesheet" rel="stylesheet" href="css/paragraphs.css">
+
+        <!-- pour la démo : coloration syntaxique du code -->
+        <link rel="stylesheet" href="/web/assets/highlight/styles/tomorrow-night-blue.min.css">
+        <script src="/web/assets/highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+       
+    </head>
+    <body>
+        <nav>
+            <a href="#top" class="active">p { }</a>
+            <a href="#default">Par défaut</a>
+            <a href="#indent">Indentation</a>
+            <a href="#exdent">Désindentation</a>
+            <a href="#extraleading">Blanc vertical</a>
+            <a href="#graphicelement">Pied de mouche</a>
+            <a href="#rule">Filet</a>
+            <a href="#drop">Lettrine</a>
+            <a href="#margin">Marges alternées</a>
+            <a href="#initial">Bloc initial</a>
+        </nav>
+        <main>
+            <header id="top">
+                Les exemples de composition de paragraphes présentés ci-dessous sont majoritairement issus du <a href="https://explorationsintypography.com/diy/">compagnon numérique</a> du livre <i>Explorations
+                    in Typography</i> de Carolina de Bartolo, Stephen Coles et Erik Spiekermann, développé par <a href="http://gregorycadars.com/">Gregory Cadars</a>, ainsi que d’un vieil article de Jon Tangerine, <a href="http://web.archive.org/web/20160806212129/http://v1.jontangerine.com/log/2008/06/the-paragraph-in-web-typography-and-design">The Paragraph in Web Typography & Design</a>. Le texte est un extrait de <a href="http://problemata.org/fr/articles/734">« Nouvelle méthode d’approche. Le design pour la vie »</a> de László Moholy-Nagy, paru dans « Peinture Photographie Film », aux Éditions Jacqueline Chambon. Le caractère typographique est <a href="https://commitmono.com/">Commit mono</a>.
+            </header>
+            <article>
+                <blockquote id="default">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Style par défaut des paragraphes. */
+p {
+    margin: 1em 0;
+    line-height: 1.2
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="indent">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Indentation des paragraphes (sauf sur le premier paragraphe) */
+p { 
+    margin: 0;
+    line-height: 1.5; /* Augmentation de l’interligne */
+}
+
+p + p { 
+    text-indent: 1.5em;
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="exdent">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Indentation inversée des paragraphes */
+p { 
+    margin: 0;
+    line-height: 1.5; /* Augmentation de l’interligne */
+    text-indent: -2em;
+    margin-left: 2em;
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="extraleading">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Espace blanc vertical d’une demi ligne */
+p { 
+    margin: 0 0 .75em; /* La marge inférieure est précisément égale à la moitié de la hauteur de ligne */
+    line-height: 1.5; /* Augmentation de l’interligne */
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="graphicelement">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Ajout d’un élément graphique (un “pied de mouche”, pilcrow) 
+entre deux paragraphes successifs */
+p { 
+    margin: 0;
+    line-height: 1.5; 
+    display: inline; /* changement du mode d’affichage des paragraphes */
+}
+/* ::before insère un “pseudo-élément” avant le début de l’élément */
+p + p::before { 
+    font-weight: 700;
+    content: ' ¶ ';
+    margin-left: -.1em;
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="rule">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Ajout d’un élément graphique (un filet) entre deux paragraphes successifs */
+p {
+    margin: 0 0 1em; /* la marge inférieure sera occupée par le filet */
+} 
+p + p::before {
+    content: '';
+    display: block;
+    position: relative; /* la position relative permet de décaler l’élément vers le haut */
+    top: -.55em;
+    height: .25em;
+    width: 4em;
+    background: #1a1a11;
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="drop">
+                    <p><span class="firstletter">L</span>e design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>&lt;!-- La première lettre est insérée dans un élément span --&gt;
+&lt;p&gt;&lt;span class="firstletter"&gt;L&lt;/span&gt;e design a de (…)&lt;/p&gt;
+</code>
+<code>/* Lettrine, dimensionnée optiquement en fonction du corps de texte des paragraphes */
+p { 
+    margin: 0;
+    line-height: 1.5; /* Augmentation de l’interligne */
+}
+p + p { 
+    text-indent: 1.5em;
+}
+.firstletter {
+    font-weight: bold;
+    float: left;
+    font-size: 7.25em;
+    line-height: .92;
+    margin: 0 .04em -.2em -.07em;
+}
+p:first-child::first-line { /* la première ligne du premier paragraphe */
+    font-weight: bold;
+    font-variant: small-caps;
+}</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="margin">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Alternance de marges  */
+p {
+    margin: 0 0 0 4em;
+    text-align: justify;
+    line-height: 1.5;
+}
+p:nth-child(odd) {
+    margin: 0 4em 0 0;
+}
+</code>
+</pre>
+                </aside>
+            </article>
+            <article>
+                <blockquote id="initial">
+                    <p>Le design a de nombreuses connotations. Faire du design c’est utiliser des matériaux et des processus de telle manière que leur organisation soit la plus productive et la plus économique possible et que tous les éléments nécessaires à une fonction donnée y soient intégrés de façon harmonieuse et équilibrée.</p>    
+                    <p>Le design n’est donc pas une simple question d’apparence. Il renvoie en réalité à l’essence des produits et des institutions&nbsp;; il exige une démarche à la fois pénétrante et globalisante. Il représente une tâche complexe qui nécessite d’intégrer aussi bien des critères technologiques, sociaux et économiques que des données biologiques et les effets psycho&shy;physiques produits par les matériaux, les formes, les couleurs, les volumes et les relations spatiales.</p>
+                    <p>Faire du design, c’est penser en termes de relations. C’est appréhender le cadre et le coeur des choses, les buts immédiats aussi bien que les buts ultimes, dans le sens biologique du terme en tout cas. C’est ancrer la spécificité d’une tâche dans une globalité complexe.</p>
+                    <p>Le designer doit être formé non seulement à l’utilisation de divers techniques et matériaux mais aussi à une réflexion concernant leurs fonctions organiques. Il doit savoir que le design est indivisible, que les caractéristiques internes et externes d’un plat, d’une chaise, d’une table, d’une machine, d’un tableau, d’une sculpture ne peuvent être disjointes. Il faut faire en sorte désormais que la notion de design et la profession de designer ne soient plus associées à une spécialité, mais à <em>un certain esprit d’ingéniosité et d’inventivité</em>, globalement valable, permettant de considérer des projets non plus isolément mais <span class="surrounded">en relation avec les besoins de l’individu et de la communauté. Aucun sujet, quel qu’il soit, ne saurait être soustrait à la complexité de la vie et traité de manière autonome.</p>
+                    <p>Le design est présent dans l’économie de la vie affective, dans la vie de famille, dans les rapports sociaux, dans l’urbanisme, dans le travail que nous faisons ensemble en tant qu’êtres civilisés. Finalement le grand problème qui se pose au design est qu’il doit servir la vie. Dans une société saine, cette exigence devrait avoir pour effet d’encourager toutes les professions à jouer pleinement leur rôle puisque ce sont les rapports qu’elles entretiennent entre elles qui donnent à une civilisation ses qualités particulières.</p>
+                    <p>Cela implique donc que chacun s’acquitte de sa tâche avec la largeur de vue d’un vrai designer, c’est-à-dire en essayant toujours de l’intégrer dans un cadre plus vaste. Cela implique par ailleurs la disparition de toute hiérarchie entre les arts (peinture, photographie, musique, poésie, sculpture, architecture). Aucun domaine ne doit plus être privilégié, pas plus celui de l’esthétique industrielle qu’un autre. Chacun d’eux vaut par lui-même en ce que le design peut y accomplir la fusion de la fonction et du contenu.</p>
+                </blockquote>
+                <aside>                    
+<pre>
+<code>/* Premier bloc singularisé, blocs suivants indentés  */
+p {
+    margin: 0 0 1em;
+    line-height: 1.5;
+}
+p:before {
+    content: "§ ";
+}
+p + p {
+    padding: 0 0 0 8em;
+}
+p + p:before {
+    content: "• ";
+}</code>
+</pre>
+                </aside>
+            </article>
+        </main>
+
+        <script>
+
+            // simple function to use for callback in the intersection observer
+            const highlightNav = (entries, observer) => {
+                entries.forEach((entry) => {
+                    // verify the element is intersecting
+                    if(entry.isIntersecting && entry.intersectionRatio >= 0.55) {
+                        // remove old active class
+                        var active = document.querySelector('.active');
+                        if(active) active.classList.remove('active');
+                        // get id of the intersecting section
+                        var id = entry.target.getAttribute('id');
+                        // find matching link & add appropriate class
+                        var newLink = document.querySelector(`[href="#${id}"]`).classList.add('active');
+                    }
+                });
+            }
+
+            // Intersection observer
+            const observer = new IntersectionObserver(highlightNav, {
+                threshold: 1
+            });
+
+            // Elements to be observed
+            const blockquotes = document.querySelectorAll('blockquote');
+            
+            // init on first scroll
+            let scrolled = false;
+            function handleScroll(event) {
+                if(!scrolled) {
+                    blockquotes.forEach((blockquote) => {
+                        observer.observe(blockquote);
+                    });
+                    document.removeEventListener("scroll", handleScroll, true);
+                } else {
+                    scrolled= true;
+                }
+            }
+            document.addEventListener("scroll", handleScroll, true);
+
+        </script>
+    </body>
+</html>
