@@ -42,6 +42,7 @@ RewriteRule pages/references/ecrituresnumeriques(.*) pages/culturenum/ecrituresn
 RewriteRule pages/references/webdocumentaire(.*) pages/culturenum/ecrituresnumeriques$1 [R,L]
 RewriteRule pages/references/visite(.*) pages/culturenum/visite$1 [R,L]
 RewriteRule pages/references/histoire(.*) pages/culturenum/histoires$1 [R,L]
+RewriteRule pages/ressources/rwd(.*) pages/ressources/css/rwd$1 [R,L]
 
 # Iframes
 # Header set Content-Security-Policy "frame-ancestors 'self' https://slides.accentgrave.net"

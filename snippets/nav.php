@@ -24,7 +24,6 @@
         <li class="<?php echo $subsection == 'python' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/">Python</a></li>
         <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/">Typographie</a></li>
         <li class="<?php echo $subsection == 'audiovideo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/audiovideo/">Audio &amp; vidéo</a></li>
-        <li class="<?php echo $subsection == 'rwd' ? 'opened' : '' ?>"><a href="/web/pages/ressources/rwd/">Responsive</a></li>
         <li class="<?php echo $subsection == 'canvas' ? 'opened' : '' ?>"><a href="/web/pages/ressources/canvas/">Canvas</a></li>
         <li class="<?php echo $subsection == 'ctrlaltprint' ? 'opened' : '' ?>"><a href="/web/pages/ressources/ctrl-alt-print/">CTRL Alt print</a></li>
         <li class="<?php echo $subsection == 'kirby' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Kirby</a></li>
