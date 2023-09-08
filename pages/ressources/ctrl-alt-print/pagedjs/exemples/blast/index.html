@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="vanilla-lettering.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 
-
     <main>
         <h1>Troubada</h1>
         <p>Blah blah</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Sapiente numquam</strong>, <em>nob<i>nobis</i>s</em> modi dolores illo dolor facilis porro, odit quidem animi vero cumque asperiores ducimus nemo maxime ipsum magni commodi totam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Sapiente numquam</strong>, <em>nobis</em> modi dolores illo dolor <a href="#">facilis</a> porro, odit quidem animi vero cumque asperiores ducimus nemo maxime ipsum magni commodi totam!</p>
         Blah blah
     </main>
-
-    <script src="blast.js"></script>
+    
     <script>
-        let main = document.querySelector('main')
-		// new Lettering('main').words();
-        new Lettering('main *').letters();
+
+        // Wrap each character in a span, respecting given dom elements
+
+        // utility :
+        // https://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page
+        function textNodesUnder(el){
+            var n, a=[], walk=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null,false);
+            while(n=walk.nextNode()) a.push(n);
+            return a;
+        }
+        
+        // main element
+        let main = document.querySelector("main");
+        // grab each text node and wrap it in a span
+        let nodes = textNodesUnder(main);
+        // console.log(nodes);
+        nodes.forEach(node => {
+            const text = node.textContent;
+            const span = document.createElement('span');
+            // typecast to number to check if whitespace…
+            const cls = (+text === 0) ? "space" : "dolettering";
+            span.className = cls;
+            node.after(span);
+            span.appendChild(node);
+        });
+        // call lettering
+        document.Tools.lettering(".dolettering", 'wordchars');
+        
     </script>
 </body>
 </html>

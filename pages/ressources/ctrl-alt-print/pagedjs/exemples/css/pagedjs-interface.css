@@ -1,4 +1,4 @@
-/* CSS for Paged.js interface – v0.2 */
+/* CSS for Paged.js interface – v0.4 */
 
 /* Change the look */
 :root {
@@ -13,7 +13,7 @@
 }
 
 /* To define how the book look on the screen: */
-@media screen {
+@media screen, pagedjs-ignore {
     body {
         background-color: var(--color-background);
     }

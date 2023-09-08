@@ -3,12 +3,13 @@ function wrapChars(str) {
     
     let wght = scale(offset, 0, string.length, 100, 900);
     let style = `style="font-variation-settings: 'wght' ${wght}"`;
+    // uncomment next lines and try different “effects”
     // let wspacing = scale(offset, 0, string.length, 0, -.15);
     // style = `style="font-variation-settings: 'wght' ${wght}; word-spacing: ${wspacing}em"`;
     // let lspacing = scale(offset, 0, string.length, 0, .25);
     // style = `style="font-variation-settings: 'wght' ${wght}; letter-spacing: ${lspacing}em"`;
     // let rot = scale(offset, 0, string.length, 0, 5);
-    // style = `style="font-variation-settings: 'wght' ${wght}; transform:rotate(${rot}deg)"`;
+    // style = `style="font-variation-settings: 'wght' ${wght}; transform:rotate(${rot}deg); display:inline-block"`;
     
     return tag || (`<span ${style}>${ch}</span>`);
  });
