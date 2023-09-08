@@ -68,9 +68,9 @@
 #drop .firstletter {
     font-weight: bold;
     float: left;
-    font-size: 7.5em;
-    line-height: .92;
-    margin: -.05em .04em -.2em -.07em;
+    font-size: 7.25em;
+    line-height: .9;
+    margin: -.02em .04em -.2em -.07em;
 }
 #drop p:first-child::first-line { 
     font-weight: bold;
