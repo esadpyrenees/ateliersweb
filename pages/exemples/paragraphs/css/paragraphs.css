@@ -102,6 +102,20 @@
     content: "• ";
 }
 
+
+/* Alternance de marges “chaotique”  */
+#chaos p {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+/* tous les éléments pairs */
+#chaos p:nth-child(even) { margin-left: 4em; }
+/* tous les éléments impairs */
+#chaos p:nth-child(2n+1) { margin-right: 4em; }
+/* tous les trois éléments à partir du 2e (y compris un élément pair sur 3 :) */
+#chaos p:nth-child(3n+2) { margin-left: 8em; }
+
 /* styles pour la démo */
 
 * { box-sizing: border-box; }
