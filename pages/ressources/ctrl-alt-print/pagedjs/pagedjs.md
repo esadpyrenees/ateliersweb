@@ -22,7 +22,7 @@ python3 -m http.server 8888
 
 
 
-3 — Un code source de base grâce au [Minute Hack](https://lab.raphaelbastide.com/minutehack/) de Raphaël Bastide ou en **[téléchargeant ce fichier zip](ctrl-alt-print.zip)**.
+3 — Un code source de base grâce au [Minute Hack](https://ateliers.esad-pyrenees.fr/web/minute-hack/?is_paged) de Raphaël Bastide ou en **[téléchargeant ce fichier zip](ctrl-alt-print.zip)**.
 
 4 — Une bonne documentation ! RTFM sur [pagedjs.org/documentation](https://www.pagedjs.org/documentation/).
 *[RTFM]: Read the fucking manual
