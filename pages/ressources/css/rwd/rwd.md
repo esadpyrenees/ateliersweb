@@ -16,7 +16,7 @@ Découvrir [quelques exemples d’utilisation du Responsive Web Design et des Me
 
 
 <div style="padding:42.5% 0 0 0;position:relative;border-right:1px solid;border-bottom:1px solid;"><iframe src="https://whatyouseeiswhatyouget.net/" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-<small>What You See Is What You Get, Jonas Lund, 2012, <a href="http://whatyouseeiswhatyouget.net">http://whatyouseeiswhatyouget.net</a>. La taille de chaque navigateur qui s’est connecté au site depuis 2012 est enregistrée, puis affichée séquentiellement – jusqu’à celle de votre propre visite.</small>
+<small>What You See Is What You Get, Jonas Lund, 2012, <a href="http://whatyouseeiswhatyouget.net">http://whatyouseeiswhatyouget.net</a>. La taille de chaque navigateur qui s’est connecté au site depuis 2012 est enregistrée, puis affichée séquentiellement – jusqu’à celle de votre propre visite. Voir aussi <a href="https://viewports.fyi/all/">viewports.fyi</a></small>
 
 <div id="media-queries"></div>
 
@@ -32,56 +32,55 @@ Ci-dessous, un attribut `media` est associé au lien d’importation des feuille
 
 Cette approche est autorisée depuis la version 2 de la spécification CSS. Elle est aujourd’hui moins utile, remplacée et augmentée par la version 3 du langage CSS.
 
-    <!doctype html>
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <title>Media Queries !</title>
-            <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
-            <link rel="stylesheet" media="print" href="print.css" type="text/css" />
-        </head>
-        <body>
-        ...
-        </body>
-    </html>
-
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Media Queries !</title>
+        <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
+        <link rel="stylesheet" media="print" href="print.css" type="text/css" />
+    </head>
+    <body>
+    ...
+    </body>
+</html>
+```
 ### CSS3
 
 En CSS3, plusieurs critères peuvent être combinés pour déterminer la cible des règles. Ainsi, dans l’exemple ci-dessous, seuls les navigateurs écran dont la taille est au minimum de `200px` et au maximum de `640px` verront leur arrière-plan coloré en rouge.
-
-    @media screen and (min-width: 200px) and (max-width: 640px) {
-        body {
-            background:red;
-        }
+```css
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    body {
+        background:red;
     }
-
+}
+```
 ### Orientation et résolution
 
 Les _media queries_ peuvent également déterminer des règles en fonction de l’orientation du périphérique – en mode portrait ou paysage :
-
-    @media screen and (orientation:portrait) {
-        body {
-            background:red;
-        }
+```css
+@media screen and (orientation:portrait) {
+    body {
+        background:red;
     }
-    @media screen and (orientation:landscape) {
-        body {
-            background:blue;
-        }
+}
+@media screen and (orientation:landscape) {
+    body {
+        background:blue;
     }
-
+}
+```
 Les _media queries_ permettent de réserver des règles aux périphériques en fonction de leur résolution / densité de pixels :
-```
-    @media
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
-        /* Retina-specific stuff here */
-    }
+```css
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    /* Retina-specific stuff here */
+}
 ```
 
-<div id="usages"></div>
-
-## Usages
+## Usages {#usages}
 
 Les _media queries_ permettent d’adapter les règles d’affichage en fonction du périphérique.
 
@@ -99,13 +98,13 @@ Avant que le *Responsive Design* ne devienne la norme, les sites web ne disposai
 
 Ce comportement par défaut empêchera les appareils mobiles d’utiliser nos Media Queries. Pour le désactiver, il faut ajouter une balise `<meta>`au `<head>` du document. Tout comme `<meta charset='utf-8' >`, c’est un élément dont il faut généraliser l’usage à toutes les pages:
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 ```
 
 Pour donner à l’utilisateur plus de souplesse, on peut s’abstenir de saisir le `maximum-scale`, ce qui lui permettra par exemple de zoomer sur le détail d’une image.
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
@@ -117,30 +116,30 @@ Plusieurs stratégies peuvent être employées dans les logiques de mise en œuv
 Il est possible de concevoir en priorité son interface pour le support disposant de la moindre taille d’écran (_mobile first_). Dans ce cas, les premières règles seront dédiées aux affichages restreints, et augmentées progressivement en utilisant les attributs `min-width` des media queries :
 
 Ci-dessous, la taille par défaut est de 18px – pour les mobiles, donc. Elle ne deviendra de 21px que pour des écrans plus larges que 640px.
+```css
+body{
+    font-size: 18px;
+}
 
-    body{
-        font-size: 18px;
+@media (min-width:640px) {
+    body {
+        font-size: 21px;
     }
-
-    @media (min-width:640px) {
-        body {
-             font-size: 21px;
-        }
-    }
-
+}
+```
 ### Desktop first
 
 À l’inverse, on peut spécifier un ensemble de règles standards pour les interfaces de type “ordinateur de bureau”, et ajuster ces règles au fur et à mesure de la diminution de la taille d’écran.
 
 Ci-dessous, un élément servant d’ornement pourra être affiché sur les grands écrans, et disparaitre sur les interfaces mobiles.
+```css
+.ornement{
+    height:600px;
+}
 
-    .ornement{
-        height:600px;
+@media (max-width:640px) {
+    .ornement {
+        display: none;
     }
-
-    @media (max-width:640px) {
-        .ornement {
-             display:none
-        }
-    }
-
+}
+```
