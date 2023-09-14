@@ -50,6 +50,12 @@ Eric Schrijver a produit un guide précis et complet des relations entre artiste
 ### Entreprecariat
 Un [ouvrage fondamental](https://www.onomatopee.net/exhibition/do-or-delegate/#publication_9408) de Silvio Lorusso qui ouvre le débat sur l’entrepreneuriat précaire qui semble gouverner les logiques et structures économiques des artistes et designers. 
 
+### Revenu des artistes auteur⋅ices
+[Pour en finir avec la logique de l’aide et garantir un droit à la continuité du revenu aux travailleur·euses de l’art](https://la-buse.org/ressources/Petition-Buse-2-Pour-en-finir-avec-la-logique-de-laide-et-garantir-un-droit-a-la-continuite-du-revenu-aux-travailleureuses-de-lart), une tribune portée par La Buse.
+
+### Au travail ?
+[Aujourd’hui, on dit travailleur·ses de l’art](https://www.369editions.com/aujourdhui-on-dit-travailleurses-de-lart/), un texte de Julia Burtin Zortea (et des dessins de Louise Drul) qui invite à repenser l’activité des artistes et des designers sous l’angle du travail, invite à s’organiser de manière collective et à repenser la notion même de travail.  
+
 ## Questions d’argent
 
 ### Les tarifs 
