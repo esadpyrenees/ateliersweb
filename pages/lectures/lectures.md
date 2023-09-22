@@ -187,7 +187,9 @@ Approche propose une série de rencontres radiophoniques avec des graphistes  [�
 * #### *Duuu 
 \*Duuu est une webradio dédiée à la création contemporain (notamment en design graphique) [↗](https://duuuradio.fr/recherche?categories=graphisme)
 
-https://duuuradio.fr/
+* #### Le meilleur des mondes
+Sur France Culture, l’émission de François Saltiel, propose de « mettre le futur en débat et de questionner les nouvelles technologies qui reconfigurent notre société » [↗](https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes)
+
 </div>
 
 
