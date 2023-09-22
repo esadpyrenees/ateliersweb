@@ -12,7 +12,7 @@ Il produit un contenu lisible en ligne sous la forme d’une page web et permet 
 
 ## Démo
 
-Une démo est accessible en ligne sur [ateliers.esad-pyrenees.fr/pagetypetoprint](https://ateliers.esad-pyrenees.fr/pagetypetoprint/) avec sa version [_print_](https://ateliers.esad-pyrenees.fr/pagetypetoprint/?print) et le [document pdf](https://ateliers.esad-pyrenees.fr/pagetypetoprint/document.pdf) généré. 
+Une démo est accessible en ligne sur [ateliers.esad-pyrenees.fr/pagetypetoprint](https://ateliers.esad-pyrenees.fr/pagetypetoprint/esadpyrenees/) avec sa version [_print_](https://ateliers.esad-pyrenees.fr/pagetypetoprint/esadpyrenees/?print) et le [document pdf](https://ateliers.esad-pyrenees.fr/pagetypetoprint/esadpyrenees/document.pdf) généré. 
 
 ## Code source
 
