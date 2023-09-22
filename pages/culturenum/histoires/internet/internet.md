@@ -1,6 +1,6 @@
 # Histoire de l’internet
 
-Une série de liens vers des documents, des livres ou des vidéos pour en apprendre plus sur l’histoire de l’internet et du Web.
+Une série de liens vers des documents, des livres ou des vidéos pour en apprendre plus sur l’histoire du Web et des internets.
 
 ## Web Design History 
 [![Space Jam](spacejam.png)](https://www.webdesignmuseum.org/web-design-history)
@@ -16,7 +16,9 @@ Une timeline des étapes clés de l’histoire du web design de 1990 à nos jour
 Le compagnon numérique du livre “_When the World Went Digital – A sweeping reference work of the websites that paved the pixelated way_”, paru  chez Taschen.
 [thehistoryofweb.design](https://thehistoryofweb.design/)
 
+### Aux origines du web
 
+Passionante, précise et didactique émission de Dascritch dans _Carré, Petit, Utile_ sur Radio FMR, qui revient sur les origines du web : l'hypertexte avant les réseaux, un collisionneur à particules, l'ouverture des Jeux Olympiques et le premier navigateur web. [À écouter en ligne](https://cpu.dascritch.net/post/2023/04/27/Ex0203-Aux-origines-du-web).
 
 ## Une contre-histoire de l’Internet
 
