@@ -1,36 +1,34 @@
 
 
 var groups = [
-  "Marjorie", 
-  "Maëva",
-  "Morgane",
-  "Yuyuan",
-  "Mélina",
-  "Izis",
-  "Kassandra",
-  "Sarah", 
-  "Anita",
-  "Morganne",
-  "Alice",
-  "Guilhem",
-  "Aurore",
+  ["Marie A.", "Malea L."],
+  ["Irma B.","Maud E."],
+  ["Wenting Z.", "Jiajing W."],
+  ["Anastasia V.", "Cecile B." ],
+  ["Ophelie S.", "Marion R."],
+  ["Adeline S.", "Paul L."],
+  ["Carla R.", "Ambrosia D."],
+  ["Thibault J.", "Hugo H."],
+  ["Chloé G.","Oceane F."],
+  ["Manon G.","Elisa M.",],
+  ["Salome R.", "Matthew C."],
+  ["Soulyne C.", "Orso D."]
 ]
 
   
   var dates = [
-      "9h15",
-      "9h30",
-      "9h45",
-      "10h00",
-      "10h15",
-      "10h30",
-      "10h45",
-      "11h00",
-      "11h15",
-      "11h30",
-      "11h45",
-      "12h00",
-      "12h15",
+      "15/10",
+      "16/10",
+      "22/10",
+      "5/11",
+      "12/11",
+      "13/11",
+      "19/11",
+      "26/11",
+      "27/11",
+      "3/12",
+      "10/12",
+      "11/12"
   ];
   
   
@@ -57,12 +55,11 @@ var groups = [
     var scale =  Math.random() * 2 + .6;
     // on ajoute une transformation css pour modifier l’échelle horizontale du h2
     h2.style.transform = 'scaleX(' + scale + ')';
-    h2.className = "nohash";
     // on corrige la marge en fonction de l’échelle
     h2.style.marginLeft = scale * scale * -1 + 'px';
     // quelles étudiantes
     var p = document.createElement('p');
-    p.textContent += "→ " + groups.shift();
+    p.textContent += groups.shift();
     section.appendChild(p);
   
     document.querySelector('#pk').appendChild(section);
