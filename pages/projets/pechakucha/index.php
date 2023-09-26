@@ -10,14 +10,13 @@
 ?>
     <style type="text/css">
 
-    #pk {
+        #pk {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-column: span 3;
             gap:1em;
             margin-bottom: 2em;
-
-    }
+        }
         .pechakucha {
             position: relative;
             display: flex;
@@ -25,6 +24,11 @@
             font-size: 1em;
             font-family: "Times New Roman", Times, serif;
             
+            line-height: 1.25;
+        }
+        small {
+            font-size: 16px;
+            display: block;
             line-height: 1.25;
         }
 
@@ -82,30 +86,7 @@
 
         }
 
-        @media (max-width:1000px) {
-            .pechakucha section {
-                width: 50%
-            }
-            .pechakucha article {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (max-width:800px) {
-            .pechakucha h2 {
-                font-size: 8vw;
-            }
-            .pechakucha article {
-                grid-template-columns: 1fr;
-            }
-            .pechakucha body {
-                flex-direction: column
-            }
-
-            .pechakucha section {
-                width: 100%
-            }
-        }
+        
     </style>
 <main class="pane active" id="content">
 <div class="pechakucha">
