@@ -14,4 +14,4 @@ Certains enjeux paradoxaux du design, aporiques, ou même aporéthiques qu’on 
 
 ### Prise de notes collaborative
 
-[→ Accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_web3?lang=fr){.bigbutton}
+[→ Accéder au pad](https://semestriel.framapad.org/p/esad_gopro_expectations?lang=fr){.bigbutton}
