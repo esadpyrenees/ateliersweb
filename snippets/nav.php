@@ -71,6 +71,9 @@
         <li><a href="#questions-dargent">Questions d’argent</a></li>
         <li><a href="#autres">Autres</a></li>
     </ul>
+    <ul>
+        <li><a href="/web/pages/gopro/2324/">2023–2024</a></li>
+    </ul>
 </nav> 
 
 <nav class="pane subnav <?php echo $section == 'projets' ? 'active' : '' ?>"  id="projets">
