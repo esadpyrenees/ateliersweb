@@ -4,6 +4,7 @@
     $section="culturenum";
     $subsection="libre";
     $mdfile = "./libre.md";
+    $date = "10/02/2021";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
