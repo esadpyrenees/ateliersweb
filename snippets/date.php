@@ -15,7 +15,14 @@
 
             echo date("d/m/Y", filemtime($file));
         ?>
+        <?php 
+        $editurl = "/web/pages/about/?contact";
+        if(isset($mdfile)){
+            $ghf = str_replace("/web/", "", $_SERVER['REQUEST_URI']) . str_replace("./", "", $mdfile);     
+            $editurl = "https://github.com/esadpyrenees/ateliersweb/edit/master/$ghf";
+        }
+        ?>
         – <a href="/web/pages/about/">CC BY-NC</a>
-        – <a href="/web/pages/about/?contact">Corrections, compléments et commentaires bienvenus !</a>
+        – <a href="<?= $editurl ?>">Corrections, compléments et commentaires bienvenus !</a>
     </small>
 </footer>
