@@ -5,7 +5,8 @@
     $subsection="aiaiaie";
     $mdfile = "./index.md";
     $description = "Intelligence (ou imagination) artificielle et deep learning, ce que l’AI fait à l’art et au design.";
-    // $date = "today";
+    $date = "28/10/2022";
+    $update = "09/05/2023";
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
