@@ -1,18 +1,7 @@
 var galleries = document.querySelectorAll('.figure');
 
 galleries.forEach( g => {
-  g.addEventListener('click', (e) => {
-    if(g.classList.contains("visible-figure")){
-      return false;
-    }
-    const opend = document.querySelector('.visible-figure');
-    if(opend) opend.classList.remove('visible-figure');
-    const close = document.querySelector('.close-figure');
-    if(close) close.parentElement.removeChild(close);
-    g.classList.add('visible-figure');
-    g.scrollIntoView({behavior: "smooth"})
-    createClose(g);
-  })
+  g.addEventListener('click', (e) => openGallery(g))
   
   var children = g.querySelectorAll('figure');
   g.addEventListener('mousemove', function(e){
@@ -35,5 +24,27 @@ function createClose(g){
     e.stopPropagation()
     g.classList.remove('visible-figure');
     close.parentElement.removeChild(close);
+  }
+}
+
+function openGallery(g){
+  
+    if(g.classList.contains("visible-figure")){
+      return false;
+    }
+    const opend = document.querySelector('.visible-figure');
+    if(opend) opend.classList.remove('visible-figure');
+    const close = document.querySelector('.close-figure');
+    if(close) close.parentElement.removeChild(close);
+    g.classList.add('visible-figure');
+    g.scrollIntoView({behavior: "smooth"})
+    createClose(g);
+    window.location.hash = "#" + g.id;
+}
+
+if(window.location.hash){
+  var g = document.querySelector(window.location.hash);
+  if(g){
+    openGallery(g)
   }
 }
