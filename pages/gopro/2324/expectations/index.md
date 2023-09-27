@@ -4,7 +4,7 @@ Première proposition : un texte complexe à parcourir ensemble sous le mode de
 
 On s’y réfère à Pierre Bourdieu, bell hooks, Tomás Maldonado, même à Mike Monteiro, au design spéculatif et à des “étant-donnés” du design contemporain qui ne sont ~~sans doute~~ peut-être pas les vôtres.
 
-Certains enjeux paradoxaux du design, aporiques, ou même aporéthiques qu’on va parcourir ensemble étaient déjà présents dans un cours de Cultures numériques auquel certaines d’entre-vous se rappellent peut-être avoir assisté : [design éthique, éco-design, low-techs](../../../culturenum/ethique/).
+Certains enjeux paradoxaux du design, aporiques, ou même _aporéthiques_ qu’on va parcourir ensemble étaient déjà présents dans un cours de Cultures numériques auquel certaines d’entre-vous se rappellent peut-être avoir assisté : [design éthique, éco-design, low-techs](../../../culturenum/ethique/).
 
 [Silvio Lorusso](https://silviolorusso.com/) est un auteur, artiste et designer basé à Rotterdam, aux Pays-Bas. En 2018, il a publié son premier livre intitulé *[Entreprecariat](https://www.onomatopee.net/product/entreprecariat/)*. Il est professeur assistant et vice-directeur du *Centre for Other Worlds* à l’université de Lusófona à Lisbonne. Lorusso est titulaire d’un doctorat en sciences du design de l’université Iuav de Venise.
 
