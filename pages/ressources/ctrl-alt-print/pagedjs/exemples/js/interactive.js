@@ -23,10 +23,10 @@ function doP5(pages){
         sketch.fill(r, g, b)
         sketch.noStroke();
         if (sketch.mouseIsPressed === true) {
-          size += 0.5;
+          size += 1;
           sketch.ellipse(sketch.mouseX, sketch.mouseY, size, size);
         } else {
-          size = 20;
+          size = 40;
           r = sketch.random(255);
           g = sketch.random(255);
           b = sketch.random(255);
