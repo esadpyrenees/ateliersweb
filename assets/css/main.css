@@ -607,8 +607,9 @@ ul.list{
     border: none;
     border-radius: .25em;
     text-transform: uppercase;
-    margin-top: 2em;
+    margin-top: 1em;
     font-family: inherit;
+    font-weight: normal;
 }
 .bigbutton:hover{
     background: tomato;

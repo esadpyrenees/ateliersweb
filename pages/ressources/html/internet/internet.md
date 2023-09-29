@@ -4,7 +4,7 @@
 
 Internet et le Web sont deux choses différentes. Internet est plus ancien, plus vaste et plus varié que le web. Le Web n’est qu’une partie d’Internet, celle à laquelle on accède via le protocole http (ou https).
 
-> Internet est le réseau informatique mondial accessible au public. C'est un réseau de réseaux, \[…\] sans centre névralgique, composé de millions de réseaux aussi bien publics que privés, universitaires, commerciaux et gouvernementaux \[…\]. L'information est transmise via Internet grâce à un ensemble standardisé de protocoles de transfert de données, qui permet des applications variées comme le courrier électronique, la messagerie instantanée, le pair-à-pair et le World Wide Web. C'est l'apparition de ce dernier qui a popularisé Internet.
+> Internet est le réseau informatique mondial accessible au public. C’est un réseau de réseaux, \[…\] sans centre névralgique, composé de millions de réseaux aussi bien publics que privés, universitaires, commerciaux et gouvernementaux \[…\]. L’information est transmise via Internet grâce à un ensemble standardisé de protocoles de transfert de données, qui permet des applications variées comme le courrier électronique, la messagerie instantanée, le pair-à-pair et le World Wide Web. C’est l’apparition de ce dernier qui a popularisé Internet.
 
 > — [fr.wikipedia.org/wiki/Internet](https://fr.wikipedia.org/wiki/Internet)
 
@@ -56,7 +56,7 @@ On n’achète pas de domaine, mais on le loue à celui qui gère le TLD qu’on
 
 L’interconnexion de tous ces ordinateurs a pour but de leur permettre d’interagir les uns avec les autres. Tout comme les humains parlent dans différentes langues, les ordinateurs connectés à Internet utilisent différents protocoles.
 
-Chacun d'eux a un but différent:
+Chacun d’eux a un but différent:
 
 | Protocole | Usage |
 | --- | --- |
@@ -79,9 +79,11 @@ Par exemple, l’URL de la page en cours est https://ateliers.esad-pyrenees.fr/w
 Cette URL est unique et définit
 
 * *où* trouver quelque chose sur le web (ateliers.esad-pyrenees.fr/web/…)
-* *comment* l'ordinateur est censé le lire (https://)
+* *comment* l’ordinateur est censé le lire (https://)
 
-Les URL peuvent être plus complexes. Vous pouvez lire sur l'anatomie d'une URL.
+Les URL peuvent être plus complexes. Vous pouvez poursuivre et mieux découvrir l’anatomie d’une URL ici :
+
+[→ Le Web](../web/) {.bigbutton}
 
 —
 
