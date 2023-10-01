@@ -4,6 +4,7 @@
     $description = "Ressources d’auto-défense économique pour graphistes en temps de crise.";
     $section="gopro";
     $subsection="2324";
+    $date = "28/09/2023";
     $mdfile = "./index.md";
 
     // includes
@@ -26,9 +27,9 @@
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <div class="pad">
         <?php
-            $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_gopro_expectations/export/markdown" );
-            $parsed_pad = $Parsedown->text( $pad );
-            echo $parsed_pad;
+            // $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_gopro_expectations/export/markdown" );
+            // $parsed_pad = $Parsedown->text( $pad );
+            // echo $parsed_pad;
         ?>
         </div>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>

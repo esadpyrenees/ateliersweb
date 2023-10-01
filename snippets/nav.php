@@ -72,7 +72,7 @@
         <li><a href="#autres">Autres</a></li>
     </ul>
     <ul>
-        <li><a href="/web/pages/gopro/2324/">2023–2024</a></li>
+        <li><a href="/web/pages/gopro/2324/">23 – 24</a></li>
     </ul>
 </nav> 
 

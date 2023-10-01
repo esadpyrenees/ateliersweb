@@ -5,6 +5,7 @@
     $section="gopro";
     $subsection="2324";
     $mdfile = "./expectations.md";
+    $date = "28/09/2023";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
