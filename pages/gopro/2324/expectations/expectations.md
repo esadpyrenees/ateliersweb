@@ -352,13 +352,14 @@ Merci à Caterina Di Paolo, Michele Galluzzo, Gui Machiavelli et Cade Diehm pour
 Silvio Lorusso est un auteur, artiste et designer basé à Rotterdam, aux Pays-Bas. En 2018, il a publié son premier livre intitulé *Entreprecariat*. Il est professeur assistant et vice-directeur du *Centre for Other Worlds* à l’université de Lusófona à Lisbonne. Lorusso est titulaire d’un doctorat en sciences du design de l’université Iuav de Venise.
 
 ----
+
 ### Notes éparses
 
-Gary Becker, [Théorie du capital humain](Gary%20Becker) 
+Gary Becker développa la théorie du capital humain : [Théorie du capital humain](https://fr.wikipedia.org/wiki/Capital_humain).
 
-Ivan Illich ([Une société sans école](https://1000idcg.com/societe-sans-ecole-ivan-illich/)) 
+D’Ivan Illich, voir [Une société sans école](https://1000idcg.com/societe-sans-ecole-ivan-illich/).
 
-bell hooks : [La pédagogie engagée](https://journals.openedition.org/traces/5852) + Apprendre à transgresser, L’éducation comme pratique de la liberté (Zlib) : «Apprendre aux élèves à « transgresser » les frontières raciales, sexuelles et de classe afin d’atteindre le don de la liberté est, pour hooks, l’objectif le plus important de l’enseignant.» 
+Sur bell hooks, lire [La pédagogie engagée](https://journals.openedition.org/traces/5852) + Apprendre à transgresser, L’éducation comme pratique de la liberté (Zlib) : «Apprendre aux élèves à « transgresser » les frontières raciales, sexuelles et de classe afin d’atteindre le don de la liberté est, pour hooks, l’objectif le plus important de l’enseignant.» Et acheter (à prix libre) [Comprendre le patriarcat](https://atelier-temeraire.tumblr.com/post/680971191792615424/comprendre-le-patriarcat-cinqui%C3%A8me-impression) chez l’Atelier Téméraire.
 
 [Pierre Bourdieu](https://journals.openedition.org/edso/1191) dénonce l’_idéologie du don_ de la tradition pédagogique, « qui ne s’adresse en fait, sous les dehors irréprochables de l’égalité et de l’universalité, qu’à des élèves ou des étudiants qui sont dans le cas particulier de détenir un héritage culturel conforme aux exigences culturelles de l’école ». La Distinction (sous-titré Critique sociale du jugement) est un ouvrage publié en 1979 par Pierre Bourdieu qui élabore dans une perspective sociologique une théorie des goûts et des styles de vie.
 
