@@ -38,7 +38,7 @@ Essai sur le salaire au travail artistique, par Aurélien Catin, membre du colle
 Un “classique” de Howard S. Becker qui analyse la production de toute œuvre d’art comme une action collective et resitue l’artiste au cœur d’un jeu économique aux ateur⋅ices multiples. [↗](https://www.lespressesdureel.com/ouvrage.php?id=10593&menu=0)
 
 - #### Vikhi Vahavek
-Biographie d’une artiste très professionnelle. Un ouvrage collectif (dir. Mathilde Sauzet) qui raconte dix moments critiques de la vie d’une artiste fictive permettant de disséquer par des expériences concrètes l’injonction à la professionnalisation dans les écoles d’art.
+Biographie d’une artiste très professionnelle. Un ouvrage collectif (dir. Mathilde Sauzet) qui raconte dix moments critiques de la vie d’une artiste fictive permettant de disséquer par des expériences concrètes l’injonction à la professionnalisation dans les écoles d’art. [↗](https://www.lespressesdureel.com/ouvrage.php?id=10593&menu=0)
 
 - #### Fabrique POLA
 L’offre d’accompagnement aux artistes et designers de la fabrique POLA à Bordeaux. Pour tout⋅e adhérent⋅e (20€ / an), voir notramment les offres [Juri'Combi](https://pola.fr/ressources-pro/#conseil) et [Eco presto](https://pola.fr/ressources-pro/#conseil).
