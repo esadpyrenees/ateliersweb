@@ -61,7 +61,7 @@ Un [ouvrage fondamental](https://www.onomatopee.net/exhibition/do-or-delegate/#p
 ### Les tarifs 
 Le [Calkulator](https://www.calkulator.com/fr/accueil/) est un guide (payant) de tarification des services de design édité en partenariat avec [l’Alliance France Design](https://www.alliancefrancedesign.com/).
 
-Calculer un tarif journalier moyen n’est pas chose aisée. Deux articles – écrits pour un public de développeurs web freelance, mais largement adaptables à l’exercice de designer web (ou pas web) freelance ou indépendants – peuvent aider : [Développeurs web indépendants : bien fixer, annoncer et négocier vos tarifs ](https://www.miximum.fr/blog/developpeur-web-freelance-tjm/) et [Parce que vous le valez bien](https://libelilou.github.io/2017/05/29/sudweb.html).
+On trouve en ligne mille manières différentes (et souvent farfelues) d’évaluer le coût (et la valeur) d’une création de design graphique dans le cadre d’une commande. Un [article](https://www.studio-polette.com/tarif-graphiste-freelance/) parmi mille autres pour évaluer l’ensemble des coûts à intégrer dans un tarif journalier moyen. 
 
 Gauthier Rousillhe publie chaque année son “[rapport de modèle économique](http://gauthierroussilhe.com/fr/posts/activite-2019-2020)” dans lequel il propose une approche de planification financière basée sur l’équilibre entre ses rentrées d’argent et ses dépenses.
 
