@@ -3,11 +3,11 @@
 ## Programme du semestre
 
 29/09/2023 — [Des attentes comme réalité](expectations)  
-12/10/2023 — API Conseil ?  
+12/10/2023 —   
 09/11/2023 — Eric Schrijver  
-23/11/2023 — La Buse  
-07/12/2023 — Chevalvert || $$  
-21/12/2023 — $$ || Chevalvert  
+23/11/2023 — Miel Villemot, La Buse  
+07/12/2023 — $$  
+21/12/2023 — 
 24/01/2024 — Fabrique Pola : Ora  
 25/01/2024 — Fabrique Pola : Point de fuite  
 
