@@ -277,6 +277,7 @@ Fondé en 1997, *A list apart* explore (en anglais) les enjeux du design, du dé
 *   [The Everyday Press](http://theeverydaypress.net/)
 *   [Txtbooks](http://www.txtbooks.us/)
 *   [Unit Editions](http://uniteditions.com/shop)
+*   [Valiz](https://valiz.nl/en/publications)
 *   [Visual editions](https://volumes.lu/publishers/visual-editions)
 *   [Yard Press](http://www.yardpress.it/)
 *   [Ypsilon](https://volumes.lu/publishers/ypsilon)
