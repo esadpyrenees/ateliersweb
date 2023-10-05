@@ -39,6 +39,7 @@ hr  {
 
 nav ul { list-style: none; padding: 0; margin: 0 0 1.4em; }
 a { color: inherit; border-bottom: 1px solid #ccc; text-decoration: none; }
+a.imglink { border-bottom: none; cursor: zoom-in;}
 
 a:hover { color: tomato;}
 nav button {
@@ -402,6 +403,7 @@ details summary {
     padding-left: 0;
     max-width: none;
 }
+.gridlist h4 { margin-top: 0;}
 .gridlist li { list-style-type: none; padding: 0; margin: 0;}
 .gridlist p { margin: 0;}
 .gridlist p + p { margin-top: .5em;}
@@ -461,6 +463,24 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
 
 /* examples */
 
+.examples-info {
+    order: -1000000000;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.examples-info p {margin: 0;}
+.examples-info button { background: black;
+    display: inline-block;
+    color: white;
+    border: none;
+    padding: .5em .75em;
+    border-radius: .25em;
+    margin-top: 1em;
+    font-family: inherit;
+    font-weight: normal;
+} 
 .exemples .exemple{
     border: none;
     display: block;

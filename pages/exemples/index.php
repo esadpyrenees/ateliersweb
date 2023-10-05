@@ -12,6 +12,12 @@ include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
 
 <main class="pane active exemples" id="content">
 <div class="grid">
+    <div class="examples-info" id="examples-info">
+        <p>
+        Les exemples ci-dessous peuvent être filtrés par catégorie (menu ci-contre), étudiés (le code est commenté) et téléchargés (lien “zip” ou “télécharger ☻”). <br>
+        Il est souhaitable que leur usage fasse l’objet d’une appropriation personnelle.</p>
+        <button title="En cliquant sur ce bouton, cet avertissement sera masqué.">×</button>
+    </div>
 <?php
 // examples directory
 $directory = './';
@@ -96,52 +102,7 @@ foreach ($exemples_dirs as $exemple){
 </main>
 
 <script type="text/javascript" src="/web/assets/js/mixitup.min.js"></script>
-<script type="text/javascript">
-var targetSelector = '.exemple';
-function getSelectorFromHash() {
-    var hash = window.location.hash.replace(/^#/g, '');
-    var selector = hash ? '.' + hash : targetSelector;
-    return selector;
-}
-
-function setHash(state) {
-    var selector = state.activeFilter.selector;
-    var newHash = '#' + selector.replace(/^\./g, '');
-
-    if (selector === targetSelector && window.location.hash) {
-        console.log('ici');
-        history.pushState(null, document.title, window.location.pathname); // or history.replaceState()
-    } else if (newHash !== window.location.hash && selector !== targetSelector) {
-        console.log('là')
-        history.pushState(null, document.title, window.location.pathname + newHash); // or history.replaceState()
-    }
-}
-
-var mixer = mixitup('.grid', {
-    animation: {
-        enable: false
-    },
-    selectors: {
-        target: targetSelector
-    },
-    load: {
-        filter: getSelectorFromHash() // Ensure that the mixer's initial filter matches the URL on startup
-    },
-    callbacks: {
-        onMixEnd: setHash // Call the setHash() method at the end of each operation
-    }
-});
-
-window.onhashchange = function() {
-    var selector = getSelectorFromHash();
-
-    if (selector === mixer.getState().activeFilter.selector) return; // no change
-
-    mixer.filter(selector);
-};
-
-
-</script>
+<script type="text/javascript" src="/web/assets/js/examples.js"></script>
 <?php
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php");
 ?>
