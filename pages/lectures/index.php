@@ -3,6 +3,7 @@
     $title = "Lectures";
     $section="lectures";
     $mdfile = "./lectures.md";
+    $subsection = "";
 
     $nav = "/web/snippets/lectures/lectures.php";
 
