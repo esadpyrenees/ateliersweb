@@ -3,10 +3,10 @@
 ## Programme du semestre
 
 29/09/2023 — [Des attentes comme réalité](expectations)  
-12/10/2023 —   
+12/10/2023 — [Argent](argent)  
 09/11/2023 — Eric Schrijver  
 23/11/2023 — Miel Villemot, La Buse  
-07/12/2023 — $$  
+07/12/2023 — [Stéphane Buellet, Chevalvert](chevalvert)  
 21/12/2023 —   
 24/01/2024 — Fabrique Pola : Ora  
 25/01/2024 — Fabrique Pola : Point de fuite  
@@ -23,6 +23,9 @@ Comment s’émanciper de la figure conservatrice de l’artiste solitaire. Entr
 
 - #### Entreprecariat  
 Un livre (en anglais) de Silvio Lorusso qui ouvre le débat sur l’entrepreneuriat précaire qui semble gouverner les logiques et structures économiques des artistes et designers. [↗](https://www.onomatopee.net/exhibition/do-or-delegate/#publication_9408)
+
+- #### Fake it till you make it
+Traduction par PNEU, revue de l’ÉSAD Valence, d’un fragment du livre _Entreprecariat, Everyone is an entrepreneur. Nobody is safe_, dans lequel Silvio Lorusso cherche à définir ce qu’est l’entreprécariat, un néologisme issu des mots entrepreneuriat et précariat [↗](http://revue-pneu.fr/fake-it-till-you-make-it/)
 
 - #### Pour en finir avec la logique de l’aide… 
 …et garantir un droit à la continuité du revenu aux travailleur·euses de l’art. 
