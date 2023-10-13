@@ -1,9 +1,9 @@
-# Stéphane Buellet — Chevalvert
+# Eric Schrijver — _Copiez ce livre_
 
-Stéphane Buellet est directeur artistique et cofondateur du studio [Chevalvert](https://chevalvert.fr/fr) au sein duquel il développe depuis 2007 une pratique du design basée sur les pratiques créatives du code. Studio prolixe ayant abordé des champs aussi divers que l’identité visuelle, le dessin de caractère, l’affiche ou l’installation interactive, Chevalvert travaille en permanence à la structuration d’un équilibre interne, entre commandes “corporate” et explorations libres, design appliqué et recherche fondamentale. 
+Eric Schrijver est designer d'interaction, artiste et auteur. Né à Amsterdam en 1984, il vit et travaille à Bruxelles, où il anime un blog collectif intitulé _I like tight pants and mathematics_. Ancien membre du collectif Open Source Publishing, il a enseigné le design d'interaction et la programmation informatique au sein du département Graphisme de la KABK, à La Haye, et a également animé des workshops dans de nombreuses écoles.
 
-Stéphane évoquera le parcours du studio depuis sa création, son modèle économique et son fonctionnement collaboratif. Il éclairera les enjeux des contextes d’apparition du design, dans ses dimensions les plus globales, n’hésitant pas à aborder des questions de stratégie d’entreprise ou de marketing !
+Il est l’auteur de _Copiez ce livre_ – _Un manuel sur le droit d'auteur et les communs culturels, par et pour les artistes_, récemment traduit et édité par Les commissaires anonymes. Il présentera l’ouvrage d’où il extraira quelques point saillants, à même de permettre aux étudiant⋅es de saisir les enjeux des questions de droits d’auteur depuis une perspective de militant du libre et des communs. 
 
 ### Questions à lui poser
 
-[→ Accéder au pad](https://semestriel.framapad.org/p/esad_gopro_chevalvert?lang=fr)
+[→ Accéder au pad](https://semestriel.framapad.org/p/esad_gopro_ericschrijver?lang=fr)
