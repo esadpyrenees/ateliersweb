@@ -3,12 +3,12 @@
 ## Programme du semestre
 
 29/09/2023 — [Des attentes comme réalité](expectations)  
-12/10/2023 — [Argent](argent)  
-09/11/2023 — Eric Schrijver  
-23/11/2023 — Miel Villemot, La Buse  
-07/12/2023 — [Stéphane Buellet, Chevalvert](chevalvert)  
-21/12/2023 —   
-24/01/2024 — Fabrique Pola : Ora  
+12/10/2023 — Perspectives  
+09/11/2023 — [Eric Schrijver, _Copiez ce livre_](copiezcelivre)  
+23/11/2023 — [Miel Villemot, La Buse](labuse)  
+07/12/2023 — [Stéphane Buellet, Chevalvert](chevalvert)    
+21/12/2023 — [Argent et devis](argent)   
+24/01/2024 — Fabrique Pola : Ora   
 25/01/2024 — Fabrique Pola : Point de fuite  
 
 ## Ressources
