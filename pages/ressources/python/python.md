@@ -1,19 +1,56 @@
 # Python
-    
+
+
+Python est un langage de programmation simple, puissant et élégant qui peut s'utiliser dans de très nombreux contextes et environnements. Il dispose d’un écosystème de modules spécialisés qui permettent d'utiliser le langage pour de nombreux types d'usage : traitement et visualisation de données, utilisation d’API et de ressources en ligne, opérations mathématiques, automatisation de processus, génération de ficiers (svg, pdf, html…), et évidemment… faire des sites web.
+
+Python est un langage « interprété » : des instructions en Python sont lues et interprêtées par le programme Python pour être rendues compréhensibles par la machine, qui exécute les instructions. 
+
+
+
+## Ressources
+
 [Python for Designers](http://pythonfordesigners.com) est une introduction à Python pour les designers, produite par Roberto Arista, qui utilise Drawbot (Mac OS seulement).
 
 [Drawbot](http://www.drawbot.com/) est un outil open source pour MacOS développé par [Just van Rossum](https://twitter.com/justvanrossum), [Erik van Blokland](http://letterror.com/) et [Frederik Berlaen](https://typemytype.com) dédié à l’utilisation de Python dans l’objectif de production de graphiques 2D fixes ou animés. C’est un outil particulièrement adapté à l’expérimentation avec la typographie, et notamment avec les fontes variables. [Drawbot Skia](https://github.com/justvanrossum/drawbot-skia), en cours de développement, est une tentative de porter Drawbot pour Windows et Linux.
 
 [Flat](https://xxyxyz.org/flat/) et [Even](https://xxyxyz.org/even/) sont deux outils open source (et *cross-platform*) permettant de manipuler des formes vectorielles et du texte en Python.
     
-La documentation ci-dessous est une traduction française, progressivement modifiée, de l’[introduction à Python de Drawbot](https://www.drawbot.com/content/courseware.html).
 
-### Snippets
 
-Le code des exemples ci-dessous est exécutable depuis la ligne de commande (ou dans Drawbot).
-Il est également possible (souhaitable) de copier/coller le contenu des snippets dans un fichier `test.py` et de demander à Puython d’exécuter ce fichier en saisissant `python test.py` depuis la ligne de commande.
+## Installation
 
-## Types de données {#types}
+Python est pré-installé sur les systèmes Linux et Mac OS. Pour Windows, il faut télécharger et exécuter un [installeur Python](https://www.python.org/downloads/windows/). Dans un terminal (revoir quelques [commandes utiles](../imagemagick/#cli)), saisir la commande suivante pour vérifier l’installation et la version de Python :
+
+```sh
+python --version
+# On peut aussi tester si la version 3 est disponible :
+python3 --version
+```
+
+Si Python n'est pas installé ou que la version affichée n’est pas > à 3, on peut l’installer avec la commande :
+```sh
+# Linux
+sudo apt-get install python3
+# Mac OS avec Brew (https://brew.sh)
+brew install python
+```
+
+
+## Utilisation
+
+Dans un terminal de commande, lancer la commande `python` démarre un interpréteur python, mais il est souvent préférable d’écrire son code dans un fichier `monscript.py` et de l’exécuter en lançant la commande :
+```sh
+python monscript.py
+```
+On peut également utiliser [Thonny](https://thonny.org/) pour bénéficier d’un outil qui permette d’écrire et d’exécuter le code dans un même environnement, sans passer par le terminal et la ligne de commande.
+
+## Bases
+
+La commande `print()`, largement utilisée dans les lignes ci-dessous permet au programme d’afficher des informations dans la console.
+
+La documentation ci-dessous est basée sur l’[introduction à Python de Drawbot](https://www.drawbot.com/content/courseware.html).
+
+### Types de données {#types}
 
 Python permet de manipuler différents types de données :
 * des nombres : `int`, `float`
@@ -23,7 +60,7 @@ Python permet de manipuler différents types de données :
 * des collections non or­données `set`, `dict`
 * l’absence de données `None`
 
-## Nombres et maths {#numbers}
+### Nombres et maths {#numbers}
 
 Python, comme tout langage de programmation, sait manipuler des nombres ; les soustraire, les diviser, les multiplier…
 
@@ -59,7 +96,7 @@ print("Une erreur:")
 print(1 / 0) # On ne peut pas diviser par zéro…
 ```
 
-## Chaînes de caractères {#strings}
+### Chaînes de caractères {#strings}
 
 Les “chaînes” contiennent du texte, une séquence de lettres successives. En Python 3, les chaînes de caractères sont encodées en utf-8, on peut donc utiliser accents, diacritiques et caractères non latins.
 
@@ -80,7 +117,7 @@ print("Dix " * 10)
 print("Åbenrå © Ђ ק")
 ```
 
-## Variables {#variables}
+### Variables {#variables}
 
 Les variables sont similaires à des boîtes de rangement, elles doivent avoir un nom et contenir quelque chose. 
 
@@ -108,7 +145,7 @@ print(x)
 print(X)
 ```
 
-## Listes  {#lists}
+### Listes  {#lists}
 
 Les listes sont des séquences de choses, comme une chaîne est une séquence de lettres. Mais les listes peuvent contenir des éléments tels que des chiffres, des variables et d'autres listes. 
 
@@ -134,7 +171,7 @@ print([1, 2, 3, ["a", ["deeper"]]])
 ```
 [Aller plus loin avec les listes](lists).
 
-## Boucles {#loops}
+### Boucles {#loops}
 Les boucles sont utilisées pour passer d’une liste à l’autre et examiner chacun des éléments. Les boucles sont un moyen puissant et rapide de travailler avec de nombreux éléments.
 
 ``` py
@@ -159,7 +196,7 @@ for x in range(1, 5):  # outer loop
         print(x, y, x * y)
 ```            
 
-## Fonctions {#functions}
+### Fonctions {#functions}
 
 Les fonctions sont de petits programmes dans le programme. Plutôt que répêter le même code plusieurs fois, on peut écrire une fonction et ré-utiliser le code dans différentes parties du programme global.
 
@@ -192,10 +229,10 @@ print(thereturnedvalue)
 # La ligne suivante causerait une erreur :
 # print(result)
 ```
-## Comparaisons et conditions {#conditions}
+### Comparaisons et conditions {#conditions}
 
 Parfois, un programme doit répondre à des valeurs ou à des situations particulières. Par exemple, « si une variable vaut 4, alors faire ceci. Si ce n’est pas le cas, continuer ». 
-### Comparaison
+#### Comparaison
 Une comparaison entre deux valeurs renvoie toujours un « booléen » (True ou False).
 ```py
 # Comparaisons
@@ -221,7 +258,7 @@ print(result)
 # True
 ```
 
-### Conditions
+#### Conditions
 Si, ou si et sinon (`if`, `elif`, `else`) permettent d’évaluer des conditions (sous la forme de booléens) pour prendre des décisions :
 ```py
 # Conditions
@@ -264,7 +301,7 @@ if a > b and (b == 13 or b == 25):
     print("...")
 ```
 
-## Aléatoire {#random}
+### Aléatoire {#random}
 
 On peut faire plein de trucs chouettes avec les nombres aléatoires.
 
@@ -292,3 +329,7 @@ for i in range(6):
     else:
         print("B")
 ```
+
+## Aller plus loin
+
+De nombreux tutoriels et introductions à Python sont disponibles partout sur le web. Pour une approche similaire mais plus complète, on peut se référer aux contenus produits par [Amélie Dumont](https://ustensiles.projets.erg.school/doku.php?id=outils:python) pour l’Erg ou au [wiki de XPub](https://pzwiki.wdka.nl/mediadesign/Python).
