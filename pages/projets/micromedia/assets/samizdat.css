@@ -14,7 +14,7 @@
   text-transform: uppercase;
   font-size: calc(46 * var(--s));
   letter-spacing: -0.05em;
-  line-height: 1;
+  line-height: .9;
   transform: translate(-.05em, .1em);
   color: black;
   filter: url(#svgfilter); 
@@ -34,10 +34,6 @@ main h2 {
   color: black;
   margin: 1em 0 .25em;
   max-width: var(--p-width);
-  /* text-transform: uppercase; */
-}
-blockquote {
-  /* font-size: 1.5em; */
 }
 .typeset big {
   font-size: 4rem;
