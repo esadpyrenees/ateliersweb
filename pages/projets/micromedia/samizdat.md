@@ -54,7 +54,7 @@ Dans un éditorial du premier numéro de l’_Almanach du Père Peinard_ (1894),
 
 > Comment c’est venu, en quatre mots le voici : depuis un brin de temps, un tas d’idées me trottaient par la caboche, et ça me turlupinait rudement de n’en pas pouvoir accoucher. Voir cette fin de siècle, dégueulasse au possible, où tout est menteries, crapuleries et brigandages, — et assister la bouche close à tout ça : nom de dieu, je pouvais pas m’y faire ! 
 
-[^peinard]: [Voir sur Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k83575m/f32.item)
+[^peinard]: [Voir sur Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k83575m/f32.item) ou le texte sur [Wikisource](https://fr.wikisource.org/wiki/Pourquoi_et_comment_le_P%C3%A8re_Peinard_s%27est_bombard%C3%A9_Journaleux).
 
 ##  DIY, DIWO
 
