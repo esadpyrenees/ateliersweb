@@ -15,7 +15,7 @@
   font-size: calc(46 * var(--s));
   letter-spacing: -0.05em;
   line-height: .9;
-  transform: translate(-.05em, .1em);
+  transform: translate(-.035em, .1em);
   color: black;
   filter: url(#svgfilter); 
 }
