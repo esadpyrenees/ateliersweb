@@ -4,11 +4,17 @@
     $description = "Proposition de production médiatique autonome, autoproduite et autopubliée, du web au print";
     $section="projets";
     $subsection="micromedia";
-    $mdfile = "./micromedia.md";
+
+    // $nav = "/web/snippets/ressources/SECTION.php"; // specific subnav
+    $mdfile = "./samizdat.md";
+    $custom_css = "assets/samizdat.css"; // relative or absolute file URL
+    // $custom_js = "custom.js"; // relative or absolute file URL
+    $date = "15/10/2023";
 
     // includes
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
-    include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+    require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
+    require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
+    require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtraPlugin.php';
     include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
     include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
@@ -16,7 +22,8 @@
     if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
 
     // markdown!
-    $Parsedown = new ParsedownExtra();
+    $Parsedown = new ParsedownExtraPlugin();
+    $Parsedown->figuresEnabled = true;
 
 ?>
 

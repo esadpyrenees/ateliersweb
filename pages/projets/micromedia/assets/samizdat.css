@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Murmure";
+  src: url("Le_Murmure-Regular_web.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('Oswald-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 700;
+}
+.samizdat{
+  --s: calc((100vw - 3rem - 8rem) / 100);
+  font-family: "Murmure";
+  text-transform: uppercase;
+  font-size: calc(46 * var(--s));
+  letter-spacing: -0.05em;
+  line-height: 1;
+  transform: translate(-.05em, .1em);
+  color: black;
+  filter: url(#svgfilter); 
+}
+.svg {position: absolute;}
+
+.samizdat + p strong,
+h2,
+.typeset big {
+  font-style: normal;
+  font-family: "Murmure"; 
+}
+main h2 {
+  font-size: 4em;
+  filter: url(#svgfilter);
+  line-height: 1;
+  color: black;
+  margin: 1em 0 .25em;
+  max-width: var(--p-width);
+  /* text-transform: uppercase; */
+}
+blockquote {
+  /* font-size: 1.5em; */
+}
+.typeset big {
+  font-size: 4rem;
+  line-height: 1;
+  margin: 1em 0 0;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  filter: url(#svgfilter);
+}
+blockquote:not(.big) {
+  position: relative;
+  padding: 1em 2.5rem;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-variation-settings: "wght" 700;
+  font-size: 1.75em;
+  line-height: 1.1;
+  color: #000;
+}
+
+blockquote:not(.big) .sn-note {
+  margin-right: calc(var(--sn-width) * -1 - 2.5rem);
+  color: #444;
+  line-height: 1.5;
+}
+
+.alt {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-variation-settings: "wght" 700;
+}
+blockquote:not(.big) > :first-child {margin-top: 0;}
+blockquote:not(.big) > :last-child {margin-bottom: 0;}
+blockquote:not(.big):after{
+  filter: url(#svgfilter);  
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  border:  6px solid #000;
+}
+aside, label { filter: none;}
