@@ -121,6 +121,7 @@ Que ce soit par fidélité aux promesses du web des premiers jours, ou par la co
 [^cyber]: Lire (en français) la [Déclaration d’indépendance du Cyberespace](http://editions-hache.com/essais/barlow/barlow2.html) de John P. Barlow – et la proposition d’Olivier Ertzscheid d’une [nouvelle déclaration…](https://www.liberation.fr/debats/2018/02/09/une-nouvelle-declaration-d-independance-du-cyberespace_1628377/).
 
 
+La liberté ne s’usant que si l’on ne s’en sert pas, cette proposition de travail vise à vous permettre de re-gagner un espace de liberté d’expression – thématique, formelle, conceptuelle, narrative, documentaire…
 
 ## Micromédia !
 
@@ -128,7 +129,6 @@ Que ce soit par fidélité aux promesses du web des premiers jours, ou par la co
 
 Si Macromédia fut l’éditeur du plugin Flash[^folklore], qui offrit à la fois au web certaines de ses plus belles pages de créativité libérée et le désarroi d’un système propriétaire fermé aujourd’hui disparu, **Micromédia** se propose de réinvestir l’espace de la publication en ligne avec cette même liberté formelle, mais en se basant sur les langages ouverts que sont HTML, CSS et JavaScript.
 
-La liberté ne s’usant que si l’on ne s’en sert pas, cette proposition de travail vise à vous permettre de re-gagner un espace de liberté d’expression – thématique, formelle, conceptuelle, narrative, documentaire…
 
 [^folklore]: (Re)lire [Folklore de la zone mondiale](../../culturenum/folklore/#flash).
 
