@@ -18,6 +18,12 @@
   transform: translate(-.035em, .1em);
   color: black;
   filter: url(#svgfilter); 
+  position: relative;
+  z-index: 0;
+}
+.samizdat + * {
+  position: relative;
+  z-index: 1;
 }
 .svg {position: absolute;}
 

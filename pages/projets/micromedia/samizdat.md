@@ -224,8 +224,6 @@ ZineWiki! URL : https://zinewiki.com/wiki/Main_Page
 Zines of the Zone. URL : http://www.zinesofthezone.net/
 
 
-## Notes
+## Interwebs (onglets ouverts pendant la rédaction de cette proposition)
 
-Espace public selon Habermas : espace “virtuel” de circulation des idées, des opinions, des savoirs, des informations qui nous permet de construire nos représentations du monde, de projeter notre rapport au monde. C’est l’espace du débat démocratique.
-
-Cinq branches dans la “police de l’espace public médiatique” : la surveillance, la censure, la propagande, le secret, et la centralisation de l’économie politique des médias 
+→ [Samizdata](samizdata.php)
