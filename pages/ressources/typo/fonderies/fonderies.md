@@ -108,6 +108,7 @@ Liste établie et maintenue par [Émilie Rigaud](https://aisforfonts.com/fonderi
 
 <div class="gridlist" markdown="1">
 
+*   [Fonts in use](https://fontsinuse.com/), merveilleuse ressource liée à l’utilisation des caractères typographiques 
 *   [I love typography](http://ilovetypography.com/), avant de devenir une fonderie, ilovetypography.com est un blog important sur le typedesign 
 *   [Font Review Journal](http://fontreviewjournal.com/), analyses approfondies de caractères
 *   [Typewolf](http://www.typewolf.com/), notamment [typewolf.com/resources](https://www.typewolf.com/resources)
