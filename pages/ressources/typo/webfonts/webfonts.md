@@ -66,6 +66,8 @@ Les fichiers téléchargés (souvent des .otf) devront être convertis pour pouv
 
 Pour intégrer une police de caractères dans une page web, un seul fichier ne suffit pas pour assurer la compatibilité avec tous les navigateurs, bien qu’aujourd’hui, le support des formats woff (Web Open Font Format) et woff2 se soit généralisé sur [les navigateurs modernes](https://caniuse.com/#search=woff).
 
+⚠ En 2023, cette démultiplication des fichiers et des déclarations n’est plus nécessaire — sauf à vouloir vous assurer que votre site s’affichera sur des navigateurs très rares et anciens. 
+
 Pour une meilleure compatibilité, une syntaxe plus complète peut être saisie (et de nombreux fichiers doivent alors être présents):
 ```
 @font-face {
