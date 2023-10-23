@@ -1,12 +1,24 @@
 # Fontes variables
 
-Lire l’introduction de Jason Pamental : [*An Introduction to Variable Fonts*](https://24ways.org/2019/an-introduction-to-variable-fonts/) ou parcourir [variablefonts.io](https://variablefonts.io/). Découvrir et jouer avec des fontes variables sur [v-fonts.com](https://v-fonts.com/), [axis-praxis](https://www.axis-praxis.org/) ou [variable emojis](http://variableemojis.com/). ~~Expérimenter les fontes paramétriques avec [Prototypo](http://prototypo.io/)~~ 😢.
+Les polices variables (*variable fonts*) sont une évolution de la spécification OpenType. Elles permettent d’inclure dans un seul fichier un ensemble d’_axes de variation_ qui permettent de contrôler certaines propriétés du dessin. 
 
-## Introduction
+Auparavant, l'utilisation de plusieurs styles requerait le chargement de plusieurs fichiers - un pour chaque “variation” : graisse, chasse ou italique. Ces différentes variations d’un dessin de caractère peuvent désormais être contenues dans un seul fichier. Le langage CSS permet de contrôler toutes les variantes contenues dans un seul fichier de police.
 
-Les polices variables (*variable fonts*) sont une évolution de la spécification OpenType. Elles permettent d'utiliser CSS pour accéder à tous les styles contenus dans un seul fichier de police.
+Lire l’introduction de Jason Pamental (2019) : [*An Introduction to Variable Fonts*](https://24ways.org/2019/an-introduction-to-variable-fonts/) ou parcourir [variablefonts.io](https://variablefonts.io/). Découvrir et jouer avec des fontes variables sur [v-fonts.com](https://v-fonts.com/), [axis-praxis](https://www.axis-praxis.org/) ou [variable emojis](http://variableemojis.com/).
 
-Auparavant, l'utilisation de plusieurs styles requerait le chargement de plusieurs fichiers - un pour chaque “variation” : graisse, chasse ou italique. Ces différentes variations d’un dessin de caractère se retrouvent désormais contenues dans un seul fichier, qu’il est possible de paramétrer selon différents **axes**.
+## Où trouver des fontes variables
+
+Les outils techniques qui ont permis de rendre variables les fontes ont largement été intégrées aux processus de design des dessinateur⋅ices de caractères. Aussi, nombre de fontes sont aujourd’hui utilisées sur ce mode ; voir la [liste de fonderies](../fonderies). Google liste les fontes variables et open-source qu’il met à disposition [ici](https://fonts.google.com/variablefonts).   
+
+
+## Qu’y a-t-il dans une fonte variable ?
+
+Quels sont les axes, leurs valeurs ?  [**Wakamaifondue**](https://wakamaifondue.com/) vous apportera toutes les réponses ! (en plus d’apporter une réponse au problème d’héritage…)
+
+
+## Utilisation
+
+Les fontes variables doivent être déclarées dans un fichier CSS grâce à la déclaration `@font-face` décrite dans la page [webfonts](../webfonts/).
 
 ### Intégration & usage
 
@@ -16,7 +28,7 @@ On peut principalement intégrer des fontes variables à une feuille de style CS
 ```css
 @font-face {
     font-family: "Mutator";
-    src: url("MutatorSans.ttf") format("truetype");   
+    src: url("MutatorSans.ttf") format("truetype-variations");   
 }
 ```
 

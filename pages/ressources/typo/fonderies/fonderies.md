@@ -10,29 +10,28 @@ Les fontes distribuées sous licence libre sont nombreuses et leur qualité augm
 <div class="gridlist" markdown="1">
 
 * ★ [Velvetyne Type Foundry](http://velvetyne.fr/)
-* ⚡ [OpenSourcePublishing Foundry](http://ospublish.constantvzw.org/foundry/)
+* ⚡ [OpenSourcePublishing](http://ospublish.constantvzw.org/foundry/)
 * [The League of Moveable Type](http://www.theleagueofmoveabletype.com/)
 * [Omnibus Type](http://www.omnibus-type.com/)
 * [Open Foundry](https://open-foundry.com/)
 * [Noir Blanc Rouge](https://noirblancrouge.com/)
-* ❤️ [Badass Libre Fonts By Womxn](https://www.design-research.be/by-womxn/).
 * [La typothèque Bye Bye Binary](https://typotheque.genderfluid.space/)
 * [La typothèque de Luuse](http://typotheque.luuse.io/)
 * [Fond de riz](http://fonderiz.fr/)
 * [Collletttivo](https://www.collletttivo.it/)
+* [Badass Libre Fonts By Womxn](https://www.design-research.be/by-womxn/)
 
 </div>
 
-[Uncut.wtf](https://uncut.wtf) est un répertoire de fontes libres et open source.
 
-Raphaël Bastide a initié et développé [use & modify](http://usemodify.com/), site qui contient une liste importante de polices libres ou open source.
+Raphaël Bastide a initié et développé [**use & modify**](http://usemodify.com/), site qui contient une liste importante de polices libres ou open source.
 Il maintient également une liste de fonderies libres : [gitlab.com/raphaelbastide/libre-foundries](https://gitlab.com/raphaelbastide/libre-foundries).
+[**Uncut.wtf**](https://uncut.wtf) est un répertoire de fontes libres et open source.
 
 
 Google est également devenu un distributeur de fontes ayant à son catalogue de nombreuses polices de qualité (pas toutes…) : [Google Web Fonts](http://www.google.com/webfonts). <span class="blink">On se rappellera néanmoins qu’avec Google, rien n’est _vraiment_ gratuit. Google se sert en effet des liens d’intégration des fontes comme de _trackers_ lui permettant d’accumuler des données sur les visiteurs de votre page web</span>.
 
-[Font Squirrel](http://www.fontsquirrel.com/) propose de nombreuses polices libres et/ou gratuites et dispose d’un générateur de [« packs » @font-face](http://www.fontsquirrel.com/fontface/generator). 
-Voir aussi [Open Font Library](http://openfontlibrary.org/) et vous n’aurez plus de raison d’aller sur DaFont ou FreeFontOnline.
+[Font Squirrel](http://www.fontsquirrel.com/) propose de nombreuses polices libres et/ou gratuites. Voir aussi [Open Font Library](http://openfontlibrary.org/) et vous n’aurez (presque) plus de raison d’aller sur DaFont.
 
 ### Services et fonderies commerciales
 

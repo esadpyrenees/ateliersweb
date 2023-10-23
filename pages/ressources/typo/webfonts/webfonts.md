@@ -48,15 +48,15 @@ Le service [webfonts](http://www.google.com/webfonts/) de Google permet d’int�
 
 D’autres services, tels [<del>Typekit</del> Adobe fonts](http://typekit.com) ou [fonts.com](http://fonts.com) permettent également d’intégrer des fontes à une page (moyennant paiement), parfois via l’insertion d’un script javascript.
 
-Sur la page [Réferences/fonderies](../../../references/foundries/) se trouve une liste de ces services.
+Sur la page [_fonderies_](../fonderies/) se trouve une liste de ces services.
 
 ### Générer / convertir des webfonts
 
-La page [fonderies/](../../references/foundries/) liste également quelques fonderies numériques libre ou open-source ([Velvetyne](http://velvetyne.fr/), [OpenSourcePublishing](http://ospublish.constantvzw.org/foundry/)…), qui peuvent vous permettre de télécharger leurs créations sans vous fournir l’ensemble des fichiers nécessaires.
+La page [_fonderies_](../fonderies/) liste également quelques fonderies numériques libre ou open-source ([Velvetyne](http://velvetyne.fr/), [OpenSourcePublishing](http://ospublish.constantvzw.org/foundry/)…), qui vous permettent de télécharger leurs créations sans vous fournir l’ensemble des fichiers nécessaires.
 
 Les fichiers téléchargés (souvent des .otf) devront être convertis pour pouvoir être intégrés à vos pages.
 
-[Transfonter](http://transfonter.org/) ou [Everythingfont](https://everythingfonts.com/) permettent de convertir vos fichiers otf ou ttf en webfonts. Font Squirrel met également à disposition un générateur de [« packs » @font-face](http://www.fontsquirrel.com/fontface/generator), qui vous permet de faire ces conversions.
+[**Transfonter**](http://transfonter.org/) ou [Everythingfont](https://everythingfonts.com/) permettent de convertir vos fichiers otf ou ttf en webfonts. Font Squirrel met également à disposition un générateur de [« packs » @font-face](http://www.fontsquirrel.com/fontface/generator), qui vous permet de faire ces conversions.
 
 [Fontrep](http://fontprep.com) est une application Mac dédiée à la transformation de fichiers ttf et otf en webfonts, qui offre de grandes facilités de *subsetting*.
 
