@@ -3,7 +3,7 @@
     --p-width: 650px; 
     --sn-width: 250px;
     --sn-margin: 50px;
-    --family: 'Ecole', sans-serif;
+    --family: 'Manicule', 'Ecole', sans-serif;
     --headerwidth: 3rem;
 }
 
@@ -12,8 +12,8 @@ html {
     color: #444;
     font-size: 1em;
     line-height: 1.5;
-  font-family: 'Inter', sans-serif;
-  font-family: var(--family);
+    font-family: 'Inter', sans-serif;
+    font-family: var(--family);
 }
 
 ::-moz-selection { background: #b3d4fc; text-shadow: none;}
@@ -277,6 +277,21 @@ blockquote {
     margin-left: 0;
     font-style: italic;
     /* font-family: Georgia; */
+}
+@supports (selector(:has(p))) and (selector(:not(p)))  {
+    blockquote:not(:has(big)) {
+        padding-left: 2em;
+        position: relative;
+    }
+    blockquote:not(:has(big))::before {
+        content: "“";
+        font-size: 2em;
+        color: black;
+        position: absolute;
+        left: 0;
+        margin-top: -.11em;
+        font-style: normal;
+    }
 }
 sup { line-height: 1;}
 
