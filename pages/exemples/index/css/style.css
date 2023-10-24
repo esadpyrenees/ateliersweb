@@ -1,0 +1,45 @@
+* { margin: 0; }
+html, body { height: 100%; }
+header {
+    font-family: ui-monospace,  Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;   
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    z-index: 1;
+}
+header a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+h1 {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    background: #444;
+    padding: .5em 1em;
+    border-radius: .5em .5em 0 0;
+    cursor: move;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+h1::after { content: "⋯"; }
+
+nav {
+    padding: .5em 1em 1em;
+    background: black;
+    border-radius: 0 0 .5em .5em;
+}
+
+#iframe{
+    border: none;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;  
+}
