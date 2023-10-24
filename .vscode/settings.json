@@ -1,20 +1,13 @@
 // {
 //   "editor.fontSize": 18,
 //   "editor.fontFamily": "fira sans",
-//   "editor.fontWeight": "light",
+//   "editor.fontWeight": "normal",
 //   "editor.wordWrap": "bounded",
 //   "editor.wordWrapColumn": 80,
+//   "editor.wrappingIndent": "same",
 //   "workbench.colorTheme": "Default Dark+",
 //   "editor.scrollbar.vertical": "hidden",
 //   "editor.lineNumbers": "off",
-//   "cSpell.language": "en,fr-90",
-//   "spellright.language": [
-//     "fr"
-//   ],
-//   "spellright.documentTypes": [
-//     "markdown",
-//     "latex",
-//     "plaintext"
-//   ]
+  
 // }
 
