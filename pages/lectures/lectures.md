@@ -96,8 +96,8 @@ Stéphane Hugon, 2010, [CNRS éditions](https://www.cnrseditions.fr/catalogue/sc
 
 <div class="gridlist" markdown="1">
 
-* #### Lire à l'écran - Contribution du design aux pratiques et aux apprentissages des savoirs dans la culture numérique
-Annick Lantenois, B42, [:)](https://www.nonfiction.fr/article-5450-lire_lecran.htm)
+* #### Lire à l'écran 
+Contribution du design aux pratiques et aux apprentissages des savoirs dans la culture numérique. Annick Lantenois, B42, [:)](https://www.nonfiction.fr/article-5450-lire_lecran.htm)
 
 * #### Qu’est-ce qu’un designer : objets. lieux. messages.  
 Norman Potter, 1969–2011, [B42](https://editions-b42.com/produit/qu-est-ce-qu-un-designer-2/).
@@ -145,7 +145,7 @@ Walter Benjamin, [Allia](https://www.editions-allia.com/fr/livre/274/l-uvre-dart
 Bruno Munari, [Pyramid](https://pyramyd-editions.com/products/l-art-du-design).
 
 * #### Le graphisme en textes
-Helen Armstrong, 2011, Pyramyd, [↗](https://pyramyd-editions.com/products/le-graphisme-en-textes)
+Helen Armstrong, 2011, [Pyramyd](https://pyramyd-editions.com/products/le-graphisme-en-textes).
 
 * #### Travailler pour nous — A quoi tient le design
 Pierre-Damien Huyghe, 2020, [De l'incidence éditeur](https://www.delincidenceediteur.fr/travailler-pour-nous).
