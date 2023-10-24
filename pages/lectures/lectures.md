@@ -87,6 +87,9 @@ Laurent Chemla, Denoël, [↗](http://www.confessions-voleur.net/)
 * #### Graphic design in the post-digital age
 Une enquête sur des pratiques nourries par le code créatif, [HEAD + Onomatopée](https://www.postdigitalgraphicdesign.com/).
 
+* #### Circumnavigations : L’imaginaire du voyage dans l’expérience Internet
+Stéphane Hugon, 2010, [CNRS éditions](https://www.cnrseditions.fr/catalogue/sciences-politiques-et-sociologie/circumnavigations/).
+
 </div>
 
 ## Livres — Design, typographie {#livres-design}
