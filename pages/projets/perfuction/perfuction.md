@@ -100,7 +100,7 @@ Pour positionner le texte dans l’espace, on peut utiliser [l’ensemble des m�
 
 </div>
 
-N.B. : Les citations ci-dessus sont très largement apocryphes et malheureusement trop souvent anglophones issues de vieux mâles blancs… N’hésitez pas [à soumettre](mailto:julien.bidoret@esad-pyrenees.fr?subject=FeckPerfuction) toute proposition qui serait issue de femmes ou de représentant·e·s de minorités culturelles, sociales ou ethniques.
+N.B. : Les citations ci-dessus sont très largement apocryphes et malheureusement trop souvent anglophones issues de vieux hommes blancs morts… N’hésitez pas [à soumettre](mailto:julien.bidoret@esad-pyrenees.fr?subject=FeckPerfuction) toute proposition qui serait issue de femmes ou de représentant·e·s de minorités culturelles, sociales ou ethniques.
 
 —
 
