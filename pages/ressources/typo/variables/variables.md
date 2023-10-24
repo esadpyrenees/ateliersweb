@@ -8,7 +8,7 @@ Lire l’introduction de Jason Pamental (2019) : [*An Introduction to Variable F
 
 ## Où trouver des fontes variables
 
-Les outils techniques qui ont permis de rendre variables les fontes ont largement été intégrées aux processus de design des dessinateur⋅ices de caractères. Aussi, nombre de fontes sont aujourd’hui utilisées sur ce mode ; voir la [liste de fonderies](../fonderies). Google liste les fontes variables et open-source qu’il met à disposition [ici](https://fonts.google.com/variablefonts).   
+Les outils techniques qui ont permis de rendre variables les fontes ont largement été intégrées aux processus de design des dessinateur⋅ices de caractères (notions de _masters_, de _designspace_). Aussi, nombre de fontes sont aujourd’hui produites et diffusées sur ce mode ; voir la [liste de fonderies](../fonderies). Google liste les fontes variables et open-source qu’il met à disposition [ici](https://fonts.google.com/variablefonts).   
 
 
 ## Qu’y a-t-il dans une fonte variable ?
