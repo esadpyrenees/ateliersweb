@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "Pappardelle";
-  src: url('../fonts/PappardelleV2-Regular.woff2') format("woff2"),
-       url('../fonts/PappardelleV2-Regular.woff') format("woff");  
-  font-style: normal;
-  font-weight: normal;
-}
+
 
 #welcome{
   position: absolute;
