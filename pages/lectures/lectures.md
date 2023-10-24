@@ -47,45 +47,106 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 
 </div>
 
-## Livres {#livres}
+## Livres – Design, numérique & médias {#livres}
 
 <div class="gridlist" markdown="1">
 
 * #### Culture numérique
-Dominique Cardon, Les Presses de Sciences Po, 2019. [↗](http://www.pressesdesciencespo.fr/fr/book/?GCOI=27246100540390)
+Dominique Cardon, [Les Presses de Sciences Po](http://www.pressesdesciencespo.fr/fr/book/?GCOI=27246100540390), 2019. 
 
 * #### Digital Folklore
-Olia Lialina & Dragan Espenschied dans son livre [](Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf) 
+Olia Lialina & Dragan Espenschied, [↓](Lialina_Olia_Espenschied_Dragan_eds_Digital_Folklore_2009.pdf) 
 
 * #### Technique & design graphique – Outils, médias, savoirs
-Anthony Masure, Bruno Bachimont, Fabrice Sabatier, Indra Kupferschmid, Jean-Noël Lafargue, Kévin Donnot, Loup Cellard, Max Bonhomme, Nicolas Thély, Vivien Philizot, B42, 2019 [↗](https://editions-b42.com/produit/technique-design-graphique/)
+Anthony Masure, Bruno Bachimont, Fabrice Sabatier, Indra Kupferschmid, Jean-Noël Lafargue, Kévin Donnot, Loup Cellard, Max Bonhomme, Nicolas Thély, Vivien Philizot,  [B42](https://editions-b42.com/produit/technique-design-graphique/), 2019.
 
 * #### Design et humanités numériques
-Anthony Masure, B42, 2017 [↗](https://editions-b42.com/produit/design-et-humanites-numeriques/)
+Anthony Masure,  [B42](https://editions-b42.com/produit/design-et-humanites-numeriques/), 2017.
 
 * #### Post-digital Print   – La mutation de l’edition depuis 1894
-Alessandro Ludovico, B42, 2016 [↗](https://editions-b42.com/produit/post-digital-print/)
+Alessandro Ludovico, [B42](https://editions-b42.com/produit/post-digital-print/), 2016.
 
 * #### La toile que nous voulons, le web néguentropique
 Bernard Stiegler, Julian Assange, Paul Jorion, Dominique Cardon, Evgeny Morozov, François Bon, Fyp éditions
 
 * #### Cyberstructure, L'Internet, un espace politique
-Stéphane Bortzmeyer, C&F éditions, [↗](https://cyberstructure.fr/)
+Stéphane Bortzmeyer, [C&F éditions](https://cyberstructure.fr/).
 
 * #### L'appétit des géants, Pouvoir des algorithmes, ambitions des plateformes, 
-Olivier Ertzscheid, C&F éditions
+Olivier Ertzscheid, [C&F éditions](https://cfeditions.com/geants/).
 
-* #### Anoptikon : une exploration de l’internet invisible, Échapper à la main de Darwin 
-Olivier Auber, Fyp éditions
+* #### Anoptikon : une exploration de l’internet invisible
+Olivier Auber, [Fyp éditions](https://boutique.fypeditions.com/products/anoptikon-une-exploration-de-linternet-invisible)
 
 * #### L’écriture sans ecriture – Du langage à l'âge numérique 
-Kenneth Goldsmith, éditions Jean Boîte, 2018
+Kenneth Goldsmith,  [éditions Jean Boîte](https://www.jbe-books.com/products/lecriture-sans-ecriture-by-kenneth-goldsmith), 2018.
 
 * #### Confessions d’un voleur – Internet : La liberté confisquée
 Laurent Chemla, Denoël, [↗](http://www.confessions-voleur.net/)
 
 * #### Graphic design in the post-digital age
-Une enquête sur des pratiques nourries par code créatif, HEAD + Onomatopée, [↗](https://www.postdigitalgraphicdesign.com/)
+Une enquête sur des pratiques nourries par le code créatif, [HEAD + Onomatopée](https://www.postdigitalgraphicdesign.com/).
+
+</div>
+
+## Livres — Design, typographie {#livres-design}
+
+<div class="gridlist" markdown="1">
+
+* #### Lire à l'écran - Contribution du design aux pratiques et aux apprentissages des savoirs dans la culture numérique
+Annick Lantenois, B42, [:)](https://www.nonfiction.fr/article-5450-lire_lecran.htm)
+
+* #### Qu’est-ce qu’un designer : objets. lieux. messages.  
+Norman Potter, 1969–2011, [B42](https://editions-b42.com/produit/qu-est-ce-qu-un-designer-2/).
+
+* #### Principes élémentaires de la typographie : une histoire des styles  
+Robert Bringhurst, 1992–2023, [B42](https://editions-b42.com/produit/principes-elementaires-de-la-typographie/).
+
+* #### Pour une critique du design graphique  
+Catherine de Smet, 2012–2020, [B42](https://editions-b42.com/produit/pour-une-critique-du-design-graphique/).
+
+* #### Le détail en typographie  
+Jost Hochuli, 1987–2015, [B42](https://editions-b42.com/produit/le-detail-en-typographie/).
+
+* #### Le monde comme projet  
+Otl Aicher, 1991–2015, [B42](https://editions-b42.com/produit/le-monde-comme-projet/).
+
+* #### Voir le voir  
+John Berger, 1972–2014, [B42](https://editions-b42.com/produit/voir-le-voir/).
+
+* #### Le vertige du funambule
+Annick Lantenois, 2013, [B42](https://esad-pyrenees.centredoc.fr/index.php?lvl=notice_display&id=1224).
+
+* #### La syntaxe de l'image
+Donis A. Dondis, 2023, [B42](https://editions-b42.com/produit/la-syntaxe-de-limage/).
+
+* #### Design pour un monde réel
+Victor Papanek, 1971–2021, [Les Presses du réel](https://www.lespressesdureel.com/ouvrage.php?id=8623).
+
+* #### Petite philosophie du design
+Vilém Flusser, 2002, [éditions Circé](https://www.editions-circe.fr/livre-Petite_philosophie_du_design-340-1-1-0-1.html).
+
+* #### La nouvelle typographie
+Jan Tschichold, 1928–2016, [Entremonde](https://entremonde.net/la-nouvelle-typographie).
+
+* #### Stéphane Vial
+L'être et l'écran, 2017, [PUF](https://www.puf.com/content/L%C3%AAtre_et_l%C3%A9cran).
+
+* #### Petite histoire de la photographie
+Walter Benjamin, [Allia](https://www.editions-allia.com/fr/livre/585/petite-histoire-de-la-photographie).
+
+* #### L'Œuvre d’art à l’époque de sa reproductibilité technique
+Walter Benjamin, [Allia](https://www.editions-allia.com/fr/livre/274/l-uvre-dart-a-lepoque-de-sa-reproductibilite-technique).
+
+* #### L'art du design
+Bruno Munari, [Pyramid](https://pyramyd-editions.com/products/l-art-du-design).
+
+* #### Le graphisme en textes
+Helen Armstrong, 2011, Pyramyd, [↗](https://pyramyd-editions.com/products/le-graphisme-en-textes)
+
+* #### Travailler pour nous — A quoi tient le design
+Pierre-Damien Huyghe, 2020, [De l'incidence éditeur](https://www.delincidenceediteur.fr/travailler-pour-nous).
+
 
 </div>
 
