@@ -193,6 +193,7 @@ blockquote{
   max-width: none;
   font-family: "Authentic";
   color: black;
+  padding-left: 0 !important;
 }
 blockquote.hidden {
   visibility: hidden;
@@ -214,4 +215,9 @@ blockquote strong {
   text-decoration-color: black;
   text-decoration-thickness: .75em;
   text-underline-offset: -.75em;
+}
+
+blockquote::before {
+  content: "";
+  display: none;
 }
