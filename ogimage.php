@@ -21,7 +21,7 @@
     $subsection = isset($params[1]) ? $params[1] : "";
     $subsubsection = isset($params[2]) ? $params[2] : "";
     
-
+    
     // attention, chemins en dur !
 
     $fonts_path = realpath(dirname(__FILE__) . '/assets/fonts');
@@ -57,13 +57,13 @@
     // chemin vers convert
     $convert = $_SERVER["HTTP_HOST"] == "localhost" ? '/usr/bin/convert' : '/usr/bin/convert';    
     
-
     // cas des exemples
     if($section == "exemples"){
+        
         // on cherche le dossier de l’exemple
         $dir = dirname(__FILE__) . '/pages/exemples/' . $subsection;
         $readme = $dir . DIRECTORY_SEPARATOR . 'info.yml';
-        $dirthumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
+        $dirthumb = $dir . DIRECTORY_SEPARATOR . 'thumb.webp';
 
         if (file_exists($readme)) {
             $data = Spyc::YAMLLoad($readme);  
@@ -123,6 +123,7 @@
 
         // nettoyage
         exec ("rm -f " . $whitetitle);
+        exec ("rm -f " . $esad_title);
         exec ("rm -f " . $white);
         exec ("rm -f " . $tada);
         exec ("rm -f " . $tomato);

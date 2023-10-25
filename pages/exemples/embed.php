@@ -32,12 +32,12 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
 
             $dir =  $_GET['example'];
             $readme = $dir . DIRECTORY_SEPARATOR . 'info.yml';
-            $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.png';
+            $thumb = $dir . DIRECTORY_SEPARATOR . 'thumb.webp';
 
             if (file_exists($readme)) {
                 $data = Spyc::YAMLLoad($readme);                
                 $tags = str_replace(",", ", ", $data["tags"]);
-                $taglinks = explode(",", $data["tags"]);
+                $taglinks = explode(",", $data["tags"]) ;
                 $title = $data["title"];            
                 $date = intval($data["date"]);
 
@@ -50,18 +50,14 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
                     echo "        <meta property='og:type' content='website'>\n";
                     echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
                     echo "        <meta property='og:locale' content='fr'>\n";
-                    echo "        <meta name='twitter:card' content='summary_large_image'>\n";
-                    echo "        <meta name='twitter:site' content='@esadpyrenees'>\n";
-                    echo "        <meta name='twitter:creator' content='@julienbidoret'>\n";
                 }
                 if( isset($tags) ){
-                    echo "        <meta name='keywords' content='$tags'>\n";
+                    echo "        <meta name='keywords' content='web design, webdesign, example, exemple, $tags'>\n";
                 }
             }
             if (file_exists($thumb)) {
                 $thumb = "$localhost/web/medias/exemples/$dir/ogp.png?text=$title";
                 echo "        <meta property='og:image' content='$thumb'>\n";
-                echo "        <meta name='twitter:image' content='$thumb'>\n";
             }
 
         ?>

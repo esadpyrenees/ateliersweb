@@ -1,23 +1,31 @@
 * { margin: 0; }
 html, body { height: 100%; overflow: hidden; }
+:root {
+    --bright: #e58ce8;
+    --veybright: #fdccfe;
+    --dark: #4b0082;
+    --verydark: #35005a;
+    --shadow: rgba(77, 9, 101, 0.425);
+}
 header {
     font-family: ui-monospace,  Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;   
-    color: white;
+    color: #e58ce8;
     position: absolute;
     bottom: 2em;
     left: 2em;
     z-index: 1;
 }
 header a {
-    color: white;
+    color: currentColor;
     display: block;
     text-decoration: none;
 }
+header a:hover, header a:focus, header a.active { color: var(--veybright); outline: none;}
 h1 {
     font-size: 1em;
     display: flex;
     justify-content: space-between;
-    background: #444;
+    background: var(--verydark);
     padding: .5em .5em .5em 1em;
     gap: .5em;
     border-radius: .5em .5em 0 0;
@@ -29,17 +37,21 @@ h1 {
 }
 h1::before { content: "⋯"; }
 h1 strong { flex: 1;}
-h1 button { padding: 0 .5em; background: white; border: none; border-radius: .25em;}
+h1 button { padding: 0 .5em; background: var(--bright); color: var(--dark); border: none; border-radius: .25em;}
+
+h1, #index {
+    box-shadow: 5px 5px 10px var(--shadow);
+}
 
 #index {
     padding: .5em 1em 1em;
-    background: black;
+    background: var(--dark);
     border-radius: 0 0 .5em .5em;
     line-height: 1.4;
     max-height: 15em;
     
 }
-#index hr { background: none; border-top: 1px solid #000; margin: .5em 0; display: none;}
+#index hr { background: none; border:none; border-top: 1px solid var(--bright); opacity: .5; margin: .5em 0; display: none;}
 #index hr ~ a { display: none; }
 #index.showall { overflow-y: scroll;}
 #index.showall hr { display: block; }

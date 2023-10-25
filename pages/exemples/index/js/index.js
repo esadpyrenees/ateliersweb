@@ -4,30 +4,37 @@ const iframe = document.querySelector("#iframe");
 const nav = document.querySelector("#index");
 const showall = document.querySelector("#showall");
 
+// click on button to show hidden links
 showall.addEventListener("click", (e) => {
     e.stopPropagation();
-    nav.classList.toggle('showall');
-    showall.textContent = showall.textContent == "+" ? "–" : "+";
+    nav.classList.toggle('showall'); // .showall on nav makes links after <hr> visible 
+    showall.textContent = showall.textContent == "+" ? "–" : "+"; // switch textcontent
 })
 
+// init links actions
 links.forEach(link => {
     setId(link);
     link.addEventListener("click", (e) => {
         e.preventDefault();
         window.location.hash = link.id;
-        openIframe(link.getAttribute("href"));
+        openIframe(link);
     })
 });
 
-function openIframe(href){
+// open page (iframe)
+function openIframe(link){
+    const href = link.getAttribute("href");
     if(iframe.src != href) iframe.src = href;
+    // set .active link
+    links.forEach(l => { l.classList.remove('active') });
+    link.classList.add('active')
 }
 
 // pour un rechargement de l’iframe en cours
 const hash = window.location.hash
 if(hash){
     const link = document.querySelector(hash);
-    if(link) openIframe(link.getAttribute("href"));
+    if(link) openIframe(link);
 }
 
 // Set a unique id to a link :
