@@ -1,7 +1,14 @@
 const header = document.querySelector("header")
 const links = header.querySelectorAll('a');
-const iframe = document.querySelector("iframe");
+const iframe = document.querySelector("#iframe");
+const nav = document.querySelector("#index");
+const showall = document.querySelector("#showall");
 
+showall.addEventListener("click", (e) => {
+    e.stopPropagation();
+    nav.classList.toggle('showall');
+    showall.textContent = showall.textContent == "+" ? "–" : "+";
+})
 
 links.forEach(link => {
     setId(link);

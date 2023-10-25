@@ -1,5 +1,5 @@
 * { margin: 0; }
-html, body { height: 100%; }
+html, body { height: 100%; overflow: hidden; }
 header {
     font-family: ui-monospace,  Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;   
     color: white;
@@ -18,7 +18,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     background: #444;
-    padding: .5em 1em;
+    padding: .5em .5em .5em 1em;
+    gap: .5em;
     border-radius: .5em .5em 0 0;
     cursor: move;
     -moz-user-select: none;
@@ -26,13 +27,23 @@ h1 {
     -ms-user-select: none;
     user-select: none;
 }
-h1::after { content: "⋯"; }
+h1::before { content: "⋯"; }
+h1 strong { flex: 1;}
+h1 button { padding: 0 .5em; background: white; border: none; border-radius: .25em;}
 
-nav {
+#index {
     padding: .5em 1em 1em;
     background: black;
     border-radius: 0 0 .5em .5em;
+    line-height: 1.4;
+    max-height: 15em;
+    
 }
+#index hr { background: none; border-top: 1px solid #000; margin: .5em 0; display: none;}
+#index hr ~ a { display: none; }
+#index.showall { overflow-y: scroll;}
+#index.showall hr { display: block; }
+#index.showall hr ~ a { display: block; }
 
 #iframe{
     border: none;
