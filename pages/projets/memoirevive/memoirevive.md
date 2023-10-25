@@ -29,7 +29,7 @@ Partant du principe[^jlc] qu’un jardin numérique est constitué de « notes�
 - les 🌿 _notes bourgeonnantes_ – un peu nettoyées, augmentées et distillées ; 
 - les 🌳 _notes persistantes_ (_evergreen_) – elles ont suffisamment mûri pour servir de bases à un texte plus conséquent ; le mémoire, par exemple.
 
-[^jlc]: Suggérés [ici](https://wilde-at-heart.garden/pages/digital-garden/).
+[^jlc]: Types de notes suggérés [ici](https://wilde-at-heart.garden/pages/digital-garden/).
 
 ## Objectifs
 
