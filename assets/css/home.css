@@ -194,6 +194,7 @@ blockquote{
   font-family: "Authentic";
   color: black;
   padding-left: 0 !important;
+  margin-bottom: 0 !important;
 }
 blockquote.hidden {
   visibility: hidden;
