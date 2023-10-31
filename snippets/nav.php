@@ -29,6 +29,7 @@
         <li class="<?php echo $subsection == 'ctrlaltprint' ? 'opened' : '' ?>"><a href="/web/pages/ressources/ctrl-alt-print/">CTRL Alt print</a></li>
         <li class="<?php echo $subsection == 'kirby' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Kirby</a></li>
         <li class="<?php echo $subsection == 'imagemagick' ? 'opened' : '' ?>"><a href="/web/pages/ressources/imagemagick/">ImageMagick</a></li>
+        <li class="<?php echo $subsection == 'cli' ? 'opened' : '' ?>"><a href="/web/pages/ressources/cli/">CLI</a></li>
     </ul>
 </nav>
 
