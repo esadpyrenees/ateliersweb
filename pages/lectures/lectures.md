@@ -150,6 +150,9 @@ Helen Armstrong, 2011, [Pyramyd](https://pyramyd-editions.com/products/le-graphi
 * #### Travailler pour nous — A quoi tient le design
 Pierre-Damien Huyghe, 2020, [De l'incidence éditeur](https://www.delincidenceediteur.fr/travailler-pour-nous).
 
+* #### Caps Lock
+_How Capitalism Took Hold of Graphic Design, and How to Escape from It_, Ruben Pater, 2021, [Valiz](https://valiz.nl/en/publications/caps-lock?layout=pwttemplatecards)
+
 
 </div>
 
