@@ -314,7 +314,9 @@ h5.filename {
     border-bottom: 1px solid #75715e;
     font-weight: normal;
     margin: 0 -40px;
-    padding: 0.5em 40px !important;
+    padding: 0.5em 40px .35em !important;
+    font-size: .85em;
+    letter-spacing: 0.01em;
 }   
 h5.filename + pre {
     margin-top: 0;

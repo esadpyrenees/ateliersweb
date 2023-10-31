@@ -23,8 +23,7 @@
 }
 @font-face {
      font-family: 'Manicule';
-     src: url('subset-ManiculeRegular.woff2') format('woff2'),
-         url('subset-ManiculeRegular.woff') format('woff');
+     src: url('Manicule-Regular.woff2') format('woff2');
      font-weight: normal;
      font-style: normal;
      font-display: swap;
