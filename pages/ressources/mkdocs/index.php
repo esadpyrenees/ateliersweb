@@ -1,11 +1,11 @@
 <?php
     // config
-    $title = "Ressources → Python → MkDocs";
+    $title = "Ressources → MkDocs";
     $description = "Utiliser MkDocs, un générateur de sites statiques en Python.";
     $section="ressources";
-    $subsection="python";
+    $subsection="mkdocs";
     $subsubsection="mkdocs";
-    $nav = "/web/snippets/ressources/python.php"; // specific subnav
+    $nav = "/web/snippets/ressources/mkdocs.php"; // specific subnav
     $mdfile = "./mkdocs.md";
     // $custom_css = "custom.css"; // relative or absolute file URL
     // $custom_js = "custom.js"; // relative or absolute file URL
