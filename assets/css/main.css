@@ -279,11 +279,11 @@ blockquote {
     /* font-family: Georgia; */
 }
 @supports (selector(:has(p))) and (selector(:not(p)))  {
-    blockquote:not(:has(big)) {
+    .typeset blockquote:not(:has(big)) {
         padding-left: 2em;
         position: relative;
     }
-    blockquote:not(:has(big))::before {
+    .typeset blockquote:not(:has(big))::before {
         content: "“";
         font-size: 2em;
         color: black;
