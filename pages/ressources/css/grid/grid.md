@@ -10,96 +10,67 @@ Il diffère de [Flexbox](../flexbox) principalement par le fait qu’il est déd
 
 ## Ressources en ligne
 
-*   [Gridbyexample.com](https://gridbyexample.com/examples/), les grilles, par l’exemple…
-*   *Visual cheat sheet*, [toutes les propriétés, illustrées](http://grid.malven.co/)
-*   [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual 
-guide*
-*   [☞ Layoutland](https://www.youtube.com/layoutland), les vidéos éclairantes de Jen Simmons
-*   [_Grid experiments_](https://codepen.io/search/pens?q=grid+experiment) sur Codepen
-*   [Un guide interactif](https://fjolt.com/article/a-guide-to-css-grid) pour CSS Grid. 
+De nombreuses ressources sont disponibles en ligne : [Gridbyexample.com](https://gridbyexample.com/examples/), les grilles, par l’exemple… ; *Visual cheat sheet*, [toutes les propriétés, illustrées](http://grid.malven.co/) ; [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual guide* ; [☞ Layoutland](https://www.youtube.com/layoutland), les vidéos éclairantes de Jen Simmons ; [_Grid experiments_](https://codepen.io/search/pens?q=grid+experiment) sur Codepen…
 
 ## Exemples
 
 *   Quelques [exemples](../../../exemples/#grid) sur le site de l’atelier web
 
 
-<style type="text/css">
-.ex1 * { padding:1em;}
-.ex1 section {
-    background:#a9d0fd;
-  display: grid;
-  grid-template-columns: 150px 500px;
-}
-.ex1 article {
-    background:#f3c986;
-    grid-column: 2;  
-}
-.ex1 aside {
-    background:#c1bdf7;
-    grid-column: 1;
-}
-.ex2 * { padding:1em; }
-.ex2 {
-    background:#a9d0fd;
-    display: grid;
-    grid-template-columns: 150px 500px;
-    grid-template-rows: 100px 200px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-}
-nav {
-    background:#d1e5fd;
-  grid-column: 1; grid-row: 1;
-}
-section {
-  grid-column: 2; grid-row: 1;
-  background:#ed8e92;
-}
-aside {
-  grid-column: 1; grid-row: 2;
-  background:#c1bdf7;
-}
-article {
-  grid-column: 2; grid-row: 2;
-  background:#f3c986;
-}
-.ex3.container * { padding:1em}
-.ex3.container {
-    background:#a9d0fd;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    grid-template-rows: 60px 300px 100px;
-    display: grid;
-    grid-template-areas: "h h"
-                       "n c"
-                       "f f";
-}
-.ex3 header {
-    background:#f3c986;
-  grid-area: h;
-}
-.ex3 nav {
-  grid-area: n;
-}
-.ex3 aside {
-  grid-area: c;
-}
-.ex3 footer {
-    background:#ed8e92;
-  grid-area: f;
-}
-
-
-</style>
 
 
 # Démarrer
 
-On crée un “contexte de grille” en appliquant la déclaration `display: grid` à un élément HTML. Cette déclaration définit un ensemble de pistes, formées de lignes et de colonnes, définissant des “cellules”.
+On crée un “contexte de grille” en appliquant la déclaration `display: grid` à un élément HTML. 
+```css
+.container { display: grid; }
+```
+Cette déclaration va permettre de définir un ensemble de pistes, formées de lignes et de colonnes, définissant des “cellules”.
 
-Cet ensemble est “virtuel”, il n’existe pas dans le HTML.
+```css
+.container { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; /* définit explicitement une grille de trois colonnes */
+  grid-template-rows: repeat(3, 1fr); /* définit explicitement  une grille de trois lignes, avec "repeat()" */
+}
+```
 
-Les enfants directs de ce conteneur deviennent alors des `grid-items` et pourront être positionnées au sein des cellules de la grille.
+Cet ensemble “virtuel” de lignes et de colonnes va permettre aux enfants de ce conteneur de devenir des `grid-items` qui seront positionnées au sein des cellules de la grille.
+
+On peut souhaiter déterminer une goutière (un espace entre les lignes et colonnes) :
+
+```css
+.container { 
+  display: grid; 
+  gap: 1em; /* espace uniforme ou bien: */
+  gap: 1em 2em; /* espace de 2em entre les colonnes, 1em entre les lignes */
+}
+```
+
+## Implicite _vs_ explicite
+
+Il est souvent souhaitable de laisser le navigateur déterminer le nombre de lignes (voire même de colonnes) nécessaires pour afficher les enfants d’une grille dans ses cellules.
+
+Plutôt que la déclaration ci-dessus, on préférera parfois utiliser celle-ci :
+
+```css
+.container { 
+  display: grid; 
+  gap:.5em;
+  /* autant de colonnes que possible (auto-fill), dont la largeur est au minimum 300px */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  /* on ne définit pas de lignes, le navigateur en créera autant que nécessaire */
+}
+```
+
+<div resizable class="intrinsic">
+  <p>1</p>
+  <p>2</p>
+  <p>3</p>
+  <p>4</p>
+  <p>5</p>
+  <p>6</p> 
+</div>
 
 ## Positionnement des éléments
 

@@ -1,11 +1,13 @@
 <?php
     // config
-    $title = "Ressources – CSS";
+    $title = "Ressources CSS → Grid";
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";
     $subsubsection="grid";
     $mdfile = "./grid.md";
+    $custom_css = "grid.css"; // relative or absolute file URL
+    $custom_js = "grid.js"; // relative or absolute file URL
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
