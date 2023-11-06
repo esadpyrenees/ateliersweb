@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Ressources – CSS";
+    $title = "Ressources CSS → Positions";
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";

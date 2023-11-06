@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Ressources – CSS";
+    $title = "Ressources CSS → Les unités";
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";

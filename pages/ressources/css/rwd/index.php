@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Ressources CSS → Responsive web design";
     $section="ressources";
     $subsection="css";
     $nav = "/web/snippets/ressources/css.php";

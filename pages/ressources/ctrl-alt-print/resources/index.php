@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Ressources – Ressources web to print";
+    $title = "Ressources CTRL + Alt + print → Ressources web to print";
     $section="ressources";
     $subsection="ctrlaltprint";
     $nav = "/web/snippets/ressources/ctrlaltprint.php";
