@@ -211,13 +211,33 @@ blockquote cite {
   font-style: italic;
 }
 blockquote strong {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: normal;
   text-decoration-color: black;
   text-decoration-thickness: .75em;
   text-underline-offset: -.75em;
+  
 }
-
+blockquote span { 
+  /* animation: bg 2s ease-out infinite ; */
+  clip-path: polygon(.025em 3%, .025em 78%, calc(100% - .05em) 78%, calc(100% - .05em) 3%);
+  background-image: repeating-linear-gradient(45deg, white 0%, white 3%, rgb(138, 1, 108) 3%, rgb(17, 0, 255)  78%, white 78%, white 100%); 
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+@keyframes bg {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+  
+}
 blockquote::before {
   content: "";
   display: none;

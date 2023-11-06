@@ -1,6 +1,6 @@
 <?php
   // config
-  $title = "Bienvenue !";
+  // $title = "Bienvenue !";
   $description = "Ressources, références et exemples des ateliers web de l’École supérieure d’art et de design des Pyrénées, réunies et proposées par Julien Bidoret.";
   $section="home";
   $custom_css = "/web/assets/css/home.css"; // relative or absolute file URL
@@ -15,7 +15,8 @@
   <section class="pane home" id="content">
 
     <blockquote cite="http://luckysoap.com/statements/handmadeweb.html" class="hidden">
-      <strong>In today’s highly commercialized web of <span>multinational corporations</span>, <span>proprietary applications</span>, <span>read-only devices</span>, <span>search algorithms</span>, <span>Content Management Systems</span>, <span>WYSIWYG editors</span>, and <span>digital publishers</span>, it becomes an <span class="rad">increasingly radical act</span> to <span>hand-code</span> and <span>self-publish</span> <span>experimental web art</span> and <span>writing projects</span>.</strong> <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>    
+      <!-- <strong>In today’s highly commercialized web of <span>multinational corporations</span>, <span>proprietary applications</span>, <span>read-only devices</span>, <span>search algorithms</span>, <span>Content Management Systems</span>, <span>WYSIWYG editors</span>, and <span>digital publishers</span>, it becomes an <span class="rad">increasingly radical act</span> to <span>hand-code</span> and <span>self-publish</span> <span>experimental web art</span> and <span>writing projects</span>.</strong> <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>     -->
+      <strong>In<span> </span>today’s<span> </span>highly<span> </span>commercialized<span> </span>web<span> </span>of<span> </span>multinational<span> </span>corporations,<span> </span>proprietary<span> </span>applications,<span> </span>read-only<span> </span>devices,<span> </span>search<span> </span>algorithms,<span> </span>Content<span> </span>Management<span> </span>Systems,<span> </span>WYSIWYG<span> </span>editors,<span> </span>and<span> </span>digital<span> </span>publishers,<span> </span>it<span> </span>becomes<span> </span>an<span></sp an><span<span> </span>increasingly<span> </span>radical<span> </span>act<span> </span>to<span> </span>hand-code<span> </span>and<span> </span>self-publish<span> </span>experimental<span> </span>web<span> </span>art<span> </span>and<span> </span>writing<span> </span>projects.</strong> <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>    
     </blockquote>
     
     <!-- Comments are free, facts are sacred -->
