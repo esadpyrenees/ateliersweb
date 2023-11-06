@@ -15,7 +15,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
     <div class="examples-info" id="examples-info">
         <p>
         Les exemples ci-dessous peuvent être filtrés par catégorie (menu ci-contre), étudiés (le code est commenté) et téléchargés (lien “zip” ou “télécharger ☻”). <br>
-        Il est souhaitable que leur usage fasse l’objet d’une appropriation personnelle.</p>
+        Il est souhaitable que leur usage fasse l’objet d’une appropriation personnelle. Conçus à des fins didactiques, ils ne répondent que rarement aux enjeux de robustesse, de sécurité ou d’accessibilité qu’on peut attendre de projets web publics.</p>
         <button title="En cliquant sur ce bouton, cet avertissement sera masqué.">×</button>
     </div>
 <?php
