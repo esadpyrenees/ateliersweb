@@ -87,12 +87,14 @@ a:hover {
 Sélectionne des éléments via leurs attributs :
 
 ```css
-[data-value] { /* L’attribut existe */ }
-[data-value="foo"] { /* L’attribut a cette valeur */ }
-[data-value*="foo"] { /* La valeur de l’attribut contient “foo” */ }
-[data-value^="foo"] { /* La valeur de l’attribut commence par “foo” */ }
-[data-value$="foo"] { /* La valeur de l’attribut finit par “foo” */ }
+[data-value] { /* Sélectionne les éléments pour lesquels un attribut “data-value” existe */ }
+[data-value="foo"] { /* …dont l’attribut “data-value” vaut “foo” */ }
+[data-value*="foo"] { /* …dont l’attribut “data-value” contient “foo” */ }
+[data-value^="foo"] { /* …dont l’attribut “data-value” commence par “foo” */ }
+[data-value$="foo"] { /* …dont l’attribut “data-value” finit par “foo” */ }
 /* par exemple, pour les liens externes sans besoin de class */
+/* - sélectionne les <a> dont l’attribut “href” commmence par “http” */
+/* - introduit une flèche au sein d’un pseudo-élément (before) */
 a[href^="http"]::before { content: "↗ "; }
 ```
 

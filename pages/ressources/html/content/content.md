@@ -162,8 +162,7 @@ Lorsque l’on balise un élément de contenu qui n’a pas de signification par
 ```
 
 
-<div id="links"></div>
-## Liens
+## Liens {#links}
 
 Les liens sont des éléments essentiels du HTML ; le Web a été conçu pour être un réseau d’information constitué de documents **liés** entre eux.
 

@@ -71,8 +71,7 @@ On peut écrire dans le code source d’une page Web des portions de texte qui n
 En HTML, un commentaire est délimité par les caractères `<!--` et `-->`.
 
 
-<div id="block-inline"></div>
-## *Block* et *Inline*
+## *Block* et *Inline* {#block-inline}
 
 HTML possède deux grands types d’éléments, les éléments *block* et *inline*.
 
@@ -99,36 +98,17 @@ Les **éléments bloc** sont destinés à structurer les principales parties d�
 
 Les **éléments en ligne** sont destinés à différencier une partie d’un texte, à lui donner une fonction ou une signification particulière. Ils contiennent généralement un seul ou quelques mots.
 
-Il existe également des éléments qui ne sont ni *block*, ni *inline* :
+Il existe également des éléments qui ne sont ni *block*, ni *inline* (ils se omportent peu ouprou comme des _blocks_) :
 * les éléments de liste : `<li>`
 * les tableaux, leurs colonnes et cellules : `<table>`, `<tr>` et `<td>`
 
 
-<div id="hierarchy"></div>
-## Hiérarchie
+## Hiérarchie {#hierarchie}
 
 Un document HTML est comme un arbre généalogique, on y trouve des parents, des frères et soeurs, des enfants, des ancêtres et des descendants.
 
-Cela vient de la capacité à imbriquer des éléments HTML les uns dans les autres.
-```html
-<p>
-    Le vieux juge <strong>Alex Ferguson</strong> dit : 
-    <q>« Buvez du whisky, fumez du chanvre, goûtez l’élixir de la jeune époque »</q>
-</p>
-```
-Qui se trouve interprêté par le navigateur ainsi :
-
-Le vieux juge <strong>Alex Ferguson</strong> dit : <q>« Buvez du whisky, fumez du chanvre, goûtez l’élixir de la jeune époque »<q>
-
-L’élément `<strong>` indique l’importance du mot encadré, et se traduit (par défaut) par l’application de gras. L’élément `<q>` indique une citation.
-
-Dans ce cas:
-
-* `<p>` est l’élément **parent** de `<strong>` et `<q>`
-* `<strong>` et `<q>` sont des éléments **enfants** de `<p>`
-* `<strong>` et `<q>` sont des éléments **frères**
-
 On imbrique les éléments HTML pour structurer le contenu.
+
 ⚠️ Attention néanmoins à l’ordre des imbrications : il convient de penser les éléments comme des boîtes, ou des poupées russes ; on ne peut pas refermer la plus grande avant d’avoir refermé une plus petite à l’intérieur.
 
 ```html
@@ -142,22 +122,27 @@ On imbrique les éléments HTML pour structurer le contenu.
   </p>
 </article>
 ```
-Le code ci-dessus s’interprête comme suit :
-<article>
-  <h1>Pangrammes célèbres</h1>
-  <p>
-    <em>Portez ce vieux whisky au juge blond qui fume</em> est probablement le plus célèbre <strong>pangramme</strong> français, n’utilisant qu’une seule fois chaque consonne et constituant en outre un alexandrin. En anglais, il s’agit de <em>The quick brown fox jumps over the lazy dog</em>.
-  </p>
-  <p>
-    <em>Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera !</em>, créé par <strong>Gilles Esposito-Farèse</strong>, contient les 42 caractères de la langue française.
-  </p>
-</article>
+
+<details>
+    <summary>Voir l’interprétation du code ci-dessus.</summary>
+    <div style="border:1px dashed black">
+    <article>
+    <h1 style="padding-top:0">Pangrammes célèbres</h1>
+    <p>
+        <em>Portez ce vieux whisky au juge blond qui fume</em> est probablement le plus célèbre <strong>pangramme</strong> français, n’utilisant qu’une seule fois chaque consonne et constituant en outre un alexandrin. En anglais, il s’agit de <em>The quick brown fox jumps over the lazy dog</em>.
+    </p>
+    <p>
+        <em>Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera !</em>, créé par <strong>Gilles Esposito-Farèse</strong>, contient les 42 caractères de la langue française.
+    </p>
+    </article>
+    </div>
+</details>
 
 Dans cette configuration:
 
 * `<article>` est l’**ancêtre** de tous les autres éléments
-* `<article>` est le **parent** du `<h1>` et des trois `<p>`
-* `<h1>` et les trois `<p>` sont **frères**
+* `<article>` est le **parent** du `<h1>` et des deux `<p>`
+* `<h1>` et les deux `<p>` sont **frères**
 * chaque `<p>` est le **parent** du `<strong>` et des `<em>` qu’ils contient
 * chaque `<h1>`, `<p>`, `<strong>` et `<em>` sont tous des **descendants** de `<article>`
 
@@ -374,16 +359,16 @@ Il n’existe pas de règles spécifiques concernant le formatage HTML, mais il 
 <div id="validation"></div>
 ## Un document HTML valide
 
-Jusqu’à présent n’ont été évoqués que des extraits isolés de code HTML. Mais un document HTML (= une page Web) nécessite une structure spécifique pour être valide.
+Jusqu’à présent n’ont été évoqués que des extraits isolés de code HTML. Mais un document HTML (= une page Web) nécessite une structure spécifique pour être « valide ».
 
-Pourquoi se soucier de valider un document HTML?
+Pourquoi se soucier de « valider » un document HTML?
 
 * un document valide est correctement affiché par le navigateur
 * un code HTML invalide peut provoquer des bogues difficiles à cibler
 * un document valide est plus facile à mettre à jour ultérieurement, même par quelqu’un d’autre
 * un document valide est accessible ; il aide les technologies d’assistance à lire et à interpréter la page Web
-* il offre une mailleure possibilité de recherche et aide les ordinateurs et moteurs de recherche à comprendre le sens du contenu
-* il offre de meillures perspectives d’internationalisation
+* il offre une meilleure possibilité de recherche et aide les ordinateurs et moteurs de recherche à comprendre le sens du contenu
+* il offre de meilleures perspectives d’internationalisation
 * il est interopérable, et aide les autres programmeurs à comprendre la structure de la page Web
 
 Si la majorité des visiteurs naviguent sur le Web avec CSS, ceux qui utilisent des lecteurs d’écran et la plupart des robots peuvent simplement scanner et interpréter le code HTML. Ils ont besoin de balises adéquates pour comprendre l’architecture de l’information.
@@ -453,6 +438,7 @@ Si vous voyez cet exemple dans votre navigateur, vous verrez ceci:
 * “Mon magnifique site” est écrit dans l’onglet du navigateur
 * “Hello World!” est le seul texte affiché dans la fenêtre, car c’est le seul contenu du `<body>`
 
+Dans VS Code / VS Codium, on peut créer un document HTML valide en tapant le raccourci `!`, suivi de tabulation (à la condition que le document soit préalablement enregistré en tant que `.html`). On peut également créer un document et l’arborescence associée [ici](https://ateliers.esad-pyrenees.fr/web/minute-hack/). 
 
 
 [→ Le contenu](../content/){.bigbutton}

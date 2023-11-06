@@ -8,7 +8,7 @@ Les couleurs sont largement utilisées en CSS, que ce soit pour la couleur du te
 
 CSS fournit [145 noms de couleurs](https://html-color-codes.info/color-names/), des plus basiques (noir, blanc, orange, jaune, bleu…) aux plus spécifiques (lawngreen, orchid, crimson…). Comme l’on souhaite probablement des couleurs plus spécifiques, les noms de couleurs ne sont pas souvent utilisés.
 
-### rgb
+### rgb et rgba
 
 Les écrans d’ordinateur, les téléviseurs et les téléphones mobiles utilisent tous le modèle de couleur RVB (Rouge/Vert/bleu) pour afficher les couleurs. Chaque couleur est définie par une combinaison de rouge, vert et bleu. Il y a 256 valeurs possibles pour le rouge, le vert ou le bleu. Étant donné que les ordinateurs commencent à compter à zéro, la valeur maximale est de 255.
 
@@ -20,24 +20,22 @@ Le modèle RVB étant directement lié à la manière dont les couleurs sont ren
 Par exemple, la couleur de ce paragraphe est 219 de rouge, 78 de vert et 68 de bleu
 </p>
 
-```
+```css
 p { color: rgb(219, 78, 68); }
 ```
 
 La couleur noire ne contient ni rouge, ni vert, ni bleu:
-```
+```css
 body { color: rgb(0, 0, 0); }
 ```
 
 De l’autre côté du spectre, le blanc correspond à la quantité maximale de rouge, vert et bleu:
-```
+```css
 body { background: rgb(255, 255, 255); }
 ```
 
-### rgba
-
-L’unité de couleur `rgba`  ajoute à `rgb` une valeur alpha (comprise entre 0 et 1, en valeurs décimales), qui définit le degré de transparence de la couleur:
-```
+L’unité de couleur `rgba`  ajoute à `rgb` une valeur _alpha_ (comprise entre 0 et 1, en valeurs décimales), qui définit le degré de transparence de la couleur:
+```css
 body { color: rgba(0, 0, 0, 0.8); }
 ```
 Une couleur noire légèrement transparente.
@@ -58,7 +56,7 @@ La couleur de ce paragraphe est définie ainsi : <code>color: hsl (4,68%, 56%);<
 </p>
 
 `hsla` est identique à `hsl`, avec la possibilité de définir une valeur alpha:
-```
+```css
 body {couleur: hsla (4, 68%, 56%, 0.5);}
 ```
 
@@ -78,6 +76,12 @@ p { color: #db4e44; }
 ```
 
 Les valeurs hexadécimales sont plus difficilement lisibles, mais plus facilement copiables depuis le sélecteur de couleurs du système d’exploitation, de photohop ou d’illustrator.
+
+### Oklch
+
+`Oklch` est une nouvelle manière (au moment où ces lignes sont écrites) de déterminer des couleurs. La notation fonctionnelle `oklch()` exprime une couleur donnée dans l'espace de couleur OKLab, qui essaie de se rapprocher de la perception de la couleur par l'œil humain, en utilisant les coordonnées polaires (le « cercle chromatique ») pour la teinte.
+
+Voir [oklch.com](https://oklch.com/).
 
 ## Dimensions
 
