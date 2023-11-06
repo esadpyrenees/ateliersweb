@@ -169,7 +169,8 @@ ni la “qualité” ni la quantité de code ne sont des critères d’évaluati
 * Les [antilivres](https://www.antilivre.org/#manifeste) d’abrüpt
 * [otherti.me](https://otherti.me/), un projet de Raphaël Bastide
 
-### Jeux scène alternative itch.io
+### Jeux — scène aternative & itch.io
+* [Everest Pipkin](https://everest-pipkin.com/)
 * [A Desktop Love Story](https://alienmelon.itch.io/lovestory), jeu basé sur le système de fichiers de votre ordinateur, une histoire d’amour entre deux fichiers. Voir aussi [Foldscape](https://porpentine.itch.io/foldscape).
 * [A fine night](https://twitter.com/AFineNight), une fiction interactive racontée à l’intérieur de Twitter. Voir aussi [@wnd_go](https://twitter.com/wnd_go), sur Twitter toujours, construit grâce à de multiples comptes.
 * [TimeTossed](http://slimedaughter.com/games/twine/timetossed/), un des nombreux jeux/fictions interactives de [Popertine](http://slimedaughter.com/), construit à partir de formulaires Google
@@ -201,6 +202,11 @@ La [section exemples](../../exemples/) du site propose de nombreux éléments li
 * [txti.es](http://txti.es/) ou [telegra.ph](http://telegra.ph/) sont des espaces de publication anonyme en ligne sans inscription
 * [Tumblr](https://www.tumblr.com/), un des nombreux services qui permettent de publier textes, images, sons, vidéos “gratuitement” tout en maîtrisant complètement l’aspect visuel du site
 * [Ink](https://www.inklestudios.com/ink/), un langage de balisage pour créer des histoires interactives ou des jeux (principalement) textuels (un peu complexe…)
+* [Inklewriter](https://www.inklewriter.com/), tout comme Ink, mais sans le code !
+* [Yarn Spinner](https://yarnspinner.dev/) permet d’écrire des dialogues pour des moteurs de jeu de type Unity ou Godot.
+* [Flicksy](https://candle.itch.io/flicksy) est un outil pour générer des jeux (lo-res) graphiques et hypertextuels.
+* [Ravel](https://ravel.neocities.org/), _ultra lo-tech html game engine_.
+* Moult autres outils sur [fiction-interactive.fr](https://www.fiction-interactive.fr/les-nouveaux-outils-narratifs/) et sur [tinytools.directory](https://tinytools.directory/)…
 
 ## Arborescences hypertextuelles
 
