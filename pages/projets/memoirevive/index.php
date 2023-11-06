@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets: mémoire vive";
+    $title = "Mémoire vive";
     $description = "";
     $section="projets";
     $subsection="memoirevive";

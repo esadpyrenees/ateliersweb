@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Références — Professionnalisation";
+    $title = "Auto-défense économique – 2023–2024 — Stéphane Buellet & Chevalvert";
     $description = "Ressources d’auto-défense économique pour graphistes en temps de crise.";
     $section="gopro";
     $subsection="2324";

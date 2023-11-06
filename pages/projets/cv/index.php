@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets → Curriculum vitæ";
+    $title = "Curriculum vitæ";
     $section="projets";
     $subsection="cv";
     $mdfile = "./index.md";

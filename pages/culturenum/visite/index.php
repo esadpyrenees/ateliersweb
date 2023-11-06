@@ -1,5 +1,5 @@
 <?php
-  $title = "Visite rapide au cœur du web";
+  $title = "Cultures numériques → Visite du web";
   $description = "Une sélection de liens fascinants, hasardeux, étranges, incroyables pour prouver à qui veut bien le croire combien le web est cool";
   $section="culturenum";
   $subsection="visite";

@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets: Feck perfuction";
+    $title = "Feck perfuction";
     $section="projets";
     $subsection="perfuction";
     // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav

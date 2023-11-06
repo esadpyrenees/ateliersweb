@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets → NeoGeo";
+    $title = "NeoGeo";
     $description = "Abstraction géométrique et CSS";
     $section="projets";
     $subsection="neogeo";

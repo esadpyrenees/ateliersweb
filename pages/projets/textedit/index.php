@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets: Code is law";
+    $title = "TextEdit (Code is law)";
     $section="projets";
     $subsection="textedit";
     // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav

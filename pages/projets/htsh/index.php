@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets — Hypertext Superhero";
+    $title = "Hypertext Superhero";
     $section="culturenum";
     $subsection="folklore";
     $section="projets";

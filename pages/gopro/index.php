@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Références — Professionnalisation";
+    $title = "Professionnalisation";
     $description = "Ressources d’auto-défense économique pour graphistes en temps de crise.";
     $section="gopro";
     $subsection="gopro";

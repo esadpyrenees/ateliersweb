@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Cultures numériques → Design libre";
+    $title = "Cultures numériques";
     $section="culturenum";
     $subsection="intro";
     $mdfile = "./culturenum.md";

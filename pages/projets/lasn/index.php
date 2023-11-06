@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets → Local Area (social) Network";
+    $title = "Local Area (social) Network";
     $section="projets";
     $subsection="lasn";
     $mdfile = "./index.md";

@@ -126,6 +126,6 @@
 * [bl.a](https://blimages.tumblr.com/)
 * [infokiosques.net](https://infokiosques.net/spip.php?page=lire&id_article=63)
 * [Digression sur un moment fasciste - [A Contretemps, Bulletin bibliographique]](https://acontretemps.org/spip.php?article1001)
-* [ÉSAD Pyrénées – Ateliers web – Projets → Micromedia](https://ateliers.esad-pyrenees.fr/web/pages/projets/micromedia/)
+* [ÉSAD Pyrénées – Ateliers web – Micromedia](https://ateliers.esad-pyrenees.fr/web/pages/projets/micromedia/)
 
 </div>

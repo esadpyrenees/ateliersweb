@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Projets → Micromedia";
+    $title = "Micromedia";
     $description = "Proposition de production médiatique autonome, autoproduite et autopubliée, du web au print";
     $section="projets";
     $subsection="micromedia";
