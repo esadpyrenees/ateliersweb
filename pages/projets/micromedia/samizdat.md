@@ -73,7 +73,7 @@ Nourries des approches formelles et conceptuelles de Dada ou de l’Internationa
 
 
 [^punk]: Regarder et écouter l’excellent épisode de Trash Theory consacré aux prémices et aux précédents de la culture punk :  [_Before 1976 Revisited: How Punk Became Punk _](https://www.youtube.com/watch?v=6lyoAczdMSM)
-[^rock]: Michael Rock, « [Designer as Author](https://2x4.org/ideas/1996/designer-as-author/) » et « [Fuck conten](https://2x4.org/ideas/2009/fuck-content/) ».
+[^rock]: Michael Rock, « [Designer as Author](https://2x4.org/ideas/1996/designer-as-author/) » et « [Fuck content](https://2x4.org/ideas/2009/fuck-content/) ».
 [^bricoles]: Auto-référence, désolé. Lire « [Bricoles : Bricolage, design, pratiques artistiques et numériques](https://accentgrave.net/bricoles/) »
 
 
