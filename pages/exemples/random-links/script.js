@@ -1,16 +1,49 @@
-// La liste des liens est obtenue grâce à la déclaration de `const links = […]` dans le fichier links.js
-// Les liens sont formatés ainsi :
-const example_links = [
-  { 
-    text: "Libellé du lien", 
-    url: "http://url-du.lien"
-  }, 
-  { 
-    text: "Libellé du lien", 
-    url: "http://url-du.lien"
-  }
-];
+// La liste des liens est obtenue grâce à la lecture d’un fichier csv (Libre Office Calc, Excel, Google Sheets)
 
+// Configuration :
+const csv = "links.csv";
+const separator = ";"
+
+// Lecture du fichier
+var request = new XMLHttpRequest();  
+request.open("GET", "links.csv", false);   
+request.send(null);  
+
+// fonction pour supprimer les guillemets autour des chaînes
+function unquote(string="", quote='"'){
+  return string.replaceAll(quote, '');
+}
+
+// construction de données exploitables
+const links = new Array();
+// coupe la réponse par ligne
+const json = request.responseText.split(/\r?\n|\r/);
+// nom des colonnes
+let columns = new Array()
+
+// pour chaque ligne :
+for (let i = 0; i < json.length; i++) {
+  // ligne 0 : entête (nom des colonnes)
+  if(i == 0) {
+    columns = json[i].split( separator )
+  // autres lignes : valeurs
+  } else {
+    const values = json[i].split( separator )
+    let row = {};
+    columns.forEach((column, index) => {
+      row[unquote(column)] = unquote(values[index]);
+      // ici, on peut mofifier les valeurs en faisant des tests
+      // par exemple :
+      // if(column == "categories") {
+      //    // découpe une liste séparé par des virgules en array
+      //    row[column] = values[index].split(",");
+      // }
+    });    
+    links.push(row);
+  }
+};
+console.log(links);
+// Construction du HTML et interactions
 
 let padding = 50, // marges
     wh = window.innerHeight - padding * 2, // hauteur de la fenêtre
@@ -53,6 +86,7 @@ window.addEventListener('resize', () => {
   });
 });
 
+// interactions
 const nav = document.querySelector('#nav'),
   body = document.body;
 nav.addEventListener("click", (e) => {
@@ -65,7 +99,7 @@ nav.addEventListener("click", (e) => {
       body.className = "";
     // ou ajoute la class au body
     } else {
-      body.className = bodyclass
+      body.className = bodyclass;
     }
   }
   
