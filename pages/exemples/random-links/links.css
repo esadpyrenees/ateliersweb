@@ -10,6 +10,7 @@ body {
   margin: 50px;
   color: var(--light);
   background-color: var(--dark);
+  font-family: ui-monospace,  Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;   
 }
 
 /* ----------------------------------------- links */
