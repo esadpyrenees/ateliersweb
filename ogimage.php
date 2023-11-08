@@ -58,7 +58,7 @@
     $convert = $_SERVER["HTTP_HOST"] == "localhost" ? '/usr/bin/convert' : '/usr/bin/convert';    
     
     // cas des exemples
-    if($section == "exemples"){
+    if($section == "exemples_temp_break"){
         
         // on cherche le dossier de l’exemple
         $dir = dirname(__FILE__) . '/pages/exemples/' . $subsection;
