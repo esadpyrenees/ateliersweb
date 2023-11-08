@@ -1,0 +1,76 @@
+/* ----------------------------------------- CSS */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%}
+
+:root {
+  --dark: #0e3718;
+  --light: #ff0;
+}
+body { 
+  margin: 50px;
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+/* ----------------------------------------- links */
+.link { 
+  color: var(--dark);
+  position: absolute;
+  width: 10em;
+  background: var(--light);
+  text-decoration: none;
+  padding: 1.5em;
+  border-radius: 100%;
+  text-align: center;
+  mix-blend-mode: difference;
+  transition: transform 250ms;
+}
+.link:hover {
+  mix-blend-mode: normal;
+  color: var(--light);
+  background-color: var(--dark);
+  z-index: 3;
+  transform: scale(1.5);
+}
+
+/* ----------------------------------------- nav */
+#nav {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 4;
+}
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 2em;
+  color: var(--light); 
+}
+
+/* ----------------------------------------- grid mode */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  gap: 1em;
+  align-items: center;
+}
+.grid .link {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----------------------------------------- list mode */
+.list {
+  display: block
+}
+.list .link {
+  position: relative;
+  display: inline-flex;
+  width: auto;
+  /* ----------------------------------------- border-radius: 0; */
+  top: 0 !important;
+  left: 0 !important;
+}
