@@ -54,7 +54,8 @@ let padding = 50, // marges
 for (var i = 0; i < links.length; i++) {
   const link = links[i];
   var a = document.createElement("a");
-  a.className = 'link';
+  // ici, on pourrait ajouter des class en fonction de la colonne “categories”
+  a.classList.add('link');
   // texte et href issus des attributs "text" et "url" de l’élément
   a.textContent = link.text;
   a.href = link.url;
