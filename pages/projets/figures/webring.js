@@ -39,7 +39,6 @@ webring.id = "webring";
 
 
 let loc = window.location.href;
-loc = "https://ateliers.esad-pyrenees.fr/web/archives/2023-2024/2DGM/lucas/figures/"
 let current = null, next = null, prev = null;
 urls.forEach((url,index) => {
   if(loc.includes(url.url)) {
@@ -48,13 +47,13 @@ urls.forEach((url,index) => {
     next = urls[nextindex];
     let previndex = index > 0 ? index - 1 : urls.length - 1
     prev = urls[previndex];
-    console.log(url.url, index, previndex, nextindex);
+    const prevlink = `<a href="${prev.url}" title="${prev.name}">←</a>`;
+    const nextlink = `<a href="${next.url}" title="${next.name}">→</a>`;
+    webring.insertAdjacentHTML('afterbegin', prevlink);
   } 
 });
 
-const prevlink = `<a href="${prev.url}" title="${prev.name}">←</a>`;
-const nextlink = `<a href="${next.url}" title="${next.name}">→</a>`;
-webring.insertAdjacentHTML('afterbegin', prevlink);
+
 
 const select = document.createElement('select');
 
