@@ -74,7 +74,7 @@ shuffled_urls.forEach((url,index) => {
 });
 
 select.addEventListener("change", () => {
-  console.log(select.options[select.selectedIndex].value);
+  window.location.href = select.options[select.selectedIndex].value;
 })
 
 webring.appendChild(select);

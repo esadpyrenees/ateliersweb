@@ -5,7 +5,7 @@
     $subsection="figures";
     $mdfile = "./index.md";
     // $date = "today";
-    $custom_js = "webring.js";
+    // $custom_js = "webring.js";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
