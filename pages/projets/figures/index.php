@@ -5,6 +5,7 @@
     $subsection="figures";
     $mdfile = "./index.md";
     // $date = "today";
+    $custom_js = "webring.js";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
@@ -20,6 +21,13 @@
 
 ?>
     <style>
+        figure {
+            margin: 0;
+            aspect-ratio:16/9
+        }
+        figure img {
+            width:100%; height: 100%; object-fit: cover
+        }
         .pad{
             border: 1px dotted #000;
             padding: 1em;
@@ -29,6 +37,7 @@
     </style>
     <main class="pane active typeset" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+        <?= $Parsedown->text( file_get_contents( "proposals.md" ) ); ?>
         <div class="pad">
         <?php
             $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_cultures_numeriques/export/txt" );
@@ -36,8 +45,6 @@
             echo $parsed_pad;
         ?>
         </div>
-        <?= $Parsedown->text( file_get_contents( "proposals.md" ) ); ?>
-        <?= $Parsedown->text( file_get_contents( "tools.md" ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 

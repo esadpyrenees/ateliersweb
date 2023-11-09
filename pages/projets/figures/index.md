@@ -1,34 +1,26 @@
 # Figures
 
 
-Produire un exposé oral de 10 minutes soutenu par un support visuel vidéo-projeté réalisé sous la forme d’une page web[^webdesign], dédié à la présentation d’une grande figure du numérique (de son histoire ou de son actualité, dans le champ de l’art, du design, de la pensée ou de la critique).
+Produire une une page web dédiée à la présentation d’une _figure_ du design ou de l’art numérique. Produire collectivement une publication circulaire, sur le modèle du _webring_, grâce à l’inclusion d’un script, avant la balise `</body>` :
+```html
+<script src='https://ateliers.esad-pyrenees.fr/web/pages/projets/figures/webring.js'></script>
+```
 
-[^webdesign]: Le cours de webdesign donnera progressivement les outils et techniques permettant de mener à bien ce projet.
-
-Chaque présentation sera suivie de 5 minutes de questions/réponses.
 
 ### Attention
 
-La proposition de travail n’est pas un exercice d’écriture textuelle, mais de recherche, d’articulation et de synthèse. Les sources externes sont bienvenues et doivent être référencées par l’intermédiaire d’une bibliographie ou par l’association de liens hypertextes à la suite des citations.
+La proposition de travail n’est pas un exercice d’écriture textuelle, mais de recherche, d’articulation et de synthèse. Les sources externes sont bienvenues et doivent être référencées par l’association de liens hypertextes à la suite des citations.
 
 
 ### Enjeux
 
-* Structurer l’exposé : introduire, développer, conclure (ouvrir)
-* Trouver un “angle” : chaque proposition thématique (artiste, studio, designer, festival…) doit être abordée selon votre propre point de vue : vous pouvez déterminer un ensemble de projets à présenter, faire un focus sur deux ou trois points saillants
-* Rythmer la présentation, trouver un équilibre entre la présentation orale et la dimension visuelle
-* Si vous souhaitez diffuser un extrait de vidéo, mesurez le temps souhaitable et nécessaire pour que l’on comprenne sans grèver votre temps de présentation
+* Structurer le contenu : biographie, projets importants, sitographie, influences, artistes/designers associé⋅es…;
+* Trouver votre “angle” : aborder chaque _figure_ selon votre propre point de vue ;
+* Rythmer la page, trouver un équilibre ou des établir des tensions entre le texte et la dimension visuelle (images, vidéos) ; 
 
 ### Méthode
-* Un Padlet dédié peut être mis en place pour récolter les informations (liens, images, textes, URLs, vidéos Youtube/Vimeo, etc.)
-* La page HTML (ou les pages) auront tout intérêt à rester très simples en termes de mise en forme ; il s’agit principalement de **structurer hiérarchiquement** un contenu textuel et visuel
-* Les pages seront mises en ligne selon les modalités découvertes dans le cours de webdesign
+* Un document texte (brut) peut servir à récolter les informations (liens, images, textes, URLs, vidéos Youtube/Vimeo, etc.) ; un outil de prise de note (Zettlr, Obsidian, Notion…) peut être appréciable.
+* La page HTML (ou les pages) auront tout intérêt à rester très simple en termes de mise en forme ; il s’agit principalement de **structurer hiérarchiquement** un contenu textuel et visuel
+* Les pages seront mises en ligne sur [votre espace](../../../archives/2023-2024/2dgm) dans l’atelier web
 * Un exemple « pas à pas » est [visible en ligne](../../ressources/css/pratique/), qui déploie progressivement le processus de mise en forme d’un exposé
-
-## Espace collaboratif
-Un « pad » (de l'anglais _paper pad_, bloc de papier) est un éditeur de texte collaboratif en temps réel, en ligne. L’association Framasoft (comme d’autres [CHATONS](https://entraide.chatons.org/fr/)) propose un [service de pads](https://framapad.org/fr/) basés sur le logiciel Etherpad.
-
-[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques?lang=fr){.bigbutton}
-
-
 

@@ -1,0 +1,30 @@
+
+#webring { 
+  position: fixed; 
+  bottom: 50px; right:50px; 
+  background: black; 
+  border-radius: 1em;
+  display: flex;
+  gap: 1em;
+  padding: .5em 1em;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+#webring a {
+  color: white;
+  text-decoration: none;
+  border: none;
+  font: normal 1em/1 monospace
+}
+#webring select {
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: #333; 
+  font: normal .85em/1 monospace;
+  padding: .25em 1em;
+}
+#webring option {  
+  font: normal .85em/1 monospace;
+}
