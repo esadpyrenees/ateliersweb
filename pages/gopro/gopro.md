@@ -27,6 +27,10 @@ Pour démarrer, [c’est ici](https://www.autoentrepreneur.urssaf.fr/portail/acc
 
 Les statuts et modalités d’activité des artistes et designers évoluent à grande vitesse : veillez à accéder aux ressources ci-dessous en tenant compte de leur date de création.
 
+### Logiques collectives
+
+[L’association peut-elle être un mode d’entrepreneuriat ?](https://www.questions-asso.com/episodes/s02/episode6.html) Pourquoi, et comment, peut-on envisager la structuration associative comme modèle entrepreneurial.
+
 ### Livres + online
 Un livre de référence est [Profession Graphiste Indépendant](http://www.profession-graphiste-independant.com/) mais aussi [Créatif en free-lance : Je me lance !](http://www.creatif-freelance.com/), de Julien Moya. Voir aussi en ligne le guide [Kit de survie des métiers graphiques](http://kitdesurvie.metiers-graphiques.fr/).
 
