@@ -330,28 +330,21 @@ pre .hljs {
 }
 .copybtn {
     position: absolute;
-    right: 1.5em;
-    top: 1em;
+    right: 1em;
+    top: .5em;
     border: none;
     border-radius: .25em;
     padding: .25em .5em .25em .6em;
     display: none;
+    transform-origin: 0 0;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
 }
 pre:hover .copybtn { display: block; }
-.copybtn.copied::before {
-    content: "Copié !";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    border-radius: .25em;
+.copybtn.copied {
     background: limegreen;
-    color: white;
-    transform: translateX(calc(-100% - .5em));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 .5em;
+    /* color: white; */
     animation: copied 1500ms ease-out 1 forwards;
 }
 @keyframes copied {
@@ -360,16 +353,47 @@ pre:hover .copybtn { display: block; }
     85% {opacity: 1;}
     100% { opacity: 0;}
 }
-details[open] div {
-    border: 2px solid;
-    padding: 1em;
+details {
+    padding: 1em 1em 0;
+    border-radius: .25em;
     max-width: var(--p-width)
 }
-details[open] div > :first-child{ margin-top: 0;}
+
+details[open] {
+    background: #e0e0e0;
+    padding: 1em;
+}
+/* details[open] div > :first-child{ margin-top: 0;} */
 details[open] div > :last-child{ margin-bottom: 0;}
 details summary {
     cursor: pointer;
+    list-style-type: none;
+    position: relative;
+    background: #eee;
+    max-width: var(--p-width);
+    list-style: none;
+    padding: .35em .25em .2em .25em;
+    margin: -1em -1em 0 ;
+    border-radius: .25em;
+    list-style-position: outside;
 }
+
+details summary::before {
+    border-radius: 100%;
+    content: "?";
+    font-size: .85em;
+    font-weight: bold;
+    display: inline-flex;
+    background: #000;
+    color: white;
+    margin: 0 .5em 0 .25em;
+    padding-top: .3em;
+    justify-content: center;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
 .edit{
     animation: 250ms linear alternate infinite edit;
 }
