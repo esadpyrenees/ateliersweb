@@ -145,7 +145,7 @@ var copy = function(target) {
     document.body.removeChild(textArea)
 }
 
-var pres = document.querySelectorAll("main pre")
+var pres = document.querySelectorAll("main pre:not(.filesystem)")
 pres.forEach(function(pre){
   var button = document.createElement("button")
   button.className = "copybtn"

@@ -4,10 +4,10 @@
 
     $Parsedown = new Parsedown();
 
-    $title = "ÉSAD Pyrénées — Ateliers web — Ressources";
+    $title = "Ressources HTML → Formulaires";
     $section="ressources";
     $subsection="html";
-    $subsubsection="content";
+    $subsubsection="forms";
 
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
     include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");

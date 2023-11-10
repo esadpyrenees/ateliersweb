@@ -295,6 +295,8 @@ blockquote {
 }
 sup { line-height: 1;}
 
+
+/* ------------------------------------------- code */
 pre, code {
     font-family: 'Fira Code';
     font-variant-ligatures: none;
@@ -328,6 +330,18 @@ pre:not([markdown="0"]) {
 pre .hljs {
     padding: 0.5em 40px !important;
 }
+pre.filesystem {
+    --c: #ddd;
+    --a:#eee;
+    /* padding: .5em; */
+    border: .5em solid var(--a);
+    background: repeating-linear-gradient(to bottom, var(--a) 0em, var(--a) 1.5em, var(--c) calc(1.5em + 1px), var(--c) 3em);
+    /* background-position: 0 .5em; */
+}
+
+
+/* ------------------------------------------- copybtn */
+
 .copybtn {
     position: absolute;
     right: 1em;
@@ -353,6 +367,8 @@ pre:hover .copybtn { display: block; }
     85% {opacity: 1;}
     100% { opacity: 0;}
 }
+
+/* ------------------------------------------- details */
 details {
     padding: 1em 1em 0;
     border-radius: .25em;
@@ -363,7 +379,6 @@ details[open] {
     background: #e0e0e0;
     padding: 1em;
 }
-/* details[open] div > :first-child{ margin-top: 0;} */
 details[open] div > :last-child{ margin-bottom: 0;}
 details summary {
     cursor: pointer;
@@ -393,6 +408,7 @@ details summary::before {
     width: 1.5em;
     height: 1.5em;
 }
+
 
 .edit{
     animation: 250ms linear alternate infinite edit;

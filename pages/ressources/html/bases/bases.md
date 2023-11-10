@@ -6,13 +6,14 @@ Le Web étant un média *fluide*, ce paradigme n’y est pas adapté. Il n’est
 
 ## ⌘S ⌘⇥ ⌘R
 
-Deux outils sont donc nécessaires pour coder une page web : un éditeur de texte (VS Code, Atom, Brackets…) pour **modifier** le contenu et un navigateur (Firefox, Chrome…) pour **visualiser** le résultat.
+Deux outils sont donc nécessaires pour coder une page web : un éditeur de texte (VS Code / Codium, Atom, Brackets…) pour **modifier** le contenu et un navigateur (Firefox, Chrome…) pour **visualiser** le résultat.
 
-L’aller-retour étant permanent entre les deux outils, il est **indispensable** de s’habituer à utiliser les raccourcis clavier. Modifier le fichier, le sauvegarder, basculer dans le navigateur et rafraichir l’affichage de la page. Autrement dit :
+L’aller-retour étant permanent entre les deux outils, il est **indispensable** ¯\\_(ツ)_/¯ de s’habituer à utiliser les raccourcis clavier. Modifier le fichier, le sauvegarder, basculer dans le navigateur et rafraichir l’affichage de la page. Autrement dit :
 
-`cmd+s`, `cmd+tab`, `cmd+r` sur MacOS, ou `ctrl+s`, `alt+tab`, `F5` pour Windows/Linux
+`cmd + s`, `cmd + tab`, `cmd + r` sur MacOS, ou…  
+`ctrl + s`, `alt + tab`, `ctrl + r` pour Windows/Linux.
 
-Pour créer un document HTML, il suffit de créer un fichier texte (cmd/ctrl + N) et de l’enregistrer sous le nom `cequevousvoulez.html`. Ou mieux: `index.html` (il deviendra ainsi la page d’accueil par défaut de votre projet de site web).
+Pour créer un document HTML, il suffit de créer un fichier texte (`cmd/ctrl + n`) et de l’enregistrer sous le nom `cequevousvoulez.`**`html`**, ou mieux: `index.html` (il deviendra ainsi la page d’accueil par défaut de votre projet de site web).
 
 
 ## Tags, attributs et élements
@@ -34,9 +35,6 @@ Voici un paragraphe encodé en HTML :
 ```html
 <p>Jack, vous dactylographiez bien mieux que votre ami Wolf</p>
 ```
-Dont le résultat interprété par le navigateur est  :
-
-Jack, vous dactylographiez bien mieux que votre ami Wolf
 
 
 <div id="attributes"></div>
@@ -49,11 +47,10 @@ Par exemple, l’attribut `href` est utilisé pour définir la cible d’un lien
 ```html
 <a href="https://ateliers.esad-pyrenees.fr/">Ce site est génial</a>
 ```
-Qui se traduit en : « [Ce site est génial](https://ateliers.esad-pyrenees.fr/) »
 
 Les attributs sont normalisés (on ne peut pas écrire ce que l’on veut). Les plus courants sont `class`, `id`, `href`, `src` ; ils seront abordés progressivement dans la suite de ce document et dans la section [CSS](../css/).
 
-Ils sont parfois indispensables à certaines balises. Par exemple pour insérer une image :
+Ils sont parfois indispensables à certaines balises. Par exemple pour insérer une image, l’attribut `src` est indispensable pour préciser quel fichier image on souhaite voir s’afficher :
 ```html
 <img src="img/logo.png" alt="Logo">
 ```
@@ -77,8 +74,8 @@ HTML possède deux grands types d’éléments, les éléments *block* et *inlin
 
 Éléments “bloc” :
 * paragraphes `<p>`
-* listes : non ordonnées (à puces) `<ul>` ou ordonnées (avec des nombres) `<ol>`
-* titres : du 1er niveau `<h1>` au 6e niveau `<h6>`
+* listes non ordonnées (à puces) `<ul>` ou ordonnées (avec des numéros) `<ol>`
+* titres, du 1er niveau `<h1>` au 6e niveau `<h6>`
 * articles : `<article>`
 * sections : `<section>`
 * citations : `<blockquote>`
@@ -98,7 +95,7 @@ Les **éléments bloc** sont destinés à structurer les principales parties d�
 
 Les **éléments en ligne** sont destinés à différencier une partie d’un texte, à lui donner une fonction ou une signification particulière. Ils contiennent généralement un seul ou quelques mots.
 
-Il existe également des éléments qui ne sont ni *block*, ni *inline* (ils se omportent peu ouprou comme des _blocks_) :
+Il existe également des éléments qui ne sont ni *block*, ni *inline* (ils se comportent peu ou prou comme des _blocks_) :
 * les éléments de liste : `<li>`
 * les tableaux, leurs colonnes et cellules : `<table>`, `<tr>` et `<td>`
 
@@ -125,7 +122,7 @@ On imbrique les éléments HTML pour structurer le contenu.
 
 <details>
     <summary>Voir l’interprétation du code ci-dessus.</summary>
-    <div style="border:1px dashed black">
+    <div>
     <article>
     <h1 style="padding-top:0">Pangrammes célèbres</h1>
     <p>
@@ -260,40 +257,7 @@ En lisant ce code HTML correctement balisé, on peut facilement comprendre la si
 <div id="spaces"></div>
 ## Espaces et formatage du code
 
-En HTML, l’espacement n’importe (presque) pas : les espaces, les tabulations ou les sauts de ligne à l’intérieur du code source ne sont pas affichés par le navigateur.
-De multiples espaces, tabulation ou sauts de ligne ne sont rendus que par une seule espace.
-
-```html
-<blockquote>
-    Tout su
-        tout blanc
-        corps nu
-        blanc
-
-    un mètre
-        jambes collées comme cousues.
-
-    Lumières chaleur
-        sol blanc
-        un mère carré
-            jamais vu.
-</blockquote>
-```
-Résultat interprété par le navigateur :
-<blockquote>
-    Tout su
-        tout blanc
-        corps nu
-        blanc
-
-    un mètre
-        jambes collées comme cousues.
-
-    Lumières chaleur
-        sol blanc
-        un mère carré
-            jamais vu.
-</blockquote>
+En HTML, l’espacement n’importe (presque) pas : les espaces, les tabulations ou les sauts de ligne à l’intérieur du code source ne sont pas affichés par le navigateur : de multiples espaces, tabulation ou sauts de ligne ne sont rendus que par une seule espace.
 
 Pour forcer un saut de ligne on utilise la balise `<br>`
 ```html
@@ -314,7 +278,7 @@ Ce qui donne :
 ### Indentation
 Plus un document HTML est complexe et contient de balises imbriquées, plus il est compliqué de se repérer à l’intérieur s’il n’est pas correctement “indenté” (l’indentation est l’espace généré en début de ligne par la succession de séries d’espaces ou de tabulations).
 
-Même si les deux codes sont équivalents, il est largement préférable (voire tout à fait **indispensable**) d’écrire :
+Même si les deux codes sont équivalents, il est largement préférable (voire à nouveau **indispensable** ¯\\_(ツ)_/¯) d’écrire :
 ```html
 <article>
     <p>
@@ -336,25 +300,16 @@ Plutôt que :
 </em>
     seule.</p></article>
 ```
-
-Ils afficheront :
-<article>
-    <p>
-        Ce code est écrit sur
-        <strong>plusieurs</strong>
-        lignes, mais sera néanmoins
-        affiché sur
-        <em>une</em>
-        seule.
-    </p>
-</article>
+<details markdown=1>
+<summary>Pas de régles, mais de bonnes pratiques</summary>
 
 Il n’existe pas de règles spécifiques concernant le formatage HTML, mais il existe des conventions implicites, notamment:
 
 * utiliser des **[tabulations](https://fr.wikipedia.org/wiki/Touche_de_tabulation)** pour aider à visualiser comment les éléments HTML sont imbriqués
-* placer les balises d’ouverture et de fermeture des éléments de niveau bloc sur leur propre ligne
-* écrire les éléments en ligne sur une ligne (y compris les balises d’ouverture et de fermeture)
+* placer les balises d’ouverture et de fermeture des éléments de niveau bloc sur leur propre ligne (`<article>` et `<p>` dans l’exemple)
+* écrire les éléments en ligne sur une ligne (y compris les balises d’ouverture et de fermeture ; `<strong>` et `<em>` dans l’exemple)
 
+</details>
 
 <div id="validation"></div>
 ## Un document HTML valide

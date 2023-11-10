@@ -30,8 +30,10 @@
                 <li><a href="#links">Liens</a></li>
                 <li><a href="#images">Images</a></li>
                 <li><a href="#structure">Structure</a></li>
-                <li><a href="#forms">Formulaires</a></li>
             </ul>
+        </li>
+        <li class="<?= $subsubsection == 'forms' ? 'opened' : '' ?>">
+            <a href="/web/pages/ressources/html/forms">Formulaires</a>
         </li>
     </ul>
     <ul>

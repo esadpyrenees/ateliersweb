@@ -9,7 +9,7 @@ Lorsqu’on écrit du code HTML, on écrit du texte. Le premier et principal con
 
 ### Les paragraphes
 
-Les paragraphes `<p>` sont les éléments HTML les plus utilisés, car ils agissent en tant qu’éléments de niveau bloc par défaut et sont rapides à écrire.
+Les paragraphes `<p>` sont les éléments HTML parmi les plus utilisés.
 
 ```html
 <p>
@@ -21,13 +21,13 @@ Les paragraphes `<p>` sont les éléments HTML les plus utilisés, car ils agiss
 
 Les listes existent en 3 variantes:
 
-* `<ul>` sont des listes non ordonnées
-* `<ol>` sont des listes ordonnées (dont les éléments sont automatiquement numérotés)
-* `<dl>` sont des listes de définitions (plus rarement utilisées, et non décrites ici)
+* `<ul>` : des listes non ordonnées
+* `<ol>` : des listes ordonnées (dont les éléments sont automatiquement numérotés)
+* `<dl>` : des listes de définitions (plus rarement utilisées, et non décrites ici)
 
 Les listes HTML nécessitent une structure spécifique:
 
-`<ul>` et `<ol>` doivent inclure et être les parents directs de `<li>`, qui représente les éléments de la liste. Par conséquent, les éléments `<li>` ne peuvent pas être utilisés seuls et doivent être des enfants directs d’une `<ul>` ou d’une `<ol>`.
+`<ul>` et `<ol>` doivent inclure et être les parents directs de `<li>`, les _list items_, éléments de la liste.
 
 #### Listes non ordonnées
 
@@ -166,19 +166,15 @@ Lorsque l’on balise un élément de contenu qui n’a pas de signification par
 
 Les liens sont des éléments essentiels du HTML ; le Web a été conçu pour être un réseau d’information constitué de documents **liés** entre eux.
 
-La partie “HyperText” de HTML définit le type de ces liens : liens hypertextes, ou hyperliens. Le mot “hypertexte” a été créé en 1965 par Ted Nelson, pour décrire la notion (bien plus ancienne) de liaisons entre des documents.
-
 En HTML, les liens sont des éléments en ligne écrits avec la balise `<a>` (pour *anchor*, ancre).
 
 L’attribut `href` (référence hypertexte) est utilisé pour définir la cible du lien (à laquelle on accède lorsqu’on clique).
 ```html
 <p>
-  Pour vous perdre, naviguez dans le <a href="https://desordre.net">Désordre</a>.
+  Vous êtes <a href="https://perdu.com">perdu⋅es</a> ? 
+  Naviguez dans le <a href="https://desordre.net">Désordre</a>.
 </p>
 ```
-<p>
-  Pour vous perdre, naviguez dans le <a href="https://desordre.net">Désordre</a>.
-</p>
 
 Les liens constituent l’interaction principale d’une page Web : on navigue d’un document à un autre en cliquant sur les liens.
 
@@ -200,16 +196,19 @@ Par exemple, `<a href="#top">` fait défiler la page jusqu’à l’élément do
 
 Si on souhaite définir un lien vers une autre page du même site Web, on utilise des URL relatives (relatives au document courant, à la page en cours).
 
-Exemple : le dossier “mon-site” contient deux fichiers HTML (`home.html` et `contact.html`), mais aussi un sous-dossier “projets” qui contient d’autres pages.
+Exemple : le dossier “mon-site” contient deux fichiers HTML (`index.html` et `contact.html`), mais aussi un sous-dossier “projets” qui contient d’autres pages.
 
-* mon-site/
-        * accueil.html
-        * contact.html
-        * projets/
-            * projet1.html
-            * projet2.html
+<pre markdown="0" class="filesystem">
+<span class="icon-folder-open"></span> mon-site
+    <span class="icon-file-empty"></span> index.html
+    <span class="icon-file-empty"></span> contact.html
+    <span class="icon-folder-open"></span> projets
+        <span class="icon-file-empty"></span> projet1.html
+        <span class="icon-file-empty"></span> projet2.html
+</pre>
 
-Dans `accueil.html`, on peut écrire :
+
+Dans `index.html`, on peut écrire :
 ```html
 <p>
     Regardez mes projets :
@@ -250,7 +249,8 @@ On utilise généralement des URL absolues quand on veut produire un lien vers u
 
 Les images sont le premier contenu non textuel apparu sur le Web. Seuls quelques formats d’image peuvent être affichés dans un navigateur : principalement  `.jpg`, `.gif` (animé ou non), `.png` (transparent ou non) ou `.svg` (format d’images vectorielles).
 
-### Formats
+<details markdown="1">
+<summary>Voir les différents formats de fichiers image</summary>
 
 #### jpg
 Les images JPG sont conçues pour gérer de grandes palettes de couleurs sans augmenter de façon exorbitante la taille du fichier. Cela les rend parfaits pour les photos et les images comportant de nombreux dégradés. En revanche, les fichiers JPG ne permettent pas de pixels transparents.
@@ -266,15 +266,20 @@ Les PNG sont parfaits pour tout ce qui n’est pas une photo ou une animation. P
 
 Contrairement aux formats d’image bitmap (basés sur des pixels) ci-dessus, SVG est un format graphique basé sur des vecteurs. Les SVG peuvent être agrandis ou réduits à n’importe quelle dimension sans perte de qualité. Cette propriété fait des images SVG un outil formidable pour le design *responsive*.
 
+</details>
+
 ### La syntaxe
 
 Les images utilisent l’élément `<img>`, qui est un élément à fermeture automatique (il ne comporte qu’une balise d’ouverture).
 
 L’attribut `src` définit l’emplacement de l’image. Comme pour les liens, on peut utiliser des URL relatives ou absolues.
 
-* mon-site/
-    * accueil.html
-    * logo.png
+<pre markdown="0" class="filesystem">
+<span class="icon-folder-open"></span> mon-site
+    <span class="icon-file-empty"></span> accueil.html
+    <span class="icon-file-empty"></span> logo.png
+</pre>
+
 
 ```html
 <h1><img src="logo.png" alt="Logo de mon super site"></h1>
@@ -285,11 +290,10 @@ L’attribut `src` définit l’emplacement de l’image. Comme pour les liens, 
 
 Chaque image a deux dimensions: une largeur et une hauteur, exprimées en **pixels**.
 
-Lors de l’insertion d’une image en HTML, il n’est pas nécessaire de spécifier ses dimensions: le navigateur l’affichera automatiquement dans sa taille réelle.
+Lors de l’insertion d’une image en HTML, le navigateur l’affichera automatiquement dans sa taille réelle. On peut spécifier les dimensions d’affichage d’une image grâce aux attributs `width` et `height`, mais il est recommandé d’utiliser CSS pour mieux maîtriser la taille d’affichage de l’image.
 
-⚠️ Il est important de faire attention à la **taille en pixels** des images que l’on utilise, notamment pour éviter le chargement d’images trop lourdes.
+⚠️ Il est important de faire attention à la **taille en pixels** et au **poids en Ko** ou Mo des images que l’on utilise, notamment pour éviter le chargement d’images trop lourdes.
 
-Si l’on souhaite modifier les dimensions d’affichage d’une image, même si cela est possible en HTML grâce aux attributs `width` et `height`, il est recommandé d’utiliser CSS.
 
 ### Audio & vidéo
 
@@ -388,190 +392,6 @@ L’élément `<figure>` est généralement utilisé pour englober des images, i
 ### Divisions
 
 Comme pour la balise *inline* `<span>`, on a souvent besoin de grouper le contenu dans des blocs plus précis (généralement pour lui associer une mise en forme CSS). Dans ce cas, il est possible d’utiliser la balise `<div>`, qui ne porte aucun sens. Il faut veiller à l’utiliser le moins possible, pour garder le code HTML le plus *sémantique* possible.
-
-<div id="forms"></div>
-## Formulaires
-
-Lorsque l’on navigue sur le Web, l’interaction d’un utilisateur consiste principalement à cliquer sur des liens pour naviguer de page en page. Mais il est également possible de lui proposer de saisir des informations ou d’interagir avec la page grace à des éléments de formulaires. Par exemple :
-
-* inscription et connexion à un site Web
-* saisie d’informations personnelles (nom, adresse, carte de crédit…)
-* filtrer un contenu (en utilisant des listes déroulantes, des cases à cocher…)
-* effectuer une recherche
-* uploader des fichiers
-
-Pour répondre à ces besoins, HTML fournit des contrôles de formulaire interactifs:
-
-* saisie de texte (pour une ou plusieurs lignes)
-* boutons radio
-* cases à cocher
-* listes déroulantes
-* widgets d’upload
-* boutons de soumission
-
-Ces contrôles utilisent différentes balises HTML, mais la plupart d’entre eux utilisent la balise `<input>`. Comme il s’agit d’un élément à fermeture automatique, le type d’entrée est défini par son attribut type:
-```html
-<!-- Entrée de texte -->
-<input type="text">
-<!-- Case à cocher -->
-<input type="checkbox">
-<!-- Bouton radio -->
-<input type="radio">
-```
-
-
-### L’élément de formulaire
-
-`<form>` est un élément de niveau bloc qui définit une partie interactive d’une page Web. En conséquence, tous les contrôles de formulaire (tels que `<input>`, `<textarea>` ou `<button>`) devraient apparaître dans un élément `<form>`.
-
-Deux attributs HTML sont requis:
-
-* L’`action`, qui contient une adresse qui définit où les informations du formulaire seront envoyées
-* La `method`, qui peut être GET ou POST définit comment les informations du formulaire seront envoyées.
-
-Généralement, les informations de formulaire sont envoyées à un serveur. La manière dont ces données seront ensuite traitées dépasse le cadre de ce tutoriel.
-
-Un formulaire est un ensemble d’éléments de saisie qui effectuent une seule opération. Pour un formulaire de connexion, on pet avoir trois éléments:
-
-* une entrée email `<input type="email">`
-* une entrée de mot de passe `<input type="password">`
-* un bouton d’envoi `<input type="submit">`
-
-Ces trois éléments HTML sont inclus dans un seul `<form action="login" method="POST">`.
-
-### Les entrées de texte : `<input>` et `<textarea>`
-
-Presque tous les formulaires requièrent une saisie textuelle de la part des utilisateurs pour leur permettre de saisir leur nom, leur adresse électronique, leur mot de passe, leur adresse…  Les contrôles de formulaire texte se déclinent en différentes variantes:
-
-<style>
-input, textarea, select { width: 10em; padding:.15em; .5em; font-family:inherit; font-size:inherit }
-label { display:block }
-input[type=radio], input[type=checkbox]{ width:auto}
-</style>
-
-| Type | Rendu  | Spécificité |
-| --- | --- | --- |
-| text | <input type="text"> | permet tout type de caractères |
-| email | <input type="email"> | peut afficher un avertissement si un email invalide est entré |
-| password | <input type="password"> | affiche les caratères sous forme de points |
-| number | <input type="number"> | permet d’utiliser les touches du clavier (haut / bas) |
-| tel | <input type="tel"> | peut déclencher un remplissage automatique. |
-| search | <input type="search"> | affiche une icône spécifique |
-| range | <input type="range"> | affiche un *slider* |
-| color | <input type="color"> | affiche un sélecteur de couleur |
-| textarea | <textarea></textarea> | peut être redimensionné |
-
-Bien que ces entrées soient très similaires et permettent aux utilisateurs de saisir tout type de texte (même une entrée erronée), leur type fournit une sémantique spécifique à l’entrée, en définissant le type d’information qu’il est supposé contenir.
-
-Les navigateurs peuvent ensuite modifier légèrement l’interface d’un contrôle pour augmenter son interactivité ou indiquer le type de contenu attendu.
-
-[Voir l’exemple de plus de champs de formulaire](forms/)
-
-### Placeholders
-
-Les entrées de texte peuvent afficher un texte de substitution, qui disparaîtra dès que du texte aura été saisi.
-
-<input type = "text" placeholder = "Entrez votre nom">
-
-
-### Les `<label>`
-
-Étant donné que les éléments de formulaire ne sont pas très descriptifs, ils sont généralement précédés d’une étiquette, un `<label>`.
-```html
-<label for="your-email"> Email </label>
-<input type="email" id="your-email">
-```
-
-Bien que les attributs `placeholder` puissent fournir des indications sur le contenu attendu, les étiquettes ont l’avantage de rester visibles à tout moment et peuvent être utilisées avec d’autres types de contrôles de formulaire, tels que les cases à cocher ou les boutons radio. En cliquant sur l’étiquette, le “focus” est placé sur le champ et le curseur de texte est placé à l’intérieur.
-
-### Cases à cocher
-
-Les cases à cocher sont des contrôles de formulaire n’ayant que deux états: cochée ou décochée. Ils permettent à l’utilisateur de dire "Oui" ou "Non" à quelque chose.
-
-Comme il peut être difficile de cliquer sur une petite case à cocher, il est recommandé d’envelopper  la case à cocher et sa description d’un `<label>`.
-```html
-<label>
-  <input type="checkbox"> Je suis d’accord
-</label>
-```
-<label>
-  <input type="checkbox"> Je suis d’accord
-</label>
-
-### Boutons radio
-
-On peut présenter à l’utilisateur une liste d’options à choisir en utilisant des boutons radio.
-
-Pour que ce contrôle de formulaire fonctionne, le code HTML doit regrouper une liste de boutons radio. Ceci est réalisé en utilisant la même valeur pour l’attribut `name`:
-```html
-<p>État civil </p>
-<label>
-    <input type="radio" name="status" value="single"> Célibataire
-</label>
-<label>
-    <input type="radio" name="status" value="married"> Marié
-</label>
-<label>
-    <input type="radio" name="status" value="divorced"> Divorcé
-</label>
-<label>
-    <input type="radio" name="status" value="widowed"> Veuf
-</label>
-```
-<p>État civil </p>
-<label>
-    <input type="radio" name="status" value="single"> Célibataire
-</label>
-<label>
-    <input type="radio" name="status" value="married"> Marié
-</label>
-<label>
-    <input type="radio" name="status" value="divorced"> Divorcé
-</label>
-<label>
-    <input type="radio" name="status" value="widowed"> Veuf
-</label>
-
-Etant donné que tous les boutons radio utilisent la même valeur pour leur attribut name (dans ce cas, la valeur "status"), la sélection d’une option désélectionne toutes les autres. Les boutons radio sont dits mutuellement exclusifs.
-
-### Menus déroulants : `<select>`
-
-Si le nombre d’options à choisir est trop important, on peut utiliser les menus déroulants `<select>`. Ils fonctionnent comme des boutons radio. Seule leur mise en page est différente.
-```html
-<select>
-  <option>Janvier </option>
-  <option>Février </option>
-  <option>Mars </option>
-  <option>Avril </option>
-  <option>Mai </option>
-  <option>Juin </option>
-  <option>Juillet </option>
-  <option>Août </option>
-  <option>Septembre </option>
-  <option>Octobre </option>
-  <option>Novembre </option>
-  <option>Décembre </option>
-</select>
-```
-
-<select>
-  <option>Janvier </option>
-  <option>Février </option>
-  <option>Mars </option>
-  <option>Avril </option>
-  <option>Mai </option>
-  <option>Juin </option>
-  <option>Juillet </option>
-  <option>Août </option>
-  <option>Septembre </option>
-  <option>Octobre </option>
-  <option>Novembre </option>
-  <option>Décembre </option>
-</select>
-
-
-[→ Marre des liens bleus ?](../../css/){.bigbutton}
-
 
 —
 

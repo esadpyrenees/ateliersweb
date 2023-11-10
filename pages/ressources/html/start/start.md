@@ -22,7 +22,17 @@ Un site standard possède toujours le même type de structure:
 * un dossier `css` ou `styles`, pour stocker les feuilles de styles et les fichiers relatifs à celles-ci (polices, images de mise en forme) ;
 * enfin, un dossier `js` ou `scripts`, dédié aux fichiers javascript.
 
-![organisation des fichiers](site.png)
+<pre markdown="0" class="filesystem">
+<span class="icon-folder-open"></span> site
+    <span class="icon-folder-open"></span> css
+        <span class="icon-file-empty"></span> styles.css
+    <span class="icon-folder-open"></span> img
+        <span class="icon-file-empty"></span> logo.png
+    <span class="icon-folder-open"></span> js
+        <span class="icon-file-empty"></span> main.js
+    <span class="icon-file-empty"></span> index.html
+    <span class="icon-file-empty"></span> page-2.html
+</pre>
 
 ## Chemins de fichiers
 
