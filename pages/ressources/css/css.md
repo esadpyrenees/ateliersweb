@@ -1,12 +1,15 @@
 # CSS
 
-Le langage CSS (Cascading Styles Sheets, ou feuilles de styles en cascade) est dédié à la mise en forme graphique des documents HTML. Alors que le HTML s’attache à la signification et à la structuration du contenu, CSS permet de décrire l’affichage, la présentation visuelle, du contenu.
+Le langage CSS (_Cascading Styles Sheets_, ou feuilles de styles en cascade) est dédié à la mise en forme graphique des documents HTML, les pages web. **Le HTML s’attache à la signification du contenu** et à sa structuration, **CSS permet de décrire l’affichage, la présentation visuelle** du contenu.
 
 Il est donc le langage le plus proche des préoccupations des designers graphiques et fait ici l’objet d’un important ensemble de ressources :
 
 ### Débuter
 
-Lire les articles consacrés à la [syntaxe](syntax), aux [sélecteurs CSS](selectors), aux  notions [d’héritage et de cascade](inheritance), aux [unités](units), au “[modèle de boîtes](box)” et aux [propriétés d’arrière-plan](background) : ~ 30 minutes de lecture attentive.
+Comment mettre en forme un élément d’une page web ? Appliquer des styles ?  
+[**Commencer ici !**](syntax) {.bigbutton}
+
+Puis poursuivre pour comprendre les [sélecteurs CSS](selectors), la notion [d’héritage et de cascade](inheritance), les [unités](units), le “[modèle de boîtes](box)” et les [propriétés d’arrière-plan](background).
 
 ### Texte et typographie
 
@@ -27,9 +30,3 @@ Comment [adapter votre mise en page](../rwd) aux différentes tailles d’écran
 ### Web to print
 
 L’approche visant à produire des documents imprimés avec HTML et CSS, fait l’objet d’une section dédiée : [CTRL + Alt + print](../ctrl-alt-print/)
-
-[→ syntaxe](syntax/){.bigbutton}
-
-—
-
-<small>Contenu adapté de [Jeremy Thomas](https://marksheet.io) et à [Louis Éveillard](http://pca.louiseveillard.com/),  sous [license CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). </small>

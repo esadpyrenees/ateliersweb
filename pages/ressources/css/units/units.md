@@ -64,18 +64,21 @@ body {couleur: hsla (4, 68%, 56%, 0.5);}
 
 Une autre manière de déterminer une couleur est d’utiliser la notation hexadécimale.
 
+
+On le note :
+```
+p { color: #db4e44; }
+```
+<details markdown=1>
+<summary>Héxaquoi ?</summary>
 Si le système décimal permet d’énumérer dix valeurs (0, 1, 2, 3, 4, 5, 6, 7, 8, 9), le système hexadécimal en permet 16 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F). Les valeurs RVB du rouge précédemment utilisé peuvent alors être décrites ainsi :
 
 * Rouge : 219 => db
 * Vert : 78 => 4e
 * Bleu : 68 => 44
 
-On le note :
-```
-p { color: #db4e44; }
-```
-
 Les valeurs hexadécimales sont plus difficilement lisibles, mais plus facilement copiables depuis le sélecteur de couleurs du système d’exploitation, de photohop ou d’illustrator.
+</details>
 
 ### Oklch
 
@@ -90,6 +93,7 @@ Il existe de nombreuses propriétés CSS nécessitant des unités de dimension 
 * `font-size` définit la taille du texte
 * `border-width` définit la graisse des bordures d’élément
 * `margin` définit l’espacement entre les éléments
+* `padding` définit l’espacement entre l’élément et ses enfants
 * `left/right/top/bottom` permettent de positionner et de déplacer des éléments
 
 Les unités les plus utilisées sont:
@@ -125,23 +129,24 @@ p { width: 50%; }
 Les pourcentages peuvent aider à définir d’autres propriétés CSS, telles que la taille du texte:
 ```
 strong { font-size: 150%; }
+/* l’élément strong aura une taille une fois et demi supérieure à celle de l’élément qui le contient */
 ```
 
 Les unités `vw` et `vh` permettent de signifier des dimensions en fonction de la taille de la fenêtre du navigateur (vh = *viewport height*, vw = *viewport width*). Ainsi :
 ```
 .huge { font-size: 8vw; }
 ```
-Donnera un corps de texte lié à la taille de la fenêtre.
-<style>.huge { font-size: 8vw;  line-height:1; margin:0}</style>
+Donnera un corps de texte lié à la taille de la fenêtre (redimensionnez le navigateur).
+<style>.huge { font-size: 8vw;  line-height:.8; margin:.25em 0 0; display:block}</style>
 <strong class="huge">PLUS GROS</strong>
 
 ### Em
 
-`em` est une unité relative: elle dépend de la valeur de la taille de police de l’élément.
+`em` est une unité relative: elle dépend de la valeur de corps (la “taille” de la police) de l’élément.
 
-Par exemple, si le parent a une taille de police de 20px et que l’on applique `font-size: 0.8em` à un élément enfant, cet élément enfant affichera une taille de police de 16px.
+Par exemple, si le parent a un corps de 20px et que l’on applique `font-size: 0.8em` à un élément enfant, cet élément enfant aura un corps de 16px.
 
-L’unité `em` permet de définir les tailles de police des éléments HTML les uns par rapport aux autres.
+L’unité `em` permet de définir les corps de texte des éléments HTML les uns par rapport aux autres.
 Par exemple, les `<h1>` peuvent être deux fois plus grand que le corps de texte, les `<h2>` seulement 1,5 fois plus grand et la barre latérale légèrement plus petite :
 
 ```
@@ -171,10 +176,10 @@ h1 { font-size: 2rem; } /* = 36px */
 h2 { font-size: 1.5rem; } /* = 27px */
 ```
 
-La différence entre rem et em est que les valeurs de rem sont fixes alors que les valeurs em peuvent se multiplier en fonction du contexte.
+La différence entre `rem` et `em` est que les valeurs de `rem` sont fixes alors que les valeurs `em` peuvent se multiplier en fonction du contexte.
 
 
-[→ Styler le texte](../text/){.bigbutton}
+[→ Le texte](../text/){.bigbutton}
 
 —
 

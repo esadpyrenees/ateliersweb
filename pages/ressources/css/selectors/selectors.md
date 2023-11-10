@@ -1,6 +1,6 @@
 # Sélecteurs
 
-Les sélecteurs CSS définissent les éléments auxquels on souhaite appliquer du style. Ils sont l’équivalent de la flèche de sélection d’Illustrator ou d’InDesign : ils permettent de *sélectionner* un élément afin de lui appliquer une modification de style.
+Les sélecteurs CSS définissent les éléments auxquels on souhaite appliquer du style. Ils sont l’équivalent de la flèche de sélection d’Illustrator ou d’InDesign : ils permettent de *sélectionner* un ou plusieurs éléments afin de leur appliquer une modification de style.
 
 ## Sélecteurs génériques
 

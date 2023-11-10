@@ -1,7 +1,7 @@
 <nav class="pane active">
   <ul>
-      <li class="<?= $subsubsection == 'start' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/">Démarrer</a></li>
-      <li class="<?= $subsubsection == 'syntax' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/syntax/">Syntaxe</a></li>
+      <li class="<?= $subsubsection == 'start' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/">Avant-propos</a></li>
+      <li class="<?= $subsubsection == 'syntax' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/syntax/">Démarrer</a></li>
       <li class="<?= $subsubsection == 'selectors' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/selectors/">Sélecteurs</a></li>
       <li class="<?= $subsubsection == 'inheritance' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/inheritance/">Héritage</a></li>
       <li class="<?= $subsubsection == 'units' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/units/">Unités</a></li>
