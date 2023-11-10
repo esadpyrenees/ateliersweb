@@ -14,7 +14,7 @@ De nombreuses ressources sont disponibles en ligne : [Gridbyexample.com](https:/
 
 ## Exemples
 
-*   Quelques [exemples](../../../exemples/#grid) sur le site de l’atelier web
+Quelques [exemples](../../../exemples/#grid) sur le site de l’atelier web
 
 
 
