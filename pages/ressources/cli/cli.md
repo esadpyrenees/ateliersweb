@@ -58,3 +58,43 @@ rm folder
 # Supprimer un répertoire (même s’il a des enfants)
 rm -R folder
 ```
+
+### Commandes diverses
+
+Elles n’ont leur place nulle part ailleurs…
+
+#### `ssh`
+Pour se connecter à un serveur / une machine distante
+```bash
+ssh ssh_login@ssh_host.fr
+# Pour utiliser un port de connexion spécifique (option -p)
+ssh ssh_login@ssh_host.fr -p 3522
+```
+
+#### `ffmpeg`
+Créer un gif à partir d’une vidéo avec `ffmpeg`.
+```bash
+# place a tête de lecture à 180 secondes, crée un gif des 3 secondes suivantes, à 10 frames par seconde
+ffmpeg -ss 180 -t 3 -i video.mp4 -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 video.gif
+```
+#### `rsync`
+Synchroniser un dossier local avec un dossier distant avec `rsync`.
+
+```bash
+# synchronise un dossier distant avec un dossier local (téléverse)
+rsync -avz --progress /path/to/local_directory/ ssh_login@ssh_host.fr:path/to/directory/ 
+# synchronise un dossier local avec un dossier distant (télécharge) 
+rsync -avz --progress ssh_login@ssh_host.fr:path/to/directory/ /path/to/local_directory/
+# Pour supprimer les fichiers locaux qui n’existent pas/plus sur le serveur distant
+rsync -avz --progress --delete ssh_login@ssh_host.fr:path/to/directory/ /path/to/local_directory/
+# Pour exclure certains fichiers
+rsync -avz --progress –exclude= *.txt ssh_login@ssh_host.fr:path/to/directory/ /path/to/local_directory/
+# Pour utiliser un port de connexion spécifique (option -e)
+rsync -avz --progress -e "ssh -p 3522" ssh_login@ssh_host.fr:path/to/directory/ /path/to/local_directory/
+
+```
+Les options signalent:
+- `-a` utilise le mode “archive” qui préserve les permissions, les dates d’origine, etc.
+- `-v` affiche les fichiers en cours de traitement
+- `-z` compresse les fichiers pour le transfert
+- `--progress` affiche la progression du transfert dans la console
