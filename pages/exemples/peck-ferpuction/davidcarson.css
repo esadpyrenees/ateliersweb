@@ -1,10 +1,15 @@
 
 /* styles */
+
+@font-face {
+  font-family: "AlteDin";
+  src: url("fonts/AlteDIN1451Mittelschrift.woff2") format("woff2");
+}
 html, body{
   height: 100%;
 }
 body {
-  font-family: sans-serif;
+  font-family: "AlteDin", sans-serif;
   margin: 0;
   text-transform: uppercase;
   display: flex;
