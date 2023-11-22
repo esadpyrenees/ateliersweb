@@ -10,12 +10,13 @@ Il diffère de [Flexbox](../flexbox) principalement par le fait qu’il est déd
 
 ## Ressources en ligne
 
-De nombreuses ressources sont disponibles en ligne : [Gridbyexample.com](https://gridbyexample.com/examples/), les grilles, par l’exemple… ; *Visual cheat sheet*, [toutes les propriétés, illustrées](http://grid.malven.co/) ; [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual guide* ; [☞ Layoutland](https://www.youtube.com/layoutland), les vidéos éclairantes de Jen Simmons ; [_Grid experiments_](https://codepen.io/search/pens?q=grid+experiment) sur Codepen…
+Le plus éclairant des tutoriels et guides sur CSS Grid est sans doute celui de Josh W. Comeau : [**An Interactive Guide to CSS Grid**](https://www.joshwcomeau.com/css/interactive-guide-to-grid/).
+
+De très nombreuses ressources sont disponibles en ligne : [Gridbyexample.com](https://gridbyexample.com/examples/), les grilles, par l’exemple… ; *Visual cheat sheet*, [toutes les propriétés, illustrées](http://grid.malven.co/) ; [CSS Grid Cheat Sheet](https://alialaa.github.io/css-grid-cheat-sheet/), *your ultimate CSS grid visual guide* ; [☞ Layoutland](https://www.youtube.com/layoutland), les vidéos éclairantes de Jen Simmons ; [_Grid experiments_](https://codepen.io/search/pens?q=grid+experiment) sur Codepen…
 
 ## Exemples
 
-Quelques [exemples](../../../exemples/#grid) sur le site de l’atelier web
-
+Quelques [exemples](../../../exemples/#grid) sur ce site.
 
 
 
