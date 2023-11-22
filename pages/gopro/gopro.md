@@ -17,7 +17,7 @@ Le monde hostile de l’activité économique des artistes et designers l’est 
 * Le [CAAP](http://caap.asso.fr), Comité des artistes-auteurs plasticiens ;
 * L’[Alliance France design](https://www.alliancefrancedesign.com/) ; syndicat des designers
 * La [FRAAP](http://fraap.org), Fédération des réseaux et associations d’artistes plasticiens ;
-* [Le Massicot](https://linktr.ee/lemassicot) est la Fédération syndicale des étudiant·es en écoles de création (en tant qu’étudiant·e aussi, il est utile de se fédérer…).
+* [Le Massicot](https://linktr.ee/lemassicot_union) est la Fédération syndicale des étudiant·es en écoles de création (en tant qu’étudiant·e aussi, il est utile de se fédérer…).
 
 ## Les statuts 
 Le statut le plus naturel (et avantageux ?) pour les graphistes est celui d’artiste auteur (AA), qui est géré par la Sécurité sociale des artistes auteurs et l’Urssaf (depuis 2019, à la suite de la Maison des Artistes). Pour débuter une activité en tant qu’artiste-auteur, voir le [guide de l’URSSAF](https://www.urssaf.fr/portail/home/espaces-dedies/artistes-auteurs-diffuseurs-comm/vous-etes-artiste-auteur/debuter-votre-activite.html) et le site de la [ Sécurité sociale des artistes auteurs](http://www.secu-artistes-auteurs.fr) (anciennement Maison des artistes).
