@@ -15,7 +15,7 @@ La notion d’écriture est à envisager sous son acception la plus globale, en 
 
 Le site [Fiction-interactive.fr](https://www.fiction-interactive.fr/) se consacre, sans surprise à la fiction interactive, et le fait bien.
 
-Dans le contexte du projet HyperText Super-héro sont abordées [des références](http://localhost/web/pages/projets/htsh/#references) et des [outils utiles](http://localhost/web/pages/projets/htsh/#outils).
+Dans le contexte du projet HyperText Super-héro sont abordées [des références](../../projets/htsh/#references) et des [outils utiles](../../projets/htsh/#outils).
 
 
 <h3 class="blink">
