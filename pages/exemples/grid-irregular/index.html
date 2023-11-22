@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irregular grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <p>
+      Les <code>&lt;figure&gt;</code> contenant des images violettes se sont vues appliquer des <code>class</code> spécifiques, permettant de rompre la régularité de la grille. Au survol, les <code>class</code> appliquées à chaque <code>&lt;figure&gt;</code> sont révélées.
+    </p>
+    <p>
+      L’ensemble des class disponibles peut servir de base à un mini « <i>framework</i> » pour des galeries d’images, en combinant sur chaque <code>&lt;figure&gt;</code> différentes <code>class</code> :
+    </p>
+    <pre><code>&lt;figure class="size-big justify-end"&gt;&lt;img src="…"&gt;&lt;/figure"&gt;
+&lt;figure class="cover size-huge"&gt;&lt;img src="…"&gt;&lt;/figure"&gt;
+&lt;figure class="align-end imgsize-small"&gt;&lt;img src="…"&gt;&lt;/figure"&gt;</code></pre>
+    <p>
+      Les images sont issues du <a href="https://publicdomainreview.org/collection/smillie-smithsonian/">travail photographique de Thomas Smillie</a> au sein de la Smithsonian Institution.
+    </p>
+  </header>
+
+  <div class="grid">
+    <figure class="size-big justify-end">
+      <img src="images/2422570279.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2422515283.jpg" loading="lazy"></figure>
+    <figure class="align-end justify-end imgsize-small">
+      <img src="images/2550462349.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550477557.jpg" loading="lazy"></figure>
+    <figure class="size-tiny">
+      <img src="images/2550478711.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550488131.jpg" loading="lazy"></figure>
+  </div>
+
+  <div class="grid">
+    <figure class="cover size-huge">
+      <img src="images/2551282908.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550553527.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550554311.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550556335.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550564055.jpg" loading="lazy"></figure>
+    <figure class="imgsize-small justify-center align-center">
+      <img src="images/2550569277.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550569657.jpg" loading="lazy"></figure>
+  </div>
+
+  <div class="grid">
+    <figure class="size-big">
+      <img src="images/2550570085.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550574871.jpg" loading="lazy"></figure>
+    <figure class="align-end">
+      <img src="images/2550582059.jpg" loading="lazy"></figure>
+    <figure class="align-end">
+      <img src="images/2550594367.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550607983.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550622657.jpg" loading="lazy"></figure>
+    <figure>
+      <img src="images/2550623229.jpg" loading="lazy"></figure>
+    <figure class="size-huge cover">
+      <img src="images/2550625361.jpg" loading="lazy"></figure>    
+  </div>
+
+
+  <script>
+    // utile uniquement pour rendre visibles les lignes de la grille 
+    const gridlines = document.createElement('div');
+    gridlines.className = "gridlines";
+    document.body.appendChild(gridlines);
+    const grid = document.querySelector('.grid');
+    const gridComputedStyle = window.getComputedStyle(grid);
+    const gridColumnCount = gridComputedStyle.getPropertyValue("grid-template-columns").split(" ").length;
+    for(let s =0; s< gridColumnCount; s++){
+        gridlines.appendChild( document.createElement('b'))
+    };
+  </script>
+</body>
+</html>
