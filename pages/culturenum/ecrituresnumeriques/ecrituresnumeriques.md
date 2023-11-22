@@ -8,12 +8,19 @@ L’axe écritures numériques développé dans le [Pôle Nouveaux médias de l�
 
 La notion d’écriture est à envisager sous son acception la plus globale, en tant que manière de produire un sens et d’en dessiner les formes à travers un geste. Au delà d’un système technique de représentation, la notion d’écriture en tant qu’action prend ainsi son sens dans les champs chorégraphique ou cinématographique. Il s’agit ici d’appliquer cette notion au contexte spécifique du design et de la création dans le champs des médias numériques. 
 
+
 ## Quelques ressources
 
 [**Benjamin Hoguet**](http://www.benhoguet.com/), invité en workshop à l’école en 2016 a publié sur son site quelques articles introductifs à ces questions, notamment [Qu’est-ce que la narration interactive ?](http://www.benhoguet.com/quest-ce-que-la-narration-interactive/), [Le mobile dans les nouvelles écritures](http://www.benhoguet.com/le-mobile-dans-les-nouvelles-ecritures/), [La richesse de la fiction interactive](http://www.benhoguet.com/lincroyable-richesse-de-la-fiction-interactive/), etc. [Abonnez-vous à sa newsletter !](https://mailchi.mp/d1b8bd7a7295/nouvellesnarrations)
 
-Dans le contexte du projet HyperText Super-héro sont abordés [des références](http://localhost/web/pages/projets/htsh/#references) et des [outils utiles](http://localhost/web/pages/projets/htsh/#outils).
+Le site [Fiction-interactive.fr](https://www.fiction-interactive.fr/) se consacre, sans surprise à la fiction interactive, et le fait bien.
 
+Dans le contexte du projet HyperText Super-héro sont abordées [des références](http://localhost/web/pages/projets/htsh/#references) et des [outils utiles](http://localhost/web/pages/projets/htsh/#outils).
+
+
+<h3 class="blink">
+  Les contenus ci-dessous sont largement obsolètes et incomplets.
+</h3>
 
 ## Histoire approximative du webdocumentaire {#webdocumentaire}
 
@@ -29,14 +36,14 @@ Quelques projets (*[La Cité des mortes](http://www.lacitedesmortes.net)*, *[Voy
 
 (*to be continued*)
 
-Wikipedia définit le webdocumentaire comme une œuvre produite et diffusée sur le web qui a comme caractéristiques :
+Wikipedia définit le webdocumentaire comme une œuvre produite et diffusée sur le web qui a comme caractéristiques :
 - l'utilisation d'un contenu multimédia,
 - l'introduction dans le récit de procédés interactifs,
 - une navigation et un récit non-linéaire,
 - une écriture spécifique
 - un point de vue d'auteur.
 
-C’est un dispositif de médiation en ligne de l’information, une œuvre interactive à la frontière entre reportage d’enquête et documentaire qui peut impliquer :
+C’est un dispositif de médiation en ligne de l’information, une œuvre interactive à la frontière entre reportage d’enquête et documentaire qui peut impliquer :
 
 - Un rapport global au réel, même si le spectateur / visiteur n’en perçoit qu’une partie
 - Une scénarisation (écriture spécifique, hypertextualité)
@@ -45,15 +52,15 @@ C’est un dispositif de médiation en ligne de l’information, une œuvre inte
 
 
 ## Liste hasardeuse
-- Tarnac, Magasin général : http://magasin-general.fr
-- Snow Fall : http://www.nytimes.com/projects/2012/snow-fall
-- Journal d’une insomnie : https://docubase.mit.edu/project/a-journal-of-insomnia/
-- Borderland : https://apps.npr.org/borderland/
-- Gaza / Zderot : http://gaza-sderot.arte.tv/en/
-- La cité des Mortes, Ciudad Juarez : http://www.lacitedesmortes.net
-- L’infiltré : http://www.phonestories.me/fr/infiltre
-- Wei or die : http://wei-or-die.nouvelles-ecritures.francetv.fr/
-- Alma : http://alma.arte.tv/fr/
+- Tarnac, Magasin général : http://magasin-general.fr
+- Snow Fall : http://www.nytimes.com/projects/2012/snow-fall
+- Journal d’une insomnie : https://docubase.mit.edu/project/a-journal-of-insomnia/
+- Borderland : https://apps.npr.org/borderland/
+- Gaza / Zderot : http://gaza-sderot.arte.tv/en/
+- La cité des Mortes, Ciudad Juarez : http://www.lacitedesmortes.net
+- L’infiltré : http://www.phonestories.me/fr/infiltre
+- Wei or die : http://wei-or-die.nouvelles-ecritures.francetv.fr/
+- Alma : http://alma.arte.tv/fr/
 
 ## Producteurs
 
@@ -85,28 +92,22 @@ C’est un dispositif de médiation en ligne de l’information, une œuvre inte
 
 - 1985 – Zines (Combo)
 - 1986 – Malik Oussekine 
-- 198~ – Bondage (label rock alternatif : Béru, Ludwig)
+- 198~ – Bondage (label rock alternatif : Béru, Ludwig)
 - 1990 – Yo! révolution rap: l'histoire, les groupes, le mouvement
-- 1997 – [Manifeste du web indépendant](http://www.uzine.net/article60.html) : Uzine.net rezo.net
-- 2005 – Quand la France s'embrase : Émeutes dans les banlieues 
-- 2010 – [Prison Valley](http://www.davduf.net/-prison-valley-) (+ Upian) : Capitalisme carcéral à Cañon City (Co)
-- 2012 – [Tarnac, magasin général](http://magasin-general.fr) :Compagnon web
-- 2013 – [Fort McMoney](http://www.davduf.net/-fort-mcmoney-) :Serious game
-- 2016 – [Dada Data](http://www.dada-data.net/fr/) :Révolution: Dada a inventé le web
-- 2017 – [L’infiltré](http://www.phonestories.me/fr/infiltre) + Hanna La Rouge :Fiction politique
-- 2018 – [Allo Place Beauvau](http://www.davduf.net/-allo_place_beauvau-) : Observateur des violences policières    
+- 1997 – [Manifeste du web indépendant](http://www.uzine.net/article60.html) :  Uzine.net rezo.net
+- 2005 – Quand la France s'embrase :  Émeutes dans les banlieues 
+- 2010 – [Prison Valley](http://www.davduf.net/-prison-valley-) (+ Upian) :  Capitalisme carcéral à Cañon City (Co)
+- 2012 – [Tarnac, magasin général](http://magasin-general.fr) : Compagnon web
+- 2013 – [Fort McMoney](http://www.davduf.net/-fort-mcmoney-) : Serious game
+- 2016 – [Dada Data](http://www.dada-data.net/fr/) : Révolution: Dada a inventé le web
+- 2017 – [L’infiltré](http://www.phonestories.me/fr/infiltre) + Hanna La Rouge : Fiction politique
+- 2018 – [Allo Place Beauvau](http://www.davduf.net/-allo_place_beauvau-) :  Observateur des violences policières    
 Transformation du média, réseau/médias sociaux = zines, prise de parole = pratique    
 6 mois de violences = 20 ans 
-- 2019 – [Dernière Sommation](http://www.davduf.net/-derniere-sommation-) :Traduire le réel à travers la fiction    
-Gil Scott-Heron s'était trompé.    
-« Pionnier, c'est toujours bon à prendre, quels que soient l'Eldorado et les défaites à venir. »
+- 2019 – [Dernière Sommation](http://www.davduf.net/-derniere-sommation-) :  Traduire le réel à travers la fiction. « Gil Scott-Heron s'était trompé ». « Pionnier, c'est toujours bon à prendre, quels que soient l'Eldorado et les défaites à venir ».
 - 2020 – [Un pays qui se tient sage](http://www.davduf.net/-un-pays-qui-se-tient-sage-87-)
 
-—
-
-Dans « Une contre-histoire de l’Internet »    
-https://vimeo.com/311894477#t=498s (8'18)    
-https://vimeo.com/311894477#t=1594s (26 '34)
+Dans « Une contre-histoire de l’Internet », voir à [8'18](https://vimeo.com/311894477#t=498s) et à [26'34](https://vimeo.com/311894477#t=1594s)
 
 [Du maintien de l'ordre aux violences policières](https://www.youtube.com/watch?v=j8Xn_K-bQpE&feature=emb_rel_end)
 
