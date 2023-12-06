@@ -22,7 +22,7 @@ Arts & craft, évènement fondateur, n’est pas l’alpha et l’omega de la pe
 
 [^1]:![C’est encore moi…](William_Morris_age_53.jpg) [En savoir plus](https://www.grapheine.com/histoire-du-graphisme/william-morris-le-design-dinterieur-nest-pas-un-luxe)
 
-Morris avait une approche qu’on ne pourrait qualifier de [luddite](https://fr.wikipedia.org/wiki/Luddisme), mais la question qu’il posait du rapport du designer à ses outils techniques a été au cœur de toute l’histoire du design.
+Morris n’avait pas nullement approche qu’on pourrait qualifier de [luddite](https://fr.wikipedia.org/wiki/Luddisme), mais la question qu’il posait du rapport du designer à ses outils techniques a été au cœur de toute l’histoire du design.
 
 Les évolutions du design sont intimement liées à celles de ses outils. De Gutenberg aux presses Linotype jusqu’à la photocomposition et à l’impression laser, chaque étape de l’évolution technique a permis à de nouveaux moyens de diffusion de l’information de naître et à de nouvelles formes d’émerger[^print].
 
