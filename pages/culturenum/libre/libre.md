@@ -14,7 +14,7 @@ Un logiciel est considéré comme « libre » s’il confère à son utilisate
 2. la liberté de l’adapter à ses besoins ;
 3. la liberté de modifier le programme et de partager ces modifications.
 
-[^vtf]:![Velvetyne poster](poster-vtf.png) [Poster de Velvetyne](https://velvetyne.fr/about/)
+[^vtf]: [![0, 1, 2, 3](poster-vtf.png) Poster de Velvetyne](https://velvetyne.fr/about/)
 
 Cette définition programmatique, si elle s’applique au champ du logiciel, peut être largement ouverte vers les pratiques de l’art et du design, comme cette introduction se propose de le montrer.
 
