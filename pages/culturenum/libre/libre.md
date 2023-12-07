@@ -97,6 +97,9 @@ Les émergences des philosophies du libre, du *copyleft* ou du partage dans le m
 
 Dès 1995, le projet [GIMP](https://www.gimp.org/) est lancé. Au début des années 2000, à la suite de l’enseignement de [John Maeda](https://fr.wikipedia.org/wiki/John_Maeda), Casey Reas et Ben Fry publient [Processing](https://processing.org/), outil libre dédié à l’expérience du code comme outil de création. Lawrence Lessig (et al.) fonde l’organisation [Creative Commons](https://creativecommons.org/). En janvier 2002, Antoine Moreau (et al.) initie la [Licence Art libre](https://fr.wikipedia.org/wiki/Licence_Art_Libre#Historique). <small>\[Liste à compléter…\]</small>
 
+![Une capture d’écran de l’élaboration du fanzine de La Balsamine de la saison 2011/2012 mis en forme par le collectif Open Source Publishing avec l’aide du tableur LibreOffice Calc.](fanzine-wip.png)
+  Une capture d’écran de l’élaboration du fanzine de La Balsamine de la saison 2011/2012 mis en forme par le collectif Open Source Publishing avec l’aide du tableur LibreOffice Calc. Volé à [Étienne Ozeray](http://www.etienneozeray.fr/libre-blog/tag/4-1-la-creativite-technique/).
+
 À leur suite, dans les années 2000 / 2010, de nombreux studios, designers et dessinateurs de caractères typographiques, notamment en Belgique, vont faire du libre un espace de création, dépassant la question des outils pour aborder celle des productions.
 
 ## Ressources
