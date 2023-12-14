@@ -33,7 +33,7 @@ style.appendChild(document.createTextNode(css));
 head.appendChild(style);
 
 
-const base_url = "https://ateliers.esad-pyrenees.fr/web/archives/2023-2024/2DGM/";
+const base_url = "https://ateliers.esad-pyrenees.fr/web/archives/2023-2024/2dgm/";
 const webring = document.createElement("nav");
 webring.id = "webring";
 
