@@ -159,13 +159,13 @@ Dans le champ typographique, de nombreux projets se sont également approprié c
 La liste définitive et consolidée d’outils libres, utilisables dans le champ de l’art et du design, est encore à construire. Raphaël Bastide (encore, 🙏) maintient [Usable](https://gitlab.com/raphaelbastide/usable/), liste d’outils de création F/LOSS. On peut aussi fouiller dans [ilovefreesoftware](https://www.ilovefreesoftware.com/). En attendant on pourra explorer :
 
 ### Outils bizarres
+* [Avoid Software](https://avoidsoftware.sarahgarcin.com/)
 * [Alchemy](http://al.chemy.org/)
 * [Scri.ch](https://scri.ch/)
 * [Lizard Ladder](http://www.tedwiggin.com/LizardLadder/)
 * [Make 8 bit art](https://make8bitart.com/)
 * [Robot & Human](https://github.com/DynamicMetaFlow/robotandhuman)
 * [Triangula](https://github.com/RH12503/triangula)
-
 
 ### Outils standards
 * [Krita](https://krita.org/)
