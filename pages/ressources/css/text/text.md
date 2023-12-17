@@ -6,16 +6,11 @@ Ci-dessous, quelques bases spécifiquement liées à CSS, qui seront volontiers 
 
 ## Famille de caractères
 
-CSS fournit plusieurs propriétés de police qui affectent directement le rendu du texte. La propriété font-family définit la police à utiliser.
+CSS fournit plusieurs propriétés de police qui affectent directement le rendu du texte. La propriété `font-family` définit la police à utiliser.
 
 ### Familles de polices génériques
 
-Les polices sont regroupées dans de grandes familles génériques:
-
-* à empattements, ou `serif`
-* sans empattements, linéales ou `sans serif`
-* à chasse fixe, `monospace`
-* `cursive` ou `fantasy`, à éviter
+En CSS, les polices sont regroupées dans de grandes familles génériques : à empattements – ou `serif` ; sans empattements – linéales ou `sans serif` ; à chasse fixe – `monospace` ; `cursive` ou `fantasy` – à éviter
 
 La propriété `font-family` est héritée par tous les éléments enfants HTML, on peut donc appliquer une police à l’ensemble du document HTML en l’appliquant sur l’ancêtre de tous les éléments HTML: l’élément `<body>`.
 
@@ -34,7 +29,7 @@ Si on ne veut pas utiliser de telles fontes (pour éviter le chargement d’un f
 ```
 body { font-family: Helvetica, Arial, sans-serif; }
 ```
-La page Web utilisera Helvetica à condition qu’elle soit installée sur l’ordinateur de l’utilisateur. Si Helvetica n’est pas disponible, elle s’afficher en Arial, ou encore dans la police sans empattement par défaut du navigateur.
+La page Web utilisera Helvetica à condition qu’elle soit installée sur l’ordinateur de l’utilisateur. Si Helvetica n’est pas disponible elle s’affichera en Arial, ou enfin avec la police sans empattement par défaut du navigateur.
 
 <details markdown=1>
 <summary>Jadis…</summary>
@@ -53,6 +48,7 @@ p { font-size: 16px; } /* en pixels */
 blockquote { font-size: 2em; } /* en em (voir unités) */
 .big { font-size: 8vw; } /* en vw, 1vw = 1% de la largeur de l’écran */
 ```
+
 
 ### Style
 
@@ -99,11 +95,9 @@ Elles sont détaillées dans la section [_Ressources / Typographie_](../../typo/
 
 ## Interligne
 
-La propriété `line-height`, lorsqu’elle est appliquée à un élément de niveau bloc, définit, comme son nom l’indique littéralement, la hauteur de chaque ligne. Elle peut utiliser les unités `px`, `em`, `%` ou pas d’unité : `1.5`.
+La propriété `line-height`, lorsqu’elle est appliquée à un élément de niveau bloc, définit, comme son nom l’indique littéralement, la hauteur de chaque ligne. Elle peut utiliser les unités `px`, `em`, `%` ou (mieux) pas d’unité : `1.5`.
 
-Les valeurs sans unité agissent essentiellement comme des pourcentages. Donc, 150% est égal à 1.5. Ce dernier est juste plus compact et lisible.
-
-La hauteur de ligne a pour but de définir un interligne lisible pour leotre texte. La lisibilité dépendant de la taille du texte, il est recommandé d’utiliser une valeur _dynamique_ relative à la taille du texte. L’utilisation de `px` n’est donc pas recommandée car elle définit une valeur _statique_.
+La hauteur de ligne a pour but de définir un interligne lisible pour le texte. La lisibilité dépendant de la taille du texte, il est recommandé d’utiliser une valeur _dynamique_ relative à la taille du texte. L’utilisation de `px` n’est donc pas recommandée car elle définit une valeur _statique_.
 
 Utiliser les `px` est utile lorsque l’on souhaite aligner le texte verticalement en fonction d’un autre élément et non en fonction de la taille de la police.
 
@@ -158,12 +152,7 @@ Comme pour la propriété `font-size`, on peut utiliser les unités `px`, `em`, 
 
 On peut ajouter une ombre à un texte pour le rendre plus ou moins lisible…
 
-On définit:
-
-1. le décalage horizontal
-2. le décalage vertical
-3. le flou
-4. la couleur
+On définit le décalage horizontal ; le décalage vertical ; le flou ; la couleur.
 
 ```
 .shadow { text-shadow: 0 2px 5px rgba(0,255,0,0.9) }

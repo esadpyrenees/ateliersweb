@@ -327,6 +327,7 @@ h5.filename + pre {
 pre:not([markdown="0"]) {
     margin: 1em -40px;
 }
+details pre { margin-inline: 0 !important;}
 pre .hljs {
     padding: 0.5em 40px !important;
 }

@@ -1,79 +1,190 @@
 
 .ex1 * { padding:1em;}
 .ex1 section {
-    background:#a9d0fd;
+    background:#eee;
   display: grid;
   grid-template-columns: 150px 500px;
 }
 .ex1 article {
-    background:#f3c986;
+    background:darkorange;
     grid-column: 2;  
 }
 .ex1 aside {
-    background:#c1bdf7;
+    background:slateblue;
     grid-column: 1;
 }
-.ex2 * { padding:1em; }
+.ex2 * { padding:1em; color: white;}
 .ex2 {
-    background:#a9d0fd;
-    display: grid;
-    grid-template-columns: 150px 500px;
-    grid-template-rows: 100px 200px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-}
-nav {
-    background:#d1e5fd;
-  grid-column: 1; grid-row: 1;
-}
-section {
-  grid-column: 2; grid-row: 1;
-  background:#ed8e92;
-}
-aside {
-  grid-column: 1; grid-row: 2;
-  background:#c1bdf7;
-}
-article {
-  grid-column: 2; grid-row: 2;
-  background:#f3c986;
-}
-.ex3.container * { padding:1em}
-.ex3.container {
-    background:#a9d0fd;
+    background:#eee;
     display: grid;
     grid-template-columns: 150px 1fr;
-    grid-template-rows: 60px 300px 100px;
-    display: grid;
-    grid-template-areas: "h h"
-                       "n c"
-                       "f f";
+    grid-template-rows: 100px 200px;
 }
-.ex3 header {
-    background:#f3c986;
-  grid-area: h;
+.ex2 header {
+  background:darkturquoise;
+  grid-row: 1; grid-column: 1; /* ligne 1, colonne 1 */
 }
-.ex3 nav {
-  grid-area: n;
+.ex2 nav {
+  background:tomato;
+  grid-row: 1; grid-column: 2; /* ligne 1, colonne 2 */
 }
-.ex3 aside {
-  grid-area: c;
+.ex2 aside{
+  background:slateblue;
+  grid-row: 2; grid-column: 1; /* ligne 2, colonne 1 */
 }
-.ex3 footer {
-    background:#ed8e92;
-  grid-area: f;
+.ex2 article  {
+  background:darkorange;
+  grid-row: 2; grid-column: 2; /* ligne 2, colonne 2 */
 }
-.intrinsic{
+
+.ex2bis {
+  display: grid;
+  gap:20px;
+  grid-template-columns: repeat(5, 1fr);
+  counter-reset: count;
+  line-height: 1;
+  background:#eee;
+}
+.ex2bis div {
+  background: #5e5e5e; color: white; 
+  padding: .5em;
+  position: relative;
+  min-height: 2em;
+  counter-increment: count;
+  padding-right: 2em;
+}
+.ex2bis div::after {
+  content: counter(count);
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  opacity: .6;
+}
+
+
+.ex3bis {
+  display: grid;
+  gap:20px;
+  grid-template-columns: repeat(5, 1fr);
+  counter-reset: count;
+  line-height: 1;
+  background:#eee;
+}
+.ex3bis div {
+  background: #5e5e5e; color: white; 
+  padding: .5em;
+  position: relative;
+  min-height: 2em;
+  counter-increment: count;
+  padding-right: 2em;
+}
+.ex3bis div::after {
+  content: counter(count);
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  opacity: .6;
+}
+
+
+
+.ex {
   border: 1px dashed black;
   padding: 1em;
   resize:both;
   overflow:auto;
+  background: #eee;
+}
+.intrinsic{
   display: grid; 
   gap:.5em;
   /* autant de colonnes que possible (auto-fill), dont la largeur est au minimum 300px */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
 }
-.intrinsic p { margin: 0; background: #eee; display: flex; justify-content: space-between; padding: .5em;}
+.intrinsic p { margin: 0; background: #5e5e5e; color: white; display: flex; justify-content: space-between; padding: .5em;}
 .intrinsic p[data-width]::after{
   content: attr(data-width) "px";
+}
+
+
+.ex .div2 { grid-column-end: span 3; background:tomato; color: black; }
+.ex .div12 { grid-row-end: span 2; background:tomato; color: black;}
+.ex .div11 { grid-column: 3 / span 3; background:tomato; color: black;}
+
+.ex .div32 { grid-column: 3; background:tomato; color: black;}
+.ex .div314 { grid-row: 2; background:tomato; color: black; }
+
+.dense {grid-auto-flow: dense;}
+
+.zones-container{
+  container: zonescont / inline-size;
+  resize:both;
+  border: 1px dashed black;
+  padding: 1em;
+  overflow:auto;
+  background: #eee;
+}
+.ex3 {
+  resize:none;
+  border: none;
+  padding: 0;
+
+  overflow:hidden;
+
+  background:#eee;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  display: grid;
+  grid-template-areas: "h h"
+                      "n c"
+                      "f f";
+}
+
+.ex3 * { padding:1em; color: white;}
+.ex3 header {
+  background:darkturquoise;
+  grid-area: h;
+}
+.ex3 nav {
+  grid-area: n;
+}
+.ex3 article {
+  background:darkorange;
+  grid-area: c;
+  min-height: 200px;
+}
+.ex3 footer {
+    background:tomato;
+  grid-area: f;
+}
+
+
+.ex3 header {
+  background:darkturquoise;
+}
+.ex3 nav {
+  background:tomato;
+}
+.ex3 footer{
+  background:slateblue;
+}
+.ex3 article  {
+  background:darkorange;
+}
+@container zonescont (max-width:40em) {
+  .ex3 {
+    grid-template-columns: min-content 1fr;
+    grid-template-areas: "h n"                       
+                       "c c"
+                       "f f";
+  }
+}
+
+
+
+.vocabulary img {
+  width: 100%;
+  display: block;
+  max-width: none;
+  margin-bottom: .5em;
 }

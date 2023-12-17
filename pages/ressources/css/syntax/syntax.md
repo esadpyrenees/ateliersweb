@@ -1,6 +1,13 @@
 
 # Démarrer
 
+Quand on veut déterminer l’affichage d’un document HTML dans un navigateur, il est crucial de comprendre qu’on entre dans une _négociation_ avec le navigateur et le⋅a visiteur⋅ice.
+
+Des styles d’affichage pré-existent à notre intervention : l’arrière-plan du `body` est blanc, le texte est noir. Le `body`, les `p`, les `blockquote`, les `ul` (etc.) possèdent des marges. Les titres (`h1`, `h2`, etc.) sont en gras et dans des corps plus importants que le texte courant. Le corps de texte lui-même et la famille de caractères peuvent être établis par l’utilisateur⋅ice.
+
+Il est souhaitable de s’appuyer sur ces styles par défaut pour définir _comment_ et _combien_ on souhaite les modifier (bien qu’on puisse souhaiter [les réinitialiser](../reset/)…).
+
+
 ## Appliquer du style
 Il existe trois façons d’ajouter un style CSS au contenu HTML :
 

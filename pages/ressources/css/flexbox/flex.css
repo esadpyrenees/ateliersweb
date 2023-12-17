@@ -1,0 +1,63 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+.btn {
+  background: #fff;
+  border: 3px solid black;
+  padding: .15em .5em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.btn.actived,
+.btn:hover{
+  background: #000;
+  color: white;
+}
+.flex-example {
+  width: 100%;
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  gap: 20px; 
+}
+
+.flex-example > div {
+  width: 20%;
+  padding: 6px 10px 3px;
+  background-color: #000;
+  color:white;
+}
+
+
+.direction-example {
+  flex-direction: column;
+}
+.explain {
+  display: none;
+}
+.explain.visible {
+  display: inline;
+}
+
+.align-example {
+  align-items: flex-start;
+  height: 80px;
+}
+
+.distribute-example div {
+  flex: 1;
+  white-space: nowrap;
+}
+
+.different-flex-example > div:nth-child(2) { flex: 2; }
+.final-flex-example > div:nth-child(2) { flex: 20; }
+
+
+
+
+.ordering-example > div:nth-child(1) {
+  order: 1;
+  background: green
+}
