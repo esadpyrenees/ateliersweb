@@ -93,7 +93,7 @@ En France, les hébergeurs indépendants et artisanaux Altern.org (ouvert dès 1
 
 <strong class="alt">☞ </strong> C’est de cette histoire que viendra nous parler Aris Papathéodorou 👋, fondateur de Samizdat.net et pionnier de l’internet indépendant en France.
 
-En 2009, Benjamin Bayard, fondateur de la Quadrature du Net, pas avare de formules-choc, proposait que si « l’imprimerie a permis au peuple de lire, Internet va lui permettre d’écrire ». Depuis lors, cette hypothèse est largement mise à mal par les centres commerciaux que sont devenues les plateformes qui concentrent nos publications en ligne, captent notre attention et exploitent notre addiction à l’univers médiatique et informationnel dans lequel nous baignons. [^BB]
+En 2009, Benjamin Bayart, fondateur de la Quadrature du Net, pas avare de formules-choc, proposait que si « l’imprimerie a permis au peuple de lire, Internet va lui permettre d’écrire ». Depuis lors, cette hypothèse est largement mise à mal par les centres commerciaux que sont devenues les plateformes qui concentrent nos publications en ligne, captent notre attention et exploitent notre addiction à l’univers médiatique et informationnel dans lequel nous baignons. [^BB]
 
 [^BB]: Regarder la conférence de B. Bayard _Internet libre, ou Minitel 2.0 ?_ sur [Youtube](https://www.youtube.com/watch?v=AoRGoQ76PK8) ou (mieux ;) sur [PeerTube](https://peertube.social/videos/watch/9a8642c0-62f0-4060-95e4-088de9c5db00).
 
@@ -224,6 +224,11 @@ ZineWiki! URL : https://zinewiki.com/wiki/Main_Page
 Zines of the Zone. URL : http://www.zinesofthezone.net/
 
 
-## Interwebs (onglets ouverts pendant la rédaction de cette proposition)
+## Interwebs 
 
-→ [Samizdata](samizdata.php)
+Les onglets ouverts pendant la rédaction de cette proposition : [Samizdata](samizdata.php) !
+
+
+—
+
+Le caractère typographique des titres est le [Murmure](https://velvetyne.fr/fonts/le-murmure/) de Jérémy Landes / Studio Triple. Celui des citations est [Libre Franklin](https://github.com/impallari/Libre-Franklin) de Pablo Impallari, Rodrigo Fuenzalida et Nhung Nguyen.
