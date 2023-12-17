@@ -1,0 +1,125 @@
+
+html, body {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    scroll-behavior: smooth;
+    font-family: monospace;    
+    margin: 0;
+}
+
+/* ------------------------------------------------- conversation */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    padding-bottom: 4em;
+    max-width: 45em;
+    margin: 0  auto;
+}
+
+.message { 
+    max-width: 75%; 
+    margin: 0 0 1.5em;    
+    align-self: flex-end;
+}
+
+.message p {
+    margin:0;
+    padding: .5em 1em; 
+    min-width: 5em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    background-color: pink;
+    min-width: 10ch;
+}
+.message strong {
+    font-weight: normal;
+}
+
+.message > span {
+    display: block;
+    color:#999;
+    padding-top: .25em;
+    position: relative;
+    float: right; padding-left: 1.25em;
+}
+.message > span::after{
+    content: '';
+    position: absolute;
+    top:0;
+	width: 0;
+    height: 0;
+    border: 20px solid transparent;
+	border-top-color: pink;
+	border-bottom: 0;
+    border-right: 0;
+    transform: translateX(-10px);
+    left: 0;
+}
+
+.bot { align-self: flex-start;  }
+.bot p {background-color: purple; color: white;}
+.bot > span:after {
+	border-top-color: purple;
+    border-bottom: 0;
+	border-left: 0;
+    border-right: 20px solid transparent;
+	transform: translateX(10px);
+    left: auto;
+}
+.bot.typing p::before {content: "…"; animation: typing 250ms linear alternate infinite;}
+@keyframes typing {
+    100% { opacity: .2; }
+}
+.bot.typing strong { 
+    clip-path: circle(0);
+    height: 0;
+    width: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.bot > span { float: none; padding-right: 0;}
+
+
+/* ---------------------------------------------------------------- formulaire */
+form {
+    position: fixed;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    background-color: #fff;
+    border-top: 1px solid #000;
+    left: 0;
+}
+input {
+    flex: 1;
+    padding: 1em; 
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+
+form div { 
+    width: 45em;
+    max-width: 100%; 
+    margin: 0 auto;
+    display: flex;    
+}
+form button {
+    background: pink;
+    color: black;
+    border: none;
+    padding: 0 1em;
+
+}
+form.visible {
+    transform: translateY(0);
+}
