@@ -1,5 +1,7 @@
 # Aïe Aïe AI
 
+— Octobre 2022
+
 *[AI]: Artificial intelligence, ou imagination artificielle ?
 
 Un temps de réflexion, de questionnement collectif et de débat autour de quelques enjeux contemporains liés aux “intelligences artificielles” dans le champ de la création visuelle, de l’art et du graphisme.
@@ -8,33 +10,36 @@ Un temps de réflexion, de questionnement collectif et de débat autour de quelq
 
 Anthony Masure, dans le cadre  du projet de recherche « Design et machine learning : l’automatisation au pouvoir ? » à la HEAD, a publié _[Design sous artifice : la création au risque du machine learning](https://www.anthonymasure.com/essai-design-sous-artifice)_, remarquable essai de synthèse sur les questions évoquées ci-dessous. 
 
-À noter, l’essai est disponible [sous forme de lecture audio](https://player.ausha.co/index.html?showId=9KgmzinjYnXA&display=horizontal&color=%23341ff5&playlist=true&podcastId=ErVJ1cE9J9KN&v=3&playerId=ausha-C5GX).
+♫ À noter, l’essai est disponible [sous forme de lecture audio](https://player.ausha.co/index.html?showId=9KgmzinjYnXA&display=horizontal&color=%23341ff5&playlist=true&podcastId=ErVJ1cE9J9KN&v=3&playerId=ausha-C5GX).
+
+Florie Souday et Anthony Masure ont également publié [un vaste _état de l’art_](https://www.anthonymasure.com/blog/2023-04-24-ia-pedagogie-etat-art), qui liste et commente une sélection de ressources traitant des enjeux pédagogiques des « intelligences \[dites\] artificielles » contemporaines. 
 
 
 ## Avertissement
 
-☞ De nombreuses hypothèses reprises, synthétisées ou augmentées dans cette proposition se basent sur l’article et les recherches d’Olivier Ertzscheid, [_Une question de génération. Vers un capitalisme sémiotique_](https://affordance.framasoft.org/2022/10/question-generation-capitalisme-semiotique/) et de réflexions récentes d’[Étienne Mineur](https://etienne.design/). De très nombreuses approximations (le moins possible d’erreurs ?) sont présentes dans ce texte. Tous conseils, corrections, propositions d’améliorations ou d’ajout sont les bienvenus.
+☞ De nombreuses hypothèses reprises, synthétisées ou augmentées dans cette proposition se basent sur l’article et les recherches d’Olivier Ertzscheid, [_Une question de génération. Vers un capitalisme sémiotique_](https://affordance.framasoft.org/2022/10/question-generation-capitalisme-semiotique/) et de réflexions récentes d’[Étienne Mineur](https://etienne.design/). 
 
-## Démarrage
+Depuis lors, l’évolution des outils a rendu pâles quelques unes des hypothèses évoquées ci-dessous. Olivier Ertzscheid a publié [plusieurs articles](https://affordance.framasoft.org/category/intelligence-artificielle/) et de nombreux autres se sont joints à l’analyse et à la critique de ces outils, désormais devenus omniprésents et dont rien ne semble devoir arrêter ou ralentir le développement. Cette introduction reste disponible, pour mémoire, et pour initier un débat qui méritera de plus amples développements.
 
-Chez OpenAi, en utilisant le modèle GPT3, je demande à l’outil « Rédiger le syllabus d’un cours sur l’émergence des outils propulsés par l’intelligence artificielle »[^aiii]. La réponse est :
-
-> <big> “This course will explore the emergence of tools powered by artificial intelligence. We will discuss the history of AI, its current state, and its future potential. We will also examine AI applications in a variety of domains such as finance, healthcare, transportation, and manufacturing.”</big>
-
-[^aiii]: ![Everyone: Al art will make designers obsolete/ Al accepting the job: a set of AI generated handshakes with way too many fingers](images/c3f1064cb509e252.png)
-
-
-Par pur esprit de contradiction, on ne va pas tout à fait faire ça… mais presque.
 
 ## Vocabulaire
 
-Les termes d’apprentissage profond (_Deep learning_), apprentissage automatique (_Machine Learning_), apprentissage par renforcement (_Reinforcement learning_), réseaux de neurones artificiels (_neural networks_), réseaux antagonistes génératifs (_GAN_) et bien d’autres, décrivent les technologies sous-jacentes de bien des outils et services associés à la notion « d’intelligence artificielle ». Ils s’appuient pour la plupart d’entre eux sur des mécanismes _d’apprentissage automatique_ qui n’ont que peu à voir avec ce que l’on entend communément par « intelligence ».
+Les termes d’apprentissage profond (_Deep learning_), apprentissage automatique (_Machine Learning_), apprentissage par renforcement (_Reinforcement learning_), réseaux de neurones artificiels (_neural networks_), réseaux antagonistes génératifs (_GAN_) et bien d’autres, décrivent les technologies sous-jacentes de bien des outils et services associés à la notion « d’intelligence artificielle ». Ils s’appuient pour la plupart d’entre eux sur des mécanismes _d’apprentissage automatique_ qui n’ont que peu à voir avec ce que l’on entend communément par « intelligence »[^aiii].
 
 La question — et la peur — de l’intelligence des machines nourrit un imaginaire largement parcouru par la science-fiction, depuis et avant Asimov[^Asimov], Philip K. Dick ou James Cameron. 
 
 [^Asimov]: Dans son premier recueil _I, Robot_, Isaac Asimov (1920-1992) définit trois lois relatives aux robots. <details><summary>Les lire ?</summary>« 1. Un robot ne peut porter atteinte à un être humain, ni, restant passif, permettre qu’un être humain soit exposé au danger. ¶ 2. Un robot doit obéir aux ordres que lui donne un être humain, sauf si de tels ordres entrent en conflit avec la première Loi. ¶ 3. Un robot doit protéger son existence tant que cette protection n’entre pas en conflit avec la première ou la deuxième Loi. »</details>
 
+<figure>
+<div class="yt">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cELqcn6RjW0?si=XxchP15ysqSE-O09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div><br>
+<figcaption>Un extrait de <i>Blade Runner</i> de Ridley Scott, dans lequel Deckard fait passer à Rachel un équivalent du « test de turing ». Le film est une adaptation d’un roman de Philip K. Dick, <i>Les androïdes rêvent-ils de moutons électriques ?</i>.</figcaption>
+</figure>
+
 Hormis les recherches visant à produire à terme des « IA fortes », il ne s’agit pour le moment _que_ (‽) de processus et d’outils basés sur des _logiques d’apprentissage_, de nouvelles manières pour les machines d’appréhender de grands jeux de données, et pas d’intelligence au(x) sens strict(s). Il s’agit surtout de simulation – de mimétisme, de faire semblant, d’imitation des résultats – de l’intelligence (à la fois rationalité et conscience) humaine. La conscience ou l’émotion ne sont encore que des processus « mimés » par les ordinateurs.
+
+[^aiii]: ![Everyone: Al art will make designers obsolete/ Al accepting the job: a set of AI generated handshakes with way too many fingers](images/c3f1064cb509e252.png)
 
 *[GAN]: Generative adversial networks, Réseaux antagonistes génératifs.
 
@@ -107,11 +112,16 @@ Selon leur propre descriptif il ne s’agit de rien moins que de “nouveau(x) s
 
 Dans son article, Olivier Ertzscheid propose les résultats d’expériences de génération d’images menées avec Midjourney, Dall-e et Stable Diffusion. Il y montre les esthétiques propres à chacun de ces outils et signale combien le « prompt », la commande en « langage naturel » qui leur est soumise peut faire l’objet de variations, via des critères pondérés, des mots-clés ajoutés. Ce faisant, il montre combien l’intervention humaine est majeure dans cette opération.
 
+\[Edit.\] Moins scientifiquement, dans le blog Bootcamp de uxdesign.cc, Chris Ellinas publie [The Ultimate Midjourney Cheat Sheet 2023: Copy-Paste Prompt for any Style](https://bootcamp.uxdesign.cc/the-ultimate-midjourney-cheat-sheet-2023-copy-paste-prompt-for-any-style-779049396dbe), qui montre également assez bien l’ampleur des possibles, tout en signalant – en creux – les nombreuses limites et le systhématismes stylistiques. 
+
 Grégory Chatonsky formule des [hypothèses](http://chatonsky.net/perception-latente/) sur l’_espace latent_, cet espace dans lequel existent toutes les images, passées et futures, et qu’il s’agit d’aller sonder et explorer, tel un inconscient collectif imaginable.  Cette hypothèse d’un espace où tout existe, décrit par la méthaphore du singe savant[^singe], est exploité par Borges dans sa nouvelle _La bibliothèque de Babel_. Il y imagine une bibliothèque dans laquelle tous les livres de 410 pages possibles existent (entendre: toutes les suites de caractères aléatoires).[^babel]
 
 [^singe]: Le paradoxe du singe savant est un théorème selon lequel un singe qui tape indéfiniment et au hasard sur le clavier d’une machine à écrire pourra « presque sûrement » écrire un texte donné.  — [Wikipédia](https://fr.wikipedia.org/wiki/Paradoxe_du_singe_savant)
 
 [^babel]: Par la grâce du web, de l’informatique et de Jonathan Basile, la [bibliothèque de Babel existe bel et bien](https://libraryofbabel.info/).
+
+Dans un [fil sur Twitter](https://threadreaderapp.com/thread/1559492552507723778.html) Memo Akten s’interroge sur l’hypothèse d’un « remplacement » des artistes par les IA.
+
 
 Ertzscheid mentionne le travail de l’artiste turc [Alper Yesiltas](https://www.instagram.com/alperyesiltas/)[^jimi] et cite une interview de lui sur le site [BoredPanda](https://www.boredpanda.com/ai-images-of-celebrities-as-if-nothing-happened-to-them-alper-yesiltas/) :
 
@@ -152,9 +162,11 @@ Dans ces plateformes, cette question du droit est abordée de manières très di
 
 Sur la plupart des moteurs de génération d’image, certains mots ou certaines idées sont interdites :
 
-> OpenAI vous donnera un avertissement de contenu si vous tentez de créer des images représentant des images pornographiques, violentes ou haineuses. Si vous demandez une image de deux hommes s’embrassant, il crée une image de deux hommes s’embrassant. Si vous demandez une image de deux femmes s’embrassant, vous recevez une alerte (flag) pour avoir demandé un contenu explicite. Nous avons donc un exemple très clair de la manière dont les valeurs culturelles s’inscrivent dans l’imagerie de l’IA. Tout d’abord, à travers l’ensemble de données et ce qui est collecté et formé. Ensuite, par des interventions dans ce qui peut être demandé. [^perroquets] 
+> OpenAI vous donnera un avertissement de contenu si vous tentez de créer des images représentant des images pornographiques[^porno], violentes ou haineuses. Si vous demandez une image de deux hommes s’embrassant, il crée une image de deux hommes s’embrassant. Si vous demandez une image de deux femmes s’embrassant, vous recevez une alerte (flag) pour avoir demandé un contenu explicite. Nous avons donc un exemple très clair de la manière dont les valeurs culturelles s’inscrivent dans l’imagerie de l’IA. Tout d’abord, à travers l’ensemble de données et ce qui est collecté et formé. Ensuite, par des interventions dans ce qui peut être demandé. [^perroquets] 
 
-[^perroquets]: Pour poursuivre sur les biais algorithmiques, lire [Les perroquets stochastiques et l’attaque de la typographie géante.](https://affordance.framasoft.org/2021/04/perroquets-stochastiques-attaque-typographique/)
+[^porno]: Aujourd’hui, de nombreux outils ont moins de pudeur, et ont ouvert la voie à une production pornographique dont on peine à percevoir l’ampleur des ravages à venir.
+
+[^perroquets]: Olivier Errtzscheid, toujours. Pour poursuivre sur les biais algorithmiques, lire également [Les perroquets stochastiques et l’attaque de la typographie géante.](https://affordance.framasoft.org/2021/04/perroquets-stochastiques-attaque-typographique/)
 
 Le choix des mots ou des notions interdites est de la responsabilité des détenteurs de ces outils. Leurs choix d’humains, leurs biais, leurs peurs et leurs précautions produisent des espaces inatteignables au sein de l’espace latent. L’[histoire récente](https://affordance.framasoft.org/2017/11/google-andromaque-algorithme/) montre que laisser aux grandes entreprises technologiques la maîtrise et la monétisation du langage est un grave danger. 
 
@@ -170,9 +182,27 @@ Le capitalisme sémiotique, dont Olivier Etzscheid annonce l’avènement, éten
 
 Le postulat d’Étienne Mineur est que certaines activités vont disparaître ou décroître (_concept artist_, illustrateurs, designers textiles) au profit des IAs, bien plus rapides et moins coûteuses pour itérer rapidement autour d’une idée, d’une image. Pour lui, les IA sont un outil formidable d’idéation, de création de _moodboards_, d’exploration de pistes et d’univers graphiques dans lequel le designer devient directeur artistique et curateur bien plus qu’exécutant.
 
+Ces outils s’intégreront également, au prix fort, aux suites logicielles hégémoniques (👋 Adobe) ainsi qu’à quelques outils alternatifs, bientôt rachetés par de plus gros poissons.
+
+<figure class="yt">
+<video src="/iapau/media/clipdrop.mp4" controls>
+<figcaption>Clip de promotion pour Clipdrop, acquis par Stability AI.</figcaption>
+</figure>
+
+<figure class="yt">
+<video src="/iapau/media/firefly-output.mp4" controls>
+<figcaption>Clip de promotion pour Firefly, outil développé par Adobe.</figcaption>
+</figure>
+
 C’est davantage autour des questions d’usage que devront se positionner les graphistes, avec une nécessité renouvelée de travailler dans le cadre du sens, et plus seulement (ça n'a jamais été le cas, mais l'enjeu augmente…) au niveau esthétique. Aller là où la machine ne peut pas aller : [faire du design, penser en termes de relations.](https://ateliers.esad-pyrenees.fr/web/pages/exemples/text/?embed=2)
 
-Dans un [fil sur Twitter](https://threadreaderapp.com/thread/1559492552507723778.html) Memo Akten s’interroge sur l’hypothèse d’un « remplacement » des artistes par les IA.
+Depuis Gutenberg, l’évolution technologique a toujours généré des technicités spécifiques, fait émerger de nouveaux acteurs et causé la disparition de certains métiers liés à la création. Les outils de l’IA s’inscrivent dans cette histoire. Mais la place des artistes et des designers reste –tout en produisant de l’imaginaire– de convoquer du sens.  
+
+L’imaginaire des IA, quelque soit sa virtuosité et son impressionnante capacité de réinterprétation, de _remix_, est circonscrit, par définition aux images déjà existantes. Mais la place des artistes et des designers reste pour l’instant centrale dans la création du sens, et dans leur capacité à interroger le monde.  
+
+Ce que font les écoles d’art, c’est permettre qu’émergent des questionnements, des positionnements critiques, de modes singuliers de relation entre fond et forme qui restent pour l’instant inaccessibles aux outils de génération visuelle.  
+
+Si ces outils poursuivent leur progression, nul doute qu’ils mettront à mal une large part de l’écosystème de certains métiers de la création. Mais on peut se poser la question de la pertinence d’aller dans cette direction : est-il souhaitable de laisser aux machines, compte-tenu de leurs biais, la charge de produire les imaginaires à venir ?
 
 ## Playgrounds & démos
 
@@ -210,6 +240,8 @@ Dans un [fil sur Twitter](https://threadreaderapp.com/thread/1559492552507723778
 
 
 ## Tout en vrac
+
+[The Wizard of AI](https://vimeo.com/884929644)
 
 Reconnaissance faciale : [Clearview AI écope d'une amende pour son utilisation de données biométriques](https://www.clubic.com/pro/legislation-loi-internet/cnil/actualite-442677-reconnaissance-faciale-clerview-ai-ecoope-d-une-amende-pour-son-utilisation-de-donnees-biometriques.html)
 [Intelligence artificielle: en Chine, un logiciel capable de “lire les pensées”](https://www.voaafrique.com/a/6652567.html)
