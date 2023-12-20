@@ -30,7 +30,9 @@
   <meta name="author" content="Julien Bidoret">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
+  <!-- sorry for that — that’s just a test -->
+  <script defer data-domain="ateliers.esad-pyrenees.fr" src="https://plausible.io/js/script.js"></script>
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/web/favicon/apple-touch-icon.png">
