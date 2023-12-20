@@ -27,7 +27,7 @@
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <div class="pad">
         <?php
-            $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_gopro_chevalvert/export/markdown" );
+            $pad = file_get_contents( "https://semestriel.framapad.org/p/esad_gopro_argent/export/markdown" );
             $parsed_pad = $Parsedown->text( $pad );
             echo $parsed_pad;
         ?>
