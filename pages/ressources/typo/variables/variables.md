@@ -6,6 +6,9 @@ Auparavant, l'utilisation de plusieurs styles requerait le chargement de plusieu
 
 Lire l’introduction de Jason Pamental (2019) : [*An Introduction to Variable Fonts*](https://24ways.org/2019/an-introduction-to-variable-fonts/) ou parcourir [variablefonts.io](https://variablefonts.io/). Découvrir et jouer avec des fontes variables sur [v-fonts.com](https://v-fonts.com/), [axis-praxis](https://www.axis-praxis.org/) ou [variable emojis](http://variableemojis.com/).
 
+Sur [variablefonts.dev](https://variablefonts.dev/), Mandy Michael a réuni une collection d’expérimentations et d’exemples autour des fontes variables, notament sur une dimension non abordée ici, les _color fonts_.
+
+
 ## Où trouver des fontes variables
 
 Les outils techniques qui ont permis de rendre variables les fontes ont largement été intégrées aux processus de design des dessinateur⋅ices de caractères (notions de _masters_, de _designspace_). Aussi, nombre de fontes sont aujourd’hui produites et diffusées sur ce mode ; voir la [liste de fonderies](../fonderies). Google liste les fontes variables et open-source qu’il met à disposition [ici](https://fonts.google.com/variablefonts).   

@@ -1,0 +1,14 @@
+<svg width="650" height="50" viewBox="0 0 650 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="649" height="49" stroke="black"/>
+<path d="M131 0V50" stroke="black"/>
+<path d="M344 0V50" stroke="black"/>
+<path d="M450 0V50" stroke="black"/>
+<path d="M484 0V50" stroke="black"/>
+<path d="M500 0V50" stroke="black"/>
+<circle cx="334" cy="10" r="4" fill="black"/>
+<circle cx="334" cy="25" r="4" fill="black"/>
+<circle cx="394" cy="25" r="4" fill="black"/>
+<circle cx="534" cy="25" r="4" fill="black"/>
+<circle cx="615" cy="25" r="4" fill="black"/>
+<circle cx="334" cy="40" r="4" fill="black"/>
+</svg>

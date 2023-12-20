@@ -1,6 +1,6 @@
 # Reset
 
-**tl;dr: La feuille de style ci-dessous devrait être intégrée dans tout projet web. ** Pourquoi ? Afin d’homogéniser l’affichage selon les navigateurs, et d’instaurer de meilleurs comportements par défaut.
+**tl;dr: Une des feuilles de style ci-dessous devrait être intégrée dans tout projet web. ** Pourquoi ? Afin d’homogéniser l’affichage selon les navigateurs, et d’instaurer de meilleurs comportements par défaut.
 
 Dans les premières années de la diffusion de CSS, et jusqu’à un temps relativement récent, les différents navigateurs proposaient des implémentations et des styles par défaut différents. 
 
