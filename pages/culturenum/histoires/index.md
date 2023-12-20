@@ -55,9 +55,10 @@ Par [Julie Blanc](http://julie-blanc.fr/)
 
 ### Histoire de l’internet
 
+Sous le même titre, un podcast en 8 épisodes produit par Julien Le Bot pour France Culture : [Une histoire de… l'Internet](https://www.radiofrance.fr/franceculture/podcasts/serie-une-histoire-de-l-internet) et une passionante vidéo enregistrée par Valérie Schafer (alors chargée de recherche ISCC/CNRS) en décembre 2016.
+
 <iframe width="650" height="365" src="https://www.youtube.com/embed/sHLauYXS0ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Passionante vidéo enregistrée par Valérie Schafer (alors chargée de recherche ISCC/CNRS) en décembre 2016.
 
 ### D’Arpanet à Internet
 
