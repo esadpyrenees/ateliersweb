@@ -13,6 +13,23 @@
   </div>
   <script src="/web/assets/js/notes.js"></script>
   <script src="/web/assets/js/main.js"></script>
+  <button class="stopsnow">*</button>
+  <!-- <script src="/web/assets/js/snow.js"></script> -->
+  <script>
+    const stopsnow = document.querySelector('.stopsnow');
+    let is_snowing = true;
+    const listener =  (e) => {
+      document.body.querySelector('snow-fall').style.opacity= is_snowing == true ? 0 : 1;
+      is_snowing = !is_snowing 
+    }
+    stopsnow.addEventListener("click", listener, false);
+  </script>
+  <script type="module" src="/web/assets/js/snow-fall.js"></script>
+  <script type="module" src="/web/assets/js/is-land.js"></script>
+  <is-land on:media="(prefers-reduced-motion: no-preference)">
+    <snow-fall></snow-fall>
+  </is-land>
+
   <?php if(isset($custom_js)) {
     $jss = explode(',', $custom_js) ;
     foreach( $jss as $js ) {
@@ -32,8 +49,7 @@
     var striked = localStorage.getItem('striked');
     if(striked == "vivelefeu"){
       raisedfist.click();
-    }
-    
+    }    
   </script>
 
 </body>
