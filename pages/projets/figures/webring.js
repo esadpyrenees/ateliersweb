@@ -48,8 +48,8 @@ urls.forEach((url,index) => {
     next = urls[nextindex];
     let previndex = index > 0 ? index - 1 : urls.length - 1
     prev = urls[previndex];
-    prevlink = `<a href="${base_url}${prev.url}" title="${prev.name}">←</a>`;
-    nextlink = `<a href="${base_url}${next.url}" title="${next.name}">→</a>`;
+    prevlink = `<a href="${base_url}${prev.url}/figures" title="${prev.name}">←</a>`;
+    nextlink = `<a href="${base_url}${next.url}/figures" title="${next.name}">→</a>`;
     webring.insertAdjacentHTML('afterbegin', prevlink);
   } 
 });
