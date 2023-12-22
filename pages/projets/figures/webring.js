@@ -42,14 +42,14 @@ let loc = window.location.href;
 let current = null, next = null, prev = null, prevlink = null, nextlink = null;
 urls.forEach((url,index) => {
   if(loc.includes(url.url)) {
-    console.log(loc, url.url);
+    // console.log(loc, url.url);
     current = url;
     let nextindex = index < urls.length - 1 ? index + 1 : 0;
     next = urls[nextindex];
     let previndex = index > 0 ? index - 1 : urls.length - 1
     prev = urls[previndex];
-    prevlink = `<a href="${prev.url}" title="${prev.name}">←</a>`;
-    nextlink = `<a href="${next.url}" title="${next.name}">→</a>`;
+    prevlink = `<a href="${base_url}${prev.url}" title="${prev.name}">←</a>`;
+    nextlink = `<a href="${base_url}${next.url}" title="${next.name}">→</a>`;
     webring.insertAdjacentHTML('afterbegin', prevlink);
   } 
 });
