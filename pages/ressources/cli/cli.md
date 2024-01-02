@@ -77,6 +77,9 @@ Créer un gif à partir d’une vidéo avec `ffmpeg`.
 # place a tête de lecture à 180 secondes, crée un gif des 3 secondes suivantes, à 10 frames par seconde
 ffmpeg -ss 180 -t 3 -i video.mp4 -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 video.gif
 ```
+[Explorer les possibilités de `ffmpeg`](https://ffmpeg.lav.io/) visuellement (outil incroyable).
+
+
 #### `rsync`
 Synchroniser un dossier local avec un dossier distant avec `rsync`.
 
