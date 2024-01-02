@@ -1,0 +1,83 @@
+/* Réinitialisation CSS — https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+/* Example */
+/* La feuille de style n’a aucun impact fonctionnel sur la lecture des medias */
+
+@font-face{
+  font-family: "Century Schoolbook";
+  src: url("CenturySchL-Roma.woff2") format("woff2"),
+  	url("CenturySchL-Roma.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: "Century Schoolbook";
+  src: url("CenturySchL-Ital.woff2") format("woff2"),
+  	url("CenturySchL-Ital.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-size: clamp(1.25em, 2vw, 2em);
+  font-family: "Century Schoolbook", serif;
+  margin: 33vh 1em;
+  color: #2b0c48;
+  background-color: #ffa500;
+}
+h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+header {
+  margin-bottom: 2em;
+  text-align: center;
+}
+a { color: currentColor; }
+header p {
+  font-size: .5em;
+}
+
+p, blockquote { 
+  max-width: 55ch;
+  margin: 0 auto;
+}
+p {
+  text-indent: 1.5em;
+  line-height: 1.35; 
+}
+blockquote {
+  padding-left: 1.5em;
+  margin: 1em auto;
+  font-style: italic;
+}
+sup { line-height: 0; }
+p:first-of-type { text-indent: 0; }
+
+/* audio players */
+.media {  
+  text-align: center;
+  margin: 4em auto;
+  display: block;
+  font-size: .5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.media strong {
+  display: block;
+  margin-bottom: .5em;
+}
+.media audio,
+.media video {
+  border-radius: .5em;
+  margin: auto;
+}
+.media.playing strong {
+  animation: playing_anim 500ms linear infinite alternate;
+}
+@keyframes playing_anim {
+  100% { opacity: .5;}
+}
