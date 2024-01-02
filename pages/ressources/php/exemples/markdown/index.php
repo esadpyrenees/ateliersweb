@@ -35,14 +35,14 @@
     <a class="logo" href="index.php">☻</a>
     <nav>
       <a <?= $content_id=="intro" ? "class='active'" : "" ?> href="index.php">Intro</a>
-      <a <?= $content_id=="chapitre1" ? "class='active'" : "" ?> href="index.php?chapter=1">Partie 1</a>
-      <a <?= $content_id=="chapitre2" ? "class='active'" : "" ?> href="index.php?chapter=2">Partie 2</a>
-      <a <?= $content_id=="chapitre3" ? "class='active'" : "" ?> href="index.php?chapter=3">Partie 3</a>
-      <a <?= $content_id=="chapitre3" ? "class='active'" : "" ?> href="index.php?chapter=about">À propos</a>
+      <a <?= $content_id=="part-1" ? "class='active'" : "" ?> href="index.php?chapter=1">Partie 1</a>
+      <a <?= $content_id=="part-2" ? "class='active'" : "" ?> href="index.php?chapter=2">Partie 2</a>
+      <a <?= $content_id=="part-3" ? "class='active'" : "" ?> href="index.php?chapter=3">Partie 3</a>
+      <a <?= $content_id=="part-3" ? "class='active'" : "" ?> href="index.php?chapter=about">À propos</a>
     </nav>
   </header>
   
-  <main>
+  <main>ici :
     <?= $html ?>
   </main>
 </body>
