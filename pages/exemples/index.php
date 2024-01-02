@@ -23,7 +23,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
 $directory = './';
 
 function scan_dir($dir) {
-    $ignored = array('.', '..', '.svn', '.htaccess', '_archive');
+    $ignored = array('.', '..', '.svn', '.htaccess', '_archive', '_template');
 
     $files = array();
     foreach (scandir($dir) as $file) {

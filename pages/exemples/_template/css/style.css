@@ -1,0 +1,3 @@
+/* Réinitialisation CSS — https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
