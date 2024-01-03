@@ -236,7 +236,7 @@ Il existe plusieurs méthodes (notamment [`scandir`](https://www.php.net/manual/
     if(isset($_GET['dossier'])){
         $dossier = $_GET['dossier']; 
         foreach(glob($dossier.'*.{jpg,JPG,jpeg,JPEG,png,PNG}',GLOB_BRACE) as $file){
-            echo "<img src='$file.jpg'>";
+            echo "<img src='$file'>";
         }        
     }
 ?>

@@ -1,4 +1,3 @@
-<?php $subsection = isset($subsection) ? $subsection : ""; ?>
 <nav class="pane active" id="mainnav">
   <ul>
     <li class="<?php echo $section == 'ressources' ? 'opened' : '' ?>"><a href="/web/pages/ressources/">Ressources</a></li>
@@ -15,7 +14,3 @@
       <a href="/web/pages/about">À propos</a>
   </span>
 </nav>
-
-
-
-<!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->
