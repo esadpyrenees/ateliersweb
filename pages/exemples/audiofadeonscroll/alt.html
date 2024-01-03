@@ -6,6 +6,31 @@
   <meta name="description" content="Les éléments audio et vidéo sont lus au fur et à mesure du scroll de la page">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    #mute{
+      position: fixed;
+      top: 1em;
+      right: 1em;
+      width: 44px;
+      padding: 0;
+      border: none;
+      background: none;
+    }
+    .audio {
+      /* les éléments <audio> sont masqués visuellement */
+      clip: rect(1px, 1px, 1px, 1px) !important;
+      height: 1px !important;
+      overflow: hidden !important;
+      margin: -1px !important;
+    }
+    .media strong {
+      display: none;
+    }
+    /* styles de l’icône SVG */
+    #off { display: none;}
+    .muted #on { display: none;}
+    .muted #off { display: block;}
+  </style>
 </head>
 <body>
 
@@ -13,8 +38,19 @@
     <h1>Du papyrus à l’hypertexte <br> Essai sur les mutations du texte et de la lecture</h1>
     <p>Extrait de l’<a href="https://www.editionsladecouverte.fr/du_papyrus_a_l_hypertexte-9782707131355">ouvrage</a> de Christian Vandendorpe, ponctué d’enregistrements de <a href="https://archive.culturalequity.org/field-work/vera-hall-1948/new-york-city-548">Vera Hall par Alan Lomax</a> et de quelques pas de danse de Peg Leg Sam.</p>
     <p>La lecture des médias est déclenchée par le scroll.</p>
-    <p>Les lecteurs audio peuvent être visibles ou invisibles (<a href="alt.html">voir la version alternative</a>).</p>
+    <p>Les lecteurs audio peuvent être <a href="index.html">visibles</a> ou invisibles, comme dans cet exemple  ; on crée alors un bouton pour permettre aux utilisateur⋅ices de couper le son au besoin.</p>
   </header>
+
+  <button id="mute">
+    <svg  width="44" height="44" fill="#000000" version="1.1" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+      <path id="sound" d="m21.412 9.4972a1.219 1.219 0 0 0-0.75643 0.24648l-8.6967 6.5932h-7.7831c-1.2054 0-2.1758 0.9704-2.1758 2.1758v6.9735c0 1.2054 0.9704 2.1758 2.1758 2.1758h7.8405c0.07054 0 0.13971-0.0042 0.20842-0.01063l8.7669 6.6463a1.009 1.009 0 0 0 1.6191-0.80317v-22.78a1.219 1.219 0 0 0-1.1984-1.2175z"/>
+      <path id="on" d="m29.971 15.153a1.6318 1.6318 0 0 0-1.1623 0.44835 1.6318 1.6318 0 0 0 0 2.3245l4.035 4.0711-4.035 4.0711a1.6318 1.6318 0 0 0 0 2.3266 1.6318 1.6318 0 0 0 2.3266 0l4.0265-4.0605 4.0243 4.0605a1.6318 1.6318 0 0 0 2.3266 0 1.6318 1.6318 0 0 0 0-2.3266l-4.035-4.0711 4.035-4.0711a1.6318 1.6318 0 0 0 0-2.3245 1.6318 1.6318 0 0 0-1.1644-0.44835 1.6318 1.6318 0 0 0-1.1623 0.44835l-4.0243 4.0605-4.0265-4.0605a1.6318 1.6318 0 0 0-1.1644-0.44835z"/>
+      <path id="off" d="m35.607 7.4355a1.5 1.5 0 0 0-1.0625 0.43945 1.5 1.5 0 0 0 0 2.1211c3.1843 3.1843 4.9727 7.5007 4.9727 12.004 0 4.5028-1.787 8.8197-4.9707 12.004a1.5 1.5 0 0 0 0 2.1211 1.5 1.5 0 0 0 2.1211 0c3.7454-3.746 5.8496-8.8278 5.8496-14.125 0-5.2977-2.1036-10.379-5.8496-14.125a1.5 1.5 0 0 0-1.0605-0.43945zm-4.7852 4.5664a1.5 1.5 0 0 0-0.82617 0.42188 1.5 1.5 0 0 0 0 2.1211c1.9778 1.9778 3.0898 4.658 3.0898 7.4551 0 2.7971-1.112 5.4792-3.0898 7.457a1.5 1.5 0 0 0 0 2.1211 1.5 1.5 0 0 0 2.123 0c2.5396-2.5396 3.9668-5.9866 3.9668-9.5781 0-3.5916-1.4272-7.0366-3.9668-9.5762a1.5 1.5 0 0 0-1.2969-0.42188zm-4.2324 4.4512a1.5 1.5 0 0 0-1.0605 0.43945 1.5 1.5 0 0 0 0 2.1211c0.79271 0.79271 1.2363 1.8653 1.2363 2.9863 0 1.1212-0.44536 2.1955-1.2383 2.9883a1.5 1.5 0 0 0 0 2.1211 1.5 1.5 0 0 0 2.1211 0c1.3549-1.3545 2.1172-3.1935 2.1172-5.1094 0-1.9156-0.76074-3.7529-2.1152-5.1074a1.5 1.5 0 0 0-1.0605-0.43945z" />
+     </svg>
+     
+     
+  </button>
+
   <p>
     À la différence de l’écriture hiéroglyphique, qui tient de sa composante pictographique un aspect visuel et
     spectaculaire, l’écriture alphabétique a été conçue comme transcription de la parole et inféodée dès sa naissance à
@@ -24,9 +60,9 @@
     à ce type d’écriture : le « boustrophedon ». Le lecteur était en effet censé suivre des yeux le mouvement
     ininterrompu que la main du scribe avait tracé.
   </p>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — Young Speckled Lady</strong>
-    <audio controls loop src="media/01.mp3" ></audio></span>
+    <audio loop src="media/01.mp3" ></audio></span>
   <p>
     L’oralité étendait aussi son emprise sur le support du texte. Sur la feuille de papyrus, qui était en usage depuis
     &minus;&thinsp;3000, le scribe aligne les colonnes de texte en parallèle jusqu’à ce qu’il soit arrivé à la fin du texte. Malgré
@@ -52,9 +88,9 @@
     le <i>volumen</i> — de la même façon que l’automobile a mis plusieurs dizaines d’années avant de se dégager complètement du
     modèle de la voiture à chevaux: inertie des représentations culturelles dominantes !
   </p>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — Riding In A Buggy</strong>
-    <audio controls loop src="media/02.mp3" ></audio></span>
+    <audio loop src="media/02.mp3" ></audio></span>
   <p>
     Les milieux chrétiens seront les premiers à adopter le codex, surtout pour répandre le texte des Évangiles. On
     suppose que le nouveau format, plus petit, plus compact et plus maniable que le rouleau, avait également l’avantage
@@ -68,9 +104,9 @@
     En bref, la page permettra au texte d’échapper à la continuité et à la linéarité du rouleau : elle le fera entrer
     dans l’ordre de la tabularité.
   </p>
-  <span class="media">
+  <span class="media video">
     <strong>Peg Leg Sam</strong>
-    <video controls loop  src="media/peg-leg-sam-dancing.webm"></video>
+    <video loop  src="media/peg-leg-sam-dancing.webm"></video>
   </span>
   <p>
     Aussi le codex est-il le livre par excellence, sans lequel notre civilisation n’aurait pu atteindre son plein
@@ -91,9 +127,9 @@
       où le texte est dissocié de la parole et de son rythme. (p.21).
     </p>
   </blockquote>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — Rosie Baby</strong>
-    <audio controls loop src="media/04.mp3" ></audio></span>
+    <audio loop src="media/04.mp3" ></audio></span>
   <p>
     À partir du moment où apparaîtra le potentiel de cette unité de forme et de contenu qu’est la page, on verra
     lentement se mettre en place dans l’organisation du livre divers types de repères conçus pour aider le lecteur à
@@ -108,9 +144,9 @@
     papyrus se réenroulait sur lui-même, après la consultation du texte, le codex peut rester ouvert à une double page,
     tels ces grands psautiers du Moyen Âge exposés dans les églises sur leur lutrin.
   </p>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — Stagolee</strong>
-    <audio controls loop src="media/05.mp3" ></audio></span>
+    <audio loop src="media/05.mp3" ></audio></span>
   <p>
     La page devient ainsi le lieu où le texte, jusque-là perçu comme une simple transcription de la voix, accède à
     l’ordre du visuel. Elle va dès lors être travaillée de plus en plus comme un tableau et s’enrichir d’enluminures,
@@ -131,9 +167,9 @@
       bleues, initiales de tailles différentes, indication des paragraphes, renvois, noms des auteurs cités…
     </p>
   </blockquote>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — Yes Ma’am</strong>
-    <audio controls loop src="media/06.mp3" ></audio></span>
+    <audio loop src="media/06.mp3" ></audio></span>
   <p>
     Il est impossible de situer avec précision le moment auquel chacune de ces techniques fut adoptée de manière
     générale ; néanmoins leur emploi était devenu la norme aux environs de 1220 et l’on retrouve la plupart d’entre
@@ -155,9 +191,9 @@
       devienne chose courante.
     </p>
   </blockquote>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — I Got A Home In That Rock</strong>
-    <audio controls loop src="media/07.mp3" ></audio></span>
+    <audio loop src="media/07.mp3" ></audio></span>
   <p>
     Si la pagination permet au lecteur de mieux gérer la durée et le rythme de sa lecture, elle favorise aussi la
     discussion sur les textes, en rendant possible aux lecteurs d’une même édition le renvoi à un même passage. Ce pas
@@ -185,9 +221,9 @@
     Discours de la méthode de Descartes, ouvrage dont la parution marque aussi, en 1637, l’avènement du français comme
     langue du discours philosophique et érudit.
   </p>
-  <span class="media">
+  <span class="media audio">
     <strong>Vera Hall — Trouble In Mind</strong>
-    <audio controls loop src="media/08.mp3" ></audio></span>
+    <audio loop src="media/08.mp3" ></audio></span>
 
   <script src="js/scripts.js"></script>
 

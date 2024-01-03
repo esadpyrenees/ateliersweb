@@ -9,6 +9,7 @@
 // observe viewport intersection
 const medias = document.querySelectorAll('.media');
 
+
 function handleIntersection(entries) {
   entries.map((entry) => {
     const media = entry.target;
@@ -28,12 +29,19 @@ const observer = new IntersectionObserver(handleIntersection);
 
 medias.forEach(media => {
   observer.observe(media);
-  media.volume = 0;  
+  const mediaplayer = media.querySelector("audio, video");
+  mediaplayer.volume = 0;  
 });
 
 
+// mute button (version alternative)
+let muted = false;
+
 // fade in/out functoion
 function fadeAudio(mediaplayer, direction) {
+
+  if(muted) return false;
+
   // fade steps and interval
   // = each 100ms, increase / decrease volume by 0.02
   // = 1 / 0,02 * 100 = 4 seconds from silence to full volume
@@ -58,4 +66,23 @@ function fadeAudio(mediaplayer, direction) {
       } 
     }
   }, interval);
+}
+
+
+// mute button (version alternative)
+
+const mute = document.querySelector("#mute");
+if(mute){
+  mute.onclick = () => {    
+    if(muted === true){
+      mute.classList.remove("muted");
+    } else {
+      mute.classList.add("muted");
+      medias.forEach(media => {
+        const mediaplayer = media.querySelector("audio, video");
+        fadeAudio(mediaplayer, "out") 
+      });
+    }
+    muted = !muted;
+  }
 }
