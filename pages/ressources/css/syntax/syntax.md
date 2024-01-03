@@ -30,7 +30,7 @@ Il existe trois façons d’ajouter un style CSS au contenu HTML :
 
 <summary>Pourquoi une seule CSS alors qu’on a plusieurs pages ?</summary>
 
-<div markdown=1>
+
 Un seul fichier CSS est généralement suffisant pour l’ensemble d’un site web. Toute modification formelle est ainsi répliquée sur toutes les pages, et on conserve une homogénéité sur l’ensemble du site. 
 
 Pour distinguer des éléments selon les pages dans lesquelles ils se trouvent, on utilise des `class`. Voir [les sélecteurs](../selectors/#class).
@@ -42,8 +42,6 @@ Il est nénamoins possible d’intégrer plusieurs fichiers CSS à une page :
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <link href="css/accueil.css" rel="stylesheet" type="text/css">
 ```
-
-</div>
 
 </details>
 
