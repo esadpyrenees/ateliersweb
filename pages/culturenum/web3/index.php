@@ -5,7 +5,8 @@
     $subsection="web3";
     $mdfile = "./index.md";
     $description = "Blockchains, NFTs et Web3 + traitement médiatique de la guerre en Ukraine et de la campagne présidentielle";
-    // $date = "today";
+    
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

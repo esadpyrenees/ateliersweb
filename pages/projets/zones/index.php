@@ -3,7 +3,7 @@
     $title = "Projets: zones";
     $section="projets";
     $subsection="zones";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
+    $nav = "/web/snippets/projets/_projets.php";
     $mdfile = "./zones.md";
 
     // includes

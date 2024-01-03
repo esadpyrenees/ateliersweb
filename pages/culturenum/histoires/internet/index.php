@@ -6,6 +6,7 @@
     $nav = "/web/snippets/references/histoire.php";
     $subsubsection="internet";
     $mdfile = "./internet.md";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

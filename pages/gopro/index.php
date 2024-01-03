@@ -5,6 +5,7 @@
     $section="gopro";
     $subsection="gopro";
     $mdfile = "./gopro.md";
+    $nav = "/web/snippets/gopro.php"; // specific subnav
     
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

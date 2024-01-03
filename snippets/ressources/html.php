@@ -1,3 +1,5 @@
+<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/_resources.php"; ?>
+
 <nav class="pane active">
     <ul>
         <li class="<?= $subsubsection == 'html' ? 'opened' : '' ?>"><a href="/web/pages/ressources/html/">Introduction</a></li>

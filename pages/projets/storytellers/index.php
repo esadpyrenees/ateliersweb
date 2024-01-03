@@ -3,7 +3,7 @@
     $title = "Storytellers";
     $section="projets";
     $subsection="storytellers";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
+    $nav = "/web/snippets/projets/_projets.php";
     $mdfile = "./storytellers.md";
 
     // includes

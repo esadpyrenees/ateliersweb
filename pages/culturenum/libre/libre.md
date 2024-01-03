@@ -1,5 +1,6 @@
 # Graphisme libre, f/loss design 
-> Outils libres et libre production
+
+Outils libres et libre production
 
 > <big>Utiliser un smartphone ou une tablette éduque autant à l’informatique que le fait de prendre un taxi éduque à la mécanique et la thermodynamique. […] Pour comprendre ce qu’est un moteur, il faut pouvoir l’ouvrir. L’observer. Le démonter. Il faut apprendre à conduire sur des engins simplifiés. Il faut en étudier les réactions. Il faut pouvoir discuter avec d’autres, comparer un moteur avec un autre. Pour découvrir l’aérodynamique, il faut avoir le droit de faire des avions de papier. Pas d’en observer sur une vidéo YouTube[^ploum].</big>
 

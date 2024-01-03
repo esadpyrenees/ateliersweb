@@ -5,6 +5,7 @@
     $section="projets";
     $subsection="memoirevive";
     $mdfile = "./memoirevive.md";
+    $nav = "/web/snippets/projets/_projets.php";
 
     // language
     $language = $_SERVER['QUERY_STRING'];

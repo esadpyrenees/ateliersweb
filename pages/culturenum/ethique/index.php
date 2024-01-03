@@ -5,6 +5,7 @@
     $subsection="ethique";
     $mdfile = "./ethique.md";
     $date = "20/04/2021";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

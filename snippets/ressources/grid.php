@@ -1,3 +1,5 @@
+<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/ressources/_resources.php"; ?>
+
 <nav class="pane active">
     <h3>Grid</h3>
     <ul>

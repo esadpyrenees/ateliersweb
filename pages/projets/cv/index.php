@@ -7,6 +7,7 @@
     $description = "Approche du responsive web design et du web to print via la mise en forme d’un CV.";
     $date = "05/10/2023";
     $ogp_url = "ogp-cv.png";
+    $nav = "/web/snippets/projets/_projets.php";
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

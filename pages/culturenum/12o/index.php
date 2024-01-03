@@ -5,6 +5,7 @@
     $section="culturenum";
     $subsection="12o";
     $mdfile = "./12o.md";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
     // $date = "today";
 
     // includes

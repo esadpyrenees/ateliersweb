@@ -1,9 +1,9 @@
 <?php
     // config
     $title = "ÉSAD·Pyrénées — Ateliers web — Ressources";
-    $section="references";
+    $section="culturenum";
     $subsection="histoire";
-    $nav = "/web/snippets/references/histoire.php";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
     $subsubsection="machines";
     $mdfile = "./machines.md";
 

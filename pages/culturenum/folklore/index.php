@@ -4,6 +4,7 @@
     $section="culturenum";
     $subsection="folklore";
     $mdfile = "./index.md";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
     // $date = "today";
 
     // includes

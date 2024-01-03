@@ -6,6 +6,7 @@
     $mdfile = "./ecrituresnumeriques.md";
     $description = "";
     $date = "26/09/2022";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

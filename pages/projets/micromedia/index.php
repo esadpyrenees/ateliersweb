@@ -4,6 +4,7 @@
     $description = "Proposition de production médiatique autonome, autoproduite et autopubliée, du web au print";
     $section="projets";
     $subsection="micromedia";
+    $nav = "/web/snippets/projets/_projets.php";
 
     // $nav = "/web/snippets/ressources/SECTION.php"; // specific subnav
     $mdfile = "./samizdat.md";

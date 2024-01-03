@@ -5,6 +5,7 @@
     $section="projets";
     $subsection="neogeo";
     $mdfile = "./neogeo.md";
+    $nav = "/web/snippets/projets/_projets.php";
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

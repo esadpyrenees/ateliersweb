@@ -6,6 +6,7 @@
     $mdfile = "./index.md";
     $description = "Médias sociaux, fédivers, critique et nécessités des médias.";
     $date = "8/12/2022";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

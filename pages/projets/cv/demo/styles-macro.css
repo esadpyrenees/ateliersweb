@@ -13,25 +13,16 @@ body {
   display: grid;
   /* deux colonnes en vue Web Desktop */
   grid-template-columns: 22em 1fr;
-  /* zones nommées */
-  grid-template-areas: "entete contenu";
   /* goutière */
   gap: 0;
 }
 
-main {
-  /* l’élement principal va dans la zone "contenu" */
-  grid-area: contenu;
-}
 
 /* En dessous d’une largeur d’écran de 60em, on modifie la grille */
 @media (max-width: 60em) {
   body {
     /* Une seule colonne */
     grid-template-columns: 1fr;
-    /* zones nommées modifiées, deux lignes */
-    grid-template-areas: "entete" 
-                         "contenu";
   }
 }
 
@@ -42,7 +33,7 @@ main {
      /* pour le format A4 : */
     size: A4;
     /* pour le format de l’imprimante thermique : */
-    size: 65mm 400mm; 
+
     orientation: portrait;
   }
   body {

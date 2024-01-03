@@ -6,6 +6,7 @@
     $mdfile = "./index.md";
     // $date = "today";
     // $custom_js = "webring.js";
+    $nav = "/web/snippets/projets/_projets.php";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

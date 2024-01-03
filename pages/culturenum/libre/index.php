@@ -7,6 +7,7 @@
     $custom_css = "custom.css"; // relative or absolute file URL
     $custom_js = "custom.js"; // relative or absolute file URL
     $date = "10/02/2021";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

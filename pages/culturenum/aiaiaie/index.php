@@ -7,6 +7,7 @@
     $description = "Intelligence (ou imagination) artificielle et deep learning, ce que l’AI fait à l’art et au design.";
     $date = "28/10/2022";
     $update = "09/05/2023";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

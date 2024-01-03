@@ -8,6 +8,7 @@
     $date = "16/03/2023";
     $custom_js = "/web/assets/slideshowfromHTML/script.js";
     $custom_css = "/web/assets/slideshowfromHTML/style.css";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
 
     // includes
     require $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

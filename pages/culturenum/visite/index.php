@@ -4,6 +4,7 @@
   $section="culturenum";
   $subsection="visite";
   $mdfile = "./visite.md";
+  $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
   
   // includes
   include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

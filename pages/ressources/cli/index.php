@@ -5,6 +5,7 @@
     $section="ressources";
     $subsection="cli";
     $mdfile = "./cli.md";
+    $nav = "/web/snippets/ressources/_resources.php"; // specific subnav
     // $custom_css = "custom.css"; // relative or absolute file URL
     // $custom_js = "custom.js"; // relative or absolute file URL
 

@@ -3,7 +3,7 @@
     $title = "Ressources — Canvas";
     $section="ressources";
     $subsection="canvas";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
+    $nav = "/web/snippets/ressources/_resources.php"; // specific subnav
     $mdfile = "./canvas.md";
 
     // includes

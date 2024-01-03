@@ -5,6 +5,7 @@
     $subsection="perfuction";
     // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
     $mdfile = "./debrief.md";
+    $nav = "/web/snippets/projets/_projets.php";
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

@@ -4,6 +4,7 @@
     $section="culturenum";
     $subsection="figures";
     $mdfile = "./index.md";
+    $nav = "/web/snippets/culturenum/culturenum.php"; // specific subnav
     // $date = "today";
 
     $custom_css = "style.css";

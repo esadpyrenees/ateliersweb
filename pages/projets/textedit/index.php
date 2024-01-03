@@ -3,7 +3,7 @@
     $title = "TextEdit (Code is law)";
     $section="projets";
     $subsection="textedit";
-    // $nav = "/web/snippets/ressources/NAV.php"; // specific subnav
+    $nav = "/web/snippets/projets/_projets.php";
     $mdfile = "./textedit.md";
 
     // includes

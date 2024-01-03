@@ -8,6 +8,7 @@
     <li class="<?php echo $section == 'culturenum' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Cultures numériques</a></li> 
     <li class="<?php echo $section == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/lectures/">Lectures</a></li>
     <li class="<?php echo $section == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/gopro/">Go pro</a></li>
+    <li class="<?php echo $section == 'faq' ? 'opened' : '' ?>"><a href="/web/pages/faq/">FAQ</a></li>
     <li class="<?php echo $section == 'archives' ? 'opened' : '' ?>"><a href="/web/archives/">Archives</a></li>
   </ul>
   <span class="<?php echo $section == 'about' ? 'opened' : '' ?>">
@@ -15,100 +16,6 @@
   </span>
 </nav>
 
-<nav class="pane subnav <?php echo $section == 'ressources' ? 'active' : '' ?>"  id="ressources">
-    <ul>
-        <li class="<?php echo $subsection == 'html' ? 'opened' : '' ?>"><a href="/web/pages/ressources/html/">HTML</a></li>
-        <li class="<?php echo $subsection == 'css' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/">CSS</a></li>
-        <li class="<?php echo $subsection == 'ftp' ? 'opened' : '' ?>"><a href="/web/pages/ressources/ftp/">FTP</a></li>
-        <li class="<?php echo $subsection == 'js' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/">Javascript</a></li>
-        <li class="<?php echo $subsection == 'php' ? 'opened' : '' ?>"><a href="/web/pages/ressources/php/">PHP</a></li>
-        <li class="<?php echo $subsection == 'python' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/">Python</a></li>
-        <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/">Typographie</a></li>
-        <li class="<?php echo $subsection == 'audiovideo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/audiovideo/">Audio &amp; vidéo</a></li>
-        <li class="<?php echo $subsection == 'canvas' ? 'opened' : '' ?>"><a href="/web/pages/ressources/canvas/">Canvas</a></li>
-        <li class="<?php echo $subsection == 'ctrlaltprint' ? 'opened' : '' ?>"><a href="/web/pages/ressources/ctrl-alt-print/">CTRL Alt print</a></li>
-        <li class="<?php echo $subsection == 'cli' ? 'opened' : '' ?>"><a href="/web/pages/ressources/cli/">CLI</a></li>
-    </ul>
-    <ul>
-        <li class="<?php echo $subsection == 'kirby' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Kirby</a></li>
-        <li class="<?php echo $subsection == 'mkdocs' ? 'opened' : '' ?>"><a href="/web/pages/ressources/mkdocs/">MkDocs</a></li>
-        <li class="<?php echo $subsection == 'imagemagick' ? 'opened' : '' ?>"><a href="/web/pages/ressources/imagemagick/">ImageMagick</a></li>
-    </ul>
-</nav>
 
-<nav class="pane subnav <?php echo $section == 'exemples' ? 'active' : '' ?>"  id="exemples">
-    <ul>
-        <li><button class="mixitup-control-active" href="#" data-filter="all">Tout</button></li>
-        <li><button href="#" data-filter=".layout">Mise en page</button></li>
-        <li><button href="#" data-filter=".random">Aléatoire</button></li>
-        <li><button href="#" data-filter=".audio,.video">Audio/vidéo</button></li>
-        <li><button href="#" data-filter=".flex">Flex</button></li>
-        <li><button href="#" data-filter=".grid">Grid</button></li>
-        <li><button href="#" data-filter=".js">Javascript</button></li>
-        <li><button href="#" data-filter=".css">CSS</button></li>
-        <li><button href="#" data-filter=".rwd">Responsive</button></li>
-        <li><button href="#" data-filter=".typo">Typographie</button></li>
-        <li><button href="#" data-filter=".interactive">Interactivité</button></li>
-        <li><button href="#" data-filter=".variable">Variable fonts</button></li>
-        <li><button href="#" data-filter=".webtoprint">WebToPrint</button></li>
-        <li><button href="#" data-filter=".php">PHP</button></li>
-    </ul>
-</nav>
 
-<nav class="pane subnav <?php echo $section == 'gopro' ? 'active' : '' ?>"  id="gopro">
-    <ul>
-        <li><a href="/web/pages/gopro/#syndicats">✊</a></li>
-        <li><a href="/web/pages/gopro/#les-statuts">Les statuts</a></li>
-        <li><a href="/web/pages/gopro/#economie-critique">Économie critique</a></li>
-        <li><a href="/web/pages/gopro/#questions-dargent">Questions d’argent</a></li>
-        <li><a href="/web/pages/gopro/#autres">Autres</a></li>
-    </ul>
-    <ul>
-        <li class="<?php echo $subsection == '2324' ? 'opened' : '' ?>"><a href="/web/pages/gopro/2324/">23 – 24</a></li>
-    </ul>
-</nav> 
-
-<nav class="pane subnav <?php echo $section == 'projets' ? 'active' : '' ?>"  id="projets">
-    <ul>
-        <li class="<?php echo $subsection == 'htsh' ? 'opened' : '' ?>"><a href="/web/pages/projets/htsh/">Hypertext superhero</a></li>
-        <li class="<?php echo $subsection == 'pechakucha' ? 'opened' : '' ?>"><a href="/web/pages/projets/pechakucha/">Pecha Kucha</a></li>
-        <li class="<?php echo $subsection == 'webradiola' ? 'opened' : '' ?>"><a href="/web/pages/projets/webradiola/">Webradiola</a></li>
-        <li class="<?php echo $subsection == 'zones' ? 'opened' : '' ?>"><a href="/web/pages/projets/zones/">Zones</a></li>
-        <li class="<?php echo $subsection == 'programmation' ? 'opened' : '' ?>"><a href="/web/pages/projets/programmation/">Programmation</a></li>
-        <li class="<?php echo $subsection == 'storytellers' ? 'opened' : '' ?>"><a href="/web/pages/projets/storytellers/">Storytellers</a></li>
-        <li class="<?php echo $subsection == 'portfolio' ? 'opened' : '' ?>"><a href="/web/pages/projets/portfolio/">Portfolio</a></li>
-        <li class="<?php echo $subsection == 'textedit' ? 'opened' : '' ?>"><a href="/web/pages/projets/textedit/">Textedit</a></li>
-        <li class="<?php echo $subsection == 'perfuction' ? 'opened' : '' ?>"><a href="/web/pages/projets/perfuction/">Puck Ferpection</a></li>
-        <li class="<?php echo $subsection == 'micromedia' ? 'opened' : '' ?>"><a href="/web/pages/projets/micromedia/">Micromedia</a></li>
-        <li class="<?php echo $subsection == 'cv' ? 'opened' : '' ?>"><a href="/web/pages/projets/cv/">Curriculum vitæ</a></li>
-        <li class="<?php echo $subsection == 'memoirevive' ? 'opened' : '' ?>"><a href="/web/pages/projets/memoirevive/">Mémoire vive</a></li>
-        <li class="<?php echo $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/projets/figures/">Figures</a></li>
-        <li class="<?php echo $subsection == 'lasn' ? 'opened' : '' ?>"><a href="/web/pages/projets/lasn/">Local Area Social Network</a></li>
-        <li class="<?php echo $subsection == 'neogeo' ? 'opened' : '' ?>"><a href="/web/pages/projets/neogeo/">NeoGeo</a></li>
-    </ul>
-</nav>
-<nav class="pane subnav <?php echo $section == 'culturenum' ? 'active' : '' ?>"  id="culturenum">
-    <ul>
-        <li class="<?= $subsection == 'intro' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Introduction</a></li>
-    </ul>
-    <ul>
-        <li class="<?= $subsection == 'visite' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/visite/">Visite du web</a></li>
-    </ul>
-    <ul>
-        <li class="<?= $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/figures/">Figures</a></li>
-        <li class="<?= $subsection == 'histoires' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/histoires/">Histoires</a></li>
-        <li class="<?= $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ecrituresnumeriques/">Écritures numeriques</a></li>
-    </ul>
-    <ul>
-        <!-- <li class="<?= $subsection == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/lectures/">Lectures</a></li> -->
-        <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
-        <li class="<?= $subsection == 'libre' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/libre/">Design libre</a></li>
-        <li class="<?= $subsection == 'folklore' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/folklore/">Folklore</a></li>
-        <li class="<?= $subsection == 'web3' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/web3/">Web3 ?</a></li>
-        <li class="<?= $subsection == 'aiaiaie' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/aiaiaie/">AI AI Aïe</a></li>
-        <li class="<?= $subsection == 'mediaqueries' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/mediaqueries/">Media queries</a></li>
-        <li class="<?= ($subsection == '8m' || $subsection == '12o') ? 'opened' : '' ?>"><a href="/web/pages/culturenum/12o/">12o</a> + <a href="/web/pages/culturenum/8m/">8m</a></li>
-        <li class="<?= $subsection == 'kiss' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/kiss/">KISS</a></li>
-    </ul>
-</nav>
 <!-- <nav class="pane subnav <?php echo $section == 'archives' ? 'active' : '' ?>"  id="archives">archives</nav> -->

@@ -7,7 +7,9 @@ $description = "Exemples HTML, CSS, JavaScript, PHP, web to print et plus des at
 
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
 include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
-
+$nav = "/web/snippets/examples.php"; // specific subnav
+// nav snippet
+if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
 ?>
 
 <main class="pane active exemples" id="content">

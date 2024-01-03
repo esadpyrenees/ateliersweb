@@ -5,8 +5,14 @@
   $title = "Pecha Kucha";
   $section="projets";
   $subsection="pechakucha";
+  $nav = "/web/snippets/projets/_projets.php";
+
   include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php");
   include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php");
+
+  // nav snippet
+  if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
+
 ?>
     <style type="text/css">
 

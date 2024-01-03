@@ -6,6 +6,7 @@
     $subsection="2324";
     $date = "28/09/2023";
     $mdfile = "./index.md";
+    $nav = "/web/snippets/gopro.php"; // specific subnav
 
     // includes
     include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';

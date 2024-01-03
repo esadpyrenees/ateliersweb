@@ -5,6 +5,7 @@
     $section="ressources";
     $subsection="imagemagick";
     $mdfile = "./imagemagick.md";
+    $nav = "/web/snippets/ressources/_resources.php"; // specific subnav
     // $custom_css = "custom.css"; // relative or absolute file URL
     // $custom_js = "custom.js"; // relative or absolute file URL
 
