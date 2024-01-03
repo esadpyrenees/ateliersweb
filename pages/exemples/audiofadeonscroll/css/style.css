@@ -39,6 +39,7 @@ header {
 a { color: currentColor; }
 header p {
   font-size: .5em;
+  margin-bottom: 1em;
 }
 
 p, blockquote { 
