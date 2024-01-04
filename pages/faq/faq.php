@@ -25,13 +25,11 @@ function buildFaq(){
   $faq_html = "<div class='faq'>\n";
   $nav_html = "<nav class='pane active' id='faq-nav'>\n<ul>\n<li><button class='active' href='#' data-filter='question'>Tout</button></li>";
 
+  // glob questions directory
   foreach(glob('questions/*.md') as $file){
-    // $faq_html .= $file;
     $questions[] = $file;
   }
 
-
-  
 
   foreach ($questions as $question) {
     $markdown = file_get_contents( $question );
