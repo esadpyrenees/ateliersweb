@@ -21,10 +21,29 @@
     $Parsedown = new ParsedownExtraPlugin();
     $Parsedown->figuresEnabled = true;
 
+    $markdown = file_get_contents( $mdfile );
+
+    // attempt to include file base on {{ pattern }}
+
+    // // Callback function for replacement
+    // function replaceCallback($matches) {
+    //     // Extract the special string
+    //     $specialString = $matches[1];
+    //     // Read content from another file based on the special string
+    //     $replacementFile = 'pens/' . $specialString . '.md';
+    //     $replacementText = file_get_contents($replacementFile) ;
+    //     // Return the replacement text
+    //     return $replacementText;
+    // }
+    // $regex = '/{{\s*([\w_]+)\s*}}/';
+    // $text = preg_replace_callback($regex, 'replaceCallback', $markdown); 
+
+    
+
 ?>
 
     <main class="pane active typeset" id="content">
-        <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
+        <?= $Parsedown->text( $markdown ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
     

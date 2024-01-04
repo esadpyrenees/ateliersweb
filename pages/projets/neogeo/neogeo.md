@@ -26,9 +26,6 @@ Cet usage de CSS est devenu [un exercide de style](https://css-art.com/), poussa
 
 [^francine]: Voir [ce _thread_ twitter](https://twitter.com/waxpancake/status/991412919656005632) dans lequel le projet est soumis aux déformations produites par l’usage d’anciens navigateurs web.
 
-   
-
-
 
 * [![where-fears-hi.de](cssimages/wherefearshide.png)](https://where-fears-hi.de/)
 Pour where-fears-hi.de, Raphaël Batide a dessiné des [créatures monstrueuses](https://where-fears-hi.de/).
@@ -139,3 +136,17 @@ https://css-doodle.com/
 https://yuanchuan.dev/talk/generative-art-with-css/
 
 -->
+
+## Miscellanées
+
+* ![Hans Dieter Reichert](images/2001-reichert2.jpg)
+    Hans Dieter Reichert
+* ![Anni Albers](images/anni_albers_rug_design_for_childs_room_1928.jpg)
+    Anni Albers
+* ![Ikko Tanaka](images/ikko_tanaka_design_japan_31_1962.jpg)
+    Ikko Tanaka
+* ![Max Bill](images/max_bill_form_internationale_revue_5_1959.jpg)
+    Max Bill
+* ![Max Bill](images/max_bill_no_beginning_no_end_2018.jpg)
+    Max Bill
+
