@@ -22,7 +22,7 @@
     <style>
       .gridlist {  font-size: clamp(1.5em,2vw,2.5em); line-height: 1; }
       .gridlist ul { grid-gap: 2rem; }
-      .gridlist a { border-bottom: none; word-break: break-all}
+      .gridlist a { border-bottom: none; }
     </style>
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
