@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Scroll horizontal</title>
+  <meta name="description" content="Example">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main>
+    <!-- chaque secttion avec la class "plan" peut se déplacer à une vitesse différente -->
+    <section style="--speed:0.333" class="plan">
+      <img src="img/bg2.svg" alt="">
+    </section>
+    <section style="--speed:0.5" class="plan">
+      <img src="img/bg1.svg" alt="">
+    </section>
+
+    <!-- l’ensemble des articles successifs détermine la largeur scrollable totale -->
+    <article id="a1"><p>Ce que j’appris, je le dois à la collaboration de mon berger, </p></article>
+    <article id="a2"><p>et aussi, puisqu’il faut tout dire, à la collaboration de l’insecte rampant,</p></article>
+    <article id="a3"><p>à celle du papillon et de l’oiseau chanteur.</p></article>
+    <article id="a4"><p>Si je n’avais passé de longues heures, couché sur l’herbe, à regarder ou à entendre ces petits êtres, mes frères,</p></article>
+    <article id="a5"><p>peut-être aurais-je moins compris combien est vivante aussi</p></article>
+    <article id="a6"><p>la grande terre qui porte sur son sein tous ces infiniment petits</p></article>
+    <article id="a7"><p>et les entraîne avec nous dans l’insondable espace.</p></article>
+  </main>
+   
+  <!-- navigation -->
+  <nav>
+    <a href="#a1">1</a>
+    <a href="#a2">2</a>
+    <a href="#a3">3</a>
+    <a href="#a4">4</a>
+    <a href="#a5">5</a>
+    <a href="#a6">6</a>
+    <a href="#a7">7</a>
+  </nav>
+
+  <!-- le script qui génère des svg aléatoires -->
+  <script src="js/shapes.js"></script>
+  <!-- le script qui gère le scroll horizontal -->
+  <script src="js/scroll.js"></script>
+  
+</body>
+</html>

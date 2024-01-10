@@ -1,0 +1,79 @@
+/* Réinitialisation CSS — https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+/* Scroll horizontal */
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #003eaa;
+}
+main {
+  overflow: hidden;
+  overflow-x: scroll;
+  display: flex;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  min-width: 100vw; /* la largeur de chaque article est ici similaire mais peut être modifiée */
+  position: relative;
+  z-index: 1;
+}
+section {
+  position: fixed;
+  height: 100dvh;
+  top: 0;
+  left: 0;
+  transform: translateX(calc( var(--scroll,0) * var(--speed) * -1px));
+  width: calc(var(--width) * 1px);
+}
+.plan img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+path {
+  fill: none;
+  stroke-width: 2px;
+  stroke-linecap: round; 
+  stroke-linejoin: round;
+}
+
+/* typo */
+
+@font-face {
+  font-family: "Roberte";
+  src: url("Roberte-Regular.woff") format("woff"),
+  url("Roberte-Regular.woff2") format("woff2");
+}
+article p {
+  font-family: "Roberte";
+  font-size: calc(1.5em + 3vw);
+  line-height: 1.2;
+  color: white;
+  max-width: 20ch;
+}
+nav {
+  display: flex;
+  gap: .5em;
+  padding: .5em;
+}
+nav a {
+  font-family: "Roberte";
+  font-size: 2em;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+}
