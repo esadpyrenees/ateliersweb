@@ -11,10 +11,6 @@
     include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
     include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
-    // includes
-    
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/header.php";
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
     // nav snippet
     if(isset($nav)) include_once $_SERVER["DOCUMENT_ROOT"] . $nav;
@@ -42,7 +38,7 @@
         
     </main>
 
-    <script type="text/javascript" src="/web/assets/js/mixitup.min.js"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
     
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>
