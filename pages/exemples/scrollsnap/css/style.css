@@ -1,0 +1,57 @@
+/* Réinitialisation CSS — https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+:root {
+  --navwidth: 50px;
+}
+/* activation de “scroll snap” */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+/* “smooth” scroll */
+html { scroll-behavior: smooth; }
+
+article {
+  /* oblligatoire pour “scroll snap” */
+  scroll-snap-align: start;
+
+  /* hauteur fixe et largeur qui tient compte de la nav */
+  height: 100vh;
+  width: calc(100% - var(--navwidth));
+
+  /* mise en page, couleur… */
+  background: var(--color, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  mix-blend-mode: screen;
+}
+
+/* nav verticale */
+nav {
+  position: fixed;
+  width: var(--navwidth);
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  flex: 1;
+  background: var(--color, #000);
+}
