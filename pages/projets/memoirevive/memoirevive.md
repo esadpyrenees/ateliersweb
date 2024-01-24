@@ -48,15 +48,16 @@ Maïeutique, hypothèses, corpus, thésaurus, index, taxonomie, fragments, esqui
 
 ## Outils ?
 
-Le code (HTML, CSS, voire JavaScript ou PHP) n’est pas la seule manière de résoudre les enjeux techniques du projet. Une appropriation (habile :) d’outils de publication standards peut parfaitement répondre à ces enjeux : 
+Le code (HTML, CSS, voire JavaScript ou PHP) n’est pas la seule manière de résoudre les enjeux techniques du projet. Une appropriation (habile :) d’outils de publication ± standards peut parfaitement répondre à ces enjeux : 
 - usage de pads ([avec Libreto ?](https://libreto.net/)), 
-- de documents Google (_docs_, _sheets_), 
+- de documents Google (_docs_, _sheets_) (mais bon…), 
 - systèmes de publication automatisés du type [blot.im](https://blot.im), 
-- outils de publication bizarres tels que [hotglue.me](https://hotglue.me/) ou [txti.es](//txti.es), 
+- évidemment des moteurs de wiki : l’omnipotent [mediawiki](https://www.mediawiki.org/wiki/MediaWiki/fr), le léger [ikiwiki](http://ikiwiki.info/) ou l’incroyablement invraisemblable [w](https://w.club1.fr/),
+- outils de publication bizarres tels que [hotglue.me](https://hotglue.me/) ~~ou [txti.es](//txti.es)~~, 
 - usage de git et de [Gitlab](https://gitlab.com/) ou [GitHub](http://github.com/), 
 - applications de bureau telles que [Publii](https://getpublii.com/), 
 - voire même détournement de [Padlet](https://esad-pyrenees.padlet.org). 
 
-Des cartes mentales peuvent être envisagées grâce à [MarkMap](https://markmap.js.org/). Des sites statiques peuvent être produits à partir de notes en markdown ([Zettlr](https://www.zettlr.com/), [Obsidian](https://obsidian.md/), [Joplin](https://joplinapp.org), etc.) et des « static sites generators » (Mkdocs, Hugo, Eleventy, etc.).
+Des cartes mentales peuvent être envisagées grâce à [MarkMap](https://markmap.js.org/) ou (mieux encore) [bigpicture](https://josephernest.github.io/bigpicture.js/index.html). Des sites statiques peuvent être produits à partir de notes en markdown ([Zettlr](https://www.zettlr.com/), [Obsidian](https://obsidian.md/), [Joplin](https://joplinapp.org), etc.) et des « static sites generators » ([Mkdocs](../../ressources/mkdocs/), Zola, Hugo, Eleventy, etc.).
 
 L’hypothèse incrémentale peut être engagée grâce à des contraintes telles qu’explorées par Romain Marula et Ivan Murit dans [Painting Club](http://painting-club.ivro.fr/) (soit, _ne pas coder plus de cinq minutes, partir du code de la version précédente et découvrir le résultat au moment de l’impression_). Il ne s’agit pas de se perdre dans des enjeux fonctionnels complexes, mais d’expérimenter, chacun⋅e à son niveau, des approches appropriationnistes des outils de publication numérique. 
