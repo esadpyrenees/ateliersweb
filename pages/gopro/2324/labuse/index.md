@@ -5,6 +5,5 @@ Miel Villemot est membre de La Buse, collectif indépendant né en 2018 composé
 _La Buse_ questionne le système économique de l’art, les dispositifs de rémunération de ses acteur·rices, leurs statuts, ainsi que les questions éthiques relatives au pouvoir et à ses abus : comportement déplacé à caractère sexuel ou moral, discrimination, conflit d'intérêts et plus généralement les situations d'inégalités entretenues par la méconnaissance et/ou le non-respect du droit.
 
 
-### Questions à lui poser
 
-[→ Accéder au pad](https://semestriel.framapad.org/p/esad_gopro_labuse?lang=fr)
+### Questions / réponses

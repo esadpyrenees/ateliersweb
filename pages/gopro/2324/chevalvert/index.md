@@ -4,6 +4,4 @@ Stéphane Buellet est directeur artistique et cofondateur du studio [Chevalvert]
 
 Stéphane évoquera le parcours du studio depuis sa création, son modèle économique et son fonctionnement collaboratif. Il éclairera les enjeux des contextes d’apparition du design, dans ses dimensions les plus globales, n’hésitant pas à aborder des questions de stratégie d’entreprise ou de marketing !
 
-### Questions à lui poser
-
-[→ Accéder au pad](https://semestriel.framapad.org/p/esad_gopro_chevalvert?lang=fr)
+### Questions / réponses

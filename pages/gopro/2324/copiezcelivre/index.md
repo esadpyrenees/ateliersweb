@@ -4,6 +4,4 @@ Eric Schrijver est designer d'interaction, artiste et auteur. Né à Amsterdam e
 
 Il est l’auteur de _Copiez ce livre_ – _Un manuel sur le droit d'auteur et les communs culturels, par et pour les artistes_, récemment traduit et édité par Les commissaires anonymes. Il présentera l’ouvrage d’où il extraira quelques point saillants, à même de permettre aux étudiant⋅es de saisir les enjeux des questions de droits d’auteur depuis une perspective de militant du libre et des communs. 
 
-### Questions à lui poser
-
-[→ Accéder au pad](https://semestriel.framapad.org/p/esad_gopro_ericschrijver?lang=fr)
+### Questions / réponses
