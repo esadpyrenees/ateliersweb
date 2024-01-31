@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random</title>
+  <link rel="stylesheet" href="/web/assets/fonts/fonts.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+    :root {
+    --family: 'Manicule', 'Ecole', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html {
+      color: #444;
+      font-size: 1em;
+      line-height: 1.5;
+      font-family: var(--family);
+  }
+  main {
+    margin-top: 2rem;
+    font-size: 4vw;
+  }
+  button {
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: .25em;
+    padding: .5em 1em;
+  }
+  </style>
+</head>
+<body>
+  
+ 
+  <nav>
+    <button id="faq">Questions adressées</button>
+    <button id="graph">Graph</button>
+  </nav>
+  <main>
+ </main>
+  <script>
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    const liste = [ "Claire", "Thelma", "Lisa", "Justine", "Lucie", "Lalie", "Marlyne", "Alix", "Talitha", "Paulin" ];
+    document.onclick = () => {
+      for (let i = liste.length - 1; i > 0; i--) {
+          let j = Math.floor(Math.random() * (i + 1));
+          [liste[i], liste[j]] = [liste[j], liste[i]];
+      }
+
+      let randomized = liste.reduce((liste, item, idx) => (liste[idx / 2 | 0] ??= []).push(item) && liste, []);
+
+      console.log(JSON.stringify(randomized));
+    }
+    document.querySelector('#faq').onclick = () => {
+      shuffle(liste)
+      document.querySelector('main').innerHTML = liste.join(' → ');
+
+      document.querySelector('main').innerHTML += " → "  + liste[0]
+    }
+
+    let graph = [
+    "alternatif",
+    "social",
+    "couleurs",
+    "local",
+    "faq",
+    "partage",
+    "questions",   
+    "réponses",
+    "sons",
+    "formes",
+    "social",
+    "details"
+    ]
+    graph = graph.concat(liste)
+    document.querySelector('#graph').onclick = () => {
+      document.querySelector('main').innerHTML = ""
+      for (let i = 0; i < 30; i++) {
+      shuffle(graph)
+        document.querySelector('main').innerHTML += graph[0] + " -> " + graph[1] + "<br>"      
+      }
+    }
+    
+  </script>
+</body>
+</html>
