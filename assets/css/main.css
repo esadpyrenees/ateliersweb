@@ -37,7 +37,7 @@ hr  {
 }
 
 nav ul { list-style: none; padding: 0; margin: 0 0 1.4em; }
-a { color: inherit; border-bottom: 1px solid #ccc; text-decoration: none; }
+a { color: currentColor; text-decoration: underline; text-underline-offset: .15em; text-decoration-color: #ccc; }
 a.imglink { border-bottom: none; cursor: zoom-in;}
 
 a:hover { color: tomato;}
@@ -695,6 +695,7 @@ ul.list{
     padding: .75em 1.5em .5em;
     color: white;
     border: none;
+    text-decoration: none;
     border-radius: .25em;
     text-transform: uppercase;
     margin-top: 1em;
