@@ -6,20 +6,20 @@ Projets pédagogiques en web design, cultures numériques et nouveaux médias.
 
 <div class="gridlist" markdown=1>
 
-* [Hypertext superhero](htsh)
-* [Pecha Kucha](pechakucha)
-* [Webradiola](webradiola)
-* [Zones](zones)
-* [Programmation](programmation)
-* [Storytellers](storytellers)
-* [Portfolio](portfolio)
-* [Textedit](textedit)
-* [Puck Ferpection](perfuction)
-* [Micromedia](micromedia)
-* [Curriculum vitæ](cv)
-* [Mémoire vive](memoirevive)
-* [Figures](figures)
-* [Local Area Social Network](lasn)
-* [NeoGeo](neogeo)
+* [Hypertext superhero](htsh) {#htsh}
+* [Pecha Kucha](pechakucha) {#pechakucha}
+* [Webradiola](webradiola) {#webradiola}
+* [Zones](zones) {#zones}
+* [Program&shy;mation](programmation) {#programmation}
+* [Storytellers](storytellers) {#storytellers}
+* [Portfolio](portfolio) {#portfolio}
+* [Textedit](textedit) {#textedit}
+* [Puck Ferpection](perfuction) {#perfuction}
+* [Micromedia](micromedia) {#micromedia}
+* [Curriculum vitæ](cv) {#cv}
+* [Mémoire vive](memoirevive) {#memoirevive}
+* [Figures](figures) {#figures}
+* [Local Area Social Network](lasn) {#lasn}
+* [NeoGeo](neogeo) {#neogeo}
   
   </div>

@@ -1,0 +1,50 @@
+.gridlist {  font-size: clamp(1.5em,2vw,2.5em); line-height: 1; }
+.gridlist ul { grid-gap: 2rem; }
+.gridlist a { text-decoration: none; }
+.gridlist a::before {
+  content: "";
+  display: block;
+  aspect-ratio: 16/9;
+  background: var(--color, #000);
+  margin-bottom: 1rem;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+}
+@font-face {
+  font-family: emoji;
+  src: url("/web/assets/fonts/emoji.woff2") format("woff2");
+}
+
+
+#html  {--color: #BEE1F0; }
+#html:before { content: "</>";}
+#css {--color: #AF96DC; }
+#css:before { content: "{ }";}
+#ftp  {--color: #BEBEBE; }
+#ftp:before { content: "↙↗";}
+#js  {--color: #E8CEAB; }
+#js:before { content: "() => {}";}
+#php  {--color: #F8D0C7; }
+#php:before { content: "<?=";}
+#python  {--color: #FDD652; }
+#python:before { content: "():";}
+#typo  {--color: #FF5B13; }
+#typo:before { content: "T";}
+#audiovideo  {--color: #EF2814; }
+#audiovideo:before { content: "🎵"; font-family: emoji, Ecole, sans-serif;}
+#canvas  {--color: #855A3C; }
+#canvas:before { content: "⬚";}
+#ctrl-alt-print  {--color: #928505; }
+#ctrl-alt-print:before { content: "⎙"; content: " 	🖶 ";}
+#cli  {--color: #B0B685; }
+#cli:before { content: "$";}
+#portfolio  {--color: #00B25B; }
+#portfolio:before { content: "☰";font-family: emoji, Ecole, sans-serif;}
+#mkdocs  {--color: #1997D7; }
+#mkdocs:before { content: "✍";font-family: emoji, Ecole, sans-serif;}
+#imagemagick  {--color: #7d5bed; }
+#imagemagick:before { content: "✎";font-family: emoji, Ecole, sans-serif;}

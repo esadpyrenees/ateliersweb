@@ -4,6 +4,7 @@
     $description = "Ressources pédagogiques autour de HTML, CSS, FTP, Javascript, PHP, Python, Typographie, Audio & vidéo, Responsive, Canvas, CTRL Alt print, Kirby…";
     $section="ressources";
     $mdfile = "./index.md";
+    $custom_css = "ressources.css"; // relative or absolute file URL
     // $nav = "/web/snippets/ressources/_resources.php"; // specific subnav
 
     // includes
@@ -20,9 +21,7 @@
 
 ?>
     <style>
-      .gridlist {  font-size: clamp(1.5em,2vw,2.5em); line-height: 1; }
-      .gridlist ul { grid-gap: 2rem; }
-      .gridlist a { border-bottom: none; }
+      
     </style>
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>

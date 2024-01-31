@@ -6,19 +6,19 @@ Ressources techniques autour des langages du web (HTML, CSS mais aussi Javascrip
 
 <div class="gridlist" markdown=1>
 
-* [HTML](html)
-* [CSS](css)
-* [FTP](ftp)
-* [Javascript](js)
-* [PHP](php)
-* [Python](python)
-* [Typographie](typo)
-* [Audio &amp; vidéo](audiovideo)
-* [Canvas](canvas)
-* [CTRL Alt print](ctrl-alt-print/)
-* [CLI](cli)
-* [Kirby](../projets/portfolio)
-* [MkDocs](mkdocs)
-* [ImageMagick](imagemagick)
+* [HTML](html) {#html}
+* [CSS](css) {#css}
+* [FTP](ftp) {#ftp}
+* [Javascript](js) {#js}
+* [PHP](php) {#php}
+* [Python](python) {#python}
+* [Typographie](typo) {#typo}
+* [Audio &amp; vidéo](audiovideo) {#audiovideo}
+* [Canvas](canvas) {#canvas}
+* [CTRL Alt print](ctrl-alt-print/) {#ctrl-alt-print}
+* [CLI](cli) {#cli}
+* [Kirby](../projets/portfolio) {#portfolio}
+* [MkDocs](mkdocs) {#mkdocs}
+* [ImageMagick](imagemagick) {#imagemagick}
 
 </div>

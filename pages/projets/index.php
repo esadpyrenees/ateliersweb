@@ -4,6 +4,7 @@
     $description = "Projets pédagogiques de l’atelier web et du pôle Nouveaux médias.";
     $section="projets";
     $mdfile = "./index.md";
+    $custom_css = "projets.css"; // relative or absolute file URL
     // $nav = "/web/snippets/projets/_projets.php"; // specific subnav
 
     // includes
@@ -19,11 +20,6 @@
     $Parsedown = new ParsedownExtra();
 
 ?>
-    <style>
-      .gridlist {  font-size: clamp(1.5em,2vw,2.5em); line-height: 1; }
-      .gridlist ul { grid-gap: 2rem; }
-      .gridlist a { border-bottom: none; }
-    </style>
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
     </main>
