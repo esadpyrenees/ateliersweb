@@ -128,9 +128,9 @@ img {
     height: auto;
 }
 
-.yt { position: relative;  aspect-ratio:16/9;  max-width:var(--p-width); overflow: hidden; }
-
-.yt iframe, .yt object, .yt embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.yt { position: relative;  max-width:var(--p-width); overflow: hidden; }
+.yt figure { margin: 0;}
+.yt iframe, .yt object, .yt embed { width: 100%; height: auto; aspect-ratio:16/9;  }
 
 #header {
     position: fixed;
