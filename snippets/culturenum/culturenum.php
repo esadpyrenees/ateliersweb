@@ -10,7 +10,7 @@
     <ul>
         <li class="<?= $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/figures/">Figures</a></li>
         <li class="<?= $subsection == 'histoires' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/histoires/">Histoires</a></li>
-        <li class="<?= $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ecrituresnumeriques/">Écritures numeriques</a></li>
+        <!-- <li class="<?= $subsection == 'ecrituresnumeriques' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ecrituresnumeriques/">Écritures numeriques</a></li> -->
     </ul>
     <ul>
         <li class="<?= $subsection == 'ethique' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ethique/">Design éthique</a></li>
@@ -21,5 +21,7 @@
         <li class="<?= $subsection == 'mediaqueries' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/mediaqueries/">Media queries</a></li>
         <li class="<?= ($subsection == '8m' || $subsection == '12o') ? 'opened' : '' ?>"><a href="/web/pages/culturenum/12o/">12o</a> + <a href="/web/pages/culturenum/8m/">8m</a></li>
         <li class="<?= $subsection == 'kiss' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/kiss/">KISS</a></li>
+        <li class="<?= $subsection == 'hyperhero' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/hyperhero/">Hyperhero</a></li>
+        <!-- <li class="<?= $subsection == 'ux' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ux/">UX</a></li> -->
     </ul>
 </nav>
