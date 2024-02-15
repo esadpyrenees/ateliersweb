@@ -248,6 +248,7 @@ Dieter Rams est un designer allemand associé aux produits hifi et électro-mén
 
 [^dieter]: Largement diffusés, ces _Ten principles for good design_ font partie d’une [immense collection](https://principles.adactio.com/) de « principes de design », réunie par Jeremy Keith. 
 
+Une controverse particulièrement éclairante est celle qui opposa Jan Tschichold et Max Bill. Dans ses premières années, Tschichold fut un fervent partisan des thèses modernistes et des prtincipes du Bauhaus (lire _Die neue Typographie). Au sortir de la guerre, en 1945, il opéra un retour assez déroutant, se mettant à défendre une approche du graphisme résolument classique, contestant une forme d’autoritarisme du modernisme. Élève de Tsichold, Max Bill s’insurgea contre ce revirement, cette trahison des idéaux progressistes dans le design graphique quer Techichold lui semblait renier au profit d’approches comme délétères et réactionnaires. Lire à ce sujet [Max Bill / Jan Tschichold. La querelle typographique des modernes](http://www.editions-b42.com/books/max-bill-jan-tschichold/) chez B42 et l’article de [Charles Gautier](http://strabic.fr/Max-Bill-Jan-Tschichold) sur Strabic.
 
 ## Aujourd’hui
 
@@ -274,7 +275,7 @@ La démultiplication de la circulation des images et des signes graphiques qu’
   Punk rock swiss modernist gloubiboulga — [Source](https://www.swissted.com/)
 
 ![](images-s/SANSMANIA.jpg)
-  Évolution des logos des marues de luxe, Sans mania
+  Évolution des logos des marues de luxe, _Sans mania_.
 
 Dans le champ du web, les débuts balbutiants et les audaces graphiques d’une terre vierge ont laissé la place aux templates[^nolwenn] préfabriqués. Les _design systems_, les _tendances_ (flat design) et les _frameworks_ (Material design, Bootstrap) se sont répandus _ad nauseam_. 
 
@@ -344,10 +345,6 @@ Disparition de l’émotion ou de l’intuition
 
 ***
 
-[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques_kiss?lang=fr){.bigbutton}
-
-
-***
 
 
 #### L’Enseignement de Las Vegas
