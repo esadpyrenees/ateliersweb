@@ -1,6 +1,6 @@
 
 Header always unset X-Frame-Options
-Header set Content-Security-Policy "frame-ancestors 'self' http://localhost https://slides.accentgrave.net"
+Header set Content-Security-Policy "frame-ancestors 'self' http://localhost https://slides.accentgrave.net https://*.esad-pyrenees.fr"
 
 RewriteEngine On
 
