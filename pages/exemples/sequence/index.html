@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Séquence(s) interactives et automatiques</title>
+  <meta name="description" content="Example">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <article id="article-01" class="visible" >
+    <h1>Séquence(s)</h1>
+    <img src="img/01.svg" id="cube" data-in="1000" data-article="article-02">
+    <img src="img/02.svg" id="star" data-in="2000">
+  </article>
+
+  <article id="article-02">
+    <img src="img/03.svg" id="whiterose" data-article="article-03">
+  </article>
+  
+  <article id="article-03">
+    <img src="img/04.svg" id="arrows">
+    <img src="img/05.svg" id="conic" data-article="article-04">
+  </article>
+  
+  <article id="article-04">
+    <img src="img/06.svg" id="circular">
+    <img src="img/09.svg" id="cube2">
+    <img src="img/07.svg" id="gradient" data-in="1000">
+    <img src="img/10.svg" id="softribs"  data-in="2000" data-article="article-05">
+  </article>
+  
+  <article id="article-05">
+    <img src="img/11.svg" id="explosion" data-in="1000" data-out="2000">
+    <img src="img/12.svg" id="futuristic" data-in="2000" data-out="3000">
+    <img src="img/13.svg" id="speech" data-in="3000" data-article="article-06">
+  </article>
+  
+  <article id="article-06">
+    <p id="about">
+      Chaque article est affiché séparément.<br>
+      Les éléments qui possèdent un attribut “data-article” sont cliquables.<br>
+      Les éléments qui possèdent un attribut “data-in=1200” apparaissent après 1200 millisecondes.<br>
+      Les éléments qui possèdent un attribut “data-out=2400” disparaissent après 2400 millisecondes.<br>
+      Les images proviennent d’<a href="https://openclipart.org/">Openclipart</a>.
+    </p>
+    <img src="img/theeend.png" id="theend"  data-in="2000"  data-article="article-01">
+  </article>
+  
+  <script src="js/scripts.js"></script>
+  
+</body>
+</html>

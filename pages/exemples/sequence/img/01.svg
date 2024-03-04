@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg4776" sodipodi:docname="3Dcubeexample.svg" viewBox="0 0 2841.2613 2700.4453" version="1.1" inkscape:version="0.91 r13725" width="2841.2615" height="2700.4453">
+  <defs id="defs10117"/>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="1" pagecolor="#ffffff" inkscape:window-height="1035" inkscape:window-maximized="1" inkscape:zoom="0.17411011" inkscape:window-x="4" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="2870.5882" inkscape:cy="1219.5388" inkscape:window-width="1916" inkscape:pageopacity="0.0" inkscape:document-units="px" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" showguides="true" inkscape:guide-bbox="true"/>
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer" transform="translate(2004.521,1852.1325)">
+    <g id="g11047">
+      <g transform="matrix(1.44,0,0,1.44,256.91171,220.84032)" id="g11019">
+        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m -1554.4394,-1066.6353 7.6038,1486.91948 1679.24214,-0.53937 9.77881,-1496.15891 z" id="path11003" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"/>
+        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m -1094.835,-1423.5621 1482.41045,1.5976 -0.91968,1445.66724" id="path11007" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
+        <path sodipodi:nodetypes="cc" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 132.40654,-1071.5247 254.44268,-350.4398" id="path11009" inkscape:connector-curvature="0"/>
+        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 136.21719,416.75198 381.76636,28.59215" id="path11011" inkscape:connector-curvature="0" sodipodi:nodetypes="cc"/>
+        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m -1549.55,-1076.4141 444.9362,-342.2586" id="path11013" inkscape:connector-curvature="0" sodipodi:nodetypes="cc"/>
+        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:32, 96;stroke-dashoffset:0;stroke-opacity:1" d="m 367.09814,18.81334 -1476.60144,-5e-6 4.8895,-1417.928435" id="path11015" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc"/>
+        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:32, 96;stroke-dashoffset:0;stroke-opacity:1" d="M -1520.2135,400.18719 -1109.5032,23.70274" id="path11017" inkscape:connector-curvature="0" sodipodi:nodetypes="cc"/>
+      </g>
+    </g>
+  </g>
+  <metadata id="metadata10115">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title/>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title/>
+        <dc:date/>
+        <dc:description/>
+        <dc:source/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>j4p4n</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag/>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

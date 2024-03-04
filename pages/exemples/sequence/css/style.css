@@ -1,0 +1,57 @@
+/* Réinitialisation CSS — https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.45; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+:root { --m: 50px; }
+
+/* les images cliquables (qui possèdent un attribut “data-article” ont un curseur “pointer” */
+img { cursor: not-allowed; }
+img[data-article]{ cursor: pointer; }
+
+/* les articles sont masqués sauf s’ils ont la class “visible” */
+article { display: none; }
+article.visible { display: block; }
+
+/* les éléments qui possèdent un attribut “data-in” sont masqués sauf s’ils ont la class “visible”*/
+/* les éléments qui possèdent un attribut “data-out” et la class “hidden” sont masqués */
+[data-in] { display: none; }
+[data-in].visible { display: block; }
+[data-out].hidden { display: none; }
+
+
+
+/* mise en forme spécifique à l’exemple */
+img {
+  width: 500px;
+  max-width: calc(50% - var(--m));
+  max-height: calc(50% - var(--m));
+  position: absolute;
+}
+#cube { right: var(--m); top: var(--m); }
+#star { bottom: var(--m); left: var(--m);}
+#whiterose { bottom: var(--m); left: var(--m); }
+#arrows { bottom: var(--m); left: var(--m); }
+#conic { right: var(--m); bottom: var(--m); }
+#circular { bottom: var(--m); left: var(--m);}
+#gradient { top: var(--m); left: var(--m); }
+#cube2 { right: var(--m); top: var(--m); }
+#softribs { bottom: var(--m); right: var(--m); }
+#explosion { top: var(--m); left: var(--m); }
+#futuristic { right: var(--m); top: var(--m);  }
+#speech { bottom: var(--m); right: var(--m); }
+#theend { bottom: var(--m); right: var(--m);}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+p, h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1em;
+  max-width: calc(50vw - var(--m));
+  padding: var(--m) 0 0 var(--m);
+  position: absolute;
+}
+a {
+  color: currentColor;
+}
