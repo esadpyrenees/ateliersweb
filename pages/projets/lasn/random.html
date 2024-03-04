@@ -88,6 +88,49 @@
         document.querySelector('main').innerHTML += graph[0] + " -> " + graph[1] + "<br>"      
       }
     }
+
+    /*
+    digraph R {
+      clusterrank=local
+      //rankdir="LR"
+      node [style=rounded]
+      //concentrate=true
+      alternatif -> social
+      alternatif -> couleurs
+      local -> social
+      faq -> alternatif
+      partage -> faq
+      social -> faq
+      questions -> réponses
+      réponses -> faq
+      sons -> formes
+      formes -> questions
+      social -> questions
+      alternatif -> formes
+      alternatif -> sons
+      couleurs -> alternatif
+      questions -> couleurs
+      formes -> partage
+      réponses -> partage
+      partage -> réseau
+      faq -> questions
+      local -> sons
+      formes -> couleurs
+      réseau -> social
+      réseau -> local
+      alternatif -> details
+      réseau -> questions
+      details -> formes
+      circuit -> local
+      réseau -> circuit
+      circuit -> faq
+      faq -> réponses
+      réponses -> questions
+      couleurs -> formes
+      circuit -> court
+    }
+
+  */
     
   </script>
 </body>

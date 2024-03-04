@@ -33,14 +33,18 @@ body {
      /* pour le format A4 : */
     size: A4;
     /* pour le format de l’imprimante thermique : */
-
+    size: 72mm 200mm;
     orientation: portrait;
   }
   body {
     /* pour le format A4 : */
     margin: 2cm 1cm 1cm 1cm;
     /* pour le format de l’imprimante thermique : */
-    margin: .25cm;
+    margin: 0;
+  }
+  main {
+    /* laisser de la place pour que le document ne soit pas coupé trop vite… */
+    padding-bottom: 2cm;
   }
   
 }

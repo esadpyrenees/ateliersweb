@@ -102,4 +102,7 @@ article p {
   body {
     font-size: 8.25pt;
   }  
+  h3 {
+    color: black;
+  }
 }

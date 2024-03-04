@@ -4,11 +4,11 @@
 let visible = document.querySelector('article.visible');
 makeSequence(visible);
 
-// pour chaque “lien”, au click, affiche l’article
-const links = document.querySelectorAll('[data-article]');
+// pour chaque lien, au click, affiche l’article
+const links = document.querySelectorAll('a[href^="#"]'); // ← tous les <a> dont l’attribut href commence par #
 links.forEach(link => {
   link.onclick = () => {
-    const article_id = "#" + link.dataset.article;
+    const article_id = link.getAttribute('href');
     showArticle(article_id);
   }
 });
@@ -23,8 +23,6 @@ function showArticle(article_id){
   visible.classList.add("visible");
   // active la séquence pour cet article
   makeSequence(visible);
-  // met à jour l’URL
-  window.location = article_id;
 }
 
 // fonction pour générer la séquence interne de chaque article

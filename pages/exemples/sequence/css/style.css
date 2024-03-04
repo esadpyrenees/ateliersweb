@@ -5,7 +5,7 @@
 
 /* les images cliquables (qui possèdent un attribut “data-article” ont un curseur “pointer” */
 img { cursor: not-allowed; }
-img[data-article]{ cursor: pointer; }
+a img { cursor: pointer; }
 
 /* les articles sont masqués sauf s’ils ont la class “visible” */
 article { display: none; }
