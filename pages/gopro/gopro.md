@@ -49,9 +49,6 @@ L’association Pola, à Bordeaux, propose à ses adhérents [une offre de servi
 ### Réalités économiques – en vidéo
 Un cycle de conférence organisé par le Signe / Centre national du graphisme. Voir les interventions de l’Atelier Téméraire : [« Pour des réseaux de solidarité »](https://www.youtube.com/watch?v=-7gJDM-ackc), Frank Adebiaye : [« Vers une comptabilité de création »](https://www.youtube.com/watch?v=_o9XaL2FmOY), Grégory Jerôme : [« Petit vadémécum des graphistes »](https://www.youtube.com/watch?v=ZyF8VfSeVh0) et Élodie Boyer des éditions Non Standard [« Le plaisir et l'argent »](https://www.youtube.com/watch?v=zGx0_2Q0YHo).
 
-### Copiez ce livre
-Eric Schrijver a produit un guide précis et complet des relations entre artistes ou designers et les questions de droits d’auteurs, de licences, de copyright. Initialement publié [en anglais](https://copy-this-book.eu/), il est désormais disponible [en français](https://www.lespressesdureel.com/ouvrage.php?id=10593).
-
 ### Entreprecariat
 Un [ouvrage fondamental](https://www.onomatopee.net/exhibition/do-or-delegate/#publication_9408) de Silvio Lorusso qui ouvre le débat sur l’entrepreneuriat précaire qui semble gouverner les logiques et structures économiques des artistes et designers. 
 
@@ -60,6 +57,17 @@ Un [ouvrage fondamental](https://www.onomatopee.net/exhibition/do-or-delegate/#p
 
 ### Au travail ?
 [Aujourd’hui, on dit travailleur·ses de l’art](https://www.369editions.com/aujourdhui-on-dit-travailleurses-de-lart/), un texte de Julia Burtin Zortea (et des dessins de Louise Drul) qui invite à repenser l’activité des artistes et des designers sous l’angle du travail, invite à s’organiser de manière collective et à repenser la notion même de travail.  
+
+## Droits d’auteurices
+
+### Copiez ce livre
+Eric Schrijver a produit un guide précis et complet des relations entre artistes ou designers et les questions de droits d’auteurs, de licences, de copyright. Initialement publié [en anglais](https://copy-this-book.eu/), il est désormais disponible [en français](https://www.lespressesdureel.com/ouvrage.php?id=10593).
+
+### IP4artist
+Co-construite avec l’ÉSAD Pyrénées et API Conseil, la plateforme IP 4 Artist met à disposition des étudiant⋅es de l’ÉSAD Pyrénées un ensemble de cours liés aux enjeux de la propriété intellectuelle pour les artistes et les designers.
+
+### Gestion collective
+La [SAIF](https://saif.fr/) est un organisme de gestion collective de droit d’auteur. Elle perçoit, pour le compte de ses auteurs, les rémunérations au titre des droits collectifs et les repartit sur la base de leurs déclarations. L’inscription (à vie !) est de 15,24€. [En savoir plus](https://www.youtube.com/watch?v=JicWC3q41cw) (en vidéo, par Isabelle Jégo et Guillaume Lanneau).
 
 ## Questions d’argent
 
