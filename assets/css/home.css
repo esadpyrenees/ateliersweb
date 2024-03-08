@@ -204,6 +204,7 @@ blockquote{
   color: black;
   padding-left: 0 !important;
   margin-bottom: 0 !important;
+  color: white;
 }
 blockquote.hidden {
   visibility: hidden;
