@@ -42,7 +42,7 @@
     </nav>
   </header>
   
-  <main>ici :
+  <main>
     <?= $html ?>
   </main>
 </body>
