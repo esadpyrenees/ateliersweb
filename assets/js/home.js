@@ -314,6 +314,7 @@ function randint(min, max){
 const whitespans = blockquote.querySelectorAll("span");
 
 let palette = palettes[ randint(0, palettes.length)];
+palette = ["red","green","black","white"];
 whitespans.forEach(span => {
   const randstepsnumber = randint(1,2);
   let randsteps = [];

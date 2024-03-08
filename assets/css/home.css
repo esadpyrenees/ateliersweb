@@ -138,6 +138,7 @@
     right:3rem;
     top: 3rem;
     background: hotpink;
+    background: green;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -147,6 +148,7 @@
     align-items: center;
     justify-content:center;
     box-shadow: -8px 8px 8px purple;
+    box-shadow: -8px 8px 8px red;
   }
   @media (max-width:850px) {
     .strike {
@@ -160,9 +162,16 @@
     display: inline;
     text-align: center;
   }
-  .strike a { color: white}
+  .strike a { color: white; color: black; text-decoration: none; font-weight: bold;}
   .bigbuttonstrike:hover {
     background: rgb(223, 68, 219);
+  }
+  .strike:hover {
+    background: black;
+    box-shadow: -8px 8px 8px green;
+  }
+  .strike:hover a {
+    color: white;
   }
   .strike p { margin: 0; }
   .strike p + p { text-indent: 2em; }
