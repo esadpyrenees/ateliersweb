@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pad 2 HTML</title>
+  <meta name="description" content="Utilisation de fetch pour récupérer le contenu de pads et l’injecter dans une page web">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body 
+  class="loading"
+  data-source="https://mypads.framapad.org/p/pad2html-j94p37vw/export/txt"
+  data-style="https://mypads.framapad.org/p/pad2htmlstyle-wa56374v/export/txt" >
+
+  <div id="info">
+    <p>Le texte et une partie de la CSS sont récupérés via <code>fetch</code> depuis des <i>pads</i></p>
+  </div>
+
+  <main></main>
+
+  <script src="js/markdownit.js" ></script>
+  <script src="js/markdownit.footnote.js" ></script>
+  <script src="js/scripts.js" ></script>
+  
+</body>
+</html>
