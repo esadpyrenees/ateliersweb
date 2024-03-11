@@ -1,0 +1,70 @@
+/* Réinitialisation CSS — https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/reset/ */
+*, *::before, *::after { box-sizing: border-box; } body { line-height: 1.3; -webkit-font-smoothing: antialiased; } img, picture, video, canvas, svg { display: block; height: auto; max-width: 100%; } input, button, textarea, select { font: inherit; margin: 0; } iframe { border: 0; }
+
+
+@font-face {
+  font-family: "Amieamie";
+  src: url("Amiamie-Black.woff") format("woff"),
+      url("Amiamie-Black.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Amieamie";
+  src: url("Amiamie-BlackItalic.woff") format("woff"),
+      url("Amiamie-BlackItalic.woff2") format("woff2");
+      font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Amieamie";
+  font-weight: bold;
+  font-size: clamp(1.15em, 2vw, 2em);
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin: 0 0 .5em -.05em;
+  line-height: 1;
+}
+
+main {
+  max-width: 34em;
+  margin: 2em 0 0 max(2em, 8vw) ;
+}
+
+a { color: currentColor; }
+p { margin: 0; }
+p + p { text-indent: 2em;}
+small { font-size: 1rem;}
+
+/* footnotes */
+.footnote-ref { vertical-align: baseline; }
+.footnote-ref a { text-decoration: none; }
+.footnotes-list { padding: 0; }
+.footnotes-list li { list-style-position: inside; }
+.footnotes-list li p { display: inline; }
+
+/* info */
+#info {
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+  background: white;
+  width: 11em;
+  font-size: .5em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  text-align: center;
+  transform: rotate(-8deg);
+  mix-blend-mode: screen;
+}
+code {
+  font: inherit;
+  font-style: italic;
+}
