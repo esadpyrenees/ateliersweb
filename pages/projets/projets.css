@@ -24,7 +24,7 @@
 #pechakucha {--color: #AF96DC; }
 #pechakucha:before { content: "🗯"; font-family: emoji, Ecole, sans-serif;}
 #webradiola {--color: #BEBEBE; }
-#webradiola:before { content: "🕪"; font-family: emoji, Ecole, sans-serif;}
+#webradiola:before { content: "🕪"; }
 #zones {--color: #E8CEAB; }
 #zones:before { content: "❡";}
 #programmation {--color: #F8D0C7; }
@@ -38,7 +38,7 @@
 #perfuction {--color: #855A3C; }
 #perfuction:before { content: "☠"; font-family: emoji, Ecole, sans-serif;}
 #micromedia {--color: #928505; }
-#micromedia:before { content: "⎙"; content: " 	🖶 ";}
+#micromedia:before { content: "⎙"; }
 #cv {--color: #B0B685; }
 #cv:before { content: "👋"; font-family: emoji, Ecole, sans-serif;}
 #memoirevive {--color: #00B25B; }
@@ -49,3 +49,5 @@
 #lasn:before { content: "⌥";}
 #neogeo {--color: #FDD652; }
 #neogeo:before { content: "◘";}
+#deambulations {--color: #BEE1F0; }
+#deambulations:before { content: "↝";}

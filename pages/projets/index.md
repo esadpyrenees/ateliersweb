@@ -21,5 +21,6 @@ Projets pédagogiques en web design, cultures numériques et nouveaux médias.
 * [Figures](figures) {#figures}
 * [Local Area Social Network](lasn) {#lasn}
 * [NeoGeo](neogeo) {#neogeo}
+* [Déambu&shy;lations](deambulations) {#deambulations}
   
   </div>
