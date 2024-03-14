@@ -16,5 +16,6 @@
         <li class="<?php echo $subsection == 'figures' ? 'opened' : '' ?>"><a href="/web/pages/projets/figures/">Figures</a></li>
         <li class="<?php echo $subsection == 'lasn' ? 'opened' : '' ?>"><a href="/web/pages/projets/lasn/">Local Area Social Network</a></li>
         <li class="<?php echo $subsection == 'neogeo' ? 'opened' : '' ?>"><a href="/web/pages/projets/neogeo/">NeoGeo</a></li>
+        <li class="<?php echo $subsection == 'deambulations' ? 'opened' : '' ?>"><a href="/web/pages/projets/deambulations/">Déambulations</a></li>
     </ul>
 </nav>
