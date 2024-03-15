@@ -22,6 +22,6 @@
         <li class="<?= ($subsection == '8m' || $subsection == '12o') ? 'opened' : '' ?>"><a href="/web/pages/culturenum/12o/">12o</a> + <a href="/web/pages/culturenum/8m/">8m</a></li>
         <li class="<?= $subsection == 'kiss' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/kiss/">KISS</a></li>
         <li class="<?= $subsection == 'hyperhero' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/hyperhero/">Hyperhero</a></li>
-        <!-- <li class="<?= $subsection == 'ux' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ux/">UX</a></li> -->
+        <li class="<?= $subsection == 'ux' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/ux/">U &amp; X</a></li>
     </ul>
 </nav>
