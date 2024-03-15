@@ -8,13 +8,15 @@ Les notions d’_expérience_ et d’_utilisateur_ sont centrales dans les proce
 
 Ce terme, communément abbrégé UX, souffre cependant de nombreux biais, tout autant intrinsèques que progressivement acquis au fur et à mesure de ses usages. 
 
-On se propose ici d’explorer les enjeux de ces termes en les liant à deux notions particulièrement symptomatiques de leur dévoiement : les _Dark patterns_ et l’_enshitification_ au regarde de deux textes importants, _Turing Complete User_ d’Olia Lialina et _The User Condition: Computer Agency and Behavior_ de Silvio Lorusso, accompagnés par Anthony Masure et son _Manifeste pour un design acentré_.
+On se propose ici d’explorer les enjeux de ces termes en les liant à deux notions particulièrement symptomatiques de leur dévoiement : les _Dark patterns_ et l’_enshitification_ au regarde de deux textes importants, _Turing Complete User_ d’Olia Lialina et _The User Condition: Computer Agency and Behavior_ de Silvio Lorusso, accompagnés par Anthony Masure et son _Manifeste pour un design acentré_[^biblio].
+
+[^biblio]: Voir [la bibliographie](#bibliographie).
 
 L’ancrage « numérique » de cette approche n’est pas exclusif ; on pourra facilement étendre la réflexion menée ici aux enjeux du design global.
 
 ## Feng shui
 
-C’est au début des années 90 que Donald Norman, alors chez Apple Computer, a assemblé le terme d’_expérience utilisateur_, concrétisant dans le champ du numérique les enseignements issus de domaines bien plus anciens que le terme.
+C’est au début des années 90 que Donald Norman, alors chez Apple Computer, a formulé le terme d’_expérience utilisateur_, concrétisant dans le champ du numérique les enseignements issus de domaines bien plus anciens que le terme.
 
 Fondé sur les principes de la philosophie taoïste, le _Feng Chui_ cherche à « harmoniser l'énergie environnementale », le _qi_, 氣. Appliqué principalement à l’architecture intérieure, cet art/pratique/pseudo-science/philosophie, au delà de ses dimensions ésotériques ou des best-sellers de Marie Kondo, a pour objectif de proposer aux habitant⋅es d’un espace (ses _utilisateur⋅ices_) le meilleur agencement spatial possible du point de vue des énergies qui y circulent (l’_expérience_).
 
@@ -49,7 +51,7 @@ L’apport de l’anthropologie, de l’ethnographie et plus largement des scien
 
 _User Centered Design_, _Human Centered Design_, _People Centered design_, [Highway to Hell](https://invidious.fdn.fr/watch?v=l482T0yNkeo)[^am].
 
-Le terme d’_expérience utilisateur_ semble apparaître pour la première fois en 1986 dans un livre de Don Norman (chercheur en sciences cognitives) intitulé _User Centered Design: New Perspectives on Human-Computer Interaction_ (Design des systèmes centrés utilisateur).
+Le terme d’_expérience utilisateur_ apparaît en 1986 dans un livre de Don Norman (chercheur en sciences cognitives, auteur de _The Design of Everyday Things_) intitulé _User Centered Design: New Perspectives on Human-Computer Interaction_ (Design des systèmes centrés utilisateur).
 
 [^am]: Les extraits suivants, et nombre des réflexions qui fondent cette proposition, sont issues d’un article d’Anthony Masure, _Manifeste pour un design acentré_, publié par B42 dans _Design et humanités numériques_ et [accessible en ligne](https://www.anthonymasure.com/articles/2019-12-manifesto-acentric-design).
 
@@ -63,13 +65,17 @@ Dans cet ouvrage, on lit :
 
 Cet aspect plus large de l’« expérience utilisateur » fut ensuite précisé :
 
-> L’« expérience utilisateur » englobe tous les aspects de l’interaction de l’utilisateur final avec l’entreprise, ses services et ses produits. La première exigence pour une expérience utilisateur exemplaire est de répondre aux besoins exacts du client. \[…\] Nous devons distinguer l’UX et l’utilisabilité. La définition de l’utilisabilité indique que c’est une qualité de l’UI couvrant le fait qu’un système soit simple à comprendre, efficace à utiliser, plaisant, etc. L’UX est un concept bien plus large »
+> L’« expérience utilisateur » englobe tous les aspects de l’interaction de l’utilisateur final avec l’entreprise, ses services et ses produits. La première exigence pour une expérience utilisateur exemplaire est de répondre aux besoins exacts du client. \[…\] Nous devons distinguer l’UX et l’utilisabilité. La définition de l’utilisabilité indique que c’est une qualité de l’UI couvrant le fait qu’un système soit simple à comprendre, efficace à utiliser, plaisant, etc. L’UX est un concept bien plus large. »
+
+<!-- Dans le champ des interactions homme-machine, le _Human Centered Design_ fait aujourd’hui l’objet d’une normalisation ISO, émettant plusieurs recommandations : Le design s’appuie sur la compréhension de l’utilisateur, de ses tâches et de son environnement. Les utilisateurs sont intégrés à l’ensemble du processus de design et de développement. Le design évolue en fonction des retours des utilisateurs. Le processus est itératif. L’ensemble de l’expérience des utilisateurs est pris en compte. L’équipe de projet est pluridisciplinaire. -->
 
 ### Malboufffe
 
-Cet ensemble de perspectives sur le design d’interfaces, d’environnements, de produits ou de services a connu un grand succès, fondant une discipline avec des formations supérieures dédiées, un nombre phénoménal de publications, de livres, podcasts, newsletters ou blogs. À bien des égards, ces pensées sont utiles à la conception d’objets de design qui tiennent compte des réalités des utilisateur⋅ices. Mais les « recettes » qui ont pu en émerger souffrent de nombreux écueils :
+Cet ensemble de perspectives sur le design d’interfaces, d’environnements, de produits ou de services a connu un grand succès, fondant une discipline avec des formations supérieures dédiées, un nombre phénoménal de publications, de livres, podcasts, newsletters ou blogs. À bien des égards, ces pensées sont utiles à la conception d’objets de design qui tiennent compte des réalités des utilisateur⋅ices, et tout⋅e étudiant⋅e en design qui se respecte devrait prendre le temps d’en comprendre les grands principes. 
+
+Il convient cependant de conserver un regard critique sur certaines « recettes » qui ont pu en émerger, et souffrent de nombreux écueils :
 - Trop souvent, elles ont tendance à réduire l’utilisateur⋅ice à des rapports centrés sur ses besoins exacts, à des rôles et usages prédéterminés.
-- Dans le champ du design d’interface numériques, des « interactions homme-machine », elles ont également produit des _guidelines_ (celles d’[Apple](https://developer.apple.com/design/human-interface-guidelines/), ou de [Google](https://m3.material.io/)) qui, pour intéressantes qu’elles soient, nivellent les imaginaires des designers.
+- Dans le champ du design d’interface numériques, des « interactions homme-machine », ont été produites des _guidelines_ (celles d’[Apple](https://developer.apple.com/design/human-interface-guidelines/), ou de [Google](https://m3.material.io/)) qui, pour intéressantes qu’elles soient, nivellent les imaginaires des designers.
 - Tout comme l’anthropométrie établissait des utilisateur⋅ices moyen⋅nes, standards, les approches UX design ont convoqué des _persona_[^persona] censés permettre de dépasser des archétypes pour imaginer des utilisateur⋅ices « réels » mais qui finissent trop souvent par reproduire de pauvres stéréotypes, visant à &lt;bullshit&gt;impacter sa culture client, déterminer des facteurs d'engagement, comprendre les insights clefs&lt;/bullshit&gt;
 
 [^persona]: Le terme est utilisé en [design numérique](https://fr.wikipedia.org/wiki/Persona_(ergonomie)) comme en [marketing](https://fr.wikipedia.org/wiki/Persona_(marketing)).
@@ -120,6 +126,12 @@ Devenues si nombreuses que nous finissons par ne presque plus y prendre garde, c
 Coûts cachés, conditions générales d’utilisation illisibles, options présélectionnées, impossibilité de suppression de compte, lien de désinscription non-fonctionnel, culpabilisation, les exemples sont légion.
 
 Sur [deceptive.design](https://www.deceptive.design/), Harry Brignull, fondateur du site, dresse une liste des différents types de _dark patterns_ et maintient un [_Hall of shame_](https://www.deceptive.design/hall-of-shame) de ces pratiques trompeuses.
+
+Depuis l’adoption du [RGPD](https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es) (Règlement général sur la protection des données) par le Parlement européen, adoptant certains principes protecteurs des utilisateur⋅ices (notamment les logiques de p_rivacy by design_ et _privacy by default_) certains _dark patterns_ sont devenus illégaux, mais des stratégies toujours plus retorses ont été adoptées par les éditeurs de sites et d’applications aux objectifs douteux. 
+
+Les GAFAM, notamment, à l’aide d’armées d’avocats et de designers machiavéliques s’en sont donné à cœur-joie[^gafam]. Le récent _Manifest V3_ de Google Chrome, qui sera déployé à partir de juin 2024 (et impactera tous les navigateurs basés sur ce moteur ; Edge, Brave, Opera…) rendra presque inopérants les extensions dédiées au blocage des publicités. Ce qui nous conduit tout droit au diagnostic suivant :
+
+[^gafam]: Lire [RGPD : Les "dark patterns", ou comment s'asseoir sur le Règlement](https://open-freax.fr/rgpd-dark-patterns/)
 
 ## L’emmerdification
 
