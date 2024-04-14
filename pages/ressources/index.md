@@ -10,6 +10,7 @@ Ressources techniques autour des langages du web (HTML, CSS mais aussi Javascrip
 * [CSS](css) {#css}
 * [FTP](ftp) {#ftp}
 * [Javascript](js) {#js}
+* [SVG](svg) {#svg}
 * [PHP](php) {#php}
 * [Python](python) {#python}
 * [Typographie](typo) {#typo}
