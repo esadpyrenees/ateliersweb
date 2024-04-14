@@ -28,6 +28,8 @@
 #ftp:before { content: "↙↗";}
 #js  {--color: #E8CEAB; }
 #js:before { content: "() => {}";}
+#svg  {--color: #1997D7; }
+#svg:before { content: "<↝>";}
 #php  {--color: #F8D0C7; }
 #php:before { content: "<?=";}
 #python  {--color: #FDD652; }
@@ -39,7 +41,7 @@
 #canvas  {--color: #855A3C; }
 #canvas:before { content: "⬚";}
 #ctrl-alt-print  {--color: #928505; }
-#ctrl-alt-print:before { content: "⎙"; content: " 	🖶 ";}
+#ctrl-alt-print:before { content: "⎙"; }
 #cli  {--color: #B0B685; }
 #cli:before { content: "$";}
 #portfolio  {--color: #00B25B; }

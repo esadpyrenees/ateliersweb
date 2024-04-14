@@ -43,21 +43,32 @@ $localurl = $localhost . $_SERVER["REQUEST_URI"];
 
                 if( isset($title) ){
                     $title_line = trim($title);
-                    echo "<title>$title_line — $tags</title>\n\n";
-                    echo "        <meta property='og:title' content='$title_line — $tags'>\n";
-                    echo "        <meta property='og:description' content='$title_line : exemples HTML, CSS, JavaScript, PHP, web to print et plus des ateliers web de l’ÉSAD Pyrénées.'>\n";
-                    echo "        <meta property='og:url' content='$localurl'>\n";
-                    echo "        <meta property='og:type' content='website'>\n";
-                    echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
-                    echo "        <meta property='og:locale' content='fr'>\n";
+                    // echo "<title>$title_line — $tags</title>\n\n";
+                    // echo "        <meta property='og:title' content='$title_line — $tags'>\n";
+                    // echo "        <meta property='og:description' content='$title_line : exemples HTML, CSS, JavaScript, PHP, web to print et plus des ateliers web de l’ÉSAD Pyrénées.'>\n";
+                    // echo "        <meta property='og:url' content='$localurl'>\n";
+                    // echo "        <meta property='og:type' content='website'>\n";
+                    // echo "        <meta property='og:site_name' content='ÉSAD Pyrénées – Ateliers web'>\n";
+                    // echo "        <meta property='og:locale' content='fr'>\n";
+                    ?>
+        <title><?= $title_line ?> — <?= $tags?></title>
+        <meta property="og:title" content="<?= $title_line ?> — <?= $tags?>">
+        <meta property="og:description" content="<?= $title_line ?> : exemples HTML, CSS, JavaScript, PHP, web to print et plus des ateliers web de l’ÉSAD Pyrénées.">
+        <meta property="og:url" content="<?= $localurl ?>">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="ÉSAD Pyrénées – Ateliers web">
+        <meta property="og:locale" content="fr">
+        <?php
                 }
-                if( isset($tags) ){
-                    echo "        <meta name='keywords' content='web design, webdesign, example, exemple, $tags'>\n";
+                if( isset($tags) ){?>
+                    <meta name='keywords' content='web design, webdesign, example, exemple, <?= $tags ?>'>
+                <?php
                 }
             }
             if (file_exists($thumb)) {
-                $thumb = "$localhost/web/medias/exemples/$dir/ogp.png?text=$title";
-                echo "        <meta property='og:image' content='$thumb'>\n";
+                $thumb = "$localhost/web/medias/exemples/$dir/ogp.png?text=$title";?>
+                <meta property="og:image" content="<?= $thumb ?>">
+                <?php
             }
 
         ?>
