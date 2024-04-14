@@ -32,7 +32,7 @@ Dans le contexte de ce projet, le format SVG peut servir à associer un fichier 
 
 Dans cet exemple, on utilisera une image (`godot.png`), enregistrée dans le même dossier que les fichiers SVG.
 
-En ouvrant le fichier `godot.png` dans Inkscape[^inkscape] (ou Illustrator, ou tout autre outil de dessin vectoriel), on pourra créer et exporter un fichier SVG contenant à la fois l’image et des éléments vectoriels. Enregistré en tant que “SVG simple”, le code résultant ressemble alors à ça (n’ayez pas peur…) :
+En ouvrant le fichier `godot.png` dans Inkscape[^inkscape] (ou Illustrator, ou tout autre outil de dessin vectoriel), on pourra créer et exporter un fichier SVG contenant à la fois l’image et des éléments vectoriels. Enregistré en tant que “SVG simple”, le fichier résultant peut être ouvert, lu et modifié dans un éditeur de code. Le code ressemble à ça (n’ayez pas peur…) :
 ```svg
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
