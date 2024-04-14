@@ -99,7 +99,7 @@ On peut alors créer des liens hypertextes au sein même du code `svg`:
 ```svg
 <svg width="1600" height="1600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
     <image width="1600" height="1600" preserveAspectRatio="none" xlink:href="godot.png"/>
-    <!-- avec une simple balise <a>, pour cnhager de page -->
+    <!-- avec une simple balise <a>, pour changer de page -->
     <a href="vladimir.html">
       <circle cx="512" cy="653" r="128" />
     </a>
@@ -118,7 +118,7 @@ Ou utiliser javascript pour produire des interactions :
     }
 </script>
 ```
-[Voir l’exemple 2](exemples/exemple-svg-2.html) (cliquer sur l’élément violet et regarder le code-source).
+[Voir l’exemple 2](exemples/exemple-svg-2.html) (cliquer sur l’élément violet, et regarder le code-source :).
 
 ### Maîtriser les dimensions d’affichage
 
@@ -127,7 +127,7 @@ Un problème de taille (et de dimensions) se pose alors ! La maîtrise du dimens
 ```html
   <svg viewbox="0 0 1600 1600" width="1600" height="1600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 ```
-Les articles [_Comprendre SVG preserveAspectRatio_](https://la-cascade.io/articles/comprendre-svg-preserveaspectratio) et [_Comprendre SVG viewBox et viewport_](https://la-cascade.io/articles/comprendre-svg-viewbox-et-viewport) sont particulièrement éclairants à ce sujet.
+Les courts articles traduits en français [_Comprendre SVG preserveAspectRatio_](https://la-cascade.io/articles/comprendre-svg-preserveaspectratio) et [_Comprendre SVG viewBox et viewport_](https://la-cascade.io/articles/comprendre-svg-viewbox-et-viewport) sont particulièrement éclairants à ce sujet.
 
 Voir [l’exemple 3](exemples/exemple-svg-3.html) et [l’exemple 4](exemples/exemple-svg-4.html), qui permettent de “contenir” le svg dans la page.
 
