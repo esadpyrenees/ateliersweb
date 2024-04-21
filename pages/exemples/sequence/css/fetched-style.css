@@ -3,9 +3,6 @@
 
 :root { --m: 50px; }
 
-/* les images cliquables (qui possèdent un attribut “data-article” ont un curseur “pointer” */
-img { cursor: not-allowed; }
-a img { cursor: pointer; }
 
 /* les articles sont masqués sauf s’ils ont la class “visible” */
 article { display: none; }
@@ -20,6 +17,7 @@ article.visible { display: block; }
 
 
 /* mise en forme spécifique à l’exemple */
+svg,
 img {
   width: 500px;
   max-width: calc(50% - var(--m));
