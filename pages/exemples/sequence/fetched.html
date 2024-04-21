@@ -5,18 +5,18 @@
   <title>Séquence(s) interactives et automatiques</title>
   <meta name="description" content="Example">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fetched-style.css">
 </head>
 <body>
 
   <article id="article-01" class="visible" >
     <p>
       <strong>Séquence(s)</strong><br>
-      Voir <a href="fetched.html">l’exemple avancé</a>.<br>
-      Ou cliquer sur le cube !
+      Voir <a href="index.html">l’exemple simple</a>.<br>
+      Dans cet exemple, les <code>&lt;img&gt;</code> au format <i>svg</i> sont téléchargées via javascript pour être intégrées sous forme de <code>&lt;svg&gt;</code>. Cela permet de déterminer programmatiquement (en CSS ou en JS) la mise en forme visuelle ou le comportement interactif de l’ensemble des constituants du <i>svg</i>.
     </p>
-    <a href="#article-02"><img src="img/01.svg" id="cube" data-in="1000"></a>
-    <img src="img/02.svg" id="star" data-in="2000">
+    <img src="img/01b.svg" id="cube">
+    <img src="img/02.svg" id="star">
   </article>
 
   <article id="article-02">
@@ -31,14 +31,14 @@
   <article id="article-04">
     <img src="img/06.svg" id="circular">
     <img src="img/09.svg" id="cube2">
-    <img src="img/07.svg" id="gradient" data-in="1000">
-    <a href="#article-05"><img src="img/10.svg" id="softribs" data-in="2000"></a>
+    <img src="img/07.svg" id="gradient">
+    <a href="#article-05"><img src="img/10.svg" id="softribs"></a>
   </article>
   
   <article id="article-05">
-    <img src="img/11.svg" id="explosion" data-in="1000" data-out="2000">
-    <img src="img/12.svg" id="futuristic" data-in="2000" data-out="3000">
-    <a href="#article-06"><img src="img/13.svg" id="speech" data-in="3000"></a>
+    <img src="img/11.svg" id="explosion" >
+    <img src="img/12.svg" id="futuristic" >
+    <a href="#article-06"><img src="img/13.svg" id="speech"></a>
   </article>
   
   <article id="article-06">
@@ -49,10 +49,10 @@
       Les éléments qui possèdent un attribut “data-out=2400” disparaissent après 2400 millisecondes.<br>
       Les images proviennent d’<a href="https://openclipart.org/">Openclipart</a>.
     </p>
-    <a href="#article-01"><img src="img/theeend.png" id="theend"  data-in="2000" ></a>
+    <a href="#article-01"><img src="img/theeend.png" id="theend"  ></a>
   </article>
   
-  <script src="js/scripts.js"></script>
+  <script src="js/fetched-scripts.js"></script>
   
 </body>
 </html>
