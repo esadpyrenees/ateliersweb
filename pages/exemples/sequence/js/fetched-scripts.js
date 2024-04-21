@@ -59,6 +59,8 @@ const actions = [
   { id: "svg-1-b", params: ["limegreen"], fn: change_fill_on_mouseover },
   { id: "svg-1-c", params: ["aqua"], fn: change_fill_on_mouseover },
 
+  { id: "svg-1-b", params: ["test"], fn: show_item_fill_on_mouseover },
+
   { id: "svg-1-a", params: ["article-02"], fn: show_article_on_click },
   { id: "svg-1-b", params: ["article-03"], fn: show_article_on_click },
   { id: "svg-1-c", params: ["article-04"], fn: show_article_on_click },
@@ -76,13 +78,23 @@ function init() {
 
 // fonction pour changer la couleur d’un élément
 function change_fill_on_mouseover(element, params){
-  
   const original_fill = element.style.fill;
   element.addEventListener('mouseenter', (e) => {
     element.style.fill = params[0]
   })
   element.addEventListener('mouseleave', (e) => {
     element.style.fill = original_fill
+  })
+}
+
+// fonction pour afficher un truc masqué au survol
+function show_item_fill_on_mouseover(element, params){
+  const target = document.getElementById(params[0]);
+  element.addEventListener('mouseenter', (e) => {
+    target.style.display = "block"
+  })
+  element.addEventListener('mouseleave', (e) => {
+    target.style.display = "none"
   })
 }
 

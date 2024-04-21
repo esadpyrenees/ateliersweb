@@ -25,6 +25,7 @@ img {
   position: absolute;
   object-fit: contain;
 }
+#test { right: var(--m); bottom: var(--m);}
 #cube { right: var(--m); top: var(--m); }
 #star { bottom: var(--m); left: var(--m);}
 #whiterose { bottom: var(--m); left: var(--m); }
