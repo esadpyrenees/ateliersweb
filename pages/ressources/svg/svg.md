@@ -2,13 +2,12 @@
 
 SVG (_Scalable Vector Graphics_) est un format d’images vectorielles particulièrement utile et puissant pour le web.
 
-Les fichiers SVG peuvent être édités dans un logiciel de dessin vectoriel ([Inkscape](https://inkscape.org/), Illustrator, [SnapSVG](http://snapsvg.io/)), mais aussi depuis un éditeur de code : basé sur XML, un langage de balisage similaire[^peuouprou] au HTML, son code est relativement aisé à lire (quoi qu’assez verbeux).
+Les fichiers SVG peuvent être édités dans un logiciel de dessin vectoriel ([Inkscape](https://inkscape.org/), Illustrator, [SnapSVG](http://snapsvg.io/)), mais aussi depuis un éditeur de code : basé sur XML, un langage de balisage similaire au HTML, son code est relativement aisé à lire et à comprendre.
 
-[^peuouprou]: Peu ou prou…
 
 L’introduction ci-dessous est liée à l’utilisation de svg dans le contexte du projet [Déambulations](../../projets/deambulations/) associant dessin et webdesign. Elle implique l’utilisation conjointe d’outils de dessin et d’éditeur de code.
 
-## SVG et bitmaps
+## Images interactives
 
 Dans le contexte de ce projet, le format SVG peut servir à associer un fichier bitmap (ou image « matricielle » : `jpg`, `png`) à des éléments interactifs (`a`), pour être intégré dans une page web responsive.
 
@@ -131,7 +130,7 @@ Les courts articles traduits en français [_Comprendre SVG preserveAspectRatio_]
 
 Voir [l’exemple 3](exemples/exemple-svg-3.html) et [l’exemple 4](exemples/exemple-svg-4.html), qui permettent de “contenir” le svg dans la page.
 
-Si on veut “remplir la page”, un nouvel attribut va devoir être affecté à l’élément `<svg>` : `preserveAspectRatio`. Cet attribut possède deux paramètres, et 18 valeurs combinées, qui permettent de définir le comportement de position et de recadrage du svg à l’intérieur de son `viewbox`. 
+Si on veut “remplir la page”, un nouvel attribut va devoir être affecté à l’élément `<svg>` : `preserveAspectRatio`. Cet attribut possède deux paramètres qui permettent de définir le comportement de position et de recadrage du svg à l’intérieur de son `viewbox`. 
 
 Ces paramètres sont `<align>` et `<meetOrSlice>`. Ces propriétés d’alignement ou de dimensionnement sont comparables à ce qu’on peut atteindre en CSS grâce à `background-size` ou `object-fit` (avec `background-position` et `object-position`). 
 
@@ -178,8 +177,6 @@ Voir [l’exemple 5](exemples/exemple-svg-5.html).
 </tr>
 </table>
 </details>
-
-
 
 ## Ressources en ligne
 
