@@ -5,6 +5,7 @@
         <li class="<?php echo $subsection == 'css' ? 'opened' : '' ?>"><a href="/web/pages/ressources/css/">CSS</a></li>
         <li class="<?php echo $subsection == 'ftp' ? 'opened' : '' ?>"><a href="/web/pages/ressources/ftp/">FTP</a></li>
         <li class="<?php echo $subsection == 'js' ? 'opened' : '' ?>"><a href="/web/pages/ressources/js/">Javascript</a></li>
+        <li class="<?php echo $subsection == 'svg' ? 'opened' : '' ?>"><a href="/web/pages/ressources/svg/">SVG</a></li>
         <li class="<?php echo $subsection == 'php' ? 'opened' : '' ?>"><a href="/web/pages/ressources/php/">PHP</a></li>
         <li class="<?php echo $subsection == 'python' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/">Python</a></li>
         <li class="<?php echo $subsection == 'typo' ? 'opened' : '' ?>"><a href="/web/pages/ressources/typo/">Typographie</a></li>
