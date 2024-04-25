@@ -1,5 +1,5 @@
 <?php
-// inclusion de la méthode d’authentification
+// inclusion de la méthode d’authentification, uniquement sur la page de login
 require "_check.php";
 ?>
 

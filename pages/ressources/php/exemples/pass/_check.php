@@ -1,6 +1,6 @@
 <?php
 // Une session en PHP permet de stocker des données différentes pour chaque utilisateur en utilisant un identifiant de session unique.
-// = Permet d’enregistrer “en session” l’authentificatoin de l’utilisateur
+// = Permet d’enregistrer “en session” l’authentification de l’utilisateur
 session_start();
 
 // L’ensemble de la requête postée par la soumission du formulaire sera accessible dans une variable nommé “$_POST”
@@ -25,7 +25,7 @@ if (isset($_POST["username"]) && !isset($_SESSION["username"])) {
   if (!isset($_SESSION["username"])) { $failed = true; }
 }
 
-// Redirige vers une autre page si l’authentification est ok
+// Redirige vers une autre page si l’authentification est ok \o/
 if (isset($_SESSION["username"])) {
   header("Location: ok.php");
   exit();

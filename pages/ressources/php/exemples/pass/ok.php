@@ -1,5 +1,5 @@
 <?php
-// inclusion de la vérification d’authentification
+// inclusion de la vérification d’authentification, dans toutes les pages à protéger
 require "_protect.php";
 ?>
 
@@ -22,8 +22,7 @@ require "_protect.php";
 
     <p>
       Vous êtes bien authentifié⋅e (<?=$_SESSION["username"]?>).
-    </p>
-    
+    </p>    
 
   </body>
 </html>
