@@ -253,3 +253,10 @@ L’extension markdown-extra permet d’ajouter des attributs (class, id, lang�
 
 
 Voir l’[exemple](exemples/markdown/), ou [téléchargez-le](php-exemple-markdown.zip).
+
+
+## Utiliser les sessions
+
+Une session en PHP permet de stocker des données différentes pour chaque utilisateur en utilisant un identifiant de session unique. C’est particulièrement utile quand on veut mettre en œuvre un système d’authentification / de protection par mot de passe de tout ou d’une partie d’un site.
+
+Voir l’[exemple](exemples/pass/), ou [téléchargez-le](php-exemple-pass.zip).
