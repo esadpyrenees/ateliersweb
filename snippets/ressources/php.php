@@ -13,5 +13,6 @@
     <li><a href="/web/pages/ressources/php/#querystrings">Paramètres d’URL</a></li>
     <li><a href="/web/pages/ressources/php/#list">Lister le contenu d’un dossier</a></li>
     <li><a href="/web/pages/ressources/php/#markdown">Markdown</a></li>
+    <li><a href="/web/pages/ressources/php/#sessions">Sessions</a></li>
   </ul>
 </nav>
