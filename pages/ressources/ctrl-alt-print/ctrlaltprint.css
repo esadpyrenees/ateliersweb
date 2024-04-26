@@ -16,9 +16,13 @@
   position: relative;
   /* padding-right:1px; */
 }
-.scrollables a {
+main .scrollables a {
   pointer-events: all;
+  background: none;
+  text-decoration: underline;
 }
+main .scrollables a::after { content:none }
+
 /* carousel height */
 .scrollables {
   max-width: none;
@@ -39,7 +43,7 @@
 .scrollables figcaption { 
   /* position:absolute; */
   font-size:.75em; 
-  color:#777;
+  color:#9b9b9b;
   /* bottom:-2.5em;*/
   padding: 1em 0 0 0;
   text-align:center;

@@ -22,7 +22,8 @@
 
 <div class="gridlist" markdown="1">
 
-*   ✔ [**MAMP**](http://mamp.info/)
+* [** ✔ Herd**](https://herd.laravel.com/)
+* [**MAMP**](http://mamp.info/)
 * [**XAMPP**](https://www.apachefriends.org/)
 
 </div>

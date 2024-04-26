@@ -534,15 +534,25 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
 /* examples links in articles */
 
 main a[href*="exemple"] {
-    background: tomato;
+    background: #FF5B13;
     padding: .25em .25em .05em;
     border-radius: .25em;
     border: none;
+    box-decoration-break: clone;
     text-decoration: none;
+}
+main a[href*="exemple"]::after{
+    content: " 👀";
 }
 main a[href*="exemple"]:hover {
     background: black;
     color: white;
+}
+main a[href$="zip"]::after{
+    content: none;
+}
+main a[href$="zip"]::before{
+    content: "✔ ";
 }
 
 /* examples */
