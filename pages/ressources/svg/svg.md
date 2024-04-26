@@ -202,6 +202,7 @@ C’est plus simple et plus amusant qu’on ne croît.
 À compléter.
 
 - [Pocket Guide to Writing SVG](https://svgpocketguide.com/)
+- [6 Common SVG Fails (and How to Fix Them)](https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/)
 
 ### Outils en ligne
 
