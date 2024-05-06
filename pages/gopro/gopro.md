@@ -1,8 +1,8 @@
 # Professionnalisation
 
-> <big>Everyone is an entrepreneur. <br>Nobody is safe.</big>
+> <big  id="survive">Travaillez dans un magasin bio.</big>
 > 
-> <cite>— Silvio Lorusso, <a href="https://silviolorusso.com/work/entreprecariat-eng/">Entreprecariat</a></cite>
+> <cite>— Extrait aléatoire de <a href="http://surfaces-utiles.org/how-to-survive-after-art-school-comment-survivre-apres-lecole-dart.html"><i style="font-style:normal">Comment survivre après l'école d'art</i></a>, publié par <i style="font-style:normal">Surfaces Utiles</i> sous licence CC BY-NC 3.0. <button id="refreshsurvive">Un autre extrait ?</button></cite>
 
 Les enjeux de la professionnalisation en école d’art sont parcourus par de nombreuses tensions (les résoudre n’est pas dans les objectifs de la liste de ressources rassemblées ci-dessous). Les différentes approches d’un devenir professionnel souhaitable pour les aspirant⋅es designers et artistes doivent être pensées de manière critique, en tenant compte de leurs inscriptions dans des contextes sociaux, économiques, écologiques, politiques dont la complexité n’est plus à démontrer.
 
@@ -13,7 +13,7 @@ Le monde hostile de l’activité économique des artistes et designers l’est 
 
 * [La Buse](https://la-buse.org/), réseau de travailleur·euse·s de l'art et d’allié·e·s, qui interroge le milieu de l'art en tant que milieu de travail ;
 * Le [SNAPcgt](https://www.snapcgt.org/), Syndicat national des artistes plasticien·nes CGT 
-* Le [Le STAA](https://staa-cnt-so.org/liens-utiles/), Syndicat des Travailleurs Artistes-Auteurs CNT ;
+* Le [STAA](https://staa-cnt-so.org/liens-utiles/), Syndicat des Travailleurs Artistes-Auteurs CNT ;
 * Le [CAAP](http://caap.asso.fr), Comité des artistes-auteurs plasticiens ;
 * L’[Alliance France design](https://www.alliancefrancedesign.com/) ; syndicat des designers
 * La [FRAAP](http://fraap.org), Fédération des réseaux et associations d’artistes plasticiens ;
@@ -45,6 +45,11 @@ Un [groupe Facebook](https://www.facebook.com/groups/1753584858218893/?multi_per
 L’association Pola, à Bordeaux, propose à ses adhérents [une offre de services pour les artistes (et graphistes)](https://pola.fr/ressources-pro/), notamment grâce à une permanence juridique, des ateliers et accompagnements de projets.
 
 ## Économie critique
+
+> <big  id="survive">Everyone is an entrepreneur. <br>Nobody is safe.</big>
+> 
+> <cite>— Silvio Lorusso, <a href="https://silviolorusso.com/work/entreprecariat-eng/">Entreprecariat</a></cite>
+
 
 ### Réalités économiques – en vidéo
 Un cycle de conférence organisé par le Signe / Centre national du graphisme. Voir les interventions de l’Atelier Téméraire : [« Pour des réseaux de solidarité »](https://www.youtube.com/watch?v=-7gJDM-ackc), Frank Adebiaye : [« Vers une comptabilité de création »](https://www.youtube.com/watch?v=_o9XaL2FmOY), Grégory Jerôme : [« Petit vadémécum des graphistes »](https://www.youtube.com/watch?v=ZyF8VfSeVh0) et Élodie Boyer des éditions Non Standard [« Le plaisir et l'argent »](https://www.youtube.com/watch?v=zGx0_2Q0YHo).
@@ -96,3 +101,5 @@ Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](gu
 * [Fonds d’aide à la création immersive](https://www.cnc.fr/professionnels/aides-et-financements/creation-numerique/fonds-daide-a-la-creation-immersive_1725797) ;
 * [Résidences et annonces](https://www.cnap.fr/annonces) du CNAP.
 * [Création en cours](https://www.ateliersmedicis.fr/label/creation-en-cours-679), programme de soutien porté par les Ateliers Médicis, dédié à l’accompagnement de projets en milieu scolaire
+
+

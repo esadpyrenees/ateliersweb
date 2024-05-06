@@ -9,6 +9,7 @@
         <li><a href="/web/pages/gopro/#autres">Autres</a></li>
     </ul>
     <ul>
+        <li class="<?php echo $subsection == '2425' ? 'opened' : '' ?>"><a href="/web/pages/gopro/2425/">24 – 25</a></li>
         <li class="<?php echo $subsection == '2324' ? 'opened' : '' ?>"><a href="/web/pages/gopro/2324/">23 – 24</a></li>
     </ul>
 </nav> 
