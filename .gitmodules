@@ -1,3 +1,6 @@
 [submodule "minute-hack"]
 	path = minute-hack
 	url = https://gitlab.com/julienbidoret/Minute-Hack.git
+[submodule "stolon"]
+	path = stolon
+	url = https://gitlab.com/julienbidoret/stolon.git
