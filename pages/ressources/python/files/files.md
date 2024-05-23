@@ -89,7 +89,16 @@ with os.scandir('une/nouvelle/') as entries:
         if entry.name.endswith('.txt'):
             print("{} est un fichier texte".format(entry.name))
             # data.txt est un fichier texte
-
+```
+## Parcourir l’ensemble d’un dossier et de ses sous-dossiers
+On peut utiliser `os.walk` :
+```py
+import os
+for root, dirs, files in os.walk("un/dossier/"):
+    for filename in files:
+        print("{} est un fichier".format(os.path.join(root, filename)))
+    for dirname in dirs:
+        print("{} est un dossier".format(os.path.join(root, dirname)))
 ```
 
 ## Lire ligne à ligne le contenu d’un fichier texte
