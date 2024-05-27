@@ -9,7 +9,7 @@ L’introduction ci-dessous est liée à l’utilisation de svg dans le contexte
 
 ## Images interactives
 
-Dans le contexte de ce projet, le format SVG peut servir à associer un fichier bitmap (ou image « matricielle » : `jpg`, `png`) à des éléments interactifs (`a`), pour être intégré dans une page web responsive.
+Dans le contexte de ce projet, le format SVG peut servir à associer un fichier bitmap (ou image « matricielle » : `jpg`, `png`, `webp`) à des éléments interactifs (`a`), pour être intégré dans une page web responsive.
 
 ### Intégrer un fichier dans une page web.
 
@@ -31,7 +31,11 @@ Dans le contexte de ce projet, le format SVG peut servir à associer un fichier 
 
 Dans cet exemple, on utilisera une image (`godot.png`), enregistrée dans le même dossier que les fichiers SVG.
 
-En ouvrant le fichier `godot.png` dans Inkscape[^inkscape] (ou Illustrator, ou tout autre outil de dessin vectoriel), on pourra créer et exporter un fichier SVG contenant à la fois l’image et des éléments vectoriels. Enregistré en tant que “SVG simple”, le fichier résultant peut être ouvert, lu et modifié dans un éditeur de code. Le code ressemble à ça (n’ayez pas peur…) :
+En ouvrant le fichier `godot.png` dans Inkscape[^inkscape] (ou Illustrator), on pourra créer et exporter un fichier SVG contenant à la fois l’image et des éléments vectoriels. 
+
+⚠️ Le fichier bitmap (`jpg`, `png`…) peut être ouvert directement dans Inkscape ou Illustrator ; il faudra néanmoins veiller, lors de l’ouverture ou de l’enregistrement à **lier** les images et pas les **incorporer**. Dans Illustrator, le plan de travail devra être redimensionné à la taille de l’image.
+
+Enregistré en tant que “SVG simple”, le fichier résultant peut être ouvert, lu et modifié dans un éditeur de code. Le code ressemble à ça (n’ayez pas peur…) :
 ```svg
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
@@ -88,6 +92,9 @@ rect { fill: rgba(0,0,0,.2); }
 circle { stroke: purple; stroke-width: 10px; opacity: 0.4; }
 path { fill: blueviolet; mix-blend-mode: multiply;}
 ```
+
+⚠️ Le remplissage d’un élémeent vectoriel ne doit pas être établi à `none` ; cela aurait pour effet de le rendre inaccessible au click ou au survol.
+
 [Voir l’exemple 1](exemples/exemple-svg-1.html) (et regarder son code-source).
 
 
@@ -146,34 +153,34 @@ Voir [l’exemple 5](exemples/exemple-svg-5.html).
 <p>Les propriétés d’alignement avec <code>meet</code>:</p>
 <table>
 <tr>
-<td><img src="images/par-000.png"><p style="margin:0 0 .5em">xMinYmin meet</p></td>
-<td><img src="images/par-001.png"><p style="margin:0 0 .5em">xMidYmin meet</p></td>
-<td><img src="images/par-002.png"><p style="margin:0 0 .5em">xMaxYmin meet</p></td>
+<td><img src="images/xMinYmin-meet.svg"><p>xMinYmin meet</p></td>
+<td><img src="images/xMidYmin-meet.svg"><p>xMidYmin meet</p></td>
+<td><img src="images/xMaxYmin-meet.svg"><p>xMaxYmin meet</p></td>
 </tr><tr>
-<td><img src="images/par-003.png"><p style="margin:0 0 .5em">xMinYmid meet</p></td>
-<td><img src="images/par-004.png"><p style="margin:0 0 .5em">xMidYmid meet</p></td>
-<td><img src="images/par-005.png"><p style="margin:0 0 .5em">xMaxYmid meet</p></td>
+<td><img src="images/xMinYmid-meet.svg"><p>xMinYmid meet</p></td>
+<td><img src="images/xMidYmid-meet.svg"><p>xMidYmid meet</p></td>
+<td><img src="images/xMaxYmid-meet.svg"><p>xMaxYmid meet</p></td>
 </tr><tr>
-<td><img src="images/par-006.png"><p style="margin:0 0 .5em">xMinYmax meet</p></td>
-<td><img src="images/par-007.png"><p style="margin:0 0 .5em">xMindmax meet</p></td>
-<td><img src="images/par-008.png"><p style="margin:0 0 .5em">xMaxYmax meet</p></td>
+<td><img src="images/xMinYmax-meet.svg"><p>xMinYmax meet</p></td>
+<td><img src="images/xMidYmax-meet.svg"><p>xMidYmax meet</p></td>
+<td><img src="images/xMaxYmax-meet.svg"><p>xMaxYmax meet</p></td>
 </tr>
 </table>
 <p>Les propriétés d’alignement avec <code>slice</code>:</p>
 <table>
 <tr>
 <tr>  
-<td><img src="images/par2-000.png"><p style="margin:0 0 .5em">xMinYmin slice</p></td>
-<td><img src="images/par2-001.png"><p style="margin:0 0 .5em">xMidYmin slice</p></td>
-<td><img src="images/par2-002.png"><p style="margin:0 0 .5em">xMaxYmin slice</p></td>
+<td><img src="images/xMinYmin-slice.svg"><p>xMinYmin slice</p></td>
+<td><img src="images/xMidYmin-slice.svg"><p>xMidYmin slice</p></td>
+<td><img src="images/xMaxYmin-slice.svg"><p>xMaxYmin slice</p></td>
 </tr><tr>
-<td><img src="images/par2-003.png"><p style="margin:0 0 .5em">xMinYmid slice</p></td>
-<td><img src="images/par2-004.png"><p style="margin:0 0 .5em">xMidYmid slice</p></td>
-<td><img src="images/par2-005.png"><p style="margin:0 0 .5em">xMaxYmid slice</p></td>
+<td><img src="images/xMinYmid-slice.svg"><p>xMinYmid slice</p></td>
+<td><img src="images/xMidYmid-slice.svg"><p>xMidYmid slice</p></td>
+<td><img src="images/xMaxYmid-slice.svg"><p>xMaxYmid slice</p></td>
 </tr><tr>
-<td><img src="images/par2-006.png"><p style="margin:0 0 .5em">xMinYmax slice</p></td>
-<td><img src="images/par2-007.png"><p style="margin:0 0 .5em">xMindmax slice</p></td>
-<td><img src="images/par2-008.png"><p style="margin:0 0 .5em">xMaxYmax slice</p></td>
+<td><img src="images/xMinYmax-slice.svg"><p>xMinYmax slice</p></td>
+<td><img src="images/xMinYmax-slice.svg"><p>xMinYmax slice</p></td>
+<td><img src="images/xMaxYmax-slice.svg"><p>xMaxYmax slice</p></td>
 </tr>
 </table>
 </details>

@@ -26,7 +26,12 @@
     $Parsedown->figuresEnabled = true;
 
 ?>
-
+    <style>
+        table { width: 100%; border-spacing:1em; border-collapse: separate; width: calc(100% + 2em); margin: -1em;}
+        table td {width: 33.333%; padding: 0;}
+        table p { margin: 0;}
+        table img {width: 100%;}
+    </style>
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
