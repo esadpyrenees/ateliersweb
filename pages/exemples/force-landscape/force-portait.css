@@ -1,0 +1,44 @@
+* { box-sizing: border-box;}
+
+@media screen and (orientation: landscape) {
+
+  html, body {
+    background: #000;
+    height: 100%;
+    display: grid;
+    place-content: center;
+  }
+  main {
+    aspect-ratio: 9/16;
+    background-color: white;
+    max-height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 8px;
+  }
+  .help {
+    color: #666;
+    font: normal .85em sans-serif;
+  }
+
+}
+
+
+/* styles de la démo */
+
+html, body {
+  height: 100%;
+}
+body {
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  color: currentColor;
+}

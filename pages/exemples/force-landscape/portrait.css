@@ -1,5 +1,5 @@
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: landscape) {
 
   html{
     padding: 2em;
@@ -14,13 +14,13 @@
     height: 100%;
     width: 100%;
     content: "";
-    background: url("rotate.svg") no-repeat center;
+    background: url("rotate-portrait.svg") no-repeat center;
     background-size: contain;
   }
 
   /* version texte : */
   /* html::after{
-    content: "Affichage horizontal requis !";
+    content: "Affichage vertical requis !";
     display: flex;
     align-items: center;
     justify-content: center;
