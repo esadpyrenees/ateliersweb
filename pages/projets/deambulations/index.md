@@ -2,9 +2,9 @@
 
 Un projet transversal qui fait appel aux deux pratiques/mediums que ce sont le dessin et le webdesign. 
 
-L’objectif sera de s’emparer de leur spécificités, d’explorer leur possibilités pour trouver des manières de les articuler, dans le but de réaliser un objet graphique interactif.
+L’objectif sera de s’emparer de leurs spécificités, d’explorer leurs possibilités pour trouver des manières de les articuler, dans le but de réaliser un objet graphique interactif.
 
-Notre point de départ sera l’idée de "déambulation" dans un lieu ou un territoire, réel ou fictif.
+Notre point de départ sera l’idée de « déambulation » dans un lieu ou un territoire, réel ou fictif.
 En prenant comme contrainte principale la multiplication des points de vue.
 
 Pour la partie dessinée, il s’agira de mettre en images votre récit, d’expérimenter les manières de représenter et les cadrages selon les points de vue choisis, de donner à voir une narration et un déplacement avec le moins de texte possible.
