@@ -101,3 +101,9 @@ Les options signalent:
 - `-v` affiche les fichiers en cours de traitement
 - `-z` compresse les fichiers pour le transfert
 - `--progress` affiche la progression du transfert dans la console
+
+#### Trucs super utiles
+```bash
+# dans tous les fichiers html, cherche ".png" et remplace ".png" par ".webp"
+grep -rli '.png' *.html | xargs -i@ sed -i 's/.png/.webp/g' @
+```
