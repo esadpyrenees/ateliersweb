@@ -9,8 +9,7 @@
   $archivesdir = $_SERVER["DOCUMENT_ROOT"] . "/web/archives";
 
   // Does the dir has an index.html|php|htm file 
-  function hasIndex($dir){
-    
+  function hasIndex($dir){    
     $archivesdir = $_SERVER["DOCUMENT_ROOT"] . "/web/archives" . "/" . $dir;
     $s = scandir( $dir);
     $fs = array_diff( $s, array(".", "..") );
@@ -20,10 +19,6 @@
       } 
     }
     return false;
-    // old (glob) : 
-    // foreach(glob($dir.'/index.{html,htm,php}',GLOB_BRACE) as $file){
-    //   return basename($dir) . '/' . basename($file);
-    // }
   }
 
   // Does the dir has an index.md file 
@@ -42,11 +37,7 @@
   } 
   
 
-  // if current dir has index
-  // $dirs = new DirectoryIterator($currentdir);
-  // var_dump( $dirs);
-
-  $title = "ÉSAD·Pyrénées — Ateliers web — Archives";
+  $title = "Archives";
   $section="archives";
   include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/Parsedown.php';
   include_once $_SERVER["DOCUMENT_ROOT"] . '/web/_inc/ParsedownExtra.php';
@@ -62,7 +53,7 @@
       <p>☺</p>
       <?php
         $results = array();
-        $cool_extensions = Array('jpg','png','pdf','gif', 'html', 'zip');
+        $cool_extensions = Array('jpg','png','pdf','gif','webp','html','zip', 'css', 'js');
 
         // browse currentdir, looking for subdirs or index
         foreach (new DirectoryIterator($currentdir) as $fileinfo) {
