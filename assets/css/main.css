@@ -770,6 +770,9 @@ ul.list{
         display: inline;
         line-height: 1.5;
     }
+    .archives-nav ul {
+        display: block;
+    }
     .pane.active { display: block; }
     .active ~ .active { transform:none}
     .active ~ .active ~ .active { transform:none}
