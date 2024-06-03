@@ -290,9 +290,9 @@ L’attribut `src` définit l’emplacement de l’image. Comme pour les liens, 
 
 Chaque image a deux dimensions: une largeur et une hauteur, exprimées en **pixels**.
 
-Lors de l’insertion d’une image en HTML, le navigateur l’affichera automatiquement dans sa taille réelle. On peut spécifier les dimensions d’affichage d’une image grâce aux attributs `width` et `height`, mais il est recommandé d’utiliser CSS pour mieux maîtriser la taille d’affichage de l’image.
+Lors de l’insertion d’une image en HTML, le navigateur l’affichera automatiquement dans sa taille réelle. On peut spécifier les dimensions d’affichage d’une image grâce aux attributs `width` et `height`.
 
-⚠️ Il est important de faire attention à la **taille en pixels** et au **poids en Ko** ou Mo des images que l’on utilise, notamment pour éviter le chargement d’images trop lourdes.
+⚠️ Il est important de faire attention à la **taille en pixels** et au **poids en Ko** ou Mo des images que l’on utilise, notamment pour éviter le chargement d’images trop lourdes. [En savoir plus](../../../faq/#redimensionner-et-compresser-des-images)
 
 
 ### Audio & vidéo

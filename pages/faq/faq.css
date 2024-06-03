@@ -55,3 +55,16 @@ main h2 {
   background: black;
   color: white;
 }
+.answer {
+  background:  #eee;
+  padding: 1rem;
+  > :first-child { margin-top: 0;}
+  > :last-child  { margin-bottom: 0;}
+  summary{ background: #ddd;}
+}
+h5.filename, pre:not([markdown="0"]) {
+  margin-inline: -1rem;
+}
+h5.filename, pre:not([markdown="0"]) code {
+  padding-inline: 1rem !important;
+}

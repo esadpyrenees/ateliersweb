@@ -21,7 +21,7 @@ function showHideAccordion(accordionHeader){
   let expanded = accordionHeader.getAttribute('aria-expanded') === 'true' || false;
   accordionHeader.setAttribute('aria-expanded', !expanded);
   target.hidden = expanded;
-
+  console.log(target.hidden);
 }
 
 
