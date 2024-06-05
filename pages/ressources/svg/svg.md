@@ -131,7 +131,7 @@ Ou utiliser javascript pour produire des interactions :
 Un problème de taille (et de dimensions) se pose alors ! La maîtrise du dimensionnement du SVG ne peut être atteinte via les règles `width` ou `max-width` tant que l’attribut `viewbox` n’est pas ajouté à l’élément `<svg>` :
 
 ```html
-  <svg viewbox="0 0 1600 1600" width="1600" height="1600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <svg viewbox="0 0 1600 1600" width="1600" height="1600" …
 ```
 Les courts articles traduits en français [_Comprendre SVG preserveAspectRatio_](https://la-cascade.io/articles/comprendre-svg-preserveaspectratio) et [_Comprendre SVG viewBox et viewport_](https://la-cascade.io/articles/comprendre-svg-viewbox-et-viewport) sont particulièrement éclairants à ce sujet.
 
@@ -139,51 +139,55 @@ Voir [l’exemple 3](exemples/exemple-svg-3.html) et [l’exemple 4](exemples/ex
 
 Si on veut “remplir la page”, un nouvel attribut va devoir être affecté à l’élément `<svg>` : `preserveAspectRatio`. Cet attribut possède deux paramètres qui permettent de définir le comportement de position et de recadrage du svg à l’intérieur de son `viewbox`. 
 
+```html
+  <svg preserveAspectRatio="xMidYMid slice" viewbox="0 0 1600 1600" width="1600" height="1600" …
+```
+
 Ces paramètres sont `<align>` et `<meetOrSlice>`. Ces propriétés d’alignement ou de dimensionnement sont comparables à ce qu’on peut atteindre en CSS grâce à `background-size` ou `object-fit` (avec `background-position` et `object-position`). 
 
 Voir [l’exemple 5](exemples/exemple-svg-5.html).
 
 <style>tr {border:none}</style>
 
-<details>
-<summary>En savoir plus en images ?</summary>
 
-<p>Images empruntées à l’article <a href="https://alistapart.com/article/practical-svg/">Practical SVG</a> de Chris Coyer.</p>
+Les propriétés d’alignement avec `meet`:
 
-<p>Les propriétés d’alignement avec <code>meet</code>:</p>
-<table>
+<table style="max-width:var(--p-width); ">
 <tr>
-<td><img src="images/xMinYmin-meet.svg"><p>xMinYmin meet</p></td>
-<td><img src="images/xMidYmin-meet.svg"><p>xMidYmin meet</p></td>
-<td><img src="images/xMaxYmin-meet.svg"><p>xMaxYmin meet</p></td>
+<td><img src="images/xMinYmin-meet.svg"><p>xMinYMin meet</p></td>
+<td><img src="images/xMidYmin-meet.svg"><p>xMidYMin meet</p></td>
+<td><img src="images/xMaxYmin-meet.svg"><p>xMaxYMin meet</p></td>
 </tr><tr>
-<td><img src="images/xMinYmid-meet.svg"><p>xMinYmid meet</p></td>
-<td><img src="images/xMidYmid-meet.svg"><p>xMidYmid meet</p></td>
-<td><img src="images/xMaxYmid-meet.svg"><p>xMaxYmid meet</p></td>
+<td><img src="images/xMinYmid-meet.svg"><p>xMinYMid meet</p></td>
+<td><img src="images/xMidYmid-meet.svg"><p>xMidYMid meet</p></td>
+<td><img src="images/xMaxYmid-meet.svg"><p>xMaxYMid meet</p></td>
 </tr><tr>
-<td><img src="images/xMinYmax-meet.svg"><p>xMinYmax meet</p></td>
-<td><img src="images/xMidYmax-meet.svg"><p>xMidYmax meet</p></td>
-<td><img src="images/xMaxYmax-meet.svg"><p>xMaxYmax meet</p></td>
+<td><img src="images/xMinYmax-meet.svg"><p>xMinYMax meet</p></td>
+<td><img src="images/xMidYmax-meet.svg"><p>xMidYMax meet</p></td>
+<td><img src="images/xMaxYmax-meet.svg"><p>xMaxYMax meet</p></td>
 </tr>
 </table>
-<p>Les propriétés d’alignement avec <code>slice</code>:</p>
-<table>
+
+Les propriétés d’alignement avec `slice`:
+
+<table style="max-width:var(--p-width)">
 <tr>
 <tr>  
-<td><img src="images/xMinYmin-slice.svg"><p>xMinYmin slice</p></td>
-<td><img src="images/xMidYmin-slice.svg"><p>xMidYmin slice</p></td>
-<td><img src="images/xMaxYmin-slice.svg"><p>xMaxYmin slice</p></td>
+<td><img src="images/xMinYmin-slice.svg"><p>xMinYMin slice</p></td>
+<td><img src="images/xMidYmin-slice.svg"><p>xMidYMin slice</p></td>
+<td><img src="images/xMaxYmin-slice.svg"><p>xMaxYMin slice</p></td>
 </tr><tr>
-<td><img src="images/xMinYmid-slice.svg"><p>xMinYmid slice</p></td>
-<td><img src="images/xMidYmid-slice.svg"><p>xMidYmid slice</p></td>
-<td><img src="images/xMaxYmid-slice.svg"><p>xMaxYmid slice</p></td>
+<td><img src="images/xMinYmid-slice.svg"><p>xMinYMid slice</p></td>
+<td><img src="images/xMidYmid-slice.svg"><p>xMidYMid slice</p></td>
+<td><img src="images/xMaxYmid-slice.svg"><p>xMaxYMid slice</p></td>
 </tr><tr>
-<td><img src="images/xMinYmax-slice.svg"><p>xMinYmax slice</p></td>
-<td><img src="images/xMinYmax-slice.svg"><p>xMinYmax slice</p></td>
-<td><img src="images/xMaxYmax-slice.svg"><p>xMaxYmax slice</p></td>
+<td><img src="images/xMinYmax-slice.svg"><p>xMinYMax slice</p></td>
+<td><img src="images/xMinYmax-slice.svg"><p>xMinYMax slice</p></td>
+<td><img src="images/xMaxYmax-slice.svg"><p>xMaxYMax slice</p></td>
 </tr>
 </table>
-</details>
+
+~~Images~~ Idée empruntée à l’article <a href="https://alistapart.com/article/practical-svg/">Practical SVG</a> de Chris Coyer.
 
 ## Ressources en ligne
 
