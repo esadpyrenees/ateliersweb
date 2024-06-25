@@ -11,16 +11,48 @@
   include_once $_SERVER["DOCUMENT_ROOT"] . "/web/snippets/nav.php";
 
 ?>
-
+  <style>
+    @font-face {
+      font-family: "Dina";
+      src: url("/web/assets/fonts/DinaChaumont-DisplayExtraBold.woff2") format("woff2");
+      font-weight: 800;
+    }
+    .nonazi { 
+      font-family: "Dina";
+      font-feature-settings: "dlig" 1;
+      font-size: 15vmax;
+      line-height: .7;
+      margin: 0 !important;
+      max-width: none;
+      color: black;
+      word-spacing: -.5ch;
+      transform: translate(-50%, -50%) scale(1.2) rotate(var(--r, -12deg));
+      position: fixed;
+      top: 50vh;
+      left: 50vw;
+      width: max-content;
+      pointer-events:none;
+      color:tomato;
+      mix-blend-mode: multiply
+    }
+    @media (max-width:950px) {
+      .nonazi{ font-size: 28vmin; --r:-80deg}
+    }
+  </style>
   <section class="pane home" id="content">
 
-    <blockquote cite="http://luckysoap.com/statements/handmadeweb.html" class="hidden">
+    <!-- <blockquote cite="http://luckysoap.com/statements/handmadeweb.html" class="hidden"> -->
       <!-- <strong>In today’s highly commercialized web of <span>multinational corporations</span>, <span>proprietary applications</span>, <span>read-only devices</span>, <span>search algorithms</span>, <span>Content Management Systems</span>, <span>WYSIWYG editors</span>, and <span>digital publishers</span>, it becomes an <span class="rad">increasingly radical act</span> to <span>hand-code</span> and <span>self-publish</span> <span>experimental web art</span> and <span>writing projects</span>.</strong> <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>     -->
       
-      <strong>In<span> </span>today’s<span> </span>highly<span> </span>commercialized<span> </span>web<span> </span>of<span> </span>multinational<span> </span>corporations,<span> </span>proprietary<span> </span>applications,<span> </span>read-only<span> </span>devices,<span> </span>search<span> </span>algorithms,<span> </span>Content<span> </span>Management<span> </span>Systems,<span> </span>WYSIWYG<span> </span>editors,<span> </span>and<span> </span>digital<span> </span>publishers,<span> </span>it<span> </span>becomes<span> </span>an<span></sp an><span<span> </span>increasingly<span> </span>radical<span> </span>act<span> </span>to<span> </span>hand-code<span> </span>and<span> </span>self-publish<span> </span>experimental<span> </span>web<span> </span>art<span> </span>and<span> </span>writing<span> </span>projects.</strong> <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>    
+      <!-- <strong>In<span> </span>today’s<span> </span>highly<span> </span>commercialized<span> </span>web<span> </span>of<span> </span>multinational<span> </span>corporations,<span> </span>proprietary<span> </span>applications,<span> </span>read-only<span> </span>devices,<span> </span>search<span> </span>algorithms,<span> </span>Content<span> </span>Management<span> </span>Systems,<span> </span>WYSIWYG<span> </span>editors,<span> </span>and<span> </span>digital<span> </span>publishers,<span> </span>it<span> </span>becomes<span> </span>an<span></sp an><span<span> </span>increasingly<span> </span>radical<span> </span>act<span> </span>to<span> </span>hand-code<span> </span>and<span> </span>self-publish<span> </span>experimental<span> </span>web<span> </span>art<span> </span>and<span> </span>writing<span> </span>projects.</strong> <cite>J. R. Carpenter, <br><a href="http://luckysoap.com/statements/handmadeweb.html">A handmade web</a>.</cite>     -->
 
       <!-- Le<span> </span>8<span> </span>mars<span> </span>2024,<span> </span>nous<span> </span>appelons<span> </span>à<span> </span>une<span> </span>journée<span> </span>d’action<span> </span>contre<span> </span>le<span> </span>cloud<span> </span>—<span> </span>pour<span> </span>un<span> </span>cessez-le-feu<span> </span>permanent<span> </span>en<span> </span>Palestine<span> </span>et<span> </span>pour<span> </span>la<span> </span>fin<span> </span>du<span> </span>génocide<span> </span>facilité<span> </span>par<span> </span>le<span> </span>complexe<span> </span>militaro-technologique<span> </span>du<span> </span>gouvernement<span> </span>israélien. <cite><a href="https://titipi.org/8m/">8M</a></cite> -->
-    </blockquote>
+    <!-- </blockquote> -->
+
+    
+    <p class="nonazi">
+    Le 30 juin,<br> le 7 juillet<br> <span>/rightmanicule/ On vote !
+    </p>
     
     <!-- Comments are free, facts are sacred -->
     

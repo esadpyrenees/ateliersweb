@@ -287,16 +287,17 @@ font.load();
 
 // Wait until the fonts are all loaded
 document.fonts.ready.then(() => {  
-  adjustSize();
+  if(blockquote) adjustSize();
 });
-
 
 // resize
 window.addEventListener('resize', function(){
-  content_height = content.getBoundingClientRect().height - 2 * 16;
-  blockquote.classList.add('hidden');
-  blockquote.removeAttribute('style');
-  adjustSize();
+  if(blockquote) {
+    content_height = content.getBoundingClientRect().height - 2 * 16;
+    blockquote.classList.add('hidden');
+    blockquote.removeAttribute('style');
+    adjustSize();
+  }
 });
 
 // palettes generated elsewhere, sorry
@@ -311,25 +312,27 @@ for (let i = palettes.length - 1; i > 0; i--) {
 function randint(min, max){
   return Math.floor(  min + Math.random() * (max - min))
 }
-const whitespans = blockquote.querySelectorAll("span");
+if(blockquote){
+  const whitespans = blockquote.querySelectorAll("span");
 
-let palette = palettes[ randint(0, palettes.length)];
-palette = ["red","green","black","white"];
-palette = ["red","deeppink","black","grey"];
-whitespans.forEach(span => {
-  const randstepsnumber = randint(1,2);
-  let randsteps = [];
-  let rand = ``
-  for (let i = 0; i < randstepsnumber; i++) {
-    randsteps.push( randint(0,4) )
-  }
-  randsteps.sort((a, b) => a - b);
-  let a;
-  for (let step = 0; step < randsteps.length; step++) {
-    const a = step == palette.length ? 0 : step;
-    const color = palette[a]
-    rand += `${color} ${randsteps[step]}%, ` 
-  }
-  
-  span.style.backgroundImage = `repeating-linear-gradient(${randint(90,90)}deg, ${rand} ${palette[randint(0, palette.length)]} 100%)`
-});
+  let palette = palettes[ randint(0, palettes.length)];
+  palette = ["red","green","black","white"];
+  palette = ["red","deeppink","black","grey"];
+  whitespans.forEach(span => {
+    const randstepsnumber = randint(1,2);
+    let randsteps = [];
+    let rand = ``
+    for (let i = 0; i < randstepsnumber; i++) {
+      randsteps.push( randint(0,4) )
+    }
+    randsteps.sort((a, b) => a - b);
+    let a;
+    for (let step = 0; step < randsteps.length; step++) {
+      const a = step == palette.length ? 0 : step;
+      const color = palette[a]
+      rand += `${color} ${randsteps[step]}%, ` 
+    }
+    
+    span.style.backgroundImage = `repeating-linear-gradient(${randint(90,90)}deg, ${rand} ${palette[randint(0, palette.length)]} 100%)`
+  });
+}
