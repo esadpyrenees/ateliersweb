@@ -14,7 +14,7 @@
   <style>
     @font-face {
       font-family: "Dina";
-      src: url("/web/assets/fonts/DinaChaumont-DisplayExtraBold.woff2") format("woff2");
+      src: url("/web/assets/fonts/PubliFluorNormale.woff") format("woff");
       font-weight: 800;
     }
     .nonazi { 
@@ -26,7 +26,7 @@
       max-width: none;
       color: black;
       word-spacing: -.5ch;
-      transform: translate(-50%, -50%) scale(1.2) rotate(var(--r, -12deg));
+      transform: translate(-40%, -55%) scale(1.2) rotate(var(--r, -12deg));
       position: fixed;
       top: 50vh;
       left: 50vw;
@@ -51,7 +51,7 @@
 
     
     <p class="nonazi">
-    Le 30 juin,<br> le 7 juillet<br> <span>/rightmanicule/ On vote !
+    Le 30 juin,<br> le 7 juillet<br> On vote !
     </p>
     
     <!-- Comments are free, facts are sacred -->
