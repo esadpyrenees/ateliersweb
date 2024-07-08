@@ -108,7 +108,7 @@
             [ <i>Le Pechakucha est un format de présentation orale associée à la projection de 20 diapositives se succédant toutes les 20 secondes, de préférence sans effets d’animations. Cette contrainte impose à l’orateur de l’éloquence et un sens de la narration, du rythme, de la concision, mais aussi de l’expression graphique. — <a href="https://fr.wikipedia.org/wiki/Pecha_Kucha">wiki<wbr>pedia</a></i>  ]
         </p>
         <p>
-            Les présentations devront permettre de rapidement présenter le point de départ de votre semestre : votre parcours, vos intérêts, votre espace de recherche, le cœur préssenti de votre projet de DNSEP ou les expérimentations à mener.
+            En 4<sup>e</sup> année, les présentations devront permettre de rapidement présenter le point de départ de votre semestre : votre parcours, vos intérêts, votre espace de recherche culturelle et théorique, le cœur préssenti de votre projet de DNSEP ou les expérimentations à mener.
         </p>
         <p>
             En 5<sup>e</sup> année, quelques <i>slides</i> peuvent être consacrées à la synthèse de votre expérience de mobilité (stage ou Erasmus) en portant sur elle un regard critique, analytique et prospectif.

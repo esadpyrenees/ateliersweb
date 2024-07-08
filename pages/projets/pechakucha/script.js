@@ -14,7 +14,8 @@ var groups = [
   "Clémence",
   "Manon",
   "Lucie",
-  "Lélio"
+  "Lélio",
+  "Elen"
 ]
 
   
@@ -32,6 +33,8 @@ var groups = [
       "11h45",
       "12h00",
       "12h15",
+      "12h30",
+      "12h45",
   ];
   
   
