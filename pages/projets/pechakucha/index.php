@@ -102,16 +102,16 @@
 
     <article>
         <p>
-            Si la rentrée est l’occasion de raconter ses vacances ou son été studieux, elle est également un moment propice pour formuler les hypothèses de travail pour le semestre (et l’année) à venir. Le format proposé permet en outre de ne pas répéter le même discours auprès de quatre enseignant⋅es différent⋅es.
+            Si la rentrée est l’occasion de raconter ses vacances ou son été studieux, elle est également un moment propice pour formuler les hypothèses de travail pour le semestre (et l’année) à venir. Le format proposé permet en outre de ne pas répéter le même discours auprès de quatre ou cinq enseignant⋅es différent⋅es.
         </p>
         <p>
             [ <i>Le Pechakucha est un format de présentation orale associée à la projection de 20 diapositives se succédant toutes les 20 secondes, de préférence sans effets d’animations. Cette contrainte impose à l’orateur de l’éloquence et un sens de la narration, du rythme, de la concision, mais aussi de l’expression graphique. — <a href="https://fr.wikipedia.org/wiki/Pecha_Kucha">wiki<wbr>pedia</a></i>  ]
         </p>
         <p>
-            Les présentations devront permettre de rapidement présenter le point de départ de votre semestre : votre parcours, vos intérêts, le cœur de votre projet de DNA ou les expérimentations menées en 4<sup>e</sup> année. 
+            Les présentations devront permettre de rapidement présenter le point de départ de votre semestre : votre parcours, vos intérêts, votre espace de recherche, le cœur préssenti de votre projet de DNSEP ou les expérimentations à mener.
         </p>
         <p>
-            En 5<sup>e</sup> année, quelques <i>slides</i> peuvent être consacrées à la synthèse de votre expérience de mobilité (stage ou Erasmus) en portant sur elle un regard critique et analytique.
+            En 5<sup>e</sup> année, quelques <i>slides</i> peuvent être consacrées à la synthèse de votre expérience de mobilité (stage ou Erasmus) en portant sur elle un regard critique, analytique et prospectif.
         </p>
         <p>
             Le cœur de la présentation doit être dédié à signaler les enjeux auxquels vous souhaiter vous confronter durant ce semestre, tant du point de vue du contexte envisagé pour le projet, de ses assises théoriques que de ses perspectives formelles. 
@@ -125,9 +125,6 @@
         <p>
             Les présentations seront préférentiellement réalisées au format web et gagneront à se baser sur <a href="https://github.com/esadpyrenees/pechakucha">github.com/<wbr>esadpyrenees/<wbr>pechakucha</a>
         </p>
-       <p>
-            Si la pratique du code est trop loin de vous (jetez quand même un œil à l’outil…), PowerPoint, Keynote, Libre Office, ou un bête pdf avec un chronomètre peuvent suffire.
-       </p>
 
     </article>
     

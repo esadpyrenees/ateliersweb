@@ -2,18 +2,19 @@
 
 var groups = [
   "Marjorie", 
-  "Maëva",
   "Morgane",
+  "Morganne",
   "Yuyuan",
   "Mélina",
   "Izis",
   "Kassandra",
-  "Sarah", 
-  "Anita",
-  "Morganne",
-  "Alice",
-  "Guilhem",
-  "Aurore",
+  "Sarah",
+  "Clara",
+  "Alexandre",
+  "Clémence",
+  "Manon",
+  "Lucie",
+  "Lélio"
 ]
 
   
