@@ -9,7 +9,7 @@ Les fontes distribuées sous licence libre sont nombreuses et leur qualité augm
 
 <div class="gridlist" markdown="1">
 
-* ★ [Velvetyne Type Foundry](http://velvetyne.fr/)
+* ★ [Velvetyne](http://velvetyne.fr/)
 * ⚡ [OpenSourcePublishing](http://ospublish.constantvzw.org/foundry/)
 * [The League of Moveable Type](http://www.theleagueofmoveabletype.com/)
 * [Omnibus Type](http://www.omnibus-type.com/)
@@ -25,7 +25,7 @@ Les fontes distribuées sous licence libre sont nombreuses et leur qualité augm
 
 
 Raphaël Bastide a initié et développé [**use & modify**](http://usemodify.com/), site qui contient une liste importante de polices libres ou open source.
-Il maintient également une liste de fonderies libres : [gitlab.com/raphaelbastide/libre-foundries](https://gitlab.com/raphaelbastide/libre-foundries).
+Le collectif Velvetyne maintient une liste de fonderies libres : [Velvetyne Libre Friends](https://velvetyne.fr/velvetyne-libre-friends/).
 [**Uncut.wtf**](https://uncut.wtf) est un répertoire de fontes libres et open source.
 
 
