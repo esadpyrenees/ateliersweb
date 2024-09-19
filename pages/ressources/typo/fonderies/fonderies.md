@@ -21,6 +21,8 @@ Les fontes distribuées sous licence libre sont nombreuses et leur qualité augm
 * [Collletttivo](https://www.collletttivo.it/)
 * [Badass Libre Fonts By Womxn](https://www.design-research.be/by-womxn/)
 * [En travaux](https://entravaux.framer.website/)
+* [La typothèque de l’EESAB ](https://u270d.eesab.fr/)
+* [X Cicéro à Valence](https://xcicero.esad-gv.net/)
 
 </div>
 
