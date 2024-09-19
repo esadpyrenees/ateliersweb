@@ -26,7 +26,7 @@ Les fontes distribuées sous licence libre sont nombreuses et leur qualité augm
 
 
 Raphaël Bastide a initié et développé [**use & modify**](http://usemodify.com/), site qui contient une liste importante de polices libres ou open source.
-Il maintient également une liste de fonderies libres : [gitlab.com/raphaelbastide/libre-foundries](https://gitlab.com/raphaelbastide/libre-foundries).
+Velvetyne maintient également une liste de fonderies libres : [velvetyne.fr/velvetyne-libre-friends](https://velvetyne.fr/velvetyne-libre-friends/).
 [**Uncut.wtf**](https://uncut.wtf) est un répertoire de fontes libres et open source.
 
 
