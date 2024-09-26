@@ -1,4 +1,4 @@
-# ![This is fine](assets/thisisfine.png)
+![This is fine](assets/thisisfine.png)
   K.C. Green (→ [Know your meme](https://knowyourmeme.com/memes/this-is-fine))
 
 
