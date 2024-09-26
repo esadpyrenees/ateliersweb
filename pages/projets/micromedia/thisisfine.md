@@ -28,19 +28,19 @@ Les trublion⋅nes de Design non éthique démarrent en citant Victor Papanek, e
 
 Cette émergence de Design non éthique, de 2018 à 2022, et sa critique virulente d’_Ethics by design_ avait permis d’animer une riche discussion dans un [cours de Cultures numériques](/web/pages/culturenum/ethique/) qui avait donné lieu à une [réponse publique](https://designonethic.medium.com/conversations-1-ae02afb6dbf9) de DNÉ.
 
-Les questionnements violents qui ne manquent sans doute pas d’agiter les étudiant⋅es d’écoles d’art (on l’espère ; sans quoi l’anesthésie dont iels souffriraient serait terrible) traversent évidemment le champ du design. Ils ont trait à des questions économiques, politiques, sociales, environnementales… 
-
 --- 
+
+Les questionnements violents qui ne manquent sans doute pas d’agiter les étudiant⋅es d’écoles d’art (on l’espère ; sans quoi l’anesthésie dont iels souffriraient serait terrible – Netflix, Instagram, TikTok auraient gagné ? On ne le pense pas…) traversent évidemment le champ du design, embarqué qu’il est au cœur de ces questions économiques, politiques, sociales, environnementales… 
 
 Dans l’espace du numérique, ces questionnements sont exacerbés : la vague de l’« intelligence artificielle », la société de surveillance et la technopolice, l’impact écologique, la désinformation, la fuite en avant du technosolutionnisme, la puissance politique des big tech, l’inéluctabilité préssentie de la numérisation du monde…
 
-La proposition de travail du semestre cherche à travailler ces enjeux, à la fois pour les regarder avec clairvoyance (_this is NOT fine_), mais aussi pour permettre peut-être de découvrir quelques pistes de réflexion et d’action à même de donner un peu d’espoir et de perspectives positives, fussent-elles humbles et minimales (_some things can be fine_).
+La proposition de travail du semestre cherche à travailler ces enjeux, à la fois pour les regarder avec clairvoyance (_this is NOT fine_), mais aussi pour permettre peut-être de découvrir quelques pistes de réflexion et d’action à même de donner un peu d’espoir et de perspectives positives, fussent-elles humbles et minimales (_*some* things *might* be fine_).
 
 ## Publication collective
 
-Nous travaillerons ce semestre à l’élaboration d’une publication (un _reader_, une curation, une compliation), conçue et produite à la fois de manière collective et individuelle.
+Nous travaillerons ce semestre à l’élaboration d’une publication (un _reader_, une curation, une compilation), conçue et produite à la fois de manière collective et individuelle.
 
-Un premier ensemble de texte et d’images est à télécharger. Ce premier corpus nous donnera du grain à moudre pour les premières séances mais devra être augmenté.
+Un premier ensemble de textes et d’images est à télécharger. Ce premier corpus nous donnera du grain à moudre pour les premières séances mais devra être augmenté.
 
 [télécharger](https://ateliers.esad-pyrenees.fr/tmp/thisisfine-26-09-2024.zip) {.bigbutton}
 
@@ -52,7 +52,7 @@ Un premier enjeu de _This is fine_ est de vous proposer d’augmenter et d’org
 
 ### Production 
 
-Nous aurons à mettre en page ces textes et ces images, à déterminer les circulations, les confrontations ou même les hybridations entre ces contenus.
+Nous aurons à mettre en page ces textes et ces images, à déterminer les circulations, les confrontations ou même les hybridations entre ces contenus et à fabriquer une publication – entendue commme dispositif qui _rend public_ et _s’adresse à un public_.
 
 Deux objectifs finaux pourront être visés : 
 - la production d’un (ou plusieurs) site(s) web ;
@@ -62,13 +62,13 @@ Deux objectifs finaux pourront être visés :
 
 La succession de séances sera largement basée sur le canevas dessiné par le projet [Textedit](../textedit/), nous permettant de découvir :
 - les enjeux de la typographie (composition de texte) à l’écran, en débutant par les plus petis écrans ;
-- les questions du _responsive web design_ et de l’adaptation d’une mise en page aux différents types d’écrans ;
+- les questions du _responsive web design_, l’adaptation d’une mise en page aux différents types d’écrans ;
 - les questions de navigation hypertextuelles, d’index, d’interfaces ;
 - les possibles ouverts par le _web to print_ (ou comment fabriquer des livres avec du code et des outils « non conventionnels »)
 
 ### Évaluation
 
-L’évaluation du travail est basée sur l’implication individuelle et au sein du collectif, l’assiduité, la publication et la documentation des projets ainsi que l’appropriation personnelle des outils techniques, graphiques et conceptuels abordés.
+L’évaluation du travail se base sur l’implication individuelle et au sein du collectif, l’assiduité, la publication et la documentation des projets ainsi que sur l’appropriation personnelle des outils techniques, graphiques et conceptuels abordés. La qualité et la maîtrise de la production graphique seront des enjeux forts.
 
 
 ## Calendrier

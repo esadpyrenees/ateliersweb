@@ -267,6 +267,8 @@ figcaption::before { content:  "↑ ";}
 blockquote, q {
     quotes: none;
 }
+em em, i i,
+em i, i em,
 q em,
 blockquote em {
     font-style: normal;
