@@ -7,8 +7,8 @@
     $nav = "/web/snippets/projets/_projets.php";
 
     // $nav = "/web/snippets/ressources/SECTION.php"; // specific subnav
-    $mdfile = "./samizdat.md";
-    $custom_css = "assets/samizdat.css"; // relative or absolute file URL
+    $mdfile = "./thisisfine.md";
+    $custom_css = "assets/thisisfine.css"; // relative or absolute file URL
     // $custom_js = "custom.js"; // relative or absolute file URL
     $date = "15/10/2023";
 

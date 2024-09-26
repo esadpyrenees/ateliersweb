@@ -162,7 +162,16 @@ h3 {
   margin: .5em 0 1em
 }
 
-
+main a[href*="exemple"] {
+  background: unset;
+  padding: unset;
+  border-radius: unset;
+  border: unset;
+  text-decoration: none;
+}
+main a[href*="exemple"]::after {
+  content: "";
+}
 /* .scrollables {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
