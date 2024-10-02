@@ -220,6 +220,7 @@ C’est plus simple et plus amusant qu’on ne croît.
 À compléter.
 
 - [SVGOMG](https://jakearchibald.github.io/svgomg/) pour optimiser et nettoyer des fichiers SVG.
+- [Vecta/Nano](https://vecta.io/nano), humblement autoproclamé _World's Best SVG Compressor_.
 
 
 
