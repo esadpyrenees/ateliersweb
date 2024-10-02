@@ -44,6 +44,7 @@ Lire des livres – qu’ils soient de bois d’arbre, d’encre électronique 
 
 *   [Design Things](http://designthings.info/), une liste Notion de choses liées au design.
 *   [Last but not Liste](http://lastbutnotliste.com/), une longue et vieille liste, par Thierry Chancogne.
+*   [Articule](https://www.articule.net/index-des-textes/), ressources en histoire et théorie du design
 
 </div>
 
