@@ -105,5 +105,6 @@ Les options signalent:
 #### Trucs super utiles
 ```bash
 # dans tous les fichiers html, cherche ".png" et remplace ".png" par ".webp"
+# source et commntaires : https://stackoverflow.com/questions/11392478/how-to-replace-a-string-in-multiple-files-in-linux-command-line
 grep -rli '.png' *.html | xargs -i@ sed -i 's/.png/.webp/g' @
 ```
