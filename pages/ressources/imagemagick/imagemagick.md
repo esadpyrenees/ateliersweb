@@ -70,6 +70,12 @@ convert original.png -fuzz 10% -transparent white transparent.png
 ```bash
 convert original.png -crop 200x150+100+50 cropped.png
 ```
+
+↓ Recadrer une image (fichier final de 1200 × 600px, recadrés depuis le centre de l’image originale)
+```bash
+convert original.png -resize 1200x600^ -gravity Center -extent 1200x600 resized_and_cropped.png
+```
+
 ↓ Tramer une image (*dithering*)
 
 ```bash
