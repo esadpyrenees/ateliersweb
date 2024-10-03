@@ -10,8 +10,7 @@
 21/12/2023 — [Argent et devis](argent)   
 23/01/2024 — Fabrique Pola : Ora   
 24/01/2024 — Fabrique Pola : Point de fuite  
-14/02/2024 — Conférence API Conseil (propriété intellectuelle)
-14/05/2024 — Arnaud Camboulives, Sécurité sociale des Artistes auteurs.
+14/02/2024 — Conférence API Conseil (propriété intellectuelle)  
 
 ## Ressources
 

@@ -28,6 +28,4 @@
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>
     </main>
 
-    <!-- <script src="arpentage.js"></script> -->
-
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/footer.php"); ?>

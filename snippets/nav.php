@@ -5,6 +5,7 @@
     <li class="<?php echo $section == 'outils' ? 'opened' : '' ?>"><a href="/web/pages/outils/">Outils</a></li>
     <li class="<?php echo $section == 'projets' ? 'opened' : '' ?>"><a href="/web/pages/projets/">Projets</a></li>
     <li class="<?php echo $section == 'culturenum' ? 'opened' : '' ?>"><a href="/web/pages/culturenum/">Cultures numériques</a></li> 
+    <li class="<?php echo $section == 'culturetech' ? 'opened' : '' ?>"><a href="/web/pages/culturetech/">Cultures techniques</a></li> 
     <li class="<?php echo $section == 'lectures' ? 'opened' : '' ?>"><a href="/web/pages/lectures/">Lectures</a></li>
     <li class="<?php echo $section == 'gopro' ? 'opened' : '' ?>"><a href="/web/pages/gopro/">Go pro</a></li>
     <li class="<?php echo $section == 'faq' ? 'opened' : '' ?>"><a href="/web/pages/faq/">FAQ</a></li>

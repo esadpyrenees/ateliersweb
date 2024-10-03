@@ -1,0 +1,33 @@
+
+
+#practicesshapetools {
+  --fontsize: min(9vh, 8vw);
+  --duration: 60s;
+  --size: 8.5em;
+  margin: 0;
+  font-weight: normal;
+  animation: rotate var(--duration) linear 0s infinite;
+  position: relative;
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  font-family: monospace;
+  font-size: var(--fontsize);
+  pointer-events: none;
+  right: 0;
+  top: 50%;
+  color: black;
+}
+
+#practicesshapetools span {
+  mix-blend-mode: difference;
+  position: absolute;
+  height: 50%;
+  transform-origin: bottom center;
+  transform: translateX(calc(var(--size) / 2 - var(--fontsize) / 2)) rotate(calc(var(--r, 0) * 1deg));
+}
+
+@keyframes rotate {
+  from { transform: translateY(-50%);}
+  to { transform: translateY(-50%) rotate(-360deg); }
+}

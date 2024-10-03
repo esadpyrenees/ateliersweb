@@ -6,6 +6,7 @@
 
 Les enjeux de la professionnalisation en école d’art sont parcourus par de nombreuses tensions (les résoudre n’est pas dans les objectifs de la liste de ressources rassemblées ci-dessous). Les différentes approches d’un devenir professionnel souhaitable pour les aspirant⋅es designers et artistes doivent être pensées de manière critique, en tenant compte de leurs inscriptions dans des contextes sociaux, économiques, écologiques, politiques dont la complexité n’est plus à démontrer.
 
+[→ 2024 – 2025](2425) {.bigbutton}
 
 ## ✊ {#syndicats}
 
@@ -84,7 +85,7 @@ On trouve en ligne mille manières différentes (et souvent farfelues) d’éval
 Gauthier Rousillhe publie chaque année son “[rapport de modèle économique](http://gauthierroussilhe.com/fr/posts/activite-2019-2020)” dans lequel il propose une approche de planification financière basée sur l’équilibre entre ses rentrées d’argent et ses dépenses.
 
 ### La commande
-Le Cnap a édité en 2014 un guide de [“La commande de design graphique”](guide-de-la-commande-de-design-graphique.pdf) destiné à accompagner les commanditaires privés et publics dans leurs commandes aux designers graphiques et à valoriser les meilleures pratiques. Dès 2006, l’AFD a édité une [“Charte AFD  des marchés publics de design”](charte-afd-des-marches-publics-de-design-4e-edition.pdf), qui faisait suite à un manifeste proposé en 2006 : [Dites NON aux idées gratuites](dites-non-aux-idees-gratuites.pdf).
+Le Cnap a édité en 2014, et ré-édité (enfin…) en 2024 un guide de [“La commande de design graphique”](guide-de-la-commande-de-design-graphique.pdf) destiné à accompagner les commanditaires privés et publics dans leurs commandes aux designers graphiques et à valoriser les meilleures pratiques. Dès 2006, l’AFD a édité une [“Charte AFD  des marchés publics de design”](charte-afd-des-marches-publics-de-design-4e-edition.pdf), qui faisait suite à un manifeste proposé en 2006 : [Dites NON aux idées gratuites](dites-non-aux-idees-gratuites.pdf).
 
 *[Cnap]: Centre national des arts plastiques
 *[AFD]: Alliance française des designers

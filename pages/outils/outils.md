@@ -49,6 +49,8 @@
 * [**Shutter Encoder**](http://www.shutterencoder.com/fr/), compression / encodage / recadrage vidéo
 * [**ImageMagick**](https://imagemagick.org/index.php), manipulation d’images bitmap en ligne de commande (voir [la doc](../ressources/imagemagick/)).
 * [**Awesome VJing**](https://github.com/LimeLimeW/awesome-vjing), liste d’outils par Camille, aka Lime68k
+* [**Handbrake**](https://handbrake.fr/), convertisseur vidéo avec des superpouvoirs
+* [**ffmpeg**](https://ffmpeg.org/), convertisseur vidéo avec des superpouvoirs, en ligne de commande
 
 </div>
 
