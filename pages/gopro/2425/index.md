@@ -16,7 +16,7 @@
 - [Éditions Burn Août](https://editionsburnaout.fr/)
 - [SAIF](https://saif.fr/)
 - [La Buse](https://la-buse.org/)
-- [Guillaume Grall](https://www.buildingparis.fr/)
+- [Building Paris / Guillaume Grall](https://www.buildingparis.fr/)
 - [Alliance France Design](https://www.alliancefrancedesign.com/)
 
 <!-- Encore à préciser, le programme [attend vos suggestions](https://mypads.framapad.org/p/gopro2425-yy8o07d5). -->
