@@ -16,7 +16,6 @@
 - [Éditions Burn Août](https://editionsburnaout.fr/)
 - [SAIF](https://saif.fr/)
 - [La Buse](https://la-buse.org/)
-- [SAIF](https://saif.fr/)
 - [Guillaume Grall](https://www.buildingparis.fr/)
 - [Alliance France Design](https://www.alliancefrancedesign.com/)
 
