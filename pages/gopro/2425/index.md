@@ -28,8 +28,8 @@
 
 - 03/10/2024 — Welcome to the cruel world  
 - 17/10/2024 — Le plaisir et l’argent : devis, factures  
-- 31/10/2024 — Praticable ?  
-- 14/11/2024 — Guillaume Grall ?
+- 31/10/2024 — ?
+- 14/11/2024 — ?
 - 28/11/2024 — Éditions Burn Août ?  
 - 12/12/2024 — La Buse ?  
 - 09/01/2024 — Questions collectves et individuelles ~ sous réserve
