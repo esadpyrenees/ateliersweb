@@ -7,8 +7,6 @@
 > 
 > <cite>— Extrait aléatoire de <a href="http://surfaces-utiles.org/how-to-survive-after-art-school-comment-survivre-apres-lecole-dart.html"><i style="font-style:normal">Comment survivre après l'école d'art</i></a>, publié par <i style="font-style:normal">Surfaces Utiles</i> sous licence CC BY-NC 3.0. <button id="refreshsurvive">Un autre extrait ?</button></cite>
 
-[PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024) {.bigbutton}
-
 ## Invité⋅es
 
 - [Sécurité sociale des artistes auteur⋅ices](https://www.secu-artistes-auteurs.fr/) : 11 octobre de 9h à 11h
@@ -33,6 +31,8 @@
 - 28/11/2024 — Éditions Burn Août ?  
 - 12/12/2024 — La Buse ?  
 - 09/01/2024 — Questions collectves et individuelles ~ sous réserve
+
+[PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024) {.bigbutton}
 
 ## Ressources
 
