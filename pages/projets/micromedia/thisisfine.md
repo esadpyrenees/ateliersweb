@@ -44,6 +44,8 @@ Un premier ensemble de textes et d’images est à télécharger. Ce premier cor
 
 [télécharger](https://ateliers.esad-pyrenees.fr/tmp/thisisfine-26-09-2024.zip) {.bigbutton}
 
+[accéder au pad](https://pad.esad-pyrenees.club/p/thisisfine) {.bigbutton}
+
 Il contient des textes bruts, plus ou moins (plutôt moins) libres de droits, en français ou en anglais. Textes contemporains ou historiques, traitant du design, des technologies, de l’environnement ou de la société. Il contient des images de multiples provenances, sous licences libres, ou déjà soumises à une vaste circulation. Contemporaines ou historiques, issues des tréfonds du web ou reproduites en des millions d’occurences. Tout est volontairement réuni sans grande cohérence éditoriale.
 
 ### Éditorialisation

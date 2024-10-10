@@ -1,0 +1,12 @@
+@font-face{
+  font-family: "Bricolage";
+  src: url("bricolage.woff2") format("woff2 supports variations"),
+    url("bricolage.woff2") format("woff2-variations");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.bricolage {
+  font-variation-settings: "wght" var(--bricolage-wght), "wdth" var(--bricolage-wdth), "opsz" var(--bricolage-opsz);
+}

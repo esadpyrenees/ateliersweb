@@ -1,8 +1,20 @@
 
 # Projets
 
-Projets pédagogiques en web design, cultures numériques et nouveaux médias.
+Projets 2024–2025
 
+<div class="gridlist" markdown=1>
+
+* [Micromedia](micromedia) {#micromedia}
+* [Portfolio](portfolio) {#portfolio}
+* [Textedit](textedit) {#textedit}
+* [Puck Ferpection](perfuction) {#perfuction}
+
+  
+</div>
+
+
+Projets pédagogiques en web design, cultures numériques et nouveaux médias.
 
 <div class="gridlist" markdown=1>
 
@@ -13,9 +25,9 @@ Projets pédagogiques en web design, cultures numériques et nouveaux médias.
 * [Program&shy;mation](programmation) {#programmation}
 * [Storytellers](storytellers) {#storytellers}
 * [Portfolio](portfolio) {#portfolio}
-* [Textedit](textedit) {#textedit}
+<!-- * [Textedit](textedit) {#textedit} -->
 * [Puck Ferpection](perfuction) {#perfuction}
-* [Micromedia](micromedia) {#micromedia}
+<!-- * [Micromedia](micromedia) {#micromedia} -->
 * [Curriculum vitæ](cv) {#cv}
 * [Mémoire vive](memoirevive) {#memoirevive}
 * [Figures](figures) {#figures}
@@ -23,4 +35,4 @@ Projets pédagogiques en web design, cultures numériques et nouveaux médias.
 * [NeoGeo](neogeo) {#neogeo}
 * [Déambu&shy;lations](deambulations) {#deambulations}
   
-  </div>
+</div>
