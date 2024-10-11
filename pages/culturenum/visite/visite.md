@@ -1,7 +1,10 @@
 # Une visite du web 
 
-#### 11/2023
-Une [collection]() d’impressions « Giclée » de Carsten Güth. Il y a dix ans, House industries livrait une réinterprétation numérique du typogramme du [New Yorker](https://hello.houseind.com/work/the-new-yorker/) dessiné par Rea Irvin. [Scrying Pen](https://andymatuschak.org/scrying-pen/) est un projet d’Andy Matushak danns lequel ce qu’on dessine influence une “IA” -un réseau de neurones récurrent– qui influence notre dessin.
+#### 06/2024
+
+[Sous la surface des canaux](https://belowthesurface.amsterdam/en/vondsten) d’Amsterdam, on trouve beaucoup de choses ← le site est développé par Q42, également responsable des remarquables sites du [RijksMuseum](https://www.rijksmuseum.nl/en/frans-hals) et du [Jardin des Délices](https://archief.ntr.nl/tuinderlusten/).
+
+Une [collection](http://notimefortv.biz/) d’impressions « Giclée » de Carsten Güth. Il y a dix ans, House industries livrait une réinterprétation numérique du typogramme du [New Yorker](https://hello.houseind.com/work/the-new-yorker/) dessiné par Rea Irvin. [Scrying Pen](https://andymatuschak.org/scrying-pen/) est un projet d’Andy Matushak danns lequel ce qu’on dessine influence une “IA” -un réseau de neurones récurrent– qui influence notre dessin.
 
 La [Tyrannie de l’absence de structure](https://infokiosques.net/spip.php?page=lire&id_article=2) est un texte de la militante états-unienne Jo Freeman qui met en garde contre les structurations informelles des groupes activistes. 
 
