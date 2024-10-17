@@ -15,3 +15,13 @@ Sauf [mention contraire](/web/pages/exemples/cookie-nav/), le site n’utilise p
 Le code complet du site (hasardeux mélange de PHP, markdown, javascript, css et html) est accessible sur [github](https://github.com/esapyrenees/ateliersweb/).
 
 Le site a bénéficié des contenus (opensource, libres ou CC) produits par [Louis Éveillard](https://louiseveillard.com/), [Jeremy Thomas](https://jgthms.com/css-in-44-minutes-ebook/), [Julien Taquet](https://pagedjs.org/), [Raphaël Bastide](https://raphaelbastide.com/), [Mozilla Developper Network](https://developer.mozilla.org/fr/), [Oliver James](https://www.internetingishard.com/), [Roberto Arista](https://pythonfordesigners.com/) — et bien d’autres.
+
+## Archives {#archives}
+
+L’[espace des archives](../archives/) permet de plonger dans la mémoire des pratiques web à l’ÉSAD Pyrénées. Au fil des années, l’important espace-disque qu’il occupe sur le serveur est devenu problématique (~40 Go, à son paroxysme). Aussi, de nombreux projets ont été archivés et ne sont plus visibles en ligne, mais seulement sur demande dans l’atelier Soft Machine à l’ÉSAD ou en me sollicitant directement.
+
+## Contacts
+
+Pour toute question, correction, complément ou commentaire :  
+→ [@julienbidoret@post.lurk.org](https://post.lurk.org/@julienbidoret)  
+→ [julien.bidoret@esad-pyrenees.fr](mailto:julien.bidoret@esad-pyrenees.fr)
