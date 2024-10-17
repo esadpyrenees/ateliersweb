@@ -1,0 +1,78 @@
+
+/* Affichage Web Desktop */
+@media (min-width:60em) {
+  header {
+    /* une grille d’une seule colonne ; 
+    les deux premières lignes se réduisent à la dimension du contenu
+    la dernière ligne occupe le reste de la hauteur */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    /* on force la hauteur à 100% de la hauteur du viewport (= de l’écran) */
+    height: 100vh;
+    /* une bordure à droite */
+    border-right: 1px solid #666;
+    /* l’élement reste fixe au scroll */
+    position: sticky;
+    top: 0;
+  }
+  
+  header p:last-child {
+    /* le dernier paragraphe est aligné en bas de la cellule */
+    align-self: end;
+  }
+
+  /* 250px = dimensions identiques pour la marge gauche des titres et la colonne des dates */
+  h2 { margin-left: 250px; }
+  article {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+  }
+}
+
+/* Affichage Web Mobile */
+@media screen and (max-width:60em) {
+  header {
+    /* une bordure en bas */
+    border-bottom: 1px solid #666;
+  }
+}
+
+/* Print A4 */
+@media print and (min-width:20cm) {  
+  header {
+    /* une grille d’une seule ligne et trois colonnes ; 
+    la première colonne est définie à 4.5cm, les deux autres se partagent l’espace restant */
+    display: grid;
+    grid-template-columns: 4.5cm 1fr 1fr;    
+  }
+  header p:last-child {
+    /* le dernier paragraphe est aligné à droite de sa cellule */
+    justify-self: end;
+  }
+  article {
+    /* une grille d’une seule ligne et deux colonnes ; 
+    la première colonne est définie à 4.5cm, les deux autres se partagent l’espace restant */
+    display: grid;
+    grid-template-columns: 4.5cm 1fr ;    
+  }
+
+  /* marge gauche identique à la colonne définie précédemment */
+  h2 { margin: 0 0 .5cm 4.5cm; }
+
+  /* pour condenser la mise en page */
+  article { margin: 0;}
+
+}
+
+/* Print Imprimante thermique */
+@media print and (max-width:20cm) {
+  
+  section {
+    /* plus d’espace vertical pour compenser l’étroitesse */
+    padding-top: 3em;
+    /* une bordure ticket de caisse… */
+    border-top: 1px dashed black;
+  }
+  
+}

@@ -51,6 +51,8 @@
 #neogeo:before { content: "◘";}
 #deambulations {--color: #BEE1F0; }
 #deambulations:before { content: "↝";}
+#index {--color: #BEE1F0; }
+#index:before { content: "☞";}
 
 #micromedia::before {
   background: url("micromedia/assets/thisisfine.png");

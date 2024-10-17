@@ -1,0 +1,108 @@
+/* Intégration d’un caractère typographique */
+/* Voir https://ateliers.esad-pyrenees.fr/web/pages/ressources/typo/webfonts/ */
+
+@font-face {
+  font-family: 'Ecole';
+  src: url('Ecole-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ecole';
+  src: url('Ecole-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body { 
+  font-family: "Ecole"; 
+  /* hauteur de ligne */
+  line-height: 1.5;
+}
+
+/* Styles typographiques réduits au minimum : deux corps, une seule graisse */
+
+h1, h2 {
+  margin: 0 0 .75em 0 ;
+  font-size: 2.25em;
+  font-weight: normal;
+  /* interligne plus serré pour les grands corps*/
+  line-height: 1;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+  color: #9c9c9c;
+}
+
+p {
+  margin: 0;
+  /* largeur maximale des paragraphes: ~ 60 caractères (ici, plus près de 80, l’unité ch étant fonction de la fonte utilisée) */
+  max-width: 60ch;
+}
+
+a { color: currentColor; }
+
+header, main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+article {
+  /* correspond à la hauteur de ligne, pour garder une ligne de base stable */
+  margin-top: 1.4em;
+}
+
+article p {
+  /* paragraphes “désindentés” */
+  /* voir https://ateliers.esad-pyrenees.fr/web/pages/exemples/paragraphs/ */
+  margin-left: 2.5em;
+  text-indent: -2.5em;
+}
+
+
+/* Au dessus !!! d’une largeur d’écran de 80em, on modifie le corps de texte */
+@media (min-width: 80em) {
+  body {
+    /* 1.25em devient 20px si le corps préféré de l’utilisateur est établi à sa valeur par défaut, 16px */
+    font-size: 1.25em;
+  }
+}
+
+/* En dessous d’une largeur d’écran de 30em (mobile)… */
+@media (max-width: 30em) {
+  body {
+    /* .875em devient 14px si le corps préféré de l’utilisateur est établi à sa valeur par défaut, 16px */
+    font-size: .875em;
+  }
+  /* on réduit les marges */
+  header, main {
+    padding: 3em 1em;
+  }
+  /* on annule la désidentation des paragraphes */
+  article p {
+    margin-left: 0;
+    text-indent: 0;
+  }
+  h3 {
+    display: inline;
+    float: left;
+    padding-right: 2em;
+  }
+}
+
+/* En média print */
+@media print {
+  body {
+    font-size: 8.25pt;
+  }  
+  h3 {
+    color: black;
+  }
+}

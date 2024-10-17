@@ -6,10 +6,10 @@ Projets 2024–2025
 <div class="gridlist" markdown=1>
 
 * [Micromedia](micromedia) {#micromedia}
-* [Portfolio](portfolio) {#portfolio}
 * [Textedit](textedit) {#textedit}
+* [Index](index) {#index}
 * [Puck Ferpection](perfuction) {#perfuction}
-
+* [Portfolio](portfolio) {#portfolio}
   
 </div>
 
