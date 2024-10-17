@@ -38,13 +38,11 @@ Son premier enjeu est de partager votre univers culturel. Elle consistera donc e
 
 ## Quelques exemples
 
-Une grille responsive
+- [Une grille responsive](../../exemples/responsivegrid/)
+- [Une liste scrollable](../../exemples/layouts/)
+- [Un grand désordre](../../exemples/random-img/)
+- [Un tableau bien organisé](#bientôt)
 
-Une liste scrollable
-
-Un grand désordre
-
-Un tableau bien organisé
 
 ## Quelques références
 
