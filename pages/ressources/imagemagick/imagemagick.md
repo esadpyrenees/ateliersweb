@@ -151,6 +151,11 @@ mogrify -resize 200x200 dossier/*.png
 ```bash
 mogrify -geometry x600 dossier/*.jpg
 ```
+↓ Redimensionne tous les fichiers `jpg` ou `png`, dans tous les sous-dossiers, à 1600px de large maximum (écrase les originaux)
+```bash
+# utilise find, une commande disponible dans bash
+find . -type f -iname \*.jpg -o -type f -iname \*.png -execdir mogrify -resize 1600x {} +
+```
 ↓ Compresse des images en jpg (même réglage que plus haut, mais écrase les originaux)
 ```bash
 mogrify -strip -sampling-factor 4:2:0 -quality 85 -interlace line -colorspace RGB dossier/*.jpg 
