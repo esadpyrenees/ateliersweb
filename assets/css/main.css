@@ -548,7 +548,7 @@ sup a.footnote-ref{color:#ff6347;font-weight:700}
 
 /* examples links in articles */
 
-main a[href*="exemple"] {
+main *:not(h3,h2,h1,h4) a[href*="exemple"] {
     background: #FF5B13;
     padding: .25em .25em .05em;
     border-radius: .25em;
@@ -556,10 +556,10 @@ main a[href*="exemple"] {
     box-decoration-break: clone;
     text-decoration: none;
 }
-main a[href*="exemple"]::after{
+main *:not(h3,h2,h1,h4) a[href*="exemple"]::after{
     content: " 👀";
 }
-main a[href*="exemple"]:hover {
+main *:not(h3,h2,h1,h4) a[href*="exemple"]:hover {
     background: black;
     color: white;
 }
