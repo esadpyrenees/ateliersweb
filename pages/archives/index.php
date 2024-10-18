@@ -29,6 +29,11 @@
     return false;
   }
 
+  // Is the directory empty
+  function isEmpty($dir){
+    return !(new \FilesystemIterator($dir))->valid();
+  }
+
   $currentdir = $archivesdir . $params;
   
   $index = hasIndex($currentdir);
@@ -63,16 +68,19 @@
             if ($index != false ) {
               $path = $fileinfo . '/' .$index;
             }
+            $is_empty = !(new FilesystemIterator($fileinfo->getPathname(), FilesystemIterator::SKIP_DOTS))->valid();
             $dirArray = array(
               'path'=>$path, 
-              'name'=>basename($fileinfo). '/'
+              'name'=>basename($fileinfo). '/',
+              'is_empty' => $is_empty
             );
             $results[] = $dirArray;
           } elseif(in_array($fileinfo->getExtension(), $cool_extensions) && !$fileinfo->isDot())  {
             $path = $fileinfo->getFilename();
             $dirArray = array(
               'path'=>$path, 
-              'name'=>basename($fileinfo)
+              'name'=>basename($fileinfo),
+              'is_empty' => false
             );
             $results[] = $dirArray;
           }
@@ -96,7 +104,7 @@
           rsort($results);
           echo "</ul><ul>";
           foreach ($results as $dir) {
-              echo "<li><a href='". $dir['path'] . "'>".$dir['name']."</a></li> ";
+              echo "<li class=''>" . ($dir['is_empty'] ? "• " : "" ) . "<a href='". $dir['path'] . "'>".$dir['name']."</a></li> ";
           }
           echo "</ul>";
         }
