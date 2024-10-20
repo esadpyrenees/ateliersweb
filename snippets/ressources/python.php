@@ -8,6 +8,7 @@
     <li class="<?= $subsubsection == 'strings' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/strings/">Textes</a> </li>
     <li class="<?= $subsubsection == 'lists' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/lists/">Listes</a> </li>
     <li class="<?= $subsubsection == 'files' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/files/">Fichiers</a> </li>
+    <li class="<?= $subsubsection == 'misc' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/misc/">Misc.</a> </li>
   </ul>
   <ul>
     <li><a href="/web/pages/ressources/mkdocs/">MkDocs</a> </li>    
