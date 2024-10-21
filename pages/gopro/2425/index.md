@@ -24,11 +24,11 @@
 ## Calendrier
 
 - 03/10/2024 — Welcome to the cruel world  
-- 17/10/2024 — Le plaisir et l’argent : devis, factures  
-- 31/10/2024 — ?
-- 14/11/2024 — ?
-- 28/11/2024 — Éditions Burn Août ?  
-- 12/12/2024 — La Buse ?  
+- 17/10/2024 — Le plaisir et l’argent : devis, factures, money money  
+- 31/10/2024 — Éditions Burn Août
+- 14/11/2024 — Praticable
+- 28/11/2024 —  
+- 12/12/2024 — Caroline Sebilleau & Benoît Brient — La Buse 
 - 09/01/2024 — Questions collectves et individuelles ~ sous réserve
 
 [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024) {.bigbutton}
