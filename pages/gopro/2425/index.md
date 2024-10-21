@@ -7,16 +7,7 @@
 > 
 > <cite>— Extrait aléatoire de <a href="http://surfaces-utiles.org/how-to-survive-after-art-school-comment-survivre-apres-lecole-dart.html"><i style="font-style:normal">Comment survivre après l'école d'art</i></a>, publié par <i style="font-style:normal">Surfaces Utiles</i> sous licence CC BY-NC 3.0. <button id="refreshsurvive">Un autre extrait ?</button></cite>
 
-## Invité⋅es
-
-- [Sécurité sociale des artistes auteur⋅ices](https://www.secu-artistes-auteurs.fr/) : 11 octobre de 9h à 11h
-- [IP4Artist](https://ip4artist.api-conseil.app/) — décembre 2024 + mars 2025
-- [POLA : Point de fuite & Ora](https://pola.fr/) : 23 & 24 janvier 2025
-- [SAIF](https://saif.fr/)
-- [Building Paris / Guillaume Grall](https://www.buildingparis.fr/)
-- [Alliance France Design](https://www.alliancefrancedesign.com/)
-
-<!-- Encore à préciser, le programme [attend vos suggestions](https://mypads.framapad.org/p/gopro2425-yy8o07d5). -->
+[PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024) {.bigbutton}
 
 ## Calendrier
 
@@ -24,11 +15,20 @@
 - 17/10/2024 — Le plaisir et l’argent : devis, factures, money money  
 - 31/10/2024 — [Éditions Burn Août](https://editionsburnaout.fr/)
 - 14/11/2024 — [Praticable](https://praticable.fr/)
-- 28/11/2024 —  
+- 28/11/2024 — [Building Paris](https://www.buildingparis.fr/) ?
 - 12/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
 - 09/01/2024 — Questions collectves et individuelles ~ sous réserve
 
-[PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024) {.bigbutton}
+
+## Invité⋅es
+
+- [Sécurité sociale des artistes auteur⋅ices](https://www.secu-artistes-auteurs.fr/) : 11 octobre de 9h à 11h
+- [IP4Artist](https://ip4artist.api-conseil.app/) — décembre 2024 + mars 2025
+- [POLA : Point de fuite & Ora](https://pola.fr/) : 23 & 24 janvier 2025
+- [SAIF](https://saif.fr/)
+- [Alliance France Design](https://www.alliancefrancedesign.com/)
+
+<!-- Encore à préciser, le programme [attend vos suggestions](https://mypads.framapad.org/p/gopro2425-yy8o07d5). -->
 
 ## Ressources
 
