@@ -29,12 +29,6 @@
         figure img {
             width:100%; height: 100%; object-fit: cover
         }
-        .pad{
-            border: 1px dotted #000;
-            padding: 1em;
-            font-family: monospace;
-        }
-        .pad h1, .pad h2, .pad h3, .pad h4 {font-size: 1em; font-weight: bold;;}
     </style>
     <main class="pane active typeset" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>

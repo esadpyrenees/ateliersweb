@@ -34,3 +34,4 @@ Ces sites / pages seront obligatoirement publiées dans un dossier intitulé “
 ```html
 <script src='https://ateliers.esad-pyrenees.fr/web/pages/projets/figures/2024-2025/webring.js'></script>
 ```
+↑ On verra ça ensemble…
