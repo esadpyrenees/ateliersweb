@@ -15,7 +15,7 @@
 - 17/10/2024 — Le plaisir et l’argent : devis, factures, money money  
 - 31/10/2024 — [Éditions Burn Août](https://editionsburnaout.fr/)
 - 14/11/2024 — [Praticable](https://praticable.fr/)
-- 28/11/2024 — [Building Paris](https://www.buildingparis.fr/) ?
+- 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
 - 12/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
 - 09/01/2024 — Questions collectves et individuelles ~ sous réserve
 

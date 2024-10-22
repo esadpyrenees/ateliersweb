@@ -3,7 +3,7 @@
     $title = "Auto-défense économique – 2023–2024";
     $description = "Ressources d’auto-défense économique pour graphistes en temps de crise.";
     $section="gopro";
-    $subsection="2324";
+    $subsection="2425";
     $mdfile = "./index.md";
     $nav = "/web/snippets/gopro.php"; // specific subnav
     $custom_css = "../assets/gopro.css"; // relative or absolute file URL
