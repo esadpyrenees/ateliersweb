@@ -81,11 +81,9 @@
 
 ## Espace collaboratif
 
-Un « pad » (de l'anglais _paper pad_, bloc de papier) est un éditeur de texte collaboratif en temps réel, en ligne. L’association Framasoft (comme d’autres [CHATONS](https://entraide.chatons.org/fr/)) propose un [service de pads](https://framapad.org/fr/) basés sur le logiciel Etherpad.
+Un « pad » (de l'anglais _paper pad_, bloc de papier) est un éditeur de texte collaboratif en temps réel, en ligne. Dans cet espace, chacun⋅e est invité⋅e à associer son nom à _une_ des figures évoquées ci-dessus.
 
-Dans cet espace, chacun⋅e est invité⋅e à associer son nom à _une_ des figures évoquées ci-dessus.
-
-[→ accéder au pad](https://semestriel.framapad.org/p/esad_cultures_numeriques?lang=fr){.bigbutton}
+[→ accéder au pad](https://pad.esad-pyrenees.club/p/culturesnum-2024){.bigbutton}
 
 
 

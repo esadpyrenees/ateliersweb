@@ -8,8 +8,7 @@ Projets 2024–2025
 * [Micromedia](micromedia) {#micromedia}
 * [Textedit](textedit) {#textedit}
 * [Index](index) {#index}
-* [Puck Ferpection](perfuction) {#perfuction}
-* [Portfolio](portfolio) {#portfolio}
+* [Figures](figures) {#figures}
   
 </div>
 
@@ -30,9 +29,10 @@ Projets pédagogiques en web design, cultures numériques et nouveaux médias.
 <!-- * [Micromedia](micromedia) {#micromedia} -->
 * [Curriculum vitæ](cv) {#cv}
 * [Mémoire vive](memoirevive) {#memoirevive}
-* [Figures](figures) {#figures}
 * [Local Area Social Network](lasn) {#lasn}
 * [NeoGeo](neogeo) {#neogeo}
 * [Déambu&shy;lations](deambulations) {#deambulations}
+* [Puck Ferpection](perfuction) {#perfuction}
+* [Portfolio](portfolio) {#portfolio}
   
 </div>
