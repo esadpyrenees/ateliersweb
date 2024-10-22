@@ -1,5 +1,24 @@
 # Une visite du web 
 
+(N’oubliez pas le guide)
+
+#### 10/2024
+
+Dans la revue Linx, éditée par des linguistes de l'Université Paris Nanterre, un numéro consacré aux _Imaginaires de la ponctuation: Ordre et inquiétude du discours_ contient un article sur la [_ponctuation fantasmée_](https://journals.openedition.org/linx/1953#tocto2n5), ses points d’ironie, d’autorité, de folie, de rêverie… 
+
+Cory Doctorow nous rappelle (et d’autres avec lui) que nous _devrions_ [utiliser un lecteur de flux RSS](https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/#read-receipts-are-you-kidding-me-seriously-fuck-that-noise) en réaction à l’[emmerdification](https://www.arretsurimages.net/chroniques/clic-gauche/aux-apatrides-du-web-merdique) des plateformes et services numériques.
+
+Ces lignes ne signaleront combien précieux est le travail d’Hubert Guillaud, aujourd’hui déployé à travers le site [Dans les algorithmes](https://danslesalgorithmes.net/) (sous-titré _Le média pour comprendre l'impact social de la tech_) – évidemment, on peut s’y abonner grâce à son [flux RSS](https://danslesalgorithmes.net/feed/). Ces temps-ci, l’IA (_so called_) est au cœur de son propos. Dernier article à l’heure où ces lignes sont écrites : [Acculés dans les stéréotypes](https://danslesalgorithmes.net/2024/10/18/accules-dans-les-stereotypes/).
+
+Quelques portfolios de designers et de studios, sans trier. Le [studio Gruhl](https://www.studiogruhl.com/), [Speculoos](https://speculoos.com/fr/) de Pierre Huyghebaert et Sophie Boiron, l’[agence Aino](https://aino.agency/), [Daisy Chain](https://www.daisychainstudio.net/), [Simone Hoàng](https://simonehoang.com/), le [studio Kiösk](https://studiokiosk.fr/), le [collectif Pépite](https://www.pepite.world/)
+
+[The People's Graphic Design Archive](http://peoplesgdarchive.org) est une archive participative en ligne qui vise à élargir, diversifier et préserver l'histoire du graphisme. 
+
+En vrac : une [tapisserie brodée de 67 mètres](https://www.theblackgoldtapestry.com/) pour raconter la saga du pétrole et de la transition énergétique, par Sandra Sawatzky. Le plus grand corpus en ligne de [textes cunéiformes](https://aicuneiform.com/) traduits (en anglais). Deux longues listes de [principes de design](https://principles.adactio.com/) ou de [manifestes du design](https://designmanifestos.org/). Une exploration des [énigmatiques monuments antifascistes abstraits](https://www.spomenikdatabase.org/) yougoslaves que sont les _Spomeniks_. Dessiner en tournant en rond avec [PaintSpin](https://paintspin.com/). De fascinantes [images macro de Myxomycetes](https://www.barrywebbimages.co.uk/Images/Macro/Slime-Moulds-Myxomycetes) par Barry Webb, aussi dénommées « moules à bave ». [_Cinema without people_](https://cinemawithoutpeople.tumblr.com/) est un compte Tumblr comme seul Tumblr peut en accueillir. Le dernier fabricant de [disquettes 3'5](https://eyeondesign.aiga.org/we-spoke-with-the-last-person-standing-in-the-floppy-disk-business/). Des [photos de poulets](https://chicken.photos/) ou des [peintures de poulets](https://www.chicken.pics/) et une expérience de recherche sur la [reconnaissance faciale des policiers new-yorkais](https://lav.io/notes/exploring-cop-data/). Sur Wikipédia, une liste de morts suspectes, ou pour le moins [inhabituelles](https://en.wikipedia.org/wiki/List_of_unusual_deaths). Promenez-vous [une minute dans un parc](https://oneminutepark.tv/), puis allez faire un tour dans celui le plus proche de chez vous.
+
+Si vous lisez ça vendredi, c’est _Follow Friday_, le jour adéquat pour recommander des comptes remarquables sur Mastodon (qu’attendez-vous pour créer le vôtre ?) : [Étienne Candel](https://framapiaf.org/@etienne_cdl), posteur d’ironèmes ; [Wikipédia en français](https://wikis.world/@wikipedia_fr) et ses [#LeSaviezVous](https://wikis.world/tags/LeSaviezVous), [Baptiste Fluzin](https://mastodon.social/@bfluzin), designer, éditeur, ouvrier viticole et anarchiste dans l’âme (pas que…) ; le duo composé par (un autre) Baptiste / [@Saint_loup](https://mastodon.design/@Saint_loup) & [Abbie](https://octodon.social/@temptoetiam) pour toujours plus de sérendipité.
+
+
 #### 06/2024
 
 [Sous la surface des canaux](https://belowthesurface.amsterdam/en/vondsten) d’Amsterdam, on trouve beaucoup de choses ← le site est développé par Q42, également responsable des remarquables sites du [RijksMuseum](https://www.rijksmuseum.nl/en/frans-hals) et du [Jardin des Délices](https://archief.ntr.nl/tuinderlusten/).
