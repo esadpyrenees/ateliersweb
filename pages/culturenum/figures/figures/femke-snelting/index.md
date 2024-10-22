@@ -1,0 +1,3 @@
+# Femke Snelting
+
+Femke Snelting développe des projets à l'intersection de l'édition, des féminismes et des logiciels libres. Dans de nombreuses organisations, elle travaille à la réimagination des pratiques informatiques afin de se désinvestir de la monoculture technologique. Après avoir été active dans [Constant](https://constantvzw.org/), [XPUB(https://xpub.nl/)] ou dans l’entourage d’[Open Source Publishing](http://osp.kitchen/), elle a co-fondé l'[Institute for Technology in the Public Interest](https://titipi.org/), un rassemblement trans-pratique d'activistes, d'artistes, d'ingénieurs et de théoriciens. 

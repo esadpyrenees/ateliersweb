@@ -36,13 +36,12 @@
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php 
             $dirs = array_filter(glob('figures/*'), 'is_dir'); 
-            $dirs = ["ada-lovelace", "norbert-wiener", "grace-hopper", "vera-molnar", "muriel-cooper", "douglas-engelbart", "ted-nelson", "stewart-brand", "donna-haraway", "john-p-barlow", "richard-stallman", "roberta-williams",  "susan-kare", "tim-berners-lee", "brewster-kahle", "lev-manovich", "lawrence-lessig", "kenneth-goldsmith",  "julian-assange", "james-bridle", "cory-doctorow", "edward-snowden", "aaron-swartz","alexandra-elbakyan"];
+            $dirs = ["ada-lovelace", "norbert-wiener", "grace-hopper", "vera-molnar", "muriel-cooper", "douglas-engelbart", "ted-nelson", "stewart-brand", "donna-haraway", "john-p-barlow", "richard-stallman", "roberta-williams",  "susan-kare", "tim-berners-lee", "brewster-kahle", "lev-manovich", "lawrence-lessig", "kenneth-goldsmith",  "julian-assange", "james-bridle", "cory-doctorow", "edward-snowden", "aaron-swartz","alexandra-elbakyan", "femke-snelting"];
             $next = [ "chaos-cumputer-club", "evgeni-morozov", "linus-torvalds",]
         ?>
         <div class="galleries">
             <?php 
                 foreach($dirs as $dir) :
-                    // $dirname = str_replace("figures/", "", $dir);
                     $index = file_get_contents( "figures/" . $dir . "/index.md" );
                     $text = $Parsedown->text( $index );
                     $files = "figures/" . $dir . '/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}';
