@@ -41,7 +41,9 @@ Son premier enjeu est de partager votre univers culturel. Elle consistera donc e
 - [Une grille responsive](../../exemples/responsivegrid/)
 - [Une liste scrollable](../../exemples/layouts/)
 - [Un grand désordre](../../exemples/random-img/)
-- [Un tableau bien organisé](#bientôt)
+- [Un tableau bien organisé](https://ateliers.esad-pyrenees.fr/stolon/design_manifestos)
+- [Un simple liste à filtrer](../../exemples/filtering/)
+- [Un liste plus complexe à filtrer](../../exemples/dudes/)
 
 
 ## Quelques références
@@ -61,6 +63,7 @@ Son premier enjeu est de partager votre univers culturel. Elle consistera donc e
 <li><figure><a href="https://www.catalogtree.net/"><img src="images/www.catalogtree.net.webp" loading="lazy" ></a><figcaption>Catalogtree</figcaption></figure></li>
 <li><figure><a href="https://desordre.net/"><img src="images/desordre.net.webp" loading="lazy" ></a><figcaption>Le Désordre</figcaption></figure></li>
 <li><figure><a href="https://simplifier.neocities.org/"><img src="images/simplifier.neocities.org.webp" loading="lazy" ></a><figcaption>Simplifier </figcaption></figure></li>
-<li><figure><a href="https://paolaristoldo.com/"><img src="images/paolaristoldo.com.webp" loading="lazy" ></a><figcaption>paolaristoldo </figcaption></figure></li>
-<li><figure><a href="http://leeraewalsh.com/"><img src="images/httpleeraewalsh.com.webp" loading="lazy" ></a><figcaption>lee rae walsh </figcaption></figure></li>
+<li><figure><a href="https://paolaristoldo.com/"><img src="images/paolaristoldo.com.webp" loading="lazy" ></a><figcaption>Paola Ristoldo </figcaption></figure></li>
+<li><figure><a href="http://leeraewalsh.com/"><img src="images/httpleeraewalsh.com.webp" loading="lazy" ></a><figcaption>Lee Rae Walsh </figcaption></figure></li>
+<li><figure><a href="https://www.julienlelievre.com/"><img src="images/julienlelievre.com.webp" loading="lazy" ></a><figcaption>Julien Lelièvre</figcaption></figure></li>
 </ul></div>
