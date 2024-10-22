@@ -149,4 +149,5 @@ https://yuanchuan.dev/talk/generative-art-with-css/
     Max Bill
 * ![Max Bill](images/max_bill_no_beginning_no_end_2018.jpg)
     Max Bill
-
+* ![Rosemarie Tissi](imahes/tissi.jpg)
+    [Rosemarie Tissi](https://rosmarie-tissi.ch/)
