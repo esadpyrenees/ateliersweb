@@ -1,6 +1,6 @@
 <?php
     // config
-    $title = "Auto-défense économique – 2023–2024";
+    $title = "Auto-défense économique – 2024–2025";
     $description = "Ressources d’auto-défense économique pour graphistes en temps de crise.";
     $section="gopro";
     $subsection="2425";

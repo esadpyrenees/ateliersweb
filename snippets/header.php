@@ -9,8 +9,8 @@
     $desc = isset($description) ? $description : "Ressources, références et exemples des ateliers web de l’École supérieure d’art et de design des Pyrénées, réunies et proposées par Julien Bidoret.";
     $host = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://".$_SERVER['HTTP_HOST'];
     $localurl = $host . $_SERVER['REQUEST_URI'];
-    echo "<title>$title_line Ateliers web – ÉSAD Pyrénées</title>\n\n";
-    echo "        <meta property='og:title' content='$title_line Ateliers web – ÉSAD Pyrénées'>\n";
+    echo "<title>$title_line</title>\n\n";
+    echo "        <meta property='og:title' content='$title_line'>\n";
     echo "        <meta property='og:description' content='$desc'>\n";
     echo "        <meta property='og:url' content='$localurl'>\n";
     echo "        <meta property='og:type' content='website'>\n";
