@@ -15,7 +15,7 @@
 - 31/10/2024 — [Éditions Burn Août](https://editionsburnaout.fr/)
 - 14/11/2024 — [Praticable](https://praticable.fr/)
 - 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
-- 12/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
+- 11/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
 - 09/01/2024 — Questions collectves et individuelles
 
 Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024)
@@ -34,7 +34,7 @@ Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD 
 ## Les intervenant⋅es
 
 
-[**Burn~Août**](https://www.instagram.com/editions_burn_aout/) est une jeune maison d’édition indépendante créée en 2020 par d’ancien⋅nes étudiant⋅es de l’école des beaux-arts de Paris. Leur catalogue s’augmente régulièrement de nouvelles publications qui ont à cœur d’affirmer au sein-même des ouvrages leurs modalités de financements ainsi que les logiques de répartition du coût et de la valeur entre les différent⋅es acteur⋅ices (auteurs, éditeur, diffuseur, libraire…) de  la publication. Leur collection “_Position d’éditeurices_” constitue un outil théorique et critique sur la production et sur la circulation des formes imprimées qui, en rendant visibles des pratiques éditoriales alternatives, invite à se positionner à la fois politiquement et économiquement dans ce champ d’activité central pour les designers graphiques. Fanny Lallart et Yann Trividic viendront évoquer l’expérience collective qu’est Burn~Août à travers le prisme de leur fonctionnement économique, leur relation au financement participatif, au mécénant ou aux subventions.
+[**Burn~Août**](https://www.instagram.com/editions_burn_aout/) est une jeune maison d’édition indépendante créée en 2020 par d’ancien⋅nes étudiant⋅es de l’école des beaux-arts de Paris. Leur catalogue s’augmente régulièrement de nouvelles publications qui ont à cœur d’affirmer au sein-même des ouvrages leurs modalités de financements ainsi que les logiques de répartition du coût et de la valeur entre les différent⋅es acteur⋅ices (auteurs, éditeur, diffuseur, libraire…) de  la publication. Leur collection “_Position d’éditeurices_” constitue un outil théorique et critique sur la production et sur la circulation des formes imprimées qui, en rendant visibles des pratiques éditoriales alternatives, invite à se positionner à la fois politiquement et économiquement dans ce champ d’activité central pour les designers graphiques. Fanny Lallart et Yann Trividic viendront évoquer l’expérience collective qu’est Burn~Août à travers le prisme de leur fonctionnement économique, leur relation au financement participatif, au mécénat ou aux subventions.
 
 ---
 
