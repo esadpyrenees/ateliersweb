@@ -7,17 +7,18 @@
 > 
 > <cite>— Extrait aléatoire de <a href="http://surfaces-utiles.org/how-to-survive-after-art-school-comment-survivre-apres-lecole-dart.html"><i style="font-style:normal">Comment survivre après l'école d'art</i></a>, publié par <i style="font-style:normal">Surfaces Utiles</i> sous licence CC BY-NC 3.0. <button id="refreshsurvive">Un autre extrait ?</button></cite>
 
-[PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024) {.bigbutton}
 
 ## Calendrier
 
-- 03/10/2024 — Welcome to the cruel world  
-- 17/10/2024 — Le plaisir et l’argent : devis, factures, money money  
+- 03/10/2024 — Welcome to the cruel world
+- 17/10/2024 — Le plaisir et l’argent : devis, factures, [money, money, money](https://www.youtube.com/watch?v=HZhwWw32LSc)  
 - 31/10/2024 — [Éditions Burn Août](https://editionsburnaout.fr/)
 - 14/11/2024 — [Praticable](https://praticable.fr/)
 - 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
 - 12/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
 - 09/01/2024 — Questions collectves et individuelles
+
+Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024)
 
 
 ## Autres invité⋅es
