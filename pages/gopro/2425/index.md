@@ -16,7 +16,7 @@
 - 14/11/2024 — [Praticable](https://praticable.fr/)
 - 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
 - 11/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
-- 09/01/2024 — Questions collectves et individuelles
+- 09/01/2024 — Questions collectives et individuelles
 
 Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024)
 
@@ -28,8 +28,6 @@ Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD 
 - [POLA : Point de fuite & Ora](https://pola.fr/) : 23 & 24 janvier 2025
 - [SAIF](https://saif.fr/)
 - [Alliance France Design](https://www.alliancefrancedesign.com/)
-
-<!-- Encore à préciser, le programme [attend vos suggestions](https://mypads.framapad.org/p/gopro2425-yy8o07d5). -->
 
 ## Les intervenant⋅es
 
