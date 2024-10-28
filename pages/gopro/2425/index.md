@@ -17,10 +17,10 @@
 - 14/11/2024 — [Praticable](https://praticable.fr/)
 - 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
 - 12/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
-- 09/01/2024 — Questions collectves et individuelles ~ sous réserve
+- 09/01/2024 — Questions collectves et individuelles
 
 
-## Invité⋅es
+## Autres invité⋅es
 
 - [Sécurité sociale des artistes auteur⋅ices](https://www.secu-artistes-auteurs.fr/) : 11 octobre de 9h à 11h
 - [IP4Artist](https://ip4artist.api-conseil.app/) — décembre 2024 + mars 2025
@@ -29,6 +29,26 @@
 - [Alliance France Design](https://www.alliancefrancedesign.com/)
 
 <!-- Encore à préciser, le programme [attend vos suggestions](https://mypads.framapad.org/p/gopro2425-yy8o07d5). -->
+
+## Les intervenant⋅es
+
+
+[**Burn~Août**](https://www.instagram.com/editions_burn_aout/) est une jeune maison d’édition indépendante créée en 2020 par d’ancien⋅nes étudiant⋅es de l’école des beaux-arts de Paris. Leur catalogue s’augmente régulièrement de nouvelles publications qui ont à cœur d’affirmer au sein-même des ouvrages leurs modalités de financements ainsi que les logiques de répartition du coût et de la valeur entre les différent⋅es acteur⋅ices (auteurs, éditeur, diffuseur, libraire…) de  la publication. Leur collection “_Position d’éditeurices_” constitue un outil théorique et critique sur la production et sur la circulation des formes imprimées qui, en rendant visibles des pratiques éditoriales alternatives, invite à se positionner à la fois politiquement et économiquement dans ce champ d’activité central pour les designers graphiques. Fanny Lallart et Yann Trividic viendront évoquer l’expérience collective qu’est Burn~Août à travers le prisme de leur fonctionnement économique, leur relation au financement participatif, au mécénant ou aux subventions.
+
+---
+
+[**Praticable**](https://praticable.fr/) est un studio de design fondé par Anthony Ferretti, Morgane Chevalier et Thomas Thibault à partir de l’expérience du collectif Bam. Le collectif conçoit et réalise des sites web, outils et interfaces qui favorisent la pratique et la connaissance, en questionnant les enjeux écologiques et sociaux du numérique, et en ayant à cœur de rendre les choses accessibles, durables, réglables, partageables, réparables… praticables. Issue d’un collectif d’indépendant⋅es fondé en 2013, passée par le statut de SAS, puis par celui de coopérative, l’aventure Bam/Praticable a exploré différentes manières de structurer une activité collective consciente des enjeux sociaux, écologiques, politiques et économiques du design. En 2024, le collectif a cessé son activité, celle de ses membres se redéployant vers d’autres horizons. Morgane Chevalier et Anthony Ferretti évoqueront avec nous cette histoire, traversant à la fois les pratiques du studio et les postulats philosophiques au cœur de leur pratique du design, ainsi que les enjeux économiques et juridiques auquel il a été confronté au long de ses dix années d’existence.
+
+---
+
+[**Building Paris**](https://www.buildingparis.fr/) est un studio de direction artistique et de design graphique basé à Paris et fondé par Benoît Santiard et Guillaume Grall. Leur travail est caractérisé par une approche engagée dans les enjeux de l’édition, et animé par une passion pour le détail typographique. Dans le prolongement de leur pratique, ils enseignent la communication à l'École d'architecture de la ville & des territoires Paris-Est. En 2029, en parallèle de leur activité de studio, ils ont fondé [Building Books](https://buildingbooks.fr/), une maison d'édition dont le catalogue s’oriente vers l'architecture, l’urbanisme, le paysage et l'art contemporain. Leur double activité porte de nombreux enjeux liés aux questions économiques, et c’est à ce titre qu’ils viendront évoquer les modalités de leur pratique.
+
+---
+
+**Caroline Sebilleau** est artiste, enseignante-chercheuse à l’Université de Nîmes et militante. **Benoit Brient** est designer graphique indépendant. Du 13 juin au 12 juillet 2024, le Bel Ordinaire les accueillait en résidence afin de poursuivre un projet de collecte et de formalisation de données concernant les conditions de travail et d’existence des travailleur·euses de l’art afin de produire un ensemble d’images imprimées, issues d’un travail d’analyses de terrain et d’enquêtes situées. 
+C’est à la fois en tant que chercheuse et militante de [**La Buse**](https://la-buse.org/), collectif qui interroge le milieu de l'art en tant que milieu de travail, que Caroline Sebilleau viendra évoquer le projet de loi visant à une [continuité de revenus des artistes auteur·ices](http://continuite-revenus.fr/) et les enjeux de la structuration politique, juridique, collective et économique de l’activité des artistes et designers, en s’appuyant sur lees résultats de la recherche menée avec Benoît Brient.
+
+Cette conférence aura lieu le mercredi 11 décembre à 18h. Elle sera l’occasion d’inviter les étudiant⋅es des options art et design, ainsi que des acteurs locaux du monde de l’art à une discussion collective autour de ces enjeux.
 
 ## Ressources
 
