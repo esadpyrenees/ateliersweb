@@ -20,6 +20,9 @@
 
 Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024)
 
+[PAD BURN~AOÛT!](https://pad.esad-pyrenees.club/p/gopro-31-10-2024)
+
+
 
 ## Autres invité⋅es
 
