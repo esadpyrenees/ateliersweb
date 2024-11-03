@@ -1,14 +1,33 @@
 # Ligne de commande
 
-Une interface en ligne de commande (ou terminal, ou console, ou CLI – _Command line interface_) est un outil qui permet de donner des instructions à un ordinateur et de dialoguer avec lui _gâce à du texte_.
+Une interface en ligne de commande (ou CLI – _Command line interface_) est un outil qui permet de donner des instructions à un ordinateur et de dialoguer avec lui _gâce à du texte_[^vocab].
 
-- L'utilisateur tape une ligne de commande, c'est-à-dire du texte au clavier pour demander à l'ordinateur d'effectuer une opération ;
+- L’utilisateur tape une ligne de commande : du texte au clavier pour demander à l’ordinateur d’effectuer une opération ;
 
-- L'ordinateur affiche du texte correspondant au résultat de l'exécution des commandes tapées ou à des questions qu'un logiciel pose à l'utilisateur.
+- L’ordinateur affiche du texte correspondant au résultat de l’exécution des commandes tapées ou à des questions qu’un logiciel pose à l’utilisateur.
 
-Une interface en ligne de commandes peut servir aussi bien pour lancer l'exécution de divers logiciels au moyen d'un interpréteur de commandes, que pour les dialogues avec l'utilisateur de ces logiciels. C'est l'interaction fondamentale entre un homme et un ordinateur (ou tout autre équipement informatique)[^wp]. 
+Si la plupart des outils numériques utilisent des interfaces graphiques (GUI – Graphic User Interface) plutôt que des CLIs, de nombreux programmes et utilitaires du système d’exploitation n’ont pas d’interface graphique et sont destinés à être utilisés par le biais de CLIs.
 
-[^wp]: [Wikipédia](https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande)
+La connaissance de ces interfaces est également utile pour écrire des scripts et automatiser des tâches, pour installer des utilitaires ou des bibliothèques, ou pour lancer l’exécution de scripts.
+
+[^vocab]: On peut distinguer les termes de _terminal_ (parfois dénommé _console_) qui désigne l’interface qui nous permet de saisir les commandes, du _shell_, la couche logicielle sous-jacente à laquelle on envoie les commandes.
+
+
+## Environnements
+
+### Windows 
+Dans Windows, l’environnement historique est l’_invite de commandes_ CMD, vestige de MS-DOS (système d’exploitation dévelopé par Microsoft avant Windows). Cette invite de commande est aujourd’hui largement dépassée, et suplantée par des outils plus performants :
+
+- Windows Powershell est le successeur de CMD, mais reste fondamentalement différent des interfaces Unix auxquelles est dédiée cette documentation – même si de nombreuses commandes simples sont similaires.
+- Cygwin simule un environnement Unix sous Windows, et rend possible l’exécution d’un `shell`, mais est également dépassé par de nouvelles solutions.
+- [Git Bash](https://gitforwindows.org/) est normalement dévolu à l’utilisation de _git_, un outil de gestion de version, mais installe également des utilitaires de ligne de commande courants.
+- Enfin, la meilleure solution reste d’installer Linux :), ou au moins [**WSL2**](https://learn.microsoft.com/fr-fr/windows/wsl/install) (_Windows Subsystem for Linux_) qui permet d’installer une version de Linux sous Windows sans devoir passer par une machine virtuelle ou un _double boot_.
+
+### MacOS
+
+Sous Linux ou MacOS, deux familles de systèmes d’exploitation basés sur Unix, une interface en ligne de commande est naturellement accessible et permet d’accéder au _shell_ (sous MacOS, c’est _zsh_ par défaut, sous Linux, le plus souvent _bash_).
+
+## Commandes utiles
 
 Ci-dessous, quelques notions de ligne de commande, allègrement empruntées et librement adaptées du [Mémo CMD](https://github.com/randomDam/memo_cmd) édité par Damien Baïs au RANDOM(lab) de l’EsadSe.
 
@@ -102,7 +121,7 @@ Les options signalent:
 - `-z` compresse les fichiers pour le transfert
 - `--progress` affiche la progression du transfert dans la console
 
-#### Trucs super utiles
+#### Trucs super utiles 🙄
 ```bash
 # dans tous les fichiers html, cherche ".png" et remplace ".png" par ".webp"
 # source et commntaires : https://stackoverflow.com/questions/11392478/how-to-replace-a-string-in-multiple-files-in-linux-command-line
