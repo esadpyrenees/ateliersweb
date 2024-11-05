@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Le design : une attitude, pas une profession</title>
         <meta name="description" content="Extrait du texte de László Moholy-Nagy, qui invite à envisager le design comme une attitude attachée à un contexte.">
-        <link id="stylesheet" rel="stylesheet" href="css/simple.css">
+        <link id="stylesheet" rel="stylesheet" id="stylesheet" href="css/rumeur.css">
     </head>
     <body>
         <blockquote>
@@ -53,11 +53,39 @@
             </footer>
         </blockquote>
         <script type="text/javascript">
+            // Ce javascript permet de changer de fueille de style “à la volée” tout en conservant l’info dans l’URL
+
+            function parseStyleQuery() {
+                var qs = window.location.search.substring(1);
+                var query = {};
+                var pairs = (qs[0] === '?' ? qs.substr(1) : qs).split('&');
+                for (var i = 0; i < pairs.length; i++) {
+                    var pair = pairs[i].split('=');
+                    query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+                }
+                if("style" in query){
+                    return query.style;
+                } else {
+                    return null;
+                }
+            }
+            // load 
+            window.addEventListener('load', () => {
+                const style = parseStyleQuery();
+                if(style){
+                    document.querySelector('#stylesheet').href = "css/" + style;
+                }                    
+            })
+            // button actions
             const buttons = document.querySelectorAll('button');
             for (var i = 0; i < buttons.length; i++) {
                 buttons[i].addEventListener('click', function(e){
                     e.preventDefault();
-                    document.querySelector('#stylesheet').setAttribute("href", "css/" + this.value)
+                    document.querySelector('#stylesheet').setAttribute("href", "css/" + this.value);
+                    // update URL
+                    const urlParams = new URLSearchParams(window.location.search);
+                    urlParams.set('style', this.value);
+                    window.location.search = urlParams;
                 })
             }
         </script>
