@@ -1,3 +1,7 @@
+# This is fine 
+
+Une publication à dessiner en rejoignant les points, avec la liberté de placer de nouveaux points pour modifier le dessin.
+
 ![This is fine](assets/thisisfine.png)
   K.C. Green (→ [Know your meme](https://knowyourmeme.com/memes/this-is-fine))
 
@@ -22,43 +26,47 @@ Ce texte est l’introduction de l’article _Design éthique — mort du design
 
 Ces trois citations, ces trois points de vue et d’expression (ainsi que les ouvrages, articles ou conférences qui les développent), permettent de signaler la complexité de la pensée critique du design contemporain dans les relations qu’il entretient avec l’_éthique_, avec les enjeux de la « responsabilité » politique, sociale, environnementale… des designers.
 
-Les trublion⋅nes de Design non éthique démarrent en citant Victor Papanek, et son ouvrage phare de 1971, _Design for a real world_[^dfarw]. L’introduction de l’article signale « l’intemporelle et apparemment indépassable contradiction du design, celle qui fait de lui une discipline simultanément consciente d’être une part du problème sans pouvoir se résoudre à ne pas être une part de la solution ».
+Les trublion⋅nes de Design Non Éthique citent Victor Papanek, et son ouvrage phare de 1971, _Design for a real world_[^dfarw]. L’émergence leur parole publique, de 2018 à 2022, et la critique virulente d’_Ethics by design_ avait permis d’animer une riche discussion dans un [cours de Cultures numériques](/web/pages/culturenum/ethique/) qui avait donné lieu à une [réponse publique](https://designonethic.medium.com/conversations-1-ae02afb6dbf9) de DNÉ.
 
-[^dfarw]: _Design pour un monde réel: économie humaine et changement social_, édité en français par les [Presses du réel](https://www.lespressesdureel.com/ouvrage.php?id=8623&menu=0).
+[^dfarw]: _Design pour un monde réel: économie humaine et changement social_, édité en français par les [Presses du réel](https://www.lespressesdureel.com/ouvrage.php?id=8623&menu=0). 
 
-Cette émergence de Design non éthique, de 2018 à 2022, et sa critique virulente d’_Ethics by design_ avait permis d’animer une riche discussion dans un [cours de Cultures numériques](/web/pages/culturenum/ethique/) qui avait donné lieu à une [réponse publique](https://designonethic.medium.com/conversations-1-ae02afb6dbf9) de DNÉ.
+Les questionnements violents ou troublants qui ne manquent sans doute pas d’agiter les étudiant⋅es d’écoles d’art[^netflix] traversent évidemment le champ du design, embarqué qu’il est au cœur de ces questions économiques, politiques, sociales, environnementales… 
 
---- 
+[^netflix]: On l’espère ; sans quoi l’anesthésie dont iels souffriraient serait terrible – Netflix, Instagram, TikTok auraient gagné ? On ne le pense ni ne l’espère…
 
-Les questionnements violents qui ne manquent sans doute pas d’agiter les étudiant⋅es d’écoles d’art (on l’espère ; sans quoi l’anesthésie dont iels souffriraient serait terrible – Netflix, Instagram, TikTok auraient gagné ? On ne le pense pas…) traversent évidemment le champ du design, embarqué qu’il est au cœur de ces questions économiques, politiques, sociales, environnementales… 
+Dans l’espace du numérique, ces questionnements sont exacerbés : la vague de l’« intelligence artificielle », la société de surveillance et la technopolice, la désinformation, la fuite en avant du technosolutionnisme, la puissance politique des big tech, l’inéluctabilité préssentie de la numérisation du monde, l’ampleur immense de l’impact écologique…
 
-Dans l’espace du numérique, ces questionnements sont exacerbés : la vague de l’« intelligence artificielle », la société de surveillance et la technopolice, l’impact écologique, la désinformation, la fuite en avant du technosolutionnisme, la puissance politique des big tech, l’inéluctabilité préssentie de la numérisation du monde…
-
-La proposition de travail du semestre cherche à travailler ces enjeux, à la fois pour les regarder avec clairvoyance (_this is NOT fine_), mais aussi pour permettre peut-être de découvrir quelques pistes de réflexion et d’action à même de donner un peu d’espoir et de perspectives positives, fussent-elles humbles et minimales (_*some* things *might* be fine_).
+La proposition de travail du semestre nous propose de manipuler ces questions, à la fois pour les regarder avec clairvoyance (_this is NOT fine_), mais aussi pour permettre peut-être de découvrir quelques pistes de réflexion et d’action à même de donner un peu d’espoir et de perspectives positives, fussent-elles humbles et minimales (_*some* things *might* be fine_).
 
 ## Publication collective
 
 Nous travaillerons ce semestre à l’élaboration d’une publication (un _reader_, une curation, une compilation), conçue et produite à la fois de manière collective et individuelle.
 
-Un premier ensemble de textes et d’images est à télécharger. Ce premier corpus nous donnera du grain à moudre pour les premières séances mais devra être augmenté.
+Un premier ensemble de textes et d’images est à télécharger. Ce premier corpus nous donnera du grain à moudre pour les premières séances mais sera progressivement augmenté.
 
-[télécharger](https://ateliers.esad-pyrenees.fr/tmp/thisisfine-26-09-2024.zip) {.bigbutton}
+Il contient des textes bruts, plus ou moins (plutôt moins) libres, en français ou en anglais, contemporains ou historiques, traitant du **design**, des **technologies** et de l’**environnement**. Il contient également des images de multiples provenances, sous licences libres ou déjà soumises à une vaste circulation, contemporaines ou historiques, issues des tréfonds du web ou de sa surface la plus commune. 
 
-[accéder au pad](https://pad.esad-pyrenees.club/p/thisisfine) {.bigbutton}
-
-Il contient des textes bruts, plus ou moins (plutôt moins) libres de droits, en français ou en anglais. Textes contemporains ou historiques, traitant du design, des technologies, de l’environnement ou de la société. Il contient des images de multiples provenances, sous licences libres, ou déjà soumises à une vaste circulation. Contemporaines ou historiques, issues des tréfonds du web ou reproduites en des millions d’occurences. Tout est volontairement réuni sans grande cohérence éditoriale.
+[télécharger (Màj 07/11/2024)](https://ateliers.esad-pyrenees.fr/tmp/thisisfine-08-11-2024.zip) {.bigbutton}
 
 ### Éditorialisation
 
-Un premier enjeu de _This is fine_ est de vous proposer d’augmenter et d’organiser ces contenus de manière à leur donner une cohérence. De faire des choix dans les textes ou dans l’iconographie, mais aussi de proposer au collectif d’augmenter le corpus par des propositions que vous serez invité⋅es à faire au groupe dans la première demi-heure de chaque session.
+Les contenus proposés sont volontairement réunis sans grande cohérence éditoriale.
+
+Un premier enjeu de _This is fine_ est de vous proposer de les **augmenter** et de les **organiser** de manière à leur donner une cohérence. De faire des choix dans les textes ou dans l’iconographie, mais aussi de proposer au collectif d’élargir le corpus par des propositions que vous serez invité⋅es à faire lors de chaque session ou via [le pad](http://pad.esad-pyrenees.club/thisisfine).
+
+En choisissant certains contenus plutôt que d’autres, en sélectionnant des images et des textes, la **ligne éditoriale** de votre publication sera orientée selon vos intérêts et préoccupations.
+
+À priori, le titre de la publication est celui du projet : **_This is fine_**, dont le double-sens peut être pris comme on le souhaite[^title], sarcastiquement ou plus positivement.
+
+[^title]: Néanmoins, tout en partant du corpus commun (de la _commande_), si le propos s’oriente différemment et requiert un autre titre, c’est envisageable.
 
 ### Production 
 
-Nous aurons à mettre en page ces textes et ces images, à déterminer les circulations, les confrontations ou même les hybridations entre ces contenus et à fabriquer une publication – entendue commme dispositif qui _rend public_ et _s’adresse à un public_.
+Nous aurons à **mettre en page** ces textes et ces images, à déterminer les circulations / la navigation, les confrontations ou même les hybridations entre ces contenus et à fabriquer une publication – entendue commme dispositif qui _rend public_ et _s’adresse à un public_.
 
-Deux objectifs finaux pourront être visés : 
-- la production d’un (ou plusieurs) site(s) web ;
-- la production d’un (ou plusieurs) document(s) imprimé(s).
+Deux objectifs finaux sont visés : 
+- la production d’un site web ;
+- la production d’un document imprimé.
 
 ### Progressivité
 
@@ -70,7 +78,7 @@ La succession de séances sera largement basée sur le canevas dessiné par le p
 
 ### Évaluation
 
-L’évaluation du travail se base sur l’implication individuelle et au sein du collectif, l’assiduité, la publication et la documentation des projets ainsi que sur l’appropriation personnelle des outils techniques, graphiques et conceptuels abordés. La qualité et la maîtrise de la production graphique seront des enjeux forts.
+L’évaluation du travail se base sur l’implication (individuelle et au sein du collectif), l’assiduité, la publication et la documentation régulières du projet ainsi que sur l’appropriation personnelle des outils techniques, graphiques et conceptuels abordés. La qualité et la maîtrise de la production graphique seront des enjeux forts.
 
 
 ## Calendrier
@@ -82,7 +90,7 @@ L’évaluation du travail se base sur l’implication individuelle et au sein d
 | vendredi 04/09      | Typographie à l’écran     |
 | jeudi 10/10         | Typographie à l’écran     |
 | vendredi 18/10      | RWD, du mobile à l’écran  |
-| vendredi 01/11      | RWD, du mobile à l’écran  |
+| ~~vendredi 01/11~~  | ~~RWD, du mobile à l’écran~~ |
 | jeudi 07/11         | _Suivi & travail individuel/collectif_ |
 | vendredi 15/11      | _Suivi & travail individuel/collectif_ |
 | jeudi 21/11         | RWD, de l’écran au papier |
