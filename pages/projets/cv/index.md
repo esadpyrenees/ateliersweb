@@ -6,6 +6,8 @@ Ce projet ne vise pas à se substituer à Pôle Emploi, France Travail ou autres
 
 ☞ Si vous ne souhaitez pas mettre cette proposition au service de votre brillant devenir professionnel, il est possible de travailler à partir du CV fanstasmé d’un personnage plus ou moins fictif (Dieu, Karl Marx, Taylor Swift, le Magicien d'Oz ou [Rick Astley](rr) sont acceptables).
 
+☞ Voir sur [read.cv](https://read.cv/sites/templates) des examples de mise en forme de CV web.
+
 ## Mise en page adaptative
 
 La mise en page d’un CV (ainsi que de tout autre type de document…) implique une pensée du « _macro-layout_ » autant que du « _micro-layout_ » : il s’agit de concevoir à la fois les logiques globales structurantes, et la mise en relation des données à la plus petite échelle de l’information.
