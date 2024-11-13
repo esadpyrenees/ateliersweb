@@ -11,6 +11,7 @@
     <li class="<?= $subsubsection == 'misc' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/misc/">Misc.</a> </li>
   </ul>
   <ul>
-    <li><a href="/web/pages/ressources/mkdocs/">MkDocs</a> </li>    
+    <li class="<?= $subsubsection == 'mkdocs' ? 'opened' : '' ?>"><a href="/web/pages/ressources/mkdocs/">MkDocs</a> </li>    
+    <li class="<?= $subsubsection == 'scrappy' ? 'opened' : '' ?>"><a href="/web/pages/ressources/python/scrappy/">Scrappy</a> </li>    
   </ul>
 </nav>
