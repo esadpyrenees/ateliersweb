@@ -60,6 +60,9 @@ Cette conférence aura lieu le mercredi 11 décembre à 18h. Elle sera l’occas
 
 <div class="gridlist" markdown="1">
 
+- #### [About contracts: Ten things I wish I had known about contracts](https://letterror.com/articles/contracts.html)
+Un article de Just Van Rossum, _aka_ LettError, sur les enjeux des contrats à établir en tant que _type designer_. Témoignage utile pour les dessinateur⋅ices de caractères autant que pour les designers graphiques.
+
 - #### Comment survivre après l’école d’art  
 Publié par Surfaces Utiles, cet ouvrage partage un ensemble de combines, trucs et astuces qui ont permis à des travailleur·euses du milieu de l’art et du design de s’en sortir après l’école. [↗](http://surfaces-utiles.org/how-to-survive-after-art-school-comment-survivre-apres-lecole-dart.html)
 
