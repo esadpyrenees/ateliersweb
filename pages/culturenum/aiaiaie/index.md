@@ -58,6 +58,7 @@ De nombreux champs d’activité se sentent menacés par ces outils et celui du 
 - [Graphisme en France](https://www.cnap.fr/sites/default/files/GF_2024_Interactif_HD.pdf)
 - [Should you feel guilty about using AI?](https://www.vox.com/technology/381158/should-you-feel-guilty-about-using-ai)
 - [Sommet sur l’intelligence artificielle en France en 2025](https://mastodon.social/@paul_denton/113514650349531198)
+- [L'horreur existentielle de l'usine à trombones.](https://www.youtube.com/watch?v=ZP7T6WAK3Ow)
 
 ***
 
