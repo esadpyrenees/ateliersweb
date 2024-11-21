@@ -1,6 +1,67 @@
 # Aïe Aïe AI
 
-— Octobre 2022
+Cette proposition de réflexion sur les IA génératives dans le champ du design fut initialement proposée en octobre 2022 et poursuivie par une [brève contribution](https://ateliers.esad-pyrenees.fr/iapau/) à l’évènement IA Pau en 2023, l’omniprésence des questions soulevées par ces technologies nécessite une mise à jour.
+
+Ces deux années ont en effet vu s’amplifier immensément l’espace médiatique et économique occupé par ces technologies. 
+
+Du point de vue de l’espace social, la question est plus ouverte. Si beaucoup de monde a « joué » avec ChatGPT ou Dall-E, l’appréciation qui en est faite reste paradoxale. S’il est évident que l’avalanche permanente de nouveaux outils et fonctionnalités produit un effet de stupéfaction, largement accompagné par l’engouement médiatique et le bain de Technosolutionnisme[^Technosolutionnisme], cet effet n’est pas forcément perçu comme positif.
+
+[^Technosolutionnisme]: La confiance dans la technologie pour résoudre un problème souvent créé par des technologies antérieures. ([Wikipédia](https://fr.wikipedia.org/wiki/Technosolutionnisme)).
+
+### Problème de définition
+
+> « L’IA n’est ni intelligente ni artificielle. Elle n’est qu’une industrie du calcul intensive et extractive qui sert les intérêts dominants. Une technologie de pouvoir qui “à la fois reflète et produit les relations sociales et la compréhension du monde.” »  
+— Kate Crawford, [Atlas de l'IA](https://www.internetactu.net/2021/04/15/atlas-of-ai-deconstruire-le-deni-de-lia/)
+
+Outils statistiques générateurs de contenus, automates computationnels, systèmes algorithmiques d’aide à la décision, perroquets stochastiques… les nombreuses réalités que recouvrent le terme valise d’IA demandent à être précisées. L’« IA » intrigue, inquiète, enthousiasme, abasourdit. Elle semble ouvrir des possibles incroyables mais nombre de promesses restent encore à tenir.
+
+De nombreux champs d’activité se sentent menacés par ces outils et celui du design (au moins certaines activités relevant du design) le sont sans doute effectivement effectivement. D’où l’importance d’ouvrir ses yeux et ses oreilles sur ces questions au delà du « stirct » champ du design graphique, pour mieux comprendre les enjeux, et déterminer intelligemment sa position.
+
+### ChatGPT
+- [ChatGPT et la tronçonneuse](http://blog.sens-public.org/marcellovitalirosati/chatgpttronconneuse.html)
+- [Guide de l’étudiant pour ne pas écrire avec ChatGPT](https://www.arthurperret.fr/blog/2024-11-15-guide-etudiant-ne-pas-ecrire-avec-chatgpt.html)
+- [La fabrique des subalternes: les LLM, la différence homme-machine et le mythe de l'originalité](http://blog.sens-public.org/marcellovitalirosati/fabrique-des-subalternes.html)
+- [ChatGPT et l’indifférence à la vérité](https://www.arthurperret.fr/blog/2024-06-21-chatgpt-et-l-indifference-a-la-verite.html)
+
+### Enjeux économiques, capitalistes, policiers
+- [Pourquoi la bulle de l’intelligence artificielle est condamnée à exploser](https://lvsl.fr/pourquoi-la-bulle-de-lintelligence-artificielle-est-condamnee-a-exploser/)
+- [IA Lock-in](https://danslesalgorithmes.net/2024/10/16/ia-lock-in/)
+- [Persuasive Powers: Revealing AI’s influence in election](https://datadetoxkit.org/en/ai/influence)
+- [Vrais et faux risques de l’intelligence artificielle](https://maisouvaleweb.fr/vrais-et-faux-risques-de-lintelligence-artificielle/)
+- [IA aux impôts : vers un « service public artificiel » ?](https://danslesalgorithmes.net/2024/11/13/ia-aux-impots-vers-un-service-public-artificiel/)
+
+### Enjeux algorithmiques
+- [Acculés dans les stéréotypes](https://danslesalgorithmes.net/2024/10/18/accules-dans-les-stereotypes/)
+- [Comprendre ce que l’IA sait faire et ce qu’elle ne peut pas faire](https://danslesalgorithmes.net/2024/10/10/comprendre-ce-que-lia-sait-faire-et-ce-quelle-ne-peut-pas-faire/)
+- [Mirror Images: Reflecting on Bias in Technology](https://datadetoxkit.org/en/ai/bias)
+
+### Design graphique – el point de vue des éditeurs de logiciels
+- [Découvrez une IA inédite, signée Adobe](https://www.adobe.com/fr/ai/overview.html)
+- [L’IA au service du design graphique](https://www.adobe.com/fr/products/firefly/discover/ai-for-graphic-designers.html)
+- [The future of AI in graphic design](https://www.creativebloq.com/ai/the-future-of-ai-in-graphic-design)
+- [L'IA : une nouvelle ère pour le design](https://www.figma.com/fr-fr/blog/ai-the-next-chapter-in-design/)
+- [Studio Magique™](https://www.canva.com/fr_fr/magique/)
+- [AI in Design: 15 Best Tools + The Future of the Industry (2024)](https://www.devlinpeck.com/content/ai-in-design) (click bait…)
+
+### ÉcologIA
+- [AI Boom Is Driving a Surprise Resurgence of US Gas-Fired Power](https://archive.ph/2024.09.16-111903/https://www.bloomberg.com/news/articles/2024-09-16/us-natural-gas-power-plants-just-keep-coming-to-meet-ai-ev-electricity-demand#selection-1415.0-1415.62)
+- [Microsoft’s Hypocrisy on AI](https://www.theatlantic.com/technology/archive/2024/09/microsoft-ai-oil-contracts/679804/?gift=lhL3dXSYCcu9vqTqEbg0OHfJiu_TRdq079IHN4QaSAE)
+- [Generative AI is reportedly tripling carbon dioxide emissions from data centers](https://www.techradar.com/pro/generative-ai-triples-the-carbon-dioxide-emissions-from-data-centers)
+- [AI tools consume up to 4 times more water than estimated](https://san.com/cc/ai-tools-consume-up-to-4-times-more-water-than-estimated/)
+
+### Shitpost, podcast, misc.
+> <big>If you use AI generated crap to illustrate something: STOP. If you care about the environment AT ALL, stop using AI. If you care about artists of any kind, stop using AI.</big>
+
+
+- [More bra, please](https://bird.makeup/users/elizlaraki/statuses/1846252781851890026)
+- [Algorithmique, le podcast qui décortique l’intelligence artificielle](https://podcastaddict.com/podcast/next-algorithmique/5372082)
+- [Graphisme en France](https://www.cnap.fr/sites/default/files/GF_2024_Interactif_HD.pdf)
+- [Should you feel guilty about using AI?](https://www.vox.com/technology/381158/should-you-feel-guilty-about-using-ai)
+- [Sommet sur l’intelligence artificielle en France en 2025](https://mastodon.social/@paul_denton/113514650349531198)
+
+***
+
+Octobre 2022
 
 *[AI]: Artificial intelligence, ou imagination artificielle ?
 
