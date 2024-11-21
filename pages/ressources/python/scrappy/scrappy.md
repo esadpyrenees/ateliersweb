@@ -52,10 +52,10 @@ source env/bin/activate
 
 On peut maintenant installer les bibliothèques python qui seront nécessaires, grâce à `pip`, un outil d’installation de paquets Python (notamment ceux présents sur [PyPI](https://pypi.org/)). Elles seront installées avec leurs dépendances dans l’environnement virtuel.
 
-Les paquets ou bibliothèques Python suivantes doivent être installés : `requests` (pour faire des requêtes HTTP), `BeautifulSoup` (puissante librairie de lecture / écriture de HTML), `slugify` (ppour transformer des chaînes de caractères en “slugs”, sans accents, espaces, caractères spéciaux).
+Les paquets ou bibliothèques Python suivantes doivent être installés : `requests` (pour faire des requêtes HTTP), `BeautifulSoup` (puissante librairie de lecture / écriture de HTML), `slugify` (ppour transformer des chaînes de caractères en “slugs”, sans accents, espaces, caractères spéciaux) et `lxml`, un simple “parser” de XML (pour analyser le HTML).
 
 ```sh
-pip install requests beautifulsoup4 python-slugify  
+pip install requests beautifulsoup4 python-slugify lxml
 ```
 
 
