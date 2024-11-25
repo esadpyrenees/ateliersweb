@@ -6,9 +6,9 @@ Elle est aujourd’hui l’un des outils les plus performants pour le _web to pr
 
 ## Par où commencer ?
 
-1 — Un navigateur web: [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium#downloads) ou [Chromium](https://download-chromium.appspot.com/) (à défaut, Edge ou Chrome)
+1 — Un navigateur web : [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium#downloads) ou [Chromium](https://download-chromium.appspot.com/) (à défaut, Edge ou Chrome)
 
-2 — Un serveur web : Paged.js a besoin d’un server web pour être exécuté. Si on utilise VSCode, le plus simple est l’extension [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Go Live).
+2 — Un serveur web : paged.js en a besoin pour être exécuté. Si on utilise VSCode, le plus simple est l’extension [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Go Live).
 
 <details markdown="1"><summary>Serveur local avancé</summary>    
 Si on a MAMP, on peut travailler dans le dossier `htdocs`. Si on a Herd, où on veut parmi les sites configurés.
@@ -27,9 +27,9 @@ python3 -m http.server 8888
 </details> 
 
 
-3 — Un code source de base en **[téléchargeant ce fichier zip](ctrl-alt-print.zip)**. 
+3 — Un code source de base : **[télécharger ce fichier zip](ctrl-alt-print.zip)**. 
 
-4 — Un onglet ouvert sur la documentation ! [pagedjs.org/documentation](https://www.pagedjs.org/documentation/).
+4 — Un onglet ouvert sur la documentation : [pagedjs.org/documentation](https://www.pagedjs.org/documentation/) !
 
 ## Comment ça marche ?
 
