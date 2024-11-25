@@ -66,7 +66,9 @@ Nous aurons à **mettre en page** ces textes et ces images, à déterminer les c
 
 Deux objectifs finaux sont visés : 
 - la production d’un site web ;
-- la production d’un document imprimé.
+- la production d’un document imprimé[^pagedjs].
+
+[^pagedjs]: ⚠ Si chaque page (chaque article) doit être un HTML distinct pour la version écran, le document imprimé doit réunir l’ensemble des articles dans un même document. C’est seulement ce dernier document qui intégrera l’appel au fichier _paged.js_. [Voir la documentation](../../ressources/ctrl-alt-print/pagedjs/).
 
 ### Progressivité
 
