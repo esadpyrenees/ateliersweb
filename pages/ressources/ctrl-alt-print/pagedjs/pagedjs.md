@@ -8,7 +8,12 @@ Elle est aujourd’hui l’un des outils les plus performants pour le _web to pr
 
 1 — Un navigateur web: [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium#downloads) ou [Chromium](https://download-chromium.appspot.com/) (à défaut, Edge ou Chrome)
 
-2 — Un serveur web : Paged.js a besoin d’un server web pour être exécuté. Sur Windows ou sur OSX : utiliser l’extension [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Go Live) de VSCode ou pour OSX / linux, dans un  terminal :    
+2 — Un serveur web : Paged.js a besoin d’un server web pour être exécuté. Si on utilise VSCode, le plus simple est l’extension [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Go Live).
+
+<details markdown="1"><summary>Serveur local avancé</summary>    
+Si on a MAMP, on peut travailler dans le dossier `htdocs`. Si on a Herd, où on veut parmi les sites configurés.
+
+Si on est sous OSX / linux, dans un  terminal :
 
 ```bash
 cd votre/dossier/de/travail
@@ -18,24 +23,28 @@ python -m SimpleHTTPServer 8888
 # ou bien    
 python3 -m http.server 8888
 # ces 3 commandes permettent d’accéder à la page web sur http://localhost:8888
-```    
+```   
+</details> 
 
 
+3 — Un code source de base en **[téléchargeant ce fichier zip](ctrl-alt-print.zip)**. 
 
-3 — Un code source de base grâce au [Minute Hack](https://ateliers.esad-pyrenees.fr/web/minute-hack/?is_paged) de Raphaël Bastide ou en **[téléchargeant ce fichier zip](ctrl-alt-print.zip)**.
-
-4 — Une bonne documentation ! RTFM sur [pagedjs.org/documentation](https://www.pagedjs.org/documentation/).
-*[RTFM]: Read the fucking manual
+4 — Un onglet ouvert sur la documentation ! [pagedjs.org/documentation](https://www.pagedjs.org/documentation/).
 
 ## Comment ça marche ?
 
 La librairie Paged.js permet de transformer un document “flux” en un document “paginé”, capable d’utiliser différents gabarits de pages, d’afficher des titres courants ou des numéros de pages, de générer une table des matières, etc.
 
-L’exécution de paged.js va transformr le code-source HTML & CSS en un ensemble complexe d’éléments et de styles qui permettent de prévisualiser dans le navigateur le comportement de l’impression ou la génération de PDF.
+L’exécution de paged.js va transformer le code-source HTML & CSS en un ensemble complexe d’éléments et de styles qui permettent de prévisualiser dans le navigateur le comportement de l’impression ou la génération de PDF.
+
+<p class="" markdown="0" style="background:tomato; color:white; padding:1em; font-size:1.5em">Le “polyfill” paged.js transforme la totalité du document pour en prévisualiser l’impression.</p>
+
+↑ Dans le contexte d’un projet _web + print_, pour plus de simplicité, on fera volontiers une entorse au principe du _single source publishing_ en créeant deux documents HTML ; l’un pour **l’affichage écran**, l’autre pour **l’impression** (qui incluera l’appel javascript au polyfill et aux feuilles de style nécessaires : à la fois l’interface et les styles personnalisés pour le _print_).
+
+### Définir le format du document
 
 Paged.js utilise les spécifications CSS prévues depuis CSS 2.1 (voir [la section précédente](../css2)).
 
-### Définir le format du document
 On peut définir le format de page et les marges grâce à la règle `@page`.
 ```css
 @page {

@@ -1,0 +1,13 @@
+
+/* les styles écran, qui ne s’appliqueront pas à l’impression */
+
+body {
+  background-color: lightcyan;
+  font-size: 2em;
+  margin: 2em;
+}
+
+/* Corps de texte en pixels ou en unités relatives au viewport */
+h1 {
+  font-size: 6vw;
+}

@@ -1,0 +1,18 @@
+
+/* les styles print, qui ne s’appliqueront pas à l’écran */
+
+@page {
+  size: 148mm 210mm;
+  background-color: lightcoral;
+}
+@page :left{
+  margin: 33mm 23mm 65mm 45mm; 
+}
+@page :right{
+  margin: 33mm 45mm 65mm 23mm;
+}
+
+/* Corps de texte en points, si on veut… */
+h1 {
+  font-size: 30pt;
+}
