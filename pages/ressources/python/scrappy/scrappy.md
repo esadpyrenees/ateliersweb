@@ -413,7 +413,7 @@ def detectFace(file):
       svg += f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}"/>'
   svg += "</svg>"
 
-  # # Enregistrement
+  # Enregistrement
   f = open(svgname, "w") 
   f.write(svg)
 
@@ -432,4 +432,10 @@ with os.scandir('output') as entries:
   html += "</body></html>"
   with open(f"output/svg.html", "w") as f:
     f.write(html)
-  ```
+```
+
+On peut l’invoquer avec :
+
+```sh
+env/bin/python detectfaces.py
+```
