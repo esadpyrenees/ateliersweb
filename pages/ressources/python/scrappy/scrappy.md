@@ -12,7 +12,7 @@ Python se manipule via la ligne de commande (rappel de quelques notions de [CLI 
 
 Sous Windows, il est recommandé d’utiliser PowerShell[^wcli] plutôt que l’interpréteur de commandes CMD. Au long de cette introduction, des détails sont donnés pour cet environnement quand il diffère de l’environnement MacOs / Linux.
 
-[^wcli]: Ou encore mieux, WSL. [Voir ici](../cli/).
+[^wcli]: Ou encore mieux, WSL. [Voir ici](../../cli/).
 
 Il est souhaitable d’utiliser un _environnement virtuel_ pour installer des paquets Python dans un environnement isolé, afin de stabiliser les versions des paquets utilisées dans un projet et éviter les conflits.
 
@@ -43,8 +43,10 @@ source env/bin/activate
 <pre><code class="language-sh language-bash">Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force</code>
 </pre>
 <p>Puis, pour activer l’environnement virtuel :</p>
-<pre><code class="language-sh language-bash">./env/Scripts/activate.ps1</code>
+<pre><code class="language-sh language-bash">./venv/Scripts/activate.ps1</code>
 </pre>
+<p>Ou bien :</p>
+<pre><code class="language-sh language-bash">source venv\Scripts\activate</code>
 </details>
 
 
@@ -103,16 +105,11 @@ Pour une meilleure compréhension du processus, l’ensemble des opérations à 
 ```
 On peut l’invoquer avec :
 ```sh
-python scrap.py
+env/bin/python scrap.py
 ```
 
 ##### scrap.py {.filename}
 ```python
-#!/usr/bin/env python3
-
-# ↑ cette première ligne indique que la version de python à utiliser 
-# pour ce script est celle contenue dans l’environnement virtuel
-
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -164,13 +161,11 @@ Un nouveau script, `download.py`, va permettre de télécharger chacune des imag
 ```
 On peut l’invoquer avec :
 ```sh
-python download.py
+env/bin/python download.py
 ```
 
 ##### download.py {.filename}
 ```python
-#!/usr/bin/env python3
-
 import requests
 import json
 import os
@@ -215,8 +210,226 @@ Si tout s’est bien passé 🤞, les images ont été téléchargées dans le d
 
 ## Traitement des images
 
-La prochaine étape se proposera d’utiliser le paquet python `face_recognition` pour détecter automatiquement les visages à l’intérieur de ces portraits afin de produire des faux John Baldessari.
+La prochaine étape se propose d’utiliser le paquet python `face_recognition` pour détecter automatiquement les visages à l’intérieur de ces portraits afin de produire des faux John Baldessari.
 
 ![John Baldessari](john-baldessari.jpg)
 
-En attendant, on peut [écouter Tom Waits](https://youtu.be/eU7V4GyEuXA?si=m558CoqP_HBnCMTN) raconter son histoire en six minutes.
+On peut [écouter Tom Waits](https://youtu.be/eU7V4GyEuXA?si=m558CoqP_HBnCMTN) raconter son histoire en six minutes.
+
+Installons la librairie [`face_recognition`](https://github.com/ageitgey/face_recognition/), qui permet de détecter des visages à l’intérieur d’une image.
+
+Cette librairie requiert l’installation préalable de `dlib` et  `cmake`. Si la commande ci-dessous n’installe pas `dlib` automatiquement, se référer au processus d’installation documenté depuis la [page de `face_recognition`](https://github.com/ageitgey/face_recognition/). 
+
+```sh
+pip install face_recognition
+```
+
+### Parcours du dossier d’images
+
+On va alors parcourir l’ensemble du dossier d’images téléchargées:
+
+```py
+import os
+
+with os.scandir('output') as entries:
+  for entry in entries:
+    if entry.name.endswith(('.jpg', '.png', '.gif', '.webp')):
+      print(entry.path)
+```
+
+Chaque chemin de fichier devrait être affiché dans la console. Si c’est bien le cas, on va lire chaque image et essayer d’y détecter un visage.
+
+Il faut préalablement importer la bibliothèque `face_recognition`.
+
+### Détection des visages
+
+```py
+import os
+import face_recognition as fr
+
+def detectFaces(file):
+  image = fr.load_image_file(file)
+  face_locations = fr.face_locations(image, number_of_times_to_upsample=0, model="cnn")
+  print(f"I found {len(face_locations)} face(s) in this photograph.")
+
+with os.scandir('output') as entries:
+  for entry in entries:
+    if entry.name.endswith(('.jpg', '.png', '.gif', '.webp')):
+      detectFaces(entry.path)
+```
+
+La documentation de `face_recognition` nous signale que plusieurs visages peuvent être reconnus. Une boucle est donc nécessaire pour pouvoir traiter chaque visage et connaitre sa position :
+
+```py
+# extrait de code
+for face_location in face_locations:
+  top, right, bottom, left = face_location # cette notation permet de décomposer la liste retournée en plusieurs variables
+  print(f"A face is located at position top: {top}, left: {left}, bottom: {bottom}, right: {right}")
+```
+### Génération des svg
+
+On peut alors passer à la génération d’un svg pour chaque image, qui contiendra à la fois l’image et un cercle de couleur, centré sur la position des visages. Le `svg` résultant ressemblera à ça :
+```xml
+<svg viewbox="0 0 500 1000" width="500" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- l’image possède un attribut xlink:href qui spécifie le chemin vers l’image -->
+  <image width="500" height="1000" xlink:href="output/image.jpg"/>
+  <!-- les attributs cx, cy et r définissent les positions x, y et le rayon du cercle -->
+  <circle cx="267.5" cy="451.5" r="39.5" />
+</svg>
+```
+
+La balise `<svg>` doit contenir une `viewbox` et des attributs `width` et `height` spécifiques à la taille de l’image.
+
+Une nouvelle bibliothèque (promis, c’est la dernière…) doit être importée pour pouvoir mesurer l’image source et transmettre l’information au code `svg` : `pillow` (dérivée de PIL, Python Image Library).
+
+```sh
+pip install pillow
+```
+
+L’import de cette bibliothèque permettra de mesurer l’image :
+```py
+# extrait de code
+from PIL import Image
+
+def detectFaces(file):
+  # …
+  im = Image.open(file)
+  width, height = im.size
+```
+Python va désormais nous permettre de générer le code `svg` complet pour chaque image :
+
+
+```py
+# extrait de code
+import face_recognition as fr
+from PIL import Image
+
+def detectFaces(file):
+  image = fr.load_image_file(file)
+  face_locations = fr.face_locations(image, number_of_times_to_upsample=0, model="cnn")
+  print(f"I found {len(face_locations)} face(s) in this photograph.") 
+
+  # Measure the image with PIL
+  im = Image.open(file)
+  width, height = im.size
+
+  # Generate a `svg` string
+  svg = f'<svg viewbox="0 0 {width} {height}" width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">'
+  svg += f'<image width="{width}" height="{height}" xlink:href="{file}"/>'
+
+  for face_location in face_locations:
+      top, right, bottom, left = face_location
+      print(f"A face is located at position top: {top}, left: {left}, bottom: {bottom}, right: {right}")
+      # Mathématiques avancées (non…) pour positionner le centre et le rayon
+      # du cercle à partir des informations top, right, bottom et left
+      cx = (right - left) / 2 + left
+      cy = (bottom - top) / 2 + top
+      r = (right - left) / 2
+      svg += f'<circle cx="{cx}" cy="{cy}" r="{r}" />'
+  svg += "</svg>"
+  print(svg)
+```
+
+Le code `svg` de notre fichier étant créé, il ne reste qu’à l’enregistrer en tant que `fichier.svg`. 
+
+```py
+# extrait de code
+basename = os.path.basename(file) # ← on récupère le nom du fichier
+svgname = f"output/{basename}.svg" # ← …auquel on ajoute ".svg"
+f = open(f"output/{svgname}", "w") # ← on range le fichier dans le bon dossier
+f.write(svg)
+```
+
+Pour de faux Baldessari plus convaincants, ajoutons un peu de couleur aléatoire :
+```py
+# extrait de code
+import random
+
+# …
+color = random.choice(["red", "blue", "yellow", "green", "pink"])
+svg += f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}"/>'
+```
+
+## Finalisation / fignolage
+
+Pour finir, on peut générer un fichier html pour afficher l’ensemble des fichiers.
+
+```py
+with os.scandir('svgs/output') as entries:
+  # on crée une chaine de déut pour notre fichier HTML :
+  html = '<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>Baldessari</title></head><body>'
+
+  for entry in entries:
+    if entry.name.endswith(('.jpg', '.png', '.gif', '.webp')):
+      # plutôt que simplement exécuter detectFaces, on modifie la fonction
+      # pour qu’elle retourne le chemin vers le fichier svg
+      svg = detectFaces(entry.path)
+      html += f"<img src='{svg}'>"
+
+  html += "</body></html>"
+  with open(f"svg.html", "w") as f:
+      f.write(html)
+```
+
+Le fichier fignolé devient:
+
+##### detectfaces.py {.filename}
+```py
+from PIL import Image
+import os
+import face_recognition as fr
+from pathlib import Path
+import random
+
+def detectFace(file):
+  image = fr.load_image_file(file)
+
+  # Detect faces
+  # Detection can be improved (but takes more time…) with number_of_times_to_upsample=2
+  face_locations = fr.face_locations(image, number_of_times_to_upsample=2, model="cnn")
+  print(f"I found {len(face_locations)} face(s) in this photograph.") 
+
+  # File name
+  basename = os.path.basename(file) # ← on récupère le nom du fichier
+  svgname = f"output/{basename}.svg" # ← …auquel on ajoute ".svg"
+  
+  # Measure the image with PIL
+  im = Image.open(file)
+  width, height = im.size
+
+  # Generate a `svg` string
+  svg = f'<svg viewbox="0 0 {width} {height}" width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">'
+  svg += f'<image width="{width}" height="{height}" xlink:href="{ basename }"/>'
+
+  for face_location in face_locations:
+      top, right, bottom, left = face_location
+      print(f"A face is located at position top: {top}, left: {left}, bottom: {bottom}, right: {right}")
+      # Mathématiques avancées (non…) pour positionner le centre et le rayon
+      # du cercle à partir des informations top, right, bottom et left
+      cx = (right - left) / 2 + left
+      cy = (bottom - top) / 2 + top
+      r = (right - left) / 2
+      color = random.choice(["red", "blue", "yellow", "green", "pink"])
+      svg += f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}"/>'
+  svg += "</svg>"
+
+  # # Enregistrement
+  f = open(svgname, "w") 
+  f.write(svg)
+
+  # On renvoie le code svg à la boucle principale
+  return svg
+
+with os.scandir('output') as entries:
+  # on crée une chaine de déut pour notre fichier HTML :
+  html = '<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>Baldessari</title></head><body>'
+  for entry in entries:
+    if entry.name.endswith(('.jpg', '.png', '.gif', '.webp')):
+      # plutôt que simplement exécuter detectFaces, on modifie la fonction
+      # pour qu’elle retourne le chemin vers le fichier svg
+      svg = detectFace(entry.path)
+      html += svg + "\n"
+  html += "</body></html>"
+  with open(f"output/svg.html", "w") as f:
+    f.write(html)
+  ```

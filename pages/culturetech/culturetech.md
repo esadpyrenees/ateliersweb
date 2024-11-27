@@ -23,3 +23,7 @@ Parce que travailler ensemble demande des outils spécifiques en capacité de pe
 ### PageTypeToPrint 
 
 Parce qu’utiliser un outil non conventionnel implique des questions spécifiques et que la documentation ne suffit pas toujours (même si [commencer par la lire](https://esadpyrenees.github.io/PageTypeToPrint/) est un bon réflexe).
+
+### Scrappy
+
+_Crappy scrapping_ avec le langage python, pour en explorer les possibles, du téléchargement d’images à la reconnnaissance faciale et jusqu’à la création de faux John Baldessari. Le projet est [en ligne ici](../ressources/python/scrappy/).
