@@ -26,7 +26,18 @@
     $Parsedown->figuresEnabled = true;
 
 ?>
-
+    <style>
+        .gridlist ul {
+            grid-auto-flow: dense;
+        }
+        .gridlist svg {
+            width: 100%;
+            height: auto;
+        }
+        .double {
+            grid-column-end: span 2;
+        }
+    </style>
     <main class="pane active" id="content">
         <?= $Parsedown->text( file_get_contents( $mdfile ) ); ?>
         <?php include($_SERVER["DOCUMENT_ROOT"] . "/web/snippets/date.php"); ?>

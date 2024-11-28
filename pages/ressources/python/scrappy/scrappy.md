@@ -208,7 +208,7 @@ for url in images:
 
 Si tout s’est bien passé 🤞, les images ont été téléchargées dans le dossier `output`.
 
-## Traitement des images
+## Traitement des images { #traitement }
 
 La prochaine étape se propose d’utiliser le paquet python `face_recognition` pour détecter automatiquement les visages à l’intérieur de ces portraits afin de produire des faux John Baldessari.
 
@@ -439,3 +439,37 @@ On peut l’invoquer avec :
 ```sh
 env/bin/python detectfaces.py
 ```
+### Tadam
+
+Les images sont issues du fonds de photographies de Charles Milton Bell, [mises à disposition par la Librairie du Congrès](https://www.loc.gov/free-to-use/c-m-bell-studio-collection/).
+
+<div class="gridlist">
+<ul>
+<li><svg viewbox="0 0 742 1024" width="742" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="742" height="1024" xlink:href="svgs/17120v.jpg"/><circle cx="223.0" cy="362.0" r="34.0" fill="blue"/><circle cx="430.5" cy="376.0" r="34.5" fill="yellow"/></svg></li>
+<li><svg viewbox="0 0 742 1024" width="742" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="742" height="1024" xlink:href="svgs/17097v.jpg"/><circle cx="437.0" cy="258.0" r="34.0" fill="red"/></svg></li>
+<li><svg viewbox="0 0 749 1024" width="749" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="749" height="1024" xlink:href="svgs/08596v.jpg"/><circle cx="423.0" cy="446.0" r="59.0" fill="yellow"/></svg></li>
+<li><svg viewbox="0 0 744 1024" width="744" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="744" height="1024" xlink:href="svgs/11893v.jpg"/><circle cx="359.0" cy="365.0" r="41.0" fill="green"/></svg></li>
+<li><svg viewbox="0 0 744 1024" width="744" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="744" height="1024" xlink:href="svgs/12424v.jpg"/><circle cx="236.0" cy="393.0" r="24.0" fill="pink"/><circle cx="442.5" cy="249.0" r="23.5" fill="red"/><circle cx="298.5" cy="321.0" r="23.5" fill="yellow"/><circle cx="513.5" cy="364.5" r="28.5" fill="pink"/></svg></li>
+<li><svg viewbox="0 0 738 1024" width="738" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="738" height="1024" xlink:href="svgs/17423v.jpg"/><circle cx="430.5" cy="403.0" r="34.5" fill="pink"/><circle cx="237.0" cy="244.0" r="34.0" fill="green"/></svg></li>
+<li><svg viewbox="0 0 745 1024" width="745" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="745" height="1024" xlink:href="svgs/04937v.jpg"/><circle cx="409.0" cy="257.0" r="41.0" fill="pink"/><circle cx="255.0" cy="452.0" r="49.0" fill="pink"/><circle cx="368.0" cy="597.0" r="41.0" fill="red"/></svg></li>
+<li class="double"><svg viewbox="0 0 1024 740" width="1024" height="740" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="1024" height="740" xlink:href="svgs/14454v.jpg"/><circle cx="451.0" cy="308.0" r="59.0" fill="red"/><circle cx="559.0" cy="284.0" r="59.0" fill="red"/></svg></li>
+<li><svg viewbox="0 0 741 1024" width="741" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="741" height="1024" xlink:href="svgs/01272v.jpg"/><circle cx="465.0" cy="244.0" r="34.0" fill="pink"/><circle cx="260.0" cy="241.0" r="41.0" fill="green"/></svg></li>
+<li><svg viewbox="0 0 742 1024" width="742" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="742" height="1024" xlink:href="svgs/14164v.jpg"/><circle cx="409.0" cy="299.0" r="41.0" fill="pink"/></svg></li>
+<li><svg viewbox="0 0 735 1024" width="735" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="735" height="1024" xlink:href="svgs/02412v.jpg"/><circle cx="531.5" cy="404.5" r="28.5" fill="blue"/><circle cx="271.5" cy="272.0" r="34.5" fill="red"/><circle cx="421.5" cy="307.0" r="28.5" fill="pink"/></svg></li>
+<li><svg viewbox="0 0 738 1024" width="738" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="738" height="1024" xlink:href="svgs/03404v.jpg"/><circle cx="264.5" cy="452.0" r="34.5" fill="yellow"/><circle cx="452.0" cy="431.5" r="24.0" fill="yellow"/></svg></li>
+<li class="double"><svg viewbox="0 0 1024 744" width="1024" height="744" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="1024" height="744" xlink:href="svgs/10767v.jpg"/><circle cx="741.5" cy="376.0" r="34.5" fill="green"/><circle cx="616.0" cy="287.0" r="41.0" fill="red"/><circle cx="430.5" cy="403.0" r="34.5" fill="yellow"/></svg></li>
+<li><svg viewbox="0 0 744 1024" width="744" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="744" height="1024" xlink:href="svgs/11898v.jpg"/><circle cx="384.0" cy="357.0" r="41.0" fill="green"/></svg></li>
+<li><svg viewbox="0 0 743 1024" width="743" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="743" height="1024" xlink:href="svgs/11154v.jpg"/><circle cx="416.5" cy="362.0" r="34.5" fill="yellow"/></svg></li>
+<li><svg viewbox="0 0 754 1024" width="754" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="754" height="1024" xlink:href="svgs/07065v.jpg"/><circle cx="369.0" cy="472.5" r="85.0" fill="red"/></svg></li>
+<li><svg viewbox="0 0 742 1024" width="742" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="742" height="1024" xlink:href="svgs/05658v.jpg"/></svg></li>
+<li><svg viewbox="0 0 740 1024" width="740" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="740" height="1024" xlink:href="svgs/18374v.jpg"/><circle cx="359.0" cy="249.0" r="41.0" fill="pink"/></svg></li>
+<li class="double"><svg viewbox="0 0 1024 735" width="1024" height="735" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="1024" height="735" xlink:href="svgs/25815v.jpg"/><circle cx="766.0" cy="295.5" r="41.0" fill="red"/><circle cx="276.0" cy="304.0" r="41.0" fill="green"/></svg></li>
+<li><svg viewbox="0 0 745 1024" width="745" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="745" height="1024" xlink:href="svgs/14339v.jpg"/><circle cx="493.0" cy="479.0" r="34.0" fill="green"/><circle cx="368.0" cy="340.0" r="41.0" fill="yellow"/></svg></li>
+<li><svg viewbox="0 0 746 1024" width="746" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="746" height="1024" xlink:href="svgs/13407v.jpg"/><circle cx="360.0" cy="490.0" r="85.0" fill="pink"/></svg></li>
+<li><svg viewbox="0 0 749 1024" width="749" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="749" height="1024" xlink:href="svgs/02461v.jpg"/><circle cx="271.5" cy="431.0" r="34.5" fill="yellow"/><circle cx="468.0" cy="263.0" r="49.0" fill="green"/></svg></li>
+<li><svg viewbox="0 0 738 1024" width="738" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="738" height="1024" xlink:href="svgs/02297v.jpg"/><circle cx="355.0" cy="394.5" r="102.0" fill="yellow"/></svg></li>
+<li><svg viewbox="0 0 744 1024" width="744" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="744" height="1024" xlink:href="svgs/10760v.jpg"/><circle cx="434.0" cy="514.0" r="41.0" fill="pink"/><circle cx="316.0" cy="352.5" r="49.0" fill="red"/></svg></li>
+<li><svg viewbox="0 0 745 1024" width="745" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image width="745" height="1024" xlink:href="svgs/11660v.jpg"/><circle cx="324.5" cy="392.0" r="49.5" fill="pink"/></svg></li>
+
+</ul>
+</div>
