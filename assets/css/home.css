@@ -127,10 +127,61 @@
   gap: .5em;
 }
 
+@font-face {
+  font-family: "Hubot Sans";
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+  src: url("hubotsans.woff2") format(woff2) tech(variations),
+       url("hubotsans.woff2") format("woff2-variations");
+}
+.hubot-sans {
+  font-variation-settings: "wdth" var(--hubot-sans-wdth, 100), "wght" var(--hubot-sans-wght, 200), "slnt" var(--hubot-sans-slnt, 0);
+}
+/* available OT features: aalt case ccmp dnom frac liga locl numr ordn pnum rvrn sinf ss01 ss04 subs sups tnum */
 
   
-    
+.home { height: 100%;}
+.handmake  {
+  font-weight: 20;
+  font-variation-settings: "pmpt" 294;
+  font-family: "BBBHerthey";
+  font-size: min(13vw, 28vh);
+  line-height: .823;
+  /* margin: min(4vw, 8vh) 0 0 !important; */
+  margin: 0;
+  max-width: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  flex-direction: column;
+  text-align: center;
+}
+.handmake em {
+  font-size: 1rem;
+  display: block;
+  margin-top: 3em;
+
+}
+.handmake + a {
+  position: fixed;
+  right: 10vw;
+  top: 40%;
+  transform: translateY(-50%) rotate(-11deg);
+  width: 20%;
+  mix-blend-mode: multiply;
+  max-width: 300px;
+  transition: 50ms;
+  &:hover {
+    transform: translateY(-50%) rotate(-20deg) scale(1.1);
+  }
+}
+
 @font-face { font-family: "Authentic"; src: url("../fonts/AUTHENTICSans-Condensed-90.woff2") format('woff2'); font-weight: normal; }
+
   .strike {
     line-height: 1.2;
     --p-width:none;
