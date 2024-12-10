@@ -18,7 +18,7 @@
       <span>web</span>
       <span>design</span>
     </p>
-    <a href="https://beta.radicalweb.design">
+    <a href="https://radicalweb.design">
       <img src="/web/assets/img/parici.png" alt="par ici">
     </a>
 
