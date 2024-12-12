@@ -15,7 +15,7 @@
 - 31/10/2024 — [Éditions Burn Août](https://editionsburnaout.fr/)
 - 14/11/2024 — [Praticable](https://praticable.fr/)
 - 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
-- 11/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
+- 17/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
 - 09/01/2024 — Questions collectives et individuelles
 
 Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024)
