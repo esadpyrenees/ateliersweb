@@ -24,6 +24,7 @@ Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD 
 
 [PAD PRATICABLE!](https://pad.esad-pyrenees.club/p/gopro-14-11-2024)
 
+[PAD LA BUSE](https://pad.esad-pyrenees.club/p/gopro-17-12-2024)
 
 
 ## Autres invité⋅es
