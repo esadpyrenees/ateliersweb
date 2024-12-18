@@ -61,15 +61,15 @@ urls.forEach((url,index) => {
 
 const select = document.createElement('select');
 
-shuffled_urls = [...urls];
-shuffle(shuffled_urls);
+// shuffled_urls = [...urls];
+// shuffle(shuffled_urls);
 
 let opt = document.createElement('option');
 opt.textContent = "Figures";
 opt.value = "#";
 select.appendChild(opt);
 
-shuffled_urls.forEach((url,index) => {
+urls.forEach((url,index) => {
   const option = document.createElement('option');
   option.textContent = url.name;
   option.value = base_url + url.url+ "/figures";
