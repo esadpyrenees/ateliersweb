@@ -14,7 +14,7 @@ const urls = [
   {url:"charlyne", name: "Charlyne"},
   {url:"lisa", name: "Lisa"},
   {url:"clementine", name: "Clémentine"},
-  {url:"chelsea ", name: "Chelsea "},
+  {url:"chelsea", name: "Chelsea"},
   {url:"loubna", name: "Loubna"},
   {url:"alexis", name: "Alexis"},
   {url:"ophelie", name: "Ophélie"},
