@@ -26,6 +26,7 @@ const urls = [
   {url:"mel", name: "Mel"}
 ];
 
+urls.sort((a, b) => a.name.toUpperCase() < b.name.toUpperCase());
 
 var head = document.head || document.getElementsByTagName('head')[0];
 var style = document.createElement('style');
