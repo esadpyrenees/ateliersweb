@@ -1,6 +1,5 @@
 const urls = [
   {url:"louise", name: "Louise"},
-  {url:"pablo", name: "Pablo"},
   {url:"ilona", name: "Ilona"},
   {url:"mevena", name: "Mevena"},
   {url:"victoria", name: "Victoria"},
@@ -21,7 +20,6 @@ const urls = [
   {url:"ophelie", name: "Ophélie"},
   {url:"ambre", name: "Ambre"},
   {url:"lucas", name: "Lucas"},
-  {url:"paulin", name: "Paulin"},
   {url:"amanda", name: "Amanda"},
   {url:"medina", name: "Médina"},
   {url:"zoe", name: "Zoé"},
