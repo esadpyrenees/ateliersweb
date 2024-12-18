@@ -30,7 +30,7 @@ const urls = [
 var head = document.head || document.getElementsByTagName('head')[0];
 var style = document.createElement('style');
 style.setAttribute("type", 'text/css');
-var css = '#webring { position: fixed; bottom: 20px; right:20px; background: black; border-radius: 1em;display: flex;gap: 1em;padding: .5em 1em;justify-content: center;align-items: center;font-size: 18px;}#webring a {color: white;text-decoration: none;border: none;font: normal 1em/1 monospace}#webring select {color: white;text-decoration: none;border: none;background: #333; font: normal .85em/1 monospace;padding: .25em 1em;}#webring option {  font: normal .85em/1 monospace;}';
+var css = '#webring { position: fixed !important; bottom: 20px !important; right:20px !important; background: black !important; border-radius: 1em !important;display: flex !important;gap: 1em !important;padding: .5em 1em !important;justify-content: center !important;align-items: center !important;font-size: 18px !important;}#webring a {color: white !important;text-decoration: none !important;border: none !important;font: normal 1em/1 monospace !important}#webring select {color: white !important;text-decoration: none !important;border: none !important;background: #333 !important; font: normal .85em/1 monospace !important;padding: .25em 1em !important;}#webring option { font: normal .85em/1 monospace !important;}';
 style.appendChild(document.createTextNode(css));
 head.appendChild(style);
 
