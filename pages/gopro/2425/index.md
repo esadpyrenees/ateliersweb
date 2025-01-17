@@ -16,7 +16,6 @@
 - 14/11/2024 — [Praticable](https://praticable.fr/)
 - 28/11/2024 — [Building Paris](https://www.buildingparis.fr/)
 - 17/12/2024 — Caroline Sebilleau & Benoît Brient — [La Buse](https://la-buse.org/)
-- 09/01/2024 — Questions collectives et individuelles
 
 Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD !](https://pad.esad-pyrenees.club/p/gopro-03-10-2024)
 
@@ -31,7 +30,7 @@ Chaque session fait l’objet d’une prise de notes collaborative sur le [PAD 
 
 - [Sécurité sociale des artistes auteur⋅ices](https://www.secu-artistes-auteurs.fr/) : 11 octobre de 9h à 11h
 - [IP4Artist](https://ip4artist.api-conseil.app/) — décembre 2024 + mars 2025
-- [POLA : Point de fuite & Ora](https://pola.fr/) : 23 & 24 janvier 2025
+- [POLA : Point de fuite & Ora](https://pola.fr/) : 22 & 23 janvier 2025
 - [SAIF](https://saif.fr/)
 - [Alliance France Design](https://www.alliancefrancedesign.com/)
 
