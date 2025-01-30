@@ -48,8 +48,8 @@ RewriteRule pages/ressources/python/mkdocs(.*) pages/ressources/mkdocs$1 [R,L]
 
 
 # Test rwd
-RewriteRule   "^pages/lectures(.+)"  "https://radicalweb.design/ressources/lectures$1"  [R=301,L]
-RewriteRule   "^pages/outils(.+)"  "https://radicalweb.design/ressources/outils$1"  [R=301,L]
+# RewriteRule   "^pages/lectures(.+)"  "https://radicalweb.design/ressources/lectures$1"  [R=301,L]
+# RewriteRule   "^pages/outils(.+)"  "https://radicalweb.design/ressources/outils$1"  [R=301,L]
 
 # Iframes
 # Header set Content-Security-Policy "frame-ancestors 'self' https://slides.accentgrave.net"
@@ -64,64 +64,64 @@ RewriteRule ^pages/$  pages/home.php [L]
 # rwd
 
 # About
-RewriteRule   "^web/about/$"  "https://radicalweb.design/about/"  [R=302,L]
-RewriteRule   "^web/about$"  "https://radicalweb.design/about/"  [R=302,L]
+RewriteRule   "^about/$"  "https://radicalweb.design/about/"  [R=302,L]
+RewriteRule   "^about$"  "https://radicalweb.design/about/"  [R=302,L]
 
 # Exemples
-RewriteRule   "^web/pages/exemples(.+)"  "https://radicalweb.design/exemples$1"  [R=302,L]
+RewriteRule   "^pages/exemples(.+)"  "https://radicalweb.design/exemples$1"  [R=302,L]
 
 # Ressources
-RewriteRule   "^web/pages/lectures(.+)"  "https://radicalweb.design/ressources/lectures$1"  [R=302,L]
-RewriteRule   "^web/pages/outils(.+)"  "https://radicalweb.design/ressources/outils$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/audiovideo(.+)"  "https://radicalweb.design/ressources/html/audiovideo$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/flexbox(.+)"  "https://radicalweb.design/ressources/css/flexbox$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/grid(.+)"  "https://radicalweb.design/ressources/css/grid$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/js/jquery.php"  "https://radicalweb.design/ressources/js/jquery/"  [R=302,L]
-RewriteRule   "^web/pages/ressources/files$"  "https://radicalweb.design/ressources/python/files/"  [R=302,L]
-RewriteRule   "^web/pages/ressources/strings$"  "https://radicalweb.design/ressources/python/strings/"  [R=302,L]
-RewriteRule   "^web/pages/ressources/lists$"  "https://radicalweb.design/ressources/python/lists/"  [R=302,L]
-RewriteRule   "^web/pages/ressources/mkdocs/$"  "https://radicalweb.design/ressources/python/mkdocs/"  [R=302,L]
-RewriteRule   "^web/pages/ressources/positions$"  "https://radicalweb.design/ressources/css/positions$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/pratique$"  "https://radicalweb.design/ressources/css/pratique$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/rwd"  "https://radicalweb.design/ressources/css/rwd$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/rwd/flexbox"  "https://radicalweb.design/ressources/css/flexbox$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/rwd/grid"  "https://radicalweb.design/ressources/css/grid$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources/typo/opentype/"  "https://radicalweb.design/ressources/typo/macromicro$1"  [R=302,L]
-RewriteRule   "^web/pages/ressources(.+)"  "https://radicalweb.design/ressources$1"  [R=302,L]
+RewriteRule   "^pages/lectures(.+)"  "https://radicalweb.design/ressources/lectures$1"  [R=302,L]
+RewriteRule   "^pages/outils(.+)"  "https://radicalweb.design/ressources/outils$1"  [R=302,L]
+RewriteRule   "^pages/ressources/audiovideo(.+)"  "https://radicalweb.design/ressources/html/audiovideo$1"  [R=302,L]
+RewriteRule   "^pages/ressources/flexbox(.+)"  "https://radicalweb.design/ressources/css/flexbox$1"  [R=302,L]
+RewriteRule   "^pages/ressources/grid(.+)"  "https://radicalweb.design/ressources/css/grid$1"  [R=302,L]
+RewriteRule   "^pages/ressources/js/jquery.php"  "https://radicalweb.design/ressources/js/jquery/"  [R=302,L]
+RewriteRule   "^pages/ressources/files$"  "https://radicalweb.design/ressources/python/files/"  [R=302,L]
+RewriteRule   "^pages/ressources/strings$"  "https://radicalweb.design/ressources/python/strings/"  [R=302,L]
+RewriteRule   "^pages/ressources/lists$"  "https://radicalweb.design/ressources/python/lists/"  [R=302,L]
+RewriteRule   "^pages/ressources/mkdocs/$"  "https://radicalweb.design/ressources/python/mkdocs/"  [R=302,L]
+RewriteRule   "^pages/ressources/positions$"  "https://radicalweb.design/ressources/css/positions$1"  [R=302,L]
+RewriteRule   "^pages/ressources/pratique$"  "https://radicalweb.design/ressources/css/pratique$1"  [R=302,L]
+RewriteRule   "^pages/ressources/rwd"  "https://radicalweb.design/ressources/css/rwd$1"  [R=302,L]
+RewriteRule   "^pages/ressources/rwd/flexbox"  "https://radicalweb.design/ressources/css/flexbox$1"  [R=302,L]
+RewriteRule   "^pages/ressources/rwd/grid"  "https://radicalweb.design/ressources/css/grid$1"  [R=302,L]
+RewriteRule   "^pages/ressources/typo/opentype/"  "https://radicalweb.design/ressources/typo/macromicro$1"  [R=302,L]
+RewriteRule   "^pages/ressources(.+)"  "https://radicalweb.design/ressources$1"  [R=302,L]
 
 # culturenum
-RewriteRule   "^web/pages/culturenum(.+)"  "https://radicalweb.design/projets/culturesnum$1"  [R=302,L]
+RewriteRule   "^pages/culturenum(.+)"  "https://radicalweb.design/projets/culturesnum$1"  [R=302,L]
 
 # culturetech
-RewriteRule   "^web/pages/culturetech(.+)"  "https://radicalweb.design/projets/culturetech$1"  [R=302,L]
+RewriteRule   "^pages/culturetech(.+)"  "https://radicalweb.design/projets/culturetech$1"  [R=302,L]
 
 # Projets
-RewriteRule   "^web/pages/projets(.+)"  "https://radicalweb.design/projets$1"  [R=302,L]
+RewriteRule   "^pages/projets(.+)"  "https://radicalweb.design/projets$1"  [R=302,L]
 
 # (old) Références
-RewriteRule   "^web/pages/references/foundries(.+)"  "https://radicalweb.design/ressources/typo/foundries$1"  [R=302,L]
-RewriteRule   "^web/pages/references/histoire/machines(.+)"  "https://radicalweb.design/projets/culturesnum/histoires/machines$1"  [R=302,L]
-RewriteRule   "^web/pages/references/histoire/docs(.+)"  "https://radicalweb.design/projets/culturesnum/histoires/docs$1"  [R=302,L]
-RewriteRule   "^web/pages/references/histoire/internet(.+)"  "https://radicalweb.design/projets/culturesnum/histoires/internet$1"  [R=302,L]
-RewriteRule   "^web/pages/references/histoire(.+)"  "https://radicalweb.design/projets/culturesnum/histoires$1"  [R=302,L]
-RewriteRule   "^web/pages/references/typo(.+)"  "https://radicalweb.design/ressources/typo$1"  [R=302,L]
-RewriteRule   "^web/pages/references/webdocumentaire(.+)"  "https://radicalweb.design/projets/culturesnum/ecrituresnumeriques$1"  [R=302,L]
+RewriteRule   "^pages/references/foundries(.+)"  "https://radicalweb.design/ressources/typo/foundries$1"  [R=302,L]
+RewriteRule   "^pages/references/histoire/machines(.+)"  "https://radicalweb.design/projets/culturesnum/histoires/machines$1"  [R=302,L]
+RewriteRule   "^pages/references/histoire/docs(.+)"  "https://radicalweb.design/projets/culturesnum/histoires/docs$1"  [R=302,L]
+RewriteRule   "^pages/references/histoire/internet(.+)"  "https://radicalweb.design/projets/culturesnum/histoires/internet$1"  [R=302,L]
+RewriteRule   "^pages/references/histoire(.+)"  "https://radicalweb.design/projets/culturesnum/histoires$1"  [R=302,L]
+RewriteRule   "^pages/references/typo(.+)"  "https://radicalweb.design/ressources/typo$1"  [R=302,L]
+RewriteRule   "^pages/references/webdocumentaire(.+)"  "https://radicalweb.design/projets/culturesnum/ecrituresnumeriques$1"  [R=302,L]
 
 # Go pro
-RewriteRule   "^web/pages/gopro$"  "https://radicalweb.design/projets/gopro/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324$"  "https://radicalweb.design/projets/gopro/2324/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/20231009_MC_Rapport.pdf "https://radicalweb.design/projets/gopro/2324/argent/20231009_MC_Rapport.pdf"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/all-caps_capitalism.pdf "https://radicalweb.design/projets/gopro/2324/argent/all-caps_capitalism.pdf"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/argent$"  "https://radicalweb.design/projets/gopro/2324/argent/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/chevalvert$"  "https://radicalweb.design/projets/gopro/2324/chevalvert/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/copiezcelivre$"  "https://radicalweb.design/projets/gopro/2324/copiezcelivre/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/expectations$"  "https://radicalweb.design/projets/gopro/2324/expectations/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/expectations.php$"  "https://radicalweb.design/projets/gopro/2324/expectations/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2324/labuse$"  "https://radicalweb.design/projets/gopro/2324/labuse/"  [R=302,L]
-RewriteRule   "^web/pages/gopro/2425(.+)$"  "https://radicalweb.design/projets/gopro/2425$1"  [R=302,L]
-RewriteRule   "^web/pages/gopro/charte-afd-des-marches-publics-de-design-4e-edition.pdf"  "https://radicalweb.design/projets/gopro/2425/docs/charte-afd-des-marches-publics-de-design-4e-edition.pdf"  [R=302,L]
-RewriteRule   "^web/pages/gopro/dites-non-aux-idees-gratuites.pdf"  "https://radicalweb.design/projets/gopro/2425/docs/dites-non-aux-idees-gratuites.pdf"  [R=302,L]
-RewriteRule   "^web/pages/gopro/guide-de-la-commande-de-design-graphique.pdf"  "https://radicalweb.design/projets/gopro/2425/docs/guide-de-la-commande-de-design-graphique.pdf"  [R=302,L]
-RewriteRule   "^web/pages/gopro(.+)"  "https://radicalweb.design/projets/gopro$1"  [R=302,L]
+RewriteRule   "^pages/gopro$"  "https://radicalweb.design/projets/gopro/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324$"  "https://radicalweb.design/projets/gopro/2324/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/20231009_MC_Rapport.pdf "https://radicalweb.design/projets/gopro/2324/argent/20231009_MC_Rapport.pdf"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/all-caps_capitalism.pdf "https://radicalweb.design/projets/gopro/2324/argent/all-caps_capitalism.pdf"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/argent$"  "https://radicalweb.design/projets/gopro/2324/argent/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/chevalvert$"  "https://radicalweb.design/projets/gopro/2324/chevalvert/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/copiezcelivre$"  "https://radicalweb.design/projets/gopro/2324/copiezcelivre/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/expectations$"  "https://radicalweb.design/projets/gopro/2324/expectations/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/expectations.php$"  "https://radicalweb.design/projets/gopro/2324/expectations/"  [R=302,L]
+RewriteRule   "^pages/gopro/2324/labuse$"  "https://radicalweb.design/projets/gopro/2324/labuse/"  [R=302,L]
+RewriteRule   "^pages/gopro/2425(.+)$"  "https://radicalweb.design/projets/gopro/2425$1"  [R=302,L]
+RewriteRule   "^pages/gopro/charte-afd-des-marches-publics-de-design-4e-edition.pdf"  "https://radicalweb.design/projets/gopro/2425/docs/charte-afd-des-marches-publics-de-design-4e-edition.pdf"  [R=302,L]
+RewriteRule   "^pages/gopro/dites-non-aux-idees-gratuites.pdf"  "https://radicalweb.design/projets/gopro/2425/docs/dites-non-aux-idees-gratuites.pdf"  [R=302,L]
+RewriteRule   "^pages/gopro/guide-de-la-commande-de-design-graphique.pdf"  "https://radicalweb.design/projets/gopro/2425/docs/guide-de-la-commande-de-design-graphique.pdf"  [R=302,L]
+RewriteRule   "^pages/gopro(.+)"  "https://radicalweb.design/projets/gopro$1"  [R=302,L]
 
 
