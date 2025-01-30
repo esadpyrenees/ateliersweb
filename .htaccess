@@ -64,8 +64,8 @@ RewriteRule ^pages/$  pages/home.php [L]
 # rwd
 
 # About
-RewriteRule   "^about/$"  "https://radicalweb.design/about/"  [R=302,L]
-RewriteRule   "^about$"  "https://radicalweb.design/about/"  [R=302,L]
+RewriteRule   "^pages/about/$"  "https://radicalweb.design/about/"  [R=302,L]
+RewriteRule   "^pages/about$"  "https://radicalweb.design/about/"  [R=302,L]
 
 # Exemples
 RewriteRule   "^pages/exemples(.+)"  "https://radicalweb.design/exemples$1"  [R=302,L]
@@ -93,7 +93,7 @@ RewriteRule   "^pages/ressources(.+)"  "https://radicalweb.design/ressources$1" 
 RewriteRule   "^pages/culturenum(.+)"  "https://radicalweb.design/projets/culturesnum$1"  [R=302,L]
 
 # culturetech
-RewriteRule   "^pages/culturetech(.+)"  "https://radicalweb.design/projets/culturetech$1"  [R=302,L]
+RewriteRule   "^pages/culturetech(.+)"  "https://radicalweb.design/projets/culturestech$1"  [R=302,L]
 
 # Projets
 RewriteRule   "^pages/projets(.+)"  "https://radicalweb.design/projets$1"  [R=302,L]
